@@ -1,0 +1,78 @@
+# Settings for the Makefile which define
+# various things like the names, paths, etc pp
+#
+
+# uncomment and edit your installation directory accordingly
+# it's the dir where the compiled grf goes so that OpenTTD
+# can find it and it's possible to include it in a game.
+# Linux:
+# INSTALLDIR = ~/.openttd/data
+# MacOS:
+# INSTALLDIR = ~/Documents/OpenTTD/data
+# Windows:
+# INSTALLDIR = %userprofile%\OpenTTD\data
+
+# GRF Name, Version, Build type or date
+# GRF_NAME        = 2cc Train Set
+# GRF_NIGHTLYNAME = nightly
+
+# The filename of the GRF
+# FILENAME        = 2cctrainset
+# NAME 	        = $(FILENAME)
+
+
+# NFO_SUFFIX = nfo
+# GRF_SUFFIX = grf
+# PNFO_SUFFIX = nfo.pre
+
+# Build parameters and programmes
+# NFORENUM_FLAGS = -w 141
+# GRFCODEC_FLAGS = -e -p 2
+# TAR_FLAGS      = cf
+# ZIP_FLAGS      = -9f
+# BZIP_FLAGS     = -k9f
+
+# NFORENUM = renum
+# GRFCODEC = grfcodec
+# TAR      = tar
+# ZIP      = gzip
+# BZIP     = bzip2
+
+# Paths defining the directory layout
+# SPRITEDIR   = ./sprites
+# SCRIPTDIR   = ./scripts
+# DOCDIR      = ./doc
+# WEBDIR      = ./website
+# NFODIR      = $(SPRITEDIR)/nfo
+# MAINDIRS    = $(SPRITEDIR) $(SCRIPTDIR) $(DOCDIR) $(WEBDIR)
+
+# Names of the subdirectories for the single regions. All nfo
+# files from there will be put into the final grf.
+# SUB_DIRS = 2africa 3asia 4e-eu 5n-am 6s-am 7ocean 8scandinavia 9s-eu 10w-eu
+
+# The language directory. All nfo files from there will be
+# put into the final grf.
+# LANG_DIR    = strings
+
+# Filenames to include in the grf in sprites/nfo
+# HEADER goes first, FOOTER goes last. The others are 
+# placed behind header and before engines and language strings.
+# HEADER      = 00header.pnfo
+# OTHERS      = 01wagons.pnfo 00sounds.pnfo
+# FOOTER      = regsel.pnfo
+
+# Define how the displayed name and the filename of the bundled grf shall look like:
+# GRF_BUILDNAME= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
+
+# GRF_TITLE    = $(GRF_NAME) $(GRF_BUILDNAME)
+
+BUILDFILENAME = $(FILENAME)-$(GRF_BUILDNAME)
+# TAR_FILENAME  = $(BUILDFILENAME).tar
+# BZIP_FILENAME = $(BUILDFILENAME).bz2
+# ZIP_FILENAME  = $(BUILDFILENAME).zip
+# NFO_FILENAME  = $(addsuffix .$(NFO_SUFFIX), $(FILENAME))
+# PNFO_FILENAME = $(addsuffix .$(PNFO_SUFFIX),$(FILENAME))
+# GRF_FILENAME  = $(addsuffix .$(GRF_SUFFIX), $(FILENAME))
+
+# Files to include in a release
+# FILES_BUNDLE = $(GRF_FILENAME) $(DOCDIR)/license.txt $(DOCDIR)/readme.txt
