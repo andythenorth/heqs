@@ -2,9 +2,9 @@
 // (Info version 7)
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
     0 * 4	 65 09 00 00
-    1 * 149	 08 06 "AP" 12 01 "HEQS (Preview) v0.4c" 00 "Heavy equipment "
-	 "(Preview) v0.4c in dual company "
-	 "colours. Brought to you by"
+    1 * 149	 08 06 "AP" 12 01 "{{GRF_TITLE}}" 00 "Heavy equipment Set"
+	 "in dual company colours."
+	 "Brought to you by"
 	 "andythenorth and Richard Wheeler (Zephyris)"
 	 "2008" 00
 
