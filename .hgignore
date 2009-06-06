@@ -1,0 +1,6 @@
+./*.grf
+./*.bak
+sprites/heqs.nfo
+sprites/heqs.pnfo
+Makefile.local
+heqs*
