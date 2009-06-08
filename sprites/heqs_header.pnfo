@@ -1972,33 +1972,33 @@
                                0d 98 
                                00
  1061 * 4	 01 01 03 08
-  // no cab
- 1062 sprites/bulldozers/no-6/no-6-crawler-no-cab.pcx 34 9 01 24 12 -5 -15
- 1063 sprites/bulldozers/no-6/no-6-crawler-no-cab.pcx 66 9 01 20 26 -16 -10
- 1064 sprites/bulldozers/no-6/no-6-crawler-no-cab.pcx 98 9 01 16 36 -14 -9
- 1065 sprites/bulldozers/no-6/no-6-crawler-no-cab.pcx 146 9 01 20 26 -5 -9
- 1066 sprites/bulldozers/no-6/no-6-crawler-no-cab.pcx 178 9 01 24 12 -5 -13
- 1067 sprites/bulldozers/no-6/no-6-crawler-no-cab.pcx 210 9 01 20 26 -17 -9
- 1068 sprites/bulldozers/no-6/no-6-crawler-no-cab.pcx 242 9 01 16 36 -29 -8
- 1069 sprites/bulldozers/no-6/no-6-crawler-no-cab.pcx 290 9 01 20 26 -10 -10
-  // open cab
- 1070 sprites/bulldozers/no-6/no-6-crawler-open-cab.pcx 34 9 01 24 12 -5 -15
- 1071 sprites/bulldozers/no-6/no-6-crawler-open-cab.pcx 66 9 01 20 26 -16 -10
- 1072 sprites/bulldozers/no-6/no-6-crawler-open-cab.pcx 98 9 01 16 36 -14 -9
- 1073 sprites/bulldozers/no-6/no-6-crawler-open-cab.pcx 146 9 01 20 26 -5 -9
- 1074 sprites/bulldozers/no-6/no-6-crawler-open-cab.pcx 178 9 01 24 12 -5 -13
- 1075 sprites/bulldozers/no-6/no-6-crawler-open-cab.pcx 210 9 01 20 26 -17 -9
- 1076 sprites/bulldozers/no-6/no-6-crawler-open-cab.pcx 242 9 01 16 36 -29 -8
- 1077 sprites/bulldozers/no-6/no-6-crawler-open-cab.pcx 290 9 01 20 26 -10 -10
-  // enclosed cab
- 1078 sprites/bulldozers/no-6/no-6-crawler-enclosed-cab.pcx 34 9 01 24 12 -5 -15
- 1079 sprites/bulldozers/no-6/no-6-crawler-enclosed-cab.pcx 66 9 01 20 26 -16 -10
- 1080 sprites/bulldozers/no-6/no-6-crawler-enclosed-cab.pcx 98 9 01 16 36 -14 -9
- 1081 sprites/bulldozers/no-6/no-6-crawler-enclosed-cab.pcx 146 9 01 20 26 -5 -9
- 1082 sprites/bulldozers/no-6/no-6-crawler-enclosed-cab.pcx 178 9 01 24 12 -5 -13
- 1083 sprites/bulldozers/no-6/no-6-crawler-enclosed-cab.pcx 210 9 01 20 26 -17 -9
- 1084 sprites/bulldozers/no-6/no-6-crawler-enclosed-cab.pcx 242 9 01 16 36 -29 -8
- 1085 sprites/bulldozers/no-6/no-6-crawler-enclosed-cab.pcx 290 9 01 20 26 -10 -10
+  // No. 6 no cab no blade
+ 1062 sprites/bulldozers/bulldozers.pcx 34 50 01 24 12 -5 -15
+ 1063 sprites/bulldozers/bulldozers.pcx 66 50 01 20 26 -16 -10
+ 1064 sprites/bulldozers/bulldozers.pcx 98 50 01 16 36 -14 -9
+ 1065 sprites/bulldozers/bulldozers.pcx 146 50 01 20 26 -5 -9
+ 1066 sprites/bulldozers/bulldozers.pcx 178 50 01 24 12 -5 -13
+ 1067 sprites/bulldozers/bulldozers.pcx 210 50 01 20 26 -17 -9
+ 1068 sprites/bulldozers/bulldozers.pcx 242 50 01 16 36 -29 -8
+ 1069 sprites/bulldozers/bulldozers.pcx 290 50 01 20 26 -10 -10
+  // No. 6 open cab no blade
+ 1070 sprites/bulldozers/bulldozers.pcx 34 130 01 24 12 -5 -15
+ 1071 sprites/bulldozers/bulldozers.pcx 66 130 01 20 26 -16 -10
+ 1072 sprites/bulldozers/bulldozers.pcx 98 130 01 16 36 -14 -9
+ 1073 sprites/bulldozers/bulldozers.pcx 146 130 01 20 26 -5 -9
+ 1074 sprites/bulldozers/bulldozers.pcx 178 130 01 24 12 -5 -13
+ 1075 sprites/bulldozers/bulldozers.pcx 210 130 01 20 26 -17 -9
+ 1076 sprites/bulldozers/bulldozers.pcx 242 130 01 16 36 -29 -8
+ 1077 sprites/bulldozers/bulldozers.pcx 290 130 01 20 26 -10 -10
+  // No. 6 enclosed cab no blade
+ 1078 sprites/bulldozers/bulldozers.pcx 34 210 01 24 12 -5 -15
+ 1079 sprites/bulldozers/bulldozers.pcx 66 210 01 20 26 -16 -10
+ 1080 sprites/bulldozers/bulldozers.pcx 98 210 01 16 36 -14 -9
+ 1081 sprites/bulldozers/bulldozers.pcx 146 210 01 20 26 -5 -9
+ 1082 sprites/bulldozers/bulldozers.pcx 178 210 01 24 12 -5 -13
+ 1083 sprites/bulldozers/bulldozers.pcx 210 210 01 20 26 -17 -9
+ 1084 sprites/bulldozers/bulldozers.pcx 242 210 01 16 36 -29 -8
+ 1085 sprites/bulldozers/bulldozers.pcx 290 210 01 20 26 -10 -10
  1086 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
@@ -2017,7 +2017,7 @@
  1089 * 4	 01 01 01 04 // buy menu sprites
  1090 * 1	 00
  1091 * 1	 00
- 1092 sprites/bulldozers/no-6/no-6-crawler-open-cab.pcx 370 09 01 16 36 -14 -8
+ 1092 sprites/bulldozers/bulldozers.pcx 370 130 01 16 36 -14 -8
  1093 * 1	 00
  1094 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
@@ -2145,33 +2145,33 @@
                                0d 98 
                                00 
  1112 * 4	 01 01 03 08
-  // no cab
- 1113 sprites/bulldozers/no-6/no-6-bulldozer-no-cab.pcx 34 9 01 24 12 -5 -17
- 1114 sprites/bulldozers/no-6/no-6-bulldozer-no-cab.pcx 66 9 01 20 26 -13 -12
- 1115 sprites/bulldozers/no-6/no-6-bulldozer-no-cab.pcx 98 9 01 16 36 -12 -9
- 1116 sprites/bulldozers/no-6/no-6-bulldozer-no-cab.pcx 146 9 01 20 26 -7 -9
- 1117 sprites/bulldozers/no-6/no-6-bulldozer-no-cab.pcx 178 9 01 24 12 -5 -13
- 1118 sprites/bulldozers/no-6/no-6-bulldozer-no-cab.pcx 210 9 01 20 26 -16 -9
- 1119 sprites/bulldozers/no-6/no-6-bulldozer-no-cab.pcx 242 9 01 16 36 -27 -8
- 1120 sprites/bulldozers/no-6/no-6-bulldozer-no-cab.pcx 290 9 01 20 26 -12 -11
-  // open cab
- 1121 sprites/bulldozers/no-6/no-6-bulldozer-open-cab.pcx 34 9 01 24 12 -5 -17
- 1122 sprites/bulldozers/no-6/no-6-bulldozer-open-cab.pcx 66 9 01 20 26 -13 -12
- 1123 sprites/bulldozers/no-6/no-6-bulldozer-open-cab.pcx 98 9 01 16 36 -12 -9
- 1124 sprites/bulldozers/no-6/no-6-bulldozer-open-cab.pcx 146 9 01 20 26 -7 -9
- 1125 sprites/bulldozers/no-6/no-6-bulldozer-open-cab.pcx 178 9 01 24 12 -5 -13
- 1126 sprites/bulldozers/no-6/no-6-bulldozer-open-cab.pcx 210 9 01 20 26 -16 -9
- 1127 sprites/bulldozers/no-6/no-6-bulldozer-open-cab.pcx 242 9 01 16 36 -27 -8
- 1128 sprites/bulldozers/no-6/no-6-bulldozer-open-cab.pcx 290 9 01 20 26 -12 -11
-  // enclosed cab
- 1129 sprites/bulldozers/no-6/no-6-bulldozer-enclosed-cab.pcx 34 9 01 24 12 -5 -17
- 1130 sprites/bulldozers/no-6/no-6-bulldozer-enclosed-cab.pcx 66 9 01 20 26 -13 -12
- 1131 sprites/bulldozers/no-6/no-6-bulldozer-enclosed-cab.pcx 98 9 01 16 36 -12 -9
- 1132 sprites/bulldozers/no-6/no-6-bulldozer-enclosed-cab.pcx 146 9 01 20 26 -7 -9
- 1133 sprites/bulldozers/no-6/no-6-bulldozer-enclosed-cab.pcx 178 9 01 24 12 -5 -13
- 1134 sprites/bulldozers/no-6/no-6-bulldozer-enclosed-cab.pcx 210 9 01 20 26 -16 -9
- 1135 sprites/bulldozers/no-6/no-6-bulldozer-enclosed-cab.pcx 242 9 01 16 36 -27 -8
- 1136 sprites/bulldozers/no-6/no-6-bulldozer-enclosed-cab.pcx 290 9 01 20 26 -12 -11
+  // No. 6 no cab with blade
+ 1113 sprites/bulldozers/bulldozers.pcx 34 10 01 24 12 -5 -17
+ 1114 sprites/bulldozers/bulldozers.pcx 66 10 01 20 26 -13 -12
+ 1115 sprites/bulldozers/bulldozers.pcx 98 10 01 16 36 -12 -9
+ 1116 sprites/bulldozers/bulldozers.pcx 146 10 01 20 26 -7 -9
+ 1117 sprites/bulldozers/bulldozers.pcx 178 10 01 24 12 -5 -13
+ 1118 sprites/bulldozers/bulldozers.pcx 210 10 01 20 26 -16 -9
+ 1119 sprites/bulldozers/bulldozers.pcx 242 10 01 16 36 -27 -8
+ 1120 sprites/bulldozers/bulldozers.pcx 290 10 01 20 26 -12 -11
+  // No. 6 open cab with blade
+ 1121 sprites/bulldozers/bulldozers.pcx 34 90 01 24 12 -5 -17
+ 1122 sprites/bulldozers/bulldozers.pcx 66 90 01 20 26 -13 -12
+ 1123 sprites/bulldozers/bulldozers.pcx 98 90 01 16 36 -12 -9
+ 1124 sprites/bulldozers/bulldozers.pcx 146 90 01 20 26 -7 -9
+ 1125 sprites/bulldozers/bulldozers.pcx 178 90 01 24 12 -5 -13
+ 1126 sprites/bulldozers/bulldozers.pcx 210 90 01 20 26 -16 -9
+ 1127 sprites/bulldozers/bulldozers.pcx 242 90 01 16 36 -27 -8
+ 1128 sprites/bulldozers/bulldozers.pcx 290 90 01 20 26 -12 -11
+  // No. 6 enclosed cab with blade
+ 1129 sprites/bulldozers/bulldozers.pcx 34 170 01 24 12 -5 -17
+ 1130 sprites/bulldozers/bulldozers.pcx 66 170 01 20 26 -13 -12
+ 1131 sprites/bulldozers/bulldozers.pcx 98 170 01 16 36 -12 -9
+ 1132 sprites/bulldozers/bulldozers.pcx 146 170 01 20 26 -7 -9
+ 1133 sprites/bulldozers/bulldozers.pcx 178 170 01 24 12 -5 -13
+ 1134 sprites/bulldozers/bulldozers.pcx 210 170 01 20 26 -16 -9
+ 1135 sprites/bulldozers/bulldozers.pcx 242 170 01 16 36 -27 -8
+ 1136 sprites/bulldozers/bulldozers.pcx 290 170 01 20 26 -12 -11
  1137 * 9	 02 01 A1 //normal action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
@@ -2190,7 +2190,7 @@
  1140 * 4	 01 01 01 04 // buy menu sprites
  1141 * 1	 00
  1142 * 1	 00
- 1143 sprites/bulldozers/no-6/no-6-bulldozer-open-cab.pcx 370 11 01 12 36 -14 -6
+ 1143 sprites/bulldozers/bulldozers.pcx 370 92 01 12 36 -14 -6
  1144 * 1	 00
  1145 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
