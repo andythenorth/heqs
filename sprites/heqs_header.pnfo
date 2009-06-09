@@ -1962,12 +1962,12 @@
                                0d 98 
                                00
  1059 * 87	 04 01 81 01 64 D0 "Hauls: " 8A "Three 19t trailers or sleds"
-                               0d 98 "Model: " 8A "1991" // (57t total cargo)
+                               0d 98 "Model: " 8A "1993" // (57t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Cab" 
                                0d 98 
                                00
  1060 * 87	 04 01 81 01 65 D0 "Hauls: " 8A "Three 22t trailers or sleds"
-                               0d 98 "Model: " 8A "2005" // (66t total cargo)
+                               0d 98 "Model: " 8A "2009 (Electric Drive)" // (66t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Cab" 
                                0d 98 
                                00
@@ -2030,8 +2030,8 @@
              60 80 \b00 \b34 // action 2 for setting graphics / text before 1955
              61 80 \b35 \b48 // action 2 for setting graphics / text before 1969
              62 80 \b49 \b59 // action 2 for setting graphics / text before 1980
-             63 80 \b60 \b70 // action 2 for setting graphics / text before 1991
-             64 80 \b71 \b84 // action 2 for setting graphics / text before 2005
+             63 80 \b60 \b72 // action 2 for setting graphics / text before 1993
+             64 80 \b73 \b88 // action 2 for setting graphics / text before 2009
            65 80 // default graphics / text
  1096 * 14	 02 01 F0 // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
@@ -2044,8 +2044,8 @@
              6E 80 \b00 \b34 // before 1955
              6F 80 \b35 \b48 // before 1969
              70 80 \b49 \b59 // before 1980
-             71 80 \b60 \b70 // before 1991
-             72 80 \b71 \b84 // before 2005
+             71 80 \b60 \b72 // before 1993
+             72 80 \b73 \b88 // before 2009
            73 80 // default      
  1098 * 14	 02 01 B3 //
            81 C4 00 FF // check date vehicle built
@@ -2135,12 +2135,12 @@
                                0d 98 
                                00 
  1110 * 107	 04 01 81 01 6E D0 "Hauls: " 8A "56t of logs or one 56t belly-dump trailer" 
-                               0d 98 "Model: " 8A "1991" 
+                               0d 98 "Model: " 8A "1993" 
                                0d 98 0d 98 "Variations (random): " 98 "Cab style" 
                                0d 98 
                                00 
  1111 * 107	 04 01 81 01 6F D0 "Hauls: " 8A "56t of logs or one 56t belly-dump trailer" 
-                               0d 98 "Model: " 8A "2005" 
+                               0d 98 "Model: " 8A "2009 (Electric Drive)" 
                                0d 98 0d 98 "Variations (random): " 98 "Cab style" 
                                0d 98 
                                00 
@@ -2203,8 +2203,8 @@
              6A 80 \b00 \b34 // action 2 for setting graphics / text before 1955
              6B 80 \b35 \b48 // action 2 for setting graphics / text before 1969
              6C 80 \b49 \b59 // action 2 for setting graphics / text before 1980
-             6D 80 \b60 \b70 // action 2 for setting graphics / text before 1991
-             6E 80 \b71 \b84 // action 2 for setting graphics / text before 2005
+             6D 80 \b60 \b72 // action 2 for setting graphics / text before 1993
+             6E 80 \b73 \b88 // action 2 for setting graphics / text before 2009
            6F 80 // default graphics / text
  1147 * 14	 02 01 F0 // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
@@ -2218,8 +2218,8 @@
              7A 80 \b00 \b34 // before 1955
              7B 80 \b35 \b48 // before 1969
              7C 80 \b49 \b59 // before 1980
-             7C 80 \b60 \b70 // before 1991
-             7D 80 \b71 \b84 // before 2005
+             7C 80 \b60 \b72 // before 1993
+             7D 80 \b73 \b88 // before 2009
            7D 80 // default      
  1149 * 14	 02 01 B3 // 
            81 C4 00 FF // check date vehicle built
