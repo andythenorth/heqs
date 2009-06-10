@@ -1,4 +1,4 @@
-# Makefile for the 2cc train set
+# Makefile for the HEQS set
 
 # Name of the Makefile which contains all the settings which describe
 # how to make this newgrf. It defines all the paths, the grf name,
@@ -94,7 +94,7 @@ clean:
 $(DIR_NAME): $(BUNDLE_FILES)
 	@echo "Creating dir $(DIR_NAME)."
 	@-mkdir $@ 2>/dev/null
-	@-for i in $(REPO_DIRS); do mkdir $@/$$i 2>/dev/null; done
+	@-for i in $(REPO_DIRS); do [ ! -e $@/$$i ] && mkdir $@/$$i 2>/dev/null; done
 	@echo "Copying files: $(BUNDLE_FILES)"
 	@-for i in $(BUNDLE_FILES); do cp $$i $(DIR_NAME)/$$i; done	
 
@@ -105,10 +105,10 @@ $(TAR_FILENAME): $(DIR_NAME) $(BUNDLE_FILES)
 	@echo
 tar: $(TAR_FILENAME)
 
-zip : tar $(ZIP_FILENAME)
-$(ZIP_FILENAME):
+zip : $(ZIP_FILENAME)
+$(ZIP_FILENAME): $(DIR_NAME)
 	@echo "creating zip'ed tar archive"
-	cat $(TAR_FILENAME) | $(ZIP) $(ZIP_FLAGS) > $(ZIP_FILENAME)
+	$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $(DIR_NAME)
 
 bzip: tar $(BZIP_FILENAME)
 $(BZIP_FILENAME): 
