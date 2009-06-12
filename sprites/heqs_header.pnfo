@@ -2325,11 +2325,10 @@
            02 // range
             B3 00 // 
             B7 00 // 
- 1201 * 18	 02 01 B0 
+ 1201 * 14	 02 01 B0 
                  81 10 00 FF // articulated vehicle building instructions
-                 02 //range
-                   04 80 01 01 //give callback result
-                   B5 00 02 02 //give callback result
+                 01 //range
+                   B5 00 01 01 //give callback result
                  FF FF //otherwise end the callback chain
  1202 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
