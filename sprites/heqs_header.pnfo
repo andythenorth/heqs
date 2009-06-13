@@ -1225,301 +1225,6 @@
 	  C0 00 // default
 
 
-  // Float / Sled Trailer large
-       // Rough order of business here
-       // Float / sled trailers vary capacity depending on date vehicle is built
-       // Can't get CB 36 to do that on build, only on refit (oh so close)
-       // So instead define multiple vehicles using the same real sprites
-       // Only difference is capacity
-       // Lead vehicle chooses different trailers depending on date
-       // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
-     // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
-  769 * 67	 00 01 19 01 74
-      00 00 00  // intro date
-      02 20     // reliability
-      03 19     // vehicle life
-      04 23     // class life
-      06 00     // climate
-      07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
-      0E FF     // sprite ID
-      0F \b12     // capacity
-      10 06     // cargo type
-      11 00     // cost factor
-      12 00     // sound effect
-      15 38     // speed in mph * 0.8
-      16 00 00 00 00    // Bit mask of cargo types available for refitting
-      17 30     // Callback flags bit mask
-      1A 00     // Refit cost, using 25% of the purchase price cost base
-      1B 00     // Retire vehicle early, this many years before the end of phase 2
-      1C 02     // Miscellaneous vehicle flags 
-      1D FF 03      // Refittable cargo classes
-      1E 01 00      // Non-refittable cargo classes
-      1F 60 B3 0A 00    // Long format introduction date     
-  770 * 67	 00 01 19 01 75
-      00 00 00  // intro date
-      02 20     // reliability
-      03 19     // vehicle life
-      04 23     // class life
-      06 00     // climate
-      07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
-      0E FF     // sprite ID
-      0F \b12     // capacity
-      10 06     // cargo type
-      11 00     // cost factor
-      12 00     // sound effect
-      15 38     // speed in mph * 0.8
-      16 00 00 00 00    // Bit mask of cargo types available for refitting
-      17 30     // Callback flags bit mask
-      1A 00     // Refit cost, using 25% of the purchase price cost base
-      1B 00     // Retire vehicle early, this many years before the end of phase 2
-      1C 02     // Miscellaneous vehicle flags 
-      1D FF 03      // Refittable cargo classes
-      1E 01 00      // Non-refittable cargo classes
-      1F 60 B3 0A 00    // Long format introduction date     
-  771 * 67	 00 01 19 01 76
-      00 00 00  // intro date
-      02 20     // reliability
-      03 19     // vehicle life
-      04 23     // class life
-      06 00     // climate
-      07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
-      0E FF     // sprite ID
-      0F \b14     // capacity
-      10 06     // cargo type
-      11 00     // cost factor
-      12 00     // sound effect
-      15 38     // speed in mph * 0.8
-      16 00 00 00 00    // Bit mask of cargo types available for refitting
-      17 30     // Callback flags bit mask
-      1A 00     // Refit cost, using 25% of the purchase price cost base
-      1B 00     // Retire vehicle early, this many years before the end of phase 2
-      1C 02     // Miscellaneous vehicle flags 
-      1D FF 03      // Refittable cargo classes
-      1E 01 00      // Non-refittable cargo classes
-      1F 60 B3 0A 00    // Long format introduction date     
-  772 * 67	 00 01 19 01 77
-      00 00 00  // intro date
-      02 20     // reliability
-      03 19     // vehicle life
-      04 23     // class life
-      06 00     // climate
-      07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
-      0E FF     // sprite ID
-      0F \b19     // capacity
-      10 06     // cargo type
-      11 00     // cost factor
-      12 00     // sound effect
-      15 38     // speed in mph * 0.8
-      16 00 00 00 00    // Bit mask of cargo types available for refitting
-      17 30     // Callback flags bit mask
-      1A 00     // Refit cost, using 25% of the purchase price cost base
-      1B 00     // Retire vehicle early, this many years before the end of phase 2
-      1C 02     // Miscellaneous vehicle flags 
-      1D FF 03      // Refittable cargo classes
-      1E 01 00      // Non-refittable cargo classes
-      1F 60 B3 0A 00    // Long format introduction date     
-  773 * 67	 00 01 19 01 78
-      00 00 00  // intro date
-      02 20     // reliability
-      03 19     // vehicle life
-      04 23     // class life
-      06 00     // climate
-      07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
-      0E FF     // sprite ID
-      0F \b24     // capacity
-      10 06     // cargo type
-      11 00     // cost factor
-      12 00     // sound effect
-      15 38     // speed in mph * 0.8
-      16 00 00 00 00    // Bit mask of cargo types available for refitting
-      17 30     // Callback flags bit mask
-      1A 00     // Refit cost, using 25% of the purchase price cost base
-      1B 00     // Retire vehicle early, this many years before the end of phase 2
-      1C 02     // Miscellaneous vehicle flags 
-      1D FF 03      // Refittable cargo classes
-      1E 01 00      // Non-refittable cargo classes
-      1F 60 B3 0A 00    // Long format introduction date     
-  774 * 67	 00 01 19 01 79
-      00 00 00  // intro date
-      02 20     // reliability
-      03 19     // vehicle life
-      04 23     // class life
-      06 00     // climate
-      07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
-      0E FF     // sprite ID
-      0F \b29     // capacity
-      10 06     // cargo type
-      11 00     // cost factor
-      12 00     // sound effect
-      15 38     // speed in mph * 0.8
-      16 00 00 00 00    // Bit mask of cargo types available for refitting
-      17 22     // Callback flags bit mask
-      1A 00     // Refit cost, using 25% of the purchase price cost base
-      1B 00     // Retire vehicle early, this many years before the end of phase 2
-      1C 02     // Miscellaneous vehicle flags 
-      1D FF 03      // Refittable cargo classes
-      1E 01 00      // Non-refittable cargo classes
-      1F 60 B3 0A 00    // Long format introduction date     
-  775 * 42	 04 01 7F 01 74 "[Generic Large Float / Sled Trailer]" 00
-  // define additional text suffixes
-  776 * 35	 04 00 81 02 00 D0
-            		" (Flotation Trailer)" 00	// D000 = "1st class"
-               	" (Sled)" 00	// D001 = "2nd class"
-  // Action 2 ID schema: 0 / 1 = wheeled trailer, 2 / 3 = sled
-   // Large Float Trailer open empty
-  777 * 4	 01 01 03 08
-  778 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 50 01 24 12 -5 -14
-  779 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 50 09 20 26 -15 -7
-  780 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 50 01 16 36 -16 -9
-  781 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 50 09 20 26 -15 -11
-  782 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 50 01 24 12 -7 -16
-  783 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 50 09 20 26 -11 -11
-  784 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 50 01 16 36 -19 -10
-  785 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 50 09 20 26 -10 -9
-   // Large Float Trailer open loading
-  786 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 90 01 24 12 -5 -14
-  787 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 90 09 20 26 -15 -7
-  788 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 90 01 16 36 -16 -9
-  789 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 90 09 20 26 -15 -11
-  790 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 90 01 24 12 -7 -16
-  791 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 90 09 20 26 -11 -11
-  792 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 90 01 16 36 -19 -10
-  793 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 90 09 20 26 -10 -9
-   // Large Float Trailer open loaded
-  794 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 130 01 24 12 -5 -14
-  795 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 130 09 20 26 -15 -7
-  796 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 130 01 16 36 -16 -9
-  797 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 130 09 20 26 -15 -11
-  798 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 130 01 24 12 -7 -16
-  799 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 130 09 20 26 -11 -11
-  800 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 130 01 16 36 -19 -10
-  801 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 130 09 20 26 -10 -9
-  802 * 13	 02 01 05   02 02   00 00  02 00    00 00  01 00 // open trailer
-   // Large sled open
-  803 * 4	 01 01 03 08
-  804 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 570 01 24 12 -5 -14
-  805 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 570 01 20 26 -15 -7
-  806 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 570 01 16 36 -16 -9
-  807 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 570 01 20 26 -15 -11
-  808 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 570 01 24 12 -7 -16
-  809 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 570 01 20 26 -11 -11
-  810 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 570 01 16 36 -19 -10
-  811 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 570 01 20 26 -10 -9
-   // Large sled open - loading
-  812 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 610 01 24 12 -5 -14
-  813 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 610 01 20 26 -15 -7
-  814 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 610 01 16 36 -16 -9
-  815 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 610 01 20 26 -15 -11
-  816 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 610 01 24 12 -7 -16
-  817 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 610 01 20 26 -11 -11
-  818 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 610 01 16 36 -19 -10
-  819 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 610 01 20 26 -10 -9
-   // Large sled open - loaded
-  820 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 650 01 24 12 -5 -14
-  821 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 650 01 20 26 -15 -7
-  822 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 650 01 16 36 -16 -9
-  823 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 650 01 20 26 -15 -11
-  824 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 650 01 24 12 -7 -16
-  825 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 650 01 20 26 -11 -11
-  826 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 650 01 16 36 -19 -10
-  827 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 650 01 20 26 -10 -9
-  828 * 17	 02 01 25   03 03   00 00  01 00  02 00    00 00  01 00  02 00 // open sled
-    // Large Float tank trailer
-  829 * 4	 01 01 01 08
-  830 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 10 01 24 12 -5 -14
-  831 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 10 09 20 26 -15 -7
-  832 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 10 01 16 36 -16 -9
-  833 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 10 09 20 26 -15 -11
-  834 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 10 01 24 12 -7 -16
-  835 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 10 09 20 26 -11 -11
-  836 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 10 01 16 36 -19 -10
-  837 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 10 09 20 26 -10 -9
-  838 * 9	 02 01 03   01 01    00 00    00 00 // tank trailer
-    // Large tank sled
-  839 * 4	 01 01 01 08
-  840 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 530 01 24 12 -5 -14
-  841 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 530 09 20 26 -15 -7
-  842 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 530 01 16 36 -16 -9
-  843 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 530 09 20 26 -15 -11
-  844 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 530 01 24 12 -7 -16
-  845 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 530 09 20 26 -11 -11
-  846 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 530 01 16 36 -19 -10
-  847 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 530 09 20 26 -10 -9
-  848 * 9	 02 01 23   01 01    00 00    00 00 // tank sled
-  // Rough order of business here:
-      // set length and refit texts
-      // choose sleds or trailers action 2 branch
-      // find cargo of vehicle, choose action 2 matching
-  849 * 22	 02 01 CE  // choose sled sprites according to cargo
-                 81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 03 // range
-                  23 00 03 03 // oil
-                  23 00 0F 0F // water
-                  23 00 10 10 // rubber
-                 25 00 // default 
-  850 * 22	 02 01 CD  // choose wheeled float trailer sprites according to cargo slot (in cargo translation tt)
-                 81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 03 // range
-                  03 00 03 03 // oil
-                  03 00 0F 0F // water
-                  03 00 10 10 // rubber
-                 05 00 // default 
-  851 * 18	 02 01 CC  // set refit text strings
-                 81 F2 00 FF //
-                 02 // range
-                  00 80 00 00 
-                  01 80 01 01 
-                 FF 80 // end callback chain
-  852 * 18	 02 01 CB  // choose sprites according to refit
-                 81 F2 00 FF //
-                 02 // range
-                  CD 00 00 00 // wheeled trailers 
-                  CE 00 01 01 // sleds
-                 05 00 // default 
-  853 * 18	 02 01 C0  // handle callbacks
-                 81 0C 00 FF //
-                 02 // range
-                  00 80 11 11 // vehicle length CB
-                  CC 00 19 19 // text suffix (refits) CB 
-                 CB 00 // graphics
-  854 * 7	 03 01 01 74 // Action 3
-    00 // Number of different cargo types to support (!! Hex) 
-	  C0 00 // default
-  855 * 7	 03 01 01 75 // Action 3
-    00 // Number of different cargo types to support (!! Hex) 
-	  C0 00 // default
-  856 * 7	 03 01 01 76 // Action 3
-    00 // Number of different cargo types to support (!! Hex) 
-	  C0 00 // default
-  857 * 7	 03 01 01 77 // Action 3
-    00 // Number of different cargo types to support (!! Hex) 
-	  C0 00 // default
-  858 * 7	 03 01 01 78 // Action 3
-    00 // Number of different cargo types to support (!! Hex) 
-	  C0 00 // default
-  859 * 7	 03 01 01 79 // Action 3
-    00 // Number of different cargo types to support (!! Hex) 
-	  C0 00 // default
-
-
    // Very large bulldozer trailer 
      // Rough order of business here
        // Bulldozer trailers vary capacity depending on date vehicle is built
@@ -1529,7 +1234,7 @@
        // Lead vehicle chooses different trailers depending on date
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
-  860 * 67	 00 01 19 01 7A
+  769 * 67	 00 01 19 01 7A
     00 00 00  // intro date 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -1554,7 +1259,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  861 * 67	 00 01 19 01 7B
+  770 * 67	 00 01 19 01 7B
     00 00 00  // intro date 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -1579,7 +1284,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  862 * 67	 00 01 19 01 7C
+  771 * 67	 00 01 19 01 7C
     00 00 00  // intro date 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -1604,7 +1309,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  863 * 67	 00 01 19 01 7D
+  772 * 67	 00 01 19 01 7D
     00 00 00  // intro date 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -1629,7 +1334,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  864 * 67	 00 01 19 01 7E
+  773 * 67	 00 01 19 01 7E
     00 00 00  // intro date 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -1654,7 +1359,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date 
-  865 * 67	 00 01 19 01 7F
+  774 * 67	 00 01 19 01 7F
     00 00 00  // intro date 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -1679,213 +1384,213 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  866 * 6	 07 83 01 \7! 02 01 // tropic only
-  867 * 7	 00 01 01 01 7A 10 08// copper ore default
-  868 * 34	 04 01 7F 01 7A "Very Large Bulldozer Trailer" 00
+  775 * 6	 07 83 01 \7! 02 01 // tropic only
+  776 * 7	 00 01 01 01 7A 10 08// copper ore default
+  777 * 34	 04 01 7F 01 7A "Very Large Bulldozer Trailer" 00
    // Very large bulldozer belly dump B - empty
-  869 * 4	 01 01 0D 08
-  870 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 50 01 24 12 -3 -16
-  871 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 50 09 20 26 -14 -7
-  872 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 50 01 16 36 -14 -8
-  873 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 50 09 20 26 -10 -8
-  874 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 50 01 24 12 -9 -16
-  875 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 50 09 20 26 -17 -8
-  876 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 50 01 16 36 -26 -9
-  877 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 50 09 20 26 -10 -10
+  778 * 4	 01 01 0D 08
+  779 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 50 01 24 12 -3 -16
+  780 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 50 09 20 26 -14 -7
+  781 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 50 01 16 36 -14 -8
+  782 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 50 09 20 26 -10 -8
+  783 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 50 01 24 12 -9 -16
+  784 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 50 09 20 26 -17 -8
+  785 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 50 01 16 36 -26 -9
+  786 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 50 09 20 26 -10 -10
    // Very large bulldozer belly dump B - iron ore, loading
-  878 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 490 01 24 12 -3 -16
-  879 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 490 09 20 20 -14 -7
-  880 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 490 01 16 36 -14 -8
-  881 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 490 09 20 26 -10 -8
-  882 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 490 01 24 12 -9 -16
-  883 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 490 09 20 26 -17 -8
-  884 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 490 01 16 36 -26 -9
-  885 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 490 09 20 26 -10 -10
+  787 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 490 01 24 12 -3 -16
+  788 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 490 09 20 20 -14 -7
+  789 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 490 01 16 36 -14 -8
+  790 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 490 09 20 26 -10 -8
+  791 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 490 01 24 12 -9 -16
+  792 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 490 09 20 26 -17 -8
+  793 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 490 01 16 36 -26 -9
+  794 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 490 09 20 26 -10 -10
    // Very large bulldozer belly dump B - iron ore, loaded
-  886 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 530 01 24 12 -3 -16
-  887 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 530 09 20 20 -14 -7
-  888 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 530 01 16 36 -14 -8
-  889 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 530 09 20 26 -10 -8
-  890 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 530 01 24 12 -9 -16
-  891 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 530 09 20 26 -17 -8
-  892 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 530 01 16 36 -26 -9
-  893 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 530 09 20 26 -10 -10
+  795 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 530 01 24 12 -3 -16
+  796 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 530 09 20 20 -14 -7
+  797 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 530 01 16 36 -14 -8
+  798 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 530 09 20 26 -10 -8
+  799 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 530 01 24 12 -9 -16
+  800 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 530 09 20 26 -17 -8
+  801 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 530 01 16 36 -26 -9
+  802 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 530 09 20 26 -10 -10
    // Very large bulldozer belly dump B - coal, loading
-  894 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 170 01 24 12 -3 -16
-  895 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 170 09 20 26 -14 -7
-  896 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 170 01 16 36 -14 -8
-  897 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 170 09 20 26 -10 -8
-  898 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 170 01 24 12 -9 -16
-  899 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 170 09 20 26 -17 -8
-  900 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 170 01 16 36 -26 -9
-  901 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 170 09 20 26 -10 -10
+  803 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 170 01 24 12 -3 -16
+  804 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 170 09 20 26 -14 -7
+  805 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 170 01 16 36 -14 -8
+  806 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 170 09 20 26 -10 -8
+  807 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 170 01 24 12 -9 -16
+  808 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 170 09 20 26 -17 -8
+  809 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 170 01 16 36 -26 -9
+  810 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 170 09 20 26 -10 -10
    // Very large bulldozer belly dump B - coal, loaded
-  902 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 210 01 24 12 -3 -16
-  903 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 210 09 20 26 -14 -7
-  904 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 210 01 16 36 -14 -8
-  905 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 210 09 20 26 -10 -8
-  906 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 210 01 24 12 -9 -16
-  907 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 210 09 20 26 -17 -8
-  908 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 210 01 16 36 -26 -9
-  909 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 210 09 20 26 -10 -10
+  811 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 210 01 24 12 -3 -16
+  812 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 210 09 20 26 -14 -7
+  813 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 210 01 16 36 -14 -8
+  814 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 210 09 20 26 -10 -8
+  815 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 210 01 24 12 -9 -16
+  816 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 210 09 20 26 -17 -8
+  817 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 210 01 16 36 -26 -9
+  818 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 210 09 20 26 -10 -10
    // Very large bulldozer belly dump B - grain, loading
-  910 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 250 01 24 12 -3 -16
-  911 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 250 09 20 26 -14 -7
-  912 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 250 01 16 36 -14 -8
-  913 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 250 09 20 26 -10 -8
-  914 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 250 01 24 12 -9 -16
-  915 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 250 09 20 26 -17 -8
-  916 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 250 01 16 36 -26 -9
-  917 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 250 09 20 26 -10 -10
+  819 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 250 01 24 12 -3 -16
+  820 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 250 09 20 26 -14 -7
+  821 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 250 01 16 36 -14 -8
+  822 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 250 09 20 26 -10 -8
+  823 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 250 01 24 12 -9 -16
+  824 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 250 09 20 26 -17 -8
+  825 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 250 01 16 36 -26 -9
+  826 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 250 09 20 26 -10 -10
   // Very large bulldozer belly dump B - grain, loaded
-  918 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 290 01 24 12 -3 -16
-  919 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 290 09 20 26 -14 -7
-  920 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 290 01 16 36 -14 -8
-  921 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 290 09 20 26 -10 -8
-  922 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 290 01 24 12 -9 -16
-  923 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 290 09 20 26 -17 -8
-  924 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 290 01 16 36 -26 -9
-  925 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 290 09 20 26 -10 -10
+  827 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 290 01 24 12 -3 -16
+  828 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 290 09 20 26 -14 -7
+  829 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 290 01 16 36 -14 -8
+  830 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 290 09 20 26 -10 -8
+  831 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 290 01 24 12 -9 -16
+  832 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 290 09 20 26 -17 -8
+  833 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 290 01 16 36 -26 -9
+  834 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 290 09 20 26 -10 -10
   // Very large bulldozer belly dump B - brown, loading
-  926 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 410 01 24 12 -3 -16
-  927 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 410 09 20 26 -14 -7
-  928 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 410 01 16 36 -14 -8
-  929 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 410 09 20 26 -10 -8
-  930 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 410 01 24 12 -9 -16
-  931 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 410 09 20 26 -17 -8
-  932 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 410 01 16 36 -26 -9
-  933 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 410 09 20 26 -10 -10
+  835 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 410 01 24 12 -3 -16
+  836 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 410 09 20 26 -14 -7
+  837 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 410 01 16 36 -14 -8
+  838 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 410 09 20 26 -10 -8
+  839 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 410 01 24 12 -9 -16
+  840 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 410 09 20 26 -17 -8
+  841 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 410 01 16 36 -26 -9
+  842 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 410 09 20 26 -10 -10
   // Very large bulldozer belly dump B - brown, loaded
-  934 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 450 01 24 12 -3 -16
-  935 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 450 09 20 26 -14 -7
-  936 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 450 01 16 36 -14 -8
-  937 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 450 09 20 26 -10 -8
-  938 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 450 01 24 12 -9 -16
-  939 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 450 09 20 26 -17 -8
-  940 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 450 01 16 36 -26 -9
-  941 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 450 09 20 26 -10 -10
+  843 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 450 01 24 12 -3 -16
+  844 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 450 09 20 26 -14 -7
+  845 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 450 01 16 36 -14 -8
+  846 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 450 09 20 26 -10 -8
+  847 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 450 01 24 12 -9 -16
+  848 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 450 09 20 26 -17 -8
+  849 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 450 01 16 36 -26 -9
+  850 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 450 09 20 26 -10 -10
   // Very large bulldozer belly dump B - red, loading
-  942 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 370 01 24 12 -3 -16
-  943 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 370 09 20 26 -14 -7
-  944 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -14 -8
-  945 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
-  946 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
-  947 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -17 -8
-  948 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -26 -9
-  949 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
+  851 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 370 01 24 12 -3 -16
+  852 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 370 09 20 26 -14 -7
+  853 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -14 -8
+  854 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
+  855 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
+  856 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -17 -8
+  857 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -26 -9
+  858 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
   // Very large bulldozer belly dump B - red, loaded
-  950 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 370 01 24 12 -3 -16
-  951 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 370 09 20 26 -14 -7
-  952 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -14 -8
-  953 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
-  954 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
-  955 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -17 -8
-  956 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -26 -9
-  957 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
+  859 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 370 01 24 12 -3 -16
+  860 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 370 09 20 26 -14 -7
+  861 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -14 -8
+  862 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
+  863 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
+  864 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -17 -8
+  865 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -26 -9
+  866 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
   // Very large bulldozer belly dump B - grey, loading
-  958 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 90 01 24 12 -3 -16
-  959 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 90 09 20 26 -14 -7
-  960 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 90 01 16 36 -14 -8
-  961 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 90 09 20 26 -10 -8
-  962 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 90 01 24 12 -9 -16
-  963 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 90 09 20 26 -17 -8
-  964 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 90 01 16 36 -26 -9
-  965 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 90 09 20 26 -10 -10
+  867 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 90 01 24 12 -3 -16
+  868 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 90 09 20 26 -14 -7
+  869 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 90 01 16 36 -14 -8
+  870 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 90 09 20 26 -10 -8
+  871 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 90 01 24 12 -9 -16
+  872 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 90 09 20 26 -17 -8
+  873 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 90 01 16 36 -26 -9
+  874 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 90 09 20 26 -10 -10
   // Very large bulldozer belly dump B - grey, loaded
-  966 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 130 01 24 12 -3 -16
-  967 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 130 09 20 26 -14 -7
-  968 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 130 01 16 36 -14 -8
-  969 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 130 09 20 26 -10 -8
-  970 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 130 01 24 12 -9 -16
-  971 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 130 09 20 26 -17 -8
-  972 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 130 01 16 36 -26 -9
-  973 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 130 09 20 26 -10 -10
+  875 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 130 01 24 12 -3 -16
+  876 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 130 09 20 26 -14 -7
+  877 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 130 01 16 36 -14 -8
+  878 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 130 09 20 26 -10 -8
+  879 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 130 01 24 12 -9 -16
+  880 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 130 09 20 26 -17 -8
+  881 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 130 01 16 36 -26 -9
+  882 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 130 09 20 26 -10 -10
  // Action 2 ID schema: 0 / 1 = rear wheels only, 2 / 3 = with front wheels  
-  974 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
-  975 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
-  976 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain (not used - left here for ease of copy and paste)
-  977 * 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
+  883 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
+  884 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
+  885 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain (not used - left here for ease of copy and paste)
+  886 * 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
 //!!Warning (94): Redefining ID 17 not used since previous definition at sprite 153.
-  978 * 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
+  887 * 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
 //!!Warning (94): Redefining ID 11 not used since previous definition at sprite 154.
-  979 * 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
+  888 * 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
     // Very large bulldozer trailer B - Wood, empty
-  980 * 4	 01 01 08 08
-  981 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 570 01 26 12 -6 -16
-  982 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 570 09 23 26 -16 -10
-  983 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 570 01 17 36 -14 -10
-  984 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 570 09 23 26 -10 -11
-  985 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 570 01 26 12 -7 -16
-  986 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 570 09 23 26 -17 -11
-  987 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 570 01 17 36 -26 -11
-  988 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 570 09 23 26 -10 -12
+  889 * 4	 01 01 08 08
+  890 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 570 01 26 12 -6 -16
+  891 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 570 09 23 26 -16 -10
+  892 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 570 01 17 36 -14 -10
+  893 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 570 09 23 26 -10 -11
+  894 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 570 01 26 12 -7 -16
+  895 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 570 09 23 26 -17 -11
+  896 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 570 01 17 36 -26 -11
+  897 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 570 09 23 26 -10 -12
     // Very large bulldozer trailer B - Wood, loading 1 
-  989 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 610 01 26 12 -6 -16
-  990 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 610 09 23 26 -16 -10
-  991 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 610 01 17 36 -14 -10
-  992 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 610 09 23 26 -10 -11
-  993 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 610 01 26 12 -7 -16
-  994 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 610 09 23 26 -17 -11
-  995 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 610 01 17 36 -26 -11
-  996 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 610 09 23 26 -10 -12
+  898 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 610 01 26 12 -6 -16
+  899 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 610 09 23 26 -16 -10
+  900 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 610 01 17 36 -14 -10
+  901 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 610 09 23 26 -10 -11
+  902 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 610 01 26 12 -7 -16
+  903 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 610 09 23 26 -17 -11
+  904 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 610 01 17 36 -26 -11
+  905 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 610 09 23 26 -10 -12
     // Very large bulldozer trailer B - Wood, loading 2
-  997 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 650 01 26 12 -6 -16
-  998 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 650 09 23 26 -16 -10
-  999 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 650 01 17 36 -14 -10
- 1000 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 650 09 23 26 -10 -11
- 1001 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 650 01 26 12 -7 -16
- 1002 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 650 09 23 26 -17 -11
- 1003 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 650 01 17 36 -26 -11
- 1004 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 650 09 23 26 -10 -12
+  906 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 650 01 26 12 -6 -16
+  907 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 650 09 23 26 -16 -10
+  908 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 650 01 17 36 -14 -10
+  909 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 650 09 23 26 -10 -11
+  910 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 650 01 26 12 -7 -16
+  911 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 650 09 23 26 -17 -11
+  912 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 650 01 17 36 -26 -11
+  913 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 650 09 23 26 -10 -12
     // Very large bulldozer trailer B - Wood, loading 3 
- 1005 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 690 01 26 12 -6 -16
- 1006 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 690 09 23 26 -16 -10
- 1007 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 690 01 17 36 -14 -10
- 1008 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 690 09 23 26 -10 -11
- 1009 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 690 01 26 12 -7 -16
- 1010 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 690 09 23 26 -17 -11
- 1011 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 690 01 17 36 -26 -11
- 1012 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 690 09 23 26 -10 -12
+  914 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 690 01 26 12 -6 -16
+  915 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 690 09 23 26 -16 -10
+  916 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 690 01 17 36 -14 -10
+  917 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 690 09 23 26 -10 -11
+  918 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 690 01 26 12 -7 -16
+  919 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 690 09 23 26 -17 -11
+  920 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 690 01 17 36 -26 -11
+  921 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 690 09 23 26 -10 -12
    // Very large bulldozer trailer B - Wood, loading 4
- 1013 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 730 01 26 12 -6 -16
- 1014 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 730 09 23 26 -16 -10
- 1015 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 730 01 17 36 -14 -10
- 1016 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 730 09 23 26 -10 -11
- 1017 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 730 01 26 12 -7 -16
- 1018 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 730 09 23 26 -17 -11
- 1019 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 730 01 17 36 -26 -11
- 1020 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 730 09 23 26 -10 -12
+  922 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 730 01 26 12 -6 -16
+  923 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 730 09 23 26 -16 -10
+  924 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 730 01 17 36 -14 -10
+  925 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 730 09 23 26 -10 -11
+  926 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 730 01 26 12 -7 -16
+  927 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 730 09 23 26 -17 -11
+  928 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 730 01 17 36 -26 -11
+  929 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 730 09 23 26 -10 -12
    // Very large bulldozer trailer B - Wood, loading 5
- 1021 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 770 01 26 12 -6 -16
- 1022 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 770 09 23 26 -16 -10
- 1023 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 770 01 17 36 -14 -10
- 1024 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 770 09 23 26 -10 -11
- 1025 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 770 01 26 12 -7 -16
- 1026 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 770 09 23 26 -17 -11
- 1027 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 770 01 17 36 -26 -11
- 1028 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 770 09 23 26 -10 -12
+  930 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 770 01 26 12 -6 -16
+  931 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 770 09 23 26 -16 -10
+  932 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 770 01 17 36 -14 -10
+  933 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 770 09 23 26 -10 -11
+  934 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 770 01 26 12 -7 -16
+  935 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 770 09 23 26 -17 -11
+  936 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 770 01 17 36 -26 -11
+  937 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 770 09 23 26 -10 -12
    // Very large bulldozer trailer B - Wood, loaded, no chains
- 1029 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 810 01 26 12 -6 -16
- 1030 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 810 09 23 26 -16 -10
- 1031 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 810 01 17 36 -14 -10
- 1032 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 810 09 23 26 -10 -11
- 1033 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 810 01 26 12 -7 -16
- 1034 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 810 09 23 26 -17 -11
- 1035 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 810 01 17 36 -26 -11
- 1036 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 810 09 23 26 -10 -12
+  938 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 810 01 26 12 -6 -16
+  939 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 810 09 23 26 -16 -10
+  940 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 810 01 17 36 -14 -10
+  941 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 810 09 23 26 -10 -11
+  942 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 810 01 26 12 -7 -16
+  943 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 810 09 23 26 -17 -11
+  944 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 810 01 17 36 -26 -11
+  945 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 810 09 23 26 -10 -12
    // Very large bulldozer trailer B - Wood, loaded, chained
- 1037 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 850 01 26 12 -6 -16
- 1038 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 850 09 23 26 -16 -10
- 1039 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 850 01 17 36 -14 -10
- 1040 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 850 09 23 26 -10 -11
- 1041 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 850 01 26 12 -7 -16
- 1042 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 850 09 23 26 -17 -11
- 1043 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 850 01 17 36 -26 -11
- 1044 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 850 09 23 26 -10 -12
- 1045 * 37	 02 01 07  08 08    
+  946 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 850 01 26 12 -6 -16
+  947 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 850 09 23 26 -16 -10
+  948 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 850 01 17 36 -14 -10
+  949 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 850 09 23 26 -10 -11
+  950 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 850 01 26 12 -7 -16
+  951 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 850 09 23 26 -17 -11
+  952 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 850 01 17 36 -26 -11
+  953 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 850 09 23 26 -10 -12
+  954 * 37	 02 01 07  08 08    
       00 00  01 00  02 00  03 00  04 00  05 00  06 00  07 00
       00 00  01 00  02 00  03 00  04 00  05 00  06 00  07 00 // wood 
- 1046 * 26	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
+  955 * 26	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
                  04 // range
                   01 00 01 01 // coal
@@ -1893,26 +1598,329 @@
                   0E 00 0E 0E // copper ore
                   07 00 07 07 // wood
                  11 00 // default 
- 1047 * 7	 03 01 01 7A // Action 3
+  956 * 7	 03 01 01 7A // Action 3
       00  // Number of different cargo types to support  
       CD 00 // default
- 1048 * 7	 03 01 01 7B // Action 3
+  957 * 7	 03 01 01 7B // Action 3
       00  // Number of different cargo types to support  
       CD 00 // default
- 1049 * 7	 03 01 01 7C // Action 3
+  958 * 7	 03 01 01 7C // Action 3
       00  // Number of different cargo types to support  
       CD 00 // default
- 1050 * 7	 03 01 01 7D // Action 3
+  959 * 7	 03 01 01 7D // Action 3
       00  // Number of different cargo types to support  
       CD 00 // default
- 1051 * 7	 03 01 01 7E // Action 3
+  960 * 7	 03 01 01 7E // Action 3
       00  // Number of different cargo types to support  
       CD 00 // default
- 1052 * 7	 03 01 01 7F // Action 3
+  961 * 7	 03 01 01 7F // Action 3
       00  // Number of different cargo types to support  
       CD 00 // default
 
   // -------------- end of Bulldozer Trailers --------------- //
+
+
+
+  // -----------------  Large Float / Sled Trailers -----------//      
+
+  // Float / Sled Trailer large
+       // Rough order of business here
+       // Float / sled trailers vary capacity depending on date vehicle is built
+       // Can't get CB 36 to do that on build, only on refit (oh so close)
+       // So instead define multiple vehicles using the same real sprites
+       // Only difference is capacity
+       // Lead vehicle chooses different trailers depending on date
+       // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
+     // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
+  962 * 67	 00 01 19 01 74
+      00 00 00  // intro date
+      02 20     // reliability
+      03 19     // vehicle life
+      04 23     // class life
+      06 00     // climate
+      07 05     // load amount
+      08 E0     // speed in mph * 3.2
+      09 08     // running cost factor
+      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0E FF     // sprite ID
+      0F \b12     // capacity
+      10 06     // cargo type
+      11 00     // cost factor
+      12 00     // sound effect
+      15 38     // speed in mph * 0.8
+      16 00 00 00 00    // Bit mask of cargo types available for refitting
+      17 30     // Callback flags bit mask
+      1A 00     // Refit cost, using 25% of the purchase price cost base
+      1B 00     // Retire vehicle early, this many years before the end of phase 2
+      1C 02     // Miscellaneous vehicle flags 
+      1D FF 03      // Refittable cargo classes
+      1E 01 00      // Non-refittable cargo classes
+      1F 60 B3 0A 00    // Long format introduction date     
+  963 * 67	 00 01 19 01 75
+      00 00 00  // intro date
+      02 20     // reliability
+      03 19     // vehicle life
+      04 23     // class life
+      06 00     // climate
+      07 05     // load amount
+      08 E0     // speed in mph * 3.2
+      09 08     // running cost factor
+      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0E FF     // sprite ID
+      0F \b12     // capacity
+      10 06     // cargo type
+      11 00     // cost factor
+      12 00     // sound effect
+      15 38     // speed in mph * 0.8
+      16 00 00 00 00    // Bit mask of cargo types available for refitting
+      17 30     // Callback flags bit mask
+      1A 00     // Refit cost, using 25% of the purchase price cost base
+      1B 00     // Retire vehicle early, this many years before the end of phase 2
+      1C 02     // Miscellaneous vehicle flags 
+      1D FF 03      // Refittable cargo classes
+      1E 01 00      // Non-refittable cargo classes
+      1F 60 B3 0A 00    // Long format introduction date     
+  964 * 67	 00 01 19 01 76
+      00 00 00  // intro date
+      02 20     // reliability
+      03 19     // vehicle life
+      04 23     // class life
+      06 00     // climate
+      07 05     // load amount
+      08 E0     // speed in mph * 3.2
+      09 08     // running cost factor
+      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0E FF     // sprite ID
+      0F \b14     // capacity
+      10 06     // cargo type
+      11 00     // cost factor
+      12 00     // sound effect
+      15 38     // speed in mph * 0.8
+      16 00 00 00 00    // Bit mask of cargo types available for refitting
+      17 30     // Callback flags bit mask
+      1A 00     // Refit cost, using 25% of the purchase price cost base
+      1B 00     // Retire vehicle early, this many years before the end of phase 2
+      1C 02     // Miscellaneous vehicle flags 
+      1D FF 03      // Refittable cargo classes
+      1E 01 00      // Non-refittable cargo classes
+      1F 60 B3 0A 00    // Long format introduction date     
+  965 * 67	 00 01 19 01 77
+      00 00 00  // intro date
+      02 20     // reliability
+      03 19     // vehicle life
+      04 23     // class life
+      06 00     // climate
+      07 05     // load amount
+      08 E0     // speed in mph * 3.2
+      09 08     // running cost factor
+      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0E FF     // sprite ID
+      0F \b19     // capacity
+      10 06     // cargo type
+      11 00     // cost factor
+      12 00     // sound effect
+      15 38     // speed in mph * 0.8
+      16 00 00 00 00    // Bit mask of cargo types available for refitting
+      17 30     // Callback flags bit mask
+      1A 00     // Refit cost, using 25% of the purchase price cost base
+      1B 00     // Retire vehicle early, this many years before the end of phase 2
+      1C 02     // Miscellaneous vehicle flags 
+      1D FF 03      // Refittable cargo classes
+      1E 01 00      // Non-refittable cargo classes
+      1F 60 B3 0A 00    // Long format introduction date     
+  966 * 67	 00 01 19 01 78
+      00 00 00  // intro date
+      02 20     // reliability
+      03 19     // vehicle life
+      04 23     // class life
+      06 00     // climate
+      07 05     // load amount
+      08 E0     // speed in mph * 3.2
+      09 08     // running cost factor
+      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0E FF     // sprite ID
+      0F \b24     // capacity
+      10 06     // cargo type
+      11 00     // cost factor
+      12 00     // sound effect
+      15 38     // speed in mph * 0.8
+      16 00 00 00 00    // Bit mask of cargo types available for refitting
+      17 30     // Callback flags bit mask
+      1A 00     // Refit cost, using 25% of the purchase price cost base
+      1B 00     // Retire vehicle early, this many years before the end of phase 2
+      1C 02     // Miscellaneous vehicle flags 
+      1D FF 03      // Refittable cargo classes
+      1E 01 00      // Non-refittable cargo classes
+      1F 60 B3 0A 00    // Long format introduction date     
+  967 * 67	 00 01 19 01 79
+      00 00 00  // intro date
+      02 20     // reliability
+      03 19     // vehicle life
+      04 23     // class life
+      06 00     // climate
+      07 05     // load amount
+      08 E0     // speed in mph * 3.2
+      09 08     // running cost factor
+      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0E FF     // sprite ID
+      0F \b29     // capacity
+      10 06     // cargo type
+      11 00     // cost factor
+      12 00     // sound effect
+      15 38     // speed in mph * 0.8
+      16 00 00 00 00    // Bit mask of cargo types available for refitting
+      17 22     // Callback flags bit mask
+      1A 00     // Refit cost, using 25% of the purchase price cost base
+      1B 00     // Retire vehicle early, this many years before the end of phase 2
+      1C 02     // Miscellaneous vehicle flags 
+      1D FF 03      // Refittable cargo classes
+      1E 01 00      // Non-refittable cargo classes
+      1F 60 B3 0A 00    // Long format introduction date     
+  968 * 42	 04 01 7F 01 74 "[Generic Large Float / Sled Trailer]" 00
+  // define additional text suffixes
+  969 * 35	 04 00 81 02 00 D0
+            		" (Flotation Trailer)" 00	// D000 = "1st class"
+               	" (Sled)" 00	// D001 = "2nd class"
+  // Action 2 ID schema: 0 / 1 = wheeled trailer, 2 / 3 = sled
+   // Large Float Trailer open empty
+  970 * 4	 01 01 03 08
+  971 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 50 01 24 12 -5 -14
+  972 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 50 09 20 26 -15 -7
+  973 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 50 01 16 36 -16 -9
+  974 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 50 09 20 26 -15 -11
+  975 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 50 01 24 12 -7 -16
+  976 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 50 09 20 26 -11 -11
+  977 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 50 01 16 36 -19 -10
+  978 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 50 09 20 26 -10 -9
+   // Large Float Trailer open loading
+  979 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 90 01 24 12 -5 -14
+  980 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 90 09 20 26 -15 -7
+  981 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 90 01 16 36 -16 -9
+  982 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 90 09 20 26 -15 -11
+  983 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 90 01 24 12 -7 -16
+  984 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 90 09 20 26 -11 -11
+  985 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 90 01 16 36 -19 -10
+  986 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 90 09 20 26 -10 -9
+   // Large Float Trailer open loaded
+  987 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 130 01 24 12 -5 -14
+  988 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 130 09 20 26 -15 -7
+  989 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 130 01 16 36 -16 -9
+  990 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 130 09 20 26 -15 -11
+  991 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 130 01 24 12 -7 -16
+  992 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 130 09 20 26 -11 -11
+  993 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 130 01 16 36 -19 -10
+  994 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 130 09 20 26 -10 -9
+  995 * 13	 02 01 05   02 02   00 00  02 00    00 00  01 00 // open trailer
+   // Large sled open
+  996 * 4	 01 01 03 08
+  997 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 570 01 24 12 -5 -14
+  998 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 570 01 20 26 -15 -7
+  999 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 570 01 16 36 -16 -9
+ 1000 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 570 01 20 26 -15 -11
+ 1001 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 570 01 24 12 -7 -16
+ 1002 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 570 01 20 26 -11 -11
+ 1003 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 570 01 16 36 -19 -10
+ 1004 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 570 01 20 26 -10 -9
+   // Large sled open - loading
+ 1005 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 610 01 24 12 -5 -14
+ 1006 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 610 01 20 26 -15 -7
+ 1007 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 610 01 16 36 -16 -9
+ 1008 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 610 01 20 26 -15 -11
+ 1009 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 610 01 24 12 -7 -16
+ 1010 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 610 01 20 26 -11 -11
+ 1011 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 610 01 16 36 -19 -10
+ 1012 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 610 01 20 26 -10 -9
+   // Large sled open - loaded
+ 1013 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 650 01 24 12 -5 -14
+ 1014 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 650 01 20 26 -15 -7
+ 1015 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 650 01 16 36 -16 -9
+ 1016 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 650 01 20 26 -15 -11
+ 1017 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 650 01 24 12 -7 -16
+ 1018 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 650 01 20 26 -11 -11
+ 1019 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 650 01 16 36 -19 -10
+ 1020 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 650 01 20 26 -10 -9
+ 1021 * 17	 02 01 25   03 03   00 00  01 00  02 00    00 00  01 00  02 00 // open sled
+    // Large Float tank trailer
+ 1022 * 4	 01 01 01 08
+ 1023 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 10 01 24 12 -5 -14
+ 1024 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 10 09 20 26 -15 -7
+ 1025 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 10 01 16 36 -16 -9
+ 1026 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 10 09 20 26 -15 -11
+ 1027 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 10 01 24 12 -7 -16
+ 1028 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 10 09 20 26 -11 -11
+ 1029 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 10 01 16 36 -19 -10
+ 1030 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 10 09 20 26 -10 -9
+ 1031 * 9	 02 01 03   01 01    00 00    00 00 // tank trailer
+    // Large tank sled
+ 1032 * 4	 01 01 01 08
+ 1033 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 530 01 24 12 -5 -14
+ 1034 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 530 09 20 26 -15 -7
+ 1035 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 530 01 16 36 -16 -9
+ 1036 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 530 09 20 26 -15 -11
+ 1037 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 530 01 24 12 -7 -16
+ 1038 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 530 09 20 26 -11 -11
+ 1039 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 530 01 16 36 -19 -10
+ 1040 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 530 09 20 26 -10 -9
+ 1041 * 9	 02 01 23   01 01    00 00    00 00 // tank sled
+  // Rough order of business here:
+      // set length and refit texts
+      // choose sleds or trailers action 2 branch
+      // find cargo of vehicle, choose action 2 matching
+ 1042 * 22	 02 01 CE  // choose sled sprites according to cargo
+                 81 47 00 FF // var 47 in format ccccwwtt where I want tt 
+                 03 // range
+                  23 00 03 03 // oil
+                  23 00 0F 0F // water
+                  23 00 10 10 // rubber
+                 25 00 // default 
+ 1043 * 22	 02 01 CD  // choose wheeled float trailer sprites according to cargo slot (in cargo translation tt)
+                 81 47 00 FF // var 47 in format ccccwwtt where I want tt 
+                 03 // range
+                  03 00 03 03 // oil
+                  03 00 0F 0F // water
+                  03 00 10 10 // rubber
+                 05 00 // default 
+ 1044 * 18	 02 01 CC  // set refit text strings
+                 81 F2 00 FF //
+                 02 // range
+                  00 80 00 00 
+                  01 80 01 01 
+                 FF 80 // end callback chain
+ 1045 * 18	 02 01 CB  // choose sprites according to refit
+                 81 F2 00 FF //
+                 02 // range
+                  CD 00 00 00 // wheeled trailers 
+                  CE 00 01 01 // sleds
+                 05 00 // default 
+ 1046 * 18	 02 01 C0  // handle callbacks
+                 81 0C 00 FF //
+                 02 // range
+                  00 80 11 11 // vehicle length CB
+                  CC 00 19 19 // text suffix (refits) CB 
+                 CB 00 // graphics
+ 1047 * 7	 03 01 01 74 // Action 3
+    00 // Number of different cargo types to support (!! Hex) 
+	  C0 00 // default
+ 1048 * 7	 03 01 01 75 // Action 3
+    00 // Number of different cargo types to support (!! Hex) 
+	  C0 00 // default
+ 1049 * 7	 03 01 01 76 // Action 3
+    00 // Number of different cargo types to support (!! Hex) 
+	  C0 00 // default
+ 1050 * 7	 03 01 01 77 // Action 3
+    00 // Number of different cargo types to support (!! Hex) 
+	  C0 00 // default
+ 1051 * 7	 03 01 01 78 // Action 3
+    00 // Number of different cargo types to support (!! Hex) 
+	  C0 00 // default
+ 1052 * 7	 03 01 01 79 // Action 3
+    00 // Number of different cargo types to support (!! Hex) 
+	  C0 00 // default
+
+  // ----------------- end of Large Float / Sled Trailers -----------//      
+
+
+
 
   // ----------------- Bulldozers / Crawler Tractors -----------//      
 
@@ -3624,10 +3632,10 @@
  // Action 2 ID schema: 0 / 1 = rear wheels only, 2 / 3 = with front wheels  
  1670 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
  1671 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
-//!!Warning (94): Redefining ID 06 not used since previous definition at sprite 976.
+//!!Warning (94): Redefining ID 06 not used since previous definition at sprite 885.
  1672 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain (not used - left here for ease of copy and paste)
  1673 * 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
-//!!Warning (94): Redefining ID 17 not used since previous definition at sprite 978.
+//!!Warning (94): Redefining ID 17 not used since previous definition at sprite 887.
  1674 * 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
  1675 * 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
  1676 * 22	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
