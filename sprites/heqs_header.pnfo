@@ -1180,8 +1180,8 @@
     00 // Number of different cargo types to support (!! Hex) 
 	  C0 00 // default
 
-
-   // Very large bulldozer trailer 
+   // Large / Very large bulldozer trailer
+     // Lower capacity trailers use Large graphics.  Higher capacity use Very Large graphics.
      // Rough order of business here
        // Bulldozer trailers vary capacity depending on date vehicle is built
        // Can't get CB 36 to do that on build, only on refit (oh so close)
@@ -2339,7 +2339,7 @@
     1F \d708300    // Long format introduction date  
  1192 * 34	 04 01 7F 01 96 "No. 8 Crawler (Supply Train)" 00
  1193 * 103	 04 01 81 01 80 D0 "Hauls: " 8A "Four 12t trailers or sleds"
-                               0d 98 "Model: " 8A "1940" // action 2 chain references 1937, but intro date is 1940  (48t total cargo)
+                               0d 98 "Model: " 8A "1940" // (48t total)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab"
                                0d 98
                                00                               
@@ -2620,7 +2620,7 @@
  1319 * 30	 02 01 B5 // choose trailers by date
            81 01 00  FF // check current year
            05 // range
-             70 80 \b00 \b34 // before 1955
+             6F 80 \b00 \b34 // before 1955
              75 80 \b35 \b48 // before 1969
              76 80 \b49 \b59 // before 1980
              77 80 \b60 \b70 // before 1991
@@ -2677,32 +2677,32 @@
     1E 00 00          // Non-refittable cargo classes
     1F \d708300    // Long format introduction date  
  1325 * 38	 04 01 7F 01 97 "No. 8 Crawler (Logging / Mining)" 00
- 1326 * 116	 04 01 81 01 8A D0 "Hauls: " 8A "Two 30t log trailer belly-dump trailers" 
+ 1326 * 120	 04 01 81 01 8A D0 "Hauls: " 8A "Two 30t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1940"  // action 2 chain references 1937, but vehicle intro date is 1940 // (60t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab"
                                0d 98
                                00
- 1327 * 122	 04 01 81 01 8B D0 "Hauls: " 8A "Two 36t log trailer belly-dump trailers" 
+ 1327 * 126	 04 01 81 01 8B D0 "Hauls: " 8A "Two 36t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1955" // (72t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab style"
                                0d 98
                                00
- 1328 * 122	 04 01 81 01 8C D0 "Hauls: " 8A "Two 42t log trailer belly-dump trailers" 
+ 1328 * 126	 04 01 81 01 8C D0 "Hauls: " 8A "Two 42t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1969" // (84t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab style"
                                0d 98
                                00
- 1329 * 128	 04 01 81 01 8D D0 "Hauls: " 8A "Two 56t log trailer belly-dump trailers"
+ 1329 * 132	 04 01 81 01 8D D0 "Hauls: " 8A "Two 56t log trailers or belly-dump trailers"
                                0d 98 "Model: " 8A "1980 (Elevated drive)" // (112t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
                                0d 98
                                00
- 1330 * 128	 04 01 81 01 8E D0 "Hauls: " 8A "Two 70t log trailer belly-dump trailers"
+ 1330 * 132	 04 01 81 01 8E D0 "Hauls: " 8A "Two 70t log trailers or belly-dump trailers"
                                0d 98 "Model: " 8A "1991 (Elevated drive)" // (140t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
                                0d 98
                                00
- 1331 * 128	 04 01 81 01 8F D0 "Hauls: " 8A "Two 84t log trailer belly-dump trailers"
+ 1331 * 132	 04 01 81 01 8F D0 "Hauls: " 8A "Two 84t log trailers or belly-dump trailers"
                                0d 98 "Model: " 8A "2005 (Elevated drive)" // (168t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
                                0d 98
