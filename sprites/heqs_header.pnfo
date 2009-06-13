@@ -1350,7 +1350,7 @@
   767 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 50 01 16 36 -14 -8
   768 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 50 09 20 26 -10 -8
   769 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 50 01 24 12 -9 -16
-  770 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 50 09 20 26 -17 -8
+  770 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 50 09 20 26 -15 -8
   771 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 50 01 16 36 -26 -9
   772 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 50 09 20 26 -10 -10
    // Large bulldozer belly dump B - iron ore, loading
@@ -1359,7 +1359,7 @@
   775 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 490 01 16 36 -14 -8
   776 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 490 09 20 26 -10 -8
   777 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 490 01 24 12 -9 -16
-  778 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 490 09 20 26 -17 -8
+  778 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 490 09 20 26 -15 -8
   779 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 490 01 16 36 -26 -9
   780 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 490 09 20 26 -10 -10
    // Large bulldozer belly dump B - iron ore, loaded
@@ -1368,7 +1368,7 @@
   783 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 530 01 16 36 -14 -8
   784 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 530 09 20 26 -10 -8
   785 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 530 01 24 12 -9 -16
-  786 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 530 09 20 26 -17 -8
+  786 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 530 09 20 26 -15 -8
   787 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 530 01 16 36 -26 -9
   788 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 530 09 20 26 -10 -10
    // Large bulldozer belly dump B - coal, loading
@@ -1377,7 +1377,7 @@
   791 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 170 01 16 36 -14 -8
   792 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 170 09 20 26 -10 -8
   793 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 170 01 24 12 -9 -16
-  794 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 170 09 20 26 -17 -8
+  794 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 170 09 20 26 -15 -8
   795 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 170 01 16 36 -26 -9
   796 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 170 09 20 26 -10 -10
    // Large bulldozer belly dump B - coal, loaded
@@ -1386,7 +1386,7 @@
   799 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 210 01 16 36 -14 -8
   800 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 210 09 20 26 -10 -8
   801 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 210 01 24 12 -9 -16
-  802 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 210 09 20 26 -17 -8
+  802 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 210 09 20 26 -15 -8
   803 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 210 01 16 36 -26 -9
   804 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 210 09 20 26 -10 -10
    // Large bulldozer belly dump B - grain, loading
@@ -1395,7 +1395,7 @@
   807 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 250 01 16 36 -14 -8
   808 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 250 09 20 26 -10 -8
   809 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 250 01 24 12 -9 -16
-  810 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 250 09 20 26 -17 -8
+  810 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 250 09 20 26 -15 -8
   811 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 250 01 16 36 -26 -9
   812 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 250 09 20 26 -10 -10
   // Large bulldozer belly dump B - grain, loaded
@@ -1404,7 +1404,7 @@
   815 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 290 01 16 36 -14 -8
   816 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 290 09 20 26 -10 -8
   817 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 290 01 24 12 -9 -16
-  818 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 290 09 20 26 -17 -8
+  818 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 290 09 20 26 -15 -8
   819 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 290 01 16 36 -26 -9
   820 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 290 09 20 26 -10 -10
   // Large bulldozer belly dump B - brown, loading
@@ -1413,7 +1413,7 @@
   823 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 410 01 16 36 -14 -8
   824 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 410 09 20 26 -10 -8
   825 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 410 01 24 12 -9 -16
-  826 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 410 09 20 26 -17 -8
+  826 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 410 09 20 26 -15 -8
   827 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 410 01 16 36 -26 -9
   828 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 410 09 20 26 -10 -10
   // Large bulldozer belly dump B - brown, loaded
@@ -1422,7 +1422,7 @@
   831 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 450 01 16 36 -14 -8
   832 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 450 09 20 26 -10 -8
   833 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 450 01 24 12 -9 -16
-  834 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 450 09 20 26 -17 -8
+  834 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 450 09 20 26 -15 -8
   835 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 450 01 16 36 -26 -9
   836 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 450 09 20 26 -10 -10
   // Large bulldozer belly dump B - red, loading
@@ -1431,7 +1431,7 @@
   839 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 370 01 16 36 -14 -8
   840 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 370 09 20 26 -10 -8
   841 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 370 01 24 12 -9 -16
-  842 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 370 09 20 26 -17 -8
+  842 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 370 09 20 26 -15 -8
   843 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 370 01 16 36 -26 -9
   844 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 370 09 20 26 -10 -10
   // Large bulldozer belly dump B - red, loaded
@@ -1440,7 +1440,7 @@
   847 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 370 01 16 36 -14 -8
   848 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 370 09 20 26 -10 -8
   849 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 370 01 24 12 -9 -16
-  850 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 370 09 20 26 -17 -8
+  850 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 370 09 20 26 -15 -8
   851 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 370 01 16 36 -26 -9
   852 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 370 09 20 26 -10 -10
   // Large bulldozer belly dump B - grey, loading
@@ -1449,7 +1449,7 @@
   855 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 90 01 16 36 -14 -8
   856 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 90 09 20 26 -10 -8
   857 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 90 01 24 12 -9 -16
-  858 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 90 09 20 26 -17 -8
+  858 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 90 09 20 26 -15 -8
   859 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 90 01 16 36 -26 -9
   860 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 90 09 20 26 -10 -10
   // Large bulldozer belly dump B - grey, loaded
@@ -1458,7 +1458,7 @@
   863 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 130 01 16 36 -14 -8
   864 sprites/standard_trailers/bulldozer_trailer_large.pcx 146 130 09 20 26 -10 -8
   865 sprites/standard_trailers/bulldozer_trailer_large.pcx 178 130 01 24 12 -9 -16
-  866 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 130 09 20 26 -17 -8
+  866 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 130 09 20 26 -15 -8
   867 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 130 01 16 36 -26 -9
   868 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 130 09 20 26 -10 -10
   869 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
@@ -1552,7 +1552,7 @@
   944 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 50 01 16 36 -14 -8
   945 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 50 09 20 26 -10 -8
   946 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 50 01 24 12 -9 -16
-  947 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 50 09 20 26 -17 -8
+  947 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 50 09 20 26 -15 -8
   948 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 50 01 16 36 -26 -9
   949 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 50 09 20 26 -10 -10
    // Very large bulldozer belly dump B - iron ore, loading
@@ -1561,7 +1561,7 @@
   952 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 490 01 16 36 -14 -8
   953 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 490 09 20 26 -10 -8
   954 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 490 01 24 12 -9 -16
-  955 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 490 09 20 26 -17 -8
+  955 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 490 09 20 26 -15 -8
   956 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 490 01 16 36 -26 -9
   957 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 490 09 20 26 -10 -10
    // Very large bulldozer belly dump B - iron ore, loaded
@@ -1570,7 +1570,7 @@
   960 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 530 01 16 36 -14 -8
   961 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 530 09 20 26 -10 -8
   962 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 530 01 24 12 -9 -16
-  963 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 530 09 20 26 -17 -8
+  963 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 530 09 20 26 -15 -8
   964 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 530 01 16 36 -26 -9
   965 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 530 09 20 26 -10 -10
    // Very large bulldozer belly dump B - coal, loading
@@ -1579,7 +1579,7 @@
   968 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 170 01 16 36 -14 -8
   969 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 170 09 20 26 -10 -8
   970 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 170 01 24 12 -9 -16
-  971 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 170 09 20 26 -17 -8
+  971 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 170 09 20 26 -15 -8
   972 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 170 01 16 36 -26 -9
   973 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 170 09 20 26 -10 -10
    // Very large bulldozer belly dump B - coal, loaded
@@ -1588,7 +1588,7 @@
   976 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 210 01 16 36 -14 -8
   977 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 210 09 20 26 -10 -8
   978 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 210 01 24 12 -9 -16
-  979 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 210 09 20 26 -17 -8
+  979 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 210 09 20 26 -15 -8
   980 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 210 01 16 36 -26 -9
   981 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 210 09 20 26 -10 -10
    // Very large bulldozer belly dump B - grain, loading
@@ -1597,7 +1597,7 @@
   984 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 250 01 16 36 -14 -8
   985 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 250 09 20 26 -10 -8
   986 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 250 01 24 12 -9 -16
-  987 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 250 09 20 26 -17 -8
+  987 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 250 09 20 26 -15 -8
   988 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 250 01 16 36 -26 -9
   989 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 250 09 20 26 -10 -10
   // Very large bulldozer belly dump B - grain, loaded
@@ -1606,7 +1606,7 @@
   992 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 290 01 16 36 -14 -8
   993 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 290 09 20 26 -10 -8
   994 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 290 01 24 12 -9 -16
-  995 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 290 09 20 26 -17 -8
+  995 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 290 09 20 26 -15 -8
   996 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 290 01 16 36 -26 -9
   997 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 290 09 20 26 -10 -10
   // Very large bulldozer belly dump B - brown, loading
@@ -1615,7 +1615,7 @@
  1000 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 410 01 16 36 -14 -8
  1001 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 410 09 20 26 -10 -8
  1002 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 410 01 24 12 -9 -16
- 1003 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 410 09 20 26 -17 -8
+ 1003 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 410 09 20 26 -15 -8
  1004 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 410 01 16 36 -26 -9
  1005 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 410 09 20 26 -10 -10
   // Very large bulldozer belly dump B - brown, loaded
@@ -1624,7 +1624,7 @@
  1008 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 450 01 16 36 -14 -8
  1009 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 450 09 20 26 -10 -8
  1010 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 450 01 24 12 -9 -16
- 1011 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 450 09 20 26 -17 -8
+ 1011 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 450 09 20 26 -15 -8
  1012 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 450 01 16 36 -26 -9
  1013 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 450 09 20 26 -10 -10
   // Very large bulldozer belly dump B - red, loading
@@ -1633,7 +1633,7 @@
  1016 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -14 -8
  1017 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
  1018 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
- 1019 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -17 -8
+ 1019 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -15 -8
  1020 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -26 -9
  1021 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
   // Very large bulldozer belly dump B - red, loaded
@@ -1642,7 +1642,7 @@
  1024 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -14 -8
  1025 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
  1026 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
- 1027 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -17 -8
+ 1027 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -15 -8
  1028 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -26 -9
  1029 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
   // Very large bulldozer belly dump B - grey, loading
@@ -1651,7 +1651,7 @@
  1032 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 90 01 16 36 -14 -8
  1033 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 90 09 20 26 -10 -8
  1034 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 90 01 24 12 -9 -16
- 1035 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 90 09 20 26 -17 -8
+ 1035 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 90 09 20 26 -15 -8
  1036 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 90 01 16 36 -26 -9
  1037 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 90 09 20 26 -10 -10
   // Very large bulldozer belly dump B - grey, loaded
@@ -1660,7 +1660,7 @@
  1040 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 130 01 16 36 -14 -8
  1041 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 146 130 09 20 26 -10 -8
  1042 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 178 130 01 24 12 -9 -16
- 1043 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 130 09 20 26 -17 -8
+ 1043 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 130 09 20 26 -15 -8
  1044 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 130 01 16 36 -26 -9
  1045 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 130 09 20 26 -10 -10
  1046 * 17	 02 01 28  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
@@ -2383,7 +2383,7 @@
  1306 sprites/bulldozers/bulldozers.pcx 98 10 01 16 36 -12 -9
  1307 sprites/bulldozers/bulldozers.pcx 146 10 01 20 26 -7 -9
  1308 sprites/bulldozers/bulldozers.pcx 178 10 01 24 12 -5 -13
- 1309 sprites/bulldozers/bulldozers.pcx 210 10 01 20 26 -16 -9
+ 1309 sprites/bulldozers/bulldozers.pcx 210 10 01 20 26 -18 -7
  1310 sprites/bulldozers/bulldozers.pcx 242 10 01 16 36 -27 -8
  1311 sprites/bulldozers/bulldozers.pcx 290 10 01 20 26 -12 -11
   // No. 6 open cab with blade
@@ -2392,7 +2392,7 @@
  1314 sprites/bulldozers/bulldozers.pcx 98 90 01 16 36 -12 -9
  1315 sprites/bulldozers/bulldozers.pcx 146 90 01 20 26 -7 -9
  1316 sprites/bulldozers/bulldozers.pcx 178 90 01 24 12 -5 -13
- 1317 sprites/bulldozers/bulldozers.pcx 210 90 01 20 26 -16 -9
+ 1317 sprites/bulldozers/bulldozers.pcx 210 90 01 20 26 -18 -7
  1318 sprites/bulldozers/bulldozers.pcx 242 90 01 16 36 -27 -8
  1319 sprites/bulldozers/bulldozers.pcx 290 90 01 20 26 -12 -11
   // No. 6 enclosed cab with blade
@@ -2401,7 +2401,7 @@
  1322 sprites/bulldozers/bulldozers.pcx 98 170 01 16 36 -12 -9
  1323 sprites/bulldozers/bulldozers.pcx 146 170 01 20 26 -7 -9
  1324 sprites/bulldozers/bulldozers.pcx 178 170 01 24 12 -5 -13
- 1325 sprites/bulldozers/bulldozers.pcx 210 170 01 20 26 -16 -9
+ 1325 sprites/bulldozers/bulldozers.pcx 210 170 01 20 26 -18 -7
  1326 sprites/bulldozers/bulldozers.pcx 242 170 01 16 36 -27 -8
  1327 sprites/bulldozers/bulldozers.pcx 290 170 01 20 26 -12 -11
   // No. 6 black cab with blade
@@ -2410,7 +2410,7 @@
  1330 sprites/bulldozers/bulldozers.pcx 98 250 01 16 36 -12 -9
  1331 sprites/bulldozers/bulldozers.pcx 146 250 01 20 26 -7 -9
  1332 sprites/bulldozers/bulldozers.pcx 178 250 01 24 12 -5 -13
- 1333 sprites/bulldozers/bulldozers.pcx 210 250 01 20 26 -16 -9
+ 1333 sprites/bulldozers/bulldozers.pcx 210 250 01 20 26 -18 -7
  1334 sprites/bulldozers/bulldozers.pcx 242 250 01 16 36 -27 -8
  1335 sprites/bulldozers/bulldozers.pcx 290 250 01 20 26 -12 -11
   // No. 6 modern open cab with blade
@@ -2419,7 +2419,7 @@
  1338 sprites/bulldozers/bulldozers.pcx 98 330 01 16 36 -12 -9
  1339 sprites/bulldozers/bulldozers.pcx 146 330 01 20 26 -7 -9
  1340 sprites/bulldozers/bulldozers.pcx 178 330 01 24 12 -5 -13
- 1341 sprites/bulldozers/bulldozers.pcx 210 330 01 20 26 -16 -9
+ 1341 sprites/bulldozers/bulldozers.pcx 210 330 01 20 26 -18 -7
  1342 sprites/bulldozers/bulldozers.pcx 242 330 01 16 36 -27 -8
  1343 sprites/bulldozers/bulldozers.pcx 290 330 01 20 26 -12 -11
  1344 * 9	 02 01 A1 //normal action2 defining graphics with no loading/loaded stages 
