@@ -1386,83 +1386,83 @@
   // Action 2 ID schema: 0 / 1 = wheeled trailer, 2 / 3 = sled
    // Large bulldozer Trailer open empty
   777 * 4	 01 01 03 08
-  778 sprites/standard_trailers/large_bulldozer_trailer.pcx 34 50 01 24 12 -5 -14
-  779 sprites/standard_trailers/large_bulldozer_trailer.pcx 66 50 09 20 26 -15 -7
-  780 sprites/standard_trailers/large_bulldozer_trailer.pcx 98 50 01 16 36 -16 -9
-  781 sprites/standard_trailers/large_bulldozer_trailer.pcx 146 50 09 20 26 -15 -11
-  782 sprites/standard_trailers/large_bulldozer_trailer.pcx 178 50 01 24 12 -7 -16
-  783 sprites/standard_trailers/large_bulldozer_trailer.pcx 210 50 09 20 26 -11 -11
-  784 sprites/standard_trailers/large_bulldozer_trailer.pcx 242 50 01 16 36 -19 -10
-  785 sprites/standard_trailers/large_bulldozer_trailer.pcx 290 50 09 20 26 -10 -9
+  778 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 50 01 24 12 -5 -14
+  779 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 50 09 20 26 -15 -7
+  780 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 50 01 16 36 -16 -9
+  781 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 50 09 20 26 -15 -11
+  782 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 50 01 24 12 -7 -16
+  783 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 50 09 20 26 -11 -11
+  784 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 50 01 16 36 -19 -10
+  785 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 50 09 20 26 -10 -9
    // Large bulldozer Trailer open loading
-  786 sprites/standard_trailers/large_bulldozer_trailer.pcx 34 90 01 24 12 -5 -14
-  787 sprites/standard_trailers/large_bulldozer_trailer.pcx 66 90 09 20 26 -15 -7
-  788 sprites/standard_trailers/large_bulldozer_trailer.pcx 98 90 01 16 36 -16 -9
-  789 sprites/standard_trailers/large_bulldozer_trailer.pcx 146 90 09 20 26 -15 -11
-  790 sprites/standard_trailers/large_bulldozer_trailer.pcx 178 90 01 24 12 -7 -16
-  791 sprites/standard_trailers/large_bulldozer_trailer.pcx 210 90 09 20 26 -11 -11
-  792 sprites/standard_trailers/large_bulldozer_trailer.pcx 242 90 01 16 36 -19 -10
-  793 sprites/standard_trailers/large_bulldozer_trailer.pcx 290 90 09 20 26 -10 -9
+  786 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 90 01 24 12 -5 -14
+  787 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 90 09 20 26 -15 -7
+  788 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 90 01 16 36 -16 -9
+  789 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 90 09 20 26 -15 -11
+  790 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 90 01 24 12 -7 -16
+  791 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 90 09 20 26 -11 -11
+  792 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 90 01 16 36 -19 -10
+  793 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 90 09 20 26 -10 -9
    // Large bulldozer Trailer open loaded
-  794 sprites/standard_trailers/large_bulldozer_trailer.pcx 34 130 01 24 12 -5 -14
-  795 sprites/standard_trailers/large_bulldozer_trailer.pcx 66 130 09 20 26 -15 -7
-  796 sprites/standard_trailers/large_bulldozer_trailer.pcx 98 130 01 16 36 -16 -9
-  797 sprites/standard_trailers/large_bulldozer_trailer.pcx 146 130 09 20 26 -15 -11
-  798 sprites/standard_trailers/large_bulldozer_trailer.pcx 178 130 01 24 12 -7 -16
-  799 sprites/standard_trailers/large_bulldozer_trailer.pcx 210 130 09 20 26 -11 -11
-  800 sprites/standard_trailers/large_bulldozer_trailer.pcx 242 130 01 16 36 -19 -10
-  801 sprites/standard_trailers/large_bulldozer_trailer.pcx 290 130 09 20 26 -10 -9
+  794 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 130 01 24 12 -5 -14
+  795 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 130 09 20 26 -15 -7
+  796 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 130 01 16 36 -16 -9
+  797 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 130 09 20 26 -15 -11
+  798 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 130 01 24 12 -7 -16
+  799 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 130 09 20 26 -11 -11
+  800 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 130 01 16 36 -19 -10
+  801 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 130 09 20 26 -10 -9
   802 * 13	 02 01 05   02 02   00 00  02 00    00 00  01 00 // open trailer
    // Large bulldozer sled open
   803 * 4	 01 01 03 08
-  804 sprites/standard_trailers/large_bulldozer_trailer.pcx 34 570 01 24 12 -5 -14
-  805 sprites/standard_trailers/large_bulldozer_trailer.pcx 66 570 01 20 26 -15 -7
-  806 sprites/standard_trailers/large_bulldozer_trailer.pcx 98 570 01 16 36 -16 -9
-  807 sprites/standard_trailers/large_bulldozer_trailer.pcx 146 570 01 20 26 -15 -11
-  808 sprites/standard_trailers/large_bulldozer_trailer.pcx 178 570 01 24 12 -7 -16
-  809 sprites/standard_trailers/large_bulldozer_trailer.pcx 210 570 01 20 26 -11 -11
-  810 sprites/standard_trailers/large_bulldozer_trailer.pcx 242 570 01 16 36 -19 -10
-  811 sprites/standard_trailers/large_bulldozer_trailer.pcx 290 570 01 20 26 -10 -9
+  804 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 570 01 24 12 -5 -14
+  805 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 570 01 20 26 -15 -7
+  806 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 570 01 16 36 -16 -9
+  807 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 570 01 20 26 -15 -11
+  808 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 570 01 24 12 -7 -16
+  809 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 570 01 20 26 -11 -11
+  810 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 570 01 16 36 -19 -10
+  811 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 570 01 20 26 -10 -9
    // Large bulldozer sled open - loading
-  812 sprites/standard_trailers/large_bulldozer_trailer.pcx 34 610 01 24 12 -5 -14
-  813 sprites/standard_trailers/large_bulldozer_trailer.pcx 66 610 01 20 26 -15 -7
-  814 sprites/standard_trailers/large_bulldozer_trailer.pcx 98 610 01 16 36 -16 -9
-  815 sprites/standard_trailers/large_bulldozer_trailer.pcx 146 610 01 20 26 -15 -11
-  816 sprites/standard_trailers/large_bulldozer_trailer.pcx 178 610 01 24 12 -7 -16
-  817 sprites/standard_trailers/large_bulldozer_trailer.pcx 210 610 01 20 26 -11 -11
-  818 sprites/standard_trailers/large_bulldozer_trailer.pcx 242 610 01 16 36 -19 -10
-  819 sprites/standard_trailers/large_bulldozer_trailer.pcx 290 610 01 20 26 -10 -9
+  812 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 610 01 24 12 -5 -14
+  813 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 610 01 20 26 -15 -7
+  814 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 610 01 16 36 -16 -9
+  815 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 610 01 20 26 -15 -11
+  816 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 610 01 24 12 -7 -16
+  817 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 610 01 20 26 -11 -11
+  818 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 610 01 16 36 -19 -10
+  819 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 610 01 20 26 -10 -9
    // Large bulldozer sled open - loaded
-  820 sprites/standard_trailers/large_bulldozer_trailer.pcx 34 650 01 24 12 -5 -14
-  821 sprites/standard_trailers/large_bulldozer_trailer.pcx 66 650 01 20 26 -15 -7
-  822 sprites/standard_trailers/large_bulldozer_trailer.pcx 98 650 01 16 36 -16 -9
-  823 sprites/standard_trailers/large_bulldozer_trailer.pcx 146 650 01 20 26 -15 -11
-  824 sprites/standard_trailers/large_bulldozer_trailer.pcx 178 650 01 24 12 -7 -16
-  825 sprites/standard_trailers/large_bulldozer_trailer.pcx 210 650 01 20 26 -11 -11
-  826 sprites/standard_trailers/large_bulldozer_trailer.pcx 242 650 01 16 36 -19 -10
-  827 sprites/standard_trailers/large_bulldozer_trailer.pcx 290 650 01 20 26 -10 -9
+  820 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 650 01 24 12 -5 -14
+  821 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 650 01 20 26 -15 -7
+  822 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 650 01 16 36 -16 -9
+  823 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 650 01 20 26 -15 -11
+  824 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 650 01 24 12 -7 -16
+  825 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 650 01 20 26 -11 -11
+  826 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 650 01 16 36 -19 -10
+  827 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 650 01 20 26 -10 -9
   828 * 17	 02 01 25   03 03   00 00  01 00  02 00    00 00  01 00  02 00 // open sled
     // Large bulldozer tank trailer
   829 * 4	 01 01 01 08
-  830 sprites/standard_trailers/large_bulldozer_trailer.pcx 34 10 01 24 12 -5 -14
-  831 sprites/standard_trailers/large_bulldozer_trailer.pcx 66 10 09 20 26 -15 -7
-  832 sprites/standard_trailers/large_bulldozer_trailer.pcx 98 10 01 16 36 -16 -9
-  833 sprites/standard_trailers/large_bulldozer_trailer.pcx 146 10 09 20 26 -15 -11
-  834 sprites/standard_trailers/large_bulldozer_trailer.pcx 178 10 01 24 12 -7 -16
-  835 sprites/standard_trailers/large_bulldozer_trailer.pcx 210 10 09 20 26 -11 -11
-  836 sprites/standard_trailers/large_bulldozer_trailer.pcx 242 10 01 16 36 -19 -10
-  837 sprites/standard_trailers/large_bulldozer_trailer.pcx 290 10 09 20 26 -10 -9
+  830 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 10 01 24 12 -5 -14
+  831 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 10 09 20 26 -15 -7
+  832 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 10 01 16 36 -16 -9
+  833 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 10 09 20 26 -15 -11
+  834 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 10 01 24 12 -7 -16
+  835 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 10 09 20 26 -11 -11
+  836 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 10 01 16 36 -19 -10
+  837 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 10 09 20 26 -10 -9
   838 * 9	 02 01 03   01 01    00 00    00 00 // tank trailer
     // Large bulldozer tank sled
   839 * 4	 01 01 01 08
-  840 sprites/standard_trailers/large_bulldozer_trailer.pcx 34 530 01 24 12 -5 -14
-  841 sprites/standard_trailers/large_bulldozer_trailer.pcx 66 530 09 20 26 -15 -7
-  842 sprites/standard_trailers/large_bulldozer_trailer.pcx 98 530 01 16 36 -16 -9
-  843 sprites/standard_trailers/large_bulldozer_trailer.pcx 146 530 09 20 26 -15 -11
-  844 sprites/standard_trailers/large_bulldozer_trailer.pcx 178 530 01 24 12 -7 -16
-  845 sprites/standard_trailers/large_bulldozer_trailer.pcx 210 530 09 20 26 -11 -11
-  846 sprites/standard_trailers/large_bulldozer_trailer.pcx 242 530 01 16 36 -19 -10
-  847 sprites/standard_trailers/large_bulldozer_trailer.pcx 290 530 09 20 26 -10 -9
+  840 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 34 530 01 24 12 -5 -14
+  841 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 66 530 09 20 26 -15 -7
+  842 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 98 530 01 16 36 -16 -9
+  843 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 146 530 09 20 26 -15 -11
+  844 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 178 530 01 24 12 -7 -16
+  845 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 210 530 09 20 26 -11 -11
+  846 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 242 530 01 16 36 -19 -10
+  847 sprites/standard_trailers/large_float_trailers_and_sleds.pcx 290 530 09 20 26 -10 -9
   848 * 9	 02 01 23   01 01    00 00    00 00 // tank sled
   // Rough order of business here:
       // set length and refit texts
