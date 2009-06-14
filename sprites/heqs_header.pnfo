@@ -3131,7 +3131,7 @@
  1563 sprites/bulldozers/bulldozers.pcx 146 1330 09 20 26 -9 -9
  1564 sprites/bulldozers/bulldozers.pcx 178 1330 01 24 12 -5 -13
  1565 sprites/bulldozers/bulldozers.pcx 210 1330 09 20 26 -16 -9
- 1566 sprites/bulldozers/bulldozers.pcx 242 1330 01 16 36 -26 -10
+ 1566 sprites/bulldozers/bulldozers.pcx 242 1330 01 16 36 -23 -10
  1567 sprites/bulldozers/bulldozers.pcx 290 1330 09 20 26 -10 -10
     // No. 9 upgraded black cab - bulldozer blade
  1568 sprites/bulldozers/bulldozers.pcx 34 1370 01 24 12 -5 -17
@@ -3149,7 +3149,7 @@
  1579 sprites/bulldozers/bulldozers.pcx 146 1410 09 20 26 -9 -9
  1580 sprites/bulldozers/bulldozers.pcx 178 1410 01 24 12 -5 -13
  1581 sprites/bulldozers/bulldozers.pcx 210 1410 09 20 26 -16 -9
- 1582 sprites/bulldozers/bulldozers.pcx 242 1410 01 16 36 -26 -10
+ 1582 sprites/bulldozers/bulldozers.pcx 242 1410 01 16 36 -23 -10
  1583 sprites/bulldozers/bulldozers.pcx 290 1410 09 20 26 -10 -10
   // Real sprites are also used by No. 9 (Logging / Mining)
  1584 * 9	 02 01 A1 //action2 - 2cc cab, blade 
