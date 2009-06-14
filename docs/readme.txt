@@ -9,6 +9,16 @@ Please see the fine user manual for more information about the set :)
 
 Changelog
 
+*version 0.5a*
+Added new graphics for No. 9 Bulldozer for 1970-1980
+Added new graphics (smaller) for lower capacity bulldozer trailers
+Improved sprites offsets for bulldozers /trailers
+Removed redundant vehicle IDs
+Removed drawbars from some articulated vehicles to improve appearance
+Drawbar graphics are now invisible to improve appearance
+Cleanup of psd / pcx files: organisation and filenames
+!! Vehicle IDs changed.  Will break saved games using v0.4
+
 *Version 0.4e*
 
 Added new graphics for No.6 Bulldozers from 1993 onwards.  
