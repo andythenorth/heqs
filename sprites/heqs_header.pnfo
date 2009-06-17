@@ -3767,13 +3767,15 @@
     07 05     // load amount 
     08 80     // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
     0F \b90     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 20     // speed in mph * 0.8
+    13 \b0     // power in 10 hp
+    14 \b96     // weight in 1/4 tons
+    15 \b48     // speed in mph * 0.8
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 16     // Callback flags bit mask
@@ -3935,13 +3937,15 @@
     07 05     // load amount 
     08 80     // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
     0F \b120     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 20     // speed in mph * 0.8
+    13 \b0     // power in 10 hp
+    14 \b132     // weight in 1/4 tons
+    15 \b48     // speed in mph * 0.8
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 16     // Callback flags bit mask
@@ -4656,12 +4660,14 @@
     07 05     // load amount
     08 \b128     // speed in mph * 3.2
     09 50     // running cost factor
-    0A 48 4C 00 00 13 28 14 C8        // running cost base
+    0A 48 4C 00 00    // running cost base
     0E FF     // sprite ID
     0F \b60     // capacity
     10 FF     // cargo type 
     11 5D     // cost factor
-    12 19     // sound effect
+    12 17     // sound effect
+    13 \b65     // power in 10 hp
+    14 \b172     // weight in 1/4 tons
     15 \b32     // speed in mph * 0.8
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
@@ -4769,12 +4775,14 @@
     07 05     // load amount
     08 \b112     // speed in mph * 3.2
     09 50     // running cost factor
-    0A 48 4C 00 00 13 28 14 C8        // running cost base
+    0A 48 4C 00 00  // running cost base
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type 
     11 5D     // cost factor
-    12 19     // sound effect
+    12 17     // sound effect
+    13 \b65     // power in 10 hp
+    14 \b124     // weight in 1/4 tons
     15 \b28     // speed in mph * 0.8
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
@@ -4842,12 +4850,14 @@
     07 05     // load amount
     08 \b135     // speed in mph * 3.2
     09 50     // running cost factor
-    0A 48 4C 00 00 13 28 14 C8        // running cost base
+    0A 48 4C 00 00        // running cost base
     0E FF     // sprite ID
     0F \b95     // capacity
     10 FF     // cargo type 
     11 5D     // cost factor
-    12 19     // sound effect
+    12 17     // sound effect
+    13 \b93     // power in 10 hp
+    14 \b232     // weight in 1/4 tons
     15 \b37     // speed in mph * 0.8
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
@@ -4946,7 +4956,10 @@
    A6 00 // default sprites
 
   // Camelback Mountain Mining Truck  240t		2001-2050	37mph
- 2555 * 67	 00 01 19 01 D6
+//!!Warning (109): Offset 41: Property 13 is previously defined at offset 27.
+//!!Warning (109): Offset 43: Property 14 is previously defined at offset 29.
+//!!Warning (99): Offset 63: No more data was expected.
+ 2555 * 71	 00 01 19 01 D6
     00 \w1-1-1920  // intro date
     02 20     // reliability
     03 19     // vehicle life
@@ -4960,7 +4973,9 @@
     0F 00     // capacity
     10 FF     // cargo type 
     11 5D     // cost factor
-    12 19     // sound effect
+    12 17     // sound effect
+    13 \b93     // power in 10 hp
+    14 \b176     // weight in 1/4 tons
     15 \b30     // speed in mph * 0.8
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
@@ -5032,12 +5047,14 @@
     07 05     // load amount
     08 \b182     // speed in mph * 3.2
     09 50     // running cost factor
-    0A 48 4C 00 00 13 28 14 C8        // running cost base
+    0A 48 4C 00 00       // running cost base
     0E FF     // sprite ID
     0F \b160     // capacity
     10 FF     // cargo type 
     11 5D     // cost factor
-    12 19     // sound effect
+    12 1A     // sound effect
+    13 \b120     // power in 10 hp
+    14 \b252     // weight in 1/4 tons
     15 \b46     // speed in mph * 0.8
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
