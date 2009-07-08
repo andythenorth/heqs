@@ -82,19 +82,23 @@ endif
 # Compile GRF
 grf : $(GRF_FILENAME)
 
-$(GRF_FILENAME): $(NFO_FILENAME)
+%.grf: $(SPRITEDIR)/%.nfo
 	# pipe all nfo files through grfcodec and produce the grf(s)
 	$(V) echo "Compiling GRF:"
-	$(V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir ${GRF_FILENAME})
+	$(V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@)
 	$(V) echo
 	
 # NFORENUM process copy of the NFO
-$(NFO_FILENAME): $(PCX_FILES) $(PNFO_FILES) $(REV_FILENAME)
+.INTERMEDIATE: %.$(NFO_SUFFIX)
+.PRECIOUS: %.$(NFO_SUFFIX)
+%.$(NFO_SUFFIX): $(PCX_FILES) $(PNFO_FILES) $(REV_FILENAME)
 	$(V) # replace the place holders for version and name by the respective variables:
-	$(V) -rm $(CPNFO_FILENAME)
-	$(V) for i in $(PNFO_FILES); do echo "#include \"$$i\"" >> $(CPNFO_FILENAME); done
-	$(V) echo "Setting title to $(GRF_TITLE)..."
-	$(V) $(CC) $(CC_FLAGS) $(CPNFO_FILENAME) | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" | grep -v '#' > $@ 
+	$(V) echo "Creating $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX))."
+	$(V) if [ -f $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX)) ]; then rm $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX)) ; fi
+	$(V) for i in $(PNFO_FILES); do echo "#include \"$$i\"" >> $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX)); done
+	$(V) echo "Setting title to $(GRF_TITLE)"
+	$(V) echo "Creating $@..."
+	$(V) $(CC) $(CC_FLAGS) $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX)) | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" | grep -v '#' > $@ 
 	$(V) echo	
 	$(V) echo "NFORENUM processing:"
 	$(V)-$(NFORENUM) ${NFORENUM_FLAGS} $@ 
