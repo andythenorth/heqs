@@ -5,6 +5,14 @@ http://www.tt-foundry.com/
 
 Please see the fine user manual for more information about the set :)
 
+Name of this GRF:   {{GRF_TITLE}}
+GRF_ID:             {{GRF_ID}}
+MD5 sum:            {{GRF_MD5}}
+
+Repository version: {{GRF_REVISION}}
+
+
+
 --------------------------
 
 Changelog
