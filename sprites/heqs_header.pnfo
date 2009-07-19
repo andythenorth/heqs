@@ -1398,7 +1398,7 @@
   802 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 210 09 20 26 -15 -9
   803 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 210 01 16 36 -26 -9
   804 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 210 09 20 26 -10 -10
-   // Large bulldozer belly dump B - grain, loading
+   // Large bulldozer belly dump B - sand, loading
   805 sprites/standard_trailers/bulldozer_trailer_large.pcx 34 250 01 24 12 -3 -16
   806 sprites/standard_trailers/bulldozer_trailer_large.pcx 66 250 09 20 26 -14 -7
   807 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 250 01 16 36 -14 -8
@@ -1407,7 +1407,7 @@
   810 sprites/standard_trailers/bulldozer_trailer_large.pcx 210 250 09 20 26 -15 -9
   811 sprites/standard_trailers/bulldozer_trailer_large.pcx 242 250 01 16 36 -26 -9
   812 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 250 09 20 26 -10 -10
-  // Large bulldozer belly dump B - grain, loaded
+  // Large bulldozer belly dump B - sand, loaded
   813 sprites/standard_trailers/bulldozer_trailer_large.pcx 34 290 01 24 12 -3 -16
   814 sprites/standard_trailers/bulldozer_trailer_large.pcx 66 290 09 20 26 -14 -7
   815 sprites/standard_trailers/bulldozer_trailer_large.pcx 98 290 01 16 36 -14 -8
@@ -1472,7 +1472,7 @@
   868 sprites/standard_trailers/bulldozer_trailer_large.pcx 290 130 09 20 26 -10 -10
   869 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
   870 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
-  871 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain (not used - left here for ease of copy and paste)
+  871 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // sand
   872 * 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
 //!!Warning (94): Redefining ID 17 not used since previous definition at sprite 139.
   873 * 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
@@ -1603,7 +1603,7 @@
   979 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 210 09 20 26 -15 -9
   980 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 210 01 16 36 -23 -10
   981 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 210 09 20 26 -10 -10
-   // Very large bulldozer belly dump B - grain, loading
+   // Very large bulldozer belly dump B - sand, loading
   982 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 250 01 24 12 -3 -16
   983 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 250 09 20 26 -14 -7
   984 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 250 01 16 36 -13 -7
@@ -1612,7 +1612,7 @@
   987 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 210 250 09 20 26 -15 -9
   988 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 242 250 01 16 36 -23 -10
   989 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 250 09 20 26 -10 -10
-  // Very large bulldozer belly dump B - grain, loaded
+  // Very large bulldozer belly dump B - sand, loaded
   990 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 34 290 01 24 12 -3 -16
   991 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 66 290 09 20 26 -14 -7
   992 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 98 290 01 16 36 -13 -7
@@ -1677,7 +1677,7 @@
  1045 sprites/standard_trailers/bulldozer_trailer_very_large.pcx 290 130 09 20 26 -10 -10
  1046 * 17	 02 01 28  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
  1047 * 17	 02 01 21  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
- 1048 * 17	 02 01 26  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain (not used - left here for ease of copy and paste)
+ 1048 * 17	 02 01 26  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // sand
  1049 * 17	 02 01 2E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
  1050 * 17	 02 01 27  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
  1051 * 17	 02 01 31  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
@@ -1763,11 +1763,12 @@
  // Action 2 for Large trailers
  1118 * 26	 02 01 CB // choose sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 04 // range
-                  01 00 01 01 // coal
-                  08 00 08 08 // iron ore
-                  0E 00 0E 0E // copper ore
-                  07 00 07 07 // wood
+                 05 // range
+                  01 00 01 01 // format: id | cargo
+                  08 00 08 08
+                  0E 00 0E 0E
+                  07 00 07 07
+                  06 00 19 19
                  11 00 // default
  1119 * 14	 02 01 CA  // handle callbacks
                  81 0C 00 FF //
@@ -1777,11 +1778,12 @@
 // Action 2 for Very Large trailer
  1120 * 26	 02 01 CE // choose sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 04 // range
-                  21 00 01 01 // coal
-                  28 00 08 08 // iron ore
-                  2E 00 0E 0E // copper ore
-                  27 00 07 07 // wood
+                 05 // range
+                  21 00 01 01 // format: id | cargo
+                  28 00 08 08
+                  2E 00 0E 0E
+                  27 00 07 07
+                  26 00 19 19
                  31 00 // default 
  1121 * 14	 02 01 CD  // handle callbacks
                  81 0C 00 FF //
