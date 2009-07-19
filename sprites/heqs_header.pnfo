@@ -5236,7 +5236,7 @@
     1E EF 03          // Non-refittable cargo classes
     1F \d726840   // Long format introduction date (dword)
  2615 * 39	 04 01 7F 01 D7 "Kilimanjaro Unitised Mining Truck" 00
- 2616 * 4	 01 01 07 08
+ 2616 * 4	 01 01 0F 08
   // unitised hauler empty
  2617 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
  2618 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
@@ -5246,66 +5246,139 @@
  2622 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
  2623 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
  2624 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+  // unitised hauler coal partial
+ 2625 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2626 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2627 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2628 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2629 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2630 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2631 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2632 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
   // unitised hauler coal
- 2625 sprites/mining_trucks/unitised_mining_truck_coal.pcx 34 10 01 24 12 -5 -15
- 2626 sprites/mining_trucks/unitised_mining_truck_coal.pcx 66 10 01 22 30 -17 -10
- 2627 sprites/mining_trucks/unitised_mining_truck_coal.pcx 98 10 01 16 36 -14 -9
- 2628 sprites/mining_trucks/unitised_mining_truck_coal.pcx 146 10 01 22 30 -10 -10
- 2629 sprites/mining_trucks/unitised_mining_truck_coal.pcx 178 10 01 24 12 -5 -13
- 2630 sprites/mining_trucks/unitised_mining_truck_coal.pcx 210 10 01 22 30 -18 -11
- 2631 sprites/mining_trucks/unitised_mining_truck_coal.pcx 242 10 01 16 36 -14 -10
- 2632 sprites/mining_trucks/unitised_mining_truck_coal.pcx 290 10 01 22 30 -9 -11
+ 2625 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2626 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2627 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2628 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2629 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2630 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2631 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2632 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+  // unitised hauler iron partial
+ 2633 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2634 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2635 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2636 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2637 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2638 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2639 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2640 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
   // unitised hauler iron 
- 2633 sprites/mining_trucks/unitised_mining_truck_iron.pcx 34 10 01 24 12 -5 -15
- 2634 sprites/mining_trucks/unitised_mining_truck_iron.pcx 66 10 01 22 30 -17 -10
- 2635 sprites/mining_trucks/unitised_mining_truck_iron.pcx 98 10 01 16 36 -14 -9
- 2636 sprites/mining_trucks/unitised_mining_truck_iron.pcx 146 10 01 22 30 -10 -10
- 2637 sprites/mining_trucks/unitised_mining_truck_iron.pcx 178 10 01 24 12 -5 -13
- 2638 sprites/mining_trucks/unitised_mining_truck_iron.pcx 210 10 01 22 30 -18 -11
- 2639 sprites/mining_trucks/unitised_mining_truck_iron.pcx 242 10 01 16 36 -14 -10
- 2640 sprites/mining_trucks/unitised_mining_truck_iron.pcx 290 10 01 22 30 -9 -11
-  // unitised hauler brown
- 2641 sprites/mining_trucks/unitised_mining_truck_brown.pcx 34 10 01 24 12 -5 -15
- 2642 sprites/mining_trucks/unitised_mining_truck_brown.pcx 66 10 01 22 30 -17 -10
- 2643 sprites/mining_trucks/unitised_mining_truck_brown.pcx 98 10 01 16 36 -14 -9
- 2644 sprites/mining_trucks/unitised_mining_truck_brown.pcx 146 10 01 22 30 -10 -10
- 2645 sprites/mining_trucks/unitised_mining_truck_brown.pcx 178 10 01 24 12 -5 -13
- 2646 sprites/mining_trucks/unitised_mining_truck_brown.pcx 210 10 01 22 30 -18 -11
- 2647 sprites/mining_trucks/unitised_mining_truck_brown.pcx 242 10 01 16 36 -14 -10
- 2648 sprites/mining_trucks/unitised_mining_truck_brown.pcx 290 10 01 22 30 -9 -11
-  // unitised hauler white 
- 2649 sprites/mining_trucks/unitised_mining_truck_white.pcx 34 10 01 24 12 -5 -15
- 2650 sprites/mining_trucks/unitised_mining_truck_white.pcx 66 10 01 22 30 -17 -10
- 2651 sprites/mining_trucks/unitised_mining_truck_white.pcx 98 10 01 16 36 -14 -9
- 2652 sprites/mining_trucks/unitised_mining_truck_white.pcx 146 10 01 22 30 -10 -10
- 2653 sprites/mining_trucks/unitised_mining_truck_white.pcx 178 10 01 24 12 -5 -13
- 2654 sprites/mining_trucks/unitised_mining_truck_white.pcx 210 10 01 22 30 -18 -11
- 2655 sprites/mining_trucks/unitised_mining_truck_white.pcx 242 10 01 16 36 -14 -10
- 2656 sprites/mining_trucks/unitised_mining_truck_white.pcx 290 10 01 22 30 -9 -11
-  // unitised hauler red
- 2657 sprites/mining_trucks/unitised_mining_truck_red.pcx 34 10 01 24 12 -5 -15
- 2658 sprites/mining_trucks/unitised_mining_truck_red.pcx 66 10 01 22 30 -17 -10
- 2659 sprites/mining_trucks/unitised_mining_truck_red.pcx 98 10 01 16 36 -14 -9
- 2660 sprites/mining_trucks/unitised_mining_truck_red.pcx 146 10 01 22 30 -10 -10
- 2661 sprites/mining_trucks/unitised_mining_truck_red.pcx 178 10 01 24 12 -5 -13
- 2662 sprites/mining_trucks/unitised_mining_truck_red.pcx 210 10 01 22 30 -18 -11
- 2663 sprites/mining_trucks/unitised_mining_truck_red.pcx 242 10 01 16 36 -14 -10
- 2664 sprites/mining_trucks/unitised_mining_truck_red.pcx 290 10 01 22 30 -9 -11
+ 2633 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2634 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2635 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2636 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2637 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2638 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2639 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2640 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+  // unitised hauler white partial 
+ 2649 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2650 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2651 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2652 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2653 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2654 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2655 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2656 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+  // unitised hauler white
+ 2649 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2650 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2651 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2652 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2653 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2654 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2655 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2656 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+ // unitised hauler brown partial
+ 2641 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2642 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2643 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2644 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2645 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2646 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2647 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2648 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+  // unitised hauler brown 
+ 2633 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2634 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2635 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2636 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2637 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2638 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2639 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2640 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+  // unitised hauler grey partial
+ 2665 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2666 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2667 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2668 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2669 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2670 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2671 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2672 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
   // unitised hauler grey
- 2665 sprites/mining_trucks/unitised_mining_truck_grey.pcx 34 10 01 24 12 -5 -15
- 2666 sprites/mining_trucks/unitised_mining_truck_grey.pcx 66 10 01 22 30 -17 -10
- 2667 sprites/mining_trucks/unitised_mining_truck_grey.pcx 98 10 01 16 36 -14 -9
- 2668 sprites/mining_trucks/unitised_mining_truck_grey.pcx 146 10 01 22 30 -10 -10
- 2669 sprites/mining_trucks/unitised_mining_truck_grey.pcx 178 10 01 24 12 -5 -13
- 2670 sprites/mining_trucks/unitised_mining_truck_grey.pcx 210 10 01 22 30 -18 -11
- 2671 sprites/mining_trucks/unitised_mining_truck_grey.pcx 242 10 01 16 36 -14 -10
- 2672 sprites/mining_trucks/unitised_mining_truck_grey.pcx 290 10 01 22 30 -9 -11
- 2673 * 13	 02 01 A1 02 02 00 00 01 00 00 00 01 00
- 2674 * 13	 02 01 A2 02 02 00 00 02 00 00 00 02 00
- 2675 * 13	 02 01 A3 02 02 00 00 03 00 00 00 03 00
- 2676 * 13	 02 01 A4 02 02 00 00 04 00 00 00 04 00
- 2677 * 13	 02 01 A5 02 02 00 00 05 00 00 00 05 00
- 2678 * 13	 02 01 A6 02 02 00 00 06 00 00 00 06 00
+ 2665 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2666 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2667 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2668 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2669 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2670 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2671 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2672 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+ // unitised hauler red partial
+ 2657 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2658 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2659 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2660 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2661 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2662 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2663 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2664 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+ // unitised hauler red
+ 2657 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2658 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2659 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2660 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2661 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2662 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2663 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2664 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+  // unitised hauler sand partial
+ 2665 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2666 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2667 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2668 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2669 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2670 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2671 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2672 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+  // unitised hauler sand
+ 2665 sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+ 2666 sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+ 2667 sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+ 2668 sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+ 2669 sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2670 sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+ 2671 sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+ 2672 sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+ 2265 * 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+ 2266 * 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+ 2267 * 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+ 2268 * 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+ 2269 * 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+ 2270 * 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+ 2270 * 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
  2679 * 4	 01 01 01 04
  2680 * 1	 00
  2681 * 1	 00
@@ -5319,6 +5392,7 @@
    0E A3 00
    11 A4 00
    17 A5 00
+   19 A7 00
    FF AF 00 // buy menu sprites
    A6 00 // default sprites
   // --------------------------- end of Dump trucks / Mining Haulers --------------------- //
