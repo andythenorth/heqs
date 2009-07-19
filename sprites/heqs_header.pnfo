@@ -4853,7 +4853,7 @@
     1E EF 03          // Non-refittable cargo classes
     1F \d722825   // Long format introduction date
  2423 * 30	 04 01 7F 01 D3 "Harney Peak Mining Truck" 00  
- 2424 * 4	 01 01 07 08
+ 2424 * 4	 01 01 0F 08
   // Harney Peak 60t hauler empty
  2425 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
  2426 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
@@ -4863,7 +4863,25 @@
  2430 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
  2431 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
  2432 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+  // Harney Peak 60t hauler coal partial
+ 2433 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2434 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2435 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2436 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2437 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2438 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2439 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+ 2440 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
   // Harney Peak 60t hauler coal
+ 2433 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2434 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2435 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2436 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2437 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2438 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2439 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+ 2440 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+  // Harney Peak 60t hauler iron partial
  2433 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
  2434 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
  2435 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
@@ -4881,15 +4899,15 @@
  2446 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
  2447 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
  2448 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
-  // Harney Peak 60t hauler brown
- 2449 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
- 2450 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
- 2451 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
- 2452 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
- 2453 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
- 2454 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
- 2455 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
- 2456 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+  // Harney Peak 60t hauler white partial
+ 2433 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2434 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2435 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2436 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2437 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2438 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2439 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+ 2440 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
   // Harney Peak 60t hauler white
  2457 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
  2458 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
@@ -4899,15 +4917,33 @@
  2462 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
  2463 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
  2464 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
-  // Harney Peak 60t hauler red
- 2465 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
- 2466 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
- 2467 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
- 2468 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
- 2469 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
- 2470 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
- 2471 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -10 -10
- 2472 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+  // Harney Peak 60t hauler brown partial
+ 2433 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2434 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2435 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2436 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2437 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2438 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2439 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+ 2440 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+  // Harney Peak 60t hauler brown
+ 2449 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2450 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2451 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2452 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2453 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2454 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2455 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+ 2456 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+  // Harney Peak 60t hauler grey partial
+ 2433 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2434 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2435 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2436 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2437 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2438 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2439 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+ 2440 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
   // Harney Peak 60t hauler grey 
  2473 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
  2474 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
@@ -4917,12 +4953,49 @@
  2478 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
  2479 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
  2480 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
- 2481 * 13	 02 01 A1 02 02 00 00 01 00 00 00 01 00
- 2482 * 13	 02 01 A2 02 02 00 00 02 00 00 00 02 00
- 2483 * 13	 02 01 A3 02 02 00 00 03 00 00 00 03 00
- 2484 * 13	 02 01 A4 02 02 00 00 04 00 00 00 04 00
- 2485 * 13	 02 01 A5 02 02 00 00 05 00 00 00 05 00
- 2486 * 13	 02 01 A6 02 02 00 00 06 00 00 00 06 00
+  // Harney Peak 60t hauler red partial
+ 2433 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2434 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2435 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2436 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2437 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2438 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2439 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+ 2440 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+  // Harney Peak 60t hauler red
+ 2465 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2466 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2467 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2468 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2469 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2470 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2471 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -10 -10
+ 2472 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+  // Harney Peak 60t hauler sand partial
+ 2433 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2434 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2435 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2436 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2437 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2438 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2439 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+ 2440 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+  // Harney Peak 60t hauler sand
+ 2433 sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+ 2434 sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+ 2435 sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+ 2436 sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+ 2437 sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+ 2438 sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+ 2439 sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+ 2440 sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+ 2265 * 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+ 2266 * 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+ 2267 * 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+ 2268 * 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+ 2269 * 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+ 2270 * 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+ 2270 * 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
  2487 * 4	 01 01 01 04
  2488 * 1	 00
  2489 * 1	 00
@@ -4930,12 +5003,13 @@
  2491 * 1	 00
  2492 * 9	 02 01 AF 01 01 00 00 00 00
  2493 * 25	 03 01 01 D3 // Action 3
-    06 // number of cargo types
+    07 // number of cargo types
     01 A1 00
     08 A2 00
     0E A3 00
     11 A4 00
     17 A5 00
+    19 A7 00
     FF AF 00 // buy menu sprites
     A6 00 // default sprites
 
