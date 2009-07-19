@@ -5386,7 +5386,7 @@
  2683 * 1	 00
  2684 * 9	 02 01 AF 01 01 00 00 00 00
  2685 * 25	 03 01 01 D7 // Action 3 
-   06 // number of cargo types
+   07 // number of cargo types
    01 A1 00
    08 A2 00
    0E A3 00
