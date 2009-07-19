@@ -3968,7 +3968,7 @@
  1853 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 210 09 20 26 -17 -8
  1854 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 210 01 16 36 -26 -9
  1855 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 210 09 20 26 -10 -10
-   // Medium belly dump A (rear wheels only) - grain, loading
+   // Medium belly dump A (rear wheels only) - sand, loading
  1856 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 250 01 24 12 -3 -16
  1857 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 250 09 20 26 -14 -7
  1858 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 250 01 16 36 -14 -8
@@ -3977,7 +3977,7 @@
  1861 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 250 09 20 26 -17 -8
  1862 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 250 01 16 36 -26 -9
  1863 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 250 09 20 26 -10 -10
-  // Medium belly dump A (rear wheels only) - grain, loaded
+  // Medium belly dump A (rear wheels only) - sand, loaded
  1864 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 290 01 24 12 -3 -16
  1865 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 290 09 20 26 -14 -7
  1866 sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 290 01 16 36 -14 -8
@@ -4044,17 +4044,18 @@
  1920 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
  1921 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
 //!!Warning (94): Redefining ID 06 not used since previous definition at sprite 871.
- 1922 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain (not used - left here for ease of copy and paste)
+ 1922 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // sand
  1923 * 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
 //!!Warning (94): Redefining ID 17 not used since previous definition at sprite 873.
  1924 * 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
  1925 * 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
  1926 * 22	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 03 // range
-                  01 00 01 01 // coal
-                  08 00 08 08 // iron ore
-                  0E 00 0E 0E // copper ore
+                 04 // range
+                  01 00 01 01 // format: id | cargo
+                  08 00 08 08
+                  0E 00 0E 0E
+                  06 00 19 19
                  11 00 // default 
  1927 * 7	 03 01 01 06 // Action 3
       00  // Number of different cargo types to support  
@@ -4138,7 +4139,7 @@
  1970 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 210 09 20 26 -17 -8
  1971 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 210 01 16 36 -26 -9
  1972 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 210 09 20 26 -10 -10
-   // Large belly dump A (rear wheels only) - grain, loading
+   // Large belly dump A (rear wheels only) - sand, loading
  1973 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 250 01 24 12 -3 -16
  1974 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 250 09 20 26 -14 -7
  1975 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 250 01 16 36 -14 -8
@@ -4147,7 +4148,7 @@
  1978 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 250 09 20 26 -17 -8
  1979 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 250 01 16 36 -26 -9
  1980 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 250 09 20 26 -10 -10
-  // Large belly dump A (rear wheels only) - grain, loaded
+  // Large belly dump A (rear wheels only) - sand, loaded
  1981 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 290 01 24 12 -3 -16
  1982 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 290 09 20 26 -14 -7
  1983 sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 290 01 16 36 -14 -8
@@ -4214,7 +4215,7 @@
  2037 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
  2038 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
 //!!Warning (94): Redefining ID 06 not used since previous definition at sprite 1922.
- 2039 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain (not used - left here for ease of copy and paste)
+ 2039 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // sand
  2040 * 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
 //!!Warning (94): Redefining ID 17 not used since previous definition at sprite 1924.
  2041 * 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
@@ -4265,7 +4266,7 @@
  2081 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 210 09 20 26 -17 -8
  2082 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 210 01 16 36 -26 -9
  2083 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 210 09 20 26 -10 -10
-   // Large belly dump B (with front wheels) - grain, loading
+   // Large belly dump B (with front wheels) - sand, loading
  2084 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 250 01 24 12 -3 -16
  2085 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 250 09 20 26 -14 -7
  2086 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 250 01 16 36 -14 -8
@@ -4274,7 +4275,7 @@
  2089 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 250 09 20 26 -17 -8
  2090 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 250 01 16 36 -26 -9
  2091 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 250 09 20 26 -10 -10
-  // Large belly dump B (with front wheels) - grain, loaded
+  // Large belly dump B (with front wheels) - sand, loaded
  2092 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 290 01 24 12 -3 -16
  2093 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 290 09 20 26 -14 -7
  2094 sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 290 01 16 36 -14 -8
@@ -4350,17 +4351,19 @@
     // otherwise use front wheel sprites
  2154 * 22	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 03 // range
-                  01 00 01 01 // coal
-                  08 00 08 08 // iron ore
-                  0E 00 0E 0E // copper ore
+                 04 // range
+                  01 00 01 01 // format: id | cargo
+                  08 00 08 08 
+                  0E 00 0E 0E 
+                  06 00 19 19
                  11 00 // default 
  2155 * 22	 02 01 CC  // choose belly dump B sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 03 // range
-                  21 00 01 01 // coal
-                  28 00 08 08 // iron ore
-                  2E 00 0E 0E // copper ore
+                 04 // range
+                  21 00 01 01 // format: id | cargo 
+                  28 00 08 08
+                  2E 00 0E 0E 
+                  26 00 19 19
                  31 00 // default 
  2156 * 14	 02 01 CA  // choose belly dump sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff 
