@@ -5428,19 +5428,19 @@
  2687 * 31	 04 01 7F 01 23 "Cascade Off-Highway Truck" 00
  2688 * 4	 01 01 01 08
   // Cascade off-highway truck empty
- 2689 sprites/off_highway_trucks/1960_truck_3_axle.pcx 34 10 01 24 12 -5 -18
- 2690 sprites/off_highway_trucks/1960_truck_3_axle.pcx 66 10 09 20 26 -17 -8
- 2691 sprites/off_highway_trucks/1960_truck_3_axle.pcx 98 10 01 16 36 -10 -10
- 2692 sprites/off_highway_trucks/1960_truck_3_axle.pcx 146 10 09 20 26 -11 -9
- 2693 sprites/off_highway_trucks/1960_truck_3_axle.pcx 178 10 01 24 12 -5 -16
- 2694 sprites/off_highway_trucks/1960_truck_3_axle.pcx 210 10 09 20 26 -16 -9
- 2695 sprites/off_highway_trucks/1960_truck_3_axle.pcx 242 10 01 16 36 -18 -10
- 2696 sprites/off_highway_trucks/1960_truck_3_axle.pcx 290 10 09 20 26 -8 -11
+ 2689 sprites/off_highway_trucks/off_highway_trucks.pcx 34 10 01 24 12 -5 -18
+ 2690 sprites/off_highway_trucks/off_highway_trucks.pcx 66 10 09 20 26 -17 -8
+ 2691 sprites/off_highway_trucks/off_highway_trucks.pcx 98 10 01 16 36 -10 -10
+ 2692 sprites/off_highway_trucks/off_highway_trucks.pcx 146 10 09 20 26 -11 -9
+ 2693 sprites/off_highway_trucks/off_highway_trucks.pcx 178 10 01 24 12 -5 -16
+ 2694 sprites/off_highway_trucks/off_highway_trucks.pcx 210 10 09 20 26 -16 -9
+ 2695 sprites/off_highway_trucks/off_highway_trucks.pcx 242 10 01 16 36 -18 -10
+ 2696 sprites/off_highway_trucks/off_highway_trucks.pcx 290 10 09 20 26 -8 -11
  2697 * 9	 02 01 A1 01 01 00 00 00 00 //normal action2 defining graphics with no loading/loaded stages
  2698 * 4	 01 01 01 04
  2699 * 1	 00
  2700 * 1	 00
- 2701 sprites/off_highway_trucks/1960_truck_3_axle.pcx 242 10 01 16 36 -18 -8
+ 2701 sprites/off_highway_trucks/off_highway_trucks.pcx 242 10 01 16 36 -18 -8
  2702 * 1	 00
  2703 * 14	 02 01 B0 //ID B0
                81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
