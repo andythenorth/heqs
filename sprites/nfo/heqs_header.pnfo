@@ -4788,19 +4788,19 @@
  2400 * 41	 04 01 81 01 D2 D0 "Hauls: " 8A "One 90t belly-dump trailer" 00
  2401 * 4	 01 01 01 08
   // Thunder Mountain mining truck empty
- 2402 sprites/off_highway_trucks/off_highway_trucks.pcx 34 250 01 24 12 -5 -18
- 2403 sprites/off_highway_trucks/off_highway_trucks.pcx 66 250 09 20 26 -13 -9
- 2404 sprites/off_highway_trucks/off_highway_trucks.pcx 98 250 01 16 36 -10 -10
- 2405 sprites/off_highway_trucks/off_highway_trucks.pcx 146 250 09 20 26 -7 -9
- 2406 sprites/off_highway_trucks/off_highway_trucks.pcx 178 250 01 24 12 -5 -16
- 2407 sprites/off_highway_trucks/off_highway_trucks.pcx 210 250 09 20 26 -21 -6
- 2408 sprites/off_highway_trucks/off_highway_trucks.pcx 242 250 01 16 36 -28 -9
- 2409 sprites/off_highway_trucks/off_highway_trucks.pcx 290 250 09 20 26 -14 -13
+ 2402 sprites/heavy_trucks/heavy_trucks.pcx 34 250 01 24 12 -5 -18
+ 2403 sprites/heavy_trucks/heavy_trucks.pcx 66 250 09 20 26 -13 -9
+ 2404 sprites/heavy_trucks/heavy_trucks.pcx 98 250 01 16 36 -10 -10
+ 2405 sprites/heavy_trucks/heavy_trucks.pcx 146 250 09 20 26 -7 -9
+ 2406 sprites/heavy_trucks/heavy_trucks.pcx 178 250 01 24 12 -5 -16
+ 2407 sprites/heavy_trucks/heavy_trucks.pcx 210 250 09 20 26 -21 -6
+ 2408 sprites/heavy_trucks/heavy_trucks.pcx 242 250 01 16 36 -28 -9
+ 2409 sprites/heavy_trucks/heavy_trucks.pcx 290 250 09 20 26 -14 -13
  2410 * 9	 02 01 A1 01 01 00 00 00 00 // normal action2 defining graphics with no loading/loaded stages
  2411 * 4	 01 01 01 04
  2412 * 1	 00
  2413 * 1	 00
- 2414 sprites/off_highway_trucks/off_highway_trucks.pcx 370 250 01 16 36 -14 -9
+ 2414 sprites/heavy_trucks/heavy_trucks.pcx 370 250 01 16 36 -14 -9
  2415 * 1	 00
  2416 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
@@ -5052,19 +5052,19 @@
  2495 * 32	 04 01 7F 01 D4 "Bear Mountain Mining Truck" 00
  2496 * 42	 04 01 81 01 D3 D0 "Hauls: " 8A "One 120t belly-dump trailer" 00
  2497 * 4	 01 01 01 08
- 2498 sprites/off_highway_trucks/off_highway_trucks.pcx 34 330 01 24 12 -5 -16
- 2499 sprites/off_highway_trucks/off_highway_trucks.pcx 66 330 09 20 26 -15 -8
- 2500 sprites/off_highway_trucks/off_highway_trucks.pcx 98 330 01 16 36 -18 -10
- 2501 sprites/off_highway_trucks/off_highway_trucks.pcx 146 330 09 20 26 -11 -9
- 2502 sprites/off_highway_trucks/off_highway_trucks.pcx 178 330 01 24 12 -5 -15
- 2503 sprites/off_highway_trucks/off_highway_trucks.pcx 210 330 09 20 26 -16 -9
- 2504 sprites/off_highway_trucks/off_highway_trucks.pcx 242 330 01 16 36 -20 -10
- 2505 sprites/off_highway_trucks/off_highway_trucks.pcx 290 330 09 20 26 -10 -11
+ 2498 sprites/heavy_trucks/heavy_trucks.pcx 34 330 01 24 12 -5 -16
+ 2499 sprites/heavy_trucks/heavy_trucks.pcx 66 330 09 20 26 -15 -8
+ 2500 sprites/heavy_trucks/heavy_trucks.pcx 98 330 01 16 36 -18 -10
+ 2501 sprites/heavy_trucks/heavy_trucks.pcx 146 330 09 20 26 -11 -9
+ 2502 sprites/heavy_trucks/heavy_trucks.pcx 178 330 01 24 12 -5 -15
+ 2503 sprites/heavy_trucks/heavy_trucks.pcx 210 330 09 20 26 -16 -9
+ 2504 sprites/heavy_trucks/heavy_trucks.pcx 242 330 01 16 36 -20 -10
+ 2505 sprites/heavy_trucks/heavy_trucks.pcx 290 330 09 20 26 -10 -11
  2506 * 9	 02 01 A1 01 01 00 00 00 00 //normal action2 defining graphics with no loading/loaded stages
  2507 * 4	 01 01 01 04
  2508 * 1	 00
  2509 * 1	 00
- 2510 sprites/off_highway_trucks/off_highway_trucks.pcx 370 334 01 12 36 -14 -6
+ 2510 sprites/heavy_trucks/heavy_trucks.pcx 370 334 01 12 36 -14 -6
  2511 * 1	 00
  2512 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
@@ -5317,19 +5317,19 @@
  2592 * 43	 04 01 81 01 D4 D0 "Hauls: " 8A "Two 120t belly-dump trailers" 00 // (240t total)
  2593 * 4	 01 01 01 08
   // Kilimanjaro (Articulated) dump truck empty
- 2594 sprites/off_highway_trucks/off_highway_trucks.pcx 34 330 01 24 12 -5 -16
- 2595 sprites/off_highway_trucks/off_highway_trucks.pcx 66 330 09 20 26 -15 -8
- 2596 sprites/off_highway_trucks/off_highway_trucks.pcx 98 330 01 16 36 -18 -10
- 2597 sprites/off_highway_trucks/off_highway_trucks.pcx 146 330 09 20 26 -11 -9
- 2598 sprites/off_highway_trucks/off_highway_trucks.pcx 178 330 01 24 12 -5 -15
- 2599 sprites/off_highway_trucks/off_highway_trucks.pcx 210 330 09 20 26 -16 -9
- 2600 sprites/off_highway_trucks/off_highway_trucks.pcx 242 330 01 16 36 -20 -10
- 2601 sprites/off_highway_trucks/off_highway_trucks.pcx 290 330 09 20 26 -10 -11
+ 2594 sprites/heavy_trucks/heavy_trucks.pcx 34 330 01 24 12 -5 -16
+ 2595 sprites/heavy_trucks/heavy_trucks.pcx 66 330 09 20 26 -15 -8
+ 2596 sprites/heavy_trucks/heavy_trucks.pcx 98 330 01 16 36 -18 -10
+ 2597 sprites/heavy_trucks/heavy_trucks.pcx 146 330 09 20 26 -11 -9
+ 2598 sprites/heavy_trucks/heavy_trucks.pcx 178 330 01 24 12 -5 -15
+ 2599 sprites/heavy_trucks/heavy_trucks.pcx 210 330 09 20 26 -16 -9
+ 2600 sprites/heavy_trucks/heavy_trucks.pcx 242 330 01 16 36 -20 -10
+ 2601 sprites/heavy_trucks/heavy_trucks.pcx 290 330 09 20 26 -10 -11
  2602 * 9	 02 01 A1 01 01 00 00 00 00 //normal action2 defining graphics with no loading/loaded stages
  2603 * 4	 01 01 01 04
  2604 * 1	 00
  2605 * 1	 00
- 2606 sprites/off_highway_trucks/off_highway_trucks.pcx 370 334 01 12 36 -14 -6
+ 2606 sprites/heavy_trucks/heavy_trucks.pcx 370 334 01 12 36 -14 -6
  2607 * 1	 00
  2608 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
@@ -5584,19 +5584,19 @@
  2687 * 31	 04 01 7F 01 23 "Cascade Off-Highway Truck" 00
  2688 * 4	 01 01 01 08
   // Cascade off-highway truck empty
- 2689 sprites/off_highway_trucks/off_highway_trucks.pcx 34 10 01 24 12 -5 -18
- 2690 sprites/off_highway_trucks/off_highway_trucks.pcx 66 10 09 20 26 -17 -8
- 2691 sprites/off_highway_trucks/off_highway_trucks.pcx 98 10 01 16 36 -10 -10
- 2692 sprites/off_highway_trucks/off_highway_trucks.pcx 146 10 09 20 26 -11 -9
- 2693 sprites/off_highway_trucks/off_highway_trucks.pcx 178 10 01 24 12 -5 -16
- 2694 sprites/off_highway_trucks/off_highway_trucks.pcx 210 10 09 20 26 -16 -9
- 2695 sprites/off_highway_trucks/off_highway_trucks.pcx 242 10 01 16 36 -18 -10
- 2696 sprites/off_highway_trucks/off_highway_trucks.pcx 290 10 09 20 26 -8 -11
+ 2689 sprites/heavy_trucks/heavy_trucks.pcx 34 10 01 24 12 -5 -18
+ 2690 sprites/heavy_trucks/heavy_trucks.pcx 66 10 09 20 26 -17 -8
+ 2691 sprites/heavy_trucks/heavy_trucks.pcx 98 10 01 16 36 -10 -10
+ 2692 sprites/heavy_trucks/heavy_trucks.pcx 146 10 09 20 26 -11 -9
+ 2693 sprites/heavy_trucks/heavy_trucks.pcx 178 10 01 24 12 -5 -16
+ 2694 sprites/heavy_trucks/heavy_trucks.pcx 210 10 09 20 26 -16 -9
+ 2695 sprites/heavy_trucks/heavy_trucks.pcx 242 10 01 16 36 -18 -10
+ 2696 sprites/heavy_trucks/heavy_trucks.pcx 290 10 09 20 26 -8 -11
  2697 * 9	 02 01 A1 01 01 00 00 00 00 //normal action2 defining graphics with no loading/loaded stages
  2698 * 4	 01 01 01 04
  2699 * 1	 00
  2700 * 1	 00
- 2701 sprites/off_highway_trucks/off_highway_trucks.pcx 242 10 01 16 36 -18 -8
+ 2701 sprites/heavy_trucks/heavy_trucks.pcx 242 10 01 16 36 -18 -8
  2702 * 1	 00
  2703 * 14	 02 01 B0 //ID B0
                81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
