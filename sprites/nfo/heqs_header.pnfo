@@ -3,7 +3,7 @@
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
     0 * 4	 91 0A 00 00
 //!!Warning (147): Offset 6: Insufficient stack data for control character 7B.
-    1 * 128	 08 06 "AP" 12 01 "{{GRF_TITLE}}" 00 "Heavy equipment Set"
+    1 * 128	 08 06 {{GRF_ID}} "{{GRF_TITLE}}" 00 "Heavy equipment Set"
 	 "in dual company colours."
 	 "Brought to you by"
 	 "andythenorth and Richard Wheeler (Zephyris)"
