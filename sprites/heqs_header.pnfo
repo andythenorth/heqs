@@ -407,7 +407,7 @@
                   //AC 00 19 19 // text suffix CB 
                  05 00 // graphics
   267 * 49	 03 01 01 00 // Action 3
-    0E // Number of different cargo types to support (!! Hex) 
+    0F // Number of different cargo types to support
     01 01 00 // coal
     03 03 00 // oil
     04 04 00 // livestock
@@ -419,6 +419,7 @@
 	  0E 0E 00 // copper ore
 	  0F 03 00 // water
 	  10 03 00 // rubber
+    19 06 00 // sand (reuses grain)
 	  1B 06 00 // wheat
 	  1D 06 00 // maize
 	  1E 07 00 // tropical wood
@@ -1118,9 +1119,10 @@
       // find cargo of vehicle, choose action 2 matching
   744 * 66	 02 01 CE  // choose sled sprites according to cargo
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 0E // range
+                 0F // range
                   21 00 01 01 // coal
                   26 00 06 06 // grain 
+                  26 00 19 19 // sand (reuses grain sprites) 
                   26 00 1B 1B // wheat 
                   26 00 1D 1D // maize 
                   28 00 08 08 // iron ore
@@ -1136,9 +1138,10 @@
                  25 00 // default 
   745 * 66	 02 01 CD  // choose wheeled trailer sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 0E // range
+                 0F // range
                   01 00 01 01 // coal
                   06 00 06 06 // grain 
+                  06 00 19 19 // sand (reuses grain sprites) 
                   06 00 1B 1B // wheat 
                   06 00 1D 1D // maize 
                   08 00 08 08 // iron ore
