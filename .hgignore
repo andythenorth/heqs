@@ -4,3 +4,6 @@ sprites/heqs.nfo
 sprites/heqs.pnfo
 Makefile.local
 heqs*
+
+# Ignore things the Mac likes to litter around the place:
+.DS_Store
