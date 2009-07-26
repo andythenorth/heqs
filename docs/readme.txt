@@ -20,6 +20,7 @@ Changelog
 *version 0.5c*
 Added support for FIRS sand cargo (also any set with "SAND" as cargo label)
 Restructured sprite layouts and some code for mining and dump trucks (doesn't add any new features)
+Added Cascade C10 and C16 Logging Trucks (available 1972)
 
 *version 0.5b*
 Added Red Peak Articulated Crawler (available 1998)

@@ -5558,19 +5558,18 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00 13 14 14 18        // running cost base 
     0E FF     // sprite ID
-    0F \b30     // capacity
+    0F \b60     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
     15 20     // speed in mph * 0.8
-    16 C0 20 00 68     // Bit mask of cargo types available for refitting
-    // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
+    16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
+    1D 00 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 21
     00 00 00  // intro date 
@@ -5583,7 +5582,7 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00 13 14 14 18        // running cost base 
     0E FF     // sprite ID
-    0F \b36     // capacity
+    0F \b80     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
@@ -5607,19 +5606,18 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00 13 14 14 18        // running cost base 
     0E FF     // sprite ID
-    0F \b42     // capacity
+    0F \b60     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
     15 20     // speed in mph * 0.8
-    16 C0 20 00 68     // Bit mask of cargo types available for refitting
-    // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
+    16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
+    1D 00 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 23
     00 00 00  // intro date 
@@ -5632,19 +5630,18 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00 13 14 14 18        // running cost base 
     0E FF     // sprite ID
-    0F \b56     // capacity
+    0F \b80     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
     15 20     // speed in mph * 0.8
-    16 C0 20 00 68     // Bit mask of cargo types available for refitting
-    // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
+    16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
+    1D 00 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 24
     00 00 00  // intro date 
@@ -5657,20 +5654,19 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00 13 14 14 18        // running cost base 
     0E FF     // sprite ID
-    0F \b70     // capacity
+    0F \b30     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
     15 20     // speed in mph * 0.8
-    16 C0 20 00 68     // Bit mask of cargo types available for refitting
-    // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
+    16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
-    1F 60 B3 0A 00    // Long format introduction date 
+    1D 00 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
+    1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 25
     00 00 00  // intro date 
     02 20     // reliability 
@@ -5682,19 +5678,18 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00 13 14 14 18        // running cost base 
     0E FF     // sprite ID
-    0F \b84     // capacity
+    0F \b40     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
     15 20     // speed in mph * 0.8
-    16 C0 20 00 68     // Bit mask of cargo types available for refitting
-    // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
+    16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
+    1D 00 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 42	 04 01 7F 01 20 "Logging Truck Trailer" 00
     // Logging truck trailer - Wood, blank sprite
@@ -5775,60 +5770,212 @@
       07  // number loading states
         00 00  01 00  02 00  03 00  04 00  05 00  06 00  07 00  // loaded sprites 
         01 00  02 00  03 00  04 00  05 00  06 00  07 00  // loading sprites
- // multiple actions 2s apply graphics by cargo & capacity (hard coded due to CB 36 not working as expected with aRVs)
- // action 2 real sprite IDs 0x are Large trailers 2x are Very Large trailers             
- // !!!!!!!!! only one trailer coded in - the other commented out, alternative graphics not. needed yet
- // Action 2 for Large trailers
- -1 * 30	 02 01 CB // choose sprites according to cargo slot (in cargo translation tt)
-                 81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 01 // range
-                  07 00 08 08 // format: id | cargo
-                 07 00 // default
- -1 * 14	 02 01 CA  // handle callbacks
-                 81 0C 00 FF //
-                 01 // range
-                  00 80 11 11 // vehicle length CB
-                 CB 00 // graphics
-// Action 2 for Very Large trailer
-/*
- -1 * 30	 02 01 CE // choose sprites according to cargo slot (in cargo translation tt)
-                 81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 01 // range
-                  07 00 08 08 // format: id | cargo
-                 07 00 // default 
- -1 * 14	 02 01 CD  // handle callbacks
-                 81 0C 00 FF //
-                 01 // range
-                  00 80 11 11 // vehicle length CB
-                 CE 00 // graphics
-*/
- -1 * 7	 03 01 01 20 // Action 3
+    // Logging truck trailer DOUBLE - Wood, blank sprite
+  -1 * 4	 01 01 08 08
+    // Medium Logging trailer PUP - Wood, empty...PUP trailer shown when this trailer is empty 
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 34 50 01 26 12 -5 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 66 50 09 23 26 -23 -6
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 98 50 01 17 36 -20 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 146 50 09 23 26 -18 -14
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 178 50 01 26 12 -7 -22
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 210 50 09 23 26 -5 -17
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 242 50 01 17 36 -12 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 290 50 09 23 26 0 -7
+    // Logging truck trailer DOUBLE - Wood, empty
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 34 50 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 66 50 09 23 31 -15 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 98 50 01 17 36 -14 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 146 50 09 23 31 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 178 50 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 210 50 09 23 31 -15 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 242 50 01 17 36 -17 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 290 50 09 23 31 -10 -12
+    // Logging truck trailer DOUBLE - Wood, loading 1 
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 34 90 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 66 90 09 23 31 -15 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 98 90 01 17 36 -14 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 146 90 09 23 31 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 178 90 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 210 90 09 23 31 -15 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 242 90 01 17 36 -17 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 290 90 09 23 31 -10 -12
+    // Logging truck trailer DOUBLE - Wood, loading 2
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 34 130 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 66 130 09 23 31 -15 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 98 130 01 17 36 -14 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 146 130 09 23 31 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 178 130 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 210 130 09 23 31 -15 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 242 130 01 17 36 -17 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 290 130 09 23 31 -10 -12
+    // Logging truck trailer DOUBLE - Wood, loading 3 
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 34 170 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 66 170 09 23 31 -15 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 98 170 01 17 36 -14 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 146 170 09 23 31 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 178 170 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 210 170 09 23 31 -15 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 242 170 01 17 36 -17 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 290 170 09 23 31 -10 -12
+   // Logging truck trailer DOUBLE - Wood, loading 4
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 34 210 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 66 210 09 23 31 -15 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 98 210 01 17 36 -14 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 146 210 09 23 31 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 178 210 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 210 210 09 23 31 -15 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 242 210 01 17 36 -17 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 290 210 09 23 31 -10 -12
+   // Logging truck trailer DOUBLE - Wood, loaded
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 34 250 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 66 250 09 23 31 -15 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 98 250 01 17 36 -14 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 146 250 09 23 31 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 178 250 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 210 250 09 23 31 -15 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 242 250 01 17 36 -17 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 290 250 09 23 31 -10 -12
+   // Logging truck trailer DOUBLE - Wood, loaded, chained
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 34 290 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 66 290 09 23 31 -15 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 98 290 01 17 36 -14 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 146 290 09 23 31 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 178 290 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 210 290 09 23 31 -15 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 242 290 01 17 36 -17 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_large.pcx 290 290 09 23 31 -10 -12
+  -1 * 25	 02 01 17  
+      08  // number loaded states
+      07  // number loading states
+        00 00  01 00  02 00  03 00  04 00  05 00  06 00  07 00  // loaded sprites 
+        01 00  02 00  03 00  04 00  05 00  06 00  07 00  // loading sprites
+  -1 * 4	 01 01 07 08
+    // Medium Logging trailer PUP - Wood, blank
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 34 10 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 66 10 09 23 26 -15 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 98 10 01 17 36 -12 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 146 10 09 23 26 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 178 10 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 210 10 09 23 26 -13 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 242 10 01 17 36 -23 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 290 10 09 23 26 -8 -11
+    // Medium Logging trailer PUP - Wood, empty 
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 34 50 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 66 50 09 23 26 -15 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 98 50 01 17 36 -12 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 146 50 09 23 26 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 178 50 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 210 50 09 23 26 -13 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 242 50 01 17 36 -23 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 290 50 09 23 26 -8 -11
+    // Medium Logging trailer PUP - Wood, loading 1
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 34 90 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 66 90 09 23 26 -15 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 98 90 01 17 36 -12 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 146 90 09 23 26 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 178 90 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 210 90 09 23 26 -13 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 242 90 01 17 36 -23 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 290 90 09 23 26 -8 -11
+    // Medium Logging trailer PUP - Wood, loading 2 
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 34 130 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 66 130 09 23 26 -15 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 98 130 01 17 36 -12 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 146 130 09 23 26 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 178 130 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 210 130 09 23 26 -13 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 242 130 01 17 36 -23 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 290 130 09 23 26 -8 -11
+    // Medium Logging trailer PUP - Wood, loading 3
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 34 170 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 66 170 09 23 26 -15 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 98 170 01 17 36 -12 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 146 170 09 23 26 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 178 170 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 210 170 09 23 26 -13 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 242 170 01 17 36 -23 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 290 170 09 23 26 -8 -11
+    // Medium Logging trailer PUP - Wood, loading 4
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 34 210 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 66 210 09 23 26 -15 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 98 210 01 17 36 -12 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 146 210 09 23 26 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 178 210 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 210 210 09 23 26 -13 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 242 210 01 17 36 -23 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 290 210 09 23 26 -8 -11
+    // Medium Logging trailer PUP - Wood, loaded, chained
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 34 250 01 26 12 -6 -15
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 66 250 09 23 26 -15 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 98 250 01 17 36 -12 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 146 250 09 23 26 -10 -10
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 178 250 01 26 12 -7 -16
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 210 250 09 23 26 -13 -13
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 242 250 01 17 36 -23 -11
+  -1 sprites/standard_trailers/logging_truck_trailer_medium.pcx 290 250 09 23 26 -8 -11
+  -1 * 25	 02 01 27
+      07 // number loaded states
+      06 // number loading states
+        00 00  01 00  02 00  03 00  04 00  05 00  06 00
+        01 00  02 00  03 00  04 00  05 00  06 00 
+ // multiple actions 3s apply graphics by cargo & capacity (hard coded due to CB 36 not working as expected with aRVs)
+ -1 * 7	 03 01 01 20 // Action 3  STANDARD
       00  // Number of different cargo types to support  
-      CA 00 // default
- -1 * 7	 03 01 01 21 // Action 3
+      07 00 // default
+ -1 * 7	 03 01 01 21 // Action 3  STANDARD
       00  // Number of different cargo types to support  
-      CA 00 // default
- -1 * 7	 03 01 01 22 // Action 3
+      07 00 // default
+ -1 * 7	 03 01 01 22 // Action 3  DOUBLE
       00  // Number of different cargo types to support  
-      CA 00 // default
- -1 * 7	 03 01 01 23 // Action 3
+      17 00 // default
+ -1 * 7	 03 01 01 23 // Action 3  DOUBLE
       00  // Number of different cargo types to support  
-      CA 00 // default
- -1 * 7	 03 01 01 24 // Action 3
+      17 00 // default
+ -1 * 7	 03 01 01 24 // Action 3  PUP
       00  // Number of different cargo types to support  
-      CA 00 // default
- -1 * 7	 03 01 01 25 // Action 3
+      27 00 // default
+ -1 * 7	 03 01 01 25 // Action 3  PUP
       00  // Number of different cargo types to support  
-      CA 00 // default
+      27 00 // default
       
   // --------------------------- End of Logging Truck Trailers --------------------- //
       
 
   // --------------------------- Logging Trucks --------------------- //
 
-  // Cascade Logging Truck  90t		1960-1982		30mph
+  // Cascade Logging Truck  90t
  -1 * 67	 00 01 19 01 A0
-    00 \w1-1-1920  // intro date
+    00 \w1-1-1972  // intro date
+    02 20     // reliability
+    03 19     // vehicle life
+    04 19     // class life
+    06 0F     // climate // use 00 to prevent vehicle appearing - use 0F to make it appear
+    07 05     // load amount
+    08 \b128     // speed in mph * 3.2
+    09 50     // running cost factor
+    0A 48 4C 00 00 13 28 14 C8        // running cost base
+    0E FF     // sprite ID
+    0F \b1     // capacity
+    10 FF     // cargo type 
+    11 5D     // cost factor
+    12 19     // sound effect
+    15 \b32     // speed in mph * 0.8
+    16 80 00 00 40     // Bit mask of cargo types available for refitting
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags
+    1D 00 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
+    1F 34 FD 0A 00    // Long format introduction date
+ -1 * 27	 04 01 7F 01 A0 "Cascade C10 Logging Truck" 00
+ -1 * 101	 04 01 81 01 A0 D0 "Hauls: " 8A "One logging trailer" 
+                                0d 98 "Model: " 8A "1972"
+                                0d 98 
+                                00 
+  // Cascade Logging Truck DOUBLE
+ -1 * 67	 00 01 19 01 A1
+    00 \w1-1-1972  // intro date
     02 20     // reliability
     03 19     // vehicle life
     04 19     // class life
@@ -5850,8 +5997,12 @@
     1C 02     // Miscellaneous vehicle flags
     1D 00 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
-    1F 72 EC 0A 00    // Long format introduction date
- -1 * 27	 04 01 7F 01 A0 "Cascade Logging Truck" 00
+    1F 34 FD 0A 00    // Long format introduction date
+ -1 * 27	 04 01 7F 01 A1 "Cascade C16 Logging Truck" 00
+ -1 * 101	 04 01 81 01 A1 D0 "Hauls: " 8A "Two logging trailers" 
+                                0d 98 "Model: " 8A "1972"
+                                0d 98 
+                                00 
  -1 * 4	 01 01 02 08
   // Cascade off-highway truck - trailer racked
  -1 sprites/heavy_trucks/heavy_trucks.pcx 34 890 01 24 12 -5 -17
@@ -5886,7 +6037,17 @@
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
- -1 * 14	 02 01 B0 //ID B0
+ -1 * 14	 02 01 FA // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   A0 80 23 23 // text for vehicle window
+                 F1 00 //otherwise go to next action 2 ID 
+ -1 * 14	 02 01 FB // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   A1 80 23 23 // text for vehicle window
+                 F1 00 //otherwise go to next action 2 ID 
+ -1 * 14	 02 01 B0
                81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
                01 //check one ranges
                  21 80 01 01 //give callback result
@@ -5894,15 +6055,36 @@
  -1 * 14	 02 01 B2 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
                01 // check one range
-                 F1 00 00 00 // if length is 0 use purchase menu sprite
-               A1 00 // 
- -1 * 14	 02 01 B1 //ID B1
+                 FA 00 00 00 // if length is 0 use purchase menu sprite
+               A1 00 
+ -1 * 14	 02 01 B1
                81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                02 //check one range
                  02 80 11 11 // vehicle length CB
                  B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
-               B2 00 //
- -1 * 10	 03 01 01 A0  // Action 3
+               B2 00
+ -1 * 14	 02 01 C0
+               81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
+               03 //check one ranges
+                 23 80 01 01 //give callback result
+                 05 80 02 02 //give callback result
+                 25 80 03 03 //give callback result
+               FF FF //otherwise end the callback chain
+ -1 * 14	 02 01 C2 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 FB 00 00 00 // if length is 0 use purchase menu sprite
+               A1 00 
+ -1 * 14	 02 01 C1
+               81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+               02 //check one range
+                 02 80 11 11 // vehicle length CB
+                 C0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+               C2 00
+ -1 * 10	 03 01 01 A0  // Action 3 Cascade
     00  // Number of cargo types  
     B1 00   // default sprites
+ -1 * 10	 03 01 01 A1 // Action 3 Cascade DOUBLE
+    00  // Number of cargo types  
+    C1 00   // default sprites
 // --------------------------- end of Off-Highway Trucks --------------------- //
