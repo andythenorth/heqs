@@ -4,19 +4,21 @@
  1725 * 67	 00 01 19 01 80 
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b30     // vehicle life 
-    04 \b30     // class life 
+    03 \b30   // vehicle life 
+    04 \b30   // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b77     // speed in mph * 3.2
+    08 \b77   // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 \b20     // speed in mph * 0.8
+    13 \b10   // power in 10 hp
+    14 \b16   // weight in 1/4 tons
+    15 \b20   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
@@ -105,19 +107,21 @@
  1765 * 67	 00 01 19 01 81 
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b15     // vehicle life 
-    04 \b30     // class life 
+    03 \b15   // vehicle life 
+    04 \b30   // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b160     // speed in mph * 3.2
+    08 \b160  // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 \b40     // speed in mph * 0.8
+    13 \b14   // power in 10 hp
+    14 \b28   // weight in 1/4 tons
+    15 \b40   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
@@ -177,26 +181,28 @@
  1789 * 67	 00 01 19 01 82
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b15     // vehicle life 
-    04 \b45     // class life 
+    03 \b15   // vehicle life 
+    04 \b45   // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b160     // speed in mph * 3.2
+    08 \b160  // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00   // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 \b40     // speed in mph * 0.8
+    13 \b21   // power in 10 hp
+    14 \b40   // weight in 1/4 tons
+    15 \b40   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D FF 03          // Refittable cargo classes
-    1E 01 00          // Non-refittable cargo classes
+    1D FF 03  // Refittable cargo classes
+    1E 01 00  // Non-refittable cargo classes
     1F 95 2C 0B 00    // Long format introduction date    
  1790 * 22	 04 01 7F 01 82 "Super Speedytrac" 00
  1791 * 44	 04 01 81 01 B2 D0 "Hauls: " 8A "One 19t trailer"
