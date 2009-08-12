@@ -19,14 +19,16 @@
     07 05     // load amount 
     08 80     // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
-    0F \b60     // capacity
+    0F \b60   // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
+    13 \b00   // power in 10 hp
+    14 \b28   // weight in 1/4 tons
     15 20     // speed in mph * 0.8
-    16 80 00 00 40     // Bit mask of cargo types available for refitting
+    16 80 00 00 40    // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
@@ -43,20 +45,22 @@
     07 05     // load amount 
     08 80     // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
-    0F \b80     // capacity
+    0F \b80   // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
+    13 \b00   // power in 10 hp
+    14 \b28   // weight in 1/4 tons
     15 20     // speed in mph * 0.8
-    16 80 00 00 40     // Bit mask of cargo types available for refitting
+    16 80 00 00 40    // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 00 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
+    1D 00 00  // Refittable cargo classes
+    1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 22
     00 00 00  // intro date 
@@ -67,20 +71,22 @@
     07 05     // load amount 
     08 80     // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
-    0F \b60     // capacity
+    0F \b60   // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
+    13 \b00   // power in 10 hp
+    14 \b28   // weight in 1/4 tons
     15 20     // speed in mph * 0.8
-    16 80 00 00 40     // Bit mask of cargo types available for refitting
+    16 80 00 00 40    // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 00 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
+    1D 00 00  // Refittable cargo classes
+    1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 23
     00 00 00  // intro date 
@@ -91,20 +97,22 @@
     07 05     // load amount 
     08 80     // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
-    0F \b80     // capacity
+    0F \b80   // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
+    13 \b00   // power in 10 hp
+    14 \b28   // weight in 1/4 tons
     15 20     // speed in mph * 0.8
     16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 00 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
+    1D 00 00  // Refittable cargo classes
+    1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 24
     00 00 00  // intro date 
@@ -115,20 +123,22 @@
     07 05     // load amount 
     08 80     // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
-    0F \b30     // capacity
+    0F \b30   // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
+    13 \b00   // power in 10 hp
+    14 \b28   // weight in 1/4 tons
     15 20     // speed in mph * 0.8
     16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 00 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
+    1D 00 00  // Refittable cargo classes
+    1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 25
     00 00 00  // intro date 
@@ -139,14 +149,16 @@
     07 05     // load amount 
     08 80     // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
-    0F \b40     // capacity
+    0F \b40   // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
+    13 \b00   // power in 10 hp
+    14 \b28   // weight in 1/4 tons
     15 20     // speed in mph * 0.8
-    16 80 00 00 40     // Bit mask of cargo types available for refitting
+    16 80 00 00 40    // Bit mask of cargo types available for refitting
     17 11     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
@@ -412,24 +424,26 @@
     02 20     // reliability
     03 19     // vehicle life
     04 19     // class life
-    06 0F     // climate // use 00 to prevent vehicle appearing - use 0F to make it appear
+    06 0F     // climate
     07 05     // load amount
-    08 \b128     // speed in mph * 3.2
+    08 \b128  // speed in mph * 3.2
     09 50     // running cost factor
-    0A 48 4C 00 00 13 28 14 C8        // running cost base
+    0A 48 4C 00 00  // running cost base
     0E FF     // sprite ID
-    0F \b1     // capacity
+    0F \b1    // capacity
     10 FF     // cargo type 
     11 5D     // cost factor
     12 19     // sound effect
-    15 \b32     // speed in mph * 0.8
+    13 \b52   // power in 10 hp
+    14 \b68   // weight in 1/4 tons
+    15 \b32   // speed in mph * 0.8
     16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 00 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
+    1D 00 00  // Refittable cargo classes
+    1E 00 00  // Non-refittable cargo classes
     1F 34 FD 0A 00    // Long format introduction date
  -1 * 27	 04 01 7F 01 A0 "Cascade C10 Logging Truck" 00
  -1 * 101	 04 01 81 01 A0 D0 "Hauls: " 8A "One logging trailer" 
@@ -442,24 +456,26 @@
     02 20     // reliability
     03 19     // vehicle life
     04 19     // class life
-    06 0F     // climate // use 00 to prevent vehicle appearing - use 0F to make it appear
+    06 0F     // climate
     07 05     // load amount
-    08 \b96     // speed in mph * 3.2
+    08 \b96   // speed in mph * 3.2
     09 50     // running cost factor
-    0A 48 4C 00 00 13 28 14 C8        // running cost base
+    0A 48 4C 00 00  // running cost base
     0E FF     // sprite ID
-    0F \b1     // capacity
+    0F \b1    // capacity
     10 FF     // cargo type 
     11 5D     // cost factor
     12 19     // sound effect
-    15 \b24     // speed in mph * 0.8
+    13 \b60   // power in 10 hp
+    14 \b76   // weight in 1/4 tons
+    15 \b24   // speed in mph * 0.8
     16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 00 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
+    1D 00 00  // Refittable cargo classes
+    1E 00 00  // Non-refittable cargo classes
     1F 34 FD 0A 00    // Long format introduction date
  -1 * 27	 04 01 7F 01 A1 "Cascade C16 Logging Truck" 00
  -1 * 101	 04 01 81 01 A1 D0 "Hauls: " 8A "Two logging trailers" 
