@@ -1483,7 +1483,7 @@
     10 FF             // cargo type 
     11 5D             // cost factor
     12 1A             // sound effect
-    13 \b120          // power in 10 hp
+    13 \b160          // power in 10 hp
     14 \b252          // weight in 1/4 tons
     15 \b46           // speed in mph * 0.8
     16 40 00 00 28    // Bit mask of cargo types available for refitting
