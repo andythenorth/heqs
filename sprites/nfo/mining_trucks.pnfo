@@ -1,0 +1,1651 @@
+-1 *// -------------- Belly Dump Trailers for Mining Trucks --------------- //
+-1 *// Medium belly dump trailer 
+-1 *// Used by Thunder Mountain articulated dump truck
+-1 ** 67	 00 01 19 01 06
+-1 *00 00  // intro date 
+-1 *20     // reliability 
+-1 *11     // vehicle life 
+-1 *23     // class life 
+-1 *00     // climate 
+-1 *05     // load amount 
+-1 *80     // speed in mph * 3.2
+-1 *1E     // running cost factor 
+-1 *A 48 4C 00 00    // running cost base 
+-1 *E FF     // sprite ID
+-1 *F \b90     // capacity
+-1 *FF     // cargo type
+-1 *34     // cost factor
+-1 *17     // sound effect
+-1 *\b0     // power in 10 hp
+-1 *\b96     // weight in -1 */4 tons
+-1 *\b48     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *16     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F 60 B3 0A 00    // Long format introduction date  
+-1 ** 6	 07 83 01 \7! 02 01 // tropic only
+-1 ** 7	 00 01 01 01 06 10 08// copper ore default
+-1 ** 23	 04 01 7F 01 06 "Medium Belly Dump" 00
+-1 *// Medium belly dump A (rear wheels only) - empty
+-1 ** 4	 01 01 0D 08
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 50 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 50 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 50 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 50 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 50 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 50 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 50 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 50 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - iron ore, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 490 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 490 09 20 20 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 490 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 490 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 490 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 490 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 490 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 490 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - iron ore, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 530 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 530 09 20 20 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 530 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 530 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 530 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 530 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 530 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 530 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - coal, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 170 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 170 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 170 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 170 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 170 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 170 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 170 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 170 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - coal, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 210 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 210 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 210 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 210 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 210 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 210 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 210 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 210 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - sand, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 250 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 250 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 250 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 250 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 250 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 250 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 250 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 250 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - sand, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 290 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 290 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 290 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 290 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 290 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 290 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 290 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 290 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - brown, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 410 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 410 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 410 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 410 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 410 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 410 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 410 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 410 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - brown, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 450 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 450 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 450 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 450 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 450 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 450 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 450 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 450 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - red, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 370 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 370 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 370 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 370 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 370 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 370 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 370 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 370 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - red, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 370 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 370 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 370 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 370 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 370 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 370 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 370 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 370 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - grey, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 90 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 90 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 90 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 90 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 90 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 90 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 90 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 90 09 20 26 -10 -10
+-1 *// Medium belly dump A (rear wheels only) - grey, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 34 130 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 66 130 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 98 130 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 146 130 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 178 130 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 210 130 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 242 130 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_medium_A.pcx 290 130 09 20 26 -10 -10
+-1 *// Action 2 ID schema: 0 / -1 *= rear wheels only, 2 / 3 = with front wheels  
+-1 ** 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
+-1 ** 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
+-1 ** 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // sand
+-1 ** 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
+-1 ** 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
+-1 ** 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
+-1 ** 26	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
+-1 *47 00 FF // var 47 in format ccccwwtt where I want tt 
+-1 *// range
+-1 *00 01 01 // format: id | cargo
+-1 *00 08 08
+-1 *E 00 0E 0E
+-1 *00 19 19
+-1 *00 // default 
+-1 ** 7	 03 01 01 06 // Action 3
+-1 *// Number of different cargo types to support  
+-1 *CD 00 // default
+-1 *
+-1 *// Large belly dump trailer
+-1 *// Used by large articulated mining trucks
+-1 ** 67	 00 01 19 01 07
+-1 *00 00  // intro date 
+-1 *20     // reliability 
+-1 *11     // vehicle life 
+-1 *23     // class life 
+-1 *00     // climate 
+-1 *05     // load amount 
+-1 *80     // speed in mph * 3.2
+-1 *1E     // running cost factor 
+-1 *A 48 4C 00 00    // running cost base 
+-1 *E FF     // sprite ID
+-1 *F \b120     // capacity
+-1 *FF     // cargo type
+-1 *34     // cost factor
+-1 *17     // sound effect
+-1 *\b0     // power in 10 hp
+-1 *\b132     // weight in -1 */4 tons
+-1 *\b48     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *16     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F 60 B3 0A 00    // Long format introduction date  
+-1 ** 6	 07 83 01 \7! 02 01 // tropic only
+-1 ** 7	 00 01 01 01 07 10 08// copper ore default
+-1 ** 22	 04 01 7F 01 07 "Large Belly Dump" 00
+-1 *// Large belly dump A (rear wheels only) - empty
+-1 ** 4	 01 01 0D 08
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 50 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 50 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 50 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 50 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 50 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 50 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 50 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 50 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - iron ore, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 490 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 490 09 20 20 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 490 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 490 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 490 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 490 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 490 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 490 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - iron ore, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 530 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 530 09 20 20 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 530 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 530 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 530 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 530 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 530 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 530 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - coal, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 170 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 170 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 170 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 170 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 170 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 170 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 170 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 170 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - coal, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 210 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 210 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 210 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 210 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 210 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 210 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 210 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 210 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - sand, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 250 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 250 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 250 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 250 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 250 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 250 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 250 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 250 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - sand, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 290 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 290 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 290 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 290 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 290 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 290 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 290 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 290 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - brown, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 410 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 410 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 410 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 410 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 410 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 410 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 410 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 410 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - brown, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 450 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 450 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 450 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 450 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 450 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 450 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 450 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 450 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - red, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 370 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 370 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 370 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 370 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 370 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 370 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 370 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 370 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - red, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 370 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 370 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 370 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 370 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 370 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 370 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 370 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 370 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - grey, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 90 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 90 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 90 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 90 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 90 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 90 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 90 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 90 09 20 26 -10 -10
+-1 *// Large belly dump A (rear wheels only) - grey, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 34 130 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 66 130 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 98 130 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 146 130 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 178 130 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 210 130 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 242 130 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_A.pcx 290 130 09 20 26 -10 -10
+-1 *// Action 2 ID schema: 0 / -1 *= rear wheels only, 2 / 3 = with front wheels  
+-1 ** 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
+-1 ** 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
+-1 ** 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // sand
+-1 ** 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
+-1 ** 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
+-1 ** 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
+-1 *// Large belly dump B (with front wheels) - empty
+-1 ** 4	 01 01 0D 08
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 50 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 50 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 50 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 50 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 50 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 50 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 50 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 50 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - iron ore, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 490 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 490 09 20 20 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 490 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 490 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 490 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 490 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 490 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 490 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - iron ore, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 530 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 530 09 20 20 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 530 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 530 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 530 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 530 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 530 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 530 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - coal, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 170 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 170 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 170 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 170 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 170 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 170 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 170 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 170 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - coal, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 210 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 210 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 210 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 210 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 210 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 210 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 210 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 210 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - sand, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 250 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 250 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 250 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 250 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 250 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 250 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 250 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 250 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - sand, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 290 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 290 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 290 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 290 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 290 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 290 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 290 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 290 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - brown, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 410 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 410 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 410 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 410 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 410 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 410 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 410 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 410 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - brown, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 450 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 450 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 450 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 450 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 450 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 450 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 450 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 450 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - red, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 370 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 370 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 370 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 370 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 370 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 370 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 370 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 370 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - red, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 370 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 370 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 370 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 370 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 370 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 370 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 370 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 370 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - grey, loading
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 90 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 90 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 90 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 90 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 90 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 90 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 90 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 90 09 20 26 -10 -10
+-1 *// Large belly dump B (with front wheels) - grey, loaded
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 34 130 01 24 12 -3 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 66 130 09 20 26 -14 -7
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 98 130 01 16 36 -14 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 146 130 09 20 26 -10 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 178 130 01 24 12 -9 -16
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 210 130 09 20 26 -17 -8
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 242 130 01 16 36 -26 -9
+-1 *sprites/standard_trailers/mining_truck_trailer_large_B.pcx 290 130 09 20 26 -10 -10
+-1 *// Action 2 ID schema: 0 / -1 *= rear wheels only, 2 / 3 = with front wheels  
+-1 ** 17	 02 01 28  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
+-1 ** 17	 02 01 21  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
+-1 ** 17	 02 01 26  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain (not used - left here for ease of copy and paste)
+-1 ** 17	 02 01 2E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
+-1 ** 17	 02 01 37  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
+-1 ** 17	 02 01 31  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
+-1 *// Rough order of business here:
+-1 *// assume belly dumps in position -1 *in consist are behind a mining hauler (in position 0) and don't need front wheels.
+-1 *// otherwise use front wheel sprites
+-1 ** 26	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
+-1 *47 00 FF // var 47 in format ccccwwtt where I want tt 
+-1 *// range
+-1 *00 01 01 // format: id | cargo
+-1 *00 08 08 
+-1 *E 00 0E 0E 
+-1 *00 19 19
+-1 *00 // default 
+-1 ** 26	 02 01 CC  // choose belly dump B sprites according to cargo slot (in cargo translation tt)
+-1 *47 00 FF // var 47 in format ccccwwtt where I want tt 
+-1 *// range
+-1 *00 01 01 // format: id | cargo 
+-1 *00 08 08
+-1 *E 00 0E 0E 
+-1 *00 19 19
+-1 *00 // default 
+-1 ** 14	 02 01 CA  // choose belly dump sprites according to position in consist 
+-1 *40 00 FF // var 40 in format 00nnbbff where I want ff 
+-1 *// range
+-1 *CD 00 01 01 // vehicle is in position -1 *in consist (second vehicle)
+-1 *CC 00 // default 
+-1 ** 7	 03 01 01 07  // Action 3
+-1 *// Number of different cargo types to support  
+-1 *CA 00 // default
+-1 *// ----------------- end of Belly Dump Trailers for Mining Trucks -------------- //
+-1 *
+-1 *
+-1 *// --------------------------- Dump trucks / Mining Haulers --------------------- //
+-1 *
+-1 *// Mt. McKinley Dump Truck  30t		1954-1972	35mph
+-1 ** 67	 00 01 19 01 D0
+-1 *\w1--1 *-1920  // intro date
+-1 *20     // reliability
+-1 *19     // vehicle life
+-1 *19     // class life
+-1 *0F     // climate
+-1 *05     // load amount
+-1 *\b112     // speed in mph * 3.2
+-1 *50     // running cost factor
+-1 *A 48 4C 00 00 13 28 14 C8        // running cost base
+-1 *E FF     // sprite ID
+-1 *F \b30     // capacity
+-1 *FF     // cargo type 
+-1 *5D     // cost factor
+-1 *19     // sound effect
+-1 *\b28     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *00     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F 93 E4 0A 00    // Long format introduction date
+-1 ** 29	 04 01 7F 01 D0 "Mt. McKinley Dump Truck" 00
+-1 ** 4	 01 01 0F 08
+-1 *// Mt. McKinley 30t dump truck empty 
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 10 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 10 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 10 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 10 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 10 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 10 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 10 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 10 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck coal partial
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 50 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 50 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 50 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 50 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 50 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 50 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 50 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 50 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck coal 
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 90 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 90 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 90 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 90 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 90 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 90 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 90 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 90 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck iron partial
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 130 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 130 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 130 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 130 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 130 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 130 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 130 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 130 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck iron 
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 170 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 170 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 170 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 170 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 170 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 170 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 170 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 170 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck white partial
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 210 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 210 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 210 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 210 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 210 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 210 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 210 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 210 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck white 
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 250 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 250 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 250 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 250 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 250 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 250 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 250 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 250 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck brown partial
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 290 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 290 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 290 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 290 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 290 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 210 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 290 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 290 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck brown 
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 330 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 330 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 330 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 330 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 330 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 330 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 330 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 330 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck grey partial
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 370 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 370 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 370 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 370 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 370 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 370 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 370 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 370 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck grey
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 410 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 410 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 410 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 410 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 410 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 410 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 410 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 410 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck red partial
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 450 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 450 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 450 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 450 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 450 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 450 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 450 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 450 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck red
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 490 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 490 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 490 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 490 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 490 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 490 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 490 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 490 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck sand partial
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 530 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 530 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 530 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 530 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 530 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 530 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 530 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 530 09 20 26 -9 -10
+-1 *// Mt. McKinley 30t dump truck sand
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 34 570 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 66 570 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 98 570 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 146 570 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 178 570 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 210 570 09 20 26 -17 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 242 570 01 16 36 -28 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 290 570 09 20 26 -9 -10
+-1 ** 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+-1 ** 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+-1 ** 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+-1 ** 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+-1 ** 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+-1 ** 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+-1 ** 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
+-1 ** 4	 01 01 01 04 // buy menu sprites
+-1 ** -1 *	 00
+-1 ** -1 *	 00
+-1 *sprites/mining_trucks/1960s_dump_truck_2_axle.pcx 370 13 01 12 36 -14 -6
+-1 ** -1 *	 00
+-1 ** 9	 02 01 AF 01 01  00 00  00 00
+-1 ** 28	 03 01 01 D0 // Action 3
+-1 *// number of cargos
+-1 *A1 00
+-1 *A2 00
+-1 *E A3 00
+-1 *A4 00
+-1 *A5 00
+-1 *A7 00
+-1 *FF AF 00 // buy menu sprites
+-1 *A5 00 // default sprites
+-1 *
+-1 *// Mount Rainier Dump Truck 50t		1960-1981	35mph
+-1 ** 67	 00 01 19 01 D1
+-1 *\w1--1 *-1920  // intro date
+-1 *20     // reliability
+-1 *19     // vehicle life
+-1 *19     // class life
+-1 *0F     // climate
+-1 *05     // load amount
+-1 *\b112     // speed in mph * 3.2
+-1 *50     // running cost factor
+-1 *A 48 4C 00 00 13 28 14 C8        // running cost base
+-1 *E FF     // sprite ID
+-1 *F \b50     // capacity
+-1 *FF     // cargo type 
+-1 *5D     // cost factor
+-1 *19     // sound effect
+-1 *\b28     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *00     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F 72 EC 0A 00    // Long format introduction date
+-1 ** 28	 04 01 7F 01 D1 "Mt. Rainier Dump Truck" 00
+-1 ** 4	 01 01 0F 08
+-1 *// Mount Rainier 50t dump truck empty
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 10 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 10 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 10 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 10 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 10 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 10 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 10 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 10 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck coal partial
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 50 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 50 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 50 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 50 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 50 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 50 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 50 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 50 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck coal
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 90 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 90 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 90 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 90 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 90 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 90 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 90 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 90 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck iron partial
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 130 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 130 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 130 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 130 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 130 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 130 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 130 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 130 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck iron
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 170 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 170 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 170 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 170 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 170 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 170 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 170 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 170 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck white partial
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 210 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 210 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 210 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 210 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 210 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 210 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 210 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 210 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck white
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 250 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 250 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 250 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 250 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 250 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 250 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 250 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 250 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck brown partial
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 290 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 290 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 290 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 290 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 290 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 290 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 290 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 290 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck brown
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 330 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 330 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 330 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 330 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 330 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 330 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 330 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 330 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck grey partial
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 370 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 370 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 370 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 370 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 370 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 370 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 370 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 370 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck grey
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 410 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 410 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 410 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 410 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 410 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 410 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 410 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 410 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck red partial
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 450 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 450 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 450 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 450 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 450 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 450 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 450 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 450 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck red
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 490 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 490 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 490 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 490 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 490 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 490 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 490 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 490 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck sand partial
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 530 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 530 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 530 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 530 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 530 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 530 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 530 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 530 09 20 26 -8 -11
+-1 *// Mount Rainier 50t dump truck sand
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 34 570 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 66 570 09 20 26 -17 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 98 570 01 16 36 -18 -8
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 146 570 09 20 26 -11 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 178 570 01 24 12 -5 -13
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 210 570 09 20 26 -16 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 242 570 01 16 36 -22 -9
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 290 570 09 20 26 -8 -11
+-1 ** 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+-1 ** 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+-1 ** 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+-1 ** 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+-1 ** 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+-1 ** 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+-1 ** 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
+-1 ** 4	 01 01 01 04
+-1 ** -1 *	 00
+-1 ** -1 *	 00
+-1 *sprites/mining_trucks/1960s_dump_truck_3_axle.pcx 370 13 01 12 36 -14 -6
+-1 ** -1 *	 00
+-1 ** 9	 02 01 AF 01 01 00 00 00 00
+-1 ** 28	 03 01 01 D1 // Action 3 
+-1 *// number of cargos
+-1 *A1 00
+-1 *A2 00
+-1 *E A3 00
+-1 *A4 00
+-1 *A5 00
+-1 *A7 00
+-1 *FF AF 00 // buy menu sprites
+-1 *A6 00 // default sprites
+-1 *
+-1 *// Thunder Mountain Mining Truck  90t		1960-1982		30mph
+-1 ** 67	 00 01 19 01 D2
+-1 *\w1--1 *-1920  // intro date
+-1 *20     // reliability
+-1 *19     // vehicle life
+-1 *19     // class life
+-1 *0F     // climate
+-1 *05     // load amount
+-1 *\b96     // speed in mph * 3.2
+-1 *50     // running cost factor
+-1 *A 48 4C 00 00 13 28 14 C8        // running cost base
+-1 *E FF     // sprite ID
+-1 *F 00     // capacity
+-1 *FF     // cargo type 
+-1 *5D     // cost factor
+-1 *19     // sound effect
+-1 *\b24     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *16     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F 72 EC 0A 00    // Long format introduction date
+-1 ** 35	 04 01 7F 01 D2 "Thunder Mountain Mining Truck" 00
+-1 ** 41	 04 01 81 01 D2 D0 "Hauls: " 8A "One 90t belly-dump trailer" 00
+-1 ** 4	 01 01 01 08
+-1 *// Thunder Mountain mining truck empty
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 34 250 01 24 12 -5 -18
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 66 250 09 20 26 -13 -9
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 98 250 01 16 36 -10 -10
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 146 250 09 20 26 -7 -9
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 178 250 01 24 12 -5 -16
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 210 250 09 20 26 -21 -6
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 242 250 01 16 36 -28 -9
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 290 250 09 20 26 -14 -13
+-1 ** 9	 02 01 A1 01 01 00 00 00 00 // normal action2 defining graphics with no loading/loaded stages
+-1 ** 4	 01 01 01 04
+-1 ** -1 *	 00
+-1 ** -1 *	 00
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 370 250 01 16 36 -14 -9
+-1 ** -1 *	 00
+-1 ** 9	 02 01 F1 // action2 buy menu sprites 
+-1 *// number loading states
+-1 *// number loaded states
+-1 *00 // loading sprites
+-1 *00 // loaded sprites
+-1 ** 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
+-1 *0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+-1 *// range
+-1 *D2 80 23 23 // text for vehicle window
+-1 *F1 00 //otherwise go to next action 2 ID 
+-1 ** 14	 02 01 B0 //ID B0
+-1 *10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
+-1 *//check one ranges
+-1 *80 01 01 //give callback result
+-1 *FF FF //otherwise end the callback chain
+-1 ** 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+-1 *40 10 FF // check vehicle length    
+-1 *// check one range
+-1 *F0 00 00 00 // if length is 0 use purchase menu sprite
+-1 *A1 00 // else go to action 2 to apply graphics
+-1 ** 18	 02 01 B1 //ID B1
+-1 *0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+-1 *//check one range
+-1 *80 11 11 // vehicle length CB 
+-1 *B0 00 16 16 // articulated vehicle building instructions
+-1 *B6 00 //otherwise go to next action 2 ID 
+-1 ** 7	 03 01 01 D2 // Action 3
+-1 *// Number of different cargo types to support  
+-1 *B1 00   // Action 2 ID above  
+-1 *
+-1 *// Harney Peak Mining Hauler 60t		1979-2050	40mph
+-1 ** 67	 00 01 19 01 D3
+-1 *\w1--1 *-1920  // intro date
+-1 *20     // reliability
+-1 *19     // vehicle life
+-1 *19     // class life
+-1 *0F     // climate
+-1 *05     // load amount
+-1 *\b128     // speed in mph * 3.2
+-1 *50     // running cost factor
+-1 *A 48 4C 00 00    // running cost base
+-1 *E FF     // sprite ID
+-1 *F \b60     // capacity
+-1 *FF     // cargo type 
+-1 *5D     // cost factor
+-1 *17     // sound effect
+-1 *\b65     // power in 10 hp
+-1 *\b172     // weight in -1 */4 tons
+-1 *\b32     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *00     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F \d722825   // Long format introduction date
+-1 ** 30	 04 01 7F 01 D3 "Harney Peak Mining Truck" 00  
+-1 ** 4	 01 01 0F 08
+-1 *// Harney Peak 60t hauler empty
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 10 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 10 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 10 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 10 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 10 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 10 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 10 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler coal partial
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 50 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 50 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 50 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 50 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 50 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 50 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 50 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 50 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler coal
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 90 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 90 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 90 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 90 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 90 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 90 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 90 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 90 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler iron partial
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 130 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 130 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 130 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 130 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 130 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 130 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 130 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 130 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler iron
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 170 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 170 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 170 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 170 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 170 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 170 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 170 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 170 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler white partial
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 210 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 210 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 210 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 210 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 210 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 210 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 210 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 210 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler white
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 250 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 250 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 250 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 250 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 250 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 250 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 250 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 250 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler brown partial
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 290 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 290 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 290 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 290 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 290 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 290 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 290 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 290 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler brown
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 330 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 330 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 330 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 330 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 330 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 330 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 330 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 330 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler grey partial
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 370 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 370 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 370 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 370 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 370 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 370 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 370 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 370 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler grey 
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 410 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 410 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 410 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 410 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 410 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 410 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 410 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 410 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler red partial
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 450 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 450 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 450 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 450 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 450 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 450 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 450 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 450 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler red
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 490 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 490 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 490 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 490 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 490 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 490 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 490 01 16 36 -10 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 490 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler sand partial
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 530 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 530 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 530 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 530 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 530 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 530 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 530 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 530 09 20 26 -10 -11
+-1 *// Harney Peak 60t hauler sand
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 34 570 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 66 570 09 20 26 -15 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 98 570 01 16 36 -18 -8
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 146 570 09 20 26 -11 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 178 570 01 24 12 -5 -13
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 210 570 09 20 26 -16 -9
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 242 570 01 16 36 -20 -10
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 290 570 09 20 26 -10 -11
+-1 ** 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+-1 ** 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+-1 ** 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+-1 ** 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+-1 ** 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+-1 ** 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+-1 ** 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
+-1 ** 4	 01 01 01 04
+-1 ** -1 *	 00
+-1 ** -1 *	 00
+-1 *sprites/mining_trucks/60t_mining_truck.pcx 370 14 01 12 36 -14 -6
+-1 ** -1 *	 00
+-1 ** 9	 02 01 AF 01 01 00 00 00 00
+-1 ** 28	 03 01 01 D3 // Action 3
+-1 *// number of cargo types
+-1 *A1 00
+-1 *A2 00
+-1 *E A3 00
+-1 *A4 00
+-1 *A5 00
+-1 *A7 00
+-1 *FF AF 00 // buy menu sprites
+-1 *A6 00 // default sprites
+-1 *
+-1 *// Bear Mountain Mining Truck 120t		1980-2050	35mph
+-1 ** 67	 00 01 19 01 D4 
+-1 *\w1--1 *-1920  // intro date
+-1 *20     // reliability
+-1 *19     // vehicle life
+-1 *19     // class life
+-1 *0F     // climate
+-1 *05     // load amount
+-1 *\b112     // speed in mph * 3.2
+-1 *50     // running cost factor
+-1 *A 48 4C 00 00  // running cost base
+-1 *E FF     // sprite ID
+-1 *F 00     // capacity
+-1 *FF     // cargo type 
+-1 *5D     // cost factor
+-1 *17     // sound effect
+-1 *\b65     // power in 10 hp
+-1 *\b124     // weight in -1 */4 tons
+-1 *\b28     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *12     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F 9C 08 0B 00    // Long format introduction date
+-1 ** 32	 04 01 7F 01 D4 "Bear Mountain Mining Truck" 00
+-1 ** 42	 04 01 81 01 D3 D0 "Hauls: " 8A "One 120t belly-dump trailer" 00
+-1 ** 4	 01 01 01 08
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 34 330 01 24 12 -5 -16
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 66 330 09 20 26 -15 -8
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 98 330 01 16 36 -18 -10
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 146 330 09 20 26 -11 -9
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 178 330 01 24 12 -5 -15
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 210 330 09 20 26 -16 -9
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 242 330 01 16 36 -20 -10
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 290 330 09 20 26 -10 -11
+-1 ** 9	 02 01 A1 01 01 00 00 00 00 //normal action2 defining graphics with no loading/loaded stages
+-1 ** 4	 01 01 01 04
+-1 ** -1 *	 00
+-1 ** -1 *	 00
+-1 *sprites/heavy_trucks/heavy_trucks.pcx 370 334 01 12 36 -14 -6
+-1 ** -1 *	 00
+-1 ** 9	 02 01 F1 // action2 buy menu sprites 
+-1 *// number loading states
+-1 *// number loaded states
+-1 *00 // loading sprites
+-1 *00 // loaded sprites
+-1 ** 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
+-1 *0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+-1 *// range
+-1 *D3 80 23 23 // text for vehicle window
+-1 *F1 00 //otherwise go to next action 2 ID 
+-1 ** 14	 02 01 B0 //ID B0
+-1 *10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
+-1 *//check one ranges
+-1 *80 01 01 //give callback result
+-1 *FF FF //otherwise end the callback chain
+-1 ** 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+-1 *40 10 FF // check vehicle length    
+-1 *// check one range
+-1 *F0 00 00 00 // if length is 0 use purchase menu sprite
+-1 *A1 00 // else go to action 2 to apply graphics
+-1 ** 18	 02 01 B1 //ID B1
+-1 *0C 00 FF // handle callbacks
+-1 *// range
+-1 *80 11 11 // vehicle length CB 
+-1 *B0 00 16 16 // articulated vehicle CB
+-1 *B6 00 //otherwise go to next action 2 ID 
+-1 ** 7	 03 01 01 D4 // Action 3
+-1 *// Number of different cargo types to support
+-1 *B1 00   // Action 2 ID above  
+-1 *
+-1 *// Rockchuck Peak Mining Hauler 95t		2000-2050	42mph
+-1 ** 67	 00 01 19 01 D5            // Action 0
+-1 *\w1--1 *-1920  // intro date
+-1 *20     // reliability
+-1 *19     // vehicle life
+-1 *19     // class life
+-1 *0F     // climate
+-1 *05     // load amount
+-1 *\b135     // speed in mph * 3.2
+-1 *50     // running cost factor
+-1 *A 48 4C 00 00        // running cost base
+-1 *E FF     // sprite ID
+-1 *F \b95     // capacity
+-1 *FF     // cargo type 
+-1 *5D     // cost factor
+-1 *17     // sound effect
+-1 *\b93     // power in 10 hp
+-1 *\b232     // weight in -1 */4 tons
+-1 *\b37     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *00     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F 84 25 0B 00   // Long format introduction date  
+-1 ** 33	 04 01 7F 01 D5 "Rockchuck Peak Mining Truck" 00  
+-1 ** 4	 01 01 0F 08
+-1 *// Rockchuck Peak 95t hauler empty
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 10 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 10 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 10 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 10 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 10 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 10 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 10 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 10 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler coal partial
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 50 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 50 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 50 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 50 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 50 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 50 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 50 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 50 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler coal
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 90 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 90 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 90 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 90 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 90 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 90 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 90 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 90 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler iron partial
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 130 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 130 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 130 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 130 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 130 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 130 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 130 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 130 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler iron
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 170 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 170 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 170 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 170 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 170 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 170 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 170 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 170 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler white partial
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 210 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 210 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 210 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 210 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 210 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 210 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 210 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 210 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler white
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 250 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 250 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 250 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 250 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 250 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 250 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 250 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 250 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler brown partial
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 290 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 290 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 290 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 290 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 290 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 290 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 290 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 290 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler brown
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 330 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 330 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 330 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 330 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 330 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 330 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 330 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 330 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler grey partial
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 370 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 370 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 370 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 370 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 370 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 370 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 370 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 370 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler grey 
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 410 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 410 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 410 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 410 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 410 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 410 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 410 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 410 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler red partial
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 450 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 450 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 450 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 450 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 450 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 450 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 450 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 450 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler red
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 490 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 490 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 490 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 490 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 490 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 490 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 490 01 16 36 -10 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 490 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler sand partial
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 530 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 530 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 530 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 530 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 530 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 530 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 530 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 530 09 20 26 -10 -11
+-1 *// Rockchuck Peak 95t hauler sand
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 34 570 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 66 570 09 20 26 -15 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 98 570 01 16 36 -18 -8
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 146 570 09 20 26 -11 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 178 570 01 24 12 -5 -13
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 210 570 09 20 26 -16 -9
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 242 570 01 16 36 -20 -10
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 290 570 09 20 26 -10 -11
+-1 ** 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+-1 ** 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+-1 ** 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+-1 ** 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+-1 ** 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+-1 ** 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+-1 ** 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
+-1 ** 4	 01 01 01 04 // depot sprites
+-1 ** -1 *	 00
+-1 ** -1 *	 00
+-1 *sprites/mining_trucks/95t_mining_truck.pcx 370 14 01 12 36 -14 -6
+-1 ** -1 *	 00
+-1 ** 9	 02 01 AF 01 01 00 00 00 00
+-1 ** 28	 03 01 01 D5 // Action 3 
+-1 *// number of cargo types to support
+-1 *A1 00
+-1 *A2 00
+-1 *E A3 00 
+-1 *A4 00
+-1 *A5 00
+-1 *A7 00
+-1 *FF AF 00 // buy menu sprites
+-1 *A6 00 // default sprites
+-1 *
+-1 *// Camelback Mountain Mining Truck  240t		2001-2050	37mph
+-1 ** 67	 00 01 19 01 D6
+-1 *\w1--1 *-1920  // intro date
+-1 *20     // reliability
+-1 *19     // vehicle life
+-1 *19     // class life
+-1 *0F     // climate
+-1 *05     // load amount
+-1 *\b119     // speed in mph * 3.2
+-1 *50     // running cost factor
+-1 *A 48 4C 00 00 13 28 14 C8        // running cost base
+-1 *E FF     // sprite ID
+-1 *F 00     // capacity
+-1 *FF     // cargo type 
+-1 *5D     // cost factor
+-1 *19     // sound effect
+-1 *\b30     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *12     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F 8D
+-1 *0B 00    // Long format introduction date
+-1 ** 37	 04 01 7F 01 D6 "Camelback Mountain Mining Truck" 00
+-1 ** 43	 04 01 81 01 D4 D0 "Hauls: " 8A "Two 120t belly-dump trailers" 00 // (240t total)
+-1 ** 4	 01 01 01 08
+-1 *// Kilimanjaro (Articulated) dump truck empty
+-1 *--1 *sprites/heavy_trucks/heavy_trucks.pcx 34 330 01 24 12 -5 -16
+-1 *--1 *sprites/heavy_trucks/heavy_trucks.pcx 66 330 09 20 26 -15 -8
+-1 *--1 *sprites/heavy_trucks/heavy_trucks.pcx 98 330 01 16 36 -18 -10
+-1 *--1 *sprites/heavy_trucks/heavy_trucks.pcx 146 330 09 20 26 -11 -9
+-1 *--1 *sprites/heavy_trucks/heavy_trucks.pcx 178 330 01 24 12 -5 -15
+-1 *--1 *sprites/heavy_trucks/heavy_trucks.pcx 210 330 09 20 26 -16 -9
+-1 *--1 *sprites/heavy_trucks/heavy_trucks.pcx 242 330 01 16 36 -20 -10
+-1 *--1 *sprites/heavy_trucks/heavy_trucks.pcx 290 330 09 20 26 -10 -11
+-1 ** 9	 02 01 A1 01 01 00 00 00 00 //normal action2 defining graphics with no loading/loaded stages
+-1 ** 4	 01 01 01 04
+-1 ** -1 *	 00
+-1 ** -1 *	 00
+-1 *--1 *sprites/heavy_trucks/heavy_trucks.pcx 370 334 01 12 36 -14 -6
+-1 ** -1 *	 00
+-1 ** 9	 02 01 F1 // action2 buy menu sprites 
+-1 *// number loading states
+-1 *// number loaded states
+-1 *00 // loading sprites
+-1 *00 // loaded sprites
+-1 ** 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
+-1 *0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+-1 *// range
+-1 *D4 80 23 23 // text for vehicle window
+-1 *F1 00 //otherwise go to next action 2 ID 
+-1 ** 22	 02 01 B0 //ID B0
+-1 *10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
+-1 *//check one ranges
+-1 *80 01 01 //give callback result
+-1 *80 02 02 //give callback result
+-1 *80 03 03 //give callback result
+-1 *FF FF //otherwise end the callback chain
+-1 ** 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+-1 *40 10 FF // check vehicle length    
+-1 *// check one range
+-1 *F0 00 00 00 // if length is 0 use purchase menu sprite
+-1 *A1 00 // else go to action 2 to apply graphics
+-1 ** 18	 02 01 B1 //
+-1 *0C 00 FF // handle callbacks
+-1 *// range
+-1 *80 11 11 // vehicle length CB
+-1 *B0 00 16 16 // articulated vehicle building instructions
+-1 *B6 00 //otherwise go to next action 2 ID 
+-1 ** 7	 03 01 01 D6  // Action 3
+-1 *// Number of different cargo types to support 
+-1 *B1 00   // Action 2 ID above  
+-1 *
+-1 *// Kilimanjaro Mining Hauler  160t	1200hp	1990-2050	57mph
+-1 ** 67	 00 01 19 01 D7
+-1 *\w1--1 *-1920  // intro date
+-1 *20     // reliability
+-1 *19     // vehicle life
+-1 *19     // class life
+-1 *0F     // climate
+-1 *05     // load amount
+-1 *\b182     // speed in mph * 3.2
+-1 *50     // running cost factor
+-1 *A 48 4C 00 00       // running cost base
+-1 *E FF     // sprite ID
+-1 *F \b160     // capacity
+-1 *FF     // cargo type 
+-1 *5D     // cost factor
+-1 *1A     // sound effect
+-1 *\b120     // power in 10 hp
+-1 *\b252     // weight in -1 */4 tons
+-1 *\b46     // speed in mph * 0.8
+-1 *40 00 00 28     // Bit mask of cargo types available for refitting
+-1 *// flips 1D / 1E values: excludes grain, wheat, maize
+-1 *00     // Callback flags bit mask
+-1 *A 00     // Refit cost, using 25% of the purchase price cost base
+-1 *B 00     // Retire vehicle early, this many years before the end of phase 2
+-1 *C 02     // Miscellaneous vehicle flags
+-1 *D 10 00          // Refittable cargo classes
+-1 *E EF 03          // Non-refittable cargo classes
+-1 *F \d726840   // Long format introduction date (dword)
+-1 ** 39	 04 01 7F 01 D7 "Kilimanjaro Unitised Mining Truck" 00
+-1 ** 4	 01 01 0F 08
+-1 *// unitised hauler empty
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 10 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 10 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 10 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 10 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 10 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 10 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 10 01 22 30 -9 -11
+-1 *// unitised hauler coal partial
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 50 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 50 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 50 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 50 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 50 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 50 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 50 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 50 01 22 30 -9 -11
+-1 *// unitised hauler coal
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 90 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 90 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 90 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 90 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 90 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 90 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 90 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 90 01 22 30 -9 -11
+-1 *// unitised hauler iron partial
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 130 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 130 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 130 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 130 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 130 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 130 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 130 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 130 01 22 30 -9 -11
+-1 *// unitised hauler iron 
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 170 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 170 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 170 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 170 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 170 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 170 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 170 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 170 01 22 30 -9 -11
+-1 *// unitised hauler white partial 
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 210 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 210 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 210 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 210 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 210 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 210 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 210 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 210 01 22 30 -9 -11
+-1 *// unitised hauler white
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 250 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 250 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 250 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 250 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 250 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 250 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 250 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 250 01 22 30 -9 -11
+-1 *// unitised hauler brown partial
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 290 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 290 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 290 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 290 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 290 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 290 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 290 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 290 01 22 30 -9 -11
+-1 *// unitised hauler brown 
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 330 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 330 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 330 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 330 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 330 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 330 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 330 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 330 01 22 30 -9 -11
+-1 *// unitised hauler grey partial
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 370 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 370 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 370 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 370 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 370 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 370 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 370 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 370 01 22 30 -9 -11
+-1 *// unitised hauler grey
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 410 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 410 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 410 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 410 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 410 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 410 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 410 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 410 01 22 30 -9 -11
+-1 *// unitised hauler red partial
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 450 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 450 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 450 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 450 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 450 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 450 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 450 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 450 01 22 30 -9 -11
+-1 *// unitised hauler red
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 490 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 490 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 490 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 490 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 490 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 490 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 490 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 490 01 22 30 -9 -11
+-1 *// unitised hauler sand partial
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 530 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 530 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 530 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 530 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 530 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 530 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 530 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 530 01 22 30 -9 -11
+-1 *// unitised hauler sand
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 34 570 01 24 12 -5 -15
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 66 570 01 22 30 -17 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 98 570 01 16 36 -14 -9
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 146 570 01 22 30 -10 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 178 570 01 24 12 -5 -13
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 210 570 01 22 30 -18 -11
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 242 570 01 16 36 -14 -10
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 290 570 01 22 30 -9 -11
+-1 ** 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+-1 ** 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+-1 ** 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+-1 ** 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+-1 ** 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+-1 ** 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+-1 ** 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
+-1 ** 4	 01 01 01 04
+-1 ** -1 *	 00
+-1 ** -1 *	 00
+-1 *sprites/mining_trucks/unitised_mining_truck.pcx 370 14 01 12 36 -14 -6
+-1 ** -1 *	 00
+-1 ** 9	 02 01 AF 01 01 00 00 00 00
+-1 ** 28	 03 01 01 D7 // Action 3 
+-1 *// number of cargo types
+-1 *A1 00
+-1 *A2 00
+-1 *E A3 00
+-1 *A4 00
+-1 *A5 00
+-1 *A7 00
+-1 *FF AF 00 // buy menu sprites
+-1 *A6 00 // default sprites
+-1 *// --------------------------- end of Dump trucks / Mining Haulers --------------------- //

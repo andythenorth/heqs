@@ -1,0 +1,1524 @@
+  // ----------------- Bulldozers / Crawler Tractors -----------//      
+
+  // No. 6	Crawler Tractor (General Purpose)
+ 1218 * 67	 00 01 19 01 94
+    00 00 00  // intro date 
+    02 20     // reliability 
+    03 \b40     // vehicle life 
+    04 \b150    // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    08 \b48     // speed in mph * 3.2
+    09 1E     // running cost factor 
+    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0E FF     // sprite ID
+    0F 00     // capacity
+    10 08     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    15 \b12     // speed in mph * 0.8
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    17 12     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags
+    1D FF 03          // Refittable cargo classes
+    1E 01 00          // Non-refittable cargo classes
+    1F A1 CB 0A 00    // Long format introduction date  
+ 1219 * 37	 04 01 7F 01 94 "No. 6 Crawler (General Purpose)" 00
+ 1220 * 87	 04 01 81 01 60 D0 "Hauls: " 8A "Three 10t trailers or sleds"
+                               0d 98 "Model: " 8A "1937" // (30t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Cab" 
+                               0d 98 
+                               00
+ 1221 * 87	 04 01 81 01 61 D0 "Hauls: " 8A "Three 12t trailers or sleds"
+                               0d 98 "Model: " 8A "1955" // (36t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Cab" 
+                               0d 98 
+                               00
+ 1222 * 87	 04 01 81 01 62 D0 "Hauls: " 8A "Three 14t trailers or sleds"
+                               0d 98 "Model: " 8A "1969" // (42t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Cab" 
+                               0d 98 
+                               00
+ 1223 * 87	 04 01 81 01 63 D0 "Hauls: " 8A "Three 16t trailers or sleds"
+                               0d 98 "Model: " 8A "1980" // (48t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Cab" 
+                               0d 98 
+                               00
+ 1224 * 87	 04 01 81 01 64 D0 "Hauls: " 8A "Three 19t trailers or sleds"
+                               0d 98 "Model: " 8A "1993" // (57t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Cab" 
+                               0d 98 
+                               00
+ 1225 * 104	 04 01 81 01 65 D0 "Hauls: " 8A "Three 22t trailers or sleds"
+                               0d 98 "Model: " 8A "2009 (Electric Drive)" // (66t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Cab" 
+                               0d 98 
+                               00
+ 1226 * 4	 01 01 05 08
+  // No. 6 no cab no blade
+ 1227 sprites/bulldozers/bulldozers.pcx 34 50 01 24 12 -5 -15
+ 1228 sprites/bulldozers/bulldozers.pcx 66 50 01 20 26 -16 -10
+ 1229 sprites/bulldozers/bulldozers.pcx 98 50 01 16 36 -14 -9
+ 1230 sprites/bulldozers/bulldozers.pcx 146 50 01 20 26 -5 -9
+ 1231 sprites/bulldozers/bulldozers.pcx 178 50 01 24 12 -5 -13
+ 1232 sprites/bulldozers/bulldozers.pcx 210 50 01 20 26 -17 -9
+ 1233 sprites/bulldozers/bulldozers.pcx 242 50 01 16 36 -29 -8
+ 1234 sprites/bulldozers/bulldozers.pcx 290 50 01 20 26 -10 -10
+  // No. 6 open cab no blade
+ 1235 sprites/bulldozers/bulldozers.pcx 34 130 01 24 12 -5 -15
+ 1236 sprites/bulldozers/bulldozers.pcx 66 130 01 20 26 -16 -10
+ 1237 sprites/bulldozers/bulldozers.pcx 98 130 01 16 36 -14 -9
+ 1238 sprites/bulldozers/bulldozers.pcx 146 130 01 20 26 -5 -9
+ 1239 sprites/bulldozers/bulldozers.pcx 178 130 01 24 12 -5 -13
+ 1240 sprites/bulldozers/bulldozers.pcx 210 130 01 20 26 -17 -9
+ 1241 sprites/bulldozers/bulldozers.pcx 242 130 01 16 36 -29 -8
+ 1242 sprites/bulldozers/bulldozers.pcx 290 130 01 20 26 -10 -10
+  // No. 6 enclosed cab no blade
+ 1243 sprites/bulldozers/bulldozers.pcx 34 210 01 24 12 -5 -15
+ 1244 sprites/bulldozers/bulldozers.pcx 66 210 01 20 26 -16 -10
+ 1245 sprites/bulldozers/bulldozers.pcx 98 210 01 16 36 -14 -9
+ 1246 sprites/bulldozers/bulldozers.pcx 146 210 01 20 26 -5 -9
+ 1247 sprites/bulldozers/bulldozers.pcx 178 210 01 24 12 -5 -13
+ 1248 sprites/bulldozers/bulldozers.pcx 210 210 01 20 26 -17 -9
+ 1249 sprites/bulldozers/bulldozers.pcx 242 210 01 16 36 -29 -8
+ 1250 sprites/bulldozers/bulldozers.pcx 290 210 01 20 26 -10 -10
+  // No. 6 black cab no blade
+ 1251 sprites/bulldozers/bulldozers.pcx 34 290 01 24 12 -5 -15
+ 1252 sprites/bulldozers/bulldozers.pcx 66 290 01 20 26 -16 -10
+ 1253 sprites/bulldozers/bulldozers.pcx 98 290 01 16 36 -14 -9
+ 1254 sprites/bulldozers/bulldozers.pcx 146 290 01 20 26 -5 -9
+ 1255 sprites/bulldozers/bulldozers.pcx 178 290 01 24 12 -5 -13
+ 1256 sprites/bulldozers/bulldozers.pcx 210 290 01 20 26 -17 -9
+ 1257 sprites/bulldozers/bulldozers.pcx 242 290 01 16 36 -29 -8
+ 1258 sprites/bulldozers/bulldozers.pcx 290 290 01 20 26 -10 -10 
+  // No. 6 modern open cab no blade
+ 1259 sprites/bulldozers/bulldozers.pcx 34 370 01 24 12 -5 -15
+ 1260 sprites/bulldozers/bulldozers.pcx 66 370 01 20 26 -16 -10
+ 1261 sprites/bulldozers/bulldozers.pcx 98 370 01 16 36 -14 -9
+ 1262 sprites/bulldozers/bulldozers.pcx 146 370 01 20 26 -5 -9
+ 1263 sprites/bulldozers/bulldozers.pcx 178 370 01 24 12 -5 -13
+ 1264 sprites/bulldozers/bulldozers.pcx 210 370 01 20 26 -17 -9
+ 1265 sprites/bulldozers/bulldozers.pcx 242 370 01 16 36 -29 -8
+ 1266 sprites/bulldozers/bulldozers.pcx 290 370 01 20 26 -10 -10 
+ 1267 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1268 * 9	 02 01 A2 // action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1269 * 9	 02 01 A3 // action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1270 * 9	 02 01 A4 // action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      03 00 // loading sprites
+      03 00 // loaded sprites
+ 1271 * 9	 02 01 A5 // action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      04 00 // loading sprites
+      04 00 // loaded sprites
+ 1272 * 4	 01 01 02 04 // buy menu sprites
+ 1273 * 1	 00
+ 1274 * 1	 00
+ 1275 sprites/bulldozers/bulldozers.pcx 370 130 01 16 36 -14 -8
+ 1276 * 1	 00
+ 1277 * 1	 00
+ 1278 * 1	 00
+ 1279 sprites/bulldozers/bulldozers.pcx 370 290 01 16 36 -14 -8
+ 1280 * 1	 00
+ 1281 * 9	 02 01 F1 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1282 * 9	 02 01 F2 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1283 * 30	 02 01 FF // buy menu
+           81 01 00  FF // check current year
+           05 // range
+             60 80 \b00 \b34 // action 2 for setting graphics / text before 1955
+             61 80 \b35 \b48 // action 2 for setting graphics / text before 1969
+             62 80 \b49 \b59 // action 2 for setting graphics / text before 1980
+             63 80 \b60 \b72 // action 2 for setting graphics / text before 1993
+             64 80 \b73 \b88 // action 2 for setting graphics / text before 2009
+           65 80 // default graphics / text
+ 1284 * 14	 02 01 FA //
+           81 C4 00 FF // check date vehicle built for buy menu
+           01 // range
+            F1 00 \b00 \b72
+           F2 00 
+ 1285 * 14	 02 01 F0 // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   FF 00 23 23 // text for vehicle window
+                 FA 00 //otherwise go to next action 2 ID 
+ 1286 * 30	 02 01 B5 // choose trailers by date
+           81 01 00  FF // check current year
+           05 // range
+             6E 80 \b00 \b34 // before 1955
+             6F 80 \b35 \b48 // before 1969
+             70 80 \b49 \b59 // before 1980
+             71 80 \b60 \b72 // before 1993
+             72 80 \b73 \b88 // before 2009
+           73 80 // default      
+ 1287 * 14	 02 01 B7 //
+           81 C4 00 FF // check date vehicle built
+           01 // range
+            A2 00 \b49 \b72
+           A5 00 
+ 1288 * 18	 02 01 B3 //
+           81 C4 00 FF // check date vehicle built
+           02 // range
+            A1 00 \b00 \b48
+            A3 00 \b49 \b72
+           A4 00 
+ 1289 * 11	 02 01 B2 //
+           80 00 00 // randomise graphics 
+           02 // range
+            B3 00 // give ID as result
+            B7 00 // apply vehicle graphics
+ 1290 * 22	 02 01 B0 //
+                 81 10 00 FF // Articulated vehicle building instructions
+                 03 // range
+                  B5 00 01 01 // 
+                  B5 00 02 02 // 
+                  B5 00 03 03 // 
+                 FF FF //otherwise end the callback chain
+ 1291 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               B2 00 // else go to action 2 to apply graphics
+ 1292 * 18	 02 01 B1 // 
+                 81 0C 00 FF // handle callbacks
+                 02 //check one range
+                  01 80 11 11 // vehicle length CB
+                  B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+                 B6 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
+ 1293 * 7	 03   // Action 3
+      01  // RV 
+      01  // Number of vehicles this action associate graphics with 
+      94  // Vehicle ID
+      00  // Number of different cargo types to support
+      B1 00   // Action 2 ID above
+
+
+  // No. 6 Crawler Tractor (Mining / Logging)
+ 1294 * 67	 00 01 19 01 95 
+    00 00 00  // intro date 
+    02 20     // reliability 
+    03 \b40     // vehicle life 
+    04 \b150     // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    08 \b48     // speed in mph * 3.2
+    09 1E     // running cost factor 
+    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0E FF     // sprite ID
+    0F 00     // capacity
+    10 08     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    15 \b12     // speed in mph * 0.8
+    16 C0 20 00 68     // Bit mask of cargo types available for refitting
+    // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags
+    1D 10 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
+    1F A1 CB 0A 00    // Long format introduction date  
+    // set copper ore to be default in tropic instead of rubber
+ 1295 * 38	 04 01 7F 01 95 "No. 6 Crawler (Logging / Mining)" 00
+ 1296 * 101	 04 01 81 01 6A D0 "Hauls: " 8A "30t of logs or one 30t belly-dump trailer" 
+                                0d 98 "Model: " 8A "1937"
+                                0d 98 0d 98 "Variations (random): " 98 "Cab" 
+                                0d 98 
+                                00 
+ 1297 * 101	 04 01 81 01 6B D0 "Hauls: " 8A "36t of logs or one 36t belly-dump trailer" 
+                               0d 98 "Model: " 8A "1955" 
+                               0d 98 0d 98 "Variations (random): " 98 "Cab" 
+                               0d 98 
+                               00
+ 1298 * 107	 04 01 81 01 6C D0 "Hauls: " 8A "42t of logs or one 42t belly-dump trailer" 
+                               0d 98 "Model: " 8A "1969"
+                               0d 98 0d 98 "Variations (random): " 98 "Cab style" 
+                               0d 98 
+                               00 
+ 1299 * 107	 04 01 81 01 6D D0 "Hauls: " 8A "42t of logs or one 42t belly-dump trailer" 
+                               0d 98 "Model: " 8A "1980" 
+                               0d 98 0d 98 "Variations (random): " 98 "Cab style" 
+                               0d 98 
+                               00 
+ 1300 * 107	 04 01 81 01 6E D0 "Hauls: " 8A "56t of logs or one 56t belly-dump trailer" 
+                               0d 98 "Model: " 8A "1993" 
+                               0d 98 0d 98 "Variations (random): " 98 "Cab style" 
+                               0d 98 
+                               00 
+ 1301 * 124	 04 01 81 01 6F D0 "Hauls: " 8A "56t of logs or one 56t belly-dump trailer" 
+                               0d 98 "Model: " 8A "2009 (Electric Drive)" 
+                               0d 98 0d 98 "Variations (random): " 98 "Cab style" 
+                               0d 98 
+                               00 
+ 1302 * 4	 01 01 05 08
+  // No. 6 no cab with blade
+ 1303 sprites/bulldozers/bulldozers.pcx 34 10 01 24 12 -5 -17
+ 1304 sprites/bulldozers/bulldozers.pcx 66 10 01 20 26 -13 -12
+ 1305 sprites/bulldozers/bulldozers.pcx 98 10 01 16 36 -12 -9
+ 1306 sprites/bulldozers/bulldozers.pcx 146 10 01 20 26 -5 -8
+ 1307 sprites/bulldozers/bulldozers.pcx 178 10 01 24 12 -5 -13
+ 1308 sprites/bulldozers/bulldozers.pcx 210 10 01 20 26 -18 -7
+ 1309 sprites/bulldozers/bulldozers.pcx 242 10 01 16 36 -27 -8
+ 1310 sprites/bulldozers/bulldozers.pcx 290 10 01 20 26 -12 -11
+  // No. 6 open cab with blade
+ 1311 sprites/bulldozers/bulldozers.pcx 34 90 01 24 12 -5 -17
+ 1312 sprites/bulldozers/bulldozers.pcx 66 90 01 20 26 -13 -12
+ 1313 sprites/bulldozers/bulldozers.pcx 98 90 01 16 36 -12 -9
+ 1314 sprites/bulldozers/bulldozers.pcx 146 90 01 20 26 -5 -8
+ 1315 sprites/bulldozers/bulldozers.pcx 178 90 01 24 12 -5 -13
+ 1316 sprites/bulldozers/bulldozers.pcx 210 90 01 20 26 -18 -7
+ 1317 sprites/bulldozers/bulldozers.pcx 242 90 01 16 36 -27 -8
+ 1318 sprites/bulldozers/bulldozers.pcx 290 90 01 20 26 -12 -11
+  // No. 6 enclosed cab with blade
+ 1319 sprites/bulldozers/bulldozers.pcx 34 170 01 24 12 -5 -17
+ 1320 sprites/bulldozers/bulldozers.pcx 66 170 01 20 26 -13 -12
+ 1321 sprites/bulldozers/bulldozers.pcx 98 170 01 16 36 -12 -9
+ 1322 sprites/bulldozers/bulldozers.pcx 146 170 01 20 26 -5 -8
+ 1323 sprites/bulldozers/bulldozers.pcx 178 170 01 24 12 -5 -13
+ 1324 sprites/bulldozers/bulldozers.pcx 210 170 01 20 26 -18 -7
+ 1325 sprites/bulldozers/bulldozers.pcx 242 170 01 16 36 -27 -8
+ 1326 sprites/bulldozers/bulldozers.pcx 290 170 01 20 26 -12 -11
+  // No. 6 black cab with blade
+ 1327 sprites/bulldozers/bulldozers.pcx 34 250 01 24 12 -5 -17
+ 1328 sprites/bulldozers/bulldozers.pcx 66 250 01 20 26 -13 -12
+ 1329 sprites/bulldozers/bulldozers.pcx 98 250 01 16 36 -12 -9
+ 1330 sprites/bulldozers/bulldozers.pcx 146 250 01 20 26 -5 -8
+ 1331 sprites/bulldozers/bulldozers.pcx 178 250 01 24 12 -5 -13
+ 1332 sprites/bulldozers/bulldozers.pcx 210 250 01 20 26 -18 -7
+ 1333 sprites/bulldozers/bulldozers.pcx 242 250 01 16 36 -27 -8
+ 1334 sprites/bulldozers/bulldozers.pcx 290 250 01 20 26 -12 -11
+  // No. 6 modern open cab with blade
+ 1335 sprites/bulldozers/bulldozers.pcx 34 330 01 24 12 -5 -17
+ 1336 sprites/bulldozers/bulldozers.pcx 66 330 01 20 26 -13 -12
+ 1337 sprites/bulldozers/bulldozers.pcx 98 330 01 16 36 -12 -9
+ 1338 sprites/bulldozers/bulldozers.pcx 146 330 01 20 26 -5 -8
+ 1339 sprites/bulldozers/bulldozers.pcx 178 330 01 24 12 -5 -13
+ 1340 sprites/bulldozers/bulldozers.pcx 210 330 01 20 26 -18 -7
+ 1341 sprites/bulldozers/bulldozers.pcx 242 330 01 16 36 -27 -8
+ 1342 sprites/bulldozers/bulldozers.pcx 290 330 01 20 26 -12 -11
+ 1343 * 9	 02 01 A1 //normal action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1344 * 9	 02 01 A2 //normal action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1345 * 9	 02 01 A3 //normal action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1346 * 9	 02 01 A4 //normal action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      03 00 // loading sprites
+      03 00 // loaded sprites
+ 1347 * 9	 02 01 A5 //normal action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      04 00 // loading sprites
+      04 00 // loaded sprites
+ 1348 * 4	 01 01 02 04 // buy menu sprites
+ 1349 * 1	 00
+ 1350 * 1	 00
+ 1351 sprites/bulldozers/bulldozers.pcx 370 92 01 12 36 -14 -6
+ 1352 * 1	 00
+ 1353 * 1	 00
+ 1354 * 1	 00
+ 1355 sprites/bulldozers/bulldozers.pcx 370 252 01 12 36 -14 -6
+ 1356 * 1	 00
+ 1357 * 9	 02 01 F1 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1358 * 9	 02 01 F2 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1359 * 30	 02 01 FF // buy menu
+           81 01 00  FF // check current year
+           05 // range
+             6A 80 \b00 \b34 // action 2 for setting graphics / text before 1955
+             6B 80 \b35 \b48 // action 2 for setting graphics / text before 1969
+             6C 80 \b49 \b59 // action 2 for setting graphics / text before 1980
+             6D 80 \b60 \b72 // action 2 for setting graphics / text before 1993
+             6E 80 \b73 \b88 // action 2 for setting graphics / text before 2009
+           6F 80 // default graphics / text
+ 1360 * 14	 02 01 FA //
+           81 C4 00 FF // check date vehicle built for buy menu
+           01 // range
+            F1 00 \b00 \b72
+           F2 00            
+ 1361 * 14	 02 01 F0 // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   FF 00 23 23 // text for vehicle window
+                 FA 00 //otherwise go to next action 2 ID 
+ 1362 * 30	 02 01 B5 // choose trailers by date
+           81 01 00  FF // check current year
+           05 // range
+             7A 80 \b00 \b34 // before 1955
+             7B 80 \b35 \b48 // before 1969
+             7C 80 \b49 \b59 // before 1980
+             7C 80 \b60 \b72 // before 1993
+             7D 80 \b73 \b88 // before 2009
+           7D 80 // default      
+ 1363 * 14	 02 01 B7 //
+           81 C4 00 FF // check date vehicle built
+           01 // range
+            A2 00 \b49 \b72
+           A5 00 
+ 1364 * 18	 02 01 B3 // 
+           81 C4 00 FF // check date vehicle built
+           02 // range
+            A1 00 \b00 \b48
+            A3 00 \b49 \b72
+           A4 00 
+ 1365 * 11	 02 01 B2 //
+           80 00 00 // randomise graphics 
+           02 // range
+            B3 00 // 
+            B7 00 // 
+ 1366 * 14	 02 01 B0 
+                 81 10 00 FF // articulated vehicle building instructions
+                 01 //range
+                   B5 00 01 01 //give callback result
+                 FF FF //otherwise end the callback chain
+ 1367 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               B2 00 // else go to action 2 to apply graphics
+ 1368 * 14	 02 01 B1 //
+                 81 0C 00 FF // handle callbacks
+                 01 // range
+                   B0 00 16 16 // articulated vehicle CB
+                 B6 00 //otherwise go to next action 2 ID 
+ 1369 * 7	 03   // Action 3
+      01  // RV 
+      01  // Number of vehicles this action associate graphics with 
+      95  // Vehicle ID
+      00  // Number of different cargo types to support
+      B1 00   // Action 2 ID above
+
+
+  // No. 8	Crawler Tractor (General Purpose)
+ 1370 * 67	 00 01 19 01 96 
+    00 00 00  // intro date 
+    02 20     // reliability 
+    03 \b40     // vehicle life 
+    04 \b100     // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    08 \b45     // speed in mph * 3.2
+    09 1E     // running cost factor 
+    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0E FF     // sprite ID
+    0F 00     // capacity
+    10 FF     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    15 \b11     // speed in mph * 0.8
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags
+    1D FF 03          // Refittable cargo classes
+    1E 01 00          // Non-refittable cargo classes
+    1F \d708300    // Long format introduction date  
+ 1371 * 34	 04 01 7F 01 96 "No. 8 Crawler (Supply Train)" 00
+ 1372 * 103	 04 01 81 01 80 D0 "Hauls: " 8A "Four 12t trailers or sleds"
+                               0d 98 "Model: " 8A "1940" // (48t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab"
+                               0d 98
+                               00                               
+ 1373 * 129	 04 01 81 01 81 D0 "Hauls: " 8A "Four 12t low-ground-pressure trailers or sleds" 
+                               0d 98 "Model: " 8A "1955" // (48t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab style"
+                               0d 98
+                               00
+ 1374 * 129	 04 01 81 01 82 D0 "Hauls: " 8A "Four 14t low-ground-pressure trailers or sleds" 
+                               0d 98 "Model: " 8A "1969" // (56t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab style"
+                               0d 98
+                               00 
+ 1375 * 135	 04 01 81 01 83 D0 "Hauls: " 8A "Four 19t low-ground-pressure trailers or sleds"
+                               0d 98 "Model: " 8A "1980 (Elevated drive)" // (76t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00 
+ 1376 * 135	 04 01 81 01 84 D0 "Hauls: " 8A "Four 24t low-ground-pressure trailers or sleds"
+                               0d 98 "Model: " 8A "1991 (Elevated drive)" // (96t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00 
+ 1377 * 135	 04 01 81 01 85 D0 "Hauls: " 8A "Four 29t low-ground-pressure trailers or sleds"
+                               0d 98 "Model: " 8A "2005 (Elevated drive)" // (116t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00 
+ // No. 8 standard drive                               
+ 1378 * 4	 01 01 06 08
+  // No. 8 standard drive no cab - bulldozer blade
+ 1379 sprites/bulldozers/bulldozers.pcx 34 490 01 24 12 -5 -17
+ 1380 sprites/bulldozers/bulldozers.pcx 66 490 09 20 26 -17 -9
+ 1381 sprites/bulldozers/bulldozers.pcx 98 490 01 16 36 -14 -8
+ 1382 sprites/bulldozers/bulldozers.pcx 146 490 09 20 26 -8 -8
+ 1383 sprites/bulldozers/bulldozers.pcx 178 490 01 24 12 -5 -13
+ 1384 sprites/bulldozers/bulldozers.pcx 210 490 09 20 26 -16 -8
+ 1385 sprites/bulldozers/bulldozers.pcx 242 490 01 16 36 -23 -9
+ 1386 sprites/bulldozers/bulldozers.pcx 290 490 09 20 26 -11 -10
+   // No. 8 standard drive no cab - no blade
+ 1387 sprites/bulldozers/bulldozers.pcx 34 530 01 24 12 -5 -17
+ 1388 sprites/bulldozers/bulldozers.pcx 66 530 09 20 26 -17 -9
+ 1389 sprites/bulldozers/bulldozers.pcx 98 530 01 16 36 -14 -8
+ 1390 sprites/bulldozers/bulldozers.pcx 146 530 09 20 26 -8 -8
+ 1391 sprites/bulldozers/bulldozers.pcx 178 530 01 24 12 -5 -13
+ 1392 sprites/bulldozers/bulldozers.pcx 210 530 09 20 26 -16 -8
+ 1393 sprites/bulldozers/bulldozers.pcx 242 530 01 16 36 -23 -9
+ 1394 sprites/bulldozers/bulldozers.pcx 290 530 09 20 26 -11 -10
+   // No. 8 standard drive open cab - bulldozer blade
+ 1395 sprites/bulldozers/bulldozers.pcx 34 570 01 24 12 -5 -17
+ 1396 sprites/bulldozers/bulldozers.pcx 66 570 09 20 26 -17 -9
+ 1397 sprites/bulldozers/bulldozers.pcx 98 570 01 16 36 -14 -8
+ 1398 sprites/bulldozers/bulldozers.pcx 146 570 09 20 26 -8 -8
+ 1399 sprites/bulldozers/bulldozers.pcx 178 570 01 24 12 -5 -13
+ 1400 sprites/bulldozers/bulldozers.pcx 210 570 09 20 26 -16 -8
+ 1401 sprites/bulldozers/bulldozers.pcx 242 570 01 16 36 -23 -9
+ 1402 sprites/bulldozers/bulldozers.pcx 290 570 09 20 26 -11 -10
+   // No. 8 standard drive open cab - no blade
+ 1403 sprites/bulldozers/bulldozers.pcx 34 610 01 24 12 -5 -17
+ 1404 sprites/bulldozers/bulldozers.pcx 66 610 09 20 26 -17 -9
+ 1405 sprites/bulldozers/bulldozers.pcx 98 610 01 16 36 -14 -8
+ 1406 sprites/bulldozers/bulldozers.pcx 146 610 09 20 26 -8 -8
+ 1407 sprites/bulldozers/bulldozers.pcx 178 610 01 24 12 -5 -13
+ 1408 sprites/bulldozers/bulldozers.pcx 210 610 09 20 26 -16 -8
+ 1409 sprites/bulldozers/bulldozers.pcx 242 610 01 16 36 -23 -9
+ 1410 sprites/bulldozers/bulldozers.pcx 290 610 09 20 26 -11 -10
+   // No. 8 standard drive enclosed cab - bulldozer blade
+ 1411 sprites/bulldozers/bulldozers.pcx 34 650 01 24 12 -5 -17
+ 1412 sprites/bulldozers/bulldozers.pcx 66 650 09 20 26 -17 -9
+ 1413 sprites/bulldozers/bulldozers.pcx 98 650 01 16 36 -14 -8
+ 1414 sprites/bulldozers/bulldozers.pcx 146 650 09 20 26 -8 -8
+ 1415 sprites/bulldozers/bulldozers.pcx 178 650 01 24 12 -5 -13
+ 1416 sprites/bulldozers/bulldozers.pcx 210 650 09 20 26 -16 -8
+ 1417 sprites/bulldozers/bulldozers.pcx 242 650 01 16 36 -23 -9
+ 1418 sprites/bulldozers/bulldozers.pcx 290 650 09 20 26 -11 -10
+   // No. 8 standard drive enclosed cab - no blade
+ 1419 sprites/bulldozers/bulldozers.pcx 34 690 01 24 12 -5 -17
+ 1420 sprites/bulldozers/bulldozers.pcx 66 690 09 20 26 -17 -9
+ 1421 sprites/bulldozers/bulldozers.pcx 98 690 01 16 36 -14 -8
+ 1422 sprites/bulldozers/bulldozers.pcx 146 690 09 20 26 -8 -8
+ 1423 sprites/bulldozers/bulldozers.pcx 178 690 01 24 12 -5 -13
+ 1424 sprites/bulldozers/bulldozers.pcx 210 690 09 20 26 -16 -8
+ 1425 sprites/bulldozers/bulldozers.pcx 242 690 01 16 36 -23 -9
+ 1426 sprites/bulldozers/bulldozers.pcx 290 690 09 20 26 -11 -10
+   // Real sprites are also used by No. 8 (Logging / Mining)
+ 1427 * 9	 02 01 A1 //action2 - no cab, blade 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1428 * 9	 02 01 A2 //action2 - no cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1429 * 9	 02 01 A3 //action2 - open cab, blade 
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1430 * 9	 02 01 A4 //action2 - open cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      03 00 // loading sprites
+      03 00 // loaded sprites
+ 1431 * 9	 02 01 A5 //action2 - enclosed cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      04 00 // loading sprites
+      04 00 // loaded sprites
+ 1432 * 9	 02 01 A6 //action2 - enclosed cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      05 00 // loading sprites
+      05 00 // loaded sprites
+ // high drive
+ 1433 * 4	 01 01 04 08
+ // No. 8 high drive 2cc cab - bulldozer blade
+ 1434 sprites/bulldozers/bulldozers.pcx 34 810 01 24 12 -5 -17
+ 1435 sprites/bulldozers/bulldozers.pcx 66 810 09 20 26 -17 -9
+ 1436 sprites/bulldozers/bulldozers.pcx 98 810 01 16 36 -14 -8
+ 1437 sprites/bulldozers/bulldozers.pcx 146 810 09 20 26 -8 -8
+ 1438 sprites/bulldozers/bulldozers.pcx 178 810 01 24 12 -5 -13
+ 1439 sprites/bulldozers/bulldozers.pcx 210 810 09 20 26 -16 -8
+ 1440 sprites/bulldozers/bulldozers.pcx 242 810 01 16 36 -23 -9
+ 1441 sprites/bulldozers/bulldozers.pcx 290 810 09 20 26 -11 -10
+  // No. 8 high drive 2cc cab - no blade
+ 1442 sprites/bulldozers/bulldozers.pcx 34 850 01 24 12 -5 -17
+ 1443 sprites/bulldozers/bulldozers.pcx 66 850 09 20 26 -17 -9
+ 1444 sprites/bulldozers/bulldozers.pcx 98 850 01 16 36 -14 -8
+ 1445 sprites/bulldozers/bulldozers.pcx 146 850 09 20 26 -8 -8
+ 1446 sprites/bulldozers/bulldozers.pcx 178 850 01 24 12 -5 -13
+ 1447 sprites/bulldozers/bulldozers.pcx 210 850 09 20 26 -16 -8
+ 1448 sprites/bulldozers/bulldozers.pcx 242 850 01 16 36 -27 -9
+ 1449 sprites/bulldozers/bulldozers.pcx 290 850 09 20 26 -11 -10
+    // No. 8 upgraded black cab - bulldozer blade
+ 1450 sprites/bulldozers/bulldozers.pcx 34 890 01 24 12 -5 -17
+ 1451 sprites/bulldozers/bulldozers.pcx 66 890 09 20 26 -17 -9
+ 1452 sprites/bulldozers/bulldozers.pcx 98 890 01 16 36 -14 -8
+ 1453 sprites/bulldozers/bulldozers.pcx 146 890 09 20 26 -8 -8
+ 1454 sprites/bulldozers/bulldozers.pcx 178 890 01 24 12 -5 -13
+ 1455 sprites/bulldozers/bulldozers.pcx 210 890 09 20 26 -16 -8
+ 1456 sprites/bulldozers/bulldozers.pcx 242 890 01 16 36 -23 -9
+ 1457 sprites/bulldozers/bulldozers.pcx 290 890 09 20 26 -11 -10
+  // No. 8 upgraded black cab - no blade
+ 1458 sprites/bulldozers/bulldozers.pcx 34 930  01 24 12 -5 -17
+ 1459 sprites/bulldozers/bulldozers.pcx 66 930  09 20 26 -17 -9
+ 1460 sprites/bulldozers/bulldozers.pcx 98 930  01 16 36 -14 -8
+ 1461 sprites/bulldozers/bulldozers.pcx 146 930  09 20 26 -8 -8
+ 1462 sprites/bulldozers/bulldozers.pcx 178 930  01 24 12 -5 -13
+ 1463 sprites/bulldozers/bulldozers.pcx 210 930  09 20 26 -16 -8
+ 1464 sprites/bulldozers/bulldozers.pcx 242 930  01 16 36 -27 -9
+ 1465 sprites/bulldozers/bulldozers.pcx 290 930  09 20 26 -11 -10
+  // Real sprites are also used by No. 8 (Logging / Mining)
+ 1466 * 9	 02 01 AA //action2 - 2cc cab, blade 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1467 * 9	 02 01 AB //action2 - 2cc cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1468 * 9	 02 01 AC //action2 - black cab, blade 
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1469 * 9	 02 01 AD //action2 - black cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      03 00 // loading sprites
+      03 00 // loaded sprites
+ 1470 * 4	 01 01 03 04 // buy menu sprites
+  // No. 8 standard drive, open cab, no blade
+ 1471 * 1	 00
+ 1472 * 1	 00
+ 1473 sprites/bulldozers/bulldozers.pcx 370 610 01 16 36 -14 -9
+ 1474 * 1	 00
+  // No. 8 high drive 2cc cab, no blade
+ 1475 * 1	 00
+ 1476 * 1	 00
+ 1477 sprites/bulldozers/bulldozers.pcx 370 853 01 12 36 -27 -6
+ 1478 * 1	 00
+  // No. 8 high drive black cab, no blade
+ 1479 * 1	 00
+ 1480 * 1	 00
+ 1481 sprites/bulldozers/bulldozers.pcx 370 933 01 12 36 -27 -6
+ 1482 * 1	 00
+ 1483 * 9	 02 01 E1 //action2 - buy menu sprites (standard drive open cab)
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1484 * 9	 02 01 E2 //action2 - buy menu sprites (high drive 2cc cab)
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1485 * 9	 02 01 E3 //action2 - buy menu sprites (high drive black cab)
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1486 * 14	 02 01 FF // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   85 80 23 23 // text for vehicle window
+                 E3 00 //otherwise go to next action 2 ID 
+ 1487 * 14	 02 01 FE // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   84 80 23 23 // text for vehicle window
+                 E2 00 //otherwise go to next action 2 ID 
+ 1488 * 14	 02 01 FD // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   83 80 23 23 // text for vehicle window
+                 E2 00 //otherwise go to next action 2 ID 
+ 1489 * 14	 02 01 FC // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   82 80 23 23 // text for vehicle window
+                 E1 00 //otherwise go to next action 2 ID 
+ 1490 * 14	 02 01 FB // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   81 80 23 23 // text for vehicle window
+                 E1 00 //otherwise go to next action 2 ID 
+ 1491 * 14	 02 01 FA // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   80 80 23 23 // text for vehicle window
+                 E1 00 //otherwise go to next action 2 ID 
+ 1492 * 30	 02 01 F0 // buy menu
+           81 01 00  FF // check current year
+           05 // range
+             FA 00 \b00 \b34 // action 2 for setting graphics / text before 1955
+             FB 00 \b35 \b48 // action 2 for setting graphics / text before 1969
+             FC 00 \b49 \b59 // action 2 for setting graphics / text before 1980
+             FD 00 \b60 \b70 // action 2 for setting graphics / text before 1991
+             FE 00 \b71 \b84 // action 2 for setting graphics / text before 2005
+           FF 00 // default graphics / text
+ 1493 * 15	 02 01 C1
+               83 00 00 // randomise graphics (83 is per engine)
+               04 //check two ranges (choose blade or no blade)
+                 A1 00 // blade, no cab
+                 A2 00 // no blade, no cab
+                 A3 00 // blade, open cab
+               A4 00 // no blade, open cab
+ 1494 * 15	 02 01 C2
+               83 00 00 // randomise graphics (83 is per engine)  
+               04 //check two ranges (choose blade or no blade)
+                 A3 00 // blade, open cab
+                 A4 00 // no blade, open cab
+                 A5 00 // blade, enclosed cab
+               A6 00 // no blade, enclosed cab
+ 1495 * 11	 02 01 C4
+               83 00 00 // randomise graphics (83 is per engine)
+               02 //check two ranges (choose blade or no blade)
+                 AC 00 // blade
+               AD 00 // no blade
+ 1496 * 11	 02 01 C3
+               83 00 00 // randomise graphics (83 is per engine)  
+               02 //check two ranges (choose blade or no blade)
+                 AA 00  // blade
+               AB 00 // no blade
+ 1497 * 22	 02 01 B2 // chain starting here uses date and random to show various cabs and also whether to show blades
+           81 C4 00 FF // check date vehicle built
+           03 // range
+             C1 00 \b00 \b44 // use standard drive, random no cab / open cab, before 1965
+             C2 00 \b45 \b59 // use standard drive, random open cab / enclosed cab, before 1980
+             C3 00 \b60 \b84 // use high drive, 2cc cab graphics before 2005
+           C4 00 // else use upgraded (black cab) graphics
+ 1498 * 30	 02 01 B5 // choose trailers by date
+           81 01 00  FF // check current year
+           05 // range
+             6F 80 \b00 \b34 // before 1955
+             75 80 \b35 \b48 // before 1969
+             76 80 \b49 \b59 // before 1980
+             77 80 \b60 \b70 // before 1991
+             78 80 \b71 \b84 // before 2005
+           79 80 // default      
+ 1499 * 26	 02 01 B0 // articulated vehicle instructions
+               81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
+               04 //range
+                 B5 00 01 01 //
+                 B5 00 02 02 //
+                 B5 00 03 03 //
+                 B5 00 04 04 //
+               FF FF //otherwise end the callback chain
+ 1500 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               B2 00 // else go to action 2 to apply graphics
+ 1501 * 18	 02 01 B1
+               81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+               02 //check one range
+                00 80 11 11 // vehicle length CB
+                B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+               B6 00 // go to ID A1
+ 1502 * 7	 03 01 01 96 // Action 3 
+    00 // number of cargo types to define
+    B1 00
+
+
+  // No. 8	Crawler Tractor (Logging / Mining)
+ 1503 * 67	 00 01 19 01 97 
+    00 00 00  // intro date 
+    02 20     // reliability 
+    03 \b40     // vehicle life 
+    04 \b100     // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    08 \b45     // speed in mph * 3.2
+    09 1E     // running cost factor 
+    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0E FF     // sprite ID
+    0F 00     // capacity
+    10 FF     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    15 \b11     // speed in mph * 0.8
+    16 C0 20 00 68     // Bit mask of cargo types available for refitting
+    // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags
+    1D 10 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
+    1F \d708300    // Long format introduction date  
+ 1504 * 38	 04 01 7F 01 97 "No. 8 Crawler (Logging / Mining)" 00
+ 1505 * 120	 04 01 81 01 8A D0 "Hauls: " 8A "Two 30t log trailers or belly-dump trailers" 
+                               0d 98 "Model: " 8A "1940"  // action 2 chain references 1937, but vehicle intro date is 1940 // (60t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab"
+                               0d 98
+                               00
+ 1506 * 126	 04 01 81 01 8B D0 "Hauls: " 8A "Two 36t log trailers or belly-dump trailers" 
+                               0d 98 "Model: " 8A "1955" // (72t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab style"
+                               0d 98
+                               00
+ 1507 * 126	 04 01 81 01 8C D0 "Hauls: " 8A "Two 42t log trailers or belly-dump trailers" 
+                               0d 98 "Model: " 8A "1969" // (84t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab style"
+                               0d 98
+                               00
+ 1508 * 132	 04 01 81 01 8D D0 "Hauls: " 8A "Two 56t log trailers or belly-dump trailers"
+                               0d 98 "Model: " 8A "1980 (Elevated drive)" // (112t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00
+ 1509 * 132	 04 01 81 01 8E D0 "Hauls: " 8A "Two 70t log trailers or belly-dump trailers"
+                               0d 98 "Model: " 8A "1991 (Elevated drive)" // (140t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00
+ 1510 * 132	 04 01 81 01 8F D0 "Hauls: " 8A "Two 84t log trailers or belly-dump trailers"
+                               0d 98 "Model: " 8A "2005 (Elevated drive)" // (168t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00
+  // Real sprites are shared with No. 8 (General Purpose)
+ 1511 * 4	 01 01 03 04 // buy menu sprites
+  // No. 8 standard drive, open cab, with blade
+ 1512 * 1	 00
+ 1513 * 1	 00
+ 1514 sprites/bulldozers/bulldozers.pcx 370 570 01 16 36 -14 -9
+ 1515 * 1	 00
+  // No. 8 high drive 2cc cab, with blade
+ 1516 * 1	 00
+ 1517 * 1	 00
+ 1518 sprites/bulldozers/bulldozers.pcx 370 813 01 12 36 -23 -6
+ 1519 * 1	 00
+  // No. 8 high drive black cab, with blade
+ 1520 * 1	 00
+ 1521 * 1	 00
+ 1522 sprites/bulldozers/bulldozers.pcx 370 893 01 12 36 -23 -6
+ 1523 * 1	 00
+ 1524 * 9	 02 01 E1 //action2 - buy menu sprites (standard drive open cab)
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1525 * 9	 02 01 E2 //action2 - buy menu sprites (high drive 2cc cab)
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1526 * 9	 02 01 E3 //action2 - buy menu sprites (high drive black cab)
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1527 * 14	 02 01 FF // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   8F 80 23 23 // text for vehicle window
+                 E3 00 //otherwise go to next action 2 ID 
+ 1528 * 14	 02 01 FE // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   8E 80 23 23 // text for vehicle window
+                 E2 00 //otherwise go to next action 2 ID 
+ 1529 * 14	 02 01 FD // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   8D 80 23 23 // text for vehicle window
+                 E2 00 //otherwise go to next action 2 ID 
+ 1530 * 14	 02 01 FC // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   8C 80 23 23 // text for vehicle window
+                 E1 00 //otherwise go to next action 2 ID 
+ 1531 * 14	 02 01 FB // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   8B 80 23 23 // text for vehicle window
+                 E1 00 //otherwise go to next action 2 ID 
+ 1532 * 14	 02 01 FA // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   8A 80 23 23 // text for vehicle window
+                 E1 00 //otherwise go to next action 2 ID 
+ 1533 * 30	 02 01 F0 // buy menu
+           81 01 00  FF // check current year
+           05 // range
+             FA 00 \b00 \b34 // action 2 for setting graphics / text before 1955
+             FB 00 \b35 \b48 // action 2 for setting graphics / text before 1969
+             FC 00 \b49 \b59 // action 2 for setting graphics / text before 1980
+             FD 00 \b60 \b70 // action 2 for setting graphics / text before 1991
+             FE 00 \b71 \b84 // action 2 for setting graphics / text before 2005
+           FF 00 // default graphics / text      
+ 1534 * 15	 02 01 C1
+               83 00 00 // randomise graphics (83 is per engine)
+               04 //check two ranges (choose blade or no blade)
+                 A1 00 // blade, no cab
+                 A2 00 // no blade, no cab
+                 A3 00 // blade, open cab
+               A4 00 // no blade, open cab
+ 1535 * 15	 02 01 C2
+               83 00 00 // randomise graphics (83 is per engine)  
+               04 //check two ranges (choose blade or no blade)
+                 A3 00 // blade, open cab
+                 A4 00 // no blade, open cab
+                 A5 00 // blade, enclosed cab
+               A6 00 // no blade, enclosed cab
+ 1536 * 11	 02 01 C4
+               83 00 00 // randomise graphics (83 is per engine)
+               02 //check two ranges (choose blade or no blade)
+                 AC 00 // blade
+               AD 00 // no blade
+ 1537 * 11	 02 01 C3
+               83 00 00 // randomise graphics (83 is per engine)  
+               02 //check two ranges (choose blade or no blade)
+                 AA 00  // blade
+               AB 00 // no blade
+ 1538 * 22	 02 01 B2 // chain starting here uses date and random to show various cabs and also whether to show blades
+           81 C4 00 FF // check date vehicle built
+           03 // range
+             C1 00 \b00 \b44 // use standard drive, random no cab / open cab, before 1965
+             C2 00 \b45 \b59 // use standard drive, random open cab / enclosed cab, before 1980
+             C3 00 \b60 \b84 // use high drive, 2cc cab graphics before 2005
+           C4 00 // else use upgraded (black cab) graphics
+ 1539 * 30	 02 01 B5 // choose trailers by date
+           81 01 00  FF // check current year
+           05 // range
+             7A 80 \b00 \b34 // before 1955
+             7B 80 \b35 \b48 // before 1969
+             7C 80 \b49 \b59 // before 1980
+             7D 80 \b60 \b70 // before 1991
+             7E 80 \b71 \b84 // before 2005
+           7F 80 // default      
+ 1540 * 26	 02 01 B0 // articulated building instructions
+               81 10 00 FF //
+               04 // range
+                 05 80 01 01 //
+                 B5 00 02 02 //
+                 05 80 03 03 //
+                 B5 00 04 04 //
+               FF FF //otherwise end the callback chain
+ 1541 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               B2 00 // else go to action 2 to apply graphics
+ 1542 * 18	 02 01 B1
+               81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+               02 // range
+                01 80 11 11 // vehicle length CB
+                B0 00 16 16 // articulated vehicle CB
+               B6 00 // go to ID A1
+ 1543 * 7	 03 01 01 97 // Action 3
+    00 // number of cargo types to define
+    B1 00
+
+
+	// No. 9	Crawler Tractor (General Purpose)
+ 1544 * 67	 00 01 19 01 98
+    00 00 00  // intro date 
+    02 20     // reliability 
+    03 \b35     // vehicle life 
+    04 \b20     // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    08 \b45     // speed in mph * 3.2
+    09 1E     // running cost factor 
+    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0E FF     // sprite ID
+    0F 00     // capacity
+    10 FF     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    15 \b11     // speed in mph * 0.8
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags
+    1D FF 03          // Refittable cargo classes
+    1E 01 00          // Non-refittable cargo classes
+    1F \d719165    // Long format introduction date  
+ 1545 * 34	 04 01 7F 01 98 "No. 9 Crawler (Supply Train)" 00
+ 1546 * 119	 04 01 81 01 90 D0 "Hauls: " 8A "Seven 14t low-ground-pressure trailers or sleds" 
+                               0d 98 "Model: " 8A "1970"  // action 2 chains reference 1969, but game intro date for no.9 is 1970 // (98t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00
+ 1547 * 136	 04 01 81 01 91 D0 "Hauls: " 8A "Seven 19t low-ground-pressure trailers or sleds"
+                               0d 98 "Model: " 8A "1980 (Elevated drive)" // (133t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00
+ 1548 * 136	 04 01 81 01 92 D0 "Hauls: " 8A "Seven 24t low-ground-pressure trailers or sleds"
+                               0d 98 "Model: " 8A "1991 (Elevated drive)" // (168t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00
+ 1549 * 136	 04 01 81 01 93 D0 "Hauls: " 8A "Seven 29t low-ground-pressure trailers or sleds"
+                               0d 98 "Model: " 8A "2005 (Elevated drive)" // (203t total)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00                               
+ 1550 * 4	 01 01 04 08
+  // No. 9 standard drive 2cc cab - bulldozer blade
+ 1551 sprites/bulldozers/bulldozers.pcx 34 1130 01 24 12 -5 -17
+ 1552 sprites/bulldozers/bulldozers.pcx 66 1130 09 20 26 -15 -10
+ 1553 sprites/bulldozers/bulldozers.pcx 98 1130 01 16 36 -14 -8
+ 1554 sprites/bulldozers/bulldozers.pcx 146 1130 09 20 26 -9 -9
+ 1555 sprites/bulldozers/bulldozers.pcx 178 1130 01 24 12 -5 -13
+ 1556 sprites/bulldozers/bulldozers.pcx 210 1130 09 20 26 -16 -9
+ 1557 sprites/bulldozers/bulldozers.pcx 242 1130 01 16 36 -22 -10
+ 1558 sprites/bulldozers/bulldozers.pcx 290 1130 09 20 26 -10 -10
+  // No. 9 standard drive 2cc cab - no blade
+ 1559 sprites/bulldozers/bulldozers.pcx 34 1170 01 24 12 -5 -17
+ 1560 sprites/bulldozers/bulldozers.pcx 66 1170 09 20 26 -15 -10
+ 1561 sprites/bulldozers/bulldozers.pcx 98 1170 01 16 36 -14 -8
+ 1562 sprites/bulldozers/bulldozers.pcx 146 1170 09 20 26 -9 -9
+ 1563 sprites/bulldozers/bulldozers.pcx 178 1170 01 24 12 -5 -13
+ 1564 sprites/bulldozers/bulldozers.pcx 210 1170 09 20 26 -16 -9
+ 1565 sprites/bulldozers/bulldozers.pcx 242 1170 01 16 36 -23 -10
+ 1566 sprites/bulldozers/bulldozers.pcx 290 1170 09 20 26 -10 -10
+    // No. 9 standard drive enclosed cab - bulldozer blade
+ 1567 sprites/bulldozers/bulldozers.pcx 34 1210 01 24 12 -5 -17
+ 1568 sprites/bulldozers/bulldozers.pcx 66 1210 09 20 26 -15 -10
+ 1569 sprites/bulldozers/bulldozers.pcx 98 1210 01 16 36 -14 -8
+ 1570 sprites/bulldozers/bulldozers.pcx 146 1210 09 20 26 -9 -9
+ 1571 sprites/bulldozers/bulldozers.pcx 178 1210 01 24 12 -5 -13
+ 1572 sprites/bulldozers/bulldozers.pcx 210 1210 09 20 26 -16 -9
+ 1573 sprites/bulldozers/bulldozers.pcx 242 1210 01 16 36 -22 -10
+ 1574 sprites/bulldozers/bulldozers.pcx 290 1210 09 20 26 -10 -10
+  // No. 9 standard drive enclosed cab - no blade
+ 1575 sprites/bulldozers/bulldozers.pcx 34 1250 01 24 12 -5 -17
+ 1576 sprites/bulldozers/bulldozers.pcx 66 1250 09 20 26 -15 -10
+ 1577 sprites/bulldozers/bulldozers.pcx 98 1250 01 16 36 -14 -8
+ 1578 sprites/bulldozers/bulldozers.pcx 146 1250 09 20 26 -9 -9
+ 1579 sprites/bulldozers/bulldozers.pcx 178 1250 01 24 12 -5 -13
+ 1580 sprites/bulldozers/bulldozers.pcx 210 1250 09 20 26 -16 -9
+ 1581 sprites/bulldozers/bulldozers.pcx 242 1250 01 16 36 -23 -10
+ 1582 sprites/bulldozers/bulldozers.pcx 290 1250 09 20 26 -10 -10
+  // Real sprites are also used by No. 9 (Logging / Mining)
+ 1583 * 9	 02 01 A1 //action2 - standard drive 2cc cab, blade 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1584 * 9	 02 01 A2 //action2 - standard drive 2cc cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1585 * 9	 02 01 A3 //action2 - standard drive enclosed cab, blade 
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1586 * 9	 02 01 A4 //action2 - standard drive enclosed cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      03 00 // loading sprites
+      03 00 // loaded sprites                               
+ 1587 * 4	 01 01 04 08
+  // No. 9 high drive 2cc cab - bulldozer blade
+ 1588 sprites/bulldozers/bulldozers.pcx 34 1290 01 24 12 -5 -17
+ 1589 sprites/bulldozers/bulldozers.pcx 66 1290 09 20 26 -15 -10
+ 1590 sprites/bulldozers/bulldozers.pcx 98 1290 01 16 36 -14 -8
+ 1591 sprites/bulldozers/bulldozers.pcx 146 1290 09 20 26 -9 -9
+ 1592 sprites/bulldozers/bulldozers.pcx 178 1290 01 24 12 -5 -13
+ 1593 sprites/bulldozers/bulldozers.pcx 210 1290 09 20 26 -16 -9
+ 1594 sprites/bulldozers/bulldozers.pcx 242 1290 01 16 36 -22 -10
+ 1595 sprites/bulldozers/bulldozers.pcx 290 1290 09 20 26 -10 -10
+  // No. 9 high drive 2cc cab - no blade
+ 1596 sprites/bulldozers/bulldozers.pcx 34 1330 01 24 12 -5 -17
+ 1597 sprites/bulldozers/bulldozers.pcx 66 1330 09 20 26 -15 -10
+ 1598 sprites/bulldozers/bulldozers.pcx 98 1330 01 16 36 -14 -8
+ 1599 sprites/bulldozers/bulldozers.pcx 146 1330 09 20 26 -9 -9
+ 1600 sprites/bulldozers/bulldozers.pcx 178 1330 01 24 12 -5 -13
+ 1601 sprites/bulldozers/bulldozers.pcx 210 1330 09 20 26 -16 -9
+ 1602 sprites/bulldozers/bulldozers.pcx 242 1330 01 16 36 -23 -10
+ 1603 sprites/bulldozers/bulldozers.pcx 290 1330 09 20 26 -10 -10
+    // No. 9 upgraded black cab - bulldozer blade
+ 1604 sprites/bulldozers/bulldozers.pcx 34 1370 01 24 12 -5 -17
+ 1605 sprites/bulldozers/bulldozers.pcx 66 1370 09 20 26 -15 -10
+ 1606 sprites/bulldozers/bulldozers.pcx 98 1370 01 16 36 -14 -8
+ 1607 sprites/bulldozers/bulldozers.pcx 146 1370 09 20 26 -9 -9
+ 1608 sprites/bulldozers/bulldozers.pcx 178 1370 01 24 12 -5 -13
+ 1609 sprites/bulldozers/bulldozers.pcx 210 1370 09 20 26 -16 -9
+ 1610 sprites/bulldozers/bulldozers.pcx 242 1370 01 16 36 -22 -10
+ 1611 sprites/bulldozers/bulldozers.pcx 290 1370 09 20 26 -10 -10
+  // No. 9 upgraded black cab - no blade
+ 1612 sprites/bulldozers/bulldozers.pcx 34 1410 01 24 12 -5 -17
+ 1613 sprites/bulldozers/bulldozers.pcx 66 1410 09 20 26 -15 -10
+ 1614 sprites/bulldozers/bulldozers.pcx 98 1410 01 16 36 -14 -8
+ 1615 sprites/bulldozers/bulldozers.pcx 146 1410 09 20 26 -9 -9
+ 1616 sprites/bulldozers/bulldozers.pcx 178 1410 01 24 12 -5 -13
+ 1617 sprites/bulldozers/bulldozers.pcx 210 1410 09 20 26 -16 -9
+ 1618 sprites/bulldozers/bulldozers.pcx 242 1410 01 16 36 -23 -10
+ 1619 sprites/bulldozers/bulldozers.pcx 290 1410 09 20 26 -10 -10
+  // Real sprites are also used by No. 9 (Logging / Mining)
+ 1620 * 9	 02 01 AA //action2 - high drive 2cc cab, blade 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1621 * 9	 02 01 AB //action2 - high drive 2cc cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1622 * 9	 02 01 AC //action2 - high drive black cab, blade 
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1623 * 9	 02 01 AD //action2 - high drive black cab, no blade 
+      01 // number loading states
+      01 // number loaded states
+      03 00 // loading sprites
+      03 00 // loaded sprites
+ 1624 * 4	 01 01 03 04 // buy menu sprites
+  // No. 9 standard drive 2cc open cab
+ 1625 * 1	 00
+ 1626 * 1	 00
+ 1627 sprites/bulldozers/bulldozers.pcx 370 1174 01 12 36 -26 -6
+ 1628 * 1	 00
+  // No. 9 high drive 2cc cab
+ 1629 * 1	 00
+ 1630 * 1	 00
+ 1631 sprites/bulldozers/bulldozers.pcx 370 1334 01 12 36 -26 -6
+ 1632 * 1	 00
+  // No. 9 high drive black cab
+ 1633 * 1	 00
+ 1634 * 1	 00
+ 1635 sprites/bulldozers/bulldozers.pcx 370 1414 01 12 36 -26 -6
+ 1636 * 1	 00
+ 1637 * 9	 02 01 F1 //action2 - buy menu sprites (high drive 2cc cab)
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1638 * 9	 02 01 F2 //action2 - buy menu sprites (high drive black cab)
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1639 * 9	 02 01 F3 //action2 - buy menu sprites (high drive black cab)
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1640 * 14	 02 01 FD // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   93 80 23 23 // text for vehicle window
+                 F3 00 //otherwise go to next action 2 ID 
+ 1641 * 14	 02 01 FC // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   92 80 23 23 // text for vehicle window
+                 F2 00 //otherwise go to next action 2 ID 
+ 1642 * 14	 02 01 FB // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   91 80 23 23 // text for vehicle window
+                 F2 00 //otherwise go to next action 2 ID 
+ 1643 * 14	 02 01 FA // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   90 80 23 23 // text for vehicle window
+                 F1 00 //otherwise go to next action 2 ID 
+ 1644 * 22	 02 01 F0 // buy menu
+           81 01 00  FF // check current year
+           03 // range
+             FA 00 \b00 \b59 // action 2 for setting graphics / text before 1980
+             FB 00 \b60 \b70 // action 2 for setting graphics / text before 1991
+             FC 00 \b71 \b84 // action 2 for setting graphics / text before 2005
+           FD 00 // default graphics / text
+ 1645 * 26	 02 01 B5 // choose trailers by date
+           81 01 00  FF // check current year
+           04 // range
+             75 80 \b35 \b48 // before 1969
+             76 80 \b49 \b59 // before 1980
+             77 80 \b60 \b70 // before 1991
+             78 80 \b71 \b84 // before 2005
+           79 80 // default      
+ 1646 * 15	 02 01 C1
+               83 00 00 // randomise graphics (83 is per engine)
+               04 //check two ranges (choose blade or no blade)
+                 A1 00 // blade, no cab
+                 A2 00 // no blade, no cab
+                 A3 00 // blade, open cab
+               A4 00 // no blade, open cab
+ 1647 * 11	 02 01 C2 // randomise graphics 
+               83 00 00 // randomise graphics (83 is per engine)
+               02 //check two ranges (choose blade or no blade)
+                 AA 00 //
+               AB 00 //
+ 1648 * 11	 02 01 C3 // randomise graphics
+               83 00 00 // randomise graphics (83 is per engine)  
+               02 //check two ranges (choose blade or no blade)
+                 AC 00 // 
+               AD 00 //
+ 1649 * 18	 02 01 B2 // 
+           81 C4 00 FF // check date vehicle built
+           02 // range
+             C1 00 \b00 \b59 // use standard drive graphics before 1980
+             C2 00 \b60 \b84 // use high drive, 2cc cab graphics before 2005
+           C3 00 // else use upgraded (black cab) graphics
+ 1650 * 38	 02 01 B0 // articulated vehicle instructions
+               81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
+               07 // range
+                 B5 00 01 01
+                 B5 00 02 02
+                 B5 00 03 03
+                 B5 00 04 04
+                 B5 00 05 05
+                 B5 00 06 06
+                 B5 00 07 07
+               FF FF //otherwise end the callback chain
+ 1651 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               B2 00 // else go to action 2 to apply graphics
+ 1652 * 14	 02 01 B1
+               81 0C 00 FF // handle callbacks
+               01 // range
+                B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+               B6 00 // default ID
+ 1653 * 7	 03 01 01 98 // Action 3
+    00 // number of cargo types to define
+    B1 00      // Action 2 ID for default cargo
+
+
+	// No. 9	Crawler Tractor (Logging / Mining)
+ 1654 * 67	 00 01 19 01 99
+    00 00 00  // intro date 
+    02 20     // reliability 
+    03 \b35     // vehicle life 
+    04 \b20     // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    08 \b45     // speed in mph * 3.2
+    09 1E     // running cost factor 
+    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0E FF     // sprite ID
+    0F 00     // capacity
+    10 FF     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    15 \b11     // speed in mph * 0.8
+    16 C0 20 00 68     // Bit mask of cargo types available for refitting
+    // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags
+    1D 10 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
+    1F AE FA 0A 00    // Long format introduction date  
+ 1655 * 38	 04 01 7F 01 99 "No. 9 Crawler (Logging / Mining)" 00
+ 1656 * 117	 04 01 81 01 9A D0 "Hauls: " 8A "Three 42t log trailers or belly-dump trailers" 
+                               0d 98 "Model: " 8A "1970"  // action 2 chains reference 1969, but game intro date for no.9 is 1970 // (126t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00
+ 1657 * 134	 04 01 81 01 9B D0 "Hauls: " 8A "Three 56t log trailers or belly-dump trailers"
+                               0d 98 "Model: " 8A "1980 (Elevated drive)" // (168t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00
+ 1658 * 134	 04 01 81 01 9C D0 "Hauls: " 8A "Three 70t log trailers or belly-dump trailers"
+                               0d 98 "Model: " 8A "1991 (Elevated drive)" // (210t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00
+ 1659 * 134	 04 01 81 01 9D D0 "Hauls: " 8A "Three 84t log trailers or belly-dump trailers"
+                               0d 98 "Model: " 8A "2005 (Elevated drive)" // (252t total cargo)
+                               0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
+                               0d 98
+                               00                               
+  // Real sprites are shared with No. 9 (General Purpose)
+ 1660 * 4	 01 01 03 04 // buy menu sprites
+  // No. 9 standard drive 2cc open cab
+ 1661 * 1	 00
+ 1662 * 1	 00
+ 1663 sprites/bulldozers/bulldozers.pcx 370 1134 01 12 36 -22 -6
+ 1664 * 1	 00
+  // No. 9 high drive 2cc cab
+ 1665 * 1	 00
+ 1666 * 1	 00
+ 1667 sprites/bulldozers/bulldozers.pcx 370 1294 01 12 36 -22 -6
+ 1668 * 1	 00
+  // No. 9 high drive black cab
+ 1669 * 1	 00
+ 1670 * 1	 00
+ 1671 sprites/bulldozers/bulldozers.pcx 370 1374 01 12 36 -22 -6
+ 1672 * 1	 00
+ 1673 * 9	 02 01 F1 //action2 - buy menu sprites (high drive 2cc cab)
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1674 * 9	 02 01 F2 //action2 - buy menu sprites (high drive black cab)
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ 1675 * 9	 02 01 F3 //action2 - buy menu sprites (high drive black cab)
+      01 // number loading states
+      01 // number loaded states
+      02 00 // loading sprites
+      02 00 // loaded sprites
+ 1676 * 14	 02 01 FD // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   9D 80 23 23 // text for vehicle window
+                 F3 00 //otherwise go to next action 2 ID 
+ 1677 * 14	 02 01 FC // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   9C 80 23 23 // text for vehicle window
+                 F2 00 //otherwise go to next action 2 ID 
+ 1678 * 14	 02 01 FB // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   9B 80 23 23 // text for vehicle window
+                 F2 00 //otherwise go to next action 2 ID 
+ 1679 * 14	 02 01 FA // buy menu
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   9A 80 23 23 // text for vehicle window
+                 F1 00 //otherwise go to next action 2 ID 
+ 1680 * 22	 02 01 F0 // buy menu
+           81 01 00  FF // check current year
+           03 // range
+             FA 00 \b00 \b59 // action 2 for setting graphics / text before 1980
+             FB 00 \b60 \b70 // action 2 for setting graphics / text before 1991
+             FC 00 \b71 \b84 // action 2 for setting graphics / text before 2005
+           FD 00 // default graphics / text
+ 1681 * 26	 02 01 B5 // choose trailers by date
+           81 01 00  FF // check current year
+           04 // range
+             7B 80 \b35 \b48 // before 1969
+             7C 80 \b49 \b59 // before 1980
+             7D 80 \b60 \b70 // before 1991
+             7E 80 \b71 \b84 // before 2005
+           7F 80 // default      
+ 1682 * 15	 02 01 C1
+               83 00 00 // randomise graphics (83 is per engine)
+               04 //check two ranges (choose blade or no blade)
+                 A1 00 // blade, no cab
+                 A2 00 // no blade, no cab
+                 A3 00 // blade, open cab
+               A4 00 // no blade, open cab
+ 1683 * 11	 02 01 C2 // randomise graphics 
+               83 00 00 // randomise graphics (83 is per engine)
+               02 //check two ranges (choose blade or no blade)
+                 AA 00 //
+               AB 00 //
+ 1684 * 11	 02 01 C3 // randomise graphics
+               83 00 00 // randomise graphics (83 is per engine)  
+               02 //check two ranges (choose blade or no blade)
+                 AC 00 // 
+               AD 00 //
+ 1685 * 18	 02 01 B2 // 
+           81 C4 00 FF // check date vehicle built
+           02 // range
+             C1 00 \b00 \b59 // use standard drive graphics before 1980
+             C2 00 \b60 \b84 // use high drive, 2cc cab graphics before 2005
+           C3 00 // else use upgraded (black cab) graphics
+ 1686 * 34	 02 01 B0 // articulated vehicle instructions
+               81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
+               06 // range
+                 05 80 01 01
+                 B5 00 02 02
+                 05 80 03 03
+                 B5 00 04 04
+                 05 80 05 05
+                 B5 00 06 06
+               FF FF //otherwise end the callback chain
+ 1687 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               B2 00 // else go to action 2 to apply graphics
+ 1688 * 14	 02 01 B1
+               81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+               01 // range
+                B0 00 16 16 // articulated vehicle CB
+               B6 00 // 
+ 1689 * 7	 03 01 01 99 // Action 3
+    00 // number of cargo types to define
+    B1 00      // Action 2 ID for default cargo    
+
+ // -- Articulated Crawler in two parts)
+
+ // Articulated Crawler First Part
+ 1690 * 69	 00 01 20 01 9A
+    00 00 00  // intro date 
+    02 20     // reliability 
+    03 \b15     // vehicle life 
+    04 \b60     // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    08 \b70     // speed in mph * 3.2
+    09 1E     // running cost factor 
+    0A 48 4C 00 00    // running cost base 
+    0E FF     // sprite ID
+    0F 00     // capacity
+    10 FF     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    13 \b35     // power in 10 hp
+    14 \b1     // weight in 1/4 tons
+    15 \b18     // speed in mph * 0.8
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags
+    1D FF 03          // Refittable cargo classes
+    1E 01 00          // Non-refittable cargo classes
+    1F \d729770    // Long format introduction date    
+    20 94     // sort vehicle list (ID for this vehicle to appear before) 
+ 1691 * 34	 04 01 7F 01 9A "Red Peak Articulated Crawler" 00
+ 1692 * 47	 04 01 81 01 9F D0 "Hauls: " 8A "Three 22t trailers"
+                               0d 98 "Model: " 8A "1998" 00 
+ 1693 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
+ 1694 sprites/bulldozers/bulldozers.pcx 34 1610 01 24 12 -5 -19
+ 1695 sprites/bulldozers/bulldozers.pcx 66 1610 01 20 26 -17 -12
+ 1696 sprites/bulldozers/bulldozers.pcx 98 1610 01 16 36 -10 -11
+ 1697 sprites/bulldozers/bulldozers.pcx 146 1610 01 20 26 -9 -11
+ 1698 sprites/bulldozers/bulldozers.pcx 178 1610 01 24 12 -5 -13
+ 1699 sprites/bulldozers/bulldozers.pcx 210 1610 01 20 26 -17 -11
+ 1700 sprites/bulldozers/bulldozers.pcx 242 1610 01 16 36 -26 -10
+ 1701 sprites/bulldozers/bulldozers.pcx 290 1610 01 20 26 -10 -13
+ 1702 * 9	 02 01 A0 01 01 00 00 00 00
+ 1703 * 4	 01 01 01 01
+ 1704 sprites/bulldozers/bulldozers.pcx 370 1614 01 12 36 -14 -6
+ 1705 * 9	 02 01 F1 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1706 * 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   9F 80 23 23 // text for vehicle window
+                 F1 00 //otherwise go to next action 2 ID 
+ 1707 * 26	 02 01 B0 //ID B0
+               81 10 00 FF // articulated vehicle building instructions
+               04 // range
+                 11 80 01 01
+                 73 80 02 02
+                 73 80 03 03
+                 73 80 04 04
+               FF FF //otherwise end the callback chain
+ 1708 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               A0 00 // else go to action 2 to apply graphics
+ 1709 * 18	 02 01 B1 //ID B1
+               81 0C 00 FF // handle callbacks
+               02 // range
+                 05 80 11 11 // vehicle length CB
+                 B0 00 16 16 // articulated vehicle CB
+               B3 00 //otherwise go to next action 2 ID 
+ 1710 * 7	 03 01 01 9A // Action 3
+    00  // Number of different cargo types to support  
+    B1 00   // Action 2 ID above 
+
+  // Articulated Crawler (Second Part)
+ 1711 * 67	 00 01 19 01 11 // articulated RV trailing part ID must be <128. Otherwise 9B (155) would make more sense.
+      00 00 00  // intro date
+      02 20     // reliability
+      03 19     // vehicle life
+      04 23     // class life
+      06 00     // climate
+      07 05     // load amount
+      08 E0     // speed in mph * 3.2
+      09 08     // running cost factor
+      0A 48 4C 00 00 13 00 14 20 // running cost base
+      0E FF     // sprite ID
+      0F 00     // capacity
+      10 FF     // cargo type
+      11 00     // cost factor
+      12 00     // sound effect
+      15 38     // speed in mph * 0.8
+      16 00 00 00 00    // Bit mask of cargo types available for refitting
+      17 02     // Callback flags bit mask
+      1A 00     // Refit cost, using 25% of the purchase price cost base
+      1B 00     // Retire vehicle early, this many years before the end of phase 2
+      1C 02     // Miscellaneous vehicle flags     
+      1D FF 03     // Refittable cargo classes 
+      1E 01 00     // Non-refittable cargo classes
+      1F \d0   // Long format introduction date     
+ 1712 * 39	 04 01 7F 01 11 "[Articulated Crawler Second Part]" 00
+ 1713 * 4	 01 01 01 08
+ 1714 sprites/bulldozers/bulldozers.pcx 34 1650 01 24 12 -5 -15
+ 1715 sprites/bulldozers/bulldozers.pcx 66 1650 01 20 26 -17 -12
+ 1716 sprites/bulldozers/bulldozers.pcx 98 1650 01 16 36 -10 -11
+ 1717 sprites/bulldozers/bulldozers.pcx 146 1650 01 20 26 -9 -11
+ 1718 sprites/bulldozers/bulldozers.pcx 178 1650 01 24 12 -5 -13
+ 1719 sprites/bulldozers/bulldozers.pcx 210 1650 01 20 26 -17 -11
+ 1720 sprites/bulldozers/bulldozers.pcx 242 1650 01 16 36 -26 -10
+ 1721 sprites/bulldozers/bulldozers.pcx 290 1650 01 20 26 -10 -13
+ 1722 * 9	 02 01 BB   01 01   00 00    00 00
+ 1723 * 14	 02 01 AA  // handle callbacks
+                 81 0C 00 FF // check variable 0C
+                 01 // range
+                  03 80 11 11 // vehicle length callback
+                 BB 00
+ 1724 * 7	 03 01 01 11 // Action 3
+      00  // Number of different cargo types to support  
+      AA 00 // default cargo
+
+  // ----------------- end of Bulldozers / Crawler Tractors -----------//
