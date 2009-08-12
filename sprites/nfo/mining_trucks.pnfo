@@ -1,7 +1,7 @@
   // -------------- Belly Dump Trailers for Mining Trucks --------------- //
    // Medium belly dump trailer 
    // Used by Thunder Mountain articulated dump truck
- 1810 * 67	 00 01 19 01 06
+ 1810 * 67	 00 01 1A 01 06
     00 00 00  // intro date 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -21,13 +21,14 @@
     15 \b48     // speed in mph * 0.8
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
-    17 16     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
-    1F 60 B3 0A 00    // Long format introduction date  
+    17 16     // callback flags bit mask
+    18 00             // coefficient of tractive effort (use 0 for trailers)
+    1A 00     // refit cost, using 25% of the purchase price cost base
+    1B 00     // retire vehicle early, this many years before the end of phase 2
+    1C 02     // miscellaneous vehicle flags
+    1D 10 00          // refittable cargo classes
+    1E EF 03          // non-refittable cargo classes
+    1F 60 B3 0A 00    // long format introduction date  
  1811 * 6	 07 83 01 \7! 02 01 // tropic only
  1812 * 7	 00 01 01 01 06 10 08// copper ore default
  1813 * 23	 04 01 7F 01 06 "Medium Belly Dump" 00
@@ -170,7 +171,7 @@
 
    // Large belly dump trailer
    // Used by large articulated mining trucks
- 1927 * 67	 00 01 19 01 07
+ 1927 * 67	 00 01 1A 01 07
     00 00 00  // intro date 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -191,6 +192,7 @@
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 16     // Callback flags bit mask
+    18 00             // coefficient of tractive effort (use 0 for trailers)
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
@@ -861,7 +863,7 @@
     A6 00 // default sprites
 
   // Thunder Mountain Mining Truck  90t		1960-1982		30mph
- 2431 * 67	 00 01 19 01 D2
+ 2431 * 67	 00 01 1A 01 D2
     00 \w1-1-1920     // intro date
     02 20             // reliability
     03 19             // vehicle life
@@ -882,6 +884,7 @@
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 16             // Callback flags bit mask
+    18 26             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00             // Refit cost, using 25% of the purchase price cost base
     1B 00             // Retire vehicle early, this many years before the end of phase 2
     1C 02             // Miscellaneous vehicle flags
@@ -1126,7 +1129,7 @@
     A6 00 // default sprites
 
   // Bear Mountain Mining Truck 120t		1980-2050	35mph
- 2592 * 67	 00 01 19 01 D4 
+ 2592 * 67	 00 01 1A 01 D4 
     00 \w1-1-1920     // intro date
     02 20             // reliability
     03 19             // vehicle life
@@ -1147,6 +1150,7 @@
     16 40 00 00 28    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 12             // Callback flags bit mask
+    18 26             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00             // Refit cost, using 25% of the purchase price cost base
     1B 00             // Retire vehicle early, this many years before the end of phase 2
     1C 02             // Miscellaneous vehicle flags
@@ -1390,7 +1394,7 @@
    A6 00 // default sprites
 
   // Camelback Mountain Mining Truck  240t		2001-2050	37mph
- 2340 * 67	 00 01 19 01 D6
+ 2340 * 67	 00 01 1A 01 D6
     00 \w1-1-1920     // intro date
     02 20             // reliability
     03 19             // vehicle life
@@ -1411,6 +1415,7 @@
     16 40 00 00 28    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 12             // Callback flags bit mask
+    18 20             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00             // Refit cost, using 25% of the purchase price cost base
     1B 00             // Retire vehicle early, this many years before the end of phase 2
     1C 02             // Miscellaneous vehicle flags

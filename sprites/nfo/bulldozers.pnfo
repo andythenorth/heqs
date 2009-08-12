@@ -1,24 +1,27 @@
   // ----------------- Bulldozers / Crawler Tractors -----------//      
 
   // No. 6	Crawler Tractor (General Purpose)
- 1218 * 67	 00 01 19 01 94
+ 1218 * 67	 00 01 1A 01 94
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b40     // vehicle life 
-    04 \b150    // class life 
+    03 \b40   // vehicle life 
+    04 \b150  // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b48     // speed in mph * 3.2
+    08 \b48   // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 08     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 \b12     // speed in mph * 0.8
+    13 \b20   // power in 10 hp
+    14 \b84   // weight in 1/4 tons
+    15 \b12   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 12     // Callback flags bit mask
+    18 55     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
@@ -217,25 +220,28 @@
 
 
   // No. 6 Crawler Tractor (Mining / Logging)
- 1294 * 67	 00 01 19 01 95 
+ 1294 * 67	 00 01 1A 01 95 
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b40     // vehicle life 
-    04 \b150     // class life 
+    03 \b40   // vehicle life 
+    04 \b150  // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b48     // speed in mph * 3.2
+    08 \b48   // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 08     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 \b12     // speed in mph * 0.8
+    13 \b20   // power in 10 hp
+    14 \b84  // weight in 1/4 tons
+    15 \b12   // speed in mph * 0.8
     16 C0 20 00 68     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 16     // Callback flags bit mask
+    18 55     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
@@ -432,29 +438,32 @@
 
 
   // No. 8	Crawler Tractor (General Purpose)
- 1370 * 67	 00 01 19 01 96 
+ -1 * 67	 00 01 1A 01 96 
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b40     // vehicle life 
-    04 \b100     // class life 
+    03 \b40   // vehicle life 
+    04 \b100  // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b45     // speed in mph * 3.2
+    08 \b45   // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 \b11     // speed in mph * 0.8
+    13 \b35   // power in 10 hp
+    14 \b144  // weight in 1/4 tons
+    15 \b11   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
+    18 55     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D FF 03          // Refittable cargo classes
-    1E 01 00          // Non-refittable cargo classes
+    1D FF 03  // Refittable cargo classes
+    1E 01 00  // Non-refittable cargo classes
     1F \d708300    // Long format introduction date  
  1371 * 34	 04 01 7F 01 96 "No. 8 Crawler (Supply Train)" 00
  1372 * 103	 04 01 81 01 80 D0 "Hauls: " 8A "Four 12t trailers or sleds"
@@ -768,30 +777,33 @@
 
 
   // No. 8	Crawler Tractor (Logging / Mining)
- 1503 * 67	 00 01 19 01 97 
+ -1 * 67	 00 01 1A 01 97 
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b40     // vehicle life 
-    04 \b100     // class life 
+    03 \b40   // vehicle life 
+    04 \b100  // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b45     // speed in mph * 3.2
+    08 \b45   // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00  // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 \b11     // speed in mph * 0.8
+    13 \b35   // power in 10 hp
+    14 \b144  // weight in 1/4 tons
+    15 \b11   // speed in mph * 0.8
     16 C0 20 00 68     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 16     // Callback flags bit mask
+    18 55     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D 10 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
+    1D 10 00  // Refittable cargo classes
+    1E 00 00  // Non-refittable cargo classes
     1F \d708300    // Long format introduction date  
  1504 * 38	 04 01 7F 01 97 "No. 8 Crawler (Logging / Mining)" 00
  1505 * 120	 04 01 81 01 8A D0 "Hauls: " 8A "Two 30t log trailers or belly-dump trailers" 
@@ -960,25 +972,28 @@
 
 
 	// No. 9	Crawler Tractor (General Purpose)
- 1544 * 67	 00 01 19 01 98
+ -1 * 67	 00 01 1A 01 98
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b35     // vehicle life 
-    04 \b20     // class life 
+    03 \b35   // vehicle life 
+    04 \b20   // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b45     // speed in mph * 3.2
+    08 \b45   // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 \b11     // speed in mph * 0.8
+    13 \b55   // power in 10 hp
+    14 \b224  // weight in 1/4 tons
+    15 \b11   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 16     // Callback flags bit mask
+    18 55     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
@@ -1238,31 +1253,34 @@
 
 
 	// No. 9	Crawler Tractor (Logging / Mining)
- 1654 * 67	 00 01 19 01 99
+ 1654 * 67	 00 01 1A 01 99
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b35     // vehicle life 
-    04 \b20     // class life 
+    03 \b35   // vehicle life 
+    04 \b20   // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b45     // speed in mph * 3.2
+    08 \b45   // speed in mph * 3.2
     09 1E     // running cost factor 
-    0A 48 4C 00 00 13 14 14 18        // running cost base 
+    0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    15 \b11     // speed in mph * 0.8
+    13 \b55   // power in 10 hp
+    14 \b224  // weight in 1/4 tons
+    15 \b11   // speed in mph * 0.8
     16 C0 20 00 68     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
-    17 16     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
-    1D 10 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
-    1F AE FA 0A 00    // Long format introduction date  
+    17 16     // callback flags bit mask
+    18 55  // coefficient of TE
+    1A 00     // refit cost, using 25% of the purchase price cost base
+    1B 00     // retire vehicle early, this many years before the end of phase 2
+    1C 02     // miscellaneous vehicle flags
+    1D 10 00          // refittable cargo classes
+    1E 00 00          // non-refittable cargo classes
+    1F AE FA 0A 00    // long format introduction date  
  1655 * 38	 04 01 7F 01 99 "No. 9 Crawler (Logging / Mining)" 00
  1656 * 117	 04 01 81 01 9A D0 "Hauls: " 8A "Three 42t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1970"  // action 2 chains reference 1969, but game intro date for no.9 is 1970 // (126t total cargo)
@@ -1401,14 +1419,14 @@
  // -- Articulated Crawler in two parts)
 
  // Articulated Crawler First Part
- 1690 * 69	 00 01 20 01 9A
+ 1690 * 69	 00 01 1B 01 9A
     00 00 00  // intro date 
     02 20     // reliability 
-    03 \b15     // vehicle life 
-    04 \b60     // class life 
+    03 \b15   // vehicle life 
+    04 \b60   // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b70     // speed in mph * 3.2
+    08 \b70   // speed in mph * 3.2
     09 1E     // running cost factor 
     0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
@@ -1416,16 +1434,17 @@
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    13 \b35     // power in 10 hp
-    14 \b1     // weight in 1/4 tons
-    15 \b18     // speed in mph * 0.8
+    13 \b45   // power in 10 hp
+    14 \b104  // weight in 1/4 tons
+    15 \b18   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
+    18 9A     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
-    1D FF 03          // Refittable cargo classes
-    1E 01 00          // Non-refittable cargo classes
+    1D FF 03  // Refittable cargo classes
+    1E 01 00  // Non-refittable cargo classes
     1F \d729770    // Long format introduction date    
     20 94     // sort vehicle list (ID for this vehicle to appear before) 
  1691 * 34	 04 01 7F 01 9A "Red Peak Articulated Crawler" 00
@@ -1477,7 +1496,7 @@
     B1 00   // Action 2 ID above 
 
   // Articulated Crawler (Second Part)
- 1711 * 67	 00 01 19 01 11 // articulated RV trailing part ID must be <128. Otherwise 9B (155) would make more sense.
+ 1711 * 67	 00 01 1A 01 11 // articulated RV trailing part ID must be <128. Otherwise 9B (155) would make more sense.
       00 00 00  // intro date
       02 20     // reliability
       03 19     // vehicle life
@@ -1486,21 +1505,24 @@
       07 05     // load amount
       08 E0     // speed in mph * 3.2
       09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20 // running cost base
+      0A 48 4C 00 00   // running cost base
       0E FF     // sprite ID
       0F 00     // capacity
       10 FF     // cargo type
       11 00     // cost factor
       12 00     // sound effect
+      13 \b0    // power in 10 hp
+      14 \b0   // weight in 1/4 tons
       15 38     // speed in mph * 0.8
       16 00 00 00 00    // Bit mask of cargo types available for refitting
       17 02     // Callback flags bit mask
+      18 9A     // coefficient of TE
       1A 00     // Refit cost, using 25% of the purchase price cost base
       1B 00     // Retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags     
-      1D FF 03     // Refittable cargo classes 
-      1E 01 00     // Non-refittable cargo classes
-      1F \d0   // Long format introduction date     
+      1D FF 03  // Refittable cargo classes 
+      1E 01 00  // Non-refittable cargo classes
+      1F \d0    // Long format introduction date     
  1712 * 39	 04 01 7F 01 11 "[Articulated Crawler Second Part]" 00
  1713 * 4	 01 01 01 08
  1714 sprites/bulldozers/bulldozers.pcx 34 1650 01 24 12 -5 -15
