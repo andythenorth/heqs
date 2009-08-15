@@ -17,6 +17,12 @@ Repository version: {{GRF_REVISION}}
 
 Changelog
 
+*version 0.5e*
+Added Wolfpen Ridge Dump Truck - (available 2005)
+Added flashing amber beacons to more vehicles.
+Fourtrac now has more livery variations (uses 1st company colour for mail and goods). 
+Set correct hp, weight and co-efficient of TE for all vehicles.  For use with Terkhen's patch for realistic vehicle acceleration, or if realistic acceleration hits trunk.
+
 *version 0.5d*
 Fixed Camelback Mountain Mining Truck - now correctly builds two trailers instead of one.
 
