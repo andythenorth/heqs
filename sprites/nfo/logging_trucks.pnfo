@@ -422,8 +422,8 @@
  -1 * 67	 00 01 19 01 A0
     00 \w1-1-1972  // intro date
     02 20     // reliability
-    03 19     // vehicle life
-    04 19     // class life
+    03 \b40     // vehicle life
+    04 FF     // class life
     06 0F     // climate
     07 05     // load amount
     08 \b128  // speed in mph * 3.2
@@ -454,8 +454,8 @@
  -1 * 67	 00 01 19 01 A1
     00 \w1-1-1972  // intro date
     02 20     // reliability
-    03 19     // vehicle life
-    04 19     // class life
+    03 \b40     // vehicle life
+    04 FF     // class life
     06 0F     // climate
     07 05     // load amount
     08 \b96   // speed in mph * 3.2
