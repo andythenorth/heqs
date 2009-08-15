@@ -83,7 +83,9 @@
                FF FF //otherwise end the callback chain
  1761 * 14	 02 01 B2 // provide different graphics depending on cargo 
                81 42 08 FF // check cargo type 
-               01 // range
+               03 // range
+                A1 00 02 02 // mail
+                A1 00 05 05 // goods
                 A3 00 07 07 // wood
                A2 00 // default
  1762 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
@@ -123,13 +125,13 @@
     14 \b28   // weight in 1/4 tons
     15 \b40   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
-    17 16     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
-    1D FF 03          // Refittable cargo classes
-    1E 01 00          // Non-refittable cargo classes
-    1F 32 17 0B 00    // Long format introduction date      
+    17 16     // callback flags bit mask
+    1A 00     // refit cost, using 25% of the purchase price cost base
+    1B 00     // retire vehicle early, this many years before the end of phase 2
+    1C 02     // miscellaneous vehicle flags
+    1D FF 03          // refittable cargo classes
+    1E 01 00          // non-refittable cargo classes
+    1F 32 17 0B 00    // long format introduction date      
  1766 * 16	 04 01 7F 01 81 "Speedytrac" 00
  1767 * 44	 04 01 81 01 B1 D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "1990" 00 
