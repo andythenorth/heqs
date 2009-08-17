@@ -1,9 +1,38 @@
-./*.grf
-./*.bak
-sprites/heqs.nfo
-sprites/heqs.pnfo
-Makefile.local
-heqs*
+# Use glob syntax:
+syntax: glob
 
-# Ignore things the Mac likes to litter around the place:
+# The local makefile should be ignored:
+Makefile.local
+
+# And the description file and the grs which are generated automatically
+# This has to be adopted to the newgrf filename
+heqs.grf
+
+# Ignore intermediate files created by the Makefile:
+*.cpnfo
+*.nfo
+heqs.new
+docs/license.txt
+docs/changelog.txt
+docs/readme.txt
+# Dependency files:
+*.d
+
+# Ignore directories from bundle creation / install:
+# Has to be adjusted to the newgrf-name
+heqs-*
+
+#The .renum dir
+.renum
+
+# Ignore frequent development left-overs like
+# editor backups, patches, rejects etc. pp
+*.orig
+*.bak
+*.log
+*.rej
+*.diff
+
+# Files created by Mac image preview and file browser:
 .DS_Store
+Thumbs.db
