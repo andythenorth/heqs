@@ -1415,7 +1415,7 @@
     16 40 00 00 28    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 12             // Callback flags bit mask
-    18 20             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
+    18 4C             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00             // Refit cost, using 25% of the purchase price cost base
     1B 00             // Retire vehicle early, this many years before the end of phase 2
     1C 02             // Miscellaneous vehicle flags
