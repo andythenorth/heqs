@@ -884,7 +884,7 @@
     16 40 00 00 28     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 16             // Callback flags bit mask
-    18 26             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
+    18 49             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00             // Refit cost, using 25% of the purchase price cost base
     1B 00             // Retire vehicle early, this many years before the end of phase 2
     1C 02             // Miscellaneous vehicle flags
@@ -1145,12 +1145,12 @@
     11 5D             // cost factor
     12 17             // sound effect
     13 \b77           // power in 10 hp
-    14 \b124          // weight in 1/4 tons
+    14 \b172          // weight in 1/4 tons (n.b. for aRV *don't* include weight of trailers, it will result in too high a T/E)
     15 \b28           // speed in mph * 0.8
     16 40 00 00 28    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 12             // Callback flags bit mask
-    18 26             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
+    18 20             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00             // Refit cost, using 25% of the purchase price cost base
     1B 00             // Retire vehicle early, this many years before the end of phase 2
     1C 02             // Miscellaneous vehicle flags
@@ -1409,8 +1409,8 @@
     10 FF             // cargo type 
     11 5D             // cost factor
     12 19             // sound effect
-    13 \b93     // power in 10 hp
-    14 \b176     // weight in 1/4 tons
+    13 \b93           // power in 10 hp
+    14 \b176          // weight in 1/4 tons
     15 \b30           // speed in mph * 0.8
     16 40 00 00 28    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize

@@ -1435,11 +1435,11 @@
     11 34     // cost factor
     12 17     // sound effect
     13 \b23   // power in 10 hp
-    14 \b52  // weight in 1/4 tons
+    14 \b104  // weight in 1/4 tons
     15 \b18   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
-    18 9A     // coefficient of TE
+    18 BD     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags
@@ -1512,7 +1512,7 @@
       11 00     // cost factor
       12 00     // sound effect
       13 \b22   // power in 10 hp
-      14 \b52   // weight in 1/4 tons
+      14 \b00   // weight in 1/4 tons (weight not used on 2nd part of vehicle)
       15 38     // speed in mph * 0.8
       16 00 00 00 00    // Bit mask of cargo types available for refitting
       17 02     // Callback flags bit mask

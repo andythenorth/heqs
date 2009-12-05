@@ -1,7 +1,7 @@
   // --------------------------- Logging Truck Trailers --------------------- //
 
    // Logging truck trailer
-     // Lower capacity trailers use Large graphics.  Higher capacity use Logging truckLarge graphics.
+     // Lower capacity trailers use Large graphics.  Higher capacity use Logging truck Large graphics.
      // Rough order of business here
        // Logging truck trailers vary capacity depending on date vehicle is built
        // Can't get CB 36 to do that on build, only on refit (oh so close)
