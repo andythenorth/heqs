@@ -224,68 +224,68 @@
  -1 * 35	 04 01 7F 01 12 "[Kander Trailer]" 00
  -1 * 4	 01 01 07 08
    // empty
- -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  146  50   09   20 26    -5  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
+ -1 sprites/foundry_transporters.pcx   34  50   01   24 12    -5 -15
+ -1 sprites/foundry_transporters.pcx   66  50   09   20 26   -15  -9
+ -1 sprites/foundry_transporters.pcx   98  50   01   16 36   -16  -8
+ -1 sprites/foundry_transporters.pcx  146  50   09   20 26    -5  -8
+ -1 sprites/foundry_transporters.pcx  178  50   01   24 12    -4 -12
+ -1 sprites/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
+ -1 sprites/foundry_transporters.pcx  242  50   01   16 36   -22  -9
+ -1 sprites/foundry_transporters.pcx   290  50   09   20 26   -8 -10
    // metal coil loading
- -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  146  50   09   20 26    -5  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
+ -1 sprites/foundry_transporters.pcx   34  50   01   24 12    -5 -15
+ -1 sprites/foundry_transporters.pcx   66  50   09   20 26   -15  -9
+ -1 sprites/foundry_transporters.pcx   98  50   01   16 36   -16  -8
+ -1 sprites/foundry_transporters.pcx  146  50   09   20 26    -5  -8
+ -1 sprites/foundry_transporters.pcx  178  50   01   24 12    -4 -12
+ -1 sprites/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
+ -1 sprites/foundry_transporters.pcx  242  50   01   16 36   -22  -9
+ -1 sprites/foundry_transporters.pcx   290  50   09   20 26   -8 -10
    // metal coil loaded
- -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  146  50   09   20 26    -5  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
+ -1 sprites/foundry_transporters.pcx   34  50   01   24 12    -5 -15
+ -1 sprites/foundry_transporters.pcx   66  50   09   20 26   -15  -9
+ -1 sprites/foundry_transporters.pcx   98  50   01   16 36   -16  -8
+ -1 sprites/foundry_transporters.pcx  146  50   09   20 26    -5  -8
+ -1 sprites/foundry_transporters.pcx  178  50   01   24 12    -4 -12
+ -1 sprites/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
+ -1 sprites/foundry_transporters.pcx  242  50   01   16 36   -22  -9
+ -1 sprites/foundry_transporters.pcx   290  50   09   20 26   -8 -10
    // metal slab loading
- -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  146  50   09   20 26    -5  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
+ -1 sprites/foundry_transporters.pcx   34  50   01   24 12    -5 -15
+ -1 sprites/foundry_transporters.pcx   66  50   09   20 26   -15  -9
+ -1 sprites/foundry_transporters.pcx   98  50   01   16 36   -16  -8
+ -1 sprites/foundry_transporters.pcx  146  50   09   20 26    -5  -8
+ -1 sprites/foundry_transporters.pcx  178  50   01   24 12    -4 -12
+ -1 sprites/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
+ -1 sprites/foundry_transporters.pcx  242  50   01   16 36   -22  -9
+ -1 sprites/foundry_transporters.pcx   290  50   09   20 26   -8 -10
    // metal slab loaded
- -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  146  50   09   20 26    -5  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters.pcx   34  50   01   24 12    -5 -15
+ -1 sprites/foundry_transporters.pcx   66  50   09   20 26   -15  -9
+ -1 sprites/foundry_transporters.pcx   98  50   01   16 36   -16  -8
+ -1 sprites/foundry_transporters.pcx  146  50   09   20 26    -5  -8
+ -1 sprites/foundry_transporters.pcx  178  50   01   24 12    -4 -12
+ -1 sprites/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
+ -1 sprites/foundry_transporters.pcx  242  50   01   16 36   -22  -9
+ -1 sprites/foundry_transporters.pcx   290  50   09   20 26    -8 -10
    // scrap loading
- -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  146  50   09   20 26    -5  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
+ -1 sprites/foundry_transporters.pcx   34  50   01   24 12    -5 -15
+ -1 sprites/foundry_transporters.pcx   66  50   09   20 26   -15  -9
+ -1 sprites/foundry_transporters.pcx   98  50   01   16 36   -16  -8
+ -1 sprites/foundry_transporters.pcx  146  50   09   20 26    -5  -8
+ -1 sprites/foundry_transporters.pcx  178  50   01   24 12    -4 -12
+ -1 sprites/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
+ -1 sprites/foundry_transporters.pcx  242  50   01   16 36   -22  -9
+ -1 sprites/foundry_transporters.pcx   290  50   09   20 26   -8 -10
   // scrap loaded
- -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  146  50   09   20 26    -5  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
+ -1 sprites/foundry_transporters.pcx   34  50   01   24 12    -5 -15
+ -1 sprites/foundry_transporters.pcx   66  50   09   20 26   -15  -9
+ -1 sprites/foundry_transporters.pcx   98  50   01   16 36   -16  -8
+ -1 sprites/foundry_transporters.pcx  146  50   09   20 26    -5  -8
+ -1 sprites/foundry_transporters.pcx  178  50   01   24 12    -4 -12
+ -1 sprites/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
+ -1 sprites/foundry_transporters.pcx  242  50   01   16 36   -22  -9
+ -1 sprites/foundry_transporters.pcx   290  50   09   20 26   -8 -10
  -1 * 17	 02 01 01
       03 // number loaded states
       03 // number loading states
@@ -338,19 +338,19 @@
  -1 * 35	 04 01 7F 01 C1 "Kander Foundry Transporter" 00
  -1 * 4	 01 01 01 08
   // 
- -1 sprites/foundry_transporters/foundry_transporters.pcx   34  10   01   24 12    -5 -12
- -1 sprites/foundry_transporters/foundry_transporters.pcx   66  10   09   20 26   -17  -8
- -1 sprites/foundry_transporters/foundry_transporters.pcx   98  10   01   16 36   -17  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx  146  10   09   20 26    -8  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx  178  10   01   24 12    -5 -17
- -1 sprites/foundry_transporters/foundry_transporters.pcx  210  10   09   20 26   -16  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx  242  10   01   16 36   -16  -9
- -1 sprites/foundry_transporters/foundry_transporters.pcx  290  10   09   20 26    -6  -9
+ -1 sprites/foundry_transporters.pcx   34  10   01   24 12    -5 -12
+ -1 sprites/foundry_transporters.pcx   66  10   09   20 26   -17  -8
+ -1 sprites/foundry_transporters.pcx   98  10   01   16 36   -17  -9
+ -1 sprites/foundry_transporters.pcx  146  10   09   20 26    -8  -9
+ -1 sprites/foundry_transporters.pcx  178  10   01   24 12    -5 -17
+ -1 sprites/foundry_transporters.pcx  210  10   09   20 26   -16  -9
+ -1 sprites/foundry_transporters.pcx  242  10   01   16 36   -16  -9
+ -1 sprites/foundry_transporters.pcx  290  10   09   20 26    -6  -9
  -1 * 9	 02 01 A1 01 01 00 00 00 00
  -1 * 4	 01 01 01 04 // buy menu sprites
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/foundry_transporters/foundry_transporters.pcx 370 10 01 16 36 -14 -9
+ -1 sprites/foundry_transporters.pcx 370 10 01 16 36 -14 -9
  -1 * 1	 00
  -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
