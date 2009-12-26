@@ -209,7 +209,7 @@
     13 \b0          // power in 10 hp
     14 \b96         // weight in 1/4 tons
     15 \b48         // speed in mph * 0.8
-    16 00 00 00 00  // Bit mask of cargo types available for refitting
+    16 00 02 06 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E value
     17 16           // callback flags bit mask
     18 00           // coefficient of tractive effort (use 0 for trailers)
@@ -312,9 +312,9 @@
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
                  04 // range
                   01 00 09 09 // format: id | cargo
-                  08 00 08 08
-                  0E 00 0E 0E
-                  06 00 19 19
+                  08 00 11 11
+                  0E 00 11 11
+                  06 00 13 13
                  11 00 // default 
  -1 * 7	 03 01 01 12 // Action 3
       00  // Number of different cargo types to support  
@@ -334,21 +334,21 @@
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID
     0F 00             // capacity
-    10 FF             // cargo type 
+    10 09             // cargo type 
     11 5D             // cost factor
     12 19             // sound effect
     13 \b60           // power in 10 hp
     14 \b96           // weight in 1/4 tons
     15 \b24           // speed in mph * 0.8
-    16 40 00 00 28     // Bit mask of cargo types available for refitting
+    16 00 02 06 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 16             // Callback flags bit mask
     18 49             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00             // Refit cost, using 25% of the purchase price cost base
     1B 00             // Retire vehicle early, this many years before the end of phase 2
     1C 02             // Miscellaneous vehicle flags
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
+    1D 00 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
     1F 72 EC 0A 00    // Long format introduction date
  -1 * 35	 04 01 7F 01 C1 "Kander Foundry Transporter" 00
  -1 * 4	 01 01 01 08
