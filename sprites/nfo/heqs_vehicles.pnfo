@@ -348,16 +348,6 @@
   250 sprites/standard_trailers/medium_trailer_tandem.pcx 242 10 01 16 36 -30 -8
   251 sprites/standard_trailers/medium_trailer_tandem.pcx 290 10 09 20 26 -13 -10
   252 * 9	 02 01 03   01 01    00 00    00 00
-  253 * 4	 01 01 01 08
-  254 sprites/heqs2.pcx 770 424 01 18 8 -3 -10
-  255 sprites/heqs2.pcx 2 456 09 16 20 -14 -7
-  256 sprites/heqs2.pcx 34 456 01 12 28 -14 -6
-  257 sprites/heqs2.pcx 82 456 09 16 20 -6 -8
-  258 sprites/heqs2.pcx 114 456 01 18 8 -3 -10
-  259 sprites/heqs2.pcx 130 456 09 16 20 -14 -8
-  260 sprites/heqs2.pcx 162 456 01 12 28 -14 -6
-  261 sprites/heqs2.pcx 210 456 09 16 20 -6 -7
-  262 * 9	 02 01 0C   01 01    00 00    00 00
   // Var action 2 ID schema: B = bulk, C = Covered, F = Flat
   263 * 18	 02 01 AC  // text suffixes
                  81 F2 00 FF //
