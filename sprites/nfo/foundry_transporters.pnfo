@@ -222,7 +222,7 @@
  -1 * 6	 07 83 01 \7! 02 01 // tropic only
  -1 * 7	 00 01 01 01 06 10 08 // copper ore default
  -1 * 35	 04 01 7F 01 12 "[Kander Trailer]" 00
- -1 * 4	 01 01 07 08
+ -1 * 4	 01 01 08 08
    // empty
  -1 sprites/pcx/foundry_transporters.pcx   34  50   01   24 12    -5 -15
  -1 sprites/pcx/foundry_transporters.pcx   66  50   09   20 26   -15  -9
@@ -268,25 +268,34 @@
  -1 sprites/pcx/foundry_transporters.pcx  210  210   09   20 26   -18 -10 
  -1 sprites/pcx/foundry_transporters.pcx  242  210   01   16 36   -22  -9
  -1 sprites/pcx/foundry_transporters.pcx  290  210   09   20 26   -8 -10
-   // scrap loading
- -1 sprites/pcx/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  50   09   20 26    -5  -8
- -1 sprites/pcx/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx   290  50   09   20 26   -8 -10
-  // scrap loaded
- -1 sprites/pcx/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  50   09   20 26    -5  -8
- -1 sprites/pcx/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx   290  50   09   20 26   -8 -10
- -1 * 17	 02 01 01
+   // scrap empty
+ -1 sprites/pcx/foundry_transporters.pcx   34  250   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  250   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  250   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  250   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  250   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  250   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  250   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  250   09   20 26   -8 -10
+  // scrap loading
+ -1 sprites/pcx/foundry_transporters.pcx   34  290   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  290   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  290   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  290   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  290   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  290   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  290   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  290   09   20 26   -8 -10
+   // scrap loaded
+ -1 sprites/pcx/foundry_transporters.pcx   34  330   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  330   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  330   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  330   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  330   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  330   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  330   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  330   09   20 26   -8 -10
+  -1 * 17	 02 01 01
       04 // number loaded states
       04 // number loading states
       00 00  01 00  02 00  04 00 // loaded sprites
@@ -294,16 +303,12 @@
  -1 * 17	 02 01 02
       03 // number loaded states
       03 // number loading states
-      00 00  05 00  06 00 // loaded sprites
-      00 00  05 00  06 00 // loading sprites     
- -1 * 26	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
-                 81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 01 // range
-                  02 00 13 13 // format: id | cargo
-                 01 00 // default 
+      05 00  06 00  07 00 // loaded sprites
+      05 00  06 00  07 00 // loading sprites     
  -1 * 7	 03 01 01 12 // Action 3
-      00  // Number of different cargo types to support  
-      CD 00 // default
+      01  // Number of different cargo types to support
+        12 02 00 
+      01 00 // default
 
 
   // Kander front section
