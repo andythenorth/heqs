@@ -35,37 +35,37 @@
                                00
  1728 * 4	 01 01 03 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
- 1729 sprites/tractors/tractors.pcx 34  210 01 24 12 -5  -15
- 1730 sprites/tractors/tractors.pcx 66  210 01 20 26 -17 -9
- 1731 sprites/tractors/tractors.pcx 98  210 01 16 36 -14 -9
- 1732 sprites/tractors/tractors.pcx 146 210 01 20 26 -9  -10
- 1733 sprites/tractors/tractors.pcx 178 210 01 24 12 -5  -13
- 1734 sprites/tractors/tractors.pcx 210 210 01 20 26 -17 -9
- 1735 sprites/tractors/tractors.pcx 242 210 01 16 36 -31 -8
- 1736 sprites/tractors/tractors.pcx 290 210 01 20 26 -10 -10
+ 1729 sprites/tractors.pcx 34  210 01 24 12 -5  -15
+ 1730 sprites/tractors.pcx 66  210 01 20 26 -17 -9
+ 1731 sprites/tractors.pcx 98  210 01 16 36 -14 -9
+ 1732 sprites/tractors.pcx 146 210 01 20 26 -9  -10
+ 1733 sprites/tractors.pcx 178 210 01 24 12 -5  -13
+ 1734 sprites/tractors.pcx 210 210 01 20 26 -17 -9
+ 1735 sprites/tractors.pcx 242 210 01 16 36 -31 -8
+ 1736 sprites/tractors.pcx 290 210 01 20 26 -10 -10
   // 2nd company colour
- 1737 sprites/tractors/tractors.pcx 34  250 01 24 12 -5  -15
- 1738 sprites/tractors/tractors.pcx 66  250 01 20 26 -17 -9
- 1739 sprites/tractors/tractors.pcx 98  250 01 16 36 -14 -9
- 1740 sprites/tractors/tractors.pcx 146 250 01 20 26 -9  -10
- 1741 sprites/tractors/tractors.pcx 178 250 01 24 12 -5  -13
- 1742 sprites/tractors/tractors.pcx 210 250 01 20 26 -17 -9
- 1743 sprites/tractors/tractors.pcx 242 250 01 16 36 -31 -8
- 1744 sprites/tractors/tractors.pcx 290 250 01 20 26 -10 -10
+ 1737 sprites/tractors.pcx 34  250 01 24 12 -5  -15
+ 1738 sprites/tractors.pcx 66  250 01 20 26 -17 -9
+ 1739 sprites/tractors.pcx 98  250 01 16 36 -14 -9
+ 1740 sprites/tractors.pcx 146 250 01 20 26 -9  -10
+ 1741 sprites/tractors.pcx 178 250 01 24 12 -5  -13
+ 1742 sprites/tractors.pcx 210 250 01 20 26 -17 -9
+ 1743 sprites/tractors.pcx 242 250 01 16 36 -31 -8
+ 1744 sprites/tractors.pcx 290 250 01 20 26 -10 -10
   // white
- 1745 sprites/tractors/tractors.pcx 34  290 01 24 12 -5  -15
- 1746 sprites/tractors/tractors.pcx 66  290 01 20 26 -17 -9
- 1747 sprites/tractors/tractors.pcx 98  290 01 16 36 -14 -9
- 1748 sprites/tractors/tractors.pcx 146 290 01 20 26 -9  -10
- 1749 sprites/tractors/tractors.pcx 178 290 01 24 12 -5  -13
- 1750 sprites/tractors/tractors.pcx 210 290 01 20 26 -17 -9
- 1751 sprites/tractors/tractors.pcx 242 290 01 16 36 -31 -8
- 1752 sprites/tractors/tractors.pcx 290 290 01 20 26 -10 -10
+ 1745 sprites/tractors.pcx 34  290 01 24 12 -5  -15
+ 1746 sprites/tractors.pcx 66  290 01 20 26 -17 -9
+ 1747 sprites/tractors.pcx 98  290 01 16 36 -14 -9
+ 1748 sprites/tractors.pcx 146 290 01 20 26 -9  -10
+ 1749 sprites/tractors.pcx 178 290 01 24 12 -5  -13
+ 1750 sprites/tractors.pcx 210 290 01 20 26 -17 -9
+ 1751 sprites/tractors.pcx 242 290 01 16 36 -31 -8
+ 1752 sprites/tractors.pcx 290 290 01 20 26 -10 -10
  1753 * 9	 02 01 A1 01 01 00 00 00 00
  1754 * 9	 02 01 A2 01 01 01 00 01 00
  1755 * 9	 02 01 A3 01 01 02 00 02 00
  1756 * 4	 01 01 01 01
- 1757 sprites/tractors/tractors.pcx 370 250 01 16 36 -14 -8
+ 1757 sprites/tractors.pcx 370 250 01 16 36 -14 -8
  1758 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
@@ -136,19 +136,19 @@
  1767 * 44	 04 01 81 01 B1 D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "1990" 00 
  1768 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
- 1769 sprites/tractors/tractors.pcx 34  330 01 24 12 -5  -15
- 1770 sprites/tractors/tractors.pcx 66  330 01 20 26 -17 -9
- 1771 sprites/tractors/tractors.pcx 98  330 01 16 36 -14 -9
- 1772 sprites/tractors/tractors.pcx 146 330 01 20 26 -9  -10
- 1773 sprites/tractors/tractors.pcx 178 330 01 24 12 -5  -13
- 1774 sprites/tractors/tractors.pcx 210 330 01 20 26 -17 -9
- 1775 sprites/tractors/tractors.pcx 242 330 01 16 36 -31 -8
- 1776 sprites/tractors/tractors.pcx 290 330 01 20 26 -10 -10
+ 1769 sprites/tractors.pcx 34  330 01 24 12 -5  -15
+ 1770 sprites/tractors.pcx 66  330 01 20 26 -17 -9
+ 1771 sprites/tractors.pcx 98  330 01 16 36 -14 -9
+ 1772 sprites/tractors.pcx 146 330 01 20 26 -9  -10
+ 1773 sprites/tractors.pcx 178 330 01 24 12 -5  -13
+ 1774 sprites/tractors.pcx 210 330 01 20 26 -17 -9
+ 1775 sprites/tractors.pcx 242 330 01 16 36 -31 -8
+ 1776 sprites/tractors.pcx 290 330 01 20 26 -10 -10
  1777 * 9	 02 01 A0 01 01 00 00 00 00
  1778 * 4	 01 01 01 04
  1779 * 1	 00
  1780 * 1	 00
- 1781 sprites/tractors/tractors.pcx 370 330 01 16 36 -14 -8
+ 1781 sprites/tractors.pcx 370 330 01 16 36 -14 -8
  1782 * 1	 00
  1783 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
@@ -210,17 +210,17 @@
  1791 * 44	 04 01 81 01 B2 D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "2005" 00 
  1792 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
- 1793 sprites/tractors/tractors.pcx 34  370 01 24 12 -5  -15
- 1794 sprites/tractors/tractors.pcx 66  370 01 20 26 -17 -9
- 1795 sprites/tractors/tractors.pcx 98  370 01 16 36 -14 -9
- 1796 sprites/tractors/tractors.pcx 146 370 01 20 26 -9  -10
- 1797 sprites/tractors/tractors.pcx 178 370 01 24 12 -5  -13
- 1798 sprites/tractors/tractors.pcx 210 370 01 20 26 -17 -9
- 1799 sprites/tractors/tractors.pcx 242 370 01 16 36 -30 -8
- 1800 sprites/tractors/tractors.pcx 290 370 01 20 26 -10 -10
+ 1793 sprites/tractors.pcx 34  370 01 24 12 -5  -15
+ 1794 sprites/tractors.pcx 66  370 01 20 26 -17 -9
+ 1795 sprites/tractors.pcx 98  370 01 16 36 -14 -9
+ 1796 sprites/tractors.pcx 146 370 01 20 26 -9  -10
+ 1797 sprites/tractors.pcx 178 370 01 24 12 -5  -13
+ 1798 sprites/tractors.pcx 210 370 01 20 26 -17 -9
+ 1799 sprites/tractors.pcx 242 370 01 16 36 -30 -8
+ 1800 sprites/tractors.pcx 290 370 01 20 26 -10 -10
  1801 * 9	 02 01 A0 01 01 00 00 00 00
  1802 * 4	 01 01 01 01
- 1803 sprites/tractors/tractors.pcx 370 370 01 16 36 -14 -8
+ 1803 sprites/tractors.pcx 370 370 01 16 36 -14 -8
  1804 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
