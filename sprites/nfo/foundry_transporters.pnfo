@@ -191,7 +191,7 @@
 
   // -------------- Kander Foundry Transporter --------------- //
    // Kander rear section 
- -1 * 67	 00 01 19 01 12 // Vehicle ID has to be less than 128 for articulated trailers
+ -1 * 67	 00 01 1A 01 12 // Vehicle ID has to be less than 128 for articulated trailers
     00 \w1-1-1920   // intro date
     02 20           // reliability decay speed decay speed
     03 \b35         // vehicle life
@@ -203,21 +203,21 @@
     0A 48 4C 00 00  // running cost base 
     0E FF           // sprite ID
     0F \b120        // capacity
-    10 FF           // cargo type
+    10 09           // cargo type
     11 34           // cost factor
     12 17           // sound effect
     13 \b0          // power in 10 hp
     14 \b96         // weight in 1/4 tons
     15 \b48         // speed in mph * 0.8
-    16 40 00 00 28  // Bit mask of cargo types available for refitting
-    // flips 1D / 1E values: excludes grain, wheat, maize
+    16 00 00 00 00  // Bit mask of cargo types available for refitting
+    // flips 1D / 1E value
     17 16           // callback flags bit mask
     18 00           // coefficient of tractive effort (use 0 for trailers)
     1A 00           // refit cost, using 25% of the purchase price cost base
     1B 00           // retire vehicle early, this many years before the end of phase 2
     1C 02           // miscellaneous vehicle flags
-    1D 10 00        // refittable cargo classes
-    1E EF 03        // non-refittable cargo classes
+    1D 00 00        // refittable cargo classes
+    1E 00 00        // non-refittable cargo classes
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 6	 07 83 01 \7! 02 01 // tropic only
  -1 * 7	 00 01 01 01 06 10 08 // copper ore default
@@ -231,7 +231,7 @@
  -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
  -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
  -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- - sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
    // loading
  -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
  -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
@@ -240,7 +240,7 @@
  -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
  -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
  -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- - sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
    // loaded
  -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
  -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
@@ -249,7 +249,7 @@
  -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
  -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
  -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- - sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
    // loading
  -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
  -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
@@ -258,7 +258,7 @@
  -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
  -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
  -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- - sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
    // loaded
  -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
  -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
@@ -267,7 +267,7 @@
  -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
  -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
  -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- - sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
    // loading
  -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
  -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
@@ -276,7 +276,7 @@
  -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
  -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
  -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- - sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
   // loaded
  -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
  -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
@@ -285,7 +285,7 @@
  -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
  -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
  -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- - sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
   // loading
  -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
  -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
@@ -294,7 +294,7 @@
  -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
  -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
  -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- - sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
   // loaded
  -1 sprites/foundry_transporters/foundry_transporters.pcx   34  50   01   24 12    -5 -15
  -1 sprites/foundry_transporters/foundry_transporters.pcx   66  50   09   20 26   -15  -9
@@ -303,7 +303,7 @@
  -1 sprites/foundry_transporters/foundry_transporters.pcx  178  50   01   24 12    -4 -12
  -1 sprites/foundry_transporters/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
  -1 sprites/foundry_transporters/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- - sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26    -8 -10
+ -1 sprites/foundry_transporters/foundry_transporters.pcx   290  50   09   20 26   -8 -10
  -1 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // 
  -1 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // 
  -1 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // 
@@ -311,7 +311,7 @@
  -1 * 26	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
                  04 // range
-                  01 00 01 01 // format: id | cargo
+                  01 00 09 09 // format: id | cargo
                   08 00 08 08
                   0E 00 0E 0E
                   06 00 19 19
