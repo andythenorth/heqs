@@ -209,7 +209,7 @@
     13 \b0          // power in 10 hp
     14 \b96         // weight in 1/4 tons
     15 \b48         // speed in mph * 0.8
-    16 00 02 06 00    // Bit mask of cargo types available for refitting
+    16 00 02 30 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E value
     17 16           // callback flags bit mask
     18 00           // coefficient of tractive effort (use 0 for trailers)
@@ -307,7 +307,7 @@
       05 00  06 00  07 00 // loading sprites     
  -1 * 7	 03 01 01 12 // Action 3
       01  // Number of different cargo types to support
-        12 02 00 
+        15 02 00 
       01 00 // default
 
 
@@ -319,7 +319,7 @@
     04 19             // class life
     06 0F             // climate availability - use 0F for all, 00 none (to hide vehicle)
     07 05             // load amount
-    08 \b77          // speed in mph * 3.2
+    08 \b77           // speed in mph * 3.2
     09 50             // running cost factor
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID
@@ -330,7 +330,7 @@
     13 \b55           // power in 10 hp
     14 \b96           // weight in 1/4 tons
     15 \b19           // speed in mph * 0.8
-    16 00 02 06 00    // Bit mask of cargo types available for refitting
+    16 00 02 30 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 16             // Callback flags bit mask
     18 49             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
@@ -340,7 +340,9 @@
     1D 00 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
     1F 72 EC 0A 00    // Long format introduction date
- -1 * 35	 04 01 7F 01 C1 "Kander Foundry Transporter" 00
+-1 * 9Ê Ê 07 83 04 \7C "STEL" 01Ê // skip 1 if cargo is defined
+-1 * 7Ê Ê 00 01 01 01 C1  06 00Ê Ê // deactivate vehicle (climate = 0)
+-1 * 35	 04 01 7F 01 C1 "Kander Foundry Transporter" 00
  -1 * 4	 01 01 01 08
   // 
  -1 sprites/pcx/foundry_transporters.pcx   34  10   01   24 12    -5 -12
