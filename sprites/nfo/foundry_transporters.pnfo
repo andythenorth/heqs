@@ -324,7 +324,7 @@
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID
     0F 00             // capacity
-    10 09             // cargo type 
+    10 FF             // cargo type 
     11 5D             // cost factor
     12 19             // sound effect
     13 \b55           // power in 10 hp
