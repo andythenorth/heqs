@@ -5,12 +5,12 @@
     03 \b30           // vehicle life
     04 \b99             // class life
     06 0F             // climate availability - use 0F for all, 00 none (to hide vehicle)
-    07 05             // load amount
+    07 30             // load amount
     08 \b70          // speed in mph * 3.2
     09 50             // running cost factor
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID
-    0F \b75           // capacity
+    0F \b55           // capacity
     10 FF             // cargo type 
     11 5D             // cost factor
     12 19             // sound effect
@@ -125,12 +125,12 @@
     03 \b35         // vehicle life
     04 \b99           // class life
     06 00           // climate availability - use 0F for all, 00 none (to hide vehicle)
-    07 05           // load amount 
+    07 30           // load amount 
     08 80           // speed in mph * 3.2
     09 1E           // running cost factor 
     0A 48 4C 00 00  // running cost base 
     0E FF           // sprite ID
-    0F \b120        // capacity
+    0F \b95        // capacity
     10 09           // cargo type
     11 34           // cost factor
     12 17           // sound effect
@@ -246,7 +246,7 @@
     03 \b40           // vehicle life
     04 19             // class life
     06 0F             // climate availability - use 0F for all, 00 none (to hide vehicle)
-    07 05             // load amount
+    07 30             // load amount
     08 \b77           // speed in mph * 3.2
     09 50             // running cost factor
     0A 48 4C 00 00    // running cost base
