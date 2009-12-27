@@ -5,8 +5,9 @@
     1 * 128	 08 06 {{GRF_ID}} "{{GRF_TITLE}}" 00 "Heavy equipment Set"
 	 "in dual company colours."
 	 "Brought to you by"
-	 "andythenorth and Richard Wheeler (Zephyris)"
-	 "2008" 00
+	 "andythenorth and Richard Wheeler (Zephyris) 2008. "
+	 "Additional graphics by Dan MacK "
+	 " " 00
 
     1 * 134	 00 08 01 20 00 09 // Cargo translation table
       "PASS" "COAL" "MAIL" "OIL_"     // 00 - 03, 01 - 08
