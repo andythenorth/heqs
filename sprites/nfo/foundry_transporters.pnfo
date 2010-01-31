@@ -238,7 +238,7 @@
     04 19             // class life
     06 0F             // climate availability - use 0F for all, 00 none (to hide vehicle)
     07 30             // load amount
-    08 \b77           // speed in mph * 3.2
+    08 \b64           // speed in mph * 3.2
     09 50             // running cost factor
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID
@@ -248,7 +248,7 @@
     12 19             // sound effect
     13 \b55           // power in 10 hp
     14 \b96           // weight in 1/4 tons
-    15 \b19           // speed in mph * 0.8
+    15 \b16           // speed in mph * 0.8
     16 00 02 30 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 16             // Callback flags bit mask
