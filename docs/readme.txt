@@ -17,6 +17,12 @@ Repository version: {{GRF_REVISION}}
 
 Changelog
 
+*version 0.6*
+Added Grindelwald Foundry Transporter (available 1972).
+Added Kander Foundry Transporter (available 1967).
+Cargo table support for FIRS cargos ALUM and SCRP. 
+Many internal changes to layout of sprite files.
+
 *version 0.5e*
 Added Wolfpen Ridge Dump Truck - (available 2005)
 Added flashing amber beacons to more vehicles.
