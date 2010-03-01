@@ -1,7 +1,7 @@
-sprites/nfo/heqs_header.pnfo
-sprites/nfo/heqs_vehicles.pnfo
-sprites/nfo/bulldozers.pnfo
-sprites/nfo/logging_trucks.pnfo
-sprites/nfo/mining_trucks.pnfo
-sprites/nfo/tractors.pnfo
-sprites/nfo/foundry_transporters.pnfo
+#include "sprites/nfo/heqs_header.pnfo"
+#include "sprites/nfo/heqs_vehicles.pnfo"
+#include "sprites/nfo/bulldozers.pnfo"
+#include "sprites/nfo/logging_trucks.pnfo"
+#include "sprites/nfo/mining_trucks.pnfo"
+#include "sprites/nfo/tractors.pnfo"
+#include "sprites/nfo/foundry_transporters.pnfo"
