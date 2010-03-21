@@ -17,7 +17,7 @@
       11 00     // cost factor
       12 00     // sound effect
       13 \b00   // power in 10 hp
-      14 \b01   // weight in 1/4 tons
+      14 \b00   // weight in 1/4 tons
       15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 02     // callback flags bit mask
