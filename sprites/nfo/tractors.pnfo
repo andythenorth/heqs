@@ -113,7 +113,7 @@
     04 \b30   // class life 
     06 0F     // climate 
     07 05     // load amount 
-    08 \b160  // speed in mph * 3.2
+    08 \b128  // speed in mph * 3.2
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
@@ -123,7 +123,7 @@
     12 17     // sound effect
     13 \b14   // power in 10 hp
     14 \b28   // weight in 1/4 tons
-    15 \b40   // speed in mph * 0.8
+    15 \b32   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 16     // callback flags bit mask
     1A 00     // refit cost, using 25% of the purchase price cost base
