@@ -1,5 +1,123 @@
   // ----------------- Industrial Trams -----------//      
 
+   // Industrial Tram Wagon Small
+ -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
+    00 \w1-1-1920   // intro date (min value: 1-1-1920)
+    02 20           // reliability decay speed decay speed
+    03 \b35         // vehicle life
+    04 \b99           // class life
+    06 00           // climate availability - use 0F for all, 00 none (to hide vehicle)
+    07 30           // load amount 
+    08 80           // speed in mph * 3.2
+    09 1E           // running cost factor 
+    0A 48 4C 00 00  // running cost base 
+    0E FF           // sprite ID
+    0F \b95        // capacity
+    10 09           // cargo type
+    11 34           // cost factor
+    12 17           // sound effect
+    13 \b0          // power in 10 hp
+    14 \b96         // weight in 1/4 tons
+    15 \b48         // speed in mph * 0.8
+    16 00 02 30 00    // Bit mask of cargo types available for refitting
+    // flips 1D / 1E value
+    17 16           // callback flags bit mask
+    18 00           // coefficient of tractive effort (use 0 for trailers)
+    1A 00           // refit cost, using 25% of the purchase price cost base
+    1B 00           // retire vehicle early, this many years before the end of phase 2
+    1C 02           // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D 00 00        // refittable cargo classes
+    1E 00 00        // non-refittable cargo classes
+    1F 60 B3 0A 00  // long format introduction date  
+ -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_1 "[Tram Wagon 1]" 00
+ -1 * 4	 01 01 08 08
+   // empty
+ -1 sprites/pcx/foundry_transporters.pcx   34  50   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  50   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  50   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  50   09   20 26    -7  -9
+ -1 sprites/pcx/foundry_transporters.pcx  178  50   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  50   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  50   09   20 26   -8 -10
+   // metal slab loading 1
+ -1 sprites/pcx/foundry_transporters.pcx   34  90   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  90   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  90   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  90   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  90   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  90   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  90   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  90   09   20 26   -8 -10
+   // metal slab loading 2
+ -1 sprites/pcx/foundry_transporters.pcx   34  130   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  130   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  130   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  130   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  130   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  130   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  130   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  130   09   20 26   -8 -10
+   // metal slab loading 3
+ -1 sprites/pcx/foundry_transporters.pcx   34  170   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  170   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  170   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  170   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  170   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  170   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  170   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  170   09   20 26   -8 -10
+   // metal slab loaded
+ -1 sprites/pcx/foundry_transporters.pcx   34  210   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  210   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  210   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  210   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  210   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  210   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  210   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  210   09   20 26   -8 -10
+   // scrap empty
+ -1 sprites/pcx/foundry_transporters.pcx   34  250   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  250   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  250   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  250   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  250   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  250   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  250   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  250   09   20 26   -8 -10
+  // scrap loading
+ -1 sprites/pcx/foundry_transporters.pcx   34  290   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  290   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  290   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  290   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  290   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  290   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  290   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  290   09   20 26   -8 -10
+   // scrap loaded
+ -1 sprites/pcx/foundry_transporters.pcx   34  330   01   24 12    -5 -15
+ -1 sprites/pcx/foundry_transporters.pcx   66  330   09   20 26   -15  -9
+ -1 sprites/pcx/foundry_transporters.pcx   98  330   01   16 36   -16  -8
+ -1 sprites/pcx/foundry_transporters.pcx  146  330   09   20 26    -5  -8
+ -1 sprites/pcx/foundry_transporters.pcx  178  330   01   24 12    -4 -12
+ -1 sprites/pcx/foundry_transporters.pcx  210  330   09   20 26   -18 -10 
+ -1 sprites/pcx/foundry_transporters.pcx  242  330   01   16 36   -22  -9
+ -1 sprites/pcx/foundry_transporters.pcx  290  330   09   20 26   -8 -10
+  -1 * 17	 02 01 01
+      04 // number loaded states
+      04 // number loading states
+      00 00  01 00  02 00  04 00 // loaded sprites
+      00 00  01 00  02 00  03 00 // loading sprites     
+ -1 * 17	 02 01 02
+      03 // number loaded states
+      03 // number loading states
+      05 00  06 00  07 00 // loaded sprites
+      05 00  06 00  07 00 // loading sprites     
+ -1 * 7	 03 01 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Action 3
+      01  // Number of different cargo types to support
+        15 02 00 
+      01 00 // default
+
   // Industrial Tram 1
  -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_1
     00 \w1-1-1920  // intro date (min value: 1-1-1920) (min value: 1920) 
@@ -171,11 +289,11 @@
  -1 * 30	 02 01 B5 // choose trailers by date
            81 01 00  FF // check current year
            05 // range
-             72 80 \b00 \b34 // before 1955
-             72 80 \b35 \b48 // before 1969
-             72 80 \b49 \b59 // before 1980
-             72 80 \b60 \b72 // before 1993
-             72 80 \b73 \b88 // before 2009
+             VEH_INDUSTRIAL_TRAM_WAGON_1 80 \b00 \b34 // before 1955
+             VEH_INDUSTRIAL_TRAM_WAGON_1 80 \b35 \b48 // before 1969
+             VEH_INDUSTRIAL_TRAM_WAGON_1 80 \b49 \b59 // before 1980
+             VEH_INDUSTRIAL_TRAM_WAGON_1 80 \b60 \b72 // before 1993
+             VEH_INDUSTRIAL_TRAM_WAGON_1 80 \b73 \b88 // before 2009
            73 80 // default      
  -1 * 14	 02 01 B7 //
            81 C4 00 FF // check date vehicle built
