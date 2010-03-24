@@ -26,7 +26,7 @@
     1A 00           // refit cost, using 25% of the purchase price cost base
     1B 00           // retire vehicle early, this many years before the end of phase 2
     1C 02           // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00        // refittable cargo classes
+    1D FF FF        // refittable cargo classes
     1E 00 00        // non-refittable cargo classes
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_1 "[Tram Wagon 1]" 00
@@ -113,10 +113,33 @@
       03 // number loading states
       05 00  06 00  07 00 // loaded sprites
       05 00  06 00  07 00 // loading sprites     
+      
+  -1 * 70	 02 01 CD  // choose wheeled trailer sprites according to cargo slot (in cargo translation tt)
+                 81 47 00 FF // var 47 in format ccccwwtt where I want tt 
+                 01 // range
+                  01 00 01 01 // coal
+                 01 00 // default 
+  -1 * 18	 02 01 CC  // set refit text strings
+                 81 F2 00 FF //
+                 02 // range
+                  00 80 00 00 
+                  01 80 01 01 
+                 FF 80 // end callback chain
+  -1 * 18	 02 01 CB  // choose sprites according to refit
+                 81 F2 00 FF //
+                 02 // range
+                  CD 00 00 00 // wheeled trailers 
+                  CE 00 01 01 // sleds
+                 05 00 // default 
+  -1 * 18	 02 01 C0  // handle callbacks
+                 81 0C 00 FF //
+                 02 // range
+                  07 80 11 11 // vehicle length CB
+                  CC 00 19 19 // text suffix CB 
+                 CD 00 // graphics           
  -1 * 7	 03 01 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Action 3
-      01  // Number of different cargo types to support
-        15 02 00 
-      01 00 // default
+    00 // Number of cargo types 
+	  C0 00 // default
 
   // Industrial Tram 1
  -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_1
