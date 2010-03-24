@@ -4,20 +4,20 @@
  -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
     00 \w1-1-1920   // intro date (min value: 1-1-1920)
     02 20           // reliability decay speed decay speed
-    03 \b35         // vehicle life
-    04 \b99           // class life
+    03 \b00         // vehicle life
+    04 \b00         // class life
     06 00           // climate availability - use 0F for all, 00 none (to hide vehicle)
     07 10           // load amount 
     08 80           // speed in mph * 3.2
     09 1E           // running cost factor 
     0A 48 4C 00 00  // running cost base 
     0E FF           // sprite ID
-    0F \b95        // capacity
+    0F \b5          // capacity
     10 01           // cargo type
     11 34           // cost factor
     12 17           // sound effect
     13 \b0          // power in 10 hp
-    14 \b0         // weight in 1/4 tons
+    14 \b0          // weight in 1/4 tons
     15 \b00         // speed in mph * 0.8
     16 00 00 00 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E value
