@@ -1,7 +1,7 @@
   //--------------------- Wheeled Tractors ----------------------//
 
   // Fourtrac	Wheeled Tractor (high speed)
- 1725 * 67	 00 01 19 01 80 
+ 1725 * 67	 00 01 \b25 01 VEH_TRACTOR_FOURTRAC 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b30   // vehicle life 
@@ -27,7 +27,7 @@
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
     1F \d720000    // Long format introduction date  
- 1726 * 14	 04 01 7F 01 80 "Fourtrac" 00
+ 1726 * 14	 04 01 7F 01 VEH_TRACTOR_FOURTRAC "Fourtrac" 00
  1727 * 92	 04 01 81 01 B0 D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "1972"
                                0d 98 0d 98 "Variations: " 98 "Livery depends on cargo refit" 
@@ -98,10 +98,7 @@
                01 //check one range
                 B1 00 16 16 // articulated vehicle CB
                B3 00 //otherwise go to next action 2 ID 
- 1764 * 7	 03   // Action 3
-    01  // RV 
-    01  // Number of vehicles this action associate graphics with 
-    80  // Vehicle ID
+ 1764 * 7	 03 01 01 VEH_TRACTOR_FOURTRAC // Action 3
     00  // Number of different cargo types to support
     B0 00   // default Action 2 ID 
 
