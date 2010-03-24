@@ -24,7 +24,7 @@
     18 9F     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
+    1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03       // Refittable cargo classes
     1E 01 00       // Non-refittable cargo classes
     1F \d694995    // Long format introduction date  
@@ -171,10 +171,10 @@
  -1 * 30	 02 01 B5 // choose trailers by date
            81 01 00  FF // check current year
            05 // range
-             6E 80 \b00 \b34 // before 1955
-             6F 80 \b35 \b48 // before 1969
-             70 80 \b49 \b59 // before 1980
-             71 80 \b60 \b72 // before 1993
+             72 80 \b00 \b34 // before 1955
+             72 80 \b35 \b48 // before 1969
+             72 80 \b49 \b59 // before 1980
+             72 80 \b60 \b72 // before 1993
              72 80 \b73 \b88 // before 2009
            73 80 // default      
  -1 * 14	 02 01 B7 //
@@ -195,10 +195,8 @@
             B7 00 // apply vehicle graphics
  -1 * 22	 02 01 B0 //
                  81 10 00 FF // Articulated vehicle building instructions
-                 03 // range
-                  B5 00 01 01 // 
-                  B5 00 02 02 // 
-                  B5 00 03 03 // 
+                 01 // range
+                  B5 00 \b01 \b15 // 
                  FF FF //otherwise end the callback chain
  -1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
@@ -208,7 +206,7 @@
  -1 * 18	 02 01 B1 // 
                  81 0C 00 FF // handle callbacks
                  02 //check one range
-                  01 80 11 11 // vehicle length CB
+                  07 80 11 11 // vehicle length CB
                   B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                  B6 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
  -1 * 7	 03   // Action 3

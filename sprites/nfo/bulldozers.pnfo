@@ -24,7 +24,7 @@
     18 9F     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
     1F A1 CB 0A 00    // Long format introduction date  
@@ -244,7 +244,7 @@
     18 9F     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
     1F A1 CB 0A 00    // Long format introduction date  
@@ -461,7 +461,7 @@
     18 9F     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03  // Refittable cargo classes
     1E 01 00  // Non-refittable cargo classes
     1F \d708300    // Long format introduction date  
@@ -801,7 +801,7 @@
     18 9F     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00  // Refittable cargo classes
     1E 00 00  // Non-refittable cargo classes
     1F \d708300    // Long format introduction date  
@@ -996,7 +996,7 @@
     18 9F     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
     1F \d719165    // Long format introduction date  
@@ -1277,7 +1277,7 @@
     18 9F  // coefficient of TE
     1A 00     // refit cost, using 25% of the purchase price cost base
     1B 00     // retire vehicle early, this many years before the end of phase 2
-    1C 02     // miscellaneous vehicle flags
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00          // refittable cargo classes
     1E 00 00          // non-refittable cargo classes
     1F AE FA 0A 00    // long format introduction date  
@@ -1442,7 +1442,7 @@
     18 BD     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03  // Refittable cargo classes
     1E 01 00  // Non-refittable cargo classes
     1F \d729770    // Long format introduction date    
@@ -1519,7 +1519,7 @@
       18 9A     // coefficient of TE
       1A 00     // Refit cost, using 25% of the purchase price cost base
       1B 00     // Retire vehicle early, this many years before the end of phase 2
-      1C 02     // Miscellaneous vehicle flags     
+      1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC     
       1D FF 03  // Refittable cargo classes 
       1E 01 00  // Non-refittable cargo classes
       1F \d0    // Long format introduction date     
