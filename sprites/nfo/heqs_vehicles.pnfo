@@ -54,7 +54,7 @@
 
    // Medium Trailers
 
-   16 * 67	 00 01 19 01 00
+   16 * 67	 00 01 \b25 01 00
       00 00 00  // intro date
       02 20     // reliability
       03 19     // vehicle life
@@ -63,7 +63,7 @@
       07 05     // load amount
       08 E0     // speed in mph * 3.2
       09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0A 48 4C 00 00    // running cost base
       0E FF     // sprite ID
       0F \b19     // capacity
       10 06     // cargo type
@@ -504,7 +504,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-  271 * 67	 00 01 19 01 72
+  271 * 67	 00 01 \b25 01 72
       00 00 00  // intro date
       02 20     // reliability
       03 19     // vehicle life
@@ -513,7 +513,7 @@
       07 05     // load amount
       08 E0     // speed in mph * 3.2
       09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0A 48 4C 00 00    // running cost base
       0E FF     // sprite ID
       0F \b19   // capacity
       10 06     // cargo type
@@ -530,7 +530,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-  272 * 67	 00 01 19 01 73
+  272 * 67	 00 01 \b25 01 73
       00 00 00  // intro date
       02 20     // reliability
       03 19     // vehicle life
@@ -539,7 +539,7 @@
       07 05     // load amount
       08 E0     // speed in mph * 3.2
       09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0A 48 4C 00 00    // running cost base
       0E FF     // sprite ID
       0F \b22   // capacity
       10 06     // cargo type
@@ -1910,7 +1910,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
- 1131 * 67	 00 01 19 01 78
+ 1131 * 67	 00 01 \b25 01 78
       00 00 00  // intro date
       02 20     // reliability
       03 19     // vehicle life
@@ -1919,7 +1919,7 @@
       07 05     // load amount
       08 E0     // speed in mph * 3.2
       09 08     // running cost factor
-      0A 48 4C 00 00 13 00 14 20    // running cost base
+      0A 48 4C 00 00    // running cost base
       0E FF     // sprite ID
       0F \b24   // capacity
       10 06     // cargo type
