@@ -259,8 +259,6 @@
     1D 00 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
     1F \d718359    // Long format introduction date
- -1 * 9Ê Ê 07 83 04 \7C "STEL" 01Ê // skip 1 if cargo is defined
- -1 * 7Ê Ê 00 01 \b01 01 C1  06 00Ê Ê // deactivate vehicle (climate = 0)
  -1 * 35	 04 01 7F 01 C1 "Kander Foundry Transporter" 00
  -1 * 4	 01 01 01 08
   // 
