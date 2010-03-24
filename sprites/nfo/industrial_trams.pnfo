@@ -21,7 +21,7 @@
     15 \b00         // speed in mph * 0.8
     16 00 00 00 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E value
-    17 16           // callback flags bit mask
+    17 22           // callback flags bit mask
     18 00           // coefficient of tractive effort (use 0 for trailers)
     1A 00           // refit cost, using 25% of the purchase price cost base
     1B 00           // retire vehicle early, this many years before the end of phase 2
@@ -30,6 +30,10 @@
     1E 01 00        // non-refittable cargo classes
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_1 "[Tram Wagon 1]" 00
+ -1 * 33	 04 00 81 03 00 D0
+            		" 16t  (4 wagons)" 00	// D000
+               	" 36t  (9 wagons)" 00	// D001
+               	" 60t  (15 wagons)" 00	// D002
  -1 * 4	 01 01 08 08
    // empty
  -1 sprites/pcx/foundry_transporters.pcx   34  50   01   24 12    -5 -15
@@ -121,9 +125,10 @@
                  01 00 // default 
   -1 * 18	 02 01 CC  // set refit text strings
                  81 F2 00 FF //
-                 02 // range
+                 03 // range
                   00 80 00 00 
                   01 80 01 01 
+                  02 80 02 02 
                  FF 80 // end callback chain
   -1 * 18	 02 01 CB  // choose sprites according to refit
                  81 F2 00 FF //
