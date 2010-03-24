@@ -4,6 +4,9 @@
     -1 * 4	 76 0B 00 00
     
 // disable the warning:for newgrfs
+// warning about Default ID appears earlier in sprite.
+//@@WARNING DISABLE 100
+
 // warning about high IDs
 //@@WARNING DISABLE 141
 
