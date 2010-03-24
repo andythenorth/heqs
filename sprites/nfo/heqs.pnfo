@@ -1,4 +1,6 @@
 #include "sprites/nfo/heqs_header.pnfo"
+#include "sprites/nfo/ids.pnfo"
+
 #include "sprites/nfo/heqs_vehicles.pnfo"
 #include "sprites/nfo/bulldozers.pnfo"
 #include "sprites/nfo/logging_trucks.pnfo"
