@@ -284,7 +284,7 @@
  -1 * 14	 02 01 B0 //ID B0
                81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
                01 //check one ranges
-                 12 80 01 01 //give callback result
+                 VEH_KANDER_FOUNDRY_TRANSPORTER_2 80 01 01 //give callback result
                FF FF //otherwise end the callback chain
  -1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
