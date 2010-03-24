@@ -1,6 +1,6 @@
   // -------------- Grindelwald Foundry Transporter --------------- //
- -1 * 67	 00 01 \b25 01 C0
-    00 \w1-1-1920     // intro date
+ -1 * 67	 00 01 \b25 01 VEH_GRINDELWALD_FOUNDRY_TRANSPORTER
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability decay speed decay speed
     03 \b30           // vehicle life
     04 \b99             // class life
@@ -26,7 +26,7 @@
     1D 00 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
     1F \d720160    // Long format introduction date
- -1 * 29	 04 01 7F 01 C0 "Grindelwald Foundry Transporter" 00
+ -1 * 29	 04 01 7F 01 VEH_GRINDELWALD_FOUNDRY_TRANSPORTER "Grindelwald Foundry Transporter" 00
  -1 * 4	 01 01 07 08
    // empty
  -1 sprites/pcx/foundry_transporters.pcx   34  770   01   24 12    -5 -15
@@ -101,7 +101,7 @@
       03 // number loading states
       04 00  05 00  06 00 // loaded sprites
       04 00  05 00  06 00 // loading sprites     
- -1 * 7	 03 01 01 C0 // Action 3
+ -1 * 7	 03 01 01 VEH_GRINDELWALD_FOUNDRY_TRANSPORTER // Action 3
       01  // Number of different cargo types to support
         15 02 00 
       01 00 // default
@@ -110,8 +110,8 @@
 
   // -------------- Kander Foundry Transporter --------------- //
    // Kander rear section 
- -1 * 67	 00 01 \b26 01 12 // Vehicle ID has to be less than 128 for articulated trailers
-    00 \w1-1-1920   // intro date
+ -1 * 67	 00 01 \b26 01 VEH_KANDER_FOUNDRY_TRANSPORTER_2 // Vehicle ID has to be less than 128 for articulated trailers
+    00 \w1-1-1920   // intro date (min value: 1-1-1920)
     02 20           // reliability decay speed decay speed
     03 \b35         // vehicle life
     04 \b99           // class life
@@ -140,7 +140,7 @@
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 6	 07 83 01 \7! 02 01 // tropic only
  -1 * 7	 00 01 \b01 01 06 10 08 // copper ore default
- -1 * 35	 04 01 7F 01 12 "[Kander Trailer]" 00
+ -1 * 35	 04 01 7F 01 VEH_KANDER_FOUNDRY_TRANSPORTER_2 "[Kander Trailer]" 00
  -1 * 4	 01 01 08 08
    // empty
  -1 sprites/pcx/foundry_transporters.pcx   34  50   01   24 12    -5 -15
@@ -224,15 +224,15 @@
       03 // number loading states
       05 00  06 00  07 00 // loaded sprites
       05 00  06 00  07 00 // loading sprites     
- -1 * 7	 03 01 01 12 // Action 3
+ -1 * 7	 03 01 01 VEH_KANDER_FOUNDRY_TRANSPORTER_2 // Action 3
       01  // Number of different cargo types to support
         15 02 00 
       01 00 // default
 
 
   // Kander front section
- -1 * 67	 00 01 \b26 01 C1
-    00 \w1-1-1920     // intro date
+ -1 * 67	 00 01 \b26 01 VEH_KANDER_FOUNDRY_TRANSPORTER_1
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability decay speed
     03 \b40           // vehicle life
     04 19             // class life
@@ -259,7 +259,7 @@
     1D 00 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
     1F \d718359    // Long format introduction date
- -1 * 35	 04 01 7F 01 C1 "Kander Foundry Transporter" 00
+ -1 * 35	 04 01 7F 01 VEH_KANDER_FOUNDRY_TRANSPORTER_1 "Kander Foundry Transporter" 00
  -1 * 4	 01 01 01 08
   // 
  -1 sprites/pcx/foundry_transporters.pcx   34  10   01   24 12    -5 -12
@@ -297,7 +297,7 @@
                  02 80 11 11 // vehicle length CB 
                  B0 00 16 16 // articulated vehicle building instructions
                B6 00 //otherwise go to next action 2 ID 
- -1 * 7	 03 01 01 C1 // Action 3
+ -1 * 7	 03 01 01 VEH_KANDER_FOUNDRY_TRANSPORTER_1 // Action 3
     00  // Number of different cargo types to support  
     B1 00   // Action 2 ID above    
   // -------------- end of Kander Foundry Transporter --------------- //

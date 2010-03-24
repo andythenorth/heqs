@@ -11,7 +11,7 @@
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
   -1 * 67	 00 01 19 01 20
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -37,7 +37,7 @@
     1E 00 00          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 21
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -63,7 +63,7 @@
     1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 22
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -89,7 +89,7 @@
     1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 23
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -115,7 +115,7 @@
     1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 24
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -141,7 +141,7 @@
     1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
   -1 * 67	 00 01 19 01 25
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -420,7 +420,7 @@
 
   // Cascade Logging Truck  90t
  -1 * 67	 00 01 19 01 A0
-    00 \w1-1-1972  // intro date
+    00 \w1-1-1972  // intro date (min value: 1-1-1920)
     02 20     // reliability
     03 \b40     // vehicle life
     04 FF     // class life
@@ -452,7 +452,7 @@
                                 00 
   // Cascade Logging Truck DOUBLE
  -1 * 67	 00 01 19 01 A1
-    00 \w1-1-1972  // intro date
+    00 \w1-1-1972  // intro date (min value: 1-1-1920)
     02 20     // reliability
     03 \b40     // vehicle life
     04 FF     // class life

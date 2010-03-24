@@ -2,7 +2,7 @@
    // Medium belly dump trailer 
    // Used by Thunder Mountain articulated dump truck
  1810 * 67	 00 01 1A 01 06
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -172,7 +172,7 @@
    // Large belly dump trailer
    // Used by large articulated mining trucks
  1927 * 67	 00 01 1A 01 07
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -486,7 +486,7 @@
 
   // Mt. McKinley Dump Truck  30t		1954-1972	35mph
  2157 * 67	 00 01 19 01 D0
-    00 \w1-1-1920     // intro date
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
@@ -675,7 +675,7 @@
 
   // Mount Rainier Dump Truck 50t		1960-1981	35mph
  2294 * 67	 00 01 19 01 D1
-    00 \w1-1-1920  // intro date
+    00 \w1-1-1920  // intro date (min value: 1-1-1920)
     02 20         // reliability
     03 19         // vehicle life
     04 19         // class life
@@ -864,7 +864,7 @@
 
   // Thunder Mountain Mining Truck  90t		1960-1982		30mph
  2431 * 67	 00 01 1A 01 D2
-    00 \w1-1-1920     // intro date
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
@@ -941,7 +941,7 @@
 
   // Harney Peak Mining Hauler 60t		1979-2050	40mph
  2455 * 67	 00 01 19 01 D3
-    00 \w1-1-1920     // intro date
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
@@ -1130,7 +1130,7 @@
 
   // Bear Mountain Mining Truck 120t		1980-2050	35mph
  2592 * 67	 00 01 1A 01 D4 
-    00 \w1-1-1920     // intro date
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
@@ -1206,7 +1206,7 @@
 
   // Rockchuck Peak Mining Hauler 95t		2000-2050	42mph
  2616 * 67	 00 01 19 01 D5            // Action 0
-    00 \w1-1-1920     // intro date
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
@@ -1395,7 +1395,7 @@
 
   // Camelback Mountain Mining Truck  240t		2001-2050	37mph
  2340 * 67	 00 01 1A 01 D6
-    00 \w1-1-1920     // intro date
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
@@ -1474,7 +1474,7 @@
 
   // Kilimanjaro Mining Hauler  160t	1200hp	1990-2050	57mph
  2777 * 67	 00 01 19 01 D7
-    00 \w1-1-1920     // intro date
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
@@ -1663,7 +1663,7 @@
    
   // Wolfpen Ridge Dump Truck  50t		2005-2050	50mph
  2157 * 67	 00 01 19 01 D9
-    00 \w1-1-2005     // intro date
+    00 \w1-1-2005     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life

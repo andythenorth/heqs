@@ -2,7 +2,7 @@
 
    // Drawbar
     2 * 67	 00 01 19 01 05 // Action 0
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -55,7 +55,7 @@
    // Medium Trailers
 
    16 * 67	 00 01 \b25 01 00
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -401,7 +401,7 @@
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
   267 * 67	 00 01 19 01 6E
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -427,7 +427,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
   268 * 67	 00 01 19 01 6F
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -453,7 +453,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
   269 * 67	 00 01 19 01 70
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -479,7 +479,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
   270 * 67	 00 01 19 01 71
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -505,7 +505,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
   271 * 67	 00 01 \b25 01 72
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -531,7 +531,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
   272 * 67	 00 01 \b25 01 73
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -1176,7 +1176,7 @@
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
   754 * 67	 00 01 19 01 7A
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -1203,7 +1203,7 @@
     1E EF 03  // non-refittable cargo classes
     1F 60 B3 0A 00    // long format introduction date  
   755 * 67	 00 01 19 01 7B
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -1230,7 +1230,7 @@
     1E EF 03  // non-refittable cargo classes
     1F 60 B3 0A 00    // long format introduction date  
   756 * 67	 00 01 19 01 7C
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -1257,7 +1257,7 @@
     1E EF 03  // non-refittable cargo classes
     1F 60 B3 0A 00    // long format introduction date  
   757 * 67	 00 01 19 01 7D
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -1284,7 +1284,7 @@
     1E EF 03  // non-refittable cargo classes
     1F 60 B3 0A 00    // long format introduction date  
   758 * 67	 00 01 19 01 7E
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -1311,7 +1311,7 @@
     1E EF 03  // non-refittable cargo classes
     1F 60 B3 0A 00    // long format introduction date 
   759 * 67	 00 01 19 01 7F
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
@@ -1807,7 +1807,7 @@
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
  1127 * 67	 00 01 19 01 74
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -1833,7 +1833,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
  1128 * 67	 00 01 19 01 75
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -1859,7 +1859,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
  1129 * 67	 00 01 19 01 76
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -1885,7 +1885,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
  1130 * 67	 00 01 19 01 77
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -1911,7 +1911,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
  1131 * 67	 00 01 \b25 01 78
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
@@ -1937,7 +1937,7 @@
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
  1132 * 67	 00 01 19 01 79
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life

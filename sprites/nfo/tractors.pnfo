@@ -2,7 +2,7 @@
 
   // Fourtrac	Wheeled Tractor (high speed)
  1725 * 67	 00 01 19 01 80 
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b30   // vehicle life 
     04 \b30   // class life 
@@ -107,7 +107,7 @@
 
   // Speedytrac	Wheeled Tractor (high speed)	34t		1990-2020	50mph
  1765 * 67	 00 01 19 01 81 
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b15   // vehicle life 
     04 \b30   // class life 
@@ -181,7 +181,7 @@
 
   // Super Speedytrac	Wheeled Tractor (high speed)	40t		2005-2050	60mph
  1789 * 67	 00 01 19 01 82
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b15   // vehicle life 
     04 \b45   // class life 

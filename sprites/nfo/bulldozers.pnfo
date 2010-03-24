@@ -2,7 +2,7 @@
 
   // No. 6	Crawler Tractor (General Purpose)
  1218 * 67	 00 01 1A 01 94
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b40   // vehicle life 
     04 \b150  // class life 
@@ -221,7 +221,7 @@
 
   // No. 6 Crawler Tractor (Mining / Logging)
  1294 * 67	 00 01 1A 01 95 
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b40   // vehicle life 
     04 \b150  // class life 
@@ -439,7 +439,7 @@
 
   // No. 8	Crawler Tractor (General Purpose)
  -1 * 67	 00 01 1A 01 96 
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b40   // vehicle life 
     04 \b100  // class life 
@@ -778,7 +778,7 @@
 
   // No. 8	Crawler Tractor (Logging / Mining)
  -1 * 67	 00 01 1A 01 97 
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b40   // vehicle life 
     04 \b100  // class life 
@@ -973,7 +973,7 @@
 
 	// No. 9	Crawler Tractor (General Purpose)
  -1 * 67	 00 01 1A 01 98
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b35   // vehicle life 
     04 \b20   // class life 
@@ -1254,7 +1254,7 @@
 
 	// No. 9	Crawler Tractor (Logging / Mining)
  1654 * 67	 00 01 1A 01 99
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b35   // vehicle life 
     04 \b20   // class life 
@@ -1420,7 +1420,7 @@
 
  // Articulated Crawler First Part
  1690 * 69	 00 01 1B 01 9A
-    00 00 00  // intro date 
+    00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b15   // vehicle life 
     04 \b60   // class life 
@@ -1497,7 +1497,7 @@
 
   // Articulated Crawler (Second Part)
  1711 * 67	 00 01 1A 01 11 // articulated RV trailing part ID must be <128. Otherwise 9B (155) would make more sense.
-      00 00 00  // intro date
+      00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
