@@ -71,7 +71,7 @@
                  02 //check one range
                    C2 00  11 11 // vehicle length CB
                    B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
-                 C1 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
+                 B2 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
                  
  -1 * 7	 03 01 01 THIS_VEHICLE_ID // Action 3
       00  // Number of different cargo types to support
