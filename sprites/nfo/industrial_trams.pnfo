@@ -1,7 +1,8 @@
   // ----------------- Industrial Trams -----------//      
 
    // Industrial Tram Wagon Small
-#define THIS_CAPACITY  04
+#define THIS_CAPACITY       04
+#define THIS_VEHICLE_ID     VEH_INDUSTRIAL_TRAM_WAGON_1
    
  -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
     00 \w1-1-1920   // intro date (min value: 1-1-1920)

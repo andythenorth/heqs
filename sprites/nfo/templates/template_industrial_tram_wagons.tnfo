@@ -101,9 +101,10 @@
                    D0 00 19 19 // text suffix CB 
                  A0 00 // graphics  
                  
- -1 * 7	 03 01 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Action 3
+ -1 * 7	 03 01 01 THIS_VEHICLE_ID // Action 3
     00 // Number of cargo types 
 	  C0 00 // default
 	  
 	  
 #undef THIS_CAPACITY
+#undef THIS_VEHICLE_ID
