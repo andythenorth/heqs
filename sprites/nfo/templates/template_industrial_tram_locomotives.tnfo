@@ -1,2 +1,73 @@
+// Template for Industrial Tram locomotives varaction 2 chain and action 3
+
+ -1 * 30	 02 01 FF // buy menu
+           81 01 00  FF // check current year
+           05 // range
+             60 80  \b00 \b34 // action 2 for setting graphics / text before 1955
+             61 80  \b35 \b48 // action 2 for setting graphics / text before 1969
+             62 80  \b49 \b59 // action 2 for setting graphics / text before 1980
+             63 80  \b60 \b72 // action 2 for setting graphics / text before 1993
+             64 80  \b73 \b88 // action 2 for setting graphics / text before 2009
+           65 80 // default graphics / text
+ -1 * 14	 02 01 FA //
+           81 C4 00 FF // check date vehicle built for buy menu
+           01 // range
+            F1 00 \b00 \b72
+           F2 00 
+ -1 * 14	 02 01 F0 // buy menu 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   FF 00  23 23 // text for vehicle window
+                 FA 00 //otherwise go to next action 2 ID 
+ -1 * 30	 02 01 B5 // choose trailers by date
+           81 01 00  FF // check current year
+           05 // range
+             THIS_WAGON_TYPE 80  \b00 \b34 // before 1955
+             THIS_WAGON_TYPE 80  \b35 \b48 // before 1969
+             THIS_WAGON_TYPE 80  \b49 \b59 // before 1980
+             THIS_WAGON_TYPE 80  \b60 \b72 // before 1993
+             THIS_WAGON_TYPE 80  \b73 \b88 // before 2009
+           THIS_WAGON_TYPE 80 // default      
+ -1 * 14	 02 01 B7 //
+           81 C4 00 FF // check date vehicle built
+           01 // range
+            A2 00  \b49 \b72
+           A5 00 
+ -1 * 18	 02 01 B3 //
+           81 C4 00 FF // check date vehicle built
+           02 // range
+            A1 00  \b00 \b48
+            A3 00  \b49 \b72
+           A4 00 
+ -1 * 11	 02 01 B2 //
+           80 00 00 // randomise graphics 
+           02 // range
+            B3 00 // give ID as result
+            B7 00 // apply vehicle graphics
+ -1 * 22	 02 01 B0 //
+                 81 10 00 FF // Articulated vehicle building instructions
+                 01 // range
+                  B5 00  \b01 \b15 // 
+                 FF FF //otherwise end the callback chain
+ -1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00  00 00 // if length is 0 use purchase menu sprite
+               B2 00 // else go to action 2 to apply graphics
+ -1 * 18	 02 01 B1 // 
+                 81 0C 00 FF // handle callbacks
+                 02 //check one range
+                  THIS_LENGTH_ADJUST 80  11 11 // vehicle length CB
+                  B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+                 B6 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
+ -1 * 7	 03   // Action 3
+      01  // RV 
+      01  // Number of vehicles this action associate graphics with 
+      THIS_VEHICLE_ID  // Vehicle ID
+      00  // Number of different cargo types to support
+      B1 00   // Action 2 ID above
+
+
 #undef THIS_VEHICLE_ID
+#undef THIS_WAGON_TYPE
 #undef THIS_LENGTH_ADJUST
