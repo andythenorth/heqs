@@ -1,10 +1,10 @@
   // ----------------- Industrial Trams -----------//      
 
    // Industrial Tram Wagon Small
-#define THIS_LENGTH_ADJUST    06
+#define THIS_LENGTH_ADJUST    04
 #define THIS_CAPACITY         04
    
- -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
+ -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_WAGON_2 // Vehicle ID has to be less than 128 for articulated trailers
     00 \w1-1-1920   // intro date (min value: 1-1-1920)
     02 20           // reliability decay speed decay speed
     03 \b00         // vehicle life
@@ -32,85 +32,85 @@
     1D FF 03        // refittable cargo classes
     1E 01 00        // non-refittable cargo classes
     1F 60 B3 0A 00  // long format introduction date  
- -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_1 "[Tram Wagon 1]" 00
+ -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_2 "[Tram Wagon 1]" 00
  -1 * 33	 04 00 81 03 00 D0
-            		" 16t  (4 wagons)" 00	// D000
-               	" 36t  (9 wagons)" 00	// D001
-               	" 60t  (15 wagons)" 00	// D002
+            		" 45t   (3 wagons)" 00	// D000
+               	" 165t  (9 wagons)" 00	// D001
+               	" 225t  (15 wagons)" 00	// D002
   //action 2 ID 00 reserved for invisible sprite (provided by template) 
  -1 * 4	 01 01 \b08 \b08
    // empty
- -1 sprites/pcx/foundry_transporters.pcx   34  50   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  50   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  50   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  50   09   20 26    -7  -9
- -1 sprites/pcx/foundry_transporters.pcx  178  50   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  50   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  50   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx  290  50   09   20 26   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_wagons.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  224 20  09  16 20   -9 -11 
    // metal slab loading 1
- -1 sprites/pcx/foundry_transporters.pcx   34  90   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  90   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  90   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  90   09   20 26    -5  -8
- -1 sprites/pcx/foundry_transporters.pcx  178  90   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  90   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  90   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx  290  90   09   20 26   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_wagons.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  224 20  09  16 20   -9 -11 
    // metal slab loading 2
- -1 sprites/pcx/foundry_transporters.pcx   34  130   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  130   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  130   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  130   09   20 26    -5  -8
- -1 sprites/pcx/foundry_transporters.pcx  178  130   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  130   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  130   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx  290  130   09   20 26   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_wagons.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  224 20  09  16 20   -9 -11 
    // metal slab loading 3
- -1 sprites/pcx/foundry_transporters.pcx   34  170   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  170   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  170   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  170   09   20 26    -5  -8
- -1 sprites/pcx/foundry_transporters.pcx  178  170   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  170   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  170   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx  290  170   09   20 26   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_wagons.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  224 20  09  16 20   -9 -11 
    // metal slab loaded
- -1 sprites/pcx/foundry_transporters.pcx   34  210   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  210   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  210   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  210   09   20 26    -5  -8
- -1 sprites/pcx/foundry_transporters.pcx  178  210   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  210   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  210   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx  290  210   09   20 26   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_wagons.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  224 20  09  16 20   -9 -11 
    // scrap empty
- -1 sprites/pcx/foundry_transporters.pcx   34  250   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  250   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  250   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  250   09   20 26    -5  -8
- -1 sprites/pcx/foundry_transporters.pcx  178  250   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  250   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  250   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx  290  250   09   20 26   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_wagons.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  224 20  09  16 20   -9 -11 
   // scrap loading
- -1 sprites/pcx/foundry_transporters.pcx   34  290   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  290   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  290   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  290   09   20 26    -5  -8
- -1 sprites/pcx/foundry_transporters.pcx  178  290   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  290   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  290   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx  290  290   09   20 26   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_wagons.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  224 20  09  16 20   -9 -11 
    // scrap loaded
- -1 sprites/pcx/foundry_transporters.pcx   34  330   01   24 12    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  330   09   20 26   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  330   01   16 36   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  330   09   20 26    -5  -8
- -1 sprites/pcx/foundry_transporters.pcx  178  330   01   24 12    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  330   09   20 26   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  330   01   16 36   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx  290  330   09   20 26   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_wagons.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_wagons.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_wagons.pcx  224 20  09  16 20   -9 -11 
   -1 * 17	 02 01 01
       04 // number loaded states
       04 // number loading states
@@ -143,16 +143,21 @@
       
 // choose appropriate sprites
   // case show wagon sprite
-  -1 * 70	 02 01 A2  // choose sprites according to cargo slot (in cargo translation tt)
+  -1 * 70	 02 01 A3  // choose sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
                  01 // range
                    01 00  01 01 // coal
                  01 00 // default 
-  -1 * 18	 02 01 A1  // shorten wagon length 
+  -1 * 18	 02 01 A2  // shorten wagon length to 1/8 and show sprites
+                 81 0C 00 FF //
+                 01 // range
+                   07 80  11 11 // vehicle length CB
+                 A3 00 // graphics  
+  -1 * 18	 02 01 A1  // shorten wagon length to vehicle length and show sprites
                  81 0C 00 FF //
                  01 // range
                    THIS_LENGTH_ADJUST 80  11 11 // vehicle length CB
-                 A2 00 // graphics  
+                 A3 00 // graphics  
   // case hide wagon sprite
   -1 * 18	 02 01 AA  // shorten wagon length by max amount 
                  81 0C 00 FF //
@@ -178,16 +183,14 @@
                  AA 00 // default - use invisible sprite
   -1 * 14	 02 01 B0  // subtype 1 (4 wagons) - choose sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
-                 \b09 // range
-                   AA 00  \b01 \b03 // use wagon sprite
-                   A1 00  \b04 \b04 // use wagon sprite
-                   AA 00  \b05 \b06 // use wagon sprite                   
-                   A1 00  \b07 \b07 // use wagon sprite
-                   AA 00  \b08 \b09 // use wagon sprite
-                   A1 00  \b10 \b10 // use wagon sprite
-                   AA 00  \b11 \b12 // use wagon sprite
-                   A1 00  \b13 \b13 // use wagon sprite
-                   AA 00  \b14 \b15 // use wagon sprite
+                 \b07 // range
+                   AA 00  \b01 \b03 // 
+                   A2 00  \b04 \b04 // 
+                   AA 00  \b05 \b07 //                    
+                   A2 00  \b08 \b08 // 
+                   AA 00  \b09 \b11 // 
+                   A2 00  \b12 \b12 // 
+                   AA 00  \b13 \b15 //
                  AA 00 // default - use invisible sprite
                  
   -1 * 18	 02 01 A0  // choose sprites according to refitted subtype
@@ -251,7 +254,7 @@
                    D0 00  19 19 // text suffix CB 
                  A0 00 // graphics  
                  
- -1 * 7	 03 01 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Action 3
+ -1 * 7	 03 01 01 VEH_INDUSTRIAL_TRAM_WAGON_2 // Action 3
     00 // Number of cargo types 
 	  C0 00 // default
 	  
@@ -260,11 +263,11 @@
  
  
   // Industrial Tram 1
-#define THIS_VEHICLE_ID       VEH_INDUSTRIAL_TRAM_1
-#define THIS_LENGTH_ADJUST    07
-#define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_1
+#define THIS_VEHICLE_ID       VEH_INDUSTRIAL_TRAM_2
+#define THIS_LENGTH_ADJUST    04
+#define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_2
 
- -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_1
+ -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_2
     00 \w1-1-1920  // intro date (min value: 1-1-1920) (min value: 1920) 
     02 20     // reliability 
     03 \b80   // vehicle life 
@@ -291,7 +294,7 @@
     1D FF 03       // Refittable cargo classes
     1E 01 00       // Non-refittable cargo classes
     1F \d694995    // Long format introduction date  
- -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_1 "Industrial Tram 1" 00
+ -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_2 "Industrial Tram 1" 00
  -1 * 87	 04 01 81 01 60 D0 "Hauls: " 8A "Three 10t trailers or sleds"
                                0d 98 "Model: " 8A "1937" // (30t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Cab" 
@@ -322,52 +325,25 @@
                                0d 98 0d 98 "Variations (random): " 98 "Cab" 
                                0d 98 
                                00
- -1 * 4	 01 01 05 08
-  // No. 6 no cab no blade
- -1 sprites/pcx/bulldozers.pcx 34 50 01 24 12 -5 -15
- -1 sprites/pcx/bulldozers.pcx 66 50 01 20 26 -16 -10
- -1 sprites/pcx/bulldozers.pcx 98 50 01 16 36 -14 -9
- -1 sprites/pcx/bulldozers.pcx 146 50 01 20 26 -5 -9
- -1 sprites/pcx/bulldozers.pcx 178 50 01 24 12 -5 -13
- -1 sprites/pcx/bulldozers.pcx 210 50 01 20 26 -17 -9
- -1 sprites/pcx/bulldozers.pcx 242 50 01 16 36 -29 -8
- -1 sprites/pcx/bulldozers.pcx 290 50 01 20 26 -10 -10
-  // No. 6 open cab no blade
- -1 sprites/pcx/bulldozers.pcx 34 130 01 24 12 -5 -15
- -1 sprites/pcx/bulldozers.pcx 66 130 01 20 26 -16 -10
- -1 sprites/pcx/bulldozers.pcx 98 130 01 16 36 -14 -9
- -1 sprites/pcx/bulldozers.pcx 146 130 01 20 26 -5 -9
- -1 sprites/pcx/bulldozers.pcx 178 130 01 24 12 -5 -13
- -1 sprites/pcx/bulldozers.pcx 210 130 01 20 26 -17 -9
- -1 sprites/pcx/bulldozers.pcx 242 130 01 16 36 -29 -8
- -1 sprites/pcx/bulldozers.pcx 290 130 01 20 26 -10 -10
-  // No. 6 enclosed cab no blade
- -1 sprites/pcx/bulldozers.pcx 34 210 01 24 12 -5 -15
- -1 sprites/pcx/bulldozers.pcx 66 210 01 20 26 -16 -10
- -1 sprites/pcx/bulldozers.pcx 98 210 01 16 36 -14 -9
- -1 sprites/pcx/bulldozers.pcx 146 210 01 20 26 -5 -9
- -1 sprites/pcx/bulldozers.pcx 178 210 01 24 12 -5 -13
- -1 sprites/pcx/bulldozers.pcx 210 210 01 20 26 -17 -9
- -1 sprites/pcx/bulldozers.pcx 242 210 01 16 36 -29 -8
- -1 sprites/pcx/bulldozers.pcx 290 210 01 20 26 -10 -10
-  // No. 6 black cab no blade
- -1 sprites/pcx/bulldozers.pcx 34 290 01 24 12 -5 -15
- -1 sprites/pcx/bulldozers.pcx 66 290 01 20 26 -16 -10
- -1 sprites/pcx/bulldozers.pcx 98 290 01 16 36 -14 -9
- -1 sprites/pcx/bulldozers.pcx 146 290 01 20 26 -5 -9
- -1 sprites/pcx/bulldozers.pcx 178 290 01 24 12 -5 -13
- -1 sprites/pcx/bulldozers.pcx 210 290 01 20 26 -17 -9
- -1 sprites/pcx/bulldozers.pcx 242 290 01 16 36 -29 -8
- -1 sprites/pcx/bulldozers.pcx 290 290 01 20 26 -10 -10 
-  // No. 6 modern open cab no blade
- -1 sprites/pcx/bulldozers.pcx 34 370 01 24 12 -5 -15
- -1 sprites/pcx/bulldozers.pcx 66 370 01 20 26 -16 -10
- -1 sprites/pcx/bulldozers.pcx 98 370 01 16 36 -14 -9
- -1 sprites/pcx/bulldozers.pcx 146 370 01 20 26 -5 -9
- -1 sprites/pcx/bulldozers.pcx 178 370 01 24 12 -5 -13
- -1 sprites/pcx/bulldozers.pcx 210 370 01 20 26 -17 -9
- -1 sprites/pcx/bulldozers.pcx 242 370 01 16 36 -29 -8
- -1 sprites/pcx/bulldozers.pcx 290 370 01 20 26 -10 -10 
+ -1 * 4	 01 01 02 08
+  // Electric Locomotive Type 2 version A
+ -1 sprites/pcx/industrial_tram_locomotives.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_locomotives.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_locomotives.pcx  224 20  09  16 20   -9 -11  
+  // Electric Locomotive Type 2 version B
+ -1 sprites/pcx/industrial_tram_locomotives.pcx    0 20  01  18  8   -3 -18
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   16 20  09  16 20   -9 -11
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   96 20  09  16 20    1  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx  128 20  01  18  8   -3  -8
+ -1 sprites/pcx/industrial_tram_locomotives.pcx  144 20  09  16 20  -19  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 20  01  12 28   -4  -8
+ -1 sprites/pcx/industrial_tram_locomotives.pcx  224 20  09  16 20   -9 -11  
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
@@ -378,29 +354,14 @@
       01 // number loaded states
       01 00 // loading sprites
       01 00 // loaded sprites
- -1 * 9	 02 01 A3 // action2 defining graphics with no loading/loaded stages 
-      01 // number loading states
-      01 // number loaded states
-      02 00 // loading sprites
-      02 00 // loaded sprites
- -1 * 9	 02 01 A4 // action2 defining graphics with no loading/loaded stages 
-      01 // number loading states
-      01 // number loaded states
-      03 00 // loading sprites
-      03 00 // loaded sprites
- -1 * 9	 02 01 A5 // action2 defining graphics with no loading/loaded stages 
-      01 // number loading states
-      01 // number loaded states
-      04 00 // loading sprites
-      04 00 // loaded sprites
  -1 * 4	 01 01 02 04 // buy menu sprites
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/pcx/bulldozers.pcx 370 130 01 16 36 -14 -8
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 20  01  12 28   -4  -8
  -1 * 1	 00
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/pcx/bulldozers.pcx 370 290 01 16 36 -14 -8
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 20  01  12 28   -4  -8
  -1 * 1	 00
  -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states

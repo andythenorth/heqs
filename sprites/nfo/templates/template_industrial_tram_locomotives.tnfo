@@ -22,22 +22,11 @@
                  FA 00 //otherwise go to next action 2 ID 
                  
 // handle vehicle sprites         
- -1 * 14	 02 01 B7 //
+ -1 * 11	 02 01 B2 //
            81 C4 00 FF // check date vehicle built
            01 // range
              A2 00  \b49 \b72
-           A5 00 
- -1 * 18	 02 01 B3 //
-           81 C4 00 FF // check date vehicle built
-           02 // range
-             A1 00  \b00 \b48
-             A3 00  \b49 \b72
-           A4 00 
- -1 * 11	 02 01 B2 //
-           80 00 00 // randomise graphics 
-           02 // range
-             B3 00 // give ID as result
-             B7 00 // apply vehicle graphics
+           A1 00 
  
 // handle articulated vehicle construction
   -1 * 30	 02 01 B5 // choose trailers by date
@@ -68,7 +57,7 @@
  -1 * 14	 02 01 C2 // set engine length depending on num. wagons (set by refit cycle).  (to fit 4 wagon train into 1 tile - 16x1/8 vehicles) 
                81 42 16 FF // check most common value of F2 (refit cycle) in consist
                01 // range
-                07 80  00 00 // refit 1 (4 wagons)
+                 07 80  00 00 // refit 1 (4 wagons)
                THIS_LENGTH_ADJUST 80 // default otherwise use actual length of vehicle
 
  -1 * 14	 02 01 C1 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)

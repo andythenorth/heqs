@@ -1,7 +1,7 @@
 #define VEH_TRACTOR_FOURTRAC                   80
 
-#define VEH_INDUSTRIAL_TRAM_1                  B0
-#define VEH_INDUSTRIAL_TRAM_WAGON_1            40
+#define VEH_INDUSTRIAL_TRAM_2                  B1
+#define VEH_INDUSTRIAL_TRAM_WAGON_2            41
 
 #define VEH_GRINDELWALD_FOUNDRY_TRANSPORTER    C0
 #define VEH_KANDER_FOUNDRY_TRANSPORTER_1       C1
