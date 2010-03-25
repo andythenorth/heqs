@@ -6,19 +6,10 @@
            01 // range
              F1 00  \b00 \b72
            F2 00 
- -1 * 30	 02 01 FF // buy menu text
-           81 01 00  FF // check current year
-           05 // range
-             60 80  \b00 \b34 // action 2 for setting text before 1955
-             61 80  \b35 \b48 // action 2 for setting text before 1969
-             62 80  \b49 \b59 // action 2 for setting text before 1980
-             63 80  \b60 \b72 // action 2 for setting text before 1993
-             64 80  \b73 \b88 // action 2 for setting text before 2009
-           65 80 // default text
  -1 * 14	 02 01 F0 // handle cb for buy menu text 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   FF 00  23 23 // text for vehicle window
+                   65 80  23 23 // text for vehicle window
                  FA 00 //otherwise go to next action 2 ID 
                  
 // handle vehicle sprites         
