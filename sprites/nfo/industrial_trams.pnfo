@@ -210,17 +210,17 @@
                    THIS_CAPACITY 80  0F 0F // set capacity to vehicle capacity
                  00 80 // default
 
-  -1 * 14	 02 01 E3  // subtype 3 - branch according to position in consist 
+  -1 * 14	 02 01 E3  // subtype 3 (15 wagons) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b01 // range
                    EA 00  \b01 \b15 //
                  EB 00 // default
-  -1 * 14	 02 01 E2  // subtype 2 - branch according to position in consist 
+  -1 * 14	 02 01 E2  // subtype 2 (9 wagons) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b01 // range
                    EA 00  \b01 \b09 //
                  EB 00 // default 
-  -1 * 14	 02 01 E1  // subtype 1 - branch according to position in consist 
+  -1 * 14	 02 01 E1  // subtype 1 (4 wagons) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b01 // range
                    EA 00  \b01 \b04 //

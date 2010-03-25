@@ -55,7 +55,22 @@
                    B5 00  \b01 \b15 // 
                  FF FF //otherwise end the callback chain
 
+// text strings
+    -1 * 18	 02 01 D0  // set refit text strings
+                 81 F2 00 FF //
+                 03 // range
+                   00 80  00 00 
+                   01 80  01 01 
+                   02 80  02 02 
+                 FF 80 // end callback chain
+
 // handle callbacks etc                 
+ -1 * 14	 02 01 C2 // set engine length depending on num. wagons (set by refit cycle).  (to fit 4 wagon train into 1 tile - 16x1/8 vehicles) 
+               81 42 16 FF // check most common value of F2 (refit cycle) in consist
+               01 // range
+                07 80  00 00 // refit 1 (4 wagons)
+               THIS_LENGTH_ADJUST 80 // default otherwise use actual length of vehicle
+
  -1 * 14	 02 01 C1 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
                01 // check one range
@@ -65,7 +80,7 @@
  -1 * 18	 02 01 C0 // 
                  81 0C 00 FF // handle callbacks
                  02 //check one range
-                   THIS_LENGTH_ADJUST 80  11 11 // vehicle length CB
+                   C2 00  11 11 // vehicle length CB
                    B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                  C1 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
                  
