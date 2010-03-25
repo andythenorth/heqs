@@ -260,9 +260,9 @@
 #undef THIS_LENGTH_ADJUST 
  
  
-  // Industrial Tram 1
+  // Kreuzberg Industrial Tram (Electric)
 #define THIS_VEHICLE_ID       VEH_INDUSTRIAL_TRAM_ELECTRIC_1
-#define THIS_LENGTH_ADJUST    04
+#define THIS_LENGTH_ADJUST    05
 #define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_1
 
  -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_ELECTRIC_1
