@@ -56,7 +56,7 @@
   -1 * 18	 02 01 EA  // handle refit - check property type cb requires
                  81 10 00 FF //
                  \b01 // range
-                   \b4 80 0F 0F // set capacity to vehicle capacity
+                   THIS_CAPACITY 80  0F 0F // set capacity to vehicle capacity
                  00 80 // default
 
   -1 * 14	 02 01 E3  // subtype 3 - branch according to position in consist 
@@ -104,3 +104,6 @@
  -1 * 7	 03 01 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Action 3
     00 // Number of cargo types 
 	  C0 00 // default
+	  
+	  
+#undef THIS_CAPACITY
