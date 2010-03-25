@@ -1,21 +1,21 @@
 // Template for Industrial Tram locomotives varaction 2 chain and action 3
 
 // handle buy menu
- -1 * 30	 02 01 FF // buy menu
+ -1 * 14	 02 01 FA // buy menu graphics
+           81 01 00 FF // check current year 
+           01 // range
+             F1 00  \b00 \b72
+           F2 00 
+ -1 * 30	 02 01 FF // buy menu text
            81 01 00  FF // check current year
            05 // range
-             60 80  \b00 \b34 // action 2 for setting graphics / text before 1955
-             61 80  \b35 \b48 // action 2 for setting graphics / text before 1969
-             62 80  \b49 \b59 // action 2 for setting graphics / text before 1980
-             63 80  \b60 \b72 // action 2 for setting graphics / text before 1993
-             64 80  \b73 \b88 // action 2 for setting graphics / text before 2009
-           65 80 // default graphics / text
- -1 * 14	 02 01 FA //
-           81 C4 00 FF // check date vehicle built for buy menu
-           01 // range
-            F1 00  \b00 \b72
-           F2 00 
- -1 * 14	 02 01 F0 // buy menu 
+             60 80  \b00 \b34 // action 2 for setting text before 1955
+             61 80  \b35 \b48 // action 2 for setting text before 1969
+             62 80  \b49 \b59 // action 2 for setting text before 1980
+             63 80  \b60 \b72 // action 2 for setting text before 1993
+             64 80  \b73 \b88 // action 2 for setting text before 2009
+           65 80 // default text
+ -1 * 14	 02 01 F0 // handle cb for buy menu text 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    FF 00  23 23 // text for vehicle window
@@ -25,19 +25,19 @@
  -1 * 14	 02 01 B7 //
            81 C4 00 FF // check date vehicle built
            01 // range
-            A2 00  \b49 \b72
+             A2 00  \b49 \b72
            A5 00 
  -1 * 18	 02 01 B3 //
            81 C4 00 FF // check date vehicle built
            02 // range
-            A1 00  \b00 \b48
-            A3 00  \b49 \b72
+             A1 00  \b00 \b48
+             A3 00  \b49 \b72
            A4 00 
  -1 * 11	 02 01 B2 //
            80 00 00 // randomise graphics 
            02 // range
-            B3 00 // give ID as result
-            B7 00 // apply vehicle graphics
+             B3 00 // give ID as result
+             B7 00 // apply vehicle graphics
  
 // handle articulated vehicle construction
   -1 * 30	 02 01 B5 // choose trailers by date
@@ -52,7 +52,7 @@
  -1 * 22	 02 01 B0 //
                  81 10 00 FF // Articulated vehicle building instructions
                  01 // range
-                  B5 00  \b01 \b15 // 
+                   B5 00  \b01 \b15 // 
                  FF FF //otherwise end the callback chain
 
 // handle callbacks etc                 
@@ -65,8 +65,8 @@
  -1 * 18	 02 01 C0 // 
                  81 0C 00 FF // handle callbacks
                  02 //check one range
-                  THIS_LENGTH_ADJUST 80  11 11 // vehicle length CB
-                  B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+                   THIS_LENGTH_ADJUST 80  11 11 // vehicle length CB
+                   B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                  C1 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
                  
  -1 * 7	 03 01 01 THIS_VEHICLE_ID // Action 3
