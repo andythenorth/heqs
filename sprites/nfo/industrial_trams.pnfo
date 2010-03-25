@@ -169,17 +169,13 @@
   -1 * 14	 02 01 B2  // subtype 3 (15 wagons) - choose sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b01 // range
-                   A1 00  \b01 \b15 // use wagon sprite
+                   A1 00  \b01 \b15 //
                  AA 00 // default - use invisible sprite
   -1 * 14	 02 01 B1  // subtype 2 (9 wagons) - choose sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
-                 \b06 // range
-                   A1 00  \b01 \b07 // use wagon sprite
-                   AA 00  \b08 \b09 // use wagon sprite                   
-                   A1 00  \b10 \b10 // use wagon sprite
-                   AA 00  \b11 \b12 // use wagon sprite
-                   A1 00  \b13 \b13 // use wagon sprite
-                   AA 00  \b14 \b15 // use wagon sprite
+                 \b02 // range
+                   A1 00  \b01 \b09 // 
+                   AA 00  \b10 \b15 //
                  AA 00 // default - use invisible sprite
   -1 * 14	 02 01 B0  // subtype 1 (4 wagons) - choose sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)

@@ -55,7 +55,7 @@
 
 // handle callbacks etc                 
  -1 * 14	 02 01 C2 // set engine length depending on num. wagons (set by refit cycle).  (to fit 4 wagon train into 1 tile - 16x1/8 vehicles) 
-               81 42 16 FF // check most common value of F2 (refit cycle) in consist
+               82 42 0F FF // check most common value of F2 (refit cycle) in consist
                01 // range
                  07 80  00 00 // refit 1 (4 wagons)
                THIS_LENGTH_ADJUST 80 // default otherwise use actual length of vehicle
