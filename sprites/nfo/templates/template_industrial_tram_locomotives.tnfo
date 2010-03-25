@@ -25,23 +25,14 @@
  -1 * 11	 02 01 B2 //
            81 C4 00 FF // check date vehicle built
            01 // range
-             A2 00  \b49 \b72
-           A1 00 
+             A1 00  \b00 \b86
+           A2 00 
  
 // handle articulated vehicle construction
-  -1 * 30	 02 01 B5 // choose trailers by date
-           81 01 00  FF // check current year
-           05 // range
-             THIS_WAGON_TYPE 80  \b00 \b34 // before 1955
-             THIS_WAGON_TYPE 80  \b35 \b48 // before 1969
-             THIS_WAGON_TYPE 80  \b49 \b59 // before 1980
-             THIS_WAGON_TYPE 80  \b60 \b72 // before 1993
-             THIS_WAGON_TYPE 80  \b73 \b88 // before 2009
-           THIS_WAGON_TYPE 80 // default
  -1 * 22	 02 01 B0 //
                  81 10 00 FF // Articulated vehicle building instructions
                  01 // range
-                   B5 00  \b01 \b15 // 
+                   THIS_WAGON_TYPE 80  \b01 \b15 // 
                  FF FF //otherwise end the callback chain
 
 // text strings
@@ -71,7 +62,7 @@
                  02 //check one range
                    C2 00  11 11 // vehicle length CB
                    B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
-                 B2 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
+                 C1 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
                  
  -1 * 7	 03 01 01 THIS_VEHICLE_ID // Action 3
       00  // Number of different cargo types to support
