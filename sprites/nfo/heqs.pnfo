@@ -9,6 +9,7 @@
 
 #include "sprites/nfo/foundry_transporters.pnfo"
 #include "sprites/nfo/foundry_transporters/kander_foundry_transporter.pnfo"
+#include "sprites/nfo/foundry_transporters/grindelwald_foundry_transporter.pnfo"
 
 #include "sprites/nfo/industrial_trams/industrial_tram_wagons_1.pnfo"
 #include "sprites/nfo/industrial_trams/industrial_tram_wagons_2.pnfo"
