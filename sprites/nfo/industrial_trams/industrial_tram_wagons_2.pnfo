@@ -125,14 +125,14 @@
 
  -1 * 4	 01 01 \b01 \b08
 // invisible sprites 
- -1 sprites/pcx/foundry_transporters.pcx   34  50   01   01 01    -5 -15
- -1 sprites/pcx/foundry_transporters.pcx   66  50   09   01 01   -15  -9
- -1 sprites/pcx/foundry_transporters.pcx   98  50   01   01 01   -16  -8
- -1 sprites/pcx/foundry_transporters.pcx  146  50   09   01 01    -7  -9
- -1 sprites/pcx/foundry_transporters.pcx  178  50   01   01 01    -4 -12
- -1 sprites/pcx/foundry_transporters.pcx  210  50   09   01 01   -18 -10 
- -1 sprites/pcx/foundry_transporters.pcx  242  50   01   01 01   -22  -9
- -1 sprites/pcx/foundry_transporters.pcx  290  50   09   01 01   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   34  50   01   01 01    -5 -15
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   66  50   09   01 01   -15  -9
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   98  50   01   01 01   -16  -8
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  146  50   09   01 01    -7  -9
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  178  50   01   01 01    -4 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  210  50   09   01 01   -18 -10 
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  242  50   01   01 01   -22  -9
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  290  50   09   01 01   -8 -10
   -1 * 17	 02 01 00
       01 // number loaded states
       01 // number loading states
