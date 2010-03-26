@@ -39,77 +39,77 @@
   //action 2 ID 00 reserved for invisible sprite (provided by template) 
  -1 * 4	 01 01 \b08 \b08
    // empty
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -4  -6
    // metal slab loading 1
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -4  -6
    // metal slab loading 2
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -4  -6
    // metal slab loading 3
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -4  -6
    // metal slab loaded
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -4  -6
    // scrap empty
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -4  -6
   // scrap loading
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -4  -6
    // scrap loaded
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx    0 0  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   16 0  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   96 0  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   16 0  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   48 0  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx   96 0  09  16 20   -4  -6
   -1 * 17	 02 01 01
       04 // number loaded states
       04 // number loading states
@@ -125,14 +125,14 @@
 
  -1 * 4	 01 01 \b01 \b08
 // invisible sprites 
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   34  50   01   01 01    -5 -15
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   66  50   09   01 01   -15  -9
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx   98  50   01   01 01   -16  -8
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  146  50   09   01 01    -7  -9
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  178  50   01   01 01    -4 -12
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  210  50   09   01 01   -18 -10 
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  242  50   01   01 01   -22  -9
- -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_2.pcx  290  50   09   01 01   -8 -10
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/industrial_tram_wagons_3.pcx    0 0  01  01  01   0 0
   -1 * 17	 02 01 00
       01 // number loaded states
       01 // number loading states
