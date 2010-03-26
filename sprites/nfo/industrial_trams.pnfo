@@ -259,7 +259,7 @@
 #undef THIS_CAPACITY
 #undef THIS_LENGTH_ADJUST 
  
-    // Industrial Tram Wagon Small
+    // Industrial Tram Wagon Medium
 #define THIS_LENGTH_ADJUST    04
 #define THIS_CAPACITY         0F // do this in hex - escapes are a hassle here for various reasons
    
@@ -614,7 +614,7 @@
 
  #include "templates/template_industrial_tram_locomotives.tnfo"
 
-  // Kreuzberg Industrial Tram (Electric)
+  // Hennigsdorf Industrial Tram (Electric)
 #define THIS_VEHICLE_ID       VEH_INDUSTRIAL_TRAM_ELECTRIC_2
 #define THIS_LENGTH_ADJUST    03
 #define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_2
@@ -654,23 +654,23 @@
                                00
  -1 * 4	 01 01 02 08
   // Electric Locomotive Type 2 version A
- -1 sprites/pcx/industrial_tram_locomotives.pcx    0 0  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_locomotives.pcx   16 0  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_locomotives.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_locomotives.pcx   96 0  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_locomotives.pcx    0 0  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_locomotives.pcx   16 0  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_locomotives.pcx   48 0  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_locomotives.pcx   96 0  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx    0 40  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   16 40  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 40  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   96 40  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_locomotives.pcx    0 40  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   16 40  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 40  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   96 40  09  16 20   -4  -6
   // Electric Locomotive Type 2 version B
- -1 sprites/pcx/industrial_tram_locomotives.pcx    0 20  01  18  8   -3 -12
- -1 sprites/pcx/industrial_tram_locomotives.pcx   16 20  09  16 20  -14  -5
- -1 sprites/pcx/industrial_tram_locomotives.pcx   48 20  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_locomotives.pcx   96 20  09  16 20   -5  -5
- -1 sprites/pcx/industrial_tram_locomotives.pcx    0 20  01  18  8   -4 -12
- -1 sprites/pcx/industrial_tram_locomotives.pcx   16 20  09  16 20  -14  -6
- -1 sprites/pcx/industrial_tram_locomotives.pcx   48 20  01  12 28  -13  -6
- -1 sprites/pcx/industrial_tram_locomotives.pcx   96 20  09  16 20   -4  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx    0 60  01  18  8   -3 -12
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   16 60  09  16 20  -14  -5
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 60  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   96 60  09  16 20   -5  -5
+ -1 sprites/pcx/industrial_tram_locomotives.pcx    0 60  01  18  8   -4 -12
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   16 60  09  16 20  -14  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   48 60  01  12 28  -13  -6
+ -1 sprites/pcx/industrial_tram_locomotives.pcx   96 60  09  16 20   -4  -6
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
