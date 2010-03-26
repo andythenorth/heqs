@@ -1,5 +1,5 @@
 // -------------- Grindelwald Foundry Transporter --------------- //
- -1 * 67	 00 01 \b25 01 VEH_GRINDELWALD_FOUNDRY_TRANSPORTER
+ -1 * 67	 00 01 \b25 01 VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability decay speed decay speed
     03 \b30           // vehicle life
@@ -26,7 +26,7 @@
     1D 00 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
     1F \d720160    // Long format introduction date
- -1 * 29	 04 01 7F 01 VEH_GRINDELWALD_FOUNDRY_TRANSPORTER "Grindelwald Foundry Transporter" 00
+ -1 * 29	 04 01 7F 01 VEH_FOUNDRY_TRANSPORTER_GRINDELWALD "Grindelwald Foundry Transporter" 00
  -1 * 4	 01 01 07 08
    // empty
  -1 sprites/pcx/foundry_transporters.pcx   34  770   01   24 12    -5 -15
@@ -101,7 +101,7 @@
       03 // number loading states
       04 00  05 00  06 00 // loaded sprites
       04 00  05 00  06 00 // loading sprites     
- -1 * 7	 03 01 01 VEH_GRINDELWALD_FOUNDRY_TRANSPORTER // Action 3
+ -1 * 7	 03 01 01 VEH_FOUNDRY_TRANSPORTER_GRINDELWALD // Action 3
       01  // Number of different cargo types to support
         15 02 00 
       01 00 // default
