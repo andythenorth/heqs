@@ -10,6 +10,7 @@
 
 #include "sprites/nfo/industrial_trams/industrial_tram_wagons_1.pnfo"
 #include "sprites/nfo/industrial_trams/industrial_tram_wagons_2.pnfo"
+#include "sprites/nfo/industrial_trams/industrial_tram_wagons_3.pnfo"
 #include "sprites/nfo/industrial_trams/kreuzberg_tram.pnfo"
 #include "sprites/nfo/industrial_trams/henningsdorf_tram.pnfo"
 #include "sprites/nfo/industrial_trams/ishizuchi_tram.pnfo"
