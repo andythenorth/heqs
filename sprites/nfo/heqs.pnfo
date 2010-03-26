@@ -5,9 +5,11 @@
 #include "sprites/nfo/bulldozers.pnfo"
 #include "sprites/nfo/logging_trucks.pnfo"
 #include "sprites/nfo/mining_trucks.pnfo"
-#include "sprites/nfo/tractors.pnfo"
 
-#include "sprites/nfo/foundry_transporters.pnfo"
+#include "sprites/nfo/tractors/fourtrac.pnfo"
+#include "sprites/nfo/tractors/super_speedytrac.pnfo"
+#include "sprites/nfo/tractors/speedytrac.pnfo"
+
 #include "sprites/nfo/foundry_transporters/kander_foundry_transporter.pnfo"
 #include "sprites/nfo/foundry_transporters/grindelwald_foundry_transporter.pnfo"
 

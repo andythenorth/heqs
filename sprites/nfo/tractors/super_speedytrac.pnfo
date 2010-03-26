@@ -1,0 +1,72 @@
+// Super Speedytrac	Wheeled Tractor (high speed)	40t		2005-2050	60mph
+ 1789 * 67	 00 01 19 01 82
+    00 00 00  // intro date (min value: 1-1-1920) 
+    02 20     // reliability 
+    03 \b15   // vehicle life 
+    04 \b45   // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    08 \b160  // speed in mph * 3.2
+    09 1E     // running cost factor 
+    0A 48 4C 00 00   // running cost base 
+    0E FF     // sprite ID
+    0F 00     // capacity
+    10 FF     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    13 \b21   // power in 10 hp
+    14 \b40   // weight in 1/4 tons
+    15 \b40   // speed in mph * 0.8
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D FF 03  // Refittable cargo classes
+    1E 01 00  // Non-refittable cargo classes
+    1F 95 2C 0B 00    // Long format introduction date    
+ 1790 * 22	 04 01 7F 01 82 "Super Speedytrac" 00
+ 1791 * 44	 04 01 81 01 B2 D0 "Hauls: " 8A "One 19t trailer"
+                               0d 98 "Model: " 8A "2005" 00 
+ 1792 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
+ 1793 sprites/pcx/tractors.pcx 34  370 01 24 12 -5  -15
+ 1794 sprites/pcx/tractors.pcx 66  370 01 20 26 -17 -9
+ 1795 sprites/pcx/tractors.pcx 98  370 01 16 36 -14 -9
+ 1796 sprites/pcx/tractors.pcx 146 370 01 20 26 -9  -10
+ 1797 sprites/pcx/tractors.pcx 178 370 01 24 12 -5  -13
+ 1798 sprites/pcx/tractors.pcx 210 370 01 20 26 -17 -9
+ 1799 sprites/pcx/tractors.pcx 242 370 01 16 36 -30 -8
+ 1800 sprites/pcx/tractors.pcx 290 370 01 20 26 -10 -10
+ 1801 * 9	 02 01 A0 01 01 00 00 00 00
+ 1802 * 4	 01 01 01 01
+ 1803 sprites/pcx/tractors.pcx 370 370 01 16 36 -14 -8
+ 1804 * 9	 02 01 F1 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 1805 * 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   B2 80 23 23 // text for vehicle window
+                 F1 00 //otherwise go to next action 2 ID 
+ 1806 * 14	 02 01 B0 //ID B0
+               81 10 00 FF // articulated vehicle building instructions
+               01 // range
+                 00 80 01 01 //give callback result of 00 for value 01*
+               FF FF //otherwise end the callback chain
+ 1807 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               A0 00 // else go to action 2 to apply graphics
+ 1808 * 14	 02 01 B1 //ID B1
+               81 0C 00 FF // handle callbacks
+               01 // range
+                 B0 00 16 16 // articulated vehicle CB
+               B3 00 //otherwise go to next action 2 ID 
+ 1809 * 7	 03 01 01 82 // Action 3
+    00  // Number of different cargo types to support  
+    B1 00   // Action 2 ID above
+
+  // ----------------------- end of Wheeled Tractors -------------------- //
