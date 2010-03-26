@@ -643,7 +643,7 @@
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03       // Refittable cargo classes
     1E 01 00       // Non-refittable cargo classes
-    1F \d701930    // Long format introduction date  
+    1F \d701999    // Long format introduction date  
  -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_ELECTRIC_2 "Hennigsdorf Industrial Tram" 00
  -1 * 87	 04 01 81 01 65 D0 "Can be refitted to haul:\8A"
   "\0D45t in three wagons"
