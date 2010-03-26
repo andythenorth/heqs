@@ -1,5 +1,5 @@
 // Speedytrac	Wheeled Tractor (high speed)	34t		1990-2020	50mph
- 1765 * 67	 00 01 19 01 81 
+ 1765 * 67	 00 01 19 01 VEH_TRACTOR_SPEEDYTRAC 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b15   // vehicle life 
@@ -25,7 +25,7 @@
     1D FF 03          // refittable cargo classes
     1E 01 00          // non-refittable cargo classes
     1F 32 17 0B 00    // long format introduction date      
- 1766 * 16	 04 01 7F 01 81 "Speedytrac" 00
+ 1766 * 16	 04 01 7F 01 VEH_TRACTOR_SPEEDYTRAC "Speedytrac" 00
  1767 * 44	 04 01 81 01 B1 D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "1990" 00 
  1768 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
@@ -68,6 +68,6 @@
                01 // range
                  B0 00 16 16 // articulated vehicle CB
                B3 00 //otherwise go to next action 2 ID 
- 1788 * 7	 03 01 01 81 // Action 3
+ 1788 * 7	 03 01 01 VEH_TRACTOR_SPEEDYTRAC // Action 3
     00  // Number of different cargo types to support  
     B1 00   // Action 2 ID above

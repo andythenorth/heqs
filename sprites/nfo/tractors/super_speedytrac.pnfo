@@ -1,5 +1,5 @@
 // Super Speedytrac	Wheeled Tractor (high speed)	40t		2005-2050	60mph
- 1789 * 67	 00 01 19 01 82
+ 1789 * 67	 00 01 19 01 VEH_TRACTOR_SUPER_SPEEDYTRAC
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b15   // vehicle life 
@@ -25,7 +25,7 @@
     1D FF 03  // Refittable cargo classes
     1E 01 00  // Non-refittable cargo classes
     1F 95 2C 0B 00    // Long format introduction date    
- 1790 * 22	 04 01 7F 01 82 "Super Speedytrac" 00
+ 1790 * 22	 04 01 7F 01 VEH_TRACTOR_SUPER_SPEEDYTRAC "Super Speedytrac" 00
  1791 * 44	 04 01 81 01 B2 D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "2005" 00 
  1792 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
@@ -65,7 +65,7 @@
                01 // range
                  B0 00 16 16 // articulated vehicle CB
                B3 00 //otherwise go to next action 2 ID 
- 1809 * 7	 03 01 01 82 // Action 3
+ 1809 * 7	 03 01 01 VEH_TRACTOR_SUPER_SPEEDYTRAC // Action 3
     00  // Number of different cargo types to support  
     B1 00   // Action 2 ID above
 
