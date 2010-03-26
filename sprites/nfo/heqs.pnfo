@@ -7,4 +7,7 @@
 #include "sprites/nfo/mining_trucks.pnfo"
 #include "sprites/nfo/tractors.pnfo"
 #include "sprites/nfo/foundry_transporters.pnfo"
-#include "sprites/nfo/industrial_trams.pnfo"
+
+#include "sprites/nfo/industrial_trams/industrial_tram_wagons_1.pnfo"
+#include "sprites/nfo/industrial_trams/industrial_tram_wagons_2.pnfo"
+#include "sprites/nfo/industrial_trams/industrial_trams.pnfo"
