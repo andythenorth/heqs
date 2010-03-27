@@ -32,9 +32,11 @@
     1E 01 00        // non-refittable cargo classes
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_3 "[Tram Wagon 3]" 00
- -1 * 33	 04 00 81 03 03 D0
+ -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_A D0
             		" (104t in 4 wagons)" 00	// D000
+ -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_B D0
                	" (234t in 9 wagons)" 00	// D001
+ -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_C D0
                	" (390t in 15 wagons)" 00	// D002
   //action 2 ID 00 reserved for invisible sprite (provided by template) 
  -1 * 4	 01 01 \b08 \b08
@@ -233,9 +235,9 @@
     -1 * 18	 02 01 D0  // set refit text strings
                  81 F2 00 FF //
                  03 // range
-                   00 80  00 00 
-                   01 80  01 01 
-                   02 80  02 02 
+                   STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_A 80  00 00 
+                   STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_B 80  01 01 
+                   STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_C 80  02 02 
                  FF 80 // end callback chain
 
 // handle callbacks etc

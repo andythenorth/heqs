@@ -32,11 +32,11 @@
     1E 01 00        // non-refittable cargo classes
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_1 "[Tram Wagon 1]" 00
- -1 * 33	 04 00 7F 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_A D0
+ -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_A D0
             		" (20t in 4 wagons)" 00
- -1 * 33	 04 00 7F 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_B D0
+ -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_B D0
                	" (45t in 9 wagons)" 00	
- -1 * 33	 04 00 7F 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_C D0
+ -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_C D0
                	" (75t in 15 wagons)" 00
   //action 2 ID 00 reserved for invisible sprite (provided by template) 
  -1 * 4	 01 01 \b08 \b08
