@@ -9,7 +9,7 @@
  -1 * 14	 02 01 F0 // handle cb for buy menu text 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   65 80  23 23 // text for vehicle window
+                   THIS_BUY_MENU_STR 80  23 23 // text for vehicle window
                  FA 00 //otherwise go to next action 2 ID 
                  
 // handle vehicle sprites         
@@ -63,3 +63,4 @@
 #undef THIS_VEHICLE_ID
 #undef THIS_WAGON_TYPE
 #undef THIS_LENGTH_ADJUST
+#undef THIS_BUY_MENU_STR
