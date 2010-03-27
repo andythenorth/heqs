@@ -32,7 +32,7 @@
     1E 01 00        // non-refittable cargo classes
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_2 "[Tram Wagon 2]" 00
- -1 * 33	 04 00 81 03 00 D0
+ -1 * 33	 04 00 81 03 02 D0
             		" (45t in 3 wagons)" 00	// D000
                	" (135t in 9 wagons)" 00	// D001
                	" (225t in 15 wagons)" 00	// D002
