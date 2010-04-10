@@ -1653,13 +1653,13 @@
  -1 * 28	 03 01 01 D7 // Action 3 
    07 // number of cargo types
    01 A1 00
-   08 A2 00
-   0E A3 00
-   11 A4 00
-   17 A5 00
-   19 A7 00
+   08 A2 00 
+   0E A6 00 // CORE
+   18 A6 00 // AORE (bauxite)
+   19 A7 00 // SAND
+   1A A5 00 // GRVL
    FF AF 00 // buy menu sprites
-   A6 00 // default sprites
+   A5 00 // default sprites
    
   // Wolfpen Ridge Dump Truck  50t		2005-2050	50mph
  2157 * 67	 00 01 19 01 D9
