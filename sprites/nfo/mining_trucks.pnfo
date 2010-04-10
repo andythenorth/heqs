@@ -1384,13 +1384,13 @@
  2751 * 9	 02 01 AF 01 01 00 00 00 00
  2752 * 28	 03 01 01 D5 // Action 3 
    07 // number of cargo types to support
-   01 A1 00
-   08 A2 00
-   0E A3 00 
-   11 A4 00
-   17 A5 00
-   19 A7 00
-   FF AF 00 // buy menu sprites
+     01 A1 00
+     08 A2 00 
+     0E A6 00 // CORE
+     18 A6 00 // AORE (bauxite)
+     19 A7 00 // SAND
+     1A A5 00 // GRVL
+     FF AF 00 // buy menu sprites
    A6 00 // default sprites
 
   // Camelback Mountain Mining Truck  240t		2001-2050	37mph
