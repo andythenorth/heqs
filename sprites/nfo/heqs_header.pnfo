@@ -32,7 +32,7 @@
       "FOOD" "FRUT" "CORE" "WATR"     // 0C - 0F, 10^ - 80^
       "RUBR" "___A" "___B" "___C"     // 10 - 13, 01^^ - 08^^
       "ALUM" "SCRP" "___F" "___G"     // 14 - 17, 10^^ - 80^^
-      "___H" "SAND" "GRVL" "WHEA"     // 18 - 1B, 01^^^ - 08^^^
+      "AORE" "SAND" "GRVL" "WHEA"     // 18 - 1B, 01^^^ - 08^^^
       "GOLD" "MAIZ" "TWOD" "DIAM"     // 1C - 1F, 10^^^ - 80^^^
 
    // -- Sounds -- //
