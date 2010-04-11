@@ -159,11 +159,13 @@
  1924 * 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
  1925 * 26	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 04 // range
-                  01 00 01 01 // format: id | cargo
-                  08 00 08 08
-                  0E 00 0E 0E
-                  06 00 19 19
+                 06 // range
+                  01 00  01 01 // COAL (format is: ID | cargo) 
+                  08 00  08 08 // IORE
+                  0E 00  0E 0E // CORE
+                  0E 00  18 18 // AORE (bauxite)
+                  06 00  19 19 // SAND
+                  11 00  1A 1A // GRVL
                  11 00 // default 
  1926 * 7	 03 01 01 06 // Action 3
       00  // Number of different cargo types to support  
@@ -457,19 +459,23 @@
     // otherwise use front wheel sprites
  2153 * 26	 02 01 CD // choose belly dump A sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 04 // range
-                  01 00 01 01 // format: id | cargo
-                  08 00 08 08 
-                  0E 00 0E 0E 
-                  06 00 19 19
+                 06 // range
+                  01 00  01 01 // COAL (format is: ID | cargo) 
+                  08 00  08 08 // IORE
+                  0E 00  0E 0E // CORE
+                  0E 00  18 18 // AORE (bauxite)
+                  06 00  19 19 // SAND
+                  11 00  1A 1A // GRVL
                  11 00 // default 
  2154 * 26	 02 01 CC  // choose belly dump B sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 04 // range
-                  21 00 01 01 // format: id | cargo 
-                  28 00 08 08
-                  2E 00 0E 0E 
-                  26 00 19 19
+                 06 // range
+                  21 00  01 01 // COAL (format is: ID | cargo) 
+                  28 00  08 08 // IORE
+                  2E 00  0E 0E // CORE
+                  2E 00  18 18 // AORE (bauxite)
+                  26 00  19 19 // SAND
+                  31 00  1A 1A // GRVL
                  31 00 // default 
  2155 * 14	 02 01 CA  // choose belly dump sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff 
