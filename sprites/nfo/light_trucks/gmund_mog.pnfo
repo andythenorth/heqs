@@ -1,0 +1,54 @@
+// Fourtrac	Wheeled Tractor (high speed)
+ -1 * 67	 00 01 \b25 01 VEH_TRUCK_GMUND_MOG 
+    00 00 00  // intro date (min value: 1-1-1920) 
+    02 20     // reliability 
+    03 \b50   // vehicle life 
+    04 \b255  // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    08 \b102  // speed in mph * 3.2
+    09 1E     // running cost factor 
+    0A 48 4C 00 00        // running cost base 
+    0E FF     // sprite ID
+    0F \b04   // capacity (default cargo is goods, so 4 crates = 2t)
+    10 05     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    13 \b3    // power in 10 hp
+    14 \b08   // weight in 1/4 tons
+    15 \b26   // speed in mph * 0.8
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D FF 03          // Refittable cargo classes
+    1E 01 00          // Non-refittable cargo classes
+    1F \d711420    // Long format introduction date  
+ -1 * 14	 04 01 7F 01 VEH_TRUCK_GMUND_MOG "Gmund Mog" 00
+ -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members 
+  // 1st company colour
+ -1 sprites/pcx/tractors.pcx 34  210 01 24 12 -5  -15
+ -1 sprites/pcx/tractors.pcx 66  210 01 20 26 -17 -9
+ -1 sprites/pcx/tractors.pcx 98  210 01 16 36 -14 -9
+ -1 sprites/pcx/tractors.pcx 146 210 01 20 26 -9  -10
+ -1 sprites/pcx/tractors.pcx 178 210 01 24 12 -5  -13
+ -1 sprites/pcx/tractors.pcx 210 210 01 20 26 -17 -9
+ -1 sprites/pcx/tractors.pcx 242 210 01 16 36 -31 -8
+ -1 sprites/pcx/tractors.pcx 290 210 01 20 26 -10 -10
+ -1 * 9	 02 01 A1
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ -1 * 4	 01 01 01 01 // buy menu sprites
+ -1 sprites/pcx/tractors.pcx 370 250 01 16 36 -14 -8
+ -1 * 9	 02 01 AF // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ -1 * 7	 03 01 01 VEH_TRUCK_GMUND_MOG // Action 3
+    01  // Number of different cargo types to support
+     FF AF 00 // buy menu sprites
+    A1 00   // default Action 2 ID 
