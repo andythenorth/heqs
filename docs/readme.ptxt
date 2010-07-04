@@ -9,7 +9,7 @@ Name of this GRF:   {{GRF_TITLE}}
 GRF_ID:             {{GRF_ID}}
 MD5 sum:            {{GRF_MD5}}
 
-Repository version: {{GRF_REVISION}}
+Repository version: {{REPO_REVISION}}
 
 
 
