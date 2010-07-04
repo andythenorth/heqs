@@ -24,7 +24,7 @@
       00 00 // loaded sprites
       00 00 // loading sprites 
 
- -1 * 4	 01 01 \b02 \b08
+ -1 * 4	 01 01 \b03 \b08
    // empty open wagon / hopper
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 0  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
@@ -43,6 +43,15 @@
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 20  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 20  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 20  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // tanker
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 40  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 40  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 40  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 40  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 40  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 40  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 40  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 40  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
   //action 2 ID 00 is reserved for invisible sprite 
   -1 * 17	 02 01 01 // open wagon / hopper
       01 // number loaded states
@@ -54,6 +63,11 @@
       01 // number loading states
       01 00 // loaded sprites
       01 00 // loading sprites 
+ -1 * 17	 02 01 03 // tanker
+      01 // number loaded states
+      01 // number loading states
+      02 00 // loaded sprites
+      02 00 // loading sprites 
 
 // choose appropriate sprites
   // case show wagon sprite
@@ -61,7 +75,7 @@
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
                  \b18 // range
                    01 00 01 01 // coal
-                   02 00 03 03 // oil
+                   03 00 03 03 // oil
                    02 00 04 04 // livestock                  
                    01 00 06 06 // grain 
                    02 00 07 07 // wood  
@@ -69,7 +83,7 @@
                    02 00 09 09 // steel                  
                    02 00 0B 0B // paper
                    01 00 0E 0E // copper ore
-                   02 00 0F 0F // water
+                   03 00 0F 0F // water
                    02 00 10 10 // rubber
                    01 00 15 15 // scrap metal 
                    01 00 18 18 // bauxite (aluminium ore) 
