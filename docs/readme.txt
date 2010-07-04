@@ -3,7 +3,7 @@ Heavy Equipment Set (HEQS)
 
 http://www.tt-foundry.com/
 
-Please see the fine user manual for more information about the set :)
+Please see the fine user manual for more information about the set (hmmm...the user manual needs updating) :)
 
 Name of this GRF:   {{GRF_TITLE}}
 GRF_ID:             {{GRF_ID}}
