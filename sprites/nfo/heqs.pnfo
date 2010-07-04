@@ -9,7 +9,7 @@
 #include "sprites/nfo/logging_trucks.pnfo"
 #include "sprites/nfo/mining_trucks.pnfo"
 
-#include "sprites/nfo/light_trucks/gmund_mog.pnfo"
+//#include "sprites/nfo/light_trucks/gmund_mog.pnfo"
 
 #include "sprites/nfo/tractors/fourtrac.pnfo"
 #include "sprites/nfo/tractors/super_speedytrac.pnfo"
