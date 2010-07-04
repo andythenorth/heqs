@@ -54,6 +54,31 @@
       01 // number loading states
       01 00 // loaded sprites
       01 00 // loading sprites 
+
+// choose appropriate sprites
+  // case show wagon sprite
+  -1 * 70	 02 01 A3  // choose sprites according to cargo slot (in cargo translation tt)
+                 81 47 00 FF // var 47 in format ccccwwtt where I want tt 
+                 01 // range
+                   01 00  01 01 // coal
+                 01 00 // default 
+  -1 * 18	 02 01 A2  // shorten wagon length to 1/8 and show sprites
+                 81 0C 00 FF //
+                 01 // range
+                   07 80  11 11 // vehicle length CB
+                 A3 00 // graphics  
+  -1 * 18	 02 01 A1  // shorten wagon length to vehicle length and show sprites
+                 81 0C 00 FF //
+                 01 // range
+                   THIS_LENGTH_ADJUST 80  11 11 // vehicle length CB
+                 A3 00 // graphics  
+  // case hide wagon sprite
+  -1 * 18	 02 01 AA  // shorten wagon length by max amount 
+                 81 0C 00 FF //
+                 01 // range
+                   07 80  11 11 // vehicle length CB
+                 00 00 // graphics 
+
        
 #undef THIS_Y_X_CROP_1
 #undef THIS_Y_X_CROP_2
