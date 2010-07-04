@@ -1,20 +1,76 @@
-#define THIS_Y_X_CROP_1  89  28
-#define THIS_Y_X_CROP_2  66 113
-#define THIS_Y_X_CROP_3  48 138
-#define THIS_Y_X_CROP_4  66 113
-#define THIS_Y_X_CROP_5  89  28
-#define THIS_Y_X_CROP_6  66 113
-#define THIS_Y_X_CROP_7  48 138
-#define THIS_Y_X_CROP_8  66 113
+#define THIS_Y_X_CROP_1  18   8
+#define THIS_Y_X_CROP_2  16  20
+#define THIS_Y_X_CROP_3  12  28
+#define THIS_Y_X_CROP_4  16  20
+#define THIS_Y_X_CROP_5  18   8
+#define THIS_Y_X_CROP_6  16  20
+#define THIS_Y_X_CROP_7  12  28
+#define THIS_Y_X_CROP_8  16  20
 
 
-!! ACTION 1
-// \w00 default unloaded - not moving (no wash)
--1 sprites/ships/THIS_PCX_FILE  20  10 01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
--1 sprites/ships/THIS_PCX_FILE  60  10 01  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
--1 sprites/ships/THIS_PCX_FILE  186 10 01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
--1 sprites/ships/THIS_PCX_FILE  328 10 01  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
--1 sprites/ships/THIS_PCX_FILE  454 10 01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
--1 sprites/ships/THIS_PCX_FILE  494 10 01  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
--1 sprites/ships/THIS_PCX_FILE  620 10 01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
--1 sprites/ships/THIS_PCX_FILE  762 10 01  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+ -1 * 4	 01 01 \b01 \b08
+// invisible sprites 
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  01  01   0 0
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  01  01   0 0
+  -1 * 17	 02 01 00
+      01 // number loaded states
+      01 // number loading states
+      00 00 // loaded sprites
+      00 00 // loading sprites 
+
+ -1 * 4	 01 01 \b02 \b08
+   // empty open wagon / hopper
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 0  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 0  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 0  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 0  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 0  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 0  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // van
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 0  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 0  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 0  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 0  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 0  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 0  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+  //action 2 ID 00 is reserved for invisible sprite 
+  -1 * 17	 02 01 01 // open wagon / hopper
+      01 // number loaded states
+      01 // number loading states
+      00 00 // loaded sprites
+      00 00 // loading sprites 
+ -1 * 17	 02 01 02 // van
+      01 // number loaded states
+      01 // number loading states
+      01 00 // loaded sprites
+      01 00 // loading sprites 
+       
+#undef THIS_Y_X_CROP_1
+#undef THIS_Y_X_CROP_2
+#undef THIS_Y_X_CROP_3
+#undef THIS_Y_X_CROP_4
+#undef THIS_Y_X_CROP_5
+#undef THIS_Y_X_CROP_6
+#undef THIS_Y_X_CROP_7
+#undef THIS_Y_X_CROP_8
+
+#undef THIS_PCX_FILE
+
+#undef THIS_OFFS_X_Y_1
+#undef THIS_OFFS_X_Y_2
+#undef THIS_OFFS_X_Y_3
+#undef THIS_OFFS_X_Y_4
+#undef THIS_OFFS_X_Y_5
+#undef THIS_OFFS_X_Y_6
+#undef THIS_OFFS_X_Y_7
+#undef THIS_OFFS_X_Y_8      
