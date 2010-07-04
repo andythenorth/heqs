@@ -17,6 +17,19 @@ Repository version: {{GRF_REVISION}}
 
 Changelog
 
+
+*version 0.7.0*
+Added Industrial Trams:
+- Kreuzberg Tram (available 1902)
+- Henningsdorf Tram (available 1922)
+- Ishizuchi Tram (available 1952)
+Changed speed of Speedytrac for better set balance.
+Improved cargo graphics support for dump trucks / mining trucks: affects gravel, bauxite, copper ore, default. 
+Set HP correctly for several vehicles.
+Cargo table support for FIRS cargos MILK, PETR, RFPR, GRVL (not used much within HEQS yet). 
+Internal changes to use more CPP templating.
+Numerous minor code fixes.
+
 *version 0.6*
 Added Grindelwald Foundry Transporter (available 1972).
 Added Kander Foundry Transporter (available 1967).
