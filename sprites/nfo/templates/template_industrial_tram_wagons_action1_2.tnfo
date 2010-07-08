@@ -24,7 +24,7 @@
       00 00 // loaded sprites
       00 00 // loading sprites 
 
- -1 * 4	 01 01 \b03 \b08
+ -1 * 4	 01 01 \b06 \b08
    // empty open wagon / hopper
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 0  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 0  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
@@ -52,6 +52,33 @@
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 40  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 40  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 40  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // wood empty
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // wood loading
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // wood loaded
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
   //action 2 ID 00 is reserved for invisible sprite 
   -1 * 17	 02 01 01 // open wagon / hopper
       01 // number loaded states
@@ -68,6 +95,11 @@
       01 // number loading states
       02 00 // loaded sprites
       02 00 // loading sprites 
+ -1 * 17	 02 01 04 // wood
+      01 // number loaded states
+      02 // number loading states
+      05 00 // loaded sprites
+      03 00  04 00 // loading sprites 
 
 // choose appropriate sprites
   // case show wagon sprite
