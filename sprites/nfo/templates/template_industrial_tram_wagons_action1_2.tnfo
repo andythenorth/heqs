@@ -62,23 +62,23 @@
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
  -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
    // wood loading
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 80  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 80  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 80  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 80  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 80  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 80  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 80  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 80  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
    // wood loaded
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 100  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 100  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 100  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 100  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE    0 100  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   16 100  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   48 100  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/industrial_tram_wagons/THIS_PCX_FILE   96 100  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
   //action 2 ID 00 is reserved for invisible sprite 
   -1 * 17	 02 01 01 // open wagon / hopper
       01 // number loaded states
@@ -96,10 +96,10 @@
       02 00 // loaded sprites
       02 00 // loading sprites 
  -1 * 17	 02 01 04 // wood
-      01 // number loaded states
-      02 // number loading states
-      05 00 // loaded sprites
-      03 00  04 00 // loading sprites 
+      02 // number loaded states
+      03 // number loading states
+      03 00  05 00 // loaded sprites
+      03 00  04 00  05 00 // loading sprites 
 
 // choose appropriate sprites
   // case show wagon sprite
@@ -110,7 +110,7 @@
                    03 00 03 03 // oil
                    02 00 04 04 // livestock                  
                    01 00 06 06 // grain 
-                   02 00 07 07 // wood  
+                   04 00 07 07 // wood  
                    01 00 08 08 // iron ore
                    02 00 09 09 // steel                  
                    02 00 0B 0B // paper
@@ -126,7 +126,7 @@
                    01 00 1A 1A // gravel 
                    01 00 1B 1B // wheat 
                    01 00 1D 1D // maize 
-                   02 00 1E 1E // tropical wood
+                   04 00 1E 1E // tropical wood
                  02 00 // default 
   -1 * 18	 02 01 A2  // shorten wagon length to 1/8 and show sprites
                  81 0C 00 FF //
