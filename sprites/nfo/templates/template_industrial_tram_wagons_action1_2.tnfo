@@ -109,6 +109,11 @@
       03 // number loading states
       03 00  05 00 // loaded sprites
       03 00  04 00  05 00 // loading sprites 
+ -1 * 17	 02 01 05 // livestock
+      01 // number loaded states
+      01 // number loading states
+      01 00 // loaded sprites
+      01 00 // loading sprites 
 
 // choose appropriate sprites
   // case show wagon sprite
@@ -117,7 +122,7 @@
                  \b21 // range
                    01 00 01 01 // coal
                    03 00 03 03 // oil
-                   02 00 04 04 // livestock                  
+                   05 00 04 04 // livestock                  
                    01 00 06 06 // grain 
                    04 00 07 07 // wood  
                    01 00 08 08 // iron ore
