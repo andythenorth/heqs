@@ -78,24 +78,24 @@
  -1 * 67	 00 00 \b20 01 VEH_TRACTOR_SPEEDYTRAC 
     00 00 00 // intro date (min value: 1-1-1920) 
     02 20    // reliability 
-    03 \b50  // vehicle life 
+    03 \b15  // vehicle life 
     04 \b255 // class life 
     05 00    // track type, 0=rail, 1=monorail, 2=maglev
     06 0F    // climate 
     07 05    // load amount
-    09 \w52   // speed in mph * 1.6    
-    0B \w30  // power
+    09 \w32   // speed in mph * 1.6    
+    0B \w140  // power
     0D 1E // running cost factor  
     0E 36 4C 00 00 // running cost base  
     12 FD    // sprite ID
-    14 \b04  // capacity (default cargo is goods, so 4 crates = 2t)
+    14 \b00  // capacity
     15 05    // cargo type
-    16 \b8   // weight in tons
+    16 \b9   // weight in tons
     19 08    // traction type
     1D 00 00 00 00     // Bit mask of cargo types available for refitting
     1F F2 // coefficient of TE
     27 02    // misc flags (bit mask)
-    2A \d711420 // Long format introduction date  
+    2A 32 17 0B 00    // long format introduction date      
  -1 * 4	 01 00 01 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
  -1 sprites/pcx/tractors.pcx 34  330 01 24 12 -5  -15
