@@ -56,7 +56,7 @@
     A1 00   // default Action 2 ID 
     
 // rail version
- -1 * 67	 00 00 \b19 01 VEH_TRUCK_GMUND_MOG 
+ -1 * 67	 00 00 \b20 01 VEH_TRUCK_GMUND_MOG 
     00 00 00 // intro date (min value: 1-1-1920) 
     02 20    // reliability 
     03 \b50  // vehicle life 

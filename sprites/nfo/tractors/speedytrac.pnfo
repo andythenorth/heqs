@@ -1,5 +1,10 @@
 // Speedytrac	Wheeled Tractor (high speed)	34t		1990-2020	50mph
- 1765 * 67	 00 01 19 01 VEH_TRACTOR_SPEEDYTRAC 
+ -1 * 16	 04 01 7F 01 VEH_TRACTOR_SPEEDYTRAC "Speedytrac" 00
+ -1 * 14	 04 00 7F 01 VEH_TRACTOR_SPEEDYTRAC "Speedytrac Hi-Rail Tractor" 00
+ -1 * 44	 04 01 81 01 B1 D0 "Hauls: " 8A "One 19t trailer"
+                               0d 98 "Model: " 8A "1990" 00 
+// road version
+ -1 * 67	 00 01 19 01 VEH_TRACTOR_SPEEDYTRAC 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b15   // vehicle life 
@@ -25,49 +30,95 @@
     1D FF 03          // refittable cargo classes
     1E 01 00          // non-refittable cargo classes
     1F 32 17 0B 00    // long format introduction date      
- 1766 * 16	 04 01 7F 01 VEH_TRACTOR_SPEEDYTRAC "Speedytrac" 00
- 1767 * 44	 04 01 81 01 B1 D0 "Hauls: " 8A "One 19t trailer"
-                               0d 98 "Model: " 8A "1990" 00 
- 1768 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
- 1769 sprites/pcx/tractors.pcx 34  330 01 24 12 -5  -15
- 1770 sprites/pcx/tractors.pcx 66  330 01 20 26 -17 -9
- 1771 sprites/pcx/tractors.pcx 98  330 01 16 36 -14 -9
- 1772 sprites/pcx/tractors.pcx 146 330 01 20 26 -9  -10
- 1773 sprites/pcx/tractors.pcx 178 330 01 24 12 -5  -13
- 1774 sprites/pcx/tractors.pcx 210 330 01 20 26 -17 -9
- 1775 sprites/pcx/tractors.pcx 242 330 01 16 36 -31 -8
- 1776 sprites/pcx/tractors.pcx 290 330 01 20 26 -10 -10
- 1777 * 9	 02 01 A0 01 01 00 00 00 00
- 1778 * 4	 01 01 01 04
- 1779 * 1	 00
- 1780 * 1	 00
- 1781 sprites/pcx/tractors.pcx 370 330 01 16 36 -14 -8
- 1782 * 1	 00
- 1783 * 9	 02 01 F1 // action2 buy menu sprites 
+ -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
+ -1 sprites/pcx/tractors.pcx 34  330 01 24 12 -5  -15
+ -1 sprites/pcx/tractors.pcx 66  330 01 20 26 -17 -9
+ -1 sprites/pcx/tractors.pcx 98  330 01 16 36 -14 -9
+ -1 sprites/pcx/tractors.pcx 146 330 01 20 26 -9  -10
+ -1 sprites/pcx/tractors.pcx 178 330 01 24 12 -5  -13
+ -1 sprites/pcx/tractors.pcx 210 330 01 20 26 -17 -9
+ -1 sprites/pcx/tractors.pcx 242 330 01 16 36 -31 -8
+ -1 sprites/pcx/tractors.pcx 290 330 01 20 26 -10 -10
+ -1 * 9	 02 01 A0 01 01 00 00 00 00
+ -1 * 4	 01 01 01 04
+ -1 * 1	 00
+ -1 * 1	 00
+ -1 sprites/pcx/tractors.pcx 370 330 01 16 36 -14 -8
+ -1 * 1	 00
+ -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
- 1784 * 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
+ -1 * 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    B1 80 23 23 // text for vehicle window
                  F1 00 //otherwise go to next action 2 ID 
- 1785 * 14	 02 01 B0 //ID B0
+ -1 * 14	 02 01 B0 //ID B0
                81 10 00 FF // articulated vehicle building instructions
                01 // range
                  00 80 01 01 //give callback result of 00 for value 01*
                FF FF //otherwise end the callback chain
- 1786 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+ -1 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
                01 // check one range
                  F0 00 00 00 // if length is 0 use purchase menu sprite
                A0 00 // else go to action 2 to apply graphics
- 1787 * 14	 02 01 B1 //ID B1
+ -1 * 14	 02 01 B1 //ID B1
                81 0C 00 FF // handle callbacks
                01 // range
                  B0 00 16 16 // articulated vehicle CB
                B3 00 //otherwise go to next action 2 ID 
- 1788 * 7	 03 01 01 VEH_TRACTOR_SPEEDYTRAC // Action 3
+ -1 * 7	 03 01 01 VEH_TRACTOR_SPEEDYTRAC // Action 3
     00  // Number of different cargo types to support  
     B1 00   // Action 2 ID above
+    
+// rail version
+ -1 * 67	 00 00 \b20 01 VEH_TRACTOR_SPEEDYTRAC 
+    00 00 00 // intro date (min value: 1-1-1920) 
+    02 20    // reliability 
+    03 \b50  // vehicle life 
+    04 \b255 // class life 
+    05 00    // track type, 0=rail, 1=monorail, 2=maglev
+    06 0F    // climate 
+    07 05    // load amount
+    09 \w52   // speed in mph * 1.6    
+    0B \w30  // power
+    0D 1E // running cost factor  
+    0E 36 4C 00 00 // running cost base  
+    12 FD    // sprite ID
+    14 \b04  // capacity (default cargo is goods, so 4 crates = 2t)
+    15 05    // cargo type
+    16 \b8   // weight in tons
+    19 08    // traction type
+    1D 00 00 00 00     // Bit mask of cargo types available for refitting
+    1F F2 // coefficient of TE
+    27 02    // misc flags (bit mask)
+    2A \d711420 // Long format introduction date  
+ -1 * 4	 01 00 01 08      // Action 1 | RV | 1 sprite set | 8 members 
+  // 1st company colour
+ -1 sprites/pcx/tractors.pcx 34  330 01 24 12 -5  -15
+ -1 sprites/pcx/tractors.pcx 66  330 01 20 26 -17 -9
+ -1 sprites/pcx/tractors.pcx 98  330 01 16 36 -14 -9
+ -1 sprites/pcx/tractors.pcx 146 330 01 20 26 -9  -10
+ -1 sprites/pcx/tractors.pcx 178 330 01 24 12 -5  -13
+ -1 sprites/pcx/tractors.pcx 210 330 01 20 26 -17 -9
+ -1 sprites/pcx/tractors.pcx 242 330 01 16 36 -31 -8
+ -1 sprites/pcx/tractors.pcx 290 330 01 20 26 -10 -10
+ -1 * 9	 02 00 B1
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ -1 * 4	 01 00 01 01 // buy menu sprites
+ -1 sprites/pcx/tractors.pcx 370 330 01 16 36 -14 -8
+ -1 * 9	 02 00 BF // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ -1 * 7	 03 00 01 VEH_TRACTOR_SPEEDYTRAC // Action 3
+    01  // Number of different cargo types to support
+     FF BF 00 // buy menu sprites
+    B1 00   // default Action 2 ID      
