@@ -99,13 +99,13 @@
  -1 * 4	 01 00 01 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
  -1 sprites/pcx/tractors.pcx 34  410 01 24 12 -5  -15
- -1 sprites/pcx/tractors.pcx 66  410 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 98  410 01 16 36 -14 -9
- -1 sprites/pcx/tractors.pcx 146 410 01 20 26 -9  -10
+ -1 sprites/pcx/tractors.pcx 66  410 01 20 26 -18 -12
+ -1 sprites/pcx/tractors.pcx 98  410 01 16 36 -14 -10
+ -1 sprites/pcx/tractors.pcx 146 410 01 20 26 -9  -13
  -1 sprites/pcx/tractors.pcx 178 410 01 24 12 -5  -13
  -1 sprites/pcx/tractors.pcx 210 410 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 242 410 01 16 36 -31 -8
- -1 sprites/pcx/tractors.pcx 290 410 01 20 26 -10 -10
+ -1 sprites/pcx/tractors.pcx 242 410 01 16 36 -31 -10
+ -1 sprites/pcx/tractors.pcx 290 410 01 20 26 -10 -12
  -1 * 9	 02 00 B1
       01 // number loading states
       01 // number loaded states
