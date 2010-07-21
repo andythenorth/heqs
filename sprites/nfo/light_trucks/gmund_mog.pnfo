@@ -63,7 +63,7 @@
     03 \b50  // vehicle life 
     04 \b255 // class life 
     05 00    // track type, 0=rail, 1=monorail, 2=maglev
-    06 0F    // climate 
+    06 00    // climate 
     07 05    // load amount
     09 \w52   // speed in mph * 1.6    
     0B \w30  // power
