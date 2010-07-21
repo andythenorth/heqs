@@ -81,7 +81,7 @@
     03 \b15   // vehicle life 
     04 \b255  // class life 
     05 00     // track type, 0=rail, 1=monorail, 2=maglev
-    06 0F     // climate 
+    06 00     // climate 
     07 05     // load amount
     09 \w32   // speed in mph * 1.6    
     0B \w140  // power
@@ -94,7 +94,7 @@
     19 08     // traction type
     1D 00 00 00 00     // Bit mask of cargo types available for refitting
     1F F2     // coefficient of TE
-    21 \b4    // vehicle length
+    21 \b3    // vehicle length
     27 02     // misc flags (bit mask)
     2A 32 17 0B 00     // long format introduction date      
  -1 * 4	 01 00 01 08   // Action 1 | RV | 1 sprite set | 8 members 
