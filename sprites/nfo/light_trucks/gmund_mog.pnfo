@@ -31,21 +31,21 @@
     1F \d711420    // Long format introduction date  
  -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
- -1 sprites/pcx/tractors.pcx 34  210 01 24 12 -5  -15
- -1 sprites/pcx/tractors.pcx 66  210 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 98  210 01 16 36 -14 -9
- -1 sprites/pcx/tractors.pcx 146 210 01 20 26 -9  -10
- -1 sprites/pcx/tractors.pcx 178 210 01 24 12 -5  -13
- -1 sprites/pcx/tractors.pcx 210 210 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 242 210 01 16 36 -31 -8
- -1 sprites/pcx/tractors.pcx 290 210 01 20 26 -10 -10
+  1 sprites/pcx/light_trucks.pcx   0 25 01 18  8  -3 -14
+  2 sprites/pcx/light_trucks.pcx  16 25 09 16 20  -9 -11
+  3 sprites/pcx/light_trucks.pcx  48 25 01 12 28  -6  -8
+  4 sprites/pcx/light_trucks.pcx  96 25 09 16 20  -1  -7
+  5 sprites/pcx/light_trucks.pcx 128 25 01 18  8  -3  -6
+  6 sprites/pcx/light_trucks.pcx 144 25 09 16 20 -17  -7
+  7 sprites/pcx/light_trucks.pcx 176 25 01 12 28 -22  -8
+  8 sprites/pcx/light_trucks.pcx 224 25 09 16 20  -9 -11
  -1 * 9	 02 01 A1
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
  -1 * 4	 01 01 01 01 // buy menu sprites
- -1 sprites/pcx/tractors.pcx 370 250 01 16 36 -14 -8
+ -1 sprites/pcx/light_trucks.pcx 176 25 01 12 28 -22 -8
  -1 * 9	 02 01 AF // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
@@ -57,44 +57,45 @@
     A1 00   // default Action 2 ID 
     
 // rail version
- -1 * 67	 00 00 \b20 01 VEH_TRUCK_GMUND_MOG 
+ -1 * 67	 00 00 \b21 01 VEH_TRUCK_GMUND_MOG 
     00 00 00 // intro date (min value: 1-1-1920) 
     02 20    // reliability 
     03 \b50  // vehicle life 
     04 \b255 // class life 
     05 00    // track type, 0=rail, 1=monorail, 2=maglev
-    06 00    // climate 
+    06 0F    // climate 
     07 05    // load amount
-    09 \w52   // speed in mph * 1.6    
-    0B \w30  // power
+    09 \w40  // speed in mph * 1.6    
+    0B \w88  // power
     0D 1E // running cost factor  
     0E 36 4C 00 00 // running cost base  
     12 FD    // sprite ID
     14 \b02  // capacity (default cargo is goods, so 2 crates = 1t)
     15 05    // cargo type
-    16 \b11   // weight in tons
+    16 \b11  // weight in tons
     19 08    // traction type
     1D 00 00 00 00     // Bit mask of cargo types available for refitting
     1F F2 // coefficient of TE
+    21 \b4   // vehicle length
     27 02    // misc flags (bit mask)
     2A \d711420 // Long format introduction date  
  -1 * 4	 01 00 01 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
- -1 sprites/pcx/tractors.pcx 34  210 01 24 12 -5  -15
- -1 sprites/pcx/tractors.pcx 66  210 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 98  210 01 16 36 -14 -9
- -1 sprites/pcx/tractors.pcx 146 210 01 20 26 -9  -10
- -1 sprites/pcx/tractors.pcx 178 210 01 24 12 -5  -13
- -1 sprites/pcx/tractors.pcx 210 210 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 242 210 01 16 36 -31 -8
- -1 sprites/pcx/tractors.pcx 290 210 01 20 26 -10 -10
+  1 sprites/pcx/light_trucks.pcx 0  0 01 18 8 -3 -14
+  2 sprites/pcx/light_trucks.pcx 16 0 09 16 20 -9 -11
+  3 sprites/pcx/light_trucks.pcx 48 0 01 12 28 -6 -8
+  4 sprites/pcx/light_trucks.pcx 96 0 09 16 20 -1 -7
+  5 sprites/pcx/light_trucks.pcx 128 0 01 18 8 -3 -6
+  6 sprites/pcx/light_trucks.pcx 144 0 09 16 20 -17 -7
+  7 sprites/pcx/light_trucks.pcx 176 0 01 12 28 -22 -8
+  8 sprites/pcx/light_trucks.pcx 224 0 09 16 20 -9 -11
  -1 * 9	 02 00 B1
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
  -1 * 4	 01 00 01 01 // buy menu sprites
- -1 sprites/pcx/tractors.pcx 242 250 01 16 36 -14 -8
+ -1 sprites/pcx/light_trucks.pcx 176 0 01 12 28 -22 -6
  -1 * 9	 02 00 BF // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
