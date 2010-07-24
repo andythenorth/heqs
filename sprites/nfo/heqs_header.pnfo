@@ -43,3 +43,8 @@
 //    4 **	 sprites/sounds/74_tractor.wav   
 
    // -- End Sounds -- //
+   
+   
+   // -- Global Parameters -- //
+   
+   -1 * 00 0D 8E \D= FF 00 \d02   // set train depot view y offset
