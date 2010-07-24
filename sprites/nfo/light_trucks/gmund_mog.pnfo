@@ -94,14 +94,6 @@
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
- -1 * 4	 01 00 01 01 // buy menu sprites
- -1 sprites/pcx/light_trucks.pcx 176 0 01 12 28 -22 -6
- -1 * 9	 02 00 BF // action2 buy menu sprites 
-      01 // number loading states
-      01 // number loaded states
-      00 00 // loading sprites
-      00 00 // loaded sprites
  -1 * 7	 03 00 01 VEH_TRUCK_GMUND_MOG // Action 3
-    01  // Number of different cargo types to support
-     FF BF 00 // buy menu sprites
+    00  // Number of different cargo types to support
     B1 00   // default Action 2 ID     
