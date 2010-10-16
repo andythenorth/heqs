@@ -1,0 +1,78 @@
+// Camelback Mountain Mining Truck  240t		2001-2050	37mph
+ 2340 * 67	 00 01 1A 01 D6
+    00 \w1-1-1920     // intro date (min value: 1-1-1920)
+    02 20             // reliability
+    03 19             // vehicle life
+    04 19             // class life
+    06 0F             // climate
+    07 05             // load amount
+    08 \b119          // speed in mph * 3.2
+    09 50             // running cost factor
+    0A 48 4C 00 00    // running cost base
+    0E FF             // sprite ID
+    0F 00             // capacity
+    10 FF             // cargo type 
+    11 5D             // cost factor
+    12 19             // sound effect
+    13 \b93           // power in 10 hp
+    14 \b176          // weight in 1/4 tons
+    15 \b30           // speed in mph * 0.8
+    16 40 00 00 28    // Bit mask of cargo types available for refitting
+    // flips 1D / 1E values: excludes grain, wheat, maize
+    17 12             // Callback flags bit mask
+    18 4C             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
+    1A 00             // Refit cost, using 25% of the purchase price cost base
+    1B 00             // Retire vehicle early, this many years before the end of phase 2
+    1C 02             // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D 10 00          // Refittable cargo classes
+    1E EF 03          // Non-refittable cargo classes
+    1F 8D 26 0B 00    // Long format introduction date
+ 2341 * 37	 04 01 7F 01 D6 "Camelback Mountain Mining Truck" 00
+ 2342 * 43	 04 01 81 01 D4 D0 "Hauls: " 8A "Two 120t belly-dump trailers" 00 // (240t total)
+ 2343 * 4	 01 01 01 08
+  // Camelback Mountain
+ -1 sprites/pcx/heavy_trucks.pcx 34 330 01 24 12 -5 -16
+ -1 sprites/pcx/heavy_trucks.pcx 66 330 09 20 26 -15 -8
+ -1 sprites/pcx/heavy_trucks.pcx 98 330 01 16 36 -18 -10
+ -1 sprites/pcx/heavy_trucks.pcx 146 330 09 20 26 -11 -9
+ -1 sprites/pcx/heavy_trucks.pcx 178 330 01 24 12 -5 -15
+ -1 sprites/pcx/heavy_trucks.pcx 210 330 09 20 26 -16 -9
+ -1 sprites/pcx/heavy_trucks.pcx 242 330 01 16 36 -20 -10
+ -1 sprites/pcx/heavy_trucks.pcx 290 330 09 20 26 -10 -11
+ 2352 * 9	 02 01 A1 01 01 00 00 00 00 //normal action2 defining graphics with no loading/loaded stages
+ 2353 * 4	 01 01 01 04
+ 2354 * 1	 00
+ 2355 * 1	 00
+ -1 sprites/pcx/heavy_trucks.pcx 370 334 01 12 36 -14 -6
+ 2357 * 1	 00
+ 2358 * 9	 02 01 F1 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ 2359 * 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   D4 80 23 23 // text for vehicle window
+                 F1 00 //otherwise go to next action 2 ID 
+ 2360 * 22	 02 01 B0 //ID B0
+               81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
+               03 //check one ranges
+               07 80 01 01 //give callback result
+               05 80 02 02 //give callback result
+               07 80 03 03 //give callback result
+               FF FF //otherwise end the callback chain
+ 2361 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               A1 00 // else go to action 2 to apply graphics
+ 2362 * 18	 02 01 B1 //
+               81 0C 00 FF // handle callbacks
+               02 // range
+                 02 80 11 11 // vehicle length CB
+                 B0 00 16 16 // articulated vehicle building instructions
+               B6 00 //otherwise go to next action 2 ID 
+ 2363 * 7	 03 01 01 D6  // Action 3
+    00  // Number of different cargo types to support 
+    B1 00   // Action 2 ID above  

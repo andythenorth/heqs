@@ -1,0 +1,188 @@
+// Mount Rainier Dump Truck 50t		1960-1981	35mph
+ 2294 * 67	 00 01 19 01 D1
+    00 \w1-1-1920  // intro date (min value: 1-1-1920)
+    02 20         // reliability
+    03 19         // vehicle life
+    04 19         // class life
+    06 0F         // climate
+    07 05         // load amount
+    08 \b112      // speed in mph * 3.2
+    09 50         // running cost factor
+    0A 48 4C 00 00        // running cost base
+    0E FF         // sprite ID
+    0F \b50       // capacity
+    10 FF         // cargo type 
+    11 5D         // cost factor
+    12 19         // sound effect
+    13 \b60       // power in 10 hp
+    14 \b140      // weight in 1/4 tons
+    15 \b28       // speed in mph * 0.8
+    16 40 00 00 28     // Bit mask of cargo types available for refitting
+    // flips 1D / 1E values: excludes grain, wheat, maize
+    17 00     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D 10 00          // Refittable cargo classes
+    1E EF 03          // Non-refittable cargo classes
+    1F 72 EC 0A 00    // Long format introduction date
+ 2295 * 28	 04 01 7F 01 D1 "Mt. Rainier Dump Truck" 00
+ 2296 * 4	 01 01 0F 08
+  // Mount Rainier 50t dump truck empty
+ 2297 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 10 01 24 12 -5 -13
+ 2298 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 10 09 20 26 -17 -8
+ 2299 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 10 01 16 36 -18 -8
+ 2300 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 10 09 20 26 -11 -9
+ 2301 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 10 01 24 12 -5 -13
+ 2302 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 10 09 20 26 -16 -9
+ 2303 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 10 01 16 36 -22 -9
+ 2304 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 10 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck coal partial
+ 2305 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 50 01 24 12 -5 -13
+ 2306 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 50 09 20 26 -17 -8
+ 2307 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 50 01 16 36 -18 -8
+ 2308 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 50 09 20 26 -11 -9
+ 2309 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 50 01 24 12 -5 -13
+ 2310 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 50 09 20 26 -16 -9
+ 2311 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 50 01 16 36 -22 -9
+ 2312 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 50 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck coal
+ 2313 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 90 01 24 12 -5 -13
+ 2314 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 90 09 20 26 -17 -8
+ 2315 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 90 01 16 36 -18 -8
+ 2316 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 90 09 20 26 -11 -9
+ 2317 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 90 01 24 12 -5 -13
+ 2318 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 90 09 20 26 -16 -9
+ 2319 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 90 01 16 36 -22 -9
+ 2320 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 90 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck iron partial
+ 2321 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 130 01 24 12 -5 -13
+ 2322 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 130 09 20 26 -17 -8
+ 2323 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 130 01 16 36 -18 -8
+ 2324 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 130 09 20 26 -11 -9
+ 2325 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 130 01 24 12 -5 -13
+ 2326 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 130 09 20 26 -16 -9
+ 2327 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 130 01 16 36 -22 -9
+ 2328 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 130 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck iron
+ 2329 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 170 01 24 12 -5 -13
+ 2330 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 170 09 20 26 -17 -8
+ 2331 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 170 01 16 36 -18 -8
+ 2332 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 170 09 20 26 -11 -9
+ 2333 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 170 01 24 12 -5 -13
+ 2334 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 170 09 20 26 -16 -9
+ 2335 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 170 01 16 36 -22 -9
+ 2336 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 170 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck white partial
+ 2337 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 210 01 24 12 -5 -13
+ 2338 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 210 09 20 26 -17 -8
+ 2339 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 210 01 16 36 -18 -8
+ 2340 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 210 09 20 26 -11 -9
+ 2341 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 210 01 24 12 -5 -13
+ 2342 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 210 09 20 26 -16 -9
+ 2343 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 210 01 16 36 -22 -9
+ 2344 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 210 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck white
+ 2345 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 250 01 24 12 -5 -13
+ 2346 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 250 09 20 26 -17 -8
+ 2347 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 250 01 16 36 -18 -8
+ 2348 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 250 09 20 26 -11 -9
+ 2349 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 250 01 24 12 -5 -13
+ 2350 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 250 09 20 26 -16 -9
+ 2351 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 250 01 16 36 -22 -9
+ 2352 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 250 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck brown partial
+ 2353 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 290 01 24 12 -5 -13
+ 2354 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 290 09 20 26 -17 -8
+ 2355 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 290 01 16 36 -18 -8
+ 2356 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 290 09 20 26 -11 -9
+ 2357 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 290 01 24 12 -5 -13
+ 2358 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 290 09 20 26 -16 -9
+ 2359 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 290 01 16 36 -22 -9
+ 2360 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 290 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck brown
+ 2361 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 330 01 24 12 -5 -13
+ 2362 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 330 09 20 26 -17 -8
+ 2363 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 330 01 16 36 -18 -8
+ 2364 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 330 09 20 26 -11 -9
+ 2365 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 330 01 24 12 -5 -13
+ 2366 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 330 09 20 26 -16 -9
+ 2367 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 330 01 16 36 -22 -9
+ 2368 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 330 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck grey partial
+ 2369 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 370 01 24 12 -5 -13
+ 2370 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 370 09 20 26 -17 -8
+ 2371 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 370 01 16 36 -18 -8
+ 2372 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 370 09 20 26 -11 -9
+ 2373 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 370 01 24 12 -5 -13
+ 2374 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 370 09 20 26 -16 -9
+ 2375 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 370 01 16 36 -22 -9
+ 2376 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 370 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck grey
+ 2377 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 410 01 24 12 -5 -13
+ 2378 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 410 09 20 26 -17 -8
+ 2379 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 410 01 16 36 -18 -8
+ 2380 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 410 09 20 26 -11 -9
+ 2381 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 410 01 24 12 -5 -13
+ 2382 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 410 09 20 26 -16 -9
+ 2383 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 410 01 16 36 -22 -9
+ 2384 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 410 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck red partial
+ 2385 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 450 01 24 12 -5 -13
+ 2386 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 450 09 20 26 -17 -8
+ 2387 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 450 01 16 36 -18 -8
+ 2388 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 450 09 20 26 -11 -9
+ 2389 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 450 01 24 12 -5 -13
+ 2390 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 450 09 20 26 -16 -9
+ 2391 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 450 01 16 36 -22 -9
+ 2392 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 450 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck red
+ 2393 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 490 01 24 12 -5 -13
+ 2394 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 490 09 20 26 -17 -8
+ 2395 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 490 01 16 36 -18 -8
+ 2396 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 490 09 20 26 -11 -9
+ 2397 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 490 01 24 12 -5 -13
+ 2398 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 490 09 20 26 -16 -9
+ 2399 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 490 01 16 36 -22 -9
+ 2400 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 490 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck sand partial
+ 2401 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 530 01 24 12 -5 -13
+ 2402 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 530 09 20 26 -17 -8
+ 2403 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 530 01 16 36 -18 -8
+ 2404 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 530 09 20 26 -11 -9
+ 2405 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 530 01 24 12 -5 -13
+ 2406 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 530 09 20 26 -16 -9
+ 2407 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 530 01 16 36 -22 -9
+ 2408 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 530 09 20 26 -8 -11
+  // Mount Rainier 50t dump truck sand
+ 2409 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 34 570 01 24 12 -5 -13
+ 2410 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 66 570 09 20 26 -17 -8
+ 2411 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 98 570 01 16 36 -18 -8
+ 2412 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 146 570 09 20 26 -11 -9
+ 2413 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 178 570 01 24 12 -5 -13
+ 2414 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 210 570 09 20 26 -16 -9
+ 2415 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 242 570 01 16 36 -22 -9
+ 2416 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 290 570 09 20 26 -8 -11
+ 2417 * 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+ 2418 * 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+ 2419 * 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+ 2420 * 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+ 2421 * 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+ 2422 * 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+ 2423 * 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
+ 2424 * 4	 01 01 01 04
+ 2425 * 1	 00
+ 2426 * 1	 00
+ 2427 sprites/pcx/mining_trucks/1960s_dump_truck_3_axle.pcx 370 13 01 12 36 -14 -6
+ 2428 * 1	 00
+ 2429 * 9	 02 01 AF 01 01 00 00 00 00
+ 2430 * 28	 03 01 01 D1 // Action 3 
+    07  // number of cargos
+     01 A1 00
+     08 A2 00 
+     0E A6 00 // CORE
+     18 A6 00 // AORE (bauxite)
+     19 A7 00 // SAND
+     1A A5 00 // GRVL
+     FF AF 00 // buy menu sprites
+    A6 00 // default sprites
