@@ -1,5 +1,5 @@
 // Harney Peak Mining Hauler 60t		1979-2050	40mph
- 2455 * 67	 00 01 19 01 D3
+ 2455 * 67	 00 01 19 01 VEH_MINING_TRUCK_HARNEY_PEAK
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
@@ -26,7 +26,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F \d722825       // Long format introduction date
- 2456 * 30	 04 01 7F 01 D3 "Harney Peak Mining Truck" 00  
+ 2456 * 30	 04 01 7F 01 VEH_MINING_TRUCK_HARNEY_PEAK "Harney Peak Mining Truck" 00  
  2457 * 4	 01 01 0F 08
   // Harney Peak 60t hauler empty
  2458 sprites/pcx/mining_trucks/60t_mining_truck.pcx 34 10 01 24 12 -5 -13
@@ -176,7 +176,7 @@
  2588 sprites/pcx/mining_trucks/60t_mining_truck.pcx 370 14 01 12 36 -14 -6
  2589 * 1	 00
  2590 * 9	 02 01 AF 01 01 00 00 00 00
- 2591 * 28	 03 01 01 D3 // Action 3
+ 2591 * 28	 03 01 01 VEH_MINING_TRUCK_HARNEY_PEAK // Action 3
     07 // number of cargo types
      01 A1 00
      08 A2 00 
