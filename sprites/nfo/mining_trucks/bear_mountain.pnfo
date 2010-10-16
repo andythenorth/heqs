@@ -1,5 +1,5 @@
 // Bear Mountain Mining Truck 120t		1980-2050	35mph
- 2592 * 67	 00 01 1A 01 D4 
+ 2592 * 67	 00 01 1A 01 VEH_MINING_TRUCK_BEAR_MOUNTAIN 
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
@@ -27,7 +27,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 9C 08 0B 00    // Long format introduction date
- 2593 * 32	 04 01 7F 01 D4 "Bear Mountain Mining Truck" 00
+ 2593 * 32	 04 01 7F 01 VEH_MINING_TRUCK_BEAR_MOUNTAIN "Bear Mountain Mining Truck" 00
  2594 * 42	 04 01 81 01 D3 D0 "Hauls: " 8A "One 120t belly-dump trailer" 00
  2595 * 4	 01 01 01 08
  2596 sprites/pcx/heavy_trucks.pcx 34 330 01 24 12 -5 -16
@@ -70,6 +70,6 @@
                  02 80 11 11 // vehicle length CB 
                  B0 00 16 16 // articulated vehicle CB
                B6 00 //otherwise go to next action 2 ID 
- 2615 * 7	 03 01 01 D4 // Action 3
+ 2615 * 7	 03 01 01 VEH_MINING_TRUCK_BEAR_MOUNTAIN // Action 3
     00  // Number of different cargo types to support
     B1 00   // Action 2 ID above  

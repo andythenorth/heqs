@@ -25,6 +25,7 @@
 #define VEH_MINING_TRUCK_MT_MCKINLEY           D0
 #define VEH_MINING_TRUCK_RAINIER               D1
 
+#define VEH_MINING_TRUCK_BEAR_MOUNTAIN         D4
 #define VEH_MINING_TRUCK_ROCKCHUCK_PEAK        D5
 
 
