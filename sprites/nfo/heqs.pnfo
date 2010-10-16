@@ -6,7 +6,9 @@
 #include "sprites/nfo/bulldozers.pnfo"
 #include "sprites/nfo/crawlers/red_peak_articulated_crawler.pnfo"
 
-#include "sprites/nfo/logging_trucks.pnfo"
+#include "sprites/nfo/logging_trucks/logging_trucks.pnfo"
+#include "sprites/nfo/logging_trucks/logging_truck_trailers.pnfo"
+
 #include "sprites/nfo/mining_trucks.pnfo"
 
 #include "sprites/nfo/light_trucks/gmund_mog.pnfo"
