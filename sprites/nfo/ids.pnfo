@@ -8,6 +8,10 @@
 
 #define VEH_TRUCK_GMUND_MOG                    E0
 
+#define VEH_LOGGING_TRUCK_C10                  A0            
+#define VEH_LOGGING_TRUCK_C16                  A1            
+
+
 #define VEH_INDUSTRIAL_TRAM_ELECTRIC_1         B0
 #define VEH_INDUSTRIAL_TRAM_ELECTRIC_2         B1
 #define VEH_INDUSTRIAL_TRAM_ELECTRIC_3         B2

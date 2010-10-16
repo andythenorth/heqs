@@ -1,7 +1,7 @@
  // --------------------------- Logging Trucks --------------------- //
 
   // Cascade Logging Truck  90t
- -1 * 67	 00 01 19 01 A0
+ -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_C10
     00 \w1-1-1972  // intro date (min value: 1-1-1920)
     02 20     // reliability
     03 \b40     // vehicle life
@@ -27,13 +27,13 @@
     1D 00 00  // Refittable cargo classes
     1E 00 00  // Non-refittable cargo classes
     1F 34 FD 0A 00    // Long format introduction date
- -1 * 27	 04 01 7F 01 A0 "Cascade C10 Logging Truck" 00
+ -1 * 27	 04 01 7F 01 VEH_LOGGING_TRUCK_C10 "Cascade C10 Logging Truck" 00
  -1 * 101	 04 01 81 01 A0 D0 "Hauls: " 8A "One logging trailer" 
                                 0d 98 "Model: " 8A "1972"
                                 0d 98 
                                 00 
   // Cascade Logging Truck DOUBLE
- -1 * 67	 00 01 19 01 A1
+ -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_C16
     00 \w1-1-1972  // intro date (min value: 1-1-1920)
     02 20     // reliability
     03 \b40     // vehicle life
@@ -59,7 +59,7 @@
     1D 00 00  // Refittable cargo classes
     1E 00 00  // Non-refittable cargo classes
     1F 34 FD 0A 00    // Long format introduction date
- -1 * 27	 04 01 7F 01 A1 "Cascade C16 Logging Truck" 00
+ -1 * 27	 04 01 7F 01 VEH_LOGGING_TRUCK_C16 "Cascade C16 Logging Truck" 00
  -1 * 101	 04 01 81 01 A1 D0 "Hauls: " 8A "Two logging trailers" 
                                 0d 98 "Model: " 8A "1972"
                                 0d 98 
@@ -142,10 +142,10 @@
                  02 80 11 11 // vehicle length CB
                  C0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                C2 00
- -1 * 10	 03 01 01 A0  // Action 3 Cascade
+ -1 * 10	 03 01 01 VEH_LOGGING_TRUCK_C10  // Action 3 Cascade
     00  // Number of cargo types  
     B1 00   // default sprites
- -1 * 10	 03 01 01 A1 // Action 3 Cascade DOUBLE
+ -1 * 10	 03 01 01 VEH_LOGGING_TRUCK_C16 // Action 3 Cascade DOUBLE
     00  // Number of cargo types  
     C1 00   // default sprites
 // --------------------------- end of Logging Trucks --------------------- //
