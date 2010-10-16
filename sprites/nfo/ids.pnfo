@@ -23,6 +23,9 @@
 #define VEH_FOUNDRY_TRANSPORTER_KANDER_2       12
 
 #define VEH_MINING_TRUCK_MT_MCKINLEY           D0
+#define VEH_MINING_TRUCK_RAINIER               D1
+
+#define VEH_MINING_TRUCK_ROCKCHUCK_PEAK        D5
 
 
 
