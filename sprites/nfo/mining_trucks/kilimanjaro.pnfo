@@ -1,5 +1,5 @@
 // Kilimanjaro Mining Hauler  160t	1200hp	1990-2050	57mph
- 2777 * 67	 00 01 19 01 D7
+ 2777 * 67	 00 01 19 01 VEH_MINING_TRUCK_KILIMANJARO
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
@@ -26,7 +26,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F \d726840       // Long format introduction date (dword)
- 2778 * 39	 04 01 7F 01 D7 "Kilimanjaro Unitised Mining Truck" 00
+ 2778 * 39	 04 01 7F 01 VEH_MINING_TRUCK_KILIMANJARO "Kilimanjaro Unitised Mining Truck" 00
  2779 * 4	 01 01 0F 08
   // unitised hauler empty
  2780 sprites/pcx/mining_trucks/unitised_mining_truck.pcx 34 10 01 24 12 -5 -15
@@ -176,7 +176,7 @@
  -1 sprites/pcx/mining_trucks/unitised_mining_truck.pcx 370 14 01 12 36 -14 -6
  -1 * 1	 00
  -1 * 9	 02 01 AF 01 01 00 00 00 00
- -1 * 28	 03 01 01 D7 // Action 3 
+ -1 * 28	 03 01 01 VEH_MINING_TRUCK_KILIMANJARO // Action 3 
    07 // number of cargo types
      01 A1 00
      08 A2 00 
