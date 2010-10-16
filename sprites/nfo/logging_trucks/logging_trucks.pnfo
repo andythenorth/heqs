@@ -122,7 +122,7 @@
                81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                02 //check one range
                  02 80 11 11 // vehicle length CB
-                 B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+                 B0 00 16 16 // articulated vehicle building instructions
                B2 00
  -1 * 14	 02 01 C0
                81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
@@ -140,7 +140,7 @@
                81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                02 //check one range
                  02 80 11 11 // vehicle length CB
-                 C0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+                 C0 00 16 16 // articulated vehicle building instructions
                C2 00
  -1 * 10	 03 01 01 VEH_LOGGING_TRUCK_C10  // Action 3 Cascade
     00  // Number of cargo types  
