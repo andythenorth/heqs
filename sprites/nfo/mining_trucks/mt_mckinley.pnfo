@@ -1,5 +1,5 @@
  // Mt. McKinley Dump Truck  30t		1954-1972	35mph
- 2157 * 67	 00 01 19 01 D0
+ 2157 * 67	 00 01 19 01 VEH_MINING_TRUCK_MT_MCKINLEY
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
@@ -26,7 +26,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 93 E4 0A 00    // Long format introduction date
- 2158 * 29	 04 01 7F 01 D0 "Mt. McKinley Dump Truck" 00
+ 2158 * 29	 04 01 7F 01 VEH_MINING_TRUCK_MT_MCKINLEY "Mt. McKinley Dump Truck" 00
  2159 * 4	 01 01 0F 08
   // Mt. McKinley 30t dump truck empty 
  2160 sprites/pcx/mining_trucks/1960s_dump_truck_2_axle.pcx 34 10 01 24 12 -5 -13
@@ -176,7 +176,7 @@
  2290 sprites/pcx/mining_trucks/1960s_dump_truck_2_axle.pcx 370 13 01 12 36 -14 -6
  2291 * 1	 00
  2292 * 9	 02 01 AF 01 01  00 00  00 00
- 2293 * 28	 03 01 01 D0 // Action 3
+ 2293 * 28	 03 01 01 VEH_MINING_TRUCK_MT_MCKINLEY // Action 3
     07 // number of cargos
      01 A1 00
      08 A2 00 
