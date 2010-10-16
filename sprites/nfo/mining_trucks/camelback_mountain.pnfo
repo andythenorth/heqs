@@ -1,5 +1,5 @@
 // Camelback Mountain Mining Truck  240t		2001-2050	37mph
- 2340 * 67	 00 01 1A 01 D6
+ 2340 * 67	 00 01 1A 01 VEH_MINING_TRUCK_CAMELBACK_MOUNTAIN
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
@@ -27,7 +27,7 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 8D 26 0B 00    // Long format introduction date
- 2341 * 37	 04 01 7F 01 D6 "Camelback Mountain Mining Truck" 00
+ 2341 * 37	 04 01 7F 01 VEH_MINING_TRUCK_CAMELBACK_MOUNTAIN "Camelback Mountain Mining Truck" 00
  2342 * 43	 04 01 81 01 D4 D0 "Hauls: " 8A "Two 120t belly-dump trailers" 00 // (240t total)
  2343 * 4	 01 01 01 08
   // Camelback Mountain
@@ -73,6 +73,6 @@
                  02 80 11 11 // vehicle length CB
                  B0 00 16 16 // articulated vehicle building instructions
                B6 00 //otherwise go to next action 2 ID 
- 2363 * 7	 03 01 01 D6  // Action 3
+ 2363 * 7	 03 01 01 VEH_MINING_TRUCK_CAMELBACK_MOUNTAIN  // Action 3
     00  // Number of different cargo types to support 
     B1 00   // Action 2 ID above  
