@@ -7,162 +7,132 @@
        // Lead vehicle chooses different trailers depending on date
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
-  267 * 67	 00 01 19 01 VEH_CRAWLER_MEDIUM_TRAILER_1
+  267 * 67	 00 01 \b20 01 VEH_CRAWLER_MEDIUM_TRAILER_1
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00  // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b10   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b12   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
-  268 * 67	 00 01 19 01 VEH_CRAWLER_MEDIUM_TRAILER_2
+  268 * 67	 00 01 \b20 01 VEH_CRAWLER_MEDIUM_TRAILER_2
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00    // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00    // running cost base
       0E FF     // sprite ID
       0F \b12   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b12   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
-  269 * 67	 00 01 19 01 VEH_CRAWLER_MEDIUM_TRAILER_3
+  269 * 67	 00 01 \b20 01 VEH_CRAWLER_MEDIUM_TRAILER_3
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00   // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00   // running cost base
       0E FF     // sprite ID
       0F \b14   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b12   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
-  270 * 67	 00 01 19 01 VEH_CRAWLER_MEDIUM_TRAILER_4
+  270 * 67	 00 01 \b20 01 VEH_CRAWLER_MEDIUM_TRAILER_4
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00  // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b16   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b12   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
-  271 * 67	 00 01 \b25 01 VEH_CRAWLER_MEDIUM_TRAILER_5
+  271 * 67	 00 01 \b20 01 VEH_CRAWLER_MEDIUM_TRAILER_5
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00    // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b19   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b12   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
-  272 * 67	 00 01 \b25 01 VEH_CRAWLER_MEDIUM_TRAILER_6
+  272 * 67	 00 01 \b20 01 VEH_CRAWLER_MEDIUM_TRAILER_6
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00    // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b22   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b12   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
   // define additional text suffixes
   274 * 33	 04 00 81 02 00 D0
             		" (Wheeled Trailer)" 00	// D000 = "1st class"
@@ -781,168 +751,139 @@
        // Lead vehicle chooses different trailers depending on date
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
-  754 * 67	 00 01 19 01 VEH_CRAWLER_LARGE_TRAILER_1
+  754 * 67	 00 01 \b20 01 VEH_CRAWLER_LARGE_TRAILER_1
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
     06 00     // climate 
     07 05     // load amount 
-    08 80     // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 00     // running cost factor 
     0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
     0F \b30   // capacity
     10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
+    11 00     // cost factor
     13 \b00   // power in 10 hp
     14 \b01   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
     16 C0 20 00 68    // bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 11     // callback flags bit mask
     1A 00     // refit cost, using 25% of the purchase price cost base
-    1B 00     // retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00  // refittable cargo classes
     1E EF 03  // non-refittable cargo classes
-    1F 60 B3 0A 00    // long format introduction date  
-  755 * 67	 00 01 19 01 VEH_CRAWLER_LARGE_TRAILER_2
+  755 * 67	 00 01 \b20 01 VEH_CRAWLER_LARGE_TRAILER_2
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
     06 00     // climate 
     07 05     // load amount 
-    08 80     // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 00     // running cost factor 
     0A 48 4C 00 00      // running cost base 
     0E FF     // sprite ID
     0F \b36   // capacity
     10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
+    11 00     // cost factor
     13 \b00   // power in 10 hp
     14 \b01   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
     16 C0 20 00 68      // bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 11     // callback flags bit mask
     1A 00     // refit cost, using 25% of the purchase price cost base
-    1B 00     // retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00  // refittable cargo classes
     1E EF 03  // non-refittable cargo classes
-    1F 60 B3 0A 00    // long format introduction date  
-  756 * 67	 00 01 19 01 VEH_CRAWLER_LARGE_TRAILER_3
+  756 * 67	 00 01 \b20 01 VEH_CRAWLER_LARGE_TRAILER_3
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
     06 00     // climate 
     07 05     // load amount 
-    08 80     // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 00     // running cost factor 
     0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
     0F \b42   // capacity
     10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
+    11 00     // cost factor
     13 \b00   // power in 10 hp
     14 \b01   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
     16 C0 20 00 68    // bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 11     // callback flags bit mask
     1A 00     // refit cost, using 25% of the purchase price cost base
-    1B 00     // retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00  // refittable cargo classes
     1E EF 03  // non-refittable cargo classes
-    1F 60 B3 0A 00    // long format introduction date  
-  757 * 67	 00 01 19 01 VEH_CRAWLER_LARGE_TRAILER_4
+  757 * 67	 00 01 \b20 01 VEH_CRAWLER_LARGE_TRAILER_4
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
     06 00     // climate 
     07 05     // load amount 
-    08 80     // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 00     // running cost factor 
     0A 48 4C 00 00      // running cost base 
     0E FF     // sprite ID
     0F \b56   // capacity
     10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
+    11 00     // cost factor
     13 \b00   // power in 10 hp
     14 \b01   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
     16 C0 20 00 68      // bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 11     // callback flags bit mask
     1A 00     // refit cost, using 25% of the purchase price cost base
-    1B 00     // retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00  // refittable cargo classes
     1E EF 03  // non-refittable cargo classes
-    1F 60 B3 0A 00    // long format introduction date  
-  758 * 67	 00 01 19 01 VEH_CRAWLER_LARGE_TRAILER_5
+  758 * 67	 00 01 \b20 01 VEH_CRAWLER_LARGE_TRAILER_5
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
     06 00     // climate 
     07 05     // load amount 
-    08 80     // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 00     // running cost factor 
     0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
     0F \b70   // capacity
     10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
+    11 00     // cost factor
     13 \b00   // power in 10 hp
     14 \b01   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
     16 C0 20 00 68    // bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 11     // callback flags bit mask
     1A 00     // refit cost, using 25% of the purchase price cost base
-    1B 00     // retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00  // refittable cargo classes
     1E EF 03  // non-refittable cargo classes
     1F 60 B3 0A 00    // long format introduction date 
-  759 * 67	 00 01 19 01 VEH_CRAWLER_LARGE_TRAILER_6
+  759 * 67	 00 01 \b20 01 VEH_CRAWLER_LARGE_TRAILER_6
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
     06 00     // climate 
     07 05     // load amount 
-    08 80     // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 00     // running cost factor 
     0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
     0F \b84   // capacity
     10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
+    11 00     // cost factor
     13 \b00   // power in 10 hp
     14 \b01   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
     16 C0 20 00 68    // bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 11     // callback flags bit mask
     1A 00     // refit cost, using 25% of the purchase price cost base
-    1B 00     // retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00  // refittable cargo classes
     1E EF 03  // non-refittable cargo classes
-    1F 60 B3 0A 00    // long format introduction date  
   760 * 6	 07 83 01 \7! 02 01 // tropic only
   761 * 7	 00 01 01 01 7A 10 08// copper ore default
    // Large bulldozer belly dump B - empty
@@ -1411,162 +1352,132 @@
        // Lead vehicle chooses different trailers depending on date
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
--1 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_1
+-1 * 67	 00 01 \b20 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_1
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00    // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b12   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b01   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
--1 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_2
+-1 * 67	 00 01 \b20 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_2
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00    // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b12   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b01   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
--1 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_3
+-1 * 67	 00 01 \b20 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_3
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00    // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b14   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b01   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
--1 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_4
+-1 * 67	 00 01 \b20 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_4
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00    // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b19   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b01   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
--1 * 67	 00 01 \b25 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_5
+-1 * 67	 00 01 \b20 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_5
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00    // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b24   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b01   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
--1 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_6
+-1 * 67	 00 01 \b20 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_6
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
-      09 08     // running cost factor
-      0A 48 4C 00 00    // running cost base
+      09 00     // running cost factor
+      0A 00 00 00 00  // running cost base
       0E FF     // sprite ID
       0F \b29   // capacity
       10 06     // cargo type
       11 00     // cost factor
-      12 00     // sound effect
       13 \b00   // power in 10 hp
       14 \b01   // weight in 1/4 tons
-      15 38     // speed in mph * 0.8
       16 00 00 00 00    // bit mask of cargo types available for refitting
       17 22     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
-      1B 00     // retire vehicle early, this many years before the end of phase 2
       1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
   // define additional text suffixes
 -1 * 35	 04 00 81 02 02 D0
             		" (Flotation Trailer)" 00	// D000 = "1st class"
