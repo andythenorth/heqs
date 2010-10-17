@@ -3,7 +3,7 @@
 
 #include "sprites/nfo/heqs_vehicles.pnfo"
 
-#include "sprites/nfo/bulldozers.pnfo"
+#include "sprites/nfo/crawlers/bulldozers.pnfo"
 #include "sprites/nfo/crawlers/red_peak_articulated_crawler.pnfo"
 
 #include "sprites/nfo/logging_trucks/logging_trucks.pnfo"
