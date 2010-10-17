@@ -57,7 +57,7 @@
  1707 * 26	 02 01 B0 //ID B0
                81 10 00 FF // articulated vehicle building instructions
                04 // range
-                 11 80 01 01
+                 VEH_CRAWLER_RED_PEAK_2 80 01 01
                  73 80 02 02
                  73 80 03 03
                  73 80 04 04
