@@ -1,5 +1,8 @@
 //  Vehicles //
 
+// IDs 00h-57h are reserved for use by default vehicles
+// IDs for trailing parts of articulated vehicles must be <128d 80h)
+
 //defines that need IDs re-organising
 #define VEH_CRAWLER_RED_PEAK_1                 9A
 #define VEH_CRAWLER_RED_PEAK_2                 11
