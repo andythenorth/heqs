@@ -7,6 +7,7 @@
 #include "sprites/nfo/crawlers/no_8_crawler.pnfo"
 #include "sprites/nfo/crawlers/no_9_crawler.pnfo"
 #include "sprites/nfo/crawlers/red_peak_articulated_crawler.pnfo"
+#include "sprites/nfo/crawlers/crawler_trailers.pnfo"
 
 #include "sprites/nfo/logging_trucks/logging_trucks.pnfo"
 #include "sprites/nfo/logging_trucks/logging_truck_trailers.pnfo"
@@ -28,6 +29,7 @@
 #include "sprites/nfo/tractors/fourtrac.pnfo"
 #include "sprites/nfo/tractors/super_speedytrac.pnfo"
 #include "sprites/nfo/tractors/speedytrac.pnfo"
+#include "sprites/nfo/tractors/tractor_trailers.pnfo"
 
 #include "sprites/nfo/foundry_transporters/kander_foundry_transporter.pnfo"
 #include "sprites/nfo/foundry_transporters/grindelwald_foundry_transporter.pnfo"
