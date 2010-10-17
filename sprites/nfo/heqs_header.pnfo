@@ -18,7 +18,16 @@
 // warning about colour codes in action 8
 //@@WARNING DISABLE 144
 
-    1 * 128	 08 06 {{GRF_ID}} "{{GRF_TITLE}}" 00 "Heavy equipment Set"
+ -1 * -1   14
+  "C" "INFO"
+      "B" "VRSN" \w4 \d{{REPO_REVISION}}
+      "B" "MINV" \w4 \d407
+  	  "B" "PALS" \w1 "W" //palette
+      00
+  00
+
+
+    1 * 128	 08 07 {{GRF_ID}} "{{GRF_TITLE}}" 00 "Heavy equipment Set"
 	 "in dual company colours."
 	 "Brought to you by"
 	 "andythenorth and Richard Wheeler (Zephyris) 2008. "
