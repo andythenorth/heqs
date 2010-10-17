@@ -27,13 +27,11 @@
   00
 
 
-    1 * 128	 08 07 {{GRF_ID}} "{{GRF_TITLE}}" 00 "Heavy equipment Set"
-	 "in dual company colours."
-	 "Brought to you by"
-	 "andythenorth and Richard Wheeler (Zephyris) 2008. "
-	 "Additional graphics by Dan MacKellar, David Dallaston (PikkaBird)."
-	 "Trams were an idea from Eddi."
-	 "Special thanks to Planetmaker, Ammler, Frosch."
+    1 * 128	 08 07 {{GRF_ID}} "{{GRF_TITLE}}" 00 "\8EHeavy Equipment Set. \n"
+	 "\98Brought to you by andythenorth "
+	 "with help from many, including Ammler, Dan MacKellar, Dalestan, "
+	 "David Dallaston (PikkaBird), Eddi, Frosch, Planetmaker "
+	 "and Richard Wheeler (Zephyris)"
 	 " " 00
 
     1 * 134	 00 08 01 20 00 09 // Cargo translation table
