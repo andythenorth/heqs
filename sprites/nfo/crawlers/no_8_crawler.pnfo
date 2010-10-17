@@ -511,9 +511,9 @@
  1540 * 26	 02 01 B0 // articulated building instructions
                81 10 00 FF //
                04 // range
-                 05 80 01 01 //
+                 VEH_DRAWBAR 80 01 01 //
                  B5 00 02 02 //
-                 05 80 03 03 //
+                 VEH_DRAWBAR 80 03 03 //
                  B5 00 04 04 //
                FF FF //otherwise end the callback chain
  1541 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)

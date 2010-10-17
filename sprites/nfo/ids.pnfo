@@ -2,15 +2,17 @@
 
 // IDs 00h-57h are reserved for use by default vehicles
 // IDs for trailing parts of articulated vehicles must be <80h (128d)
-// I've started articulated IDs at 60h
+// I've started articulated IDs at 58h
 // changing IDs of existing vehicles *will* break savegames...
 // ...so don't change IDs just for refactoring / prettifying code 
 
 //defines organised by ID order
 // <80h (mostly trailing parts)
+#define VEH_MEDIUM_TRAILER                     58
+
 #define VEH_MINING_TRUCK_TRAILER_1             60
 #define VEH_MINING_TRUCK_TRAILER_2             61
-#define VEH_LOGGING_TRUCK_TRAILER_1            62            
+#define VEH_LOGGING_TRUCK_TRAILER_1            62 //some trailers are redundant. Should use capacity cb instead            
 #define VEH_LOGGING_TRUCK_TRAILER_2            63            
 #define VEH_LOGGING_TRUCK_TRAILER_3            64            
 #define VEH_LOGGING_TRUCK_TRAILER_4            65            
@@ -23,6 +25,8 @@
 #define VEH_FOUNDRY_TRANSPORTER_KANDER_2       6C
 #define VEH_CRAWLER_RED_PEAK_1                 6D
 #define VEH_CRAWLER_RED_PEAK_2                 6E
+#define VEH_DRAWBAR                            6F
+
 // >80h (lead parts)
 #define VEH_TRACTOR_FOURTRAC                   80
 #define VEH_TRACTOR_SPEEDYTRAC                 81

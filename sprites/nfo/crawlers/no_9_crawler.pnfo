@@ -422,11 +422,11 @@
  1686 * 34	 02 01 B0 // articulated vehicle instructions
                81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
                06 // range
-                 05 80 01 01
+                 VEH_DRAWBAR 80 01 01
                  B5 00 02 02
-                 05 80 03 03
+                 VEH_DRAWBAR 80 03 03
                  B5 00 04 04
-                 05 80 05 05
+                 VEH_DRAWBAR 80 05 05
                  B5 00 06 06
                FF FF //otherwise end the callback chain
  1687 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)

@@ -51,17 +51,17 @@
       00 00 // loaded sprites
  -1 * 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
-                 01 // range
+                 01 //range
                    B1 80 23 23 // text for vehicle window
                  F1 00 //otherwise go to next action 2 ID 
- -1 * 14	 02 01 B0 //ID B0
-               81 10 00 FF // articulated vehicle building instructions
-               01 // range
-                 00 80 01 01 //give callback result of 00 for value 01*
+ -1 * 14	 02 01 B0 // articulated vehicle building instructions
+               81 10 00 FF //
+               01 //range
+                 VEH_MEDIUM_TRAILER 80 01 01 //
                FF FF //otherwise end the callback chain
  -1 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
-               01 // check one range
+               01 //range
                  F0 00 00 00 // if length is 0 use purchase menu sprite
                A0 00 // else go to action 2 to apply graphics
  -1 * 14	 02 01 B1 //ID B1

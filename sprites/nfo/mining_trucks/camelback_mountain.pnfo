@@ -59,7 +59,7 @@
                81 10 00 FF //
                03 //range
                  VEH_MINING_TRUCK_TRAILER_2 80 01 01 //give callback result
-                 05 80 02 02 //give callback result
+                 VEH_DRAWBAR 80 02 02 //give callback result
                  VEH_MINING_TRUCK_TRAILER_2 80 03 03 //give callback result
                FF FF //otherwise end the callback chain
  2361 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)

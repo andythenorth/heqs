@@ -412,7 +412,7 @@
  1366 * 14	 02 01 B0 
                  81 10 00 FF // articulated vehicle building instructions
                  01 //range
-                   B5 00 01 01 //give callback result
+                   B5 00 01 01 //
                  FF FF //otherwise end the callback chain
  1367 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
