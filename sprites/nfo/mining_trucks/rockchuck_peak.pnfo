@@ -1,5 +1,5 @@
 // Rockchuck Peak Mining Hauler 95t		2000-2050	42mph
- 2616 * 67	 00 01 19 01 VEH_MINING_TRUCK_ROCKCHUCK_PEAK            // Action 0
+-1 * 67	 00 01 19 01 VEH_MINING_TRUCK_ROCKCHUCK_PEAK            // Action 0
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
@@ -26,157 +26,157 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F 84 25 0B 00    // Long format introduction date  
- 2617 * 33	 04 01 7F 01 VEH_MINING_TRUCK_ROCKCHUCK_PEAK "Rockchuck Peak Mining Truck" 00  
- 2618 * 4	 01 01 0F 08
+-1 * 33	 04 01 7F 01 VEH_MINING_TRUCK_ROCKCHUCK_PEAK "Rockchuck Peak Mining Truck" 00  
+-1 * 4	 01 01 0F 08
   // Rockchuck Peak 95t hauler empty
- 2619 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 10 01 24 12 -5 -13
- 2620 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 10 09 20 26 -15 -8
- 2621 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 10 01 16 36 -18 -8
- 2622 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 10 09 20 26 -11 -9
- 2623 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 10 01 24 12 -5 -13
- 2624 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 10 09 20 26 -16 -9
- 2625 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 10 01 16 36 -20 -10
- 2626 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 10 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 10 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 10 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 10 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 10 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 10 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 10 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 10 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 10 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler coal partial
- 2627 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 50 01 24 12 -5 -13
- 2628 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 50 09 20 26 -15 -8
- 2629 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 50 01 16 36 -18 -8
- 2630 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 50 09 20 26 -11 -9
- 2631 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 50 01 24 12 -5 -13
- 2632 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 50 09 20 26 -16 -9
- 2633 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 50 01 16 36 -20 -10
- 2634 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 50 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 50 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 50 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 50 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 50 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 50 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 50 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 50 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 50 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler coal
- 2635 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 90 01 24 12 -5 -13
- 2636 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 90 09 20 26 -15 -8
- 2637 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 90 01 16 36 -18 -8
- 2638 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 90 09 20 26 -11 -9
- 2639 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 90 01 24 12 -5 -13
- 2640 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 90 09 20 26 -16 -9
- 2641 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 90 01 16 36 -20 -10
- 2642 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 90 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 90 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 90 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 90 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 90 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 90 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 90 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 90 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 90 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler iron partial
- 2643 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 130 01 24 12 -5 -13
- 2644 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 130 09 20 26 -15 -8
- 2645 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 130 01 16 36 -18 -8
- 2646 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 130 09 20 26 -11 -9
- 2647 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 130 01 24 12 -5 -13
- 2648 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 130 09 20 26 -16 -9
- 2649 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 130 01 16 36 -20 -10
- 2650 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 130 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 130 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 130 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 130 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 130 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 130 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 130 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 130 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 130 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler iron
- 2651 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 170 01 24 12 -5 -13
- 2652 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 170 09 20 26 -15 -8
- 2653 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 170 01 16 36 -18 -8
- 2654 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 170 09 20 26 -11 -9
- 2655 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 170 01 24 12 -5 -13
- 2656 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 170 09 20 26 -16 -9
- 2657 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 170 01 16 36 -20 -10
- 2658 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 170 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 170 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 170 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 170 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 170 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 170 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 170 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 170 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 170 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler white partial
- 2659 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 210 01 24 12 -5 -13
- 2660 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 210 09 20 26 -15 -8
- 2661 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 210 01 16 36 -18 -8
- 2662 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 210 09 20 26 -11 -9
- 2663 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 210 01 24 12 -5 -13
- 2664 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 210 09 20 26 -16 -9
- 2665 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 210 01 16 36 -20 -10
- 2666 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 210 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 210 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 210 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 210 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 210 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 210 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 210 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 210 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 210 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler white
- 2667 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 250 01 24 12 -5 -13
- 2668 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 250 09 20 26 -15 -8
- 2669 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 250 01 16 36 -18 -8
- 2670 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 250 09 20 26 -11 -9
- 2671 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 250 01 24 12 -5 -13
- 2672 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 250 09 20 26 -16 -9
- 2673 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 250 01 16 36 -20 -10
- 2674 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 250 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 250 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 250 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 250 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 250 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 250 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 250 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 250 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 250 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler brown partial
- 2675 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 290 01 24 12 -5 -13
- 2676 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 290 09 20 26 -15 -8
- 2677 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 290 01 16 36 -18 -8
- 2678 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 290 09 20 26 -11 -9
- 2679 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 290 01 24 12 -5 -13
- 2680 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 290 09 20 26 -16 -9
- 2681 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 290 01 16 36 -20 -10
- 2682 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 290 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 290 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 290 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 290 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 290 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 290 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 290 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 290 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 290 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler brown
- 2683 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 330 01 24 12 -5 -13
- 2684 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 330 09 20 26 -15 -8
- 2685 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 330 01 16 36 -18 -8
- 2686 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 330 09 20 26 -11 -9
- 2687 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 330 01 24 12 -5 -13
- 2688 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 330 09 20 26 -16 -9
- 2689 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 330 01 16 36 -20 -10
- 2690 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 330 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 330 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 330 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 330 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 330 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 330 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 330 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 330 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 330 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler grey partial
- 2691 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 370 01 24 12 -5 -13
- 2692 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 370 09 20 26 -15 -8
- 2693 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 370 01 16 36 -18 -8
- 2694 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 370 09 20 26 -11 -9
- 2695 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 370 01 24 12 -5 -13
- 2696 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 370 09 20 26 -16 -9
- 2697 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 370 01 16 36 -20 -10
- 2698 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 370 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 370 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 370 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 370 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 370 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 370 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 370 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 370 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 370 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler grey 
- 2699 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 410 01 24 12 -5 -13
- 2700 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 410 09 20 26 -15 -8
- 2701 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 410 01 16 36 -18 -8
- 2702 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 410 09 20 26 -11 -9
- 2703 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 410 01 24 12 -5 -13
- 2704 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 410 09 20 26 -16 -9
- 2705 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 410 01 16 36 -20 -10
- 2706 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 410 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 410 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 410 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 410 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 410 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 410 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 410 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 410 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 410 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler red partial
- 2707 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 450 01 24 12 -5 -13
- 2708 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 450 09 20 26 -15 -8
- 2709 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 450 01 16 36 -18 -8
- 2710 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 450 09 20 26 -11 -9
- 2711 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 450 01 24 12 -5 -13
- 2712 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 450 09 20 26 -16 -9
- 2713 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 450 01 16 36 -20 -10
- 2714 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 450 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 450 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 450 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 450 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 450 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 450 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 450 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 450 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 450 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler red
- 2715 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 490 01 24 12 -5 -13
- 2716 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 490 09 20 26 -15 -8
- 2717 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 490 01 16 36 -18 -8
- 2718 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 490 09 20 26 -11 -9
- 2719 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 490 01 24 12 -5 -13
- 2720 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 490 09 20 26 -16 -9
- 2721 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 490 01 16 36 -10 -10
- 2722 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 490 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 490 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 490 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 490 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 490 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 490 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 490 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 490 01 16 36 -10 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 490 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler sand partial
- 2723 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 530 01 24 12 -5 -13
- 2724 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 530 09 20 26 -15 -8
- 2725 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 530 01 16 36 -18 -8
- 2726 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 530 09 20 26 -11 -9
- 2727 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 530 01 24 12 -5 -13
- 2728 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 530 09 20 26 -16 -9
- 2729 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 530 01 16 36 -20 -10
- 2730 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 530 09 20 26 -10 -11
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 530 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 530 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 530 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 530 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 530 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 530 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 530 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 530 09 20 26 -10 -11
   // Rockchuck Peak 95t hauler sand
- 2731 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 570 01 24 12 -5 -13
- 2732 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 570 09 20 26 -15 -8
- 2733 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 570 01 16 36 -18 -8
- 2734 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 570 09 20 26 -11 -9
- 2735 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 570 01 24 12 -5 -13
- 2736 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 570 09 20 26 -16 -9
- 2737 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 570 01 16 36 -20 -10
- 2738 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 570 09 20 26 -10 -11
- 2739 * 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
- 2740 * 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
- 2741 * 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
- 2742 * 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
- 2743 * 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
- 2744 * 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
- 2745 * 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
- 2746 * 4	 01 01 01 04 // depot sprites
- 2747 * 1	 00
- 2748 * 1	 00
- 2749 sprites/pcx/mining_trucks/95t_mining_truck.pcx 370 14 01 12 36 -14 -6
- 2750 * 1	 00
- 2751 * 9	 02 01 AF 01 01 00 00 00 00
- 2752 * 28	 03 01 01 VEH_MINING_TRUCK_ROCKCHUCK_PEAK // Action 3 
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 34 570 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 66 570 09 20 26 -15 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 98 570 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 146 570 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 178 570 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 210 570 09 20 26 -16 -9
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 242 570 01 16 36 -20 -10
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 290 570 09 20 26 -10 -11
+-1 * 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+-1 * 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+-1 * 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+-1 * 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+-1 * 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+-1 * 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+-1 * 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
+-1 * 4	 01 01 01 04 // depot sprites
+-1 * 1	 00
+-1 * 1	 00
+-1 sprites/pcx/mining_trucks/95t_mining_truck.pcx 370 14 01 12 36 -14 -6
+-1 * 1	 00
+-1 * 9	 02 01 AF 01 01 00 00 00 00
+-1 * 28	 03 01 01 VEH_MINING_TRUCK_ROCKCHUCK_PEAK // Action 3 
    07 // number of cargo types to support
      01 A1 00
      08 A2 00 

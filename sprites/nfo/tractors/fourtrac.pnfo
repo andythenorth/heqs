@@ -1,5 +1,5 @@
 // Fourtrac	Wheeled Tractor (high speed)
- 1725 * 67	 00 01 \b25 01 VEH_TRACTOR_FOURTRAC 
+-1 * 67	 00 01 \b25 01 VEH_TRACTOR_FOURTRAC 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b30   // vehicle life 
@@ -25,13 +25,13 @@
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
     1F \d720000    // Long format introduction date  
- 1726 * 14	 04 01 7F 01 VEH_TRACTOR_FOURTRAC "Fourtrac" 00
- 1727 * 92	 04 01 81 01 B0 D0 "Hauls: " 8A "One 19t trailer"
+-1 * 14	 04 01 7F 01 VEH_TRACTOR_FOURTRAC "Fourtrac" 00
+-1 * 92	 04 01 81 01 B0 D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "1972"
                                0d 98 0d 98 "Variations: " 98 "Livery depends on cargo refit" 
                                0d 98
                                00
- 1728 * 4	 01 01 03 08      // Action 1 | RV | 1 sprite set | 8 members 
+-1 * 4	 01 01 03 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
  -1 sprites/pcx/tractors.pcx 0   210 01 24 12 -5  -15
  -1 sprites/pcx/tractors.pcx 32  210 01 20 26 -17 -9
@@ -59,43 +59,43 @@
  -1 sprites/pcx/tractors.pcx 176 290 01 20 26 -17 -9
  -1 sprites/pcx/tractors.pcx 208 290 01 16 36 -31 -8
  -1 sprites/pcx/tractors.pcx 256 290 01 20 26 -10 -10
- 1753 * 9	 02 01 A1 01 01 00 00 00 00
- 1754 * 9	 02 01 A2 01 01 01 00 01 00
- 1755 * 9	 02 01 A3 01 01 02 00 02 00
- 1756 * 4	 01 01 01 01
- 1757 sprites/pcx/tractors.pcx 336 250 01 16 36 -14 -8
- 1758 * 9	 02 01 F1 // action2 buy menu sprites 
+-1 * 9	 02 01 A1 01 01 00 00 00 00
+-1 * 9	 02 01 A2 01 01 01 00 01 00
+-1 * 9	 02 01 A3 01 01 02 00 02 00
+-1 * 4	 01 01 01 01
+-1 sprites/pcx/tractors.pcx 336 250 01 16 36 -14 -8
+-1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
- 1759 * 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
+-1 * 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    B0 80 23 23 // text for vehicle window
                  F1 00 //otherwise go to next action 2 ID 
- 1760 * 14	 02 01 B1
+-1 * 14	 02 01 B1
                81 10 00 FF // articulated vehicle building instructions
                01 // range
                 VEH_TRACTOR_MEDIUM_TRAILER 80 01 01 //
                FF FF //otherwise end the callback chain
- 1761 * 14	 02 01 B2 // provide different graphics depending on cargo 
+-1 * 14	 02 01 B2 // provide different graphics depending on cargo 
                81 42 08 FF // check cargo type 
                03 // range
                 A1 00 02 02 // mail
                 A1 00 05 05 // goods
                 A3 00 07 07 // wood
                A2 00 // default
- 1762 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+-1 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
                01 // check one range
                  F0 00 00 00 // if length is 0 use purchase menu sprite
                B2 00 // else go to action 2 to apply graphics
- 1763 * 14	 02 01 B0
+-1 * 14	 02 01 B0
                81 0C 00 FF // handle callbacks
                01 //check one range
                 B1 00 16 16 // articulated vehicle CB
                B3 00 //otherwise go to next action 2 ID 
- 1764 * 7	 03 01 01 VEH_TRACTOR_FOURTRAC // Action 3
+-1 * 7	 03 01 01 VEH_TRACTOR_FOURTRAC // Action 3
     00  // Number of different cargo types to support
     B0 00   // default Action 2 ID 

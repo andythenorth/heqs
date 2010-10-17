@@ -1,5 +1,5 @@
   // Wolfpen Ridge Dump Truck  50t		2005-2050	50mph
- 2157 * 67	 00 01 19 01 VEH_MINING_TRUCK_WOLFPEN_RIDGE
+-1 * 67	 00 01 19 01 VEH_MINING_TRUCK_WOLFPEN_RIDGE
     00 \w1-1-2005     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
@@ -26,157 +26,157 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F FF 2C 0B 00    // Long format introduction date
- 2158 * 29	 04 01 7F 01 VEH_MINING_TRUCK_WOLFPEN_RIDGE "Wolfpen Ridge Dump Truck" 00
- 2159 * 4	 01 01 0F 08
+-1 * 29	 04 01 7F 01 VEH_MINING_TRUCK_WOLFPEN_RIDGE "Wolfpen Ridge Dump Truck" 00
+-1 * 4	 01 01 0F 08
   // Wolfpen Ridge 30t dump truck empty 
- 2160 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 10 01 24 12 -5 -13
- 2161 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 10 09 20 26 -17 -8
- 2162 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 10 01 16 36 -18 -8
- 2163 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 10 09 20 26 -11 -9
- 2164 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 10 01 24 12 -5 -13
- 2165 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 10 09 20 26 -17 -9
- 2166 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 10 01 16 36 -28 -9
- 2167 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 10 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 10 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 10 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 10 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 10 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 10 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 10 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 10 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 10 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck coal partial
- 2168 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 50 01 24 12 -5 -13
- 2169 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 50 09 20 26 -17 -8
- 2170 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 50 01 16 36 -18 -8
- 2171 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 50 09 20 26 -11 -9
- 2172 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 50 01 24 12 -5 -13
- 2173 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 50 09 20 26 -17 -9
- 2174 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 50 01 16 36 -28 -9
- 2175 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 50 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 50 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 50 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 50 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 50 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 50 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 50 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 50 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 50 09 20 26 -9 -10
     // Wolfpen Ridge 30t dump truck coal 
- 2176 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 90 01 24 12 -5 -13
- 2177 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 90 09 20 26 -17 -8
- 2178 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 90 01 16 36 -18 -8
- 2179 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 90 09 20 26 -11 -9
- 2180 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 90 01 24 12 -5 -13
- 2181 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 90 09 20 26 -17 -9
- 2182 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 90 01 16 36 -28 -9
- 2183 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 90 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 90 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 90 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 90 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 90 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 90 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 90 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 90 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 90 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck iron partial
- 2184 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 130 01 24 12 -5 -13
- 2185 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 130 09 20 26 -17 -8
- 2186 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 130 01 16 36 -18 -8
- 2187 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 130 09 20 26 -11 -9
- 2188 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 130 01 24 12 -5 -13
- 2189 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 130 09 20 26 -17 -9
- 2190 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 130 01 16 36 -28 -9
- 2191 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 130 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 130 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 130 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 130 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 130 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 130 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 130 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 130 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 130 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck iron 
- 2192 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 170 01 24 12 -5 -13
- 2193 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 170 09 20 26 -17 -8
- 2194 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 170 01 16 36 -18 -8
- 2195 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 170 09 20 26 -11 -9
- 2196 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 170 01 24 12 -5 -13
- 2197 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 170 09 20 26 -17 -9
- 2198 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 170 01 16 36 -28 -9
- 2199 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 170 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 170 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 170 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 170 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 170 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 170 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 170 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 170 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 170 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck white partial
- 2200 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 210 01 24 12 -5 -13
- 2201 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 210 09 20 26 -17 -8
- 2202 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 210 01 16 36 -18 -8
- 2203 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 210 09 20 26 -11 -9
- 2204 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 210 01 24 12 -5 -13
- 2205 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 210 09 20 26 -17 -9
- 2206 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 210 01 16 36 -28 -9
- 2207 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 210 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 210 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 210 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 210 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 210 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 210 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 210 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 210 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 210 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck white 
- 2208 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 250 01 24 12 -5 -13
- 2209 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 250 09 20 26 -17 -8
- 2210 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 250 01 16 36 -18 -8
- 2211 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 250 09 20 26 -11 -9
- 2212 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 250 01 24 12 -5 -13
- 2213 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 250 09 20 26 -17 -9
- 2214 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 250 01 16 36 -28 -9
- 2215 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 250 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 250 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 250 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 250 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 250 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 250 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 250 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 250 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 250 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck brown partial
- 2216 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 290 01 24 12 -5 -13
- 2217 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 290 09 20 26 -17 -8
- 2218 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 290 01 16 36 -18 -8
- 2219 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 290 09 20 26 -11 -9
- 2220 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 290 01 24 12 -5 -13
- 2221 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 210 09 20 26 -17 -9
- 2222 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 290 01 16 36 -28 -9
- 2223 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 290 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 290 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 290 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 290 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 290 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 290 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 210 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 290 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 290 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck brown 
- 2224 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 330 01 24 12 -5 -13
- 2225 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 330 09 20 26 -17 -8
- 2226 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 330 01 16 36 -18 -8
- 2227 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 330 09 20 26 -11 -9
- 2228 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 330 01 24 12 -5 -13
- 2229 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 330 09 20 26 -17 -9
- 2230 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 330 01 16 36 -28 -9
- 2231 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 330 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 330 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 330 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 330 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 330 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 330 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 330 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 330 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 330 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck grey partial
- 2232 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 370 01 24 12 -5 -13
- 2233 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 370 09 20 26 -17 -8
- 2234 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 370 01 16 36 -18 -8
- 2235 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 370 09 20 26 -11 -9
- 2236 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 370 01 24 12 -5 -13
- 2237 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 370 09 20 26 -17 -9
- 2238 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 370 01 16 36 -28 -9
- 2239 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 370 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 370 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 370 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 370 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 370 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 370 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 370 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 370 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 370 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck grey
- 2240 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 410 01 24 12 -5 -13
- 2241 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 410 09 20 26 -17 -8
- 2242 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 410 01 16 36 -18 -8
- 2243 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 410 09 20 26 -11 -9
- 2244 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 410 01 24 12 -5 -13
- 2245 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 410 09 20 26 -17 -9
- 2246 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 410 01 16 36 -28 -9
- 2247 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 410 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 410 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 410 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 410 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 410 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 410 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 410 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 410 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 410 09 20 26 -9 -10
  // Wolfpen Ridge 30t dump truck red partial
- 2248 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 450 01 24 12 -5 -13
- 2249 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 450 09 20 26 -17 -8
- 2250 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 450 01 16 36 -18 -8
- 2251 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 450 09 20 26 -11 -9
- 2252 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 450 01 24 12 -5 -13
- 2253 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 450 09 20 26 -17 -9
- 2254 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 450 01 16 36 -28 -9
- 2255 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 450 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 450 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 450 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 450 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 450 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 450 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 450 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 450 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 450 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck red
- 2256 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 490 01 24 12 -5 -13
- 2257 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 490 09 20 26 -17 -8
- 2258 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 490 01 16 36 -18 -8
- 2259 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 490 09 20 26 -11 -9
- 2260 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 490 01 24 12 -5 -13
- 2261 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 490 09 20 26 -17 -9
- 2262 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 490 01 16 36 -28 -9
- 2263 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 490 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 490 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 490 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 490 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 490 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 490 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 490 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 490 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 490 09 20 26 -9 -10
  // Wolfpen Ridge 30t dump truck sand partial
- 2264 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 530 01 24 12 -5 -13
- 2265 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 530 09 20 26 -17 -8
- 2266 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 530 01 16 36 -18 -8
- 2267 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 530 09 20 26 -11 -9
- 2268 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 530 01 24 12 -5 -13
- 2269 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 530 09 20 26 -17 -9
- 2270 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 530 01 16 36 -28 -9
- 2271 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 530 09 20 26 -9 -10
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 530 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 530 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 530 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 530 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 530 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 530 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 530 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 530 09 20 26 -9 -10
   // Wolfpen Ridge 30t dump truck sand
- 2272 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 570 01 24 12 -5 -13
- 2273 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 570 09 20 26 -17 -8
- 2274 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 570 01 16 36 -18 -8
- 2275 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 570 09 20 26 -11 -9
- 2276 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 570 01 24 12 -5 -13
- 2277 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 570 09 20 26 -17 -9
- 2278 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 570 01 16 36 -28 -9
- 2279 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 570 09 20 26 -9 -10
- 2280 * 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
- 2281 * 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
- 2282 * 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
- 2283 * 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
- 2284 * 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
- 2285 * 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
- 2286 * 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
- 2287 * 4	 01 01 01 04 // buy menu sprites
- 2288 * 1	 00
- 2289 * 1	 00
- 2290 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 370 13 01 12 36 -14 -6
- 2291 * 1	 00
- 2292 * 9	 02 01 AF 01 01  00 00  00 00
- 2293 * 28	 03 01 01 VEH_MINING_TRUCK_WOLFPEN_RIDGE // Action 3
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 34 570 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 66 570 09 20 26 -17 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 98 570 01 16 36 -18 -8
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 146 570 09 20 26 -11 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 178 570 01 24 12 -5 -13
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 210 570 09 20 26 -17 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 242 570 01 16 36 -28 -9
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 290 570 09 20 26 -9 -10
+-1 * 17	 02 01 A1 03 03  00 00  01 00  02 00    00 00  01 00  02 00  // coal
+-1 * 17	 02 01 A2 03 03  00 00  03 00  04 00    00 00  03 00  04 00  // iron ore
+-1 * 17	 02 01 A3 03 03  00 00  05 00  06 00    00 00  05 00  06 00  // white
+-1 * 17	 02 01 A4 03 03  00 00  07 00  08 00    00 00  07 00  08 00  // brown
+-1 * 17	 02 01 A5 03 03  00 00  09 00  0A 00    00 00  09 00  0A 00  // grey
+-1 * 17	 02 01 A6 03 03  00 00  0B 00  0C 00    00 00  0B 00  0C 00  // red
+-1 * 17	 02 01 A7 03 03  00 00  0D 00  0E 00    00 00  0D 00  0E 00  // sand
+-1 * 4	 01 01 01 04 // buy menu sprites
+-1 * 1	 00
+-1 * 1	 00
+-1 sprites/pcx/mining_trucks/20xx_dump_truck.pcx 370 13 01 12 36 -14 -6
+-1 * 1	 00
+-1 * 9	 02 01 AF 01 01  00 00  00 00
+-1 * 28	 03 01 01 VEH_MINING_TRUCK_WOLFPEN_RIDGE // Action 3
     07 // number of cargos
      01 A1 00
      08 A2 00 
