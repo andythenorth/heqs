@@ -307,7 +307,7 @@
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 10 00          // refittable cargo classes
     1E 00 00          // non-refittable cargo classes
-    1F AE FA 0A 00    // long format introduction date  
+    1F \d719165    // Long format introduction date  
  1655 * 38	 04 01 7F 01 VEH_CRAWLER_NO_9_LOGGING_MINING "No. 9 Crawler (Logging / Mining)" 00
  1656 * 117	 04 01 81 01 9A D0 "Hauls: " 8A "Three 42t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1970"  // action 2 chains reference 1969, but game intro date for no.9 is 1970 // (126t total cargo)
