@@ -24,6 +24,8 @@ Only two new 'features':
 - compatible with default vehicles
 - change of grfid.  To prevent breaking savegames, HEQS 0.8.0 is not compatible with previous versions of HEQS.
 
+The purpose of HEQS 0.8.0 is to provide a cleaner structure for future improvements.  Using HEQS 0.8.0 now will provide better savegame compatibility when new features are added to future releases of HEQS.
+
 *version 0.7.1*
 Wood and livestock cargo graphics for industrial trams.
 
