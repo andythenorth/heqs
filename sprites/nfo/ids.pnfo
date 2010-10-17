@@ -1,21 +1,20 @@
-#define VEH_CRAWLER_NO_6_GENERAL_PURPOSE       94
-#define VEH_CRAWLER_NO_6_LOGGING_MINING        95
-#define VEH_CRAWLER_NO_8_GENERAL_PURPOSE       96
-#define VEH_CRAWLER_NO_8_LOGGING_MINING        97
-#define VEH_CRAWLER_NO_9_GENERAL_PURPOSE       98
-#define VEH_CRAWLER_NO_9_LOGGING_MINING        99
+//  Vehicles //
 
+//defines that need IDs re-organising
 #define VEH_CRAWLER_RED_PEAK_1                 9A
 #define VEH_CRAWLER_RED_PEAK_2                 11
 
-#define VEH_TRACTOR_FOURTRAC                   80
-#define VEH_TRACTOR_SPEEDYTRAC                 81
-#define VEH_TRACTOR_SUPER_SPEEDYTRAC           82
+#define VEH_FOUNDRY_TRANSPORTER_KANDER_1       C1
+#define VEH_FOUNDRY_TRANSPORTER_KANDER_2       12
 
-#define VEH_TRUCK_GMUND_MOG                    E0
+//defines organised by ID order
+#define VEH_MINING_TRUCK_TRAILER_1             06
+#define VEH_MINING_TRUCK_TRAILER_2             07
 
-#define VEH_LOGGING_TRUCK_C10                  A0            
-#define VEH_LOGGING_TRUCK_C16                  A1            
+#define VEH_INDUSTRIAL_TRAM_WAGON_1            41
+#define VEH_INDUSTRIAL_TRAM_WAGON_2            42
+#define VEH_INDUSTRIAL_TRAM_WAGON_3            43
+
 #define VEH_LOGGING_TRUCK_TRAILER_1            20            
 #define VEH_LOGGING_TRUCK_TRAILER_2            21            
 #define VEH_LOGGING_TRUCK_TRAILER_3            22            
@@ -23,31 +22,42 @@
 #define VEH_LOGGING_TRUCK_TRAILER_5            24            
 #define VEH_LOGGING_TRUCK_TRAILER_6            25            
 
+#define VEH_TRACTOR_FOURTRAC                   80
+#define VEH_TRACTOR_SPEEDYTRAC                 81
+#define VEH_TRACTOR_SUPER_SPEEDYTRAC           82
+
+#define VEH_CRAWLER_NO_6_GENERAL_PURPOSE       94
+#define VEH_CRAWLER_NO_6_LOGGING_MINING        95
+
+#define VEH_CRAWLER_NO_8_GENERAL_PURPOSE       96
+#define VEH_CRAWLER_NO_8_LOGGING_MINING        97
+
+#define VEH_CRAWLER_NO_9_GENERAL_PURPOSE       98
+#define VEH_CRAWLER_NO_9_LOGGING_MINING        99
+
+#define VEH_LOGGING_TRUCK_C10                  A0            
+#define VEH_LOGGING_TRUCK_C16                  A1            
+
 #define VEH_INDUSTRIAL_TRAM_ELECTRIC_1         B0
 #define VEH_INDUSTRIAL_TRAM_ELECTRIC_2         B1
 #define VEH_INDUSTRIAL_TRAM_ELECTRIC_3         B2
-#define VEH_INDUSTRIAL_TRAM_WAGON_1            41
-#define VEH_INDUSTRIAL_TRAM_WAGON_2            42
-#define VEH_INDUSTRIAL_TRAM_WAGON_3            43
 
 #define VEH_FOUNDRY_TRANSPORTER_GRINDELWALD    C0
-#define VEH_FOUNDRY_TRANSPORTER_KANDER_1       C1
-#define VEH_FOUNDRY_TRANSPORTER_KANDER_2       12
 
 #define VEH_MINING_TRUCK_MT_MCKINLEY           D0
 #define VEH_MINING_TRUCK_MOUNT_RAINIER         D1
 #define VEH_MINING_TRUCK_THUNDER_MOUNTAIN      D2
 #define VEH_MINING_TRUCK_HARNEY_PEAK           D3
 #define VEH_MINING_TRUCK_BEAR_MOUNTAIN         D4
+
 #define VEH_MINING_TRUCK_ROCKCHUCK_PEAK        D5
 #define VEH_MINING_TRUCK_CAMELBACK_MOUNTAIN    D6
 #define VEH_MINING_TRUCK_KILIMANJARO           D7
-#define VEH_MINING_TRUCK_TRAILER_1             06
-#define VEH_MINING_TRUCK_TRAILER_2             07
-
 #define VEH_MINING_TRUCK_WOLFPEN_RIDGE         D9
 
+#define VEH_TRUCK_GMUND_MOG                    E0
 
+// Texts //
 #define STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_1    B0 //DC text
 #define STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_2    B1 //DC text
 #define STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_3    B2 //DC text
