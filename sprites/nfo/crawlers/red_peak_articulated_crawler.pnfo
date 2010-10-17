@@ -1,7 +1,7 @@
  // -- Articulated Crawler in two parts)
 
  // Articulated Crawler First Part
--1 * 69	 00 01 1B 01 VEH_CRAWLER_RED_PEAK_1
+-1 * 69	 00 01 \b26 01 VEH_CRAWLER_RED_PEAK_1
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b15   // vehicle life 
@@ -28,7 +28,6 @@
     1D FF 03  // Refittable cargo classes
     1E 01 00  // Non-refittable cargo classes
     1F \d729770    // Long format introduction date    
-    20 94     // sort vehicle list (ID for this vehicle to appear before) 
 -1 * 34	 04 01 7F 01 VEH_CRAWLER_RED_PEAK_1 "Red Peak Articulated Crawler" 00
 -1 * 47	 04 01 81 01 9F D0 "Hauls: " 8A "Three 22t trailers"
                                0d 98 "Model: " 8A "1998" 00 
