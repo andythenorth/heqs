@@ -391,11 +391,11 @@
  1681 * 26	 02 01 B5 // choose trailers by date
            81 01 00  FF // check current year
            04 // range
-             7B 80 \b35 \b48 // before 1969
-             7C 80 \b49 \b59 // before 1980
-             7D 80 \b60 \b70 // before 1991
-             7E 80 \b71 \b84 // before 2005
-           7F 80 // default      
+             VEH_CRAWLER_LARGE_TRAILER_2 80 \b35 \b48 // before 1969
+             VEH_CRAWLER_LARGE_TRAILER_3 80 \b49 \b59 // before 1980
+             VEH_CRAWLER_LARGE_TRAILER_4 80 \b60 \b70 // before 1991
+             VEH_CRAWLER_LARGE_TRAILER_5 80 \b71 \b84 // before 2005
+           VEH_CRAWLER_LARGE_TRAILER_6 80 // default      
  1682 * 15	 02 01 C1
                83 00 00 // randomise graphics (83 is per engine)
                04 //check two ranges (choose blade or no blade)

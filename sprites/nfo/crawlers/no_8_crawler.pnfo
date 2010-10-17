@@ -502,12 +502,12 @@
  1539 * 30	 02 01 B5 // choose trailers by date
            81 01 00  FF // check current year
            05 // range
-             7A 80 \b00 \b34 // before 1955
-             7B 80 \b35 \b48 // before 1969
-             7C 80 \b49 \b59 // before 1980
-             7D 80 \b60 \b70 // before 1991
-             7E 80 \b71 \b84 // before 2005
-           7F 80 // default      
+             VEH_CRAWLER_LARGE_TRAILER_1 80 \b00 \b34 // before 1955
+             VEH_CRAWLER_LARGE_TRAILER_2 80 \b35 \b48 // before 1969
+             VEH_CRAWLER_LARGE_TRAILER_3 80 \b49 \b59 // before 1980
+             VEH_CRAWLER_LARGE_TRAILER_4 80 \b60 \b70 // before 1991
+             VEH_CRAWLER_LARGE_TRAILER_5 80 \b71 \b84 // before 2005
+           VEH_CRAWLER_LARGE_TRAILER_6 80 // default      
  1540 * 26	 02 01 B0 // articulated building instructions
                81 10 00 FF //
                04 // range
