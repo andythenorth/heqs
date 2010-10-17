@@ -169,12 +169,12 @@
  1286 * 30	 02 01 B5 // choose trailers by date
            81 01 00  FF // check current year
            05 // range
-             6E 80 \b00 \b34 // before 1955
-             6F 80 \b35 \b48 // before 1969
-             70 80 \b49 \b59 // before 1980
-             71 80 \b60 \b72 // before 1993
-             72 80 \b73 \b88 // before 2009
-           73 80 // default      
+             VEH_CRAWLER_MEDIUM_TRAILER_1 80 \b00 \b34 // before 1955
+             VEH_CRAWLER_MEDIUM_TRAILER_2 80 \b35 \b48 // before 1969
+             VEH_CRAWLER_MEDIUM_TRAILER_3 80 \b49 \b59 // before 1980
+             VEH_CRAWLER_MEDIUM_TRAILER_4 80 \b60 \b72 // before 1993
+             VEH_CRAWLER_MEDIUM_TRAILER_5 80 \b73 \b88 // before 2009
+           VEH_CRAWLER_MEDIUM_TRAILER_6 80 // default      
  1287 * 14	 02 01 B7 //
            81 C4 00 FF // check date vehicle built
            01 // range

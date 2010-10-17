@@ -307,7 +307,7 @@
  1498 * 30	 02 01 B5 // choose trailers by date
            81 01 00  FF // check current year
            05 // range
-             6F 80 \b00 \b34 // before 1955
+             VEH_CRAWLER_MEDIUM_TRAILER_2 80 \b00 \b34 // before 1955
              75 80 \b35 \b48 // before 1969
              76 80 \b49 \b59 // before 1980
              77 80 \b60 \b70 // before 1991

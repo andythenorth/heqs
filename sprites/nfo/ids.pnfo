@@ -8,8 +8,14 @@
 
 //defines organised by ID order
 // <80h (mostly trailing parts)
-#define VEH_TRACTOR_MEDIUM_TRAILER                     58
-
+#define VEH_TRACTOR_MEDIUM_TRAILER             58
+#define VEH_CRAWLER_MEDIUM_TRAILER_1           59
+#define VEH_CRAWLER_MEDIUM_TRAILER_2           5A
+#define VEH_CRAWLER_MEDIUM_TRAILER_3           5B
+#define VEH_CRAWLER_MEDIUM_TRAILER_4           5C
+#define VEH_CRAWLER_MEDIUM_TRAILER_5           5D
+#define VEH_CRAWLER_MEDIUM_TRAILER_6           5E
+//#define VACANT                                 5F
 #define VEH_MINING_TRUCK_TRAILER_1             60
 #define VEH_MINING_TRUCK_TRAILER_2             61
 #define VEH_LOGGING_TRUCK_TRAILER_1            62 //some trailers are redundant. Should use capacity cb instead            

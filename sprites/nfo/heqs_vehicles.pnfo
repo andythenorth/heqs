@@ -400,7 +400,7 @@
        // Lead vehicle chooses different trailers depending on date
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
-  267 * 67	 00 01 19 01 6E
+  267 * 67	 00 01 19 01 VEH_CRAWLER_MEDIUM_TRAILER_1
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -426,7 +426,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-  268 * 67	 00 01 19 01 6F
+  268 * 67	 00 01 19 01 VEH_CRAWLER_MEDIUM_TRAILER_2
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -452,7 +452,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-  269 * 67	 00 01 19 01 70
+  269 * 67	 00 01 19 01 VEH_CRAWLER_MEDIUM_TRAILER_3
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -478,7 +478,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-  270 * 67	 00 01 19 01 71
+  270 * 67	 00 01 19 01 VEH_CRAWLER_MEDIUM_TRAILER_4
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -504,7 +504,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-  271 * 67	 00 01 \b25 01 72
+  271 * 67	 00 01 \b25 01 VEH_CRAWLER_MEDIUM_TRAILER_5
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -530,7 +530,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-  272 * 67	 00 01 \b25 01 73
+  272 * 67	 00 01 \b25 01 VEH_CRAWLER_MEDIUM_TRAILER_6
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -556,7 +556,6 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-  273 * 42	 04 01 7F 01 70 "[Generic Standard bulldozer Trailer]" 00
   // define additional text suffixes
   274 * 33	 04 00 81 02 00 D0
             		" (Wheeled Trailer)" 00	// D000 = "1st class"
@@ -1146,22 +1145,22 @@
                   02 80 11 11 // vehicle length CB
                   CC 00 19 19 // text suffix CB 
                  CB 00 // graphics
-  748 * 7	 03 01 01 6E // Action 3
+  748 * 7	 03 01 01 VEH_CRAWLER_MEDIUM_TRAILER_1 // Action 3
     00 // Number of cargo types 
 	  C0 00 // default
-  749 * 7	 03 01 01 6F // Action 3
+  749 * 7	 03 01 01 VEH_CRAWLER_MEDIUM_TRAILER_2 // Action 3
     00 // Number of cargo types  
 	  C0 00 // default
-  750 * 7	 03 01 01 70 // Action 3
+  750 * 7	 03 01 01 VEH_CRAWLER_MEDIUM_TRAILER_3 // Action 3
     00 // Number of cargo types 
 	  C0 00 // default
-  751 * 7	 03 01 01 71 // Action 3
+  751 * 7	 03 01 01 VEH_CRAWLER_MEDIUM_TRAILER_4 // Action 3
     00 // Number of cargo types 
 	  C0 00 // default
-  752 * 7	 03 01 01 72 // Action 3
+  752 * 7	 03 01 01 VEH_CRAWLER_MEDIUM_TRAILER_5 // Action 3
     00 // Number of cargo types 
 	  C0 00 // default
-  753 * 7	 03 01 01 73 // Action 3
+  753 * 7	 03 01 01 VEH_CRAWLER_MEDIUM_TRAILER_6 // Action 3
     00 // Number of cargo types 
 	  C0 00 // default
 
