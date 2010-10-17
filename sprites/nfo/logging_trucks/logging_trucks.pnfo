@@ -111,7 +111,7 @@
  -1 * 14	 02 01 B0
                81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
                01 //check one ranges
-                 21 80 01 01 //give callback result
+                 VEH_LOGGING_TRUCK_TRAILER_2 80 01 01 //give callback result
                FF FF //otherwise end the callback chain
  -1 * 14	 02 01 B2 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    
@@ -127,9 +127,9 @@
  -1 * 14	 02 01 C0
                81 10 00 FF //check byte value of variable 10 (no bit shift, FF andmask)
                03 //check one ranges
-                 23 80 01 01 //give callback result
+                 VEH_LOGGING_TRUCK_TRAILER_4 80 01 01 //give callback result
                  05 80 02 02 //give callback result
-                 25 80 03 03 //give callback result
+                 VEH_LOGGING_TRUCK_TRAILER_6 80 03 03 //give callback result
                FF FF //otherwise end the callback chain
  -1 * 14	 02 01 C2 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    

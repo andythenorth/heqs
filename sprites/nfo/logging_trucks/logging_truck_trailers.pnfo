@@ -10,7 +10,7 @@
        // Lead vehicle chooses different trailers depending on date
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
-  -1 * 67	 00 01 19 01 20
+  -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_TRAILER_1
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -36,7 +36,7 @@
     1D 00 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 19 01 21
+  -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_TRAILER_2
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -62,7 +62,7 @@
     1D 00 00  // Refittable cargo classes
     1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 19 01 22
+  -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_TRAILER_3
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -88,7 +88,7 @@
     1D 00 00  // Refittable cargo classes
     1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 19 01 23
+  -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_TRAILER_4
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -114,7 +114,7 @@
     1D 00 00  // Refittable cargo classes
     1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 19 01 24
+  -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_TRAILER_5
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -140,7 +140,7 @@
     1D 00 00  // Refittable cargo classes
     1E 00 00  // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 19 01 25
+  -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_TRAILER_6
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -166,7 +166,6 @@
     1D 00 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
     1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 42	 04 01 7F 01 20 "Logging Truck Trailer" 00
     // Logging truck trailer - Wood, blank sprite
   -1 * 4	 01 01 08 08
   -1 sprites/pcx/standard_trailers/logging_truck_trailer_large.pcx 34 10 01 26 12 -6 -15
@@ -394,22 +393,22 @@
         00 00  01 00  02 00  03 00  04 00  06 00
         01 00  02 00  03 00  04 00  05 00  06 00 
  // multiple actions 3s apply graphics by cargo & capacity (hard coded due to CB 36 not working as expected with aRVs)
- -1 * 7	 03 01 01 20 // Action 3  STANDARD
+ -1 * 7	 03 01 01 VEH_LOGGING_TRUCK_TRAILER_1 // Action 3  STANDARD
       00  // Number of different cargo types to support  
       07 00 // default
- -1 * 7	 03 01 01 21 // Action 3  STANDARD
+ -1 * 7	 03 01 01 VEH_LOGGING_TRUCK_TRAILER_2 // Action 3  STANDARD
       00  // Number of different cargo types to support  
       07 00 // default
- -1 * 7	 03 01 01 22 // Action 3  DOUBLE
+ -1 * 7	 03 01 01 VEH_LOGGING_TRUCK_TRAILER_3 // Action 3  DOUBLE
       00  // Number of different cargo types to support  
       17 00 // default
- -1 * 7	 03 01 01 23 // Action 3  DOUBLE
+ -1 * 7	 03 01 01 VEH_LOGGING_TRUCK_TRAILER_4 // Action 3  DOUBLE
       00  // Number of different cargo types to support  
       17 00 // default
- -1 * 7	 03 01 01 24 // Action 3  PUP
+ -1 * 7	 03 01 01 VEH_LOGGING_TRUCK_TRAILER_5 // Action 3  PUP
       00  // Number of different cargo types to support  
       27 00 // default
- -1 * 7	 03 01 01 25 // Action 3  PUP
+ -1 * 7	 03 01 01 VEH_LOGGING_TRUCK_TRAILER_6 // Action 3  PUP
       00  // Number of different cargo types to support  
       27 00 // default
       
