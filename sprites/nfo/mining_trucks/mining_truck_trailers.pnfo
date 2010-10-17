@@ -1,7 +1,7 @@
   // -------------- Belly Dump Trailers for Mining Trucks --------------- //
    // Medium belly dump trailer 
    // Used by Thunder Mountain articulated dump truck
- 1810 * 67	 00 01 1A 01 06
+ 1810 * 67	 00 01 1A 01 VEH_MINING_TRUCK_TRAILER_1
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -31,7 +31,7 @@
     1F 60 B3 0A 00    // long format introduction date  
  1811 * 6	 07 83 01 \7! 02 01 // tropic only
  1812 * 7	 00 01 01 01 06 10 08// copper ore default
- 1813 * 23	 04 01 7F 01 06 "Medium Belly Dump" 00
+ 1813 * 23	 04 01 7F 01 VEH_MINING_TRUCK_TRAILER_1 "Medium Belly Dump" 00
    // Medium belly dump A (rear wheels only) - empty
  1814 * 4	 01 01 0D 08
  1815 sprites/pcx/standard_trailers/mining_truck_trailer_medium_A.pcx 34 50 01 24 12 -3 -16
@@ -167,13 +167,13 @@
                   06 00  19 19 // SAND
                   11 00  1A 1A // GRVL
                  11 00 // default 
- 1926 * 7	 03 01 01 06 // Action 3
+ 1926 * 7	 03 01 01 VEH_MINING_TRUCK_TRAILER_1 // Action 3
       00  // Number of different cargo types to support  
       CD 00 // default
 
    // Large belly dump trailer
    // Used by large articulated mining trucks
- 1927 * 67	 00 01 1A 01 07
+ 1927 * 67	 00 01 1A 01 VEH_MINING_TRUCK_TRAILER_2
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 11     // vehicle life 
@@ -203,7 +203,7 @@
     1F 60 B3 0A 00    // Long format introduction date  
  1928 * 6	 07 83 01 \7! 02 01 // tropic only
  1929 * 7	 00 01 01 01 07 10 08// copper ore default
- 1930 * 22	 04 01 7F 01 07 "Large Belly Dump" 00
+ 1930 * 22	 04 01 7F 01 VEH_MINING_TRUCK_TRAILER_2 "Large Belly Dump" 00
    // Large belly dump A (rear wheels only) - empty
  1931 * 4	 01 01 0D 08
  1932 sprites/pcx/standard_trailers/mining_truck_trailer_large_A.pcx 34 50 01 24 12 -3 -16
@@ -482,7 +482,7 @@
                  01 // range
                   CD 00 01 01 // vehicle is in position 1 in consist (second vehicle)
                  CC 00 // default 
- 2156 * 7	 03 01 01 07  // Action 3
+ 2156 * 7	 03 01 01 VEH_MINING_TRUCK_TRAILER_2  // Action 3
       00  // Number of different cargo types to support  
       CA 00 // default
   // ----------------- end of Belly Dump Trailers for Mining Trucks -------------- //
