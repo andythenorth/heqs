@@ -1,7 +1,7 @@
   // ----------------- Bulldozers / Crawler Tractors -----------//      
 
   // No. 6	Crawler Tractor (General Purpose)
- 1218 * 67	 00 01 1A 01 94
+ 1218 * 67	 00 01 1A 01 VEH_CRAWLER_NO_6_GENERAL_PURPOSE
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b40   // vehicle life 
@@ -28,7 +28,7 @@
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
     1F A1 CB 0A 00    // Long format introduction date  
- 1219 * 37	 04 01 7F 01 94 "No. 6 Crawler (General Purpose)" 00
+ 1219 * 37	 04 01 7F 01 VEH_CRAWLER_NO_6_GENERAL_PURPOSE "No. 6 Crawler (General Purpose)" 00
  1220 * 87	 04 01 81 01 60 D0 "Hauls: " 8A "Three 10t trailers or sleds"
                                0d 98 "Model: " 8A "1937" // (30t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Cab" 
@@ -211,16 +211,13 @@
                   01 80 11 11 // vehicle length CB
                   B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                  B6 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
- 1293 * 7	 03   // Action 3
-      01  // RV 
-      01  // Number of vehicles this action associate graphics with 
-      94  // Vehicle ID
+ 1293 * 7	 03 01 01 VEH_CRAWLER_NO_6_GENERAL_PURPOSE  // Action 3
       00  // Number of different cargo types to support
-      B1 00   // Action 2 ID above
+      B1 00   // default sprites
 
 
   // No. 6 Crawler Tractor (Mining / Logging)
- 1294 * 67	 00 01 1A 01 95 
+ 1294 * 67	 00 01 1A 01 VEH_CRAWLER_NO_6_LOGGING_MINING 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b40   // vehicle life 
@@ -249,7 +246,7 @@
     1E 00 00          // Non-refittable cargo classes
     1F A1 CB 0A 00    // Long format introduction date  
     // set copper ore to be default in tropic instead of rubber
- 1295 * 38	 04 01 7F 01 95 "No. 6 Crawler (Logging / Mining)" 00
+ 1295 * 38	 04 01 7F 01 VEH_CRAWLER_NO_6_LOGGING_MINING "No. 6 Crawler (Logging / Mining)" 00
  1296 * 101	 04 01 81 01 6A D0 "Hauls: " 8A "30t of logs or one 30t belly-dump trailer" 
                                 0d 98 "Model: " 8A "1937"
                                 0d 98 0d 98 "Variations (random): " 98 "Cab" 
@@ -429,16 +426,13 @@
                  01 // range
                    B0 00 16 16 // articulated vehicle CB
                  B6 00 //otherwise go to next action 2 ID 
- 1369 * 7	 03   // Action 3
-      01  // RV 
-      01  // Number of vehicles this action associate graphics with 
-      95  // Vehicle ID
+ 1369 * 7	 03 01 01 VEH_CRAWLER_NO_6_LOGGING_MINING  // Action 3
       00  // Number of different cargo types to support
-      B1 00   // Action 2 ID above
+      B1 00   // default sprites
 
 
   // No. 8	Crawler Tractor (General Purpose)
- -1 * 67	 00 01 1A 01 96 
+ -1 * 67	 00 01 1A 01 VEH_CRAWLER_NO_8_GENERAL_PURPOSE 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b40   // vehicle life 
@@ -465,7 +459,7 @@
     1D FF 03  // Refittable cargo classes
     1E 01 00  // Non-refittable cargo classes
     1F \d708300    // Long format introduction date  
- 1371 * 34	 04 01 7F 01 96 "No. 8 Crawler (Supply Train)" 00
+ 1371 * 34	 04 01 7F 01 VEH_CRAWLER_NO_8_GENERAL_PURPOSE "No. 8 Crawler (Supply Train)" 00
  1372 * 103	 04 01 81 01 80 D0 "Hauls: " 8A "Four 12t trailers or sleds"
                                0d 98 "Model: " 8A "1940" // (48t total)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab"
@@ -771,13 +765,13 @@
                 00 80 11 11 // vehicle length CB
                 B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                B6 00 // go to ID A1
- 1502 * 7	 03 01 01 96 // Action 3 
+ 1502 * 7	 03 01 01 VEH_CRAWLER_NO_8_GENERAL_PURPOSE // Action 3 
     00 // number of cargo types to define
-    B1 00
+    B1 00 // default
 
 
   // No. 8	Crawler Tractor (Logging / Mining)
- -1 * 67	 00 01 1A 01 97 
+ -1 * 67	 00 01 1A 01 VEH_CRAWLER_NO_8_LOGGING_MINING 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b40   // vehicle life 
@@ -805,7 +799,7 @@
     1D 10 00  // Refittable cargo classes
     1E 00 00  // Non-refittable cargo classes
     1F \d708300    // Long format introduction date  
- 1504 * 38	 04 01 7F 01 97 "No. 8 Crawler (Logging / Mining)" 00
+ 1504 * 38	 04 01 7F 01 VEH_CRAWLER_NO_8_LOGGING_MINING "No. 8 Crawler (Logging / Mining)" 00
  1505 * 120	 04 01 81 01 8A D0 "Hauls: " 8A "Two 30t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1940"  // action 2 chain references 1937, but vehicle intro date is 1940 // (60t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab"
@@ -966,13 +960,13 @@
                 01 80 11 11 // vehicle length CB
                 B0 00 16 16 // articulated vehicle CB
                B6 00 // go to ID A1
- 1543 * 7	 03 01 01 97 // Action 3
+ 1543 * 7	 03 01 01 VEH_CRAWLER_NO_8_LOGGING_MINING // Action 3
     00 // number of cargo types to define
     B1 00
 
 
 	// No. 9	Crawler Tractor (General Purpose)
- -1 * 67	 00 01 1A 01 98
+ -1 * 67	 00 01 1A 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b35   // vehicle life 
@@ -1000,7 +994,7 @@
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
     1F \d719165    // Long format introduction date  
- 1545 * 34	 04 01 7F 01 98 "No. 9 Crawler (Supply Train)" 00
+ 1545 * 34	 04 01 7F 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE "No. 9 Crawler (Supply Train)" 00
  1546 * 119	 04 01 81 01 90 D0 "Hauls: " 8A "Seven 14t low-ground-pressure trailers or sleds" 
                                0d 98 "Model: " 8A "1970"  // action 2 chains reference 1969, but game intro date for no.9 is 1970 // (98t total)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
@@ -1247,13 +1241,13 @@
                01 // range
                 B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                B6 00 // default ID
- 1653 * 7	 03 01 01 98 // Action 3
+ 1653 * 7	 03 01 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE // Action 3
     00 // number of cargo types to define
     B1 00      // Action 2 ID for default cargo
 
 
 	// No. 9	Crawler Tractor (Logging / Mining)
- 1654 * 67	 00 01 1A 01 99
+ 1654 * 67	 00 01 1A 01 VEH_CRAWLER_NO_9_LOGGING_MINING
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b35   // vehicle life 
@@ -1281,7 +1275,7 @@
     1D 10 00          // refittable cargo classes
     1E 00 00          // non-refittable cargo classes
     1F AE FA 0A 00    // long format introduction date  
- 1655 * 38	 04 01 7F 01 99 "No. 9 Crawler (Logging / Mining)" 00
+ 1655 * 38	 04 01 7F 01 VEH_CRAWLER_NO_9_LOGGING_MINING "No. 9 Crawler (Logging / Mining)" 00
  1656 * 117	 04 01 81 01 9A D0 "Hauls: " 8A "Three 42t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1970"  // action 2 chains reference 1969, but game intro date for no.9 is 1970 // (126t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
@@ -1412,7 +1406,7 @@
                01 // range
                 B0 00 16 16 // articulated vehicle CB
                B6 00 // 
- 1689 * 7	 03 01 01 99 // Action 3
+ 1689 * 7	 03 01 01 VEH_CRAWLER_NO_9_LOGGING_MINING // Action 3
     00 // number of cargo types to define
     B1 00      // Action 2 ID for default cargo    
 

@@ -1,6 +1,12 @@
+#define VEH_CRAWLER_NO_6_GENERAL_PURPOSE       94
+#define VEH_CRAWLER_NO_6_LOGGING_MINING        95
+#define VEH_CRAWLER_NO_8_GENERAL_PURPOSE       96
+#define VEH_CRAWLER_NO_8_LOGGING_MINING        97
+#define VEH_CRAWLER_NO_9_GENERAL_PURPOSE       98
+#define VEH_CRAWLER_NO_9_LOGGING_MINING        99
+
 #define VEH_CRAWLER_RED_PEAK_1                 9A
 #define VEH_CRAWLER_RED_PEAK_2                 11
-
 
 #define VEH_TRACTOR_FOURTRAC                   80
 #define VEH_TRACTOR_SPEEDYTRAC                 81
