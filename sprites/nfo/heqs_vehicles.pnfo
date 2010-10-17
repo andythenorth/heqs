@@ -54,7 +54,7 @@
 
    // Medium Trailers
 
-   16 * 67	 00 01 \b25 01 VEH_MEDIUM_TRAILER
+   16 * 67	 00 01 \b25 01 VEH_TRACTOR_MEDIUM_TRAILER
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -80,7 +80,7 @@
       1D FF 03      // refittable cargo classes
       1E 01 00      // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-   17 * 30	 04 01 7F 01 VEH_MEDIUM_TRAILER "[Generic Medium Trailer]" 00
+   17 * 30	 04 01 7F 01 VEH_TRACTOR_MEDIUM_TRAILER "[Generic Medium Trailer]" 00
 // define additional text suffixes
    18 * 28	 04 00 81 02 00 D0
             		" (refit 1)" 00	//
@@ -368,7 +368,7 @@
                   04 80 11 11 // vehicle length CB
                   //AC 00 19 19 // text suffix CB 
                  05 00 // graphics
-  266 * 52	 03 01 01 VEH_MEDIUM_TRAILER // Action 3
+  266 * 52	 03 01 01 VEH_TRACTOR_MEDIUM_TRAILER // Action 3
     0F // Number of different cargo types to support
     01 01 00 // coal
     03 03 00 // oil

@@ -57,7 +57,7 @@
  -1 * 14	 02 01 B0 // articulated vehicle building instructions
                81 10 00 FF //
                01 //range
-                 VEH_MEDIUM_TRAILER 80 01 01 //
+                 VEH_TRACTOR_MEDIUM_TRAILER 80 01 01 //
                FF FF //otherwise end the callback chain
  -1 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
                82 40 10 FF // check vehicle length    

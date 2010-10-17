@@ -8,7 +8,7 @@
 
 //defines organised by ID order
 // <80h (mostly trailing parts)
-#define VEH_MEDIUM_TRAILER                     58
+#define VEH_TRACTOR_MEDIUM_TRAILER                     58
 
 #define VEH_MINING_TRUCK_TRAILER_1             60
 #define VEH_MINING_TRUCK_TRAILER_2             61
