@@ -1804,7 +1804,7 @@
        // Lead vehicle chooses different trailers depending on date
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
- 1127 * 67	 00 01 19 01 74
+ 1127 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_1
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -1830,7 +1830,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
- 1128 * 67	 00 01 19 01 75
+ 1128 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_2
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -1856,7 +1856,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
- 1129 * 67	 00 01 19 01 76
+ 1129 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_3
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -1882,7 +1882,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
- 1130 * 67	 00 01 19 01 77
+ 1130 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_4
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -1908,7 +1908,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
- 1131 * 67	 00 01 \b25 01 78
+ 1131 * 67	 00 01 \b25 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_5
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -1934,7 +1934,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
- 1132 * 67	 00 01 19 01 79
+ 1132 * 67	 00 01 19 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_6
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -1960,7 +1960,6 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
- 1133 * 42	 04 01 7F 01 74 "[Generic Large Float / Sled Trailer]" 00
   // define additional text suffixes
  1134 * 35	 04 00 81 02 02 D0
             		" (Flotation Trailer)" 00	// D000 = "1st class"
@@ -2082,22 +2081,22 @@
                   00 80 11 11 // vehicle length CB
                   CC 00 19 19 // text suffix (refits) CB 
                  CB 00 // graphics
- 1212 * 7	 03 01 01 74 // Action 3
+ 1212 * 7	 03 01 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_1 // Action 3
     00 // Number of different cargo types to support (!! Hex) 
 	  C0 00 // default
- 1213 * 7	 03 01 01 75 // Action 3
+ 1213 * 7	 03 01 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_2 // Action 3
     00 // Number of different cargo types to support (!! Hex) 
 	  C0 00 // default
- 1214 * 7	 03 01 01 76 // Action 3
+ 1214 * 7	 03 01 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_3 // Action 3
     00 // Number of different cargo types to support (!! Hex) 
 	  C0 00 // default
- 1215 * 7	 03 01 01 77 // Action 3
+ 1215 * 7	 03 01 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_4 // Action 3
     00 // Number of different cargo types to support (!! Hex) 
 	  C0 00 // default
- 1216 * 7	 03 01 01 78 // Action 3
+ 1216 * 7	 03 01 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_5 // Action 3
     00 // Number of different cargo types to support (!! Hex) 
 	  C0 00 // default
- 1217 * 7	 03 01 01 79 // Action 3
+ 1217 * 7	 03 01 01 VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_6 // Action 3
     00 // Number of different cargo types to support (!! Hex) 
 	  C0 00 // default
 

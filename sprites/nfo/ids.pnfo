@@ -38,6 +38,16 @@
 #define VEH_CRAWLER_LARGE_TRAILER_4            73
 #define VEH_CRAWLER_LARGE_TRAILER_5            74
 #define VEH_CRAWLER_LARGE_TRAILER_6            75
+#define VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_1    76 //some trailers are redundant. Should use capacity cb instead
+#define VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_2    77
+#define VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_3    78
+#define VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_4    79
+#define VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_5    7A
+#define VEH_CRAWLER_FLOAT_TRAILER_OR_SLED_6    7B
+//#define VACANT                                 7C
+//#define VACANT                                 7D
+//#define VACANT                                 7E
+//#define VACANT                                 7F
 
 // >80h (lead parts)
 #define VEH_TRACTOR_FOURTRAC                   80
