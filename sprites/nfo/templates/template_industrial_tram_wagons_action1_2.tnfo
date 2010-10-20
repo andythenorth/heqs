@@ -105,9 +105,9 @@
       02 00 // loaded sprites
       02 00 // loading sprites 
  -1 * 17	 02 01 04 // wood
-      02 // number loaded states
+      03 // number loaded states
       03 // number loading states
-      03 00  05 00 // loaded sprites
+      03 00  04 00  05 00 // loaded sprites
       03 00  04 00  05 00 // loading sprites 
  -1 * 17	 02 01 05 // livestock
       01 // number loaded states
