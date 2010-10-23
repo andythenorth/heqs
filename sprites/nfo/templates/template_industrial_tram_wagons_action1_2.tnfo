@@ -25,124 +25,59 @@
       00 00 // loading sprites 
 
  -1 * 4	 01 01 \b13 \b08
-   // van
- -1 sprites/pcx/THIS_PCX_FILE    0 0  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 0  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 0  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 0  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 0  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 0  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 0  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 0  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // livestock
- -1 sprites/pcx/THIS_PCX_FILE    0 20  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 20  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 20  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 20  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 20  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 20  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 20  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 20  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // tanker
- -1 sprites/pcx/THIS_PCX_FILE    0 40  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 40  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 40  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 40  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 40  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 40  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 40  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 40  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // wood empty
- -1 sprites/pcx/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 60  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 60  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 60  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 60  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // wood loading
- -1 sprites/pcx/THIS_PCX_FILE    0 80  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 80  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 80  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 80  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 80  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 80  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 80  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 80  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // wood loaded
- -1 sprites/pcx/THIS_PCX_FILE    0 100  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 100  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 100  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 100  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 100  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 100  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 100  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 100  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // empty open wagon / hopper
- -1 sprites/pcx/THIS_PCX_FILE    0 120  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 120  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 120  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 120  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 120  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 120  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 120  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 120  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // coal
- -1 sprites/pcx/THIS_PCX_FILE    0 140  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 140  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 140  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 140  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 140  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 140  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 140  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 140  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // iron ore
- -1 sprites/pcx/THIS_PCX_FILE    0 160  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 160  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 160  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 160  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 160  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 160  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 160  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 160  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // brown
- -1 sprites/pcx/THIS_PCX_FILE    0 180  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 180  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 180  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 180  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 180  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 180  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 180  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 180  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // grey
- -1 sprites/pcx/THIS_PCX_FILE    0 200  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 200  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 200  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 200  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 200  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 200  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 200  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 200  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // red
- -1 sprites/pcx/THIS_PCX_FILE    0 220  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 220  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 220  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 220  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 220  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 220  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 220  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 220  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // sand
- -1 sprites/pcx/THIS_PCX_FILE    0 240  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   16 240  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   48 240  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE   96 240  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE    0 240  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE   16 240  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE   48 240  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE   96 240  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-  //action 2 ID 00 is reserved for invisible sprite 
+// van
+#define THIS_Y_POS  0
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// livestock
+#define THIS_Y_POS  20
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// tanker
+#define THIS_Y_POS  40
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// wood empty
+#define THIS_Y_POS  60
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// wood loading
+#define THIS_Y_POS  80
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// wood loaded
+#define THIS_Y_POS  100
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// empty open wagon / hopper
+#define THIS_Y_POS  120
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// coal
+#define THIS_Y_POS  140
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// iron ore
+#define THIS_Y_POS  160
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// brown
+#define THIS_Y_POS  180
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// grey
+#define THIS_Y_POS  200
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// red
+#define THIS_Y_POS  220
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// sand
+#define THIS_Y_POS  240
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+//action 2 ID 00 is reserved for invisible sprite 
  -1 * 17	 02 01 02 // van
       01 // number loaded states
       01 // number loading states
