@@ -1,13 +1,3 @@
-#define THIS_Y_X_CROP_1  24  12
-#define THIS_Y_X_CROP_2  20  26
-#define THIS_Y_X_CROP_3  16  36
-#define THIS_Y_X_CROP_4  20  26
-#define THIS_Y_X_CROP_5  21  12
-#define THIS_Y_X_CROP_6  20  26
-#define THIS_Y_X_CROP_7  16  36
-#define THIS_Y_X_CROP_8  20  26
-
-
  -1 * 4	 01 01 \b15 \b08
    // empty
  -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 10  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
