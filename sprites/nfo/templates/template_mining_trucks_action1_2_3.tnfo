@@ -198,7 +198,8 @@
      FF  FF 00 // buy menu sprites
    05 00 // default sprites
 
-
+#undef THIS_PCX_FILE
+#undef THIS_VEH_ID
        
 #undef THIS_Y_X_CROP_1
 #undef THIS_Y_X_CROP_2
@@ -208,8 +209,6 @@
 #undef THIS_Y_X_CROP_6
 #undef THIS_Y_X_CROP_7
 #undef THIS_Y_X_CROP_8
-
-#undef THIS_PCX_FILE
 
 #undef THIS_OFFS_X_Y_1
 #undef THIS_OFFS_X_Y_2
