@@ -24,7 +24,7 @@
       00 00 // loaded sprites
       00 00 // loading sprites 
 
- -1 * 4	 01 01 \b07 \b08
+ -1 * 4	 01 01 \b13 \b08
    // van
  -1 sprites/pcx/THIS_PCX_FILE    0 0  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
  -1 sprites/pcx/THIS_PCX_FILE   16 0  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
@@ -88,12 +88,61 @@
  -1 sprites/pcx/THIS_PCX_FILE   16 120  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
  -1 sprites/pcx/THIS_PCX_FILE   48 120  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
  -1 sprites/pcx/THIS_PCX_FILE   96 120  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // coal
+ -1 sprites/pcx/THIS_PCX_FILE    0 140  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/THIS_PCX_FILE   16 140  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/THIS_PCX_FILE   48 140  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/THIS_PCX_FILE   96 140  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/THIS_PCX_FILE    0 140  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/THIS_PCX_FILE   16 140  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/THIS_PCX_FILE   48 140  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/THIS_PCX_FILE   96 140  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // iron ore
+ -1 sprites/pcx/THIS_PCX_FILE    0 160  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/THIS_PCX_FILE   16 160  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/THIS_PCX_FILE   48 160  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/THIS_PCX_FILE   96 160  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/THIS_PCX_FILE    0 160  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/THIS_PCX_FILE   16 160  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/THIS_PCX_FILE   48 160  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/THIS_PCX_FILE   96 160  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // brown
+ -1 sprites/pcx/THIS_PCX_FILE    0 180  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/THIS_PCX_FILE   16 180  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/THIS_PCX_FILE   48 180  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/THIS_PCX_FILE   96 180  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/THIS_PCX_FILE    0 180  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/THIS_PCX_FILE   16 180  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/THIS_PCX_FILE   48 180  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/THIS_PCX_FILE   96 180  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // grey
+ -1 sprites/pcx/THIS_PCX_FILE    0 200  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/THIS_PCX_FILE   16 200  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/THIS_PCX_FILE   48 200  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/THIS_PCX_FILE   96 200  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/THIS_PCX_FILE    0 200  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/THIS_PCX_FILE   16 200  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/THIS_PCX_FILE   48 200  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/THIS_PCX_FILE   96 200  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // red
+ -1 sprites/pcx/THIS_PCX_FILE    0 220  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/THIS_PCX_FILE   16 220  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/THIS_PCX_FILE   48 220  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/THIS_PCX_FILE   96 220  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/THIS_PCX_FILE    0 220  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/THIS_PCX_FILE   16 220  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/THIS_PCX_FILE   48 220  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/THIS_PCX_FILE   96 220  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // sand
+ -1 sprites/pcx/THIS_PCX_FILE    0 240  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/THIS_PCX_FILE   16 240  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/THIS_PCX_FILE   48 240  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/THIS_PCX_FILE   96 240  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/THIS_PCX_FILE    0 240  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/THIS_PCX_FILE   16 240  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/THIS_PCX_FILE   48 240  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/THIS_PCX_FILE   96 240  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
   //action 2 ID 00 is reserved for invisible sprite 
-  -1 * 17	 02 01 01 // open wagon / hopper
-      01 // number loaded states
-      01 // number loading states
-      06 00 // loaded sprites
-      06 00 // loading sprites 
  -1 * 17	 02 01 02 // van
       01 // number loaded states
       01 // number loading states
@@ -114,34 +163,65 @@
       01 // number loading states
       01 00 // loaded sprites
       01 00 // loading sprites 
+ -1 * 17	 02 01 06 // coal
+      02 // number loaded states
+      02 // number loading states
+      06 00  07 00 // loaded sprites
+      06 00  07 00 // loading sprites 
+ -1 * 17	 02 01 07 // iron ore
+      02 // number loaded states
+      02 // number loading states
+      06 00  08 00 // loaded sprites
+      06 00  08 00 // loading sprites 
+ -1 * 17	 02 01 08 // brown
+      02 // number loaded states
+      02 // number loading states
+      06 00  09 00 // loaded sprites
+      06 00  09 00 // loading sprites 
+ -1 * 17	 02 01 09 // grey
+      02 // number loaded states
+      02 // number loading states
+      06 00  0A 00 // loaded sprites
+      06 00  0A 00 // loading sprites 
+ -1 * 17	 02 01 0A // red
+      02 // number loaded states
+      02 // number loading states
+      06 00  0B 00 // loaded sprites
+      06 00  0B 00 // loading sprites 
+ -1 * 17	 02 01 0B // sand
+      02 // number loaded states
+      02 // number loading states
+      06 00  0C 00 // loaded sprites
+      06 00  0C 00 // loading sprites 
+
 
 // choose appropriate sprites
   // case show wagon sprite
   -1 * 70	 02 01 A3  // choose sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
                  \b22 // range
-                   01 00 01 01 // coal
-                   03 00 03 03 // oil
-                   05 00 04 04 // livestock                  
-                   01 00 06 06 // grain 
-                   04 00 07 07 // wood  
-                   01 00 08 08 // iron ore
-                   02 00 09 09 // steel                  
-                   02 00 0B 0B // paper
-                   01 00 0E 0E // copper ore
-                   03 00 0F 0F // water
-                   02 00 10 10 // rubber
-                   03 00 11 11 // milk
-                   03 00 12 12 // fuel oil (petrol)
-                   03 00 13 13 // chemicals (refined products)
-                   01 00 15 15 // scrap metal 
-                   01 00 16 16 // clay 
-                   01 00 18 18 // bauxite (aluminium ore) 
-                   01 00 19 19 // sand (reuses grain sprites) 
-                   01 00 1A 1A // gravel 
-                   01 00 1B 1B // wheat 
-                   01 00 1D 1D // maize 
-                   04 00 1E 1E // tropical wood
+                   06 00  01 01 // coal
+                   03 00  03 03 // oil
+                   05 00  04 04 // livestock                  
+                   01 00  06 06 // grain 
+                   04 00  07 07 // wood  
+                   07 00  08 08 // iron ore
+                   02 00  09 09 // steel                  
+                   02 00  0B 0B // paper
+                   0A 00  0E 0E // copper ore
+                   03 00  0F 0F // water
+                   02 00  10 10 // rubber
+                   03 00  11 11 // milk
+                   03 00  12 12 // fuel oil (petrol)
+                   03 00  13 13 // chemicals (refined products)
+                   08 00  15 15 // scrap metal 
+                   08 00  16 16 // clay 
+                   0A 00  18 18 // bauxite (aluminium ore) 
+                   0B 00  19 19 // sand (reuses grain sprites) 
+                   09 00  1A 1A // gravel 
+                   0B 00  1B 1B // wheat 
+                   0B 00  1D 1D // maize 
+                   04 00  1E 1E // tropical wood
                  02 00 // default 
   -1 * 18	 02 01 A2  // shorten wagon length to 1/8 and show sprites
                  81 0C 00 FF //

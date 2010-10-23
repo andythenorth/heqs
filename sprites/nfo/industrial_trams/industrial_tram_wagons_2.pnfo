@@ -105,10 +105,16 @@
                  \b01 // range
                    EA 00  \b01 \b09 //
                  EB 00 // default 
-  -1 * 14	 02 01 E1  // subtype 1 (4 wagons) - branch according to position in consist 
+  -1 * 14	 02 01 E1  // subtype 1 (3 wagons) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
-                 \b01 // range
-                   EA 00  \b01 \b03 //
+                 \b07 // range
+                   EB 00  \b01 \b04 // 
+                   EA 00  \b05 \b05 // 
+                   EB 00  \b06 \b08 //                    
+                   EA 00  \b09 \b09 // 
+                   EB 00  \b10 \b12 // 
+                   EA 00  \b13 \b13 // 
+                   EB 00  \b14 \b15 //
                  EB 00 // default
                  
    -1 * 18	 02 01 E0  // handle property change on refit - check current subtype
