@@ -185,4 +185,4 @@
      19 A7 00 // SAND
      1A A5 00 // GRVL
      FF AF 00 // buy menu sprites
-   A6 00 // default sprites
+   A5 00 // default sprites
