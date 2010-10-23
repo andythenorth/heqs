@@ -187,3 +187,5 @@
 #define STR_EXTRA_INFO_CRAWLER_NO_9_2              91 //D0 text
 #define STR_EXTRA_INFO_CRAWLER_NO_9_3              92 //D0 text
 #define STR_EXTRA_INFO_CRAWLER_NO_9_4              93 //D0 text
+
+#define STR_EXTRA_INFO_CRAWLER_RED_PEAK            9F //D0 text
