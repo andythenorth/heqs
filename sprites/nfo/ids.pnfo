@@ -159,42 +159,47 @@
 #define STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_3    B2 //DC text
 
 // D0 texts
-#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_A    40 //D0 text
-#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_B    41 //D0 text
-#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_C    42 //D0 text
+#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_A           40 //D0 text
+#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_B           41 //D0 text
+#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_C           42 //D0 text
 
-#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_2_A    43 //D0 text
-#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_2_B    44 //D0 text
-#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_2_C    45 //D0 text
+#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_2_A           43 //D0 text
+#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_2_B           44 //D0 text
+#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_2_C           45 //D0 text
 
-#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_A    46 //D0 text
-#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_B    47 //D0 text
-#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_C    48 //D0 text
+#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_A           46 //D0 text
+#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_B           47 //D0 text
+#define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_C           48 //D0 text
 
-#define STR_EXTRA_INFO_CRAWLER_NO_6_1              60 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_6_2              61 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_6_3              62 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_6_4              63 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_6_5              64 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_6_6              65 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_6_1                     60 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_6_2                     61 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_6_3                     62 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_6_4                     63 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_6_5                     64 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_6_6                     65 //D0 text
 
-#define STR_EXTRA_INFO_CRAWLER_NO_8_1              80 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_8_2              81 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_8_3              82 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_8_4              83 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_8_5              84 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_8_6              85 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_1                     80 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_2                     81 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_3                     82 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_4                     83 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_5                     84 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_6                     85 //D0 text
 
-#define STR_EXTRA_INFO_CRAWLER_NO_9_1              90 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_9_2              91 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_9_3              92 //D0 text
-#define STR_EXTRA_INFO_CRAWLER_NO_9_4              93 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_9_1                     90 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_9_2                     91 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_9_3                     92 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_9_4                     93 //D0 text
 
-#define STR_EXTRA_INFO_CRAWLER_RED_PEAK            9F //D0 text
+#define STR_EXTRA_INFO_CRAWLER_RED_PEAK                   9F //D0 text
 
-#define STR_EXTRA_INFO_LOGGING_TRUCK_C10           A0 //D0 text
-#define STR_EXTRA_INFO_LOGGING_TRUCK_C16           A1 //D0 text
+#define STR_EXTRA_INFO_LOGGING_TRUCK_C10                  A0 //D0 text
+#define STR_EXTRA_INFO_LOGGING_TRUCK_C16                  A1 //D0 text
 
-#define STR_EXTRA_INFO_TRACTOR_FOURTRAC            B0 //D0 text
-#define STR_EXTRA_INFO_TRACTOR_SPEEDYTRAC          B1 //D0 text
-#define STR_EXTRA_INFO_TRACTOR_SUPER_SPEEDYTRAC    B2 //D0 text
+#define STR_EXTRA_INFO_TRACTOR_FOURTRAC                   B0 //D0 text
+#define STR_EXTRA_INFO_TRACTOR_SPEEDYTRAC                 B1 //D0 text
+#define STR_EXTRA_INFO_TRACTOR_SUPER_SPEEDYTRAC           B2 //D0 text
+
+#define STR_EXTRA_INFO_MINING_TRUCK_CAMELBACK_MOUNTAIN    D0 //D0 text
+
+#define STR_EXTRA_INFO_MINING_TRUCK_THUNDER_MOUNTAIN      D2 //D0 text
+#define STR_EXTRA_INFO_MINING_TRUCK_BEAR_MOUNTAIN         D3 //D0 text

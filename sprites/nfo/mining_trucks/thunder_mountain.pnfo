@@ -28,7 +28,7 @@
     1E EF 03          // Non-refittable cargo classes
     1F 72 EC 0A 00    // Long format introduction date
 -1 * 35	 04 01 7F 01 VEH_MINING_TRUCK_THUNDER_MOUNTAIN "Thunder Mountain Mining Truck" 00
--1 * 41	 04 01 81 01 D2 D0 "Hauls: " 8A "One 90t belly-dump trailer" 00
+-1 * 41	 04 01 81 01 STR_EXTRA_INFO_MINING_TRUCK_THUNDER_MOUNTAIN D0 "Hauls: " 8A "One 90t belly-dump trailer" 00
 -1 * 4	 01 01 01 08
   // Thunder Mountain mining truck empty
 -1 sprites/pcx/heavy_trucks.pcx 34 250 01 24 12 -5 -18
