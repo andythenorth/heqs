@@ -175,3 +175,10 @@
 #define STR_EXTRA_INFO_CRAWLER_NO_6_4              63 //D0 text
 #define STR_EXTRA_INFO_CRAWLER_NO_6_5              64 //D0 text
 #define STR_EXTRA_INFO_CRAWLER_NO_6_6              65 //D0 text
+
+#define STR_EXTRA_INFO_CRAWLER_NO_8_1              80 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_2              81 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_3              82 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_4              83 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_5              84 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_8_6              85 //D0 text
