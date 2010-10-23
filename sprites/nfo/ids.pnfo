@@ -182,3 +182,8 @@
 #define STR_EXTRA_INFO_CRAWLER_NO_8_4              83 //D0 text
 #define STR_EXTRA_INFO_CRAWLER_NO_8_5              84 //D0 text
 #define STR_EXTRA_INFO_CRAWLER_NO_8_6              85 //D0 text
+
+#define STR_EXTRA_INFO_CRAWLER_NO_9_1              90 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_9_2              91 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_9_3              92 //D0 text
+#define STR_EXTRA_INFO_CRAWLER_NO_9_4              93 //D0 text
