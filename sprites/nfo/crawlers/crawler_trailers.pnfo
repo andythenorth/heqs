@@ -134,7 +134,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
   // define additional text suffixes
-  274 * 33	 04 00 81 02 00 D0
+  274 * 33	 04 00 81 02 STR_REFIT_VEH_CRAWLER_TRAILER_1 D0
             		" (Wheeled Trailer)" 00	// D000 = "1st class"
                	" (Sled)" 00	// D001 = "2nd class"
   // Action 2 ID schema: 0 / 1 = wheeled trailer, 2 / 3 = sled
@@ -1478,7 +1478,7 @@
       1D FF 03  // refittable cargo classes
       1E 01 00  // non-refittable cargo classes
   // define additional text suffixes
--1 * 35	 04 00 81 02 02 D0
+-1 * 35	 04 00 81 02 STR_REFIT_VEH_CRAWLER_TRAILER_2 D0
             		" (Flotation Trailer)" 00	// D000 = "1st class"
                	" (Sled)" 00	// D001 = "2nd class"
   // Action 2 ID schema: 0 / 1 = wheeled trailer, 2 / 3 = sled

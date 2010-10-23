@@ -159,6 +159,10 @@
 #define STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_3    B2 //DC text
 
 // D0 texts
+#define STR_REFIT_VEH_CRAWLER_TRAILER_1                   00 //D0 text
+
+#define STR_REFIT_VEH_CRAWLER_TRAILER_2                   02 //D0 text
+
 #define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_A           40 //D0 text
 #define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_B           41 //D0 text
 #define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_C           42 //D0 text
