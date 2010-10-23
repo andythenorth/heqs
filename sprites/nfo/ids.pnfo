@@ -192,6 +192,9 @@
 
 #define STR_EXTRA_INFO_CRAWLER_RED_PEAK            9F //D0 text
 
+#define STR_EXTRA_INFO_LOGGING_TRUCK_C10           A0 //D0 text
+#define STR_EXTRA_INFO_LOGGING_TRUCK_C16           A1 //D0 text
+
 #define STR_EXTRA_INFO_TRACTOR_FOURTRAC            B0 //D0 text
 #define STR_EXTRA_INFO_TRACTOR_SPEEDYTRAC          B1 //D0 text
 #define STR_EXTRA_INFO_TRACTOR_SUPER_SPEEDYTRAC    B2 //D0 text
