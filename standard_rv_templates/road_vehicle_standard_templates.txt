@@ -1,0 +1,21 @@
+// 8/8 long standard graphics template - conversion of Pikka's train templates
+
+1 sprites/pcx/light_trucks.pcx 0 0 01 24 8 -3 -16
+2 sprites/pcx/light_trucks.pcx 16 0 09 17 22 -14 -7
+3 sprites/pcx/light_trucks.pcx 48 0 01 12 32 -16 -6
+4 sprites/pcx/light_trucks.pcx 96 0 09 17 22 -6 -6
+5 sprites/pcx/light_trucks.pcx 128 0 01 24 8 -3 -16
+6 sprites/pcx/light_trucks.pcx 144 0 09 17 22 -14 -6
+7 sprites/pcx/light_trucks.pcx 176 0 01 12 32 -16 -6
+8 sprites/pcx/light_trucks.pcx 224 0 09 17 22 -7 -6
+
+
+
+-1 sprites/pcx/THIS_PCX_FILE  20  10 01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+-1 sprites/pcx/THIS_PCX_FILE  60  10 01  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+-1 sprites/pcx/THIS_PCX_FILE  186 10 01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+-1 sprites/pcx/THIS_PCX_FILE  328 10 01  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+-1 sprites/pcx/THIS_PCX_FILE  454 10 01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+-1 sprites/pcx/THIS_PCX_FILE  494 10 01  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+-1 sprites/pcx/THIS_PCX_FILE  620 10 01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+-1 sprites/pcx/THIS_PCX_FILE  762 10 01  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
