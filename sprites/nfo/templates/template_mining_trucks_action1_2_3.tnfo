@@ -178,13 +178,14 @@
 -1 * 9	 02 01 FF 01 01 00 00 00 00
 
 -1 * 28	 03 01 01 THIS_VEH_ID // Action 3 
-   07 // number of cargo types to support
-     01  01 00 // COAL
-     08  02 00 // IRON ORE
-     0E  06 00 // CORE
-     18  06 00 // AORE (bauxite)
-     19  07 00 // SAND
-     1A  05 00 // GRVL
+   08 // number of cargo types to support
+     01  01 00 // coal
+     08  02 00 // iron ore
+     0E  06 00 // copper ore
+     16  04 00 // clay
+     18  06 00 // aluminium ore (bauxite)
+     19  07 00 // sand
+     1A  05 00 // gravel
      FF  FF 00 // buy menu sprites
    05 00 // default sprites
 
