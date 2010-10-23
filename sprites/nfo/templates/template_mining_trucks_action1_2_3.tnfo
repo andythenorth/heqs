@@ -1,0 +1,221 @@
+#define THIS_Y_X_CROP_1  24  12
+#define THIS_Y_X_CROP_2  20  26
+#define THIS_Y_X_CROP_3  16  36
+#define THIS_Y_X_CROP_4  20  26
+#define THIS_Y_X_CROP_5  21  12
+#define THIS_Y_X_CROP_6  20  26
+#define THIS_Y_X_CROP_7  16  36
+#define THIS_Y_X_CROP_8  20  26
+
+
+ -1 * 4	 01 01 \b15 \b08
+   // empty
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 10  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 10  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 10  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 10  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 10  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 10  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 10  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 10  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // coal partial
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 50  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 50  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 50  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 50  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 50  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 50  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 50  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 50  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // coal full
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 90  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 90  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 90  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 90  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 90  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 90  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 90  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 90  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // iron ore partial
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 130  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 130  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 130  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 130  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 130  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 130  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 130  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 130  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // iron ore full
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 170  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 170  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 170  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 170  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 170  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 170  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 170  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 170  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // white partial
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 210  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 210  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 210  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 210  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 210  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 210  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 210  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 210  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // white full
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 250  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 250  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 250  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 250  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 250  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 250  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 250  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 250  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // brown partial
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 290  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 290  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 290  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 290  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 290  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 290  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 290  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 290  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // brown full
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 330  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 330  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 330  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 330  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 330  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 330  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 330  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 330  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // grey partial
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 370  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 370  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 370  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 370  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 370  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 370  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 370  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 370  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // grey full
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 410  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 410  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 410  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 410  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 410  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 410  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 410  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 410  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // red partial
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 450  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 450  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 450  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 450  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 450  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 450  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 450  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 450  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // red full
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 490  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 490  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 490  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 490  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 490  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 490  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 490  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 490  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // sand partial
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 530  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 530  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 530  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 530  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 530  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 530  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 530  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 530  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+   // sand full
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   34 570  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   66 570  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE   98 570  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  146 570  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  178 570  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  210 570  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  242 570  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/mining_trucks/THIS_PCX_FILE  290 570  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+ -1 * 17	 02 01 01 // coal
+      03 // number loaded states
+      03 // number loading states
+      00 00  01 00  02 00 // loaded sprites
+      00 00  01 00  02 00 // loading sprites 
+ -1 * 17	 02 01 02 // iron ore
+      03 // number loaded states
+      03 // number loading states
+      00 00  03 00  04 00 // loaded sprites
+      00 00  03 00  04 00 // loading sprites 
+ -1 * 17	 02 01 03 // white
+      03 // number loaded states
+      03 // number loading states
+      00 00  05 00  06 00 // loaded sprites
+      00 00  05 00  06 00 // loading sprites 
+ -1 * 17	 02 01 04 // brown
+      03 // number loaded states
+      03 // number loading states
+      00 00  07 00  08 00 // loaded sprites
+      00 00  07 00  08 00 // loading sprites 
+ -1 * 17	 02 01 05 // grey
+      03 // number loaded states
+      03 // number loading states
+      00 00  09 00  0A 00 // loaded sprites
+      00 00  09 00  0A 00 // loading sprites 
+ -1 * 17	 02 01 06 // red
+      03 // number loaded states
+      03 // number loading states
+      00 00  0B 00  0C 00 // loaded sprites
+      00 00  0B 00  0C 00 // loading sprites 
+ -1 * 17	 02 01 07 // sand
+      03 // number loaded states
+      03 // number loading states
+      00 00  0D 00  0E 00 // loaded sprites
+      00 00  0D 00  0E 00 // loading sprites 
+
+-1 * 4	 01 01 01 04 // depot sprites
+-1 * 1	 00
+-1 * 1	 00
+-1 sprites/pcx/mining_trucks/THIS_PCX_FILE  370  10  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+-1 * 1	 00
+-1 * 9	 02 01 FF 01 01 00 00 00 00
+
+-1 * 28	 03 01 01 THIS_VEH_ID // Action 3 
+   07 // number of cargo types to support
+     01  01 00 // COAL
+     08  02 00 // IRON ORE
+     0E  06 00 // CORE
+     18  06 00 // AORE (bauxite)
+     19  07 00 // SAND
+     1A  05 00 // GRVL
+     FF  FF 00 // buy menu sprites
+   05 00 // default sprites
+
+
+       
+#undef THIS_Y_X_CROP_1
+#undef THIS_Y_X_CROP_2
+#undef THIS_Y_X_CROP_3
+#undef THIS_Y_X_CROP_4
+#undef THIS_Y_X_CROP_5
+#undef THIS_Y_X_CROP_6
+#undef THIS_Y_X_CROP_7
+#undef THIS_Y_X_CROP_8
+
+#undef THIS_PCX_FILE
+
+#undef THIS_OFFS_X_Y_1
+#undef THIS_OFFS_X_Y_2
+#undef THIS_OFFS_X_Y_3
+#undef THIS_OFFS_X_Y_4
+#undef THIS_OFFS_X_Y_5
+#undef THIS_OFFS_X_Y_6
+#undef THIS_OFFS_X_Y_7
+#undef THIS_OFFS_X_Y_8      
