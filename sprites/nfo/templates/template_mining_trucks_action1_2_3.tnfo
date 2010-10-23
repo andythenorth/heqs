@@ -2,141 +2,66 @@
 #define THIS_OFFS_X_Y_MENU -14  -6
 
  -1 * 4	 01 01 \b15 \b08
-   // empty
- -1 sprites/pcx/THIS_PCX_FILE   34 10  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 10  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 10  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 10  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 10  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 10  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 10  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 10  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // coal partial
- -1 sprites/pcx/THIS_PCX_FILE   34 50  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 50  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 50  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 50  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE   34 50  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 50  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 50  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 50  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // coal full
- -1 sprites/pcx/THIS_PCX_FILE   34 90  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 90  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 90  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 90  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 90  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 90  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 90  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 90  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // iron ore partial
- -1 sprites/pcx/THIS_PCX_FILE   34 130  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 130  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 130  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 130  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 130  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 130  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 130  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 130  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // iron ore full
- -1 sprites/pcx/THIS_PCX_FILE   34 170  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 170  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 170  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 170  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 170  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 170  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 170  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 170  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // white partial
- -1 sprites/pcx/THIS_PCX_FILE   34 210  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 210  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 210  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 210  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 210  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 210  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 210  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 210  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // white full
- -1 sprites/pcx/THIS_PCX_FILE   34 250  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 250  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 250  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 250  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 250  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 250  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 250  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 250  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // brown partial
- -1 sprites/pcx/THIS_PCX_FILE   34 290  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 290  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 290  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 290  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 290  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 290  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 290  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 290  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // brown full
- -1 sprites/pcx/THIS_PCX_FILE   34 330  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 330  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 330  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 330  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 330  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 330  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 330  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 330  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // grey partial
- -1 sprites/pcx/THIS_PCX_FILE   34 370  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 370  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 370  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 370  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 370  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 370  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 370  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 370  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // grey full
- -1 sprites/pcx/THIS_PCX_FILE   34 410  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 410  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 410  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 410  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 410  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 410  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 410  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 410  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // red partial
- -1 sprites/pcx/THIS_PCX_FILE   34 450  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 450  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 450  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 450  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 450  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 450  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 450  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 450  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // red full
- -1 sprites/pcx/THIS_PCX_FILE   34 490  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 490  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 490  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 490  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 490  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 490  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 490  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 490  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // sand partial
- -1 sprites/pcx/THIS_PCX_FILE   34 530  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 530  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 530  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 530  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 530  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 530  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 530  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 530  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
-   // sand full
- -1 sprites/pcx/THIS_PCX_FILE   34 570  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
- -1 sprites/pcx/THIS_PCX_FILE   66 570  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
- -1 sprites/pcx/THIS_PCX_FILE   98 570  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
- -1 sprites/pcx/THIS_PCX_FILE  146 570  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
- -1 sprites/pcx/THIS_PCX_FILE  178 570  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
- -1 sprites/pcx/THIS_PCX_FILE  210 570  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
- -1 sprites/pcx/THIS_PCX_FILE  242 570  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
- -1 sprites/pcx/THIS_PCX_FILE  290 570  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+ // empty
+ #define THIS_Y_POS  10
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // coal partial
+ #define THIS_Y_POS  50
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ 
+ // coal full
+ #define THIS_Y_POS  90
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   
+ // iron ore partial
+ #define THIS_Y_POS  130
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   
+ // iron ore full
+ #define THIS_Y_POS  170
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ 
+ // white partial
+ #define THIS_Y_POS  210
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // white full
+ #define THIS_Y_POS  250
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // brown partial
+ #define THIS_Y_POS  290
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // brown full
+ #define THIS_Y_POS  330
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // grey partial
+ #define THIS_Y_POS  370
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // grey full
+ #define THIS_Y_POS  410
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // red partial
+ #define THIS_Y_POS  450
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // red full
+ #define THIS_Y_POS  490
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // sand partial
+ #define THIS_Y_POS  530
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // sand full
+ #define THIS_Y_POS  570
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
  -1 * 17	 02 01 01 // coal
       03 // number loaded states
       03 // number loading states

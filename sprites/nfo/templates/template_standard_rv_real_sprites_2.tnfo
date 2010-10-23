@@ -1,0 +1,11 @@
+// based on Zephyris template spacing, modified by andythenorth at some points
+ -1 sprites/pcx/THIS_PCX_FILE   34 THIS_Y_POS  01  THIS_Y_X_CROP_1  THIS_OFFS_X_Y_1
+ -1 sprites/pcx/THIS_PCX_FILE   66 THIS_Y_POS  09  THIS_Y_X_CROP_2  THIS_OFFS_X_Y_2
+ -1 sprites/pcx/THIS_PCX_FILE   98 THIS_Y_POS  01  THIS_Y_X_CROP_3  THIS_OFFS_X_Y_3
+ -1 sprites/pcx/THIS_PCX_FILE  146 THIS_Y_POS  09  THIS_Y_X_CROP_4  THIS_OFFS_X_Y_4
+ -1 sprites/pcx/THIS_PCX_FILE  178 THIS_Y_POS  01  THIS_Y_X_CROP_5  THIS_OFFS_X_Y_5
+ -1 sprites/pcx/THIS_PCX_FILE  210 THIS_Y_POS  09  THIS_Y_X_CROP_6  THIS_OFFS_X_Y_6
+ -1 sprites/pcx/THIS_PCX_FILE  242 THIS_Y_POS  01  THIS_Y_X_CROP_7  THIS_OFFS_X_Y_7
+ -1 sprites/pcx/THIS_PCX_FILE  290 THIS_Y_POS  09  THIS_Y_X_CROP_8  THIS_OFFS_X_Y_8
+
+#undef THIS_Y_POS

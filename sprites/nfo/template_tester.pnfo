@@ -1,7 +1,25 @@
-// Gmund Mog - road and rail versions
-// power ranges 30hp-177hp (2010 version)
+#define THIS_PCX_FILE         industrial_tram_wagons_1.pcx     // used in action 1 template (must include file extension)
+
+#define THIS_Y_X_CROP_1  18   8
+#define THIS_Y_X_CROP_2  16  20
+#define THIS_Y_X_CROP_3  12  28
+#define THIS_Y_X_CROP_4  16  20
+#define THIS_Y_X_CROP_5  18   8
+#define THIS_Y_X_CROP_6  16  20
+#define THIS_Y_X_CROP_7  12  28
+#define THIS_Y_X_CROP_8  16  20
+
+#define THIS_OFFS_X_Y_1   -3 -12
+#define THIS_OFFS_X_Y_2  -14  -5
+#define THIS_OFFS_X_Y_3  -13  -6
+#define THIS_OFFS_X_Y_4   -5  -5
+#define THIS_OFFS_X_Y_5   -4 -12
+#define THIS_OFFS_X_Y_6  -14  -6
+#define THIS_OFFS_X_Y_7  -13  -6
+#define THIS_OFFS_X_Y_8   -4  -6
+
+
  -1 * 14	 04 01 7F 01 VEH_TEMPLATE_TESTER "Template Tester" 00
- // road version
  -1 * 67	 00 01 \b25 01 VEH_TEMPLATE_TESTER 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
@@ -28,15 +46,12 @@
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
     1F \d711420    // Long format introduction date  
+    
  -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members 
-1 sprites/pcx/light_trucks.pcx 0 0 01 24 8 -3 -16
-2 sprites/pcx/light_trucks.pcx 16 0 09 17 22 -14 -7
-3 sprites/pcx/light_trucks.pcx 48 0 01 12 32 -16 -6
-4 sprites/pcx/light_trucks.pcx 96 0 09 17 22 -6 -6
-5 sprites/pcx/light_trucks.pcx 128 0 01 24 8 -3 -16
-6 sprites/pcx/light_trucks.pcx 144 0 09 17 22 -14 -6
-7 sprites/pcx/light_trucks.pcx 176 0 01 12 32 -16 -6
-8 sprites/pcx/light_trucks.pcx 224 0 09 17 22 -7 -6
+ // real sprites
+ #define THIS_Y_POS  0
+ #include "../templates/template_standard_rv_real_sprites_1.tnfo"
+ 
  -1 * 9	 02 01 A1
       01 // number loading states
       01 // number loaded states
