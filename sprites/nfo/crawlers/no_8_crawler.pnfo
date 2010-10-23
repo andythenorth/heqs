@@ -367,32 +367,32 @@
     1E 00 00  // Non-refittable cargo classes
     1F \d708300    // Long format introduction date  
 -1 * 38	 04 01 7F 01 VEH_CRAWLER_NO_8_LOGGING_MINING "No. 8 Crawler (Logging / Mining)" 00
--1 * 120	 04 01 81 01 8A D0 "Hauls: " 8A "Two 30t log trailers or belly-dump trailers" 
+-1 * 120	 04 01 81 01 STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_1 D0 "Hauls: " 8A "Two 30t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1940"  // action 2 chain references 1937, but vehicle intro date is 1940 // (60t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab"
                                0d 98
                                00
--1 * 126	 04 01 81 01 8B D0 "Hauls: " 8A "Two 36t log trailers or belly-dump trailers" 
+-1 * 126	 04 01 81 01 STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_2 D0 "Hauls: " 8A "Two 36t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1955" // (72t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab style"
                                0d 98
                                00
--1 * 126	 04 01 81 01 8C D0 "Hauls: " 8A "Two 42t log trailers or belly-dump trailers" 
+-1 * 126	 04 01 81 01 STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_3 D0 "Hauls: " 8A "Two 42t log trailers or belly-dump trailers" 
                                0d 98 "Model: " 8A "1969" // (84t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade, cab style"
                                0d 98
                                00
--1 * 132	 04 01 81 01 8D D0 "Hauls: " 8A "Two 56t log trailers or belly-dump trailers"
+-1 * 132	 04 01 81 01 STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_4 D0 "Hauls: " 8A "Two 56t log trailers or belly-dump trailers"
                                0d 98 "Model: " 8A "1980 (Elevated drive)" // (112t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
                                0d 98
                                00
--1 * 132	 04 01 81 01 8E D0 "Hauls: " 8A "Two 70t log trailers or belly-dump trailers"
+-1 * 132	 04 01 81 01 STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_5 D0 "Hauls: " 8A "Two 70t log trailers or belly-dump trailers"
                                0d 98 "Model: " 8A "1991 (Elevated drive)" // (140t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
                                0d 98
                                00
--1 * 132	 04 01 81 01 8F D0 "Hauls: " 8A "Two 84t log trailers or belly-dump trailers"
+-1 * 132	 04 01 81 01 STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_6 D0 "Hauls: " 8A "Two 84t log trailers or belly-dump trailers"
                                0d 98 "Model: " 8A "2005 (Elevated drive)" // (168t total cargo)
                                0d 98 0d 98 "Variations (random): " 98 "Bulldozer blade"
                                0d 98
