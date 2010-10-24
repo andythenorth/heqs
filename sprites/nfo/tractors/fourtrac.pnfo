@@ -33,37 +33,37 @@
                                00
 -1 * 4	 01 01 03 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
- -1 sprites/pcx/tractors.pcx 0   210 01 24 12 -5  -15
- -1 sprites/pcx/tractors.pcx 32  210 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 64  210 01 16 36 -14 -9
- -1 sprites/pcx/tractors.pcx 112 210 01 20 26 -9  -10
- -1 sprites/pcx/tractors.pcx 144 210 01 24 12 -5  -13
- -1 sprites/pcx/tractors.pcx 176 210 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 208 210 01 16 36 -31 -8
- -1 sprites/pcx/tractors.pcx 256 210 01 20 26 -10 -10
+ -1 sprites/graphics/tractors.pcx 0   210 01 24 12 -5  -15
+ -1 sprites/graphics/tractors.pcx 32  210 01 20 26 -17 -9
+ -1 sprites/graphics/tractors.pcx 64  210 01 16 36 -14 -9
+ -1 sprites/graphics/tractors.pcx 112 210 01 20 26 -9  -10
+ -1 sprites/graphics/tractors.pcx 144 210 01 24 12 -5  -13
+ -1 sprites/graphics/tractors.pcx 176 210 01 20 26 -17 -9
+ -1 sprites/graphics/tractors.pcx 208 210 01 16 36 -31 -8
+ -1 sprites/graphics/tractors.pcx 256 210 01 20 26 -10 -10
   // 2nd company colour
- -1 sprites/pcx/tractors.pcx 0   250 01 24 12 -5  -15
- -1 sprites/pcx/tractors.pcx 32  250 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 64  250 01 16 36 -14 -9
- -1 sprites/pcx/tractors.pcx 112 250 01 20 26 -9  -10
- -1 sprites/pcx/tractors.pcx 144 250 01 24 12 -5  -13
- -1 sprites/pcx/tractors.pcx 176 250 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 208 250 01 16 36 -31 -8
- -1 sprites/pcx/tractors.pcx 256 250 01 20 26 -10 -10
+ -1 sprites/graphics/tractors.pcx 0   250 01 24 12 -5  -15
+ -1 sprites/graphics/tractors.pcx 32  250 01 20 26 -17 -9
+ -1 sprites/graphics/tractors.pcx 64  250 01 16 36 -14 -9
+ -1 sprites/graphics/tractors.pcx 112 250 01 20 26 -9  -10
+ -1 sprites/graphics/tractors.pcx 144 250 01 24 12 -5  -13
+ -1 sprites/graphics/tractors.pcx 176 250 01 20 26 -17 -9
+ -1 sprites/graphics/tractors.pcx 208 250 01 16 36 -31 -8
+ -1 sprites/graphics/tractors.pcx 256 250 01 20 26 -10 -10
   // white
- -1 sprites/pcx/tractors.pcx 0   290 01 24 12 -5  -15
- -1 sprites/pcx/tractors.pcx 32  290 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 64  290 01 16 36 -14 -9
- -1 sprites/pcx/tractors.pcx 112 290 01 20 26 -9  -10
- -1 sprites/pcx/tractors.pcx 144 290 01 24 12 -5  -13
- -1 sprites/pcx/tractors.pcx 176 290 01 20 26 -17 -9
- -1 sprites/pcx/tractors.pcx 208 290 01 16 36 -31 -8
- -1 sprites/pcx/tractors.pcx 256 290 01 20 26 -10 -10
+ -1 sprites/graphics/tractors.pcx 0   290 01 24 12 -5  -15
+ -1 sprites/graphics/tractors.pcx 32  290 01 20 26 -17 -9
+ -1 sprites/graphics/tractors.pcx 64  290 01 16 36 -14 -9
+ -1 sprites/graphics/tractors.pcx 112 290 01 20 26 -9  -10
+ -1 sprites/graphics/tractors.pcx 144 290 01 24 12 -5  -13
+ -1 sprites/graphics/tractors.pcx 176 290 01 20 26 -17 -9
+ -1 sprites/graphics/tractors.pcx 208 290 01 16 36 -31 -8
+ -1 sprites/graphics/tractors.pcx 256 290 01 20 26 -10 -10
 -1 * 9	 02 01 A1 01 01 00 00 00 00
 -1 * 9	 02 01 A2 01 01 01 00 01 00
 -1 * 9	 02 01 A3 01 01 02 00 02 00
 -1 * 4	 01 01 01 01
--1 sprites/pcx/tractors.pcx 336 250 01 16 36 -14 -8
+-1 sprites/graphics/tractors.pcx 336 250 01 16 36 -14 -8
 -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states

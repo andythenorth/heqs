@@ -31,29 +31,29 @@
     1F \d711420    // Long format introduction date  
  -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
-//  1 sprites/pcx/light_trucks.pcx   0 25 01 18  8  -3 -14
-//  2 sprites/pcx/light_trucks.pcx  16 25 09 16 20  -9 -11
-//  3 sprites/pcx/light_trucks.pcx  48 25 01 12 28  -6  -8
-//  4 sprites/pcx/light_trucks.pcx  96 25 09 16 20  -1  -7
-//  5 sprites/pcx/light_trucks.pcx 128 25 01 18  8  -3  -6
-//  6 sprites/pcx/light_trucks.pcx 144 25 09 16 20 -17  -7
-//  7 sprites/pcx/light_trucks.pcx 176 25 01 12 28 -22  -8
-//  8 sprites/pcx/light_trucks.pcx 224 25 09 16 20  -9 -11
-1 sprites/pcx/light_trucks.pcx 0 0 01 24 8 -3 -16
-2 sprites/pcx/light_trucks.pcx 16 0 09 17 22 -14 -7
-3 sprites/pcx/light_trucks.pcx 48 0 01 12 32 -16 -6
-4 sprites/pcx/light_trucks.pcx 96 0 09 17 22 -6 -6
-5 sprites/pcx/light_trucks.pcx 128 0 01 24 8 -3 -16
-6 sprites/pcx/light_trucks.pcx 144 0 09 17 22 -14 -6
-7 sprites/pcx/light_trucks.pcx 176 0 01 12 32 -16 -6
-8 sprites/pcx/light_trucks.pcx 224 0 09 17 22 -7 -6
+//  1 sprites/graphics/light_trucks.pcx   0 25 01 18  8  -3 -14
+//  2 sprites/graphics/light_trucks.pcx  16 25 09 16 20  -9 -11
+//  3 sprites/graphics/light_trucks.pcx  48 25 01 12 28  -6  -8
+//  4 sprites/graphics/light_trucks.pcx  96 25 09 16 20  -1  -7
+//  5 sprites/graphics/light_trucks.pcx 128 25 01 18  8  -3  -6
+//  6 sprites/graphics/light_trucks.pcx 144 25 09 16 20 -17  -7
+//  7 sprites/graphics/light_trucks.pcx 176 25 01 12 28 -22  -8
+//  8 sprites/graphics/light_trucks.pcx 224 25 09 16 20  -9 -11
+1 sprites/graphics/light_trucks.pcx 0 0 01 24 8 -3 -16
+2 sprites/graphics/light_trucks.pcx 16 0 09 17 22 -14 -7
+3 sprites/graphics/light_trucks.pcx 48 0 01 12 32 -16 -6
+4 sprites/graphics/light_trucks.pcx 96 0 09 17 22 -6 -6
+5 sprites/graphics/light_trucks.pcx 128 0 01 24 8 -3 -16
+6 sprites/graphics/light_trucks.pcx 144 0 09 17 22 -14 -6
+7 sprites/graphics/light_trucks.pcx 176 0 01 12 32 -16 -6
+8 sprites/graphics/light_trucks.pcx 224 0 09 17 22 -7 -6
  -1 * 9	 02 01 A1
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
  -1 * 4	 01 01 01 01 // buy menu sprites
- -1 sprites/pcx/light_trucks.pcx 176 25 01 12 28 -22 -8
+ -1 sprites/graphics/light_trucks.pcx 176 25 01 12 28 -22 -8
  -1 * 9	 02 01 AF // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
@@ -89,14 +89,14 @@
     2A \d711420 // Long format introduction date  
  -1 * 4	 01 00 01 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
-  1 sprites/pcx/light_trucks.pcx 0  0 01 18 8 -3 -14
-  2 sprites/pcx/light_trucks.pcx 16 0 09 16 20 -9 -11
-  3 sprites/pcx/light_trucks.pcx 48 0 01 12 28 -6 -8
-  4 sprites/pcx/light_trucks.pcx 96 0 09 16 20 -1 -7
-  5 sprites/pcx/light_trucks.pcx 128 0 01 18 8 -3 -6
-  6 sprites/pcx/light_trucks.pcx 144 0 09 16 20 -17 -7
-  7 sprites/pcx/light_trucks.pcx 176 0 01 12 28 -22 -8
-  8 sprites/pcx/light_trucks.pcx 224 0 09 16 20 -9 -11
+  1 sprites/graphics/light_trucks.pcx 0  0 01 18 8 -3 -14
+  2 sprites/graphics/light_trucks.pcx 16 0 09 16 20 -9 -11
+  3 sprites/graphics/light_trucks.pcx 48 0 01 12 28 -6 -8
+  4 sprites/graphics/light_trucks.pcx 96 0 09 16 20 -1 -7
+  5 sprites/graphics/light_trucks.pcx 128 0 01 18 8 -3 -6
+  6 sprites/graphics/light_trucks.pcx 144 0 09 16 20 -17 -7
+  7 sprites/graphics/light_trucks.pcx 176 0 01 12 28 -22 -8
+  8 sprites/graphics/light_trucks.pcx 224 0 09 16 20 -9 -11
  -1 * 9	 02 00 B1
       01 // number loading states
       01 // number loaded states

@@ -140,144 +140,144 @@
   // Action 2 ID schema: 0 / 1 = wheeled trailer, 2 / 3 = sled
    // Standard bulldozer Goods Trailer
   275 * 4	 01 01 01 08
-  276 sprites/pcx/medium_trailer_4_wheel.pcx 34 570 01 24 12 -3 -10
-  277 sprites/pcx/medium_trailer_4_wheel.pcx 66 570 01 20 26 -11 -9
-  278 sprites/pcx/medium_trailer_4_wheel.pcx 98 570 01 16 36 -15 -7
-  279 sprites/pcx/medium_trailer_4_wheel.pcx 146 570 01 20 26 -9 -7
-  280 sprites/pcx/medium_trailer_4_wheel.pcx 178 570 01 24 12 -9 -16
-  281 sprites/pcx/medium_trailer_4_wheel.pcx 210 570 01 20 26 -17 -7
-  282 sprites/pcx/medium_trailer_4_wheel.pcx 242 570 01 16 36 -19 -8
-  283 sprites/pcx/medium_trailer_4_wheel.pcx 290 570 01 20 26 -13 -10
+  276 sprites/graphics/medium_trailer_4_wheel.pcx 34 570 01 24 12 -3 -10
+  277 sprites/graphics/medium_trailer_4_wheel.pcx 66 570 01 20 26 -11 -9
+  278 sprites/graphics/medium_trailer_4_wheel.pcx 98 570 01 16 36 -15 -7
+  279 sprites/graphics/medium_trailer_4_wheel.pcx 146 570 01 20 26 -9 -7
+  280 sprites/graphics/medium_trailer_4_wheel.pcx 178 570 01 24 12 -9 -16
+  281 sprites/graphics/medium_trailer_4_wheel.pcx 210 570 01 20 26 -17 -7
+  282 sprites/graphics/medium_trailer_4_wheel.pcx 242 570 01 16 36 -19 -8
+  283 sprites/graphics/medium_trailer_4_wheel.pcx 290 570 01 20 26 -13 -10
   284 * 9	 02 01 05   01 01   00 00    00 00
    // Standard bulldozer Goods Sled
   285 * 4	 01 01 01 08
-  286 sprites/pcx/medium_sled.pcx 34 570 01 24 12 -3 -10
-  287 sprites/pcx/medium_sled.pcx 66 570 01 20 26 -11 -9
-  288 sprites/pcx/medium_sled.pcx 98 570 01 16 36 -15 -7
-  289 sprites/pcx/medium_sled.pcx 146 570 01 20 26 -9 -7
-  290 sprites/pcx/medium_sled.pcx 178 570 01 24 12 -9 -16
-  291 sprites/pcx/medium_sled.pcx 210 570 01 20 26 -17 -7
-  292 sprites/pcx/medium_sled.pcx 242 570 01 16 36 -19 -8
-  293 sprites/pcx/medium_sled.pcx 290 570 01 20 26 -13 -10
+  286 sprites/graphics/medium_sled.pcx 34 570 01 24 12 -3 -10
+  287 sprites/graphics/medium_sled.pcx 66 570 01 20 26 -11 -9
+  288 sprites/graphics/medium_sled.pcx 98 570 01 16 36 -15 -7
+  289 sprites/graphics/medium_sled.pcx 146 570 01 20 26 -9 -7
+  290 sprites/graphics/medium_sled.pcx 178 570 01 24 12 -9 -16
+  291 sprites/graphics/medium_sled.pcx 210 570 01 20 26 -17 -7
+  292 sprites/graphics/medium_sled.pcx 242 570 01 16 36 -19 -8
+  293 sprites/graphics/medium_sled.pcx 290 570 01 20 26 -13 -10
   294 * 9	 02 01 25   01 01   00 00    00 00
    // Standard bulldozer end dump trailer - empty
   295 * 4	 01 01 0D 08
-  296 sprites/pcx/medium_trailer_4_wheel.pcx 34 50 01 24 12 -3 -10
-  297 sprites/pcx/medium_trailer_4_wheel.pcx 66 50 09 20 26 -11 -9
-  298 sprites/pcx/medium_trailer_4_wheel.pcx 98 50 01 16 36 -15 -7
-  299 sprites/pcx/medium_trailer_4_wheel.pcx 146 50 09 20 26 -9 -7
-  300 sprites/pcx/medium_trailer_4_wheel.pcx 178 50 01 24 12 -9 -16
-  301 sprites/pcx/medium_trailer_4_wheel.pcx 210 50 09 20 26 -17 -7
-  302 sprites/pcx/medium_trailer_4_wheel.pcx 242 50 01 16 36 -19 -8
-  303 sprites/pcx/medium_trailer_4_wheel.pcx 290 50 09 20 26 -13 -10
+  296 sprites/graphics/medium_trailer_4_wheel.pcx 34 50 01 24 12 -3 -10
+  297 sprites/graphics/medium_trailer_4_wheel.pcx 66 50 09 20 26 -11 -9
+  298 sprites/graphics/medium_trailer_4_wheel.pcx 98 50 01 16 36 -15 -7
+  299 sprites/graphics/medium_trailer_4_wheel.pcx 146 50 09 20 26 -9 -7
+  300 sprites/graphics/medium_trailer_4_wheel.pcx 178 50 01 24 12 -9 -16
+  301 sprites/graphics/medium_trailer_4_wheel.pcx 210 50 09 20 26 -17 -7
+  302 sprites/graphics/medium_trailer_4_wheel.pcx 242 50 01 16 36 -19 -8
+  303 sprites/graphics/medium_trailer_4_wheel.pcx 290 50 09 20 26 -13 -10
    // Standard bulldozer end dump - iron ore, loading
-  304 sprites/pcx/medium_trailer_4_wheel.pcx 34 490 01 24 12 -3 -10
-  305 sprites/pcx/medium_trailer_4_wheel.pcx 66 490 09 20 20 -11 -9
-  306 sprites/pcx/medium_trailer_4_wheel.pcx 98 490 01 16 36 -15 -7
-  307 sprites/pcx/medium_trailer_4_wheel.pcx 146 490 09 20 26 -9 -7
-  308 sprites/pcx/medium_trailer_4_wheel.pcx 178 490 01 24 12 -9 -16
-  309 sprites/pcx/medium_trailer_4_wheel.pcx 210 490 09 20 26 -17 -7
-  310 sprites/pcx/medium_trailer_4_wheel.pcx 242 490 01 16 36 -19 -8
-  311 sprites/pcx/medium_trailer_4_wheel.pcx 290 490 09 20 26 -13 -10
+  304 sprites/graphics/medium_trailer_4_wheel.pcx 34 490 01 24 12 -3 -10
+  305 sprites/graphics/medium_trailer_4_wheel.pcx 66 490 09 20 20 -11 -9
+  306 sprites/graphics/medium_trailer_4_wheel.pcx 98 490 01 16 36 -15 -7
+  307 sprites/graphics/medium_trailer_4_wheel.pcx 146 490 09 20 26 -9 -7
+  308 sprites/graphics/medium_trailer_4_wheel.pcx 178 490 01 24 12 -9 -16
+  309 sprites/graphics/medium_trailer_4_wheel.pcx 210 490 09 20 26 -17 -7
+  310 sprites/graphics/medium_trailer_4_wheel.pcx 242 490 01 16 36 -19 -8
+  311 sprites/graphics/medium_trailer_4_wheel.pcx 290 490 09 20 26 -13 -10
    // Standard bulldozer end dump - iron ore, loaded
-  312 sprites/pcx/medium_trailer_4_wheel.pcx 34 530 01 24 12 -3 -10
-  313 sprites/pcx/medium_trailer_4_wheel.pcx 66 530 09 20 20 -11 -9
-  314 sprites/pcx/medium_trailer_4_wheel.pcx 98 530 01 16 36 -15 -7
-  315 sprites/pcx/medium_trailer_4_wheel.pcx 146 530 09 20 26 -9 -7
-  316 sprites/pcx/medium_trailer_4_wheel.pcx 178 530 01 24 12 -9 -16
-  317 sprites/pcx/medium_trailer_4_wheel.pcx 210 530 09 20 26 -17 -7
-  318 sprites/pcx/medium_trailer_4_wheel.pcx 242 530 01 16 36 -19 -8
-  319 sprites/pcx/medium_trailer_4_wheel.pcx 290 530 09 20 26 -13 -10
+  312 sprites/graphics/medium_trailer_4_wheel.pcx 34 530 01 24 12 -3 -10
+  313 sprites/graphics/medium_trailer_4_wheel.pcx 66 530 09 20 20 -11 -9
+  314 sprites/graphics/medium_trailer_4_wheel.pcx 98 530 01 16 36 -15 -7
+  315 sprites/graphics/medium_trailer_4_wheel.pcx 146 530 09 20 26 -9 -7
+  316 sprites/graphics/medium_trailer_4_wheel.pcx 178 530 01 24 12 -9 -16
+  317 sprites/graphics/medium_trailer_4_wheel.pcx 210 530 09 20 26 -17 -7
+  318 sprites/graphics/medium_trailer_4_wheel.pcx 242 530 01 16 36 -19 -8
+  319 sprites/graphics/medium_trailer_4_wheel.pcx 290 530 09 20 26 -13 -10
    // Standard bulldozer end dump - coal, loading
-  320 sprites/pcx/medium_trailer_4_wheel.pcx 34 170 01 24 12 -3 -10
-  321 sprites/pcx/medium_trailer_4_wheel.pcx 66 170 09 20 26 -11 -9
-  322 sprites/pcx/medium_trailer_4_wheel.pcx 98 170 01 16 36 -15 -7
-  323 sprites/pcx/medium_trailer_4_wheel.pcx 146 170 09 20 26 -9 -7
-  324 sprites/pcx/medium_trailer_4_wheel.pcx 178 170 01 24 12 -9 -16
-  325 sprites/pcx/medium_trailer_4_wheel.pcx 210 170 09 20 26 -17 -7
-  326 sprites/pcx/medium_trailer_4_wheel.pcx 242 170 01 16 36 -19 -8
-  327 sprites/pcx/medium_trailer_4_wheel.pcx 290 170 09 20 26 -13 -10
+  320 sprites/graphics/medium_trailer_4_wheel.pcx 34 170 01 24 12 -3 -10
+  321 sprites/graphics/medium_trailer_4_wheel.pcx 66 170 09 20 26 -11 -9
+  322 sprites/graphics/medium_trailer_4_wheel.pcx 98 170 01 16 36 -15 -7
+  323 sprites/graphics/medium_trailer_4_wheel.pcx 146 170 09 20 26 -9 -7
+  324 sprites/graphics/medium_trailer_4_wheel.pcx 178 170 01 24 12 -9 -16
+  325 sprites/graphics/medium_trailer_4_wheel.pcx 210 170 09 20 26 -17 -7
+  326 sprites/graphics/medium_trailer_4_wheel.pcx 242 170 01 16 36 -19 -8
+  327 sprites/graphics/medium_trailer_4_wheel.pcx 290 170 09 20 26 -13 -10
    // Standard bulldozer end dump - coal, loaded
-  328 sprites/pcx/medium_trailer_4_wheel.pcx 34 210 01 24 12 -3 -10
-  329 sprites/pcx/medium_trailer_4_wheel.pcx 66 210 09 20 26 -11 -9
-  330 sprites/pcx/medium_trailer_4_wheel.pcx 98 210 01 16 36 -15 -7
-  331 sprites/pcx/medium_trailer_4_wheel.pcx 146 210 09 20 26 -9 -7
-  332 sprites/pcx/medium_trailer_4_wheel.pcx 178 210 01 24 12 -9 -16
-  333 sprites/pcx/medium_trailer_4_wheel.pcx 210 210 09 20 26 -17 -7
-  334 sprites/pcx/medium_trailer_4_wheel.pcx 242 210 01 16 36 -19 -8
-  335 sprites/pcx/medium_trailer_4_wheel.pcx 290 210 09 20 26 -13 -10
+  328 sprites/graphics/medium_trailer_4_wheel.pcx 34 210 01 24 12 -3 -10
+  329 sprites/graphics/medium_trailer_4_wheel.pcx 66 210 09 20 26 -11 -9
+  330 sprites/graphics/medium_trailer_4_wheel.pcx 98 210 01 16 36 -15 -7
+  331 sprites/graphics/medium_trailer_4_wheel.pcx 146 210 09 20 26 -9 -7
+  332 sprites/graphics/medium_trailer_4_wheel.pcx 178 210 01 24 12 -9 -16
+  333 sprites/graphics/medium_trailer_4_wheel.pcx 210 210 09 20 26 -17 -7
+  334 sprites/graphics/medium_trailer_4_wheel.pcx 242 210 01 16 36 -19 -8
+  335 sprites/graphics/medium_trailer_4_wheel.pcx 290 210 09 20 26 -13 -10
    // Standard bulldozer end dump - grain, loading
-  336 sprites/pcx/medium_trailer_4_wheel.pcx 34 250 01 24 12 -3 -10
-  337 sprites/pcx/medium_trailer_4_wheel.pcx 66 250 09 20 26 -11 -9
-  338 sprites/pcx/medium_trailer_4_wheel.pcx 98 250 01 16 36 -15 -7
-  339 sprites/pcx/medium_trailer_4_wheel.pcx 146 250 09 20 26 -9 -7
-  340 sprites/pcx/medium_trailer_4_wheel.pcx 178 250 01 24 12 -9 -16
-  341 sprites/pcx/medium_trailer_4_wheel.pcx 210 250 09 20 26 -17 -7
-  342 sprites/pcx/medium_trailer_4_wheel.pcx 242 250 01 16 36 -19 -8
-  343 sprites/pcx/medium_trailer_4_wheel.pcx 290 250 09 20 26 -13 -10
+  336 sprites/graphics/medium_trailer_4_wheel.pcx 34 250 01 24 12 -3 -10
+  337 sprites/graphics/medium_trailer_4_wheel.pcx 66 250 09 20 26 -11 -9
+  338 sprites/graphics/medium_trailer_4_wheel.pcx 98 250 01 16 36 -15 -7
+  339 sprites/graphics/medium_trailer_4_wheel.pcx 146 250 09 20 26 -9 -7
+  340 sprites/graphics/medium_trailer_4_wheel.pcx 178 250 01 24 12 -9 -16
+  341 sprites/graphics/medium_trailer_4_wheel.pcx 210 250 09 20 26 -17 -7
+  342 sprites/graphics/medium_trailer_4_wheel.pcx 242 250 01 16 36 -19 -8
+  343 sprites/graphics/medium_trailer_4_wheel.pcx 290 250 09 20 26 -13 -10
   // Standard bulldozer end dump - grain, loaded
-  344 sprites/pcx/medium_trailer_4_wheel.pcx 34 290 01 24 12 -3 -10
-  345 sprites/pcx/medium_trailer_4_wheel.pcx 66 290 09 20 26 -11 -9
-  346 sprites/pcx/medium_trailer_4_wheel.pcx 98 290 01 16 36 -15 -7
-  347 sprites/pcx/medium_trailer_4_wheel.pcx 146 290 09 20 26 -9 -7
-  348 sprites/pcx/medium_trailer_4_wheel.pcx 178 290 01 24 12 -9 -16
-  349 sprites/pcx/medium_trailer_4_wheel.pcx 210 290 09 20 26 -17 -7
-  350 sprites/pcx/medium_trailer_4_wheel.pcx 242 290 01 16 36 -19 -8
-  351 sprites/pcx/medium_trailer_4_wheel.pcx 290 290 09 20 26 -13 -10
+  344 sprites/graphics/medium_trailer_4_wheel.pcx 34 290 01 24 12 -3 -10
+  345 sprites/graphics/medium_trailer_4_wheel.pcx 66 290 09 20 26 -11 -9
+  346 sprites/graphics/medium_trailer_4_wheel.pcx 98 290 01 16 36 -15 -7
+  347 sprites/graphics/medium_trailer_4_wheel.pcx 146 290 09 20 26 -9 -7
+  348 sprites/graphics/medium_trailer_4_wheel.pcx 178 290 01 24 12 -9 -16
+  349 sprites/graphics/medium_trailer_4_wheel.pcx 210 290 09 20 26 -17 -7
+  350 sprites/graphics/medium_trailer_4_wheel.pcx 242 290 01 16 36 -19 -8
+  351 sprites/graphics/medium_trailer_4_wheel.pcx 290 290 09 20 26 -13 -10
   // Standard bulldozer end dump - brown, loading
-  352 sprites/pcx/medium_trailer_4_wheel.pcx 34 410 01 24 12 -3 -10
-  353 sprites/pcx/medium_trailer_4_wheel.pcx 66 410 09 20 26 -11 -9
-  354 sprites/pcx/medium_trailer_4_wheel.pcx 98 410 01 16 36 -15 -7
-  355 sprites/pcx/medium_trailer_4_wheel.pcx 146 410 09 20 26 -9 -7
-  356 sprites/pcx/medium_trailer_4_wheel.pcx 178 410 01 24 12 -9 -16
-  357 sprites/pcx/medium_trailer_4_wheel.pcx 210 410 09 20 26 -17 -7
-  358 sprites/pcx/medium_trailer_4_wheel.pcx 242 410 01 16 36 -19 -8
-  359 sprites/pcx/medium_trailer_4_wheel.pcx 290 410 09 20 26 -13 -10
+  352 sprites/graphics/medium_trailer_4_wheel.pcx 34 410 01 24 12 -3 -10
+  353 sprites/graphics/medium_trailer_4_wheel.pcx 66 410 09 20 26 -11 -9
+  354 sprites/graphics/medium_trailer_4_wheel.pcx 98 410 01 16 36 -15 -7
+  355 sprites/graphics/medium_trailer_4_wheel.pcx 146 410 09 20 26 -9 -7
+  356 sprites/graphics/medium_trailer_4_wheel.pcx 178 410 01 24 12 -9 -16
+  357 sprites/graphics/medium_trailer_4_wheel.pcx 210 410 09 20 26 -17 -7
+  358 sprites/graphics/medium_trailer_4_wheel.pcx 242 410 01 16 36 -19 -8
+  359 sprites/graphics/medium_trailer_4_wheel.pcx 290 410 09 20 26 -13 -10
   // Standard bulldozer end dump - brown, loaded
-  360 sprites/pcx/medium_trailer_4_wheel.pcx 34 450 01 24 12 -3 -10
-  361 sprites/pcx/medium_trailer_4_wheel.pcx 66 450 09 20 26 -11 -9
-  362 sprites/pcx/medium_trailer_4_wheel.pcx 98 450 01 16 36 -15 -7
-  363 sprites/pcx/medium_trailer_4_wheel.pcx 146 450 09 20 26 -9 -7
-  364 sprites/pcx/medium_trailer_4_wheel.pcx 178 450 01 24 12 -9 -16
-  365 sprites/pcx/medium_trailer_4_wheel.pcx 210 450 09 20 26 -17 -7
-  366 sprites/pcx/medium_trailer_4_wheel.pcx 242 450 01 16 36 -19 -8
-  367 sprites/pcx/medium_trailer_4_wheel.pcx 290 450 09 20 26 -13 -10
+  360 sprites/graphics/medium_trailer_4_wheel.pcx 34 450 01 24 12 -3 -10
+  361 sprites/graphics/medium_trailer_4_wheel.pcx 66 450 09 20 26 -11 -9
+  362 sprites/graphics/medium_trailer_4_wheel.pcx 98 450 01 16 36 -15 -7
+  363 sprites/graphics/medium_trailer_4_wheel.pcx 146 450 09 20 26 -9 -7
+  364 sprites/graphics/medium_trailer_4_wheel.pcx 178 450 01 24 12 -9 -16
+  365 sprites/graphics/medium_trailer_4_wheel.pcx 210 450 09 20 26 -17 -7
+  366 sprites/graphics/medium_trailer_4_wheel.pcx 242 450 01 16 36 -19 -8
+  367 sprites/graphics/medium_trailer_4_wheel.pcx 290 450 09 20 26 -13 -10
   // Standard bulldozer end dump - red, loading
-  368 sprites/pcx/medium_trailer_4_wheel.pcx 34 370 01 24 12 -3 -10
-  369 sprites/pcx/medium_trailer_4_wheel.pcx 66 370 09 20 26 -11 -9
-  370 sprites/pcx/medium_trailer_4_wheel.pcx 98 370 01 16 36 -15 -7
-  371 sprites/pcx/medium_trailer_4_wheel.pcx 146 370 09 20 26 -9 -7
-  372 sprites/pcx/medium_trailer_4_wheel.pcx 178 370 01 24 12 -9 -16
-  373 sprites/pcx/medium_trailer_4_wheel.pcx 210 370 09 20 26 -17 -7
-  374 sprites/pcx/medium_trailer_4_wheel.pcx 242 370 01 16 36 -19 -8
-  375 sprites/pcx/medium_trailer_4_wheel.pcx 290 370 09 20 26 -13 -10
+  368 sprites/graphics/medium_trailer_4_wheel.pcx 34 370 01 24 12 -3 -10
+  369 sprites/graphics/medium_trailer_4_wheel.pcx 66 370 09 20 26 -11 -9
+  370 sprites/graphics/medium_trailer_4_wheel.pcx 98 370 01 16 36 -15 -7
+  371 sprites/graphics/medium_trailer_4_wheel.pcx 146 370 09 20 26 -9 -7
+  372 sprites/graphics/medium_trailer_4_wheel.pcx 178 370 01 24 12 -9 -16
+  373 sprites/graphics/medium_trailer_4_wheel.pcx 210 370 09 20 26 -17 -7
+  374 sprites/graphics/medium_trailer_4_wheel.pcx 242 370 01 16 36 -19 -8
+  375 sprites/graphics/medium_trailer_4_wheel.pcx 290 370 09 20 26 -13 -10
   // Standard bulldozer end dump - red, loaded
-  376 sprites/pcx/medium_trailer_4_wheel.pcx 34 370 01 24 12 -3 -10
-  377 sprites/pcx/medium_trailer_4_wheel.pcx 66 370 09 20 26 -11 -9
-  378 sprites/pcx/medium_trailer_4_wheel.pcx 98 370 01 16 36 -15 -7
-  379 sprites/pcx/medium_trailer_4_wheel.pcx 146 370 09 20 26 -9 -7
-  380 sprites/pcx/medium_trailer_4_wheel.pcx 178 370 01 24 12 -9 -16
-  381 sprites/pcx/medium_trailer_4_wheel.pcx 210 370 09 20 26 -17 -7
-  382 sprites/pcx/medium_trailer_4_wheel.pcx 242 370 01 16 36 -19 -8
-  383 sprites/pcx/medium_trailer_4_wheel.pcx 290 370 09 20 26 -13 -10
+  376 sprites/graphics/medium_trailer_4_wheel.pcx 34 370 01 24 12 -3 -10
+  377 sprites/graphics/medium_trailer_4_wheel.pcx 66 370 09 20 26 -11 -9
+  378 sprites/graphics/medium_trailer_4_wheel.pcx 98 370 01 16 36 -15 -7
+  379 sprites/graphics/medium_trailer_4_wheel.pcx 146 370 09 20 26 -9 -7
+  380 sprites/graphics/medium_trailer_4_wheel.pcx 178 370 01 24 12 -9 -16
+  381 sprites/graphics/medium_trailer_4_wheel.pcx 210 370 09 20 26 -17 -7
+  382 sprites/graphics/medium_trailer_4_wheel.pcx 242 370 01 16 36 -19 -8
+  383 sprites/graphics/medium_trailer_4_wheel.pcx 290 370 09 20 26 -13 -10
   // Standard bulldozer end dump - grey, loading
-  384 sprites/pcx/medium_trailer_4_wheel.pcx 34 90 01 24 12 -3 -10
-  385 sprites/pcx/medium_trailer_4_wheel.pcx 66 90 09 20 26 -11 -9
-  386 sprites/pcx/medium_trailer_4_wheel.pcx 98 90 01 16 36 -15 -7
-  387 sprites/pcx/medium_trailer_4_wheel.pcx 146 90 09 20 26 -9 -7
-  388 sprites/pcx/medium_trailer_4_wheel.pcx 178 90 01 24 12 -9 -16
-  389 sprites/pcx/medium_trailer_4_wheel.pcx 210 90 09 20 26 -17 -7
-  390 sprites/pcx/medium_trailer_4_wheel.pcx 242 90 01 16 36 -19 -8
-  391 sprites/pcx/medium_trailer_4_wheel.pcx 290 90 09 20 26 -13 -10
+  384 sprites/graphics/medium_trailer_4_wheel.pcx 34 90 01 24 12 -3 -10
+  385 sprites/graphics/medium_trailer_4_wheel.pcx 66 90 09 20 26 -11 -9
+  386 sprites/graphics/medium_trailer_4_wheel.pcx 98 90 01 16 36 -15 -7
+  387 sprites/graphics/medium_trailer_4_wheel.pcx 146 90 09 20 26 -9 -7
+  388 sprites/graphics/medium_trailer_4_wheel.pcx 178 90 01 24 12 -9 -16
+  389 sprites/graphics/medium_trailer_4_wheel.pcx 210 90 09 20 26 -17 -7
+  390 sprites/graphics/medium_trailer_4_wheel.pcx 242 90 01 16 36 -19 -8
+  391 sprites/graphics/medium_trailer_4_wheel.pcx 290 90 09 20 26 -13 -10
   // Standard bulldozer end dump - grey, loaded
-  392 sprites/pcx/medium_trailer_4_wheel.pcx 34 130 01 24 12 -3 -10
-  393 sprites/pcx/medium_trailer_4_wheel.pcx 66 130 09 20 26 -11 -9
-  394 sprites/pcx/medium_trailer_4_wheel.pcx 98 130 01 16 36 -15 -7
-  395 sprites/pcx/medium_trailer_4_wheel.pcx 146 130 09 20 26 -9 -7
-  396 sprites/pcx/medium_trailer_4_wheel.pcx 178 130 01 24 12 -9 -16
-  397 sprites/pcx/medium_trailer_4_wheel.pcx 210 130 09 20 26 -17 -7
-  398 sprites/pcx/medium_trailer_4_wheel.pcx 242 130 01 16 36 -19 -8
-  399 sprites/pcx/medium_trailer_4_wheel.pcx 290 130 09 20 26 -13 -10
+  392 sprites/graphics/medium_trailer_4_wheel.pcx 34 130 01 24 12 -3 -10
+  393 sprites/graphics/medium_trailer_4_wheel.pcx 66 130 09 20 26 -11 -9
+  394 sprites/graphics/medium_trailer_4_wheel.pcx 98 130 01 16 36 -15 -7
+  395 sprites/graphics/medium_trailer_4_wheel.pcx 146 130 09 20 26 -9 -7
+  396 sprites/graphics/medium_trailer_4_wheel.pcx 178 130 01 24 12 -9 -16
+  397 sprites/graphics/medium_trailer_4_wheel.pcx 210 130 09 20 26 -17 -7
+  398 sprites/graphics/medium_trailer_4_wheel.pcx 242 130 01 16 36 -19 -8
+  399 sprites/graphics/medium_trailer_4_wheel.pcx 290 130 09 20 26 -13 -10
   400 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore ?
   401 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal ?
   402 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain ?
@@ -286,122 +286,122 @@
   405 * 17	 02 01 0D  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey ?
   // Standard bulldozer side dump sled - empty
   406 * 4	 01 01 0D 08
-  407 sprites/pcx/medium_sled.pcx 34 50 01 24 12 -3 -10
-  408 sprites/pcx/medium_sled.pcx 66 50 09 20 26 -11 -9
-  409 sprites/pcx/medium_sled.pcx 98 50 01 16 36 -15 -7
-  410 sprites/pcx/medium_sled.pcx 146 50 09 20 26 -9 -7
-  411 sprites/pcx/medium_sled.pcx 178 50 01 24 12 -9 -16
-  412 sprites/pcx/medium_sled.pcx 210 50 09 20 26 -17 -7
-  413 sprites/pcx/medium_sled.pcx 242 50 01 16 36 -19 -8
-  414 sprites/pcx/medium_sled.pcx 290 50 09 20 26 -13 -10
+  407 sprites/graphics/medium_sled.pcx 34 50 01 24 12 -3 -10
+  408 sprites/graphics/medium_sled.pcx 66 50 09 20 26 -11 -9
+  409 sprites/graphics/medium_sled.pcx 98 50 01 16 36 -15 -7
+  410 sprites/graphics/medium_sled.pcx 146 50 09 20 26 -9 -7
+  411 sprites/graphics/medium_sled.pcx 178 50 01 24 12 -9 -16
+  412 sprites/graphics/medium_sled.pcx 210 50 09 20 26 -17 -7
+  413 sprites/graphics/medium_sled.pcx 242 50 01 16 36 -19 -8
+  414 sprites/graphics/medium_sled.pcx 290 50 09 20 26 -13 -10
    // Standard bulldozer side dump sled - iron ore, loading  !! this isn't iron ore??
-  415 sprites/pcx/medium_sled.pcx 34 490 01 24 12 -3 -10
-  416 sprites/pcx/medium_sled.pcx 66 490 09 20 20 -11 -9
-  417 sprites/pcx/medium_sled.pcx 98 490 01 16 36 -15 -7
-  418 sprites/pcx/medium_sled.pcx 146 490 09 20 26 -9 -7
-  419 sprites/pcx/medium_sled.pcx 178 490 01 24 12 -9 -16
-  420 sprites/pcx/medium_sled.pcx 210 490 09 20 26 -17 -7
-  421 sprites/pcx/medium_sled.pcx 242 490 01 16 36 -19 -8
-  422 sprites/pcx/medium_sled.pcx 290 490 09 20 26 -13 -10
+  415 sprites/graphics/medium_sled.pcx 34 490 01 24 12 -3 -10
+  416 sprites/graphics/medium_sled.pcx 66 490 09 20 20 -11 -9
+  417 sprites/graphics/medium_sled.pcx 98 490 01 16 36 -15 -7
+  418 sprites/graphics/medium_sled.pcx 146 490 09 20 26 -9 -7
+  419 sprites/graphics/medium_sled.pcx 178 490 01 24 12 -9 -16
+  420 sprites/graphics/medium_sled.pcx 210 490 09 20 26 -17 -7
+  421 sprites/graphics/medium_sled.pcx 242 490 01 16 36 -19 -8
+  422 sprites/graphics/medium_sled.pcx 290 490 09 20 26 -13 -10
    // Standard bulldozer side dump sled - iron ore, loaded  !! this isn't iron ore??
-  423 sprites/pcx/medium_sled.pcx 34 530 01 24 12 -3 -10
-  424 sprites/pcx/medium_sled.pcx 66 530 09 20 20 -11 -9
-  425 sprites/pcx/medium_sled.pcx 98 530 01 16 36 -15 -7
-  426 sprites/pcx/medium_sled.pcx 146 530 09 20 26 -9 -7
-  427 sprites/pcx/medium_sled.pcx 178 530 01 24 12 -9 -16
-  428 sprites/pcx/medium_sled.pcx 210 530 09 20 26 -17 -7
-  429 sprites/pcx/medium_sled.pcx 242 530 01 16 36 -19 -8
-  430 sprites/pcx/medium_sled.pcx 290 530 09 20 26 -13 -10
+  423 sprites/graphics/medium_sled.pcx 34 530 01 24 12 -3 -10
+  424 sprites/graphics/medium_sled.pcx 66 530 09 20 20 -11 -9
+  425 sprites/graphics/medium_sled.pcx 98 530 01 16 36 -15 -7
+  426 sprites/graphics/medium_sled.pcx 146 530 09 20 26 -9 -7
+  427 sprites/graphics/medium_sled.pcx 178 530 01 24 12 -9 -16
+  428 sprites/graphics/medium_sled.pcx 210 530 09 20 26 -17 -7
+  429 sprites/graphics/medium_sled.pcx 242 530 01 16 36 -19 -8
+  430 sprites/graphics/medium_sled.pcx 290 530 09 20 26 -13 -10
    // Standard bulldozer side dump sled - coal, loading
-  431 sprites/pcx/medium_sled.pcx 34 170 01 24 12 -3 -10
-  432 sprites/pcx/medium_sled.pcx 66 170 09 20 26 -11 -9
-  433 sprites/pcx/medium_sled.pcx 98 170 01 16 36 -15 -7
-  434 sprites/pcx/medium_sled.pcx 146 170 09 20 26 -9 -7
-  435 sprites/pcx/medium_sled.pcx 178 170 01 24 12 -9 -16
-  436 sprites/pcx/medium_sled.pcx 210 170 09 20 26 -17 -7
-  437 sprites/pcx/medium_sled.pcx 242 170 01 16 36 -19 -8
-  438 sprites/pcx/medium_sled.pcx 290 170 09 20 26 -13 -10
+  431 sprites/graphics/medium_sled.pcx 34 170 01 24 12 -3 -10
+  432 sprites/graphics/medium_sled.pcx 66 170 09 20 26 -11 -9
+  433 sprites/graphics/medium_sled.pcx 98 170 01 16 36 -15 -7
+  434 sprites/graphics/medium_sled.pcx 146 170 09 20 26 -9 -7
+  435 sprites/graphics/medium_sled.pcx 178 170 01 24 12 -9 -16
+  436 sprites/graphics/medium_sled.pcx 210 170 09 20 26 -17 -7
+  437 sprites/graphics/medium_sled.pcx 242 170 01 16 36 -19 -8
+  438 sprites/graphics/medium_sled.pcx 290 170 09 20 26 -13 -10
    // Standard bulldozer side dump sled - coal, loaded
-  439 sprites/pcx/medium_sled.pcx 34 210 01 24 12 -3 -10
-  440 sprites/pcx/medium_sled.pcx 66 210 09 20 26 -11 -9
-  441 sprites/pcx/medium_sled.pcx 98 210 01 16 36 -15 -7
-  442 sprites/pcx/medium_sled.pcx 146 210 09 20 26 -9 -7
-  443 sprites/pcx/medium_sled.pcx 178 210 01 24 12 -9 -16
-  444 sprites/pcx/medium_sled.pcx 210 210 09 20 26 -17 -7
-  445 sprites/pcx/medium_sled.pcx 242 210 01 16 36 -19 -8
-  446 sprites/pcx/medium_sled.pcx 290 210 09 20 26 -13 -10
+  439 sprites/graphics/medium_sled.pcx 34 210 01 24 12 -3 -10
+  440 sprites/graphics/medium_sled.pcx 66 210 09 20 26 -11 -9
+  441 sprites/graphics/medium_sled.pcx 98 210 01 16 36 -15 -7
+  442 sprites/graphics/medium_sled.pcx 146 210 09 20 26 -9 -7
+  443 sprites/graphics/medium_sled.pcx 178 210 01 24 12 -9 -16
+  444 sprites/graphics/medium_sled.pcx 210 210 09 20 26 -17 -7
+  445 sprites/graphics/medium_sled.pcx 242 210 01 16 36 -19 -8
+  446 sprites/graphics/medium_sled.pcx 290 210 09 20 26 -13 -10
    // Standard bulldozer side dump sled - grain, loading
-  447 sprites/pcx/medium_sled.pcx 34 250 01 24 12 -3 -10
-  448 sprites/pcx/medium_sled.pcx 66 250 09 20 26 -11 -9
-  449 sprites/pcx/medium_sled.pcx 98 250 01 16 36 -15 -7
-  450 sprites/pcx/medium_sled.pcx 146 250 09 20 26 -9 -7
-  451 sprites/pcx/medium_sled.pcx 178 250 01 24 12 -9 -16
-  452 sprites/pcx/medium_sled.pcx 210 250 09 20 26 -17 -7
-  453 sprites/pcx/medium_sled.pcx 242 250 01 16 36 -19 -8
-  454 sprites/pcx/medium_sled.pcx 290 250 09 20 26 -13 -10
+  447 sprites/graphics/medium_sled.pcx 34 250 01 24 12 -3 -10
+  448 sprites/graphics/medium_sled.pcx 66 250 09 20 26 -11 -9
+  449 sprites/graphics/medium_sled.pcx 98 250 01 16 36 -15 -7
+  450 sprites/graphics/medium_sled.pcx 146 250 09 20 26 -9 -7
+  451 sprites/graphics/medium_sled.pcx 178 250 01 24 12 -9 -16
+  452 sprites/graphics/medium_sled.pcx 210 250 09 20 26 -17 -7
+  453 sprites/graphics/medium_sled.pcx 242 250 01 16 36 -19 -8
+  454 sprites/graphics/medium_sled.pcx 290 250 09 20 26 -13 -10
   // Standard bulldozer side dump sled - grain, loaded
-  455 sprites/pcx/medium_sled.pcx 34 290 01 24 12 -3 -10
-  456 sprites/pcx/medium_sled.pcx 66 290 09 20 26 -11 -9
-  457 sprites/pcx/medium_sled.pcx 98 290 01 16 36 -15 -7
-  458 sprites/pcx/medium_sled.pcx 146 290 09 20 26 -9 -7
-  459 sprites/pcx/medium_sled.pcx 178 290 01 24 12 -9 -16
-  460 sprites/pcx/medium_sled.pcx 210 290 09 20 26 -17 -7
-  461 sprites/pcx/medium_sled.pcx 242 290 01 16 36 -19 -8
-  462 sprites/pcx/medium_sled.pcx 290 290 09 20 26 -13 -10
+  455 sprites/graphics/medium_sled.pcx 34 290 01 24 12 -3 -10
+  456 sprites/graphics/medium_sled.pcx 66 290 09 20 26 -11 -9
+  457 sprites/graphics/medium_sled.pcx 98 290 01 16 36 -15 -7
+  458 sprites/graphics/medium_sled.pcx 146 290 09 20 26 -9 -7
+  459 sprites/graphics/medium_sled.pcx 178 290 01 24 12 -9 -16
+  460 sprites/graphics/medium_sled.pcx 210 290 09 20 26 -17 -7
+  461 sprites/graphics/medium_sled.pcx 242 290 01 16 36 -19 -8
+  462 sprites/graphics/medium_sled.pcx 290 290 09 20 26 -13 -10
   // Standard bulldozer side dump sled - brown, loading
-  463 sprites/pcx/medium_sled.pcx 34 410 01 24 12 -3 -10
-  464 sprites/pcx/medium_sled.pcx 66 410 09 20 26 -11 -9
-  465 sprites/pcx/medium_sled.pcx 98 410 01 16 36 -15 -7
-  466 sprites/pcx/medium_sled.pcx 146 410 09 20 26 -9 -7
-  467 sprites/pcx/medium_sled.pcx 178 410 01 24 12 -9 -16
-  468 sprites/pcx/medium_sled.pcx 210 410 09 20 26 -17 -7
-  469 sprites/pcx/medium_sled.pcx 242 410 01 16 36 -19 -8
-  470 sprites/pcx/medium_sled.pcx 290 410 09 20 26 -13 -10
+  463 sprites/graphics/medium_sled.pcx 34 410 01 24 12 -3 -10
+  464 sprites/graphics/medium_sled.pcx 66 410 09 20 26 -11 -9
+  465 sprites/graphics/medium_sled.pcx 98 410 01 16 36 -15 -7
+  466 sprites/graphics/medium_sled.pcx 146 410 09 20 26 -9 -7
+  467 sprites/graphics/medium_sled.pcx 178 410 01 24 12 -9 -16
+  468 sprites/graphics/medium_sled.pcx 210 410 09 20 26 -17 -7
+  469 sprites/graphics/medium_sled.pcx 242 410 01 16 36 -19 -8
+  470 sprites/graphics/medium_sled.pcx 290 410 09 20 26 -13 -10
   // Standard bulldozer side dump sled - brown, loaded
-  471 sprites/pcx/medium_sled.pcx 34 450 01 24 12 -3 -10
-  472 sprites/pcx/medium_sled.pcx 66 450 09 20 26 -11 -9
-  473 sprites/pcx/medium_sled.pcx 98 450 01 16 36 -15 -7
-  474 sprites/pcx/medium_sled.pcx 146 450 09 20 26 -9 -7
-  475 sprites/pcx/medium_sled.pcx 178 450 01 24 12 -9 -16
-  476 sprites/pcx/medium_sled.pcx 210 450 09 20 26 -17 -7
-  477 sprites/pcx/medium_sled.pcx 242 450 01 16 36 -19 -8
-  478 sprites/pcx/medium_sled.pcx 290 450 09 20 26 -13 -10
+  471 sprites/graphics/medium_sled.pcx 34 450 01 24 12 -3 -10
+  472 sprites/graphics/medium_sled.pcx 66 450 09 20 26 -11 -9
+  473 sprites/graphics/medium_sled.pcx 98 450 01 16 36 -15 -7
+  474 sprites/graphics/medium_sled.pcx 146 450 09 20 26 -9 -7
+  475 sprites/graphics/medium_sled.pcx 178 450 01 24 12 -9 -16
+  476 sprites/graphics/medium_sled.pcx 210 450 09 20 26 -17 -7
+  477 sprites/graphics/medium_sled.pcx 242 450 01 16 36 -19 -8
+  478 sprites/graphics/medium_sled.pcx 290 450 09 20 26 -13 -10
   // Standard bulldozer side dump sled - red, loading
-  479 sprites/pcx/medium_sled.pcx 34 330 01 24 12 -3 -10
-  480 sprites/pcx/medium_sled.pcx 66 330 09 20 26 -11 -9
-  481 sprites/pcx/medium_sled.pcx 98 330 01 16 36 -15 -7
-  482 sprites/pcx/medium_sled.pcx 146 330 09 20 26 -9 -7
-  483 sprites/pcx/medium_sled.pcx 178 330 01 24 12 -9 -16
-  484 sprites/pcx/medium_sled.pcx 210 330 09 20 26 -17 -7
-  485 sprites/pcx/medium_sled.pcx 242 330 01 16 36 -19 -8
-  486 sprites/pcx/medium_sled.pcx 290 330 09 20 26 -13 -10
+  479 sprites/graphics/medium_sled.pcx 34 330 01 24 12 -3 -10
+  480 sprites/graphics/medium_sled.pcx 66 330 09 20 26 -11 -9
+  481 sprites/graphics/medium_sled.pcx 98 330 01 16 36 -15 -7
+  482 sprites/graphics/medium_sled.pcx 146 330 09 20 26 -9 -7
+  483 sprites/graphics/medium_sled.pcx 178 330 01 24 12 -9 -16
+  484 sprites/graphics/medium_sled.pcx 210 330 09 20 26 -17 -7
+  485 sprites/graphics/medium_sled.pcx 242 330 01 16 36 -19 -8
+  486 sprites/graphics/medium_sled.pcx 290 330 09 20 26 -13 -10
   // Standard bulldozer side dump sled - red, loaded
-  487 sprites/pcx/medium_sled.pcx 34 370 01 24 12 -3 -10
-  488 sprites/pcx/medium_sled.pcx 66 370 09 20 26 -11 -9
-  489 sprites/pcx/medium_sled.pcx 98 370 01 16 36 -15 -7
-  490 sprites/pcx/medium_sled.pcx 146 370 09 20 26 -9 -7
-  491 sprites/pcx/medium_sled.pcx 178 370 01 24 12 -9 -16
-  492 sprites/pcx/medium_sled.pcx 210 370 09 20 26 -17 -7
-  493 sprites/pcx/medium_sled.pcx 242 370 01 16 36 -19 -8
-  494 sprites/pcx/medium_sled.pcx 290 370 09 20 26 -13 -10
+  487 sprites/graphics/medium_sled.pcx 34 370 01 24 12 -3 -10
+  488 sprites/graphics/medium_sled.pcx 66 370 09 20 26 -11 -9
+  489 sprites/graphics/medium_sled.pcx 98 370 01 16 36 -15 -7
+  490 sprites/graphics/medium_sled.pcx 146 370 09 20 26 -9 -7
+  491 sprites/graphics/medium_sled.pcx 178 370 01 24 12 -9 -16
+  492 sprites/graphics/medium_sled.pcx 210 370 09 20 26 -17 -7
+  493 sprites/graphics/medium_sled.pcx 242 370 01 16 36 -19 -8
+  494 sprites/graphics/medium_sled.pcx 290 370 09 20 26 -13 -10
   // Standard bulldozer side dump sled - grey, loading
-  495 sprites/pcx/medium_sled.pcx 34 90 01 24 12 -3 -10
-  496 sprites/pcx/medium_sled.pcx 66 90 09 20 26 -11 -9
-  497 sprites/pcx/medium_sled.pcx 98 90 01 16 36 -15 -7
-  498 sprites/pcx/medium_sled.pcx 146 90 09 20 26 -9 -7
-  499 sprites/pcx/medium_sled.pcx 178 90 01 24 12 -9 -16
-  500 sprites/pcx/medium_sled.pcx 210 90 09 20 26 -17 -7
-  501 sprites/pcx/medium_sled.pcx 242 90 01 16 36 -19 -8
-  502 sprites/pcx/medium_sled.pcx 290 90 09 20 26 -13 -10
+  495 sprites/graphics/medium_sled.pcx 34 90 01 24 12 -3 -10
+  496 sprites/graphics/medium_sled.pcx 66 90 09 20 26 -11 -9
+  497 sprites/graphics/medium_sled.pcx 98 90 01 16 36 -15 -7
+  498 sprites/graphics/medium_sled.pcx 146 90 09 20 26 -9 -7
+  499 sprites/graphics/medium_sled.pcx 178 90 01 24 12 -9 -16
+  500 sprites/graphics/medium_sled.pcx 210 90 09 20 26 -17 -7
+  501 sprites/graphics/medium_sled.pcx 242 90 01 16 36 -19 -8
+  502 sprites/graphics/medium_sled.pcx 290 90 09 20 26 -13 -10
   // Standard bulldozer side dump sled - grey, loaded
-  503 sprites/pcx/medium_sled.pcx 34 130 01 24 12 -3 -10
-  504 sprites/pcx/medium_sled.pcx 66 130 09 20 26 -11 -9
-  505 sprites/pcx/medium_sled.pcx 98 130 01 16 36 -15 -7
-  506 sprites/pcx/medium_sled.pcx 146 130 09 20 26 -9 -7
-  507 sprites/pcx/medium_sled.pcx 178 130 01 24 12 -9 -16
-  508 sprites/pcx/medium_sled.pcx 210 130 09 20 26 -17 -7
-  509 sprites/pcx/medium_sled.pcx 242 130 01 16 36 -19 -8
-  510 sprites/pcx/medium_sled.pcx 290 130 09 20 26 -13 -10
+  503 sprites/graphics/medium_sled.pcx 34 130 01 24 12 -3 -10
+  504 sprites/graphics/medium_sled.pcx 66 130 09 20 26 -11 -9
+  505 sprites/graphics/medium_sled.pcx 98 130 01 16 36 -15 -7
+  506 sprites/graphics/medium_sled.pcx 146 130 09 20 26 -9 -7
+  507 sprites/graphics/medium_sled.pcx 178 130 01 24 12 -9 -16
+  508 sprites/graphics/medium_sled.pcx 210 130 09 20 26 -17 -7
+  509 sprites/graphics/medium_sled.pcx 242 130 01 16 36 -19 -8
+  510 sprites/graphics/medium_sled.pcx 290 130 09 20 26 -13 -10
   511 * 17	 02 01 28  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore ?
   512 * 17	 02 01 21  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal ?
   513 * 17	 02 01 26  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain ?
@@ -411,86 +411,86 @@
   // Standard bulldozer flat trailer
   517 * 4	 01 01 09 08
   // Standard bulldozer flat trailer - empty
-  518 sprites/pcx/medium_trailer_4_wheel.pcx 34 730 01 24 12 -3 -10
-  519 sprites/pcx/medium_trailer_4_wheel.pcx 66 730 09 20 26 -11 -9
-  520 sprites/pcx/medium_trailer_4_wheel.pcx 98 730 01 16 36 -15 -7
-  521 sprites/pcx/medium_trailer_4_wheel.pcx 146 730 09 20 26 -9 -7
-  522 sprites/pcx/medium_trailer_4_wheel.pcx 178 730 01 24 12 -9 -16
-  523 sprites/pcx/medium_trailer_4_wheel.pcx 210 730 09 20 26 -17 -7
-  524 sprites/pcx/medium_trailer_4_wheel.pcx 242 730 01 16 36 -19 -8
-  525 sprites/pcx/medium_trailer_4_wheel.pcx 290 730 09 20 26 -13 -10
+  518 sprites/graphics/medium_trailer_4_wheel.pcx 34 730 01 24 12 -3 -10
+  519 sprites/graphics/medium_trailer_4_wheel.pcx 66 730 09 20 26 -11 -9
+  520 sprites/graphics/medium_trailer_4_wheel.pcx 98 730 01 16 36 -15 -7
+  521 sprites/graphics/medium_trailer_4_wheel.pcx 146 730 09 20 26 -9 -7
+  522 sprites/graphics/medium_trailer_4_wheel.pcx 178 730 01 24 12 -9 -16
+  523 sprites/graphics/medium_trailer_4_wheel.pcx 210 730 09 20 26 -17 -7
+  524 sprites/graphics/medium_trailer_4_wheel.pcx 242 730 01 16 36 -19 -8
+  525 sprites/graphics/medium_trailer_4_wheel.pcx 290 730 09 20 26 -13 -10
   // Standard bulldozer flat trailer - steel, loading  
-  526 sprites/pcx/medium_trailer_4_wheel.pcx 34 970 01 24 12 -3 -10
-  527 sprites/pcx/medium_trailer_4_wheel.pcx 66 970 09 20 26 -11 -9
-  528 sprites/pcx/medium_trailer_4_wheel.pcx 98 970 01 16 36 -15 -7
-  529 sprites/pcx/medium_trailer_4_wheel.pcx 146 970 09 20 26 -9 -7
-  530 sprites/pcx/medium_trailer_4_wheel.pcx 178 970 01 24 12 -9 -16
-  531 sprites/pcx/medium_trailer_4_wheel.pcx 210 970 09 20 26 -17 -7
-  532 sprites/pcx/medium_trailer_4_wheel.pcx 242 970 01 16 36 -19 -8
-  533 sprites/pcx/medium_trailer_4_wheel.pcx 290 970 09 20 26 -13 -10
+  526 sprites/graphics/medium_trailer_4_wheel.pcx 34 970 01 24 12 -3 -10
+  527 sprites/graphics/medium_trailer_4_wheel.pcx 66 970 09 20 26 -11 -9
+  528 sprites/graphics/medium_trailer_4_wheel.pcx 98 970 01 16 36 -15 -7
+  529 sprites/graphics/medium_trailer_4_wheel.pcx 146 970 09 20 26 -9 -7
+  530 sprites/graphics/medium_trailer_4_wheel.pcx 178 970 01 24 12 -9 -16
+  531 sprites/graphics/medium_trailer_4_wheel.pcx 210 970 09 20 26 -17 -7
+  532 sprites/graphics/medium_trailer_4_wheel.pcx 242 970 01 16 36 -19 -8
+  533 sprites/graphics/medium_trailer_4_wheel.pcx 290 970 09 20 26 -13 -10
   // Standard bulldozer flat trailer - steel, loaded  
-  534 sprites/pcx/medium_trailer_4_wheel.pcx 34 970 01 24 12 -3 -10
-  535 sprites/pcx/medium_trailer_4_wheel.pcx 66 970 09 20 26 -11 -9
-  536 sprites/pcx/medium_trailer_4_wheel.pcx 98 970 01 16 36 -15 -7
-  537 sprites/pcx/medium_trailer_4_wheel.pcx 146 970 09 20 26 -9 -7
-  538 sprites/pcx/medium_trailer_4_wheel.pcx 178 970 01 24 12 -9 -16
-  539 sprites/pcx/medium_trailer_4_wheel.pcx 210 970 09 20 26 -17 -7
-  540 sprites/pcx/medium_trailer_4_wheel.pcx 242 970 01 16 36 -19 -8
-  541 sprites/pcx/medium_trailer_4_wheel.pcx 290 970 09 20 26 -13 -10
+  534 sprites/graphics/medium_trailer_4_wheel.pcx 34 970 01 24 12 -3 -10
+  535 sprites/graphics/medium_trailer_4_wheel.pcx 66 970 09 20 26 -11 -9
+  536 sprites/graphics/medium_trailer_4_wheel.pcx 98 970 01 16 36 -15 -7
+  537 sprites/graphics/medium_trailer_4_wheel.pcx 146 970 09 20 26 -9 -7
+  538 sprites/graphics/medium_trailer_4_wheel.pcx 178 970 01 24 12 -9 -16
+  539 sprites/graphics/medium_trailer_4_wheel.pcx 210 970 09 20 26 -17 -7
+  540 sprites/graphics/medium_trailer_4_wheel.pcx 242 970 01 16 36 -19 -8
+  541 sprites/graphics/medium_trailer_4_wheel.pcx 290 970 09 20 26 -13 -10
   // Standard bulldozer flat trailer - paper, loading  
-  542 sprites/pcx/medium_trailer_4_wheel.pcx 34 1130 01 24 12 -3 -10
-  543 sprites/pcx/medium_trailer_4_wheel.pcx 66 1130 09 20 26 -11 -9
-  544 sprites/pcx/medium_trailer_4_wheel.pcx 98 1130 01 16 36 -15 -7
-  545 sprites/pcx/medium_trailer_4_wheel.pcx 146 1130 09 20 26 -9 -7
-  546 sprites/pcx/medium_trailer_4_wheel.pcx 178 1130 01 24 12 -9 -16
-  547 sprites/pcx/medium_trailer_4_wheel.pcx 210 1130 09 20 26 -17 -7
-  548 sprites/pcx/medium_trailer_4_wheel.pcx 242 1130 01 16 36 -19 -8
-  549 sprites/pcx/medium_trailer_4_wheel.pcx 290 1130 09 20 26 -13 -10
+  542 sprites/graphics/medium_trailer_4_wheel.pcx 34 1130 01 24 12 -3 -10
+  543 sprites/graphics/medium_trailer_4_wheel.pcx 66 1130 09 20 26 -11 -9
+  544 sprites/graphics/medium_trailer_4_wheel.pcx 98 1130 01 16 36 -15 -7
+  545 sprites/graphics/medium_trailer_4_wheel.pcx 146 1130 09 20 26 -9 -7
+  546 sprites/graphics/medium_trailer_4_wheel.pcx 178 1130 01 24 12 -9 -16
+  547 sprites/graphics/medium_trailer_4_wheel.pcx 210 1130 09 20 26 -17 -7
+  548 sprites/graphics/medium_trailer_4_wheel.pcx 242 1130 01 16 36 -19 -8
+  549 sprites/graphics/medium_trailer_4_wheel.pcx 290 1130 09 20 26 -13 -10
   // Standard bulldozer flat trailer - paper, loaded  
-  550 sprites/pcx/medium_trailer_4_wheel.pcx 34 1130 01 24 12 -3 -10
-  551 sprites/pcx/medium_trailer_4_wheel.pcx 66 1130 09 20 26 -11 -9
-  552 sprites/pcx/medium_trailer_4_wheel.pcx 98 1130 01 16 36 -15 -7
-  553 sprites/pcx/medium_trailer_4_wheel.pcx 146 1130 09 20 26 -9 -7
-  554 sprites/pcx/medium_trailer_4_wheel.pcx 178 1130 01 24 12 -9 -16
-  555 sprites/pcx/medium_trailer_4_wheel.pcx 210 1130 09 20 26 -17 -7
-  556 sprites/pcx/medium_trailer_4_wheel.pcx 242 1130 01 16 36 -19 -8
-  557 sprites/pcx/medium_trailer_4_wheel.pcx 290 1130 09 20 26 -13 -10
+  550 sprites/graphics/medium_trailer_4_wheel.pcx 34 1130 01 24 12 -3 -10
+  551 sprites/graphics/medium_trailer_4_wheel.pcx 66 1130 09 20 26 -11 -9
+  552 sprites/graphics/medium_trailer_4_wheel.pcx 98 1130 01 16 36 -15 -7
+  553 sprites/graphics/medium_trailer_4_wheel.pcx 146 1130 09 20 26 -9 -7
+  554 sprites/graphics/medium_trailer_4_wheel.pcx 178 1130 01 24 12 -9 -16
+  555 sprites/graphics/medium_trailer_4_wheel.pcx 210 1130 09 20 26 -17 -7
+  556 sprites/graphics/medium_trailer_4_wheel.pcx 242 1130 01 16 36 -19 -8
+  557 sprites/graphics/medium_trailer_4_wheel.pcx 290 1130 09 20 26 -13 -10
  // Standard bulldozer flat trailer - livestock, loading  
-  558 sprites/pcx/medium_trailer_4_wheel.pcx 34 810 01 24 12 -3 -10
-  559 sprites/pcx/medium_trailer_4_wheel.pcx 66 810 09 20 26 -11 -9
-  560 sprites/pcx/medium_trailer_4_wheel.pcx 98 810 01 16 36 -15 -7
-  561 sprites/pcx/medium_trailer_4_wheel.pcx 146 810 09 20 26 -9 -7
-  562 sprites/pcx/medium_trailer_4_wheel.pcx 178 810 01 24 12 -9 -16
-  563 sprites/pcx/medium_trailer_4_wheel.pcx 210 810 09 20 26 -17 -7
-  564 sprites/pcx/medium_trailer_4_wheel.pcx 242 810 01 16 36 -19 -8
-  565 sprites/pcx/medium_trailer_4_wheel.pcx 290 810 09 20 26 -13 -10
+  558 sprites/graphics/medium_trailer_4_wheel.pcx 34 810 01 24 12 -3 -10
+  559 sprites/graphics/medium_trailer_4_wheel.pcx 66 810 09 20 26 -11 -9
+  560 sprites/graphics/medium_trailer_4_wheel.pcx 98 810 01 16 36 -15 -7
+  561 sprites/graphics/medium_trailer_4_wheel.pcx 146 810 09 20 26 -9 -7
+  562 sprites/graphics/medium_trailer_4_wheel.pcx 178 810 01 24 12 -9 -16
+  563 sprites/graphics/medium_trailer_4_wheel.pcx 210 810 09 20 26 -17 -7
+  564 sprites/graphics/medium_trailer_4_wheel.pcx 242 810 01 16 36 -19 -8
+  565 sprites/graphics/medium_trailer_4_wheel.pcx 290 810 09 20 26 -13 -10
  // Standard bulldozer flat trailer - livestock, loaded
-  566 sprites/pcx/medium_trailer_4_wheel.pcx 34 810 01 24 12 -3 -10
-  567 sprites/pcx/medium_trailer_4_wheel.pcx 66 810 09 20 26 -11 -9
-  568 sprites/pcx/medium_trailer_4_wheel.pcx 98 810 01 16 36 -15 -7
-  569 sprites/pcx/medium_trailer_4_wheel.pcx 146 810 09 20 26 -9 -7
-  570 sprites/pcx/medium_trailer_4_wheel.pcx 178 810 01 24 12 -9 -16
-  571 sprites/pcx/medium_trailer_4_wheel.pcx 210 810 09 20 26 -17 -7
-  572 sprites/pcx/medium_trailer_4_wheel.pcx 242 810 01 16 36 -19 -8
-  573 sprites/pcx/medium_trailer_4_wheel.pcx 290 810 09 20 26 -13 -10
+  566 sprites/graphics/medium_trailer_4_wheel.pcx 34 810 01 24 12 -3 -10
+  567 sprites/graphics/medium_trailer_4_wheel.pcx 66 810 09 20 26 -11 -9
+  568 sprites/graphics/medium_trailer_4_wheel.pcx 98 810 01 16 36 -15 -7
+  569 sprites/graphics/medium_trailer_4_wheel.pcx 146 810 09 20 26 -9 -7
+  570 sprites/graphics/medium_trailer_4_wheel.pcx 178 810 01 24 12 -9 -16
+  571 sprites/graphics/medium_trailer_4_wheel.pcx 210 810 09 20 26 -17 -7
+  572 sprites/graphics/medium_trailer_4_wheel.pcx 242 810 01 16 36 -19 -8
+  573 sprites/graphics/medium_trailer_4_wheel.pcx 290 810 09 20 26 -13 -10
  // Standard bulldozer flat trailer - copper, loading  
-  574 sprites/pcx/medium_trailer_4_wheel.pcx 34 1050 01 24 12 -3 -10
-  575 sprites/pcx/medium_trailer_4_wheel.pcx 66 1050 09 20 26 -11 -9
-  576 sprites/pcx/medium_trailer_4_wheel.pcx 98 1050 01 16 36 -15 -7
-  577 sprites/pcx/medium_trailer_4_wheel.pcx 146 1050 09 20 26 -9 -7
-  578 sprites/pcx/medium_trailer_4_wheel.pcx 178 1050 01 24 12 -9 -16
-  579 sprites/pcx/medium_trailer_4_wheel.pcx 210 1050 09 20 26 -17 -7
-  580 sprites/pcx/medium_trailer_4_wheel.pcx 242 1050 01 16 36 -19 -8
-  581 sprites/pcx/medium_trailer_4_wheel.pcx 290 1050 09 20 26 -13 -10
+  574 sprites/graphics/medium_trailer_4_wheel.pcx 34 1050 01 24 12 -3 -10
+  575 sprites/graphics/medium_trailer_4_wheel.pcx 66 1050 09 20 26 -11 -9
+  576 sprites/graphics/medium_trailer_4_wheel.pcx 98 1050 01 16 36 -15 -7
+  577 sprites/graphics/medium_trailer_4_wheel.pcx 146 1050 09 20 26 -9 -7
+  578 sprites/graphics/medium_trailer_4_wheel.pcx 178 1050 01 24 12 -9 -16
+  579 sprites/graphics/medium_trailer_4_wheel.pcx 210 1050 09 20 26 -17 -7
+  580 sprites/graphics/medium_trailer_4_wheel.pcx 242 1050 01 16 36 -19 -8
+  581 sprites/graphics/medium_trailer_4_wheel.pcx 290 1050 09 20 26 -13 -10
  // Standard bulldozer flat trailer - copper, loaded  
-  582 sprites/pcx/medium_trailer_4_wheel.pcx 34 1050 01 24 12 -3 -10
-  583 sprites/pcx/medium_trailer_4_wheel.pcx 66 1050 09 20 26 -11 -9
-  584 sprites/pcx/medium_trailer_4_wheel.pcx 98 1050 01 16 36 -15 -7
-  585 sprites/pcx/medium_trailer_4_wheel.pcx 146 1050 09 20 26 -9 -7
-  586 sprites/pcx/medium_trailer_4_wheel.pcx 178 1050 01 24 12 -9 -16
-  587 sprites/pcx/medium_trailer_4_wheel.pcx 210 1050 09 20 26 -17 -7
-  588 sprites/pcx/medium_trailer_4_wheel.pcx 242 1050 01 16 36 -19 -8
-  589 sprites/pcx/medium_trailer_4_wheel.pcx 290 1050 09 20 26 -13 -10
+  582 sprites/graphics/medium_trailer_4_wheel.pcx 34 1050 01 24 12 -3 -10
+  583 sprites/graphics/medium_trailer_4_wheel.pcx 66 1050 09 20 26 -11 -9
+  584 sprites/graphics/medium_trailer_4_wheel.pcx 98 1050 01 16 36 -15 -7
+  585 sprites/graphics/medium_trailer_4_wheel.pcx 146 1050 09 20 26 -9 -7
+  586 sprites/graphics/medium_trailer_4_wheel.pcx 178 1050 01 24 12 -9 -16
+  587 sprites/graphics/medium_trailer_4_wheel.pcx 210 1050 09 20 26 -17 -7
+  588 sprites/graphics/medium_trailer_4_wheel.pcx 242 1050 01 16 36 -19 -8
+  589 sprites/graphics/medium_trailer_4_wheel.pcx 290 1050 09 20 26 -13 -10
   590 * 17	 02 01 09  03 03   00 00  01 00  02 00    00 00  01 00  02 00 // steel
   591 * 17	 02 01 0B  03 03   00 00  03 00  04 00    00 00  03 00  04 00 // paper
   592 * 17	 02 01 04  03 03   00 00  05 00  06 00    00 00  05 00  06 00 // livestock
@@ -498,169 +498,169 @@
   // Standard bulldozer flat sled
   594 * 4	 01 01 09 08
   // Standard bulldozer flat sled - empty
-  595 sprites/pcx/medium_sled.pcx 34 730 01 24 12 -3 -10
-  596 sprites/pcx/medium_sled.pcx 66 730 09 20 26 -11 -9
-  597 sprites/pcx/medium_sled.pcx 98 730 01 16 36 -15 -7
-  598 sprites/pcx/medium_sled.pcx 146 730 09 20 26 -9 -7
-  599 sprites/pcx/medium_sled.pcx 178 730 01 24 12 -9 -16
-  600 sprites/pcx/medium_sled.pcx 210 730 09 20 26 -17 -7
-  601 sprites/pcx/medium_sled.pcx 242 730 01 16 36 -19 -8
-  602 sprites/pcx/medium_sled.pcx 290 730 09 20 26 -13 -10
+  595 sprites/graphics/medium_sled.pcx 34 730 01 24 12 -3 -10
+  596 sprites/graphics/medium_sled.pcx 66 730 09 20 26 -11 -9
+  597 sprites/graphics/medium_sled.pcx 98 730 01 16 36 -15 -7
+  598 sprites/graphics/medium_sled.pcx 146 730 09 20 26 -9 -7
+  599 sprites/graphics/medium_sled.pcx 178 730 01 24 12 -9 -16
+  600 sprites/graphics/medium_sled.pcx 210 730 09 20 26 -17 -7
+  601 sprites/graphics/medium_sled.pcx 242 730 01 16 36 -19 -8
+  602 sprites/graphics/medium_sled.pcx 290 730 09 20 26 -13 -10
   // Standard bulldozer flat sled - steel, loading  
-  603 sprites/pcx/medium_sled.pcx 34 970 01 24 12 -3 -10
-  604 sprites/pcx/medium_sled.pcx 66 970 09 20 26 -11 -9
-  605 sprites/pcx/medium_sled.pcx 98 970 01 16 36 -15 -7
-  606 sprites/pcx/medium_sled.pcx 146 970 09 20 26 -9 -7
-  607 sprites/pcx/medium_sled.pcx 178 970 01 24 12 -9 -16
-  608 sprites/pcx/medium_sled.pcx 210 970 09 20 26 -17 -7
-  609 sprites/pcx/medium_sled.pcx 242 970 01 16 36 -19 -8
-  610 sprites/pcx/medium_sled.pcx 290 970 09 20 26 -13 -10
+  603 sprites/graphics/medium_sled.pcx 34 970 01 24 12 -3 -10
+  604 sprites/graphics/medium_sled.pcx 66 970 09 20 26 -11 -9
+  605 sprites/graphics/medium_sled.pcx 98 970 01 16 36 -15 -7
+  606 sprites/graphics/medium_sled.pcx 146 970 09 20 26 -9 -7
+  607 sprites/graphics/medium_sled.pcx 178 970 01 24 12 -9 -16
+  608 sprites/graphics/medium_sled.pcx 210 970 09 20 26 -17 -7
+  609 sprites/graphics/medium_sled.pcx 242 970 01 16 36 -19 -8
+  610 sprites/graphics/medium_sled.pcx 290 970 09 20 26 -13 -10
   // Standard bulldozer flat sled - steel, loaded  
-  611 sprites/pcx/medium_sled.pcx 34 970 01 24 12 -3 -10
-  612 sprites/pcx/medium_sled.pcx 66 970 09 20 26 -11 -9
-  613 sprites/pcx/medium_sled.pcx 98 970 01 16 36 -15 -7
-  614 sprites/pcx/medium_sled.pcx 146 970 09 20 26 -9 -7
-  615 sprites/pcx/medium_sled.pcx 178 970 01 24 12 -9 -16
-  616 sprites/pcx/medium_sled.pcx 210 970 09 20 26 -17 -7
-  617 sprites/pcx/medium_sled.pcx 242 970 01 16 36 -19 -8
-  618 sprites/pcx/medium_sled.pcx 290 970 09 20 26 -13 -10
+  611 sprites/graphics/medium_sled.pcx 34 970 01 24 12 -3 -10
+  612 sprites/graphics/medium_sled.pcx 66 970 09 20 26 -11 -9
+  613 sprites/graphics/medium_sled.pcx 98 970 01 16 36 -15 -7
+  614 sprites/graphics/medium_sled.pcx 146 970 09 20 26 -9 -7
+  615 sprites/graphics/medium_sled.pcx 178 970 01 24 12 -9 -16
+  616 sprites/graphics/medium_sled.pcx 210 970 09 20 26 -17 -7
+  617 sprites/graphics/medium_sled.pcx 242 970 01 16 36 -19 -8
+  618 sprites/graphics/medium_sled.pcx 290 970 09 20 26 -13 -10
   // Standard bulldozer flat sled - paper, loading  
-  619 sprites/pcx/medium_sled.pcx 34 1130 01 24 12 -3 -10
-  620 sprites/pcx/medium_sled.pcx 66 1130 09 20 26 -11 -9
-  621 sprites/pcx/medium_sled.pcx 98 1130 01 16 36 -15 -7
-  622 sprites/pcx/medium_sled.pcx 146 1130 09 20 26 -9 -7
-  623 sprites/pcx/medium_sled.pcx 178 1130 01 24 12 -9 -16
-  624 sprites/pcx/medium_sled.pcx 210 1130 09 20 26 -17 -7
-  625 sprites/pcx/medium_sled.pcx 242 1130 01 16 36 -19 -8
-  626 sprites/pcx/medium_sled.pcx 290 1130 09 20 26 -13 -10
+  619 sprites/graphics/medium_sled.pcx 34 1130 01 24 12 -3 -10
+  620 sprites/graphics/medium_sled.pcx 66 1130 09 20 26 -11 -9
+  621 sprites/graphics/medium_sled.pcx 98 1130 01 16 36 -15 -7
+  622 sprites/graphics/medium_sled.pcx 146 1130 09 20 26 -9 -7
+  623 sprites/graphics/medium_sled.pcx 178 1130 01 24 12 -9 -16
+  624 sprites/graphics/medium_sled.pcx 210 1130 09 20 26 -17 -7
+  625 sprites/graphics/medium_sled.pcx 242 1130 01 16 36 -19 -8
+  626 sprites/graphics/medium_sled.pcx 290 1130 09 20 26 -13 -10
   // Standard bulldozer flat sled - paper, loaded  
-  627 sprites/pcx/medium_sled.pcx 34 1130 01 24 12 -3 -10
-  628 sprites/pcx/medium_sled.pcx 66 1130 09 20 26 -11 -9
-  629 sprites/pcx/medium_sled.pcx 98 1130 01 16 36 -15 -7
-  630 sprites/pcx/medium_sled.pcx 146 1130 09 20 26 -9 -7
-  631 sprites/pcx/medium_sled.pcx 178 1130 01 24 12 -9 -16
-  632 sprites/pcx/medium_sled.pcx 210 1130 09 20 26 -17 -7
-  633 sprites/pcx/medium_sled.pcx 242 1130 01 16 36 -19 -8
-  634 sprites/pcx/medium_sled.pcx 290 1130 09 20 26 -13 -10
+  627 sprites/graphics/medium_sled.pcx 34 1130 01 24 12 -3 -10
+  628 sprites/graphics/medium_sled.pcx 66 1130 09 20 26 -11 -9
+  629 sprites/graphics/medium_sled.pcx 98 1130 01 16 36 -15 -7
+  630 sprites/graphics/medium_sled.pcx 146 1130 09 20 26 -9 -7
+  631 sprites/graphics/medium_sled.pcx 178 1130 01 24 12 -9 -16
+  632 sprites/graphics/medium_sled.pcx 210 1130 09 20 26 -17 -7
+  633 sprites/graphics/medium_sled.pcx 242 1130 01 16 36 -19 -8
+  634 sprites/graphics/medium_sled.pcx 290 1130 09 20 26 -13 -10
  // Standard bulldozer flat sled - livestock, loading  
-  635 sprites/pcx/medium_sled.pcx 34 810 01 24 12 -3 -10
-  636 sprites/pcx/medium_sled.pcx 66 810 09 20 26 -11 -9
-  637 sprites/pcx/medium_sled.pcx 98 810 01 16 36 -15 -7
-  638 sprites/pcx/medium_sled.pcx 146 810 09 20 26 -9 -7
-  639 sprites/pcx/medium_sled.pcx 178 810 01 24 12 -9 -16
-  640 sprites/pcx/medium_sled.pcx 210 810 09 20 26 -17 -7
-  641 sprites/pcx/medium_sled.pcx 242 810 01 16 36 -19 -8
-  642 sprites/pcx/medium_sled.pcx 290 810 09 20 26 -13 -10
+  635 sprites/graphics/medium_sled.pcx 34 810 01 24 12 -3 -10
+  636 sprites/graphics/medium_sled.pcx 66 810 09 20 26 -11 -9
+  637 sprites/graphics/medium_sled.pcx 98 810 01 16 36 -15 -7
+  638 sprites/graphics/medium_sled.pcx 146 810 09 20 26 -9 -7
+  639 sprites/graphics/medium_sled.pcx 178 810 01 24 12 -9 -16
+  640 sprites/graphics/medium_sled.pcx 210 810 09 20 26 -17 -7
+  641 sprites/graphics/medium_sled.pcx 242 810 01 16 36 -19 -8
+  642 sprites/graphics/medium_sled.pcx 290 810 09 20 26 -13 -10
  // Standard bulldozer flat sled - livestock, loaded
-  643 sprites/pcx/medium_sled.pcx 34 810 01 24 12 -3 -10
-  644 sprites/pcx/medium_sled.pcx 66 810 09 20 26 -11 -9
-  645 sprites/pcx/medium_sled.pcx 98 810 01 16 36 -15 -7
-  646 sprites/pcx/medium_sled.pcx 146 810 09 20 26 -9 -7
-  647 sprites/pcx/medium_sled.pcx 178 810 01 24 12 -9 -16
-  648 sprites/pcx/medium_sled.pcx 210 810 09 20 26 -17 -7
-  649 sprites/pcx/medium_sled.pcx 242 810 01 16 36 -19 -8
-  650 sprites/pcx/medium_sled.pcx 290 810 09 20 26 -13 -10
+  643 sprites/graphics/medium_sled.pcx 34 810 01 24 12 -3 -10
+  644 sprites/graphics/medium_sled.pcx 66 810 09 20 26 -11 -9
+  645 sprites/graphics/medium_sled.pcx 98 810 01 16 36 -15 -7
+  646 sprites/graphics/medium_sled.pcx 146 810 09 20 26 -9 -7
+  647 sprites/graphics/medium_sled.pcx 178 810 01 24 12 -9 -16
+  648 sprites/graphics/medium_sled.pcx 210 810 09 20 26 -17 -7
+  649 sprites/graphics/medium_sled.pcx 242 810 01 16 36 -19 -8
+  650 sprites/graphics/medium_sled.pcx 290 810 09 20 26 -13 -10
  // Standard bulldozer flat sled - copper, loading  
-  651 sprites/pcx/medium_sled.pcx 34 1050 01 24 12 -3 -10
-  652 sprites/pcx/medium_sled.pcx 66 1050 09 20 26 -11 -9
-  653 sprites/pcx/medium_sled.pcx 98 1050 01 16 36 -15 -7
-  654 sprites/pcx/medium_sled.pcx 146 1050 09 20 26 -9 -7
-  655 sprites/pcx/medium_sled.pcx 178 1050 01 24 12 -9 -16
-  656 sprites/pcx/medium_sled.pcx 210 1050 09 20 26 -17 -7
-  657 sprites/pcx/medium_sled.pcx 242 1050 01 16 36 -19 -8
-  658 sprites/pcx/medium_sled.pcx 290 1050 09 20 26 -13 -10
+  651 sprites/graphics/medium_sled.pcx 34 1050 01 24 12 -3 -10
+  652 sprites/graphics/medium_sled.pcx 66 1050 09 20 26 -11 -9
+  653 sprites/graphics/medium_sled.pcx 98 1050 01 16 36 -15 -7
+  654 sprites/graphics/medium_sled.pcx 146 1050 09 20 26 -9 -7
+  655 sprites/graphics/medium_sled.pcx 178 1050 01 24 12 -9 -16
+  656 sprites/graphics/medium_sled.pcx 210 1050 09 20 26 -17 -7
+  657 sprites/graphics/medium_sled.pcx 242 1050 01 16 36 -19 -8
+  658 sprites/graphics/medium_sled.pcx 290 1050 09 20 26 -13 -10
  // Standard bulldozer flat sled - copper, loaded  
-  659 sprites/pcx/medium_sled.pcx 34 1050 01 24 12 -3 -10
-  660 sprites/pcx/medium_sled.pcx 66 1050 09 20 26 -11 -9
-  661 sprites/pcx/medium_sled.pcx 98 1050 01 16 36 -15 -7
-  662 sprites/pcx/medium_sled.pcx 146 1050 09 20 26 -9 -7
-  663 sprites/pcx/medium_sled.pcx 178 1050 01 24 12 -9 -16
-  664 sprites/pcx/medium_sled.pcx 210 1050 09 20 26 -17 -7
-  665 sprites/pcx/medium_sled.pcx 242 1050 01 16 36 -19 -8
-  666 sprites/pcx/medium_sled.pcx 290 1050 09 20 26 -13 -10
+  659 sprites/graphics/medium_sled.pcx 34 1050 01 24 12 -3 -10
+  660 sprites/graphics/medium_sled.pcx 66 1050 09 20 26 -11 -9
+  661 sprites/graphics/medium_sled.pcx 98 1050 01 16 36 -15 -7
+  662 sprites/graphics/medium_sled.pcx 146 1050 09 20 26 -9 -7
+  663 sprites/graphics/medium_sled.pcx 178 1050 01 24 12 -9 -16
+  664 sprites/graphics/medium_sled.pcx 210 1050 09 20 26 -17 -7
+  665 sprites/graphics/medium_sled.pcx 242 1050 01 16 36 -19 -8
+  666 sprites/graphics/medium_sled.pcx 290 1050 09 20 26 -13 -10
   667 * 17	 02 01 29  03 03   00 00  01 00  02 00    00 00  01 00  02 00 // steel
   668 * 17	 02 01 2B  03 03   00 00  03 00  04 00    00 00  03 00  04 00 // paper
   669 * 17	 02 01 24  03 03   00 00  05 00  06 00    00 00  05 00  06 00 // livestock
   670 * 17	 02 01 2F  03 03   00 00  07 00  08 00    00 00  07 00  08 00 // copper
   671 * 4	 01 01 03 08  
     // Standard bulldozer stake trailer - empty
-  672 sprites/pcx/medium_trailer_4_wheel.pcx 34 610 01 24 12 -3 -10
-  673 sprites/pcx/medium_trailer_4_wheel.pcx 66 610 09 20 26 -11 -9
-  674 sprites/pcx/medium_trailer_4_wheel.pcx 98 610 01 16 36 -15 -7
-  675 sprites/pcx/medium_trailer_4_wheel.pcx 146 610 09 20 26 -9 -7
-  676 sprites/pcx/medium_trailer_4_wheel.pcx 178 610 01 24 12 -9 -16
-  677 sprites/pcx/medium_trailer_4_wheel.pcx 210 610 09 20 26 -17 -7
-  678 sprites/pcx/medium_trailer_4_wheel.pcx 242 610 01 16 36 -19 -8
-  679 sprites/pcx/medium_trailer_4_wheel.pcx 290 610 09 20 26 -13 -10
+  672 sprites/graphics/medium_trailer_4_wheel.pcx 34 610 01 24 12 -3 -10
+  673 sprites/graphics/medium_trailer_4_wheel.pcx 66 610 09 20 26 -11 -9
+  674 sprites/graphics/medium_trailer_4_wheel.pcx 98 610 01 16 36 -15 -7
+  675 sprites/graphics/medium_trailer_4_wheel.pcx 146 610 09 20 26 -9 -7
+  676 sprites/graphics/medium_trailer_4_wheel.pcx 178 610 01 24 12 -9 -16
+  677 sprites/graphics/medium_trailer_4_wheel.pcx 210 610 09 20 26 -17 -7
+  678 sprites/graphics/medium_trailer_4_wheel.pcx 242 610 01 16 36 -19 -8
+  679 sprites/graphics/medium_trailer_4_wheel.pcx 290 610 09 20 26 -13 -10
     // Standard bulldozer stake trailer - Wood, loading  
-  680 sprites/pcx/medium_trailer_4_wheel.pcx 34 650 01 24 12 -3 -10
-  681 sprites/pcx/medium_trailer_4_wheel.pcx 66 650 09 20 26 -11 -9
-  682 sprites/pcx/medium_trailer_4_wheel.pcx 98 650 01 16 36 -15 -7
-  683 sprites/pcx/medium_trailer_4_wheel.pcx 146 650 09 20 26 -9 -7
-  684 sprites/pcx/medium_trailer_4_wheel.pcx 178 650 01 24 12 -9 -16
-  685 sprites/pcx/medium_trailer_4_wheel.pcx 210 650 09 20 26 -17 -7
-  686 sprites/pcx/medium_trailer_4_wheel.pcx 242 650 01 16 36 -19 -8
-  687 sprites/pcx/medium_trailer_4_wheel.pcx 290 650 09 20 26 -13 -10
+  680 sprites/graphics/medium_trailer_4_wheel.pcx 34 650 01 24 12 -3 -10
+  681 sprites/graphics/medium_trailer_4_wheel.pcx 66 650 09 20 26 -11 -9
+  682 sprites/graphics/medium_trailer_4_wheel.pcx 98 650 01 16 36 -15 -7
+  683 sprites/graphics/medium_trailer_4_wheel.pcx 146 650 09 20 26 -9 -7
+  684 sprites/graphics/medium_trailer_4_wheel.pcx 178 650 01 24 12 -9 -16
+  685 sprites/graphics/medium_trailer_4_wheel.pcx 210 650 09 20 26 -17 -7
+  686 sprites/graphics/medium_trailer_4_wheel.pcx 242 650 01 16 36 -19 -8
+  687 sprites/graphics/medium_trailer_4_wheel.pcx 290 650 09 20 26 -13 -10
     // Standard bulldozer stake trailer - Wood, loaded  
-  688 sprites/pcx/medium_trailer_4_wheel.pcx 34 690 01 24 12 -3 -10
-  689 sprites/pcx/medium_trailer_4_wheel.pcx 66 690 09 20 26 -11 -9
-  690 sprites/pcx/medium_trailer_4_wheel.pcx 98 690 01 16 36 -15 -7
-  691 sprites/pcx/medium_trailer_4_wheel.pcx 146 690 09 20 26 -9 -7
-  692 sprites/pcx/medium_trailer_4_wheel.pcx 178 690 01 24 12 -9 -16
-  693 sprites/pcx/medium_trailer_4_wheel.pcx 210 690 09 20 26 -17 -7
-  694 sprites/pcx/medium_trailer_4_wheel.pcx 242 690 01 16 36 -19 -8
-  695 sprites/pcx/medium_trailer_4_wheel.pcx 290 690 09 20 26 -13 -10
+  688 sprites/graphics/medium_trailer_4_wheel.pcx 34 690 01 24 12 -3 -10
+  689 sprites/graphics/medium_trailer_4_wheel.pcx 66 690 09 20 26 -11 -9
+  690 sprites/graphics/medium_trailer_4_wheel.pcx 98 690 01 16 36 -15 -7
+  691 sprites/graphics/medium_trailer_4_wheel.pcx 146 690 09 20 26 -9 -7
+  692 sprites/graphics/medium_trailer_4_wheel.pcx 178 690 01 24 12 -9 -16
+  693 sprites/graphics/medium_trailer_4_wheel.pcx 210 690 09 20 26 -17 -7
+  694 sprites/graphics/medium_trailer_4_wheel.pcx 242 690 01 16 36 -19 -8
+  695 sprites/graphics/medium_trailer_4_wheel.pcx 290 690 09 20 26 -13 -10
   696 * 17	 02 01 07  03 03   00 00  01 00  02 00    00 00  01 00  02 00 // wood
   697 * 4	 01 01 03 08  
     // Standard bulldozer stake sled - empty
-  698 sprites/pcx/medium_sled.pcx 34 610 01 24 12 -3 -10
-  699 sprites/pcx/medium_sled.pcx 66 610 09 20 26 -11 -9
-  700 sprites/pcx/medium_sled.pcx 98 610 01 16 36 -15 -7
-  701 sprites/pcx/medium_sled.pcx 146 610 09 20 26 -9 -7
-  702 sprites/pcx/medium_sled.pcx 178 610 01 24 12 -9 -16
-  703 sprites/pcx/medium_sled.pcx 210 610 09 20 26 -17 -7
-  704 sprites/pcx/medium_sled.pcx 242 610 01 16 36 -19 -8
-  705 sprites/pcx/medium_sled.pcx 290 610 09 20 26 -13 -10
+  698 sprites/graphics/medium_sled.pcx 34 610 01 24 12 -3 -10
+  699 sprites/graphics/medium_sled.pcx 66 610 09 20 26 -11 -9
+  700 sprites/graphics/medium_sled.pcx 98 610 01 16 36 -15 -7
+  701 sprites/graphics/medium_sled.pcx 146 610 09 20 26 -9 -7
+  702 sprites/graphics/medium_sled.pcx 178 610 01 24 12 -9 -16
+  703 sprites/graphics/medium_sled.pcx 210 610 09 20 26 -17 -7
+  704 sprites/graphics/medium_sled.pcx 242 610 01 16 36 -19 -8
+  705 sprites/graphics/medium_sled.pcx 290 610 09 20 26 -13 -10
     // Standard bulldozer stake sled - Wood, loading  
-  706 sprites/pcx/medium_sled.pcx 34 650 01 24 12 -3 -10
-  707 sprites/pcx/medium_sled.pcx 66 650 09 20 26 -11 -9
-  708 sprites/pcx/medium_sled.pcx 98 650 01 16 36 -15 -7
-  709 sprites/pcx/medium_sled.pcx 146 650 09 20 26 -9 -7
-  710 sprites/pcx/medium_sled.pcx 178 650 01 24 12 -9 -16
-  711 sprites/pcx/medium_sled.pcx 210 650 09 20 26 -17 -7
-  712 sprites/pcx/medium_sled.pcx 242 650 01 16 36 -19 -8
-  713 sprites/pcx/medium_sled.pcx 290 650 09 20 26 -13 -10
+  706 sprites/graphics/medium_sled.pcx 34 650 01 24 12 -3 -10
+  707 sprites/graphics/medium_sled.pcx 66 650 09 20 26 -11 -9
+  708 sprites/graphics/medium_sled.pcx 98 650 01 16 36 -15 -7
+  709 sprites/graphics/medium_sled.pcx 146 650 09 20 26 -9 -7
+  710 sprites/graphics/medium_sled.pcx 178 650 01 24 12 -9 -16
+  711 sprites/graphics/medium_sled.pcx 210 650 09 20 26 -17 -7
+  712 sprites/graphics/medium_sled.pcx 242 650 01 16 36 -19 -8
+  713 sprites/graphics/medium_sled.pcx 290 650 09 20 26 -13 -10
     // Standard bulldozer stake sled - Wood, loaded  
-  714 sprites/pcx/medium_sled.pcx 34 690 01 24 12 -3 -10
-  715 sprites/pcx/medium_sled.pcx 66 690 09 20 26 -11 -9
-  716 sprites/pcx/medium_sled.pcx 98 690 01 16 36 -15 -7
-  717 sprites/pcx/medium_sled.pcx 146 690 09 20 26 -9 -7
-  718 sprites/pcx/medium_sled.pcx 178 690 01 24 12 -9 -16
-  719 sprites/pcx/medium_sled.pcx 210 690 09 20 26 -17 -7
-  720 sprites/pcx/medium_sled.pcx 242 690 01 16 36 -19 -8
-  721 sprites/pcx/medium_sled.pcx 290 690 09 20 26 -13 -10
+  714 sprites/graphics/medium_sled.pcx 34 690 01 24 12 -3 -10
+  715 sprites/graphics/medium_sled.pcx 66 690 09 20 26 -11 -9
+  716 sprites/graphics/medium_sled.pcx 98 690 01 16 36 -15 -7
+  717 sprites/graphics/medium_sled.pcx 146 690 09 20 26 -9 -7
+  718 sprites/graphics/medium_sled.pcx 178 690 01 24 12 -9 -16
+  719 sprites/graphics/medium_sled.pcx 210 690 09 20 26 -17 -7
+  720 sprites/graphics/medium_sled.pcx 242 690 01 16 36 -19 -8
+  721 sprites/graphics/medium_sled.pcx 290 690 09 20 26 -13 -10
   722 * 17	 02 01 27  03 03   00 00  01 00  02 00    00 00  01 00  02 00 // wood
     // Standard bulldozer tank trailer
   723 * 4	 01 01 01 08
-  724 sprites/pcx/medium_trailer_4_wheel.pcx 34 10 01 24 12 -3 -10
-  725 sprites/pcx/medium_trailer_4_wheel.pcx 66 10 09 20 26 -11 -9
-  726 sprites/pcx/medium_trailer_4_wheel.pcx 98 10 01 16 36 -15 -7
-  727 sprites/pcx/medium_trailer_4_wheel.pcx 146 10 09 20 26 -9 -7
-  728 sprites/pcx/medium_trailer_4_wheel.pcx 178 10 01 24 12 -9 -16
-  729 sprites/pcx/medium_trailer_4_wheel.pcx 210 10 09 20 26 -17 -7
-  730 sprites/pcx/medium_trailer_4_wheel.pcx 242 10 01 16 36 -19 -8
-  731 sprites/pcx/medium_trailer_4_wheel.pcx 290 10 09 20 26 -13 -10
+  724 sprites/graphics/medium_trailer_4_wheel.pcx 34 10 01 24 12 -3 -10
+  725 sprites/graphics/medium_trailer_4_wheel.pcx 66 10 09 20 26 -11 -9
+  726 sprites/graphics/medium_trailer_4_wheel.pcx 98 10 01 16 36 -15 -7
+  727 sprites/graphics/medium_trailer_4_wheel.pcx 146 10 09 20 26 -9 -7
+  728 sprites/graphics/medium_trailer_4_wheel.pcx 178 10 01 24 12 -9 -16
+  729 sprites/graphics/medium_trailer_4_wheel.pcx 210 10 09 20 26 -17 -7
+  730 sprites/graphics/medium_trailer_4_wheel.pcx 242 10 01 16 36 -19 -8
+  731 sprites/graphics/medium_trailer_4_wheel.pcx 290 10 09 20 26 -13 -10
   732 * 9	 02 01 03   01 01    00 00    00 00 // tank trailer
     // Standard bulldozer tank trailer
   733 * 4	 01 01 01 08
-  734 sprites/pcx/medium_sled.pcx 34 10 01 24 12 -3 -10
-  735 sprites/pcx/medium_sled.pcx 66 10 09 20 26 -11 -9
-  736 sprites/pcx/medium_sled.pcx 98 10 01 16 36 -15 -7
-  737 sprites/pcx/medium_sled.pcx 146 10 09 20 26 -9 -7
-  738 sprites/pcx/medium_sled.pcx 178 10 01 24 12 -9 -16
-  739 sprites/pcx/medium_sled.pcx 210 10 09 20 26 -17 -7
-  740 sprites/pcx/medium_sled.pcx 242 10 01 16 36 -19 -8
-  741 sprites/pcx/medium_sled.pcx 290 10 09 20 26 -13 -10
+  734 sprites/graphics/medium_sled.pcx 34 10 01 24 12 -3 -10
+  735 sprites/graphics/medium_sled.pcx 66 10 09 20 26 -11 -9
+  736 sprites/graphics/medium_sled.pcx 98 10 01 16 36 -15 -7
+  737 sprites/graphics/medium_sled.pcx 146 10 09 20 26 -9 -7
+  738 sprites/graphics/medium_sled.pcx 178 10 01 24 12 -9 -16
+  739 sprites/graphics/medium_sled.pcx 210 10 09 20 26 -17 -7
+  740 sprites/graphics/medium_sled.pcx 242 10 01 16 36 -19 -8
+  741 sprites/graphics/medium_sled.pcx 290 10 09 20 26 -13 -10
   742 * 9	 02 01 23   01 01    00 00    00 00 // tank sled
   // Rough order of business here:
       // set length and refit texts
@@ -887,122 +887,122 @@
   761 * 7	 00 01 01 01 7A 10 08// copper ore default
    // Large bulldozer belly dump B - empty
   763 * 4	 01 01 0D 08
-  764 sprites/pcx/bulldozer_trailer_large.pcx 34 50 01 24 12 -3 -16
-  765 sprites/pcx/bulldozer_trailer_large.pcx 66 50 09 20 26 -14 -7
-  766 sprites/pcx/bulldozer_trailer_large.pcx 98 50 01 16 36 -14 -8
-  767 sprites/pcx/bulldozer_trailer_large.pcx 146 50 09 20 26 -10 -8
-  768 sprites/pcx/bulldozer_trailer_large.pcx 178 50 01 24 12 -9 -16
-  769 sprites/pcx/bulldozer_trailer_large.pcx 210 50 09 20 26 -15 -9
-  770 sprites/pcx/bulldozer_trailer_large.pcx 242 50 01 16 36 -26 -9
-  771 sprites/pcx/bulldozer_trailer_large.pcx 290 50 09 20 26 -10 -10
+  764 sprites/graphics/bulldozer_trailer_large.pcx 34 50 01 24 12 -3 -16
+  765 sprites/graphics/bulldozer_trailer_large.pcx 66 50 09 20 26 -14 -7
+  766 sprites/graphics/bulldozer_trailer_large.pcx 98 50 01 16 36 -14 -8
+  767 sprites/graphics/bulldozer_trailer_large.pcx 146 50 09 20 26 -10 -8
+  768 sprites/graphics/bulldozer_trailer_large.pcx 178 50 01 24 12 -9 -16
+  769 sprites/graphics/bulldozer_trailer_large.pcx 210 50 09 20 26 -15 -9
+  770 sprites/graphics/bulldozer_trailer_large.pcx 242 50 01 16 36 -26 -9
+  771 sprites/graphics/bulldozer_trailer_large.pcx 290 50 09 20 26 -10 -10
    // Large bulldozer belly dump B - iron ore, loading
-  772 sprites/pcx/bulldozer_trailer_large.pcx 34 490 01 24 12 -3 -16
-  773 sprites/pcx/bulldozer_trailer_large.pcx 66 490 09 20 20 -14 -7
-  774 sprites/pcx/bulldozer_trailer_large.pcx 98 490 01 16 36 -14 -8
-  775 sprites/pcx/bulldozer_trailer_large.pcx 146 490 09 20 26 -10 -8
-  776 sprites/pcx/bulldozer_trailer_large.pcx 178 490 01 24 12 -9 -16
-  777 sprites/pcx/bulldozer_trailer_large.pcx 210 490 09 20 26 -15 -9
-  778 sprites/pcx/bulldozer_trailer_large.pcx 242 490 01 16 36 -26 -9
-  779 sprites/pcx/bulldozer_trailer_large.pcx 290 490 09 20 26 -10 -10
+  772 sprites/graphics/bulldozer_trailer_large.pcx 34 490 01 24 12 -3 -16
+  773 sprites/graphics/bulldozer_trailer_large.pcx 66 490 09 20 20 -14 -7
+  774 sprites/graphics/bulldozer_trailer_large.pcx 98 490 01 16 36 -14 -8
+  775 sprites/graphics/bulldozer_trailer_large.pcx 146 490 09 20 26 -10 -8
+  776 sprites/graphics/bulldozer_trailer_large.pcx 178 490 01 24 12 -9 -16
+  777 sprites/graphics/bulldozer_trailer_large.pcx 210 490 09 20 26 -15 -9
+  778 sprites/graphics/bulldozer_trailer_large.pcx 242 490 01 16 36 -26 -9
+  779 sprites/graphics/bulldozer_trailer_large.pcx 290 490 09 20 26 -10 -10
    // Large bulldozer belly dump B - iron ore, loaded
-  780 sprites/pcx/bulldozer_trailer_large.pcx 34 530 01 24 12 -3 -16
-  781 sprites/pcx/bulldozer_trailer_large.pcx 66 530 09 20 20 -14 -7
-  782 sprites/pcx/bulldozer_trailer_large.pcx 98 530 01 16 36 -14 -8
-  783 sprites/pcx/bulldozer_trailer_large.pcx 146 530 09 20 26 -10 -8
-  784 sprites/pcx/bulldozer_trailer_large.pcx 178 530 01 24 12 -9 -16
-  785 sprites/pcx/bulldozer_trailer_large.pcx 210 530 09 20 26 -15 -9
-  786 sprites/pcx/bulldozer_trailer_large.pcx 242 530 01 16 36 -26 -9
-  787 sprites/pcx/bulldozer_trailer_large.pcx 290 530 09 20 26 -10 -10
+  780 sprites/graphics/bulldozer_trailer_large.pcx 34 530 01 24 12 -3 -16
+  781 sprites/graphics/bulldozer_trailer_large.pcx 66 530 09 20 20 -14 -7
+  782 sprites/graphics/bulldozer_trailer_large.pcx 98 530 01 16 36 -14 -8
+  783 sprites/graphics/bulldozer_trailer_large.pcx 146 530 09 20 26 -10 -8
+  784 sprites/graphics/bulldozer_trailer_large.pcx 178 530 01 24 12 -9 -16
+  785 sprites/graphics/bulldozer_trailer_large.pcx 210 530 09 20 26 -15 -9
+  786 sprites/graphics/bulldozer_trailer_large.pcx 242 530 01 16 36 -26 -9
+  787 sprites/graphics/bulldozer_trailer_large.pcx 290 530 09 20 26 -10 -10
    // Large bulldozer belly dump B - coal, loading
-  788 sprites/pcx/bulldozer_trailer_large.pcx 34 170 01 24 12 -3 -16
-  789 sprites/pcx/bulldozer_trailer_large.pcx 66 170 09 20 26 -14 -7
-  790 sprites/pcx/bulldozer_trailer_large.pcx 98 170 01 16 36 -14 -8
-  791 sprites/pcx/bulldozer_trailer_large.pcx 146 170 09 20 26 -10 -8
-  792 sprites/pcx/bulldozer_trailer_large.pcx 178 170 01 24 12 -9 -16
-  793 sprites/pcx/bulldozer_trailer_large.pcx 210 170 09 20 26 -15 -9
-  794 sprites/pcx/bulldozer_trailer_large.pcx 242 170 01 16 36 -26 -9
-  795 sprites/pcx/bulldozer_trailer_large.pcx 290 170 09 20 26 -10 -10
+  788 sprites/graphics/bulldozer_trailer_large.pcx 34 170 01 24 12 -3 -16
+  789 sprites/graphics/bulldozer_trailer_large.pcx 66 170 09 20 26 -14 -7
+  790 sprites/graphics/bulldozer_trailer_large.pcx 98 170 01 16 36 -14 -8
+  791 sprites/graphics/bulldozer_trailer_large.pcx 146 170 09 20 26 -10 -8
+  792 sprites/graphics/bulldozer_trailer_large.pcx 178 170 01 24 12 -9 -16
+  793 sprites/graphics/bulldozer_trailer_large.pcx 210 170 09 20 26 -15 -9
+  794 sprites/graphics/bulldozer_trailer_large.pcx 242 170 01 16 36 -26 -9
+  795 sprites/graphics/bulldozer_trailer_large.pcx 290 170 09 20 26 -10 -10
    // Large bulldozer belly dump B - coal, loaded
-  796 sprites/pcx/bulldozer_trailer_large.pcx 34 210 01 24 12 -3 -16
-  797 sprites/pcx/bulldozer_trailer_large.pcx 66 210 09 20 26 -14 -7
-  798 sprites/pcx/bulldozer_trailer_large.pcx 98 210 01 16 36 -14 -8
-  799 sprites/pcx/bulldozer_trailer_large.pcx 146 210 09 20 26 -10 -8
-  800 sprites/pcx/bulldozer_trailer_large.pcx 178 210 01 24 12 -9 -16
-  801 sprites/pcx/bulldozer_trailer_large.pcx 210 210 09 20 26 -15 -9
-  802 sprites/pcx/bulldozer_trailer_large.pcx 242 210 01 16 36 -26 -9
-  803 sprites/pcx/bulldozer_trailer_large.pcx 290 210 09 20 26 -10 -10
+  796 sprites/graphics/bulldozer_trailer_large.pcx 34 210 01 24 12 -3 -16
+  797 sprites/graphics/bulldozer_trailer_large.pcx 66 210 09 20 26 -14 -7
+  798 sprites/graphics/bulldozer_trailer_large.pcx 98 210 01 16 36 -14 -8
+  799 sprites/graphics/bulldozer_trailer_large.pcx 146 210 09 20 26 -10 -8
+  800 sprites/graphics/bulldozer_trailer_large.pcx 178 210 01 24 12 -9 -16
+  801 sprites/graphics/bulldozer_trailer_large.pcx 210 210 09 20 26 -15 -9
+  802 sprites/graphics/bulldozer_trailer_large.pcx 242 210 01 16 36 -26 -9
+  803 sprites/graphics/bulldozer_trailer_large.pcx 290 210 09 20 26 -10 -10
    // Large bulldozer belly dump B - sand, loading
-  804 sprites/pcx/bulldozer_trailer_large.pcx 34 250 01 24 12 -3 -16
-  805 sprites/pcx/bulldozer_trailer_large.pcx 66 250 09 20 26 -14 -7
-  806 sprites/pcx/bulldozer_trailer_large.pcx 98 250 01 16 36 -14 -8
-  807 sprites/pcx/bulldozer_trailer_large.pcx 146 250 09 20 26 -10 -8
-  808 sprites/pcx/bulldozer_trailer_large.pcx 178 250 01 24 12 -9 -16
-  809 sprites/pcx/bulldozer_trailer_large.pcx 210 250 09 20 26 -15 -9
-  810 sprites/pcx/bulldozer_trailer_large.pcx 242 250 01 16 36 -26 -9
-  811 sprites/pcx/bulldozer_trailer_large.pcx 290 250 09 20 26 -10 -10
+  804 sprites/graphics/bulldozer_trailer_large.pcx 34 250 01 24 12 -3 -16
+  805 sprites/graphics/bulldozer_trailer_large.pcx 66 250 09 20 26 -14 -7
+  806 sprites/graphics/bulldozer_trailer_large.pcx 98 250 01 16 36 -14 -8
+  807 sprites/graphics/bulldozer_trailer_large.pcx 146 250 09 20 26 -10 -8
+  808 sprites/graphics/bulldozer_trailer_large.pcx 178 250 01 24 12 -9 -16
+  809 sprites/graphics/bulldozer_trailer_large.pcx 210 250 09 20 26 -15 -9
+  810 sprites/graphics/bulldozer_trailer_large.pcx 242 250 01 16 36 -26 -9
+  811 sprites/graphics/bulldozer_trailer_large.pcx 290 250 09 20 26 -10 -10
   // Large bulldozer belly dump B - sand, loaded
-  812 sprites/pcx/bulldozer_trailer_large.pcx 34 290 01 24 12 -3 -16
-  813 sprites/pcx/bulldozer_trailer_large.pcx 66 290 09 20 26 -14 -7
-  814 sprites/pcx/bulldozer_trailer_large.pcx 98 290 01 16 36 -14 -8
-  815 sprites/pcx/bulldozer_trailer_large.pcx 146 290 09 20 26 -10 -8
-  816 sprites/pcx/bulldozer_trailer_large.pcx 178 290 01 24 12 -9 -16
-  817 sprites/pcx/bulldozer_trailer_large.pcx 210 290 09 20 26 -15 -9
-  818 sprites/pcx/bulldozer_trailer_large.pcx 242 290 01 16 36 -26 -9
-  819 sprites/pcx/bulldozer_trailer_large.pcx 290 290 09 20 26 -10 -10
+  812 sprites/graphics/bulldozer_trailer_large.pcx 34 290 01 24 12 -3 -16
+  813 sprites/graphics/bulldozer_trailer_large.pcx 66 290 09 20 26 -14 -7
+  814 sprites/graphics/bulldozer_trailer_large.pcx 98 290 01 16 36 -14 -8
+  815 sprites/graphics/bulldozer_trailer_large.pcx 146 290 09 20 26 -10 -8
+  816 sprites/graphics/bulldozer_trailer_large.pcx 178 290 01 24 12 -9 -16
+  817 sprites/graphics/bulldozer_trailer_large.pcx 210 290 09 20 26 -15 -9
+  818 sprites/graphics/bulldozer_trailer_large.pcx 242 290 01 16 36 -26 -9
+  819 sprites/graphics/bulldozer_trailer_large.pcx 290 290 09 20 26 -10 -10
   // Large bulldozer belly dump B - brown, loading
-  820 sprites/pcx/bulldozer_trailer_large.pcx 34 410 01 24 12 -3 -16
-  821 sprites/pcx/bulldozer_trailer_large.pcx 66 410 09 20 26 -14 -7
-  822 sprites/pcx/bulldozer_trailer_large.pcx 98 410 01 16 36 -14 -8
-  823 sprites/pcx/bulldozer_trailer_large.pcx 146 410 09 20 26 -10 -8
-  824 sprites/pcx/bulldozer_trailer_large.pcx 178 410 01 24 12 -9 -16
-  825 sprites/pcx/bulldozer_trailer_large.pcx 210 410 09 20 26 -15 -9
-  826 sprites/pcx/bulldozer_trailer_large.pcx 242 410 01 16 36 -26 -9
-  827 sprites/pcx/bulldozer_trailer_large.pcx 290 410 09 20 26 -10 -10
+  820 sprites/graphics/bulldozer_trailer_large.pcx 34 410 01 24 12 -3 -16
+  821 sprites/graphics/bulldozer_trailer_large.pcx 66 410 09 20 26 -14 -7
+  822 sprites/graphics/bulldozer_trailer_large.pcx 98 410 01 16 36 -14 -8
+  823 sprites/graphics/bulldozer_trailer_large.pcx 146 410 09 20 26 -10 -8
+  824 sprites/graphics/bulldozer_trailer_large.pcx 178 410 01 24 12 -9 -16
+  825 sprites/graphics/bulldozer_trailer_large.pcx 210 410 09 20 26 -15 -9
+  826 sprites/graphics/bulldozer_trailer_large.pcx 242 410 01 16 36 -26 -9
+  827 sprites/graphics/bulldozer_trailer_large.pcx 290 410 09 20 26 -10 -10
   // Large bulldozer belly dump B - brown, loaded
-  828 sprites/pcx/bulldozer_trailer_large.pcx 34 450 01 24 12 -3 -16
-  829 sprites/pcx/bulldozer_trailer_large.pcx 66 450 09 20 26 -14 -7
-  830 sprites/pcx/bulldozer_trailer_large.pcx 98 450 01 16 36 -14 -8
-  831 sprites/pcx/bulldozer_trailer_large.pcx 146 450 09 20 26 -10 -8
-  832 sprites/pcx/bulldozer_trailer_large.pcx 178 450 01 24 12 -9 -16
-  833 sprites/pcx/bulldozer_trailer_large.pcx 210 450 09 20 26 -15 -9
-  834 sprites/pcx/bulldozer_trailer_large.pcx 242 450 01 16 36 -26 -9
-  835 sprites/pcx/bulldozer_trailer_large.pcx 290 450 09 20 26 -10 -10
+  828 sprites/graphics/bulldozer_trailer_large.pcx 34 450 01 24 12 -3 -16
+  829 sprites/graphics/bulldozer_trailer_large.pcx 66 450 09 20 26 -14 -7
+  830 sprites/graphics/bulldozer_trailer_large.pcx 98 450 01 16 36 -14 -8
+  831 sprites/graphics/bulldozer_trailer_large.pcx 146 450 09 20 26 -10 -8
+  832 sprites/graphics/bulldozer_trailer_large.pcx 178 450 01 24 12 -9 -16
+  833 sprites/graphics/bulldozer_trailer_large.pcx 210 450 09 20 26 -15 -9
+  834 sprites/graphics/bulldozer_trailer_large.pcx 242 450 01 16 36 -26 -9
+  835 sprites/graphics/bulldozer_trailer_large.pcx 290 450 09 20 26 -10 -10
   // Large bulldozer belly dump B - red, loading
-  836 sprites/pcx/bulldozer_trailer_large.pcx 34 370 01 24 12 -3 -16
-  837 sprites/pcx/bulldozer_trailer_large.pcx 66 370 09 20 26 -14 -7
-  838 sprites/pcx/bulldozer_trailer_large.pcx 98 370 01 16 36 -14 -8
-  839 sprites/pcx/bulldozer_trailer_large.pcx 146 370 09 20 26 -10 -8
-  840 sprites/pcx/bulldozer_trailer_large.pcx 178 370 01 24 12 -9 -16
-  841 sprites/pcx/bulldozer_trailer_large.pcx 210 370 09 20 26 -15 -9
-  842 sprites/pcx/bulldozer_trailer_large.pcx 242 370 01 16 36 -26 -9
-  843 sprites/pcx/bulldozer_trailer_large.pcx 290 370 09 20 26 -10 -10
+  836 sprites/graphics/bulldozer_trailer_large.pcx 34 370 01 24 12 -3 -16
+  837 sprites/graphics/bulldozer_trailer_large.pcx 66 370 09 20 26 -14 -7
+  838 sprites/graphics/bulldozer_trailer_large.pcx 98 370 01 16 36 -14 -8
+  839 sprites/graphics/bulldozer_trailer_large.pcx 146 370 09 20 26 -10 -8
+  840 sprites/graphics/bulldozer_trailer_large.pcx 178 370 01 24 12 -9 -16
+  841 sprites/graphics/bulldozer_trailer_large.pcx 210 370 09 20 26 -15 -9
+  842 sprites/graphics/bulldozer_trailer_large.pcx 242 370 01 16 36 -26 -9
+  843 sprites/graphics/bulldozer_trailer_large.pcx 290 370 09 20 26 -10 -10
   // Large bulldozer belly dump B - red, loaded
-  844 sprites/pcx/bulldozer_trailer_large.pcx 34 370 01 24 12 -3 -16
-  845 sprites/pcx/bulldozer_trailer_large.pcx 66 370 09 20 26 -14 -7
-  846 sprites/pcx/bulldozer_trailer_large.pcx 98 370 01 16 36 -14 -8
-  847 sprites/pcx/bulldozer_trailer_large.pcx 146 370 09 20 26 -10 -8
-  848 sprites/pcx/bulldozer_trailer_large.pcx 178 370 01 24 12 -9 -16
-  849 sprites/pcx/bulldozer_trailer_large.pcx 210 370 09 20 26 -15 -9
-  850 sprites/pcx/bulldozer_trailer_large.pcx 242 370 01 16 36 -26 -9
-  851 sprites/pcx/bulldozer_trailer_large.pcx 290 370 09 20 26 -10 -10
+  844 sprites/graphics/bulldozer_trailer_large.pcx 34 370 01 24 12 -3 -16
+  845 sprites/graphics/bulldozer_trailer_large.pcx 66 370 09 20 26 -14 -7
+  846 sprites/graphics/bulldozer_trailer_large.pcx 98 370 01 16 36 -14 -8
+  847 sprites/graphics/bulldozer_trailer_large.pcx 146 370 09 20 26 -10 -8
+  848 sprites/graphics/bulldozer_trailer_large.pcx 178 370 01 24 12 -9 -16
+  849 sprites/graphics/bulldozer_trailer_large.pcx 210 370 09 20 26 -15 -9
+  850 sprites/graphics/bulldozer_trailer_large.pcx 242 370 01 16 36 -26 -9
+  851 sprites/graphics/bulldozer_trailer_large.pcx 290 370 09 20 26 -10 -10
   // Large bulldozer belly dump B - grey, loading
-  852 sprites/pcx/bulldozer_trailer_large.pcx 34 90 01 24 12 -3 -16
-  853 sprites/pcx/bulldozer_trailer_large.pcx 66 90 09 20 26 -14 -7
-  854 sprites/pcx/bulldozer_trailer_large.pcx 98 90 01 16 36 -14 -8
-  855 sprites/pcx/bulldozer_trailer_large.pcx 146 90 09 20 26 -10 -8
-  856 sprites/pcx/bulldozer_trailer_large.pcx 178 90 01 24 12 -9 -16
-  857 sprites/pcx/bulldozer_trailer_large.pcx 210 90 09 20 26 -15 -9
-  858 sprites/pcx/bulldozer_trailer_large.pcx 242 90 01 16 36 -26 -9
-  859 sprites/pcx/bulldozer_trailer_large.pcx 290 90 09 20 26 -10 -10
+  852 sprites/graphics/bulldozer_trailer_large.pcx 34 90 01 24 12 -3 -16
+  853 sprites/graphics/bulldozer_trailer_large.pcx 66 90 09 20 26 -14 -7
+  854 sprites/graphics/bulldozer_trailer_large.pcx 98 90 01 16 36 -14 -8
+  855 sprites/graphics/bulldozer_trailer_large.pcx 146 90 09 20 26 -10 -8
+  856 sprites/graphics/bulldozer_trailer_large.pcx 178 90 01 24 12 -9 -16
+  857 sprites/graphics/bulldozer_trailer_large.pcx 210 90 09 20 26 -15 -9
+  858 sprites/graphics/bulldozer_trailer_large.pcx 242 90 01 16 36 -26 -9
+  859 sprites/graphics/bulldozer_trailer_large.pcx 290 90 09 20 26 -10 -10
   // Large bulldozer belly dump B - grey, loaded
-  860 sprites/pcx/bulldozer_trailer_large.pcx 34 130 01 24 12 -3 -16
-  861 sprites/pcx/bulldozer_trailer_large.pcx 66 130 09 20 26 -14 -7
-  862 sprites/pcx/bulldozer_trailer_large.pcx 98 130 01 16 36 -14 -8
-  863 sprites/pcx/bulldozer_trailer_large.pcx 146 130 09 20 26 -10 -8
-  864 sprites/pcx/bulldozer_trailer_large.pcx 178 130 01 24 12 -9 -16
-  865 sprites/pcx/bulldozer_trailer_large.pcx 210 130 09 20 26 -15 -9
-  866 sprites/pcx/bulldozer_trailer_large.pcx 242 130 01 16 36 -26 -9
-  867 sprites/pcx/bulldozer_trailer_large.pcx 290 130 09 20 26 -10 -10
+  860 sprites/graphics/bulldozer_trailer_large.pcx 34 130 01 24 12 -3 -16
+  861 sprites/graphics/bulldozer_trailer_large.pcx 66 130 09 20 26 -14 -7
+  862 sprites/graphics/bulldozer_trailer_large.pcx 98 130 01 16 36 -14 -8
+  863 sprites/graphics/bulldozer_trailer_large.pcx 146 130 09 20 26 -10 -8
+  864 sprites/graphics/bulldozer_trailer_large.pcx 178 130 01 24 12 -9 -16
+  865 sprites/graphics/bulldozer_trailer_large.pcx 210 130 09 20 26 -15 -9
+  866 sprites/graphics/bulldozer_trailer_large.pcx 242 130 01 16 36 -26 -9
+  867 sprites/graphics/bulldozer_trailer_large.pcx 290 130 09 20 26 -10 -10
   868 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
   869 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
   870 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // sand
@@ -1011,198 +1011,198 @@
   873 * 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
     // Large bulldozer trailer - Wood, empty
   874 * 4	 01 01 08 08
-  875 sprites/pcx/bulldozer_trailer_large.pcx 34 570 01 26 12 -6 -15
-  876 sprites/pcx/bulldozer_trailer_large.pcx 66 570 09 23 26 -14 -11
-  877 sprites/pcx/bulldozer_trailer_large.pcx 98 570 01 17 36 -12 -10
-  878 sprites/pcx/bulldozer_trailer_large.pcx 146 570 09 23 26 -11 -11
-  879 sprites/pcx/bulldozer_trailer_large.pcx 178 570 01 26 12 -7 -16
-  880 sprites/pcx/bulldozer_trailer_large.pcx 210 570 09 23 26 -15 -11
-  881 sprites/pcx/bulldozer_trailer_large.pcx 242 570 01 17 36 -23 -11
-  882 sprites/pcx/bulldozer_trailer_large.pcx 290 570 09 23 26 -10 -12
+  875 sprites/graphics/bulldozer_trailer_large.pcx 34 570 01 26 12 -6 -15
+  876 sprites/graphics/bulldozer_trailer_large.pcx 66 570 09 23 26 -14 -11
+  877 sprites/graphics/bulldozer_trailer_large.pcx 98 570 01 17 36 -12 -10
+  878 sprites/graphics/bulldozer_trailer_large.pcx 146 570 09 23 26 -11 -11
+  879 sprites/graphics/bulldozer_trailer_large.pcx 178 570 01 26 12 -7 -16
+  880 sprites/graphics/bulldozer_trailer_large.pcx 210 570 09 23 26 -15 -11
+  881 sprites/graphics/bulldozer_trailer_large.pcx 242 570 01 17 36 -23 -11
+  882 sprites/graphics/bulldozer_trailer_large.pcx 290 570 09 23 26 -10 -12
     // Large bulldozer trailer - Wood, loading 1 
-  883 sprites/pcx/bulldozer_trailer_large.pcx 34 610 01 26 12 -6 -15
-  884 sprites/pcx/bulldozer_trailer_large.pcx 66 610 09 23 26 -14 -11
-  885 sprites/pcx/bulldozer_trailer_large.pcx 98 610 01 17 36 -12 -10
-  886 sprites/pcx/bulldozer_trailer_large.pcx 146 610 09 23 26 -11 -11
-  887 sprites/pcx/bulldozer_trailer_large.pcx 178 610 01 26 12 -7 -16
-  888 sprites/pcx/bulldozer_trailer_large.pcx 210 610 09 23 26 -15 -11
-  889 sprites/pcx/bulldozer_trailer_large.pcx 242 610 01 17 36 -23 -11
-  890 sprites/pcx/bulldozer_trailer_large.pcx 290 610 09 23 26 -10 -12
+  883 sprites/graphics/bulldozer_trailer_large.pcx 34 610 01 26 12 -6 -15
+  884 sprites/graphics/bulldozer_trailer_large.pcx 66 610 09 23 26 -14 -11
+  885 sprites/graphics/bulldozer_trailer_large.pcx 98 610 01 17 36 -12 -10
+  886 sprites/graphics/bulldozer_trailer_large.pcx 146 610 09 23 26 -11 -11
+  887 sprites/graphics/bulldozer_trailer_large.pcx 178 610 01 26 12 -7 -16
+  888 sprites/graphics/bulldozer_trailer_large.pcx 210 610 09 23 26 -15 -11
+  889 sprites/graphics/bulldozer_trailer_large.pcx 242 610 01 17 36 -23 -11
+  890 sprites/graphics/bulldozer_trailer_large.pcx 290 610 09 23 26 -10 -12
     // Large bulldozer trailer - Wood, loading 2
-  891 sprites/pcx/bulldozer_trailer_large.pcx 34 650 01 26 12 -6 -15
-  892 sprites/pcx/bulldozer_trailer_large.pcx 66 650 09 23 26 -14 -11
-  893 sprites/pcx/bulldozer_trailer_large.pcx 98 650 01 17 36 -12 -10
-  894 sprites/pcx/bulldozer_trailer_large.pcx 146 650 09 23 26 -11 -11
-  895 sprites/pcx/bulldozer_trailer_large.pcx 178 650 01 26 12 -7 -16
-  896 sprites/pcx/bulldozer_trailer_large.pcx 210 650 09 23 26 -15 -11
-  897 sprites/pcx/bulldozer_trailer_large.pcx 242 650 01 17 36 -23 -11
-  898 sprites/pcx/bulldozer_trailer_large.pcx 290 650 09 23 26 -10 -12
+  891 sprites/graphics/bulldozer_trailer_large.pcx 34 650 01 26 12 -6 -15
+  892 sprites/graphics/bulldozer_trailer_large.pcx 66 650 09 23 26 -14 -11
+  893 sprites/graphics/bulldozer_trailer_large.pcx 98 650 01 17 36 -12 -10
+  894 sprites/graphics/bulldozer_trailer_large.pcx 146 650 09 23 26 -11 -11
+  895 sprites/graphics/bulldozer_trailer_large.pcx 178 650 01 26 12 -7 -16
+  896 sprites/graphics/bulldozer_trailer_large.pcx 210 650 09 23 26 -15 -11
+  897 sprites/graphics/bulldozer_trailer_large.pcx 242 650 01 17 36 -23 -11
+  898 sprites/graphics/bulldozer_trailer_large.pcx 290 650 09 23 26 -10 -12
     // Large bulldozer trailer - Wood, loading 3 
-  899 sprites/pcx/bulldozer_trailer_large.pcx 34 690 01 26 12 -6 -15
-  900 sprites/pcx/bulldozer_trailer_large.pcx 66 690 09 23 26 -14 -11
-  901 sprites/pcx/bulldozer_trailer_large.pcx 98 690 01 17 36 -12 -10
-  902 sprites/pcx/bulldozer_trailer_large.pcx 146 690 09 23 26 -11 -11
-  903 sprites/pcx/bulldozer_trailer_large.pcx 178 690 01 26 12 -7 -16
-  904 sprites/pcx/bulldozer_trailer_large.pcx 210 690 09 23 26 -15 -11
-  905 sprites/pcx/bulldozer_trailer_large.pcx 242 690 01 17 36 -23 -11
-  906 sprites/pcx/bulldozer_trailer_large.pcx 290 690 09 23 26 -10 -12
+  899 sprites/graphics/bulldozer_trailer_large.pcx 34 690 01 26 12 -6 -15
+  900 sprites/graphics/bulldozer_trailer_large.pcx 66 690 09 23 26 -14 -11
+  901 sprites/graphics/bulldozer_trailer_large.pcx 98 690 01 17 36 -12 -10
+  902 sprites/graphics/bulldozer_trailer_large.pcx 146 690 09 23 26 -11 -11
+  903 sprites/graphics/bulldozer_trailer_large.pcx 178 690 01 26 12 -7 -16
+  904 sprites/graphics/bulldozer_trailer_large.pcx 210 690 09 23 26 -15 -11
+  905 sprites/graphics/bulldozer_trailer_large.pcx 242 690 01 17 36 -23 -11
+  906 sprites/graphics/bulldozer_trailer_large.pcx 290 690 09 23 26 -10 -12
    // Large bulldozer trailer - Wood, loading 4
-  907 sprites/pcx/bulldozer_trailer_large.pcx 34 730 01 26 12 -6 -15
-  908 sprites/pcx/bulldozer_trailer_large.pcx 66 730 09 23 26 -14 -11
-  909 sprites/pcx/bulldozer_trailer_large.pcx 98 730 01 17 36 -12 -10
-  910 sprites/pcx/bulldozer_trailer_large.pcx 146 730 09 23 26 -11 -11
-  911 sprites/pcx/bulldozer_trailer_large.pcx 178 730 01 26 12 -7 -16
-  912 sprites/pcx/bulldozer_trailer_large.pcx 210 730 09 23 26 -15 -11
-  913 sprites/pcx/bulldozer_trailer_large.pcx 242 730 01 17 36 -23 -11
-  914 sprites/pcx/bulldozer_trailer_large.pcx 290 730 09 23 26 -10 -12
+  907 sprites/graphics/bulldozer_trailer_large.pcx 34 730 01 26 12 -6 -15
+  908 sprites/graphics/bulldozer_trailer_large.pcx 66 730 09 23 26 -14 -11
+  909 sprites/graphics/bulldozer_trailer_large.pcx 98 730 01 17 36 -12 -10
+  910 sprites/graphics/bulldozer_trailer_large.pcx 146 730 09 23 26 -11 -11
+  911 sprites/graphics/bulldozer_trailer_large.pcx 178 730 01 26 12 -7 -16
+  912 sprites/graphics/bulldozer_trailer_large.pcx 210 730 09 23 26 -15 -11
+  913 sprites/graphics/bulldozer_trailer_large.pcx 242 730 01 17 36 -23 -11
+  914 sprites/graphics/bulldozer_trailer_large.pcx 290 730 09 23 26 -10 -12
    // Large bulldozer trailer - Wood, loading 5
-  915 sprites/pcx/bulldozer_trailer_large.pcx 34 770 01 26 12 -6 -15
-  916 sprites/pcx/bulldozer_trailer_large.pcx 66 770 09 23 26 -14 -11
-  917 sprites/pcx/bulldozer_trailer_large.pcx 98 770 01 17 36 -12 -10
-  918 sprites/pcx/bulldozer_trailer_large.pcx 146 770 09 23 26 -11 -11
-  919 sprites/pcx/bulldozer_trailer_large.pcx 178 770 01 26 12 -7 -16
-  920 sprites/pcx/bulldozer_trailer_large.pcx 210 770 09 23 26 -15 -11
-  921 sprites/pcx/bulldozer_trailer_large.pcx 242 770 01 17 36 -23 -11
-  922 sprites/pcx/bulldozer_trailer_large.pcx 290 770 09 23 26 -10 -12
+  915 sprites/graphics/bulldozer_trailer_large.pcx 34 770 01 26 12 -6 -15
+  916 sprites/graphics/bulldozer_trailer_large.pcx 66 770 09 23 26 -14 -11
+  917 sprites/graphics/bulldozer_trailer_large.pcx 98 770 01 17 36 -12 -10
+  918 sprites/graphics/bulldozer_trailer_large.pcx 146 770 09 23 26 -11 -11
+  919 sprites/graphics/bulldozer_trailer_large.pcx 178 770 01 26 12 -7 -16
+  920 sprites/graphics/bulldozer_trailer_large.pcx 210 770 09 23 26 -15 -11
+  921 sprites/graphics/bulldozer_trailer_large.pcx 242 770 01 17 36 -23 -11
+  922 sprites/graphics/bulldozer_trailer_large.pcx 290 770 09 23 26 -10 -12
    // Large bulldozer trailer - Wood, loaded, no chains
-  923 sprites/pcx/bulldozer_trailer_large.pcx 34 810 01 26 12 -6 -15
-  924 sprites/pcx/bulldozer_trailer_large.pcx 66 810 09 23 26 -14 -11
-  925 sprites/pcx/bulldozer_trailer_large.pcx 98 810 01 17 36 -12 -10
-  926 sprites/pcx/bulldozer_trailer_large.pcx 146 810 09 23 26 -11 -11
-  927 sprites/pcx/bulldozer_trailer_large.pcx 178 810 01 26 12 -7 -16
-  928 sprites/pcx/bulldozer_trailer_large.pcx 210 810 09 23 26 -15 -11
-  929 sprites/pcx/bulldozer_trailer_large.pcx 242 810 01 17 36 -23 -11
-  930 sprites/pcx/bulldozer_trailer_large.pcx 290 810 09 23 26 -10 -12
+  923 sprites/graphics/bulldozer_trailer_large.pcx 34 810 01 26 12 -6 -15
+  924 sprites/graphics/bulldozer_trailer_large.pcx 66 810 09 23 26 -14 -11
+  925 sprites/graphics/bulldozer_trailer_large.pcx 98 810 01 17 36 -12 -10
+  926 sprites/graphics/bulldozer_trailer_large.pcx 146 810 09 23 26 -11 -11
+  927 sprites/graphics/bulldozer_trailer_large.pcx 178 810 01 26 12 -7 -16
+  928 sprites/graphics/bulldozer_trailer_large.pcx 210 810 09 23 26 -15 -11
+  929 sprites/graphics/bulldozer_trailer_large.pcx 242 810 01 17 36 -23 -11
+  930 sprites/graphics/bulldozer_trailer_large.pcx 290 810 09 23 26 -10 -12
    // Large bulldozer trailer - Wood, loaded, chained
-  931 sprites/pcx/bulldozer_trailer_large.pcx 34 850 01 26 12 -6 -15
-  932 sprites/pcx/bulldozer_trailer_large.pcx 66 850 09 23 26 -14 -11
-  933 sprites/pcx/bulldozer_trailer_large.pcx 98 850 01 17 36 -12 -10
-  934 sprites/pcx/bulldozer_trailer_large.pcx 146 850 09 23 26 -11 -11
-  935 sprites/pcx/bulldozer_trailer_large.pcx 178 850 01 26 12 -7 -16
-  936 sprites/pcx/bulldozer_trailer_large.pcx 210 850 09 23 26 -15 -11
-  937 sprites/pcx/bulldozer_trailer_large.pcx 242 850 01 17 36 -23 -11
-  938 sprites/pcx/bulldozer_trailer_large.pcx 290 850 09 23 26 -10 -12
+  931 sprites/graphics/bulldozer_trailer_large.pcx 34 850 01 26 12 -6 -15
+  932 sprites/graphics/bulldozer_trailer_large.pcx 66 850 09 23 26 -14 -11
+  933 sprites/graphics/bulldozer_trailer_large.pcx 98 850 01 17 36 -12 -10
+  934 sprites/graphics/bulldozer_trailer_large.pcx 146 850 09 23 26 -11 -11
+  935 sprites/graphics/bulldozer_trailer_large.pcx 178 850 01 26 12 -7 -16
+  936 sprites/graphics/bulldozer_trailer_large.pcx 210 850 09 23 26 -15 -11
+  937 sprites/graphics/bulldozer_trailer_large.pcx 242 850 01 17 36 -23 -11
+  938 sprites/graphics/bulldozer_trailer_large.pcx 290 850 09 23 26 -10 -12
   939 * 25	 02 01 07  05 05    
       00 00  01 00  02 00  03 00  04 00
       00 00  01 00  02 00  03 00  04 00 // wood 
    // Very large bulldozer belly dump B - empty
   940 * 4	 01 01 0D 08
-  941 sprites/pcx/bulldozer_trailer_very_large.pcx 34 50 01 24 12 -3 -16
-  942 sprites/pcx/bulldozer_trailer_very_large.pcx 66 50 09 20 26 -14 -7
-  943 sprites/pcx/bulldozer_trailer_very_large.pcx 98 50 01 16 36 -13 -7
-  944 sprites/pcx/bulldozer_trailer_very_large.pcx 146 50 09 20 26 -10 -8
-  945 sprites/pcx/bulldozer_trailer_very_large.pcx 178 50 01 24 12 -9 -16
-  946 sprites/pcx/bulldozer_trailer_very_large.pcx 210 50 09 20 26 -15 -9
-  947 sprites/pcx/bulldozer_trailer_very_large.pcx 242 50 01 16 36 -23 -10
-  948 sprites/pcx/bulldozer_trailer_very_large.pcx 290 50 09 20 26 -10 -10
+  941 sprites/graphics/bulldozer_trailer_very_large.pcx 34 50 01 24 12 -3 -16
+  942 sprites/graphics/bulldozer_trailer_very_large.pcx 66 50 09 20 26 -14 -7
+  943 sprites/graphics/bulldozer_trailer_very_large.pcx 98 50 01 16 36 -13 -7
+  944 sprites/graphics/bulldozer_trailer_very_large.pcx 146 50 09 20 26 -10 -8
+  945 sprites/graphics/bulldozer_trailer_very_large.pcx 178 50 01 24 12 -9 -16
+  946 sprites/graphics/bulldozer_trailer_very_large.pcx 210 50 09 20 26 -15 -9
+  947 sprites/graphics/bulldozer_trailer_very_large.pcx 242 50 01 16 36 -23 -10
+  948 sprites/graphics/bulldozer_trailer_very_large.pcx 290 50 09 20 26 -10 -10
    // Very large bulldozer belly dump B - iron ore, loading
-  949 sprites/pcx/bulldozer_trailer_very_large.pcx 34 490 01 24 12 -3 -16
-  950 sprites/pcx/bulldozer_trailer_very_large.pcx 66 490 09 20 26 -14 -7
-  951 sprites/pcx/bulldozer_trailer_very_large.pcx 98 490 01 16 36 -13 -7
-  952 sprites/pcx/bulldozer_trailer_very_large.pcx 146 490 09 20 26 -10 -8
-  953 sprites/pcx/bulldozer_trailer_very_large.pcx 178 490 01 24 12 -9 -16
-  954 sprites/pcx/bulldozer_trailer_very_large.pcx 210 490 09 20 26 -15 -9
-  955 sprites/pcx/bulldozer_trailer_very_large.pcx 242 490 01 16 36 -23 -10
-  956 sprites/pcx/bulldozer_trailer_very_large.pcx 290 490 09 20 26 -10 -10
+  949 sprites/graphics/bulldozer_trailer_very_large.pcx 34 490 01 24 12 -3 -16
+  950 sprites/graphics/bulldozer_trailer_very_large.pcx 66 490 09 20 26 -14 -7
+  951 sprites/graphics/bulldozer_trailer_very_large.pcx 98 490 01 16 36 -13 -7
+  952 sprites/graphics/bulldozer_trailer_very_large.pcx 146 490 09 20 26 -10 -8
+  953 sprites/graphics/bulldozer_trailer_very_large.pcx 178 490 01 24 12 -9 -16
+  954 sprites/graphics/bulldozer_trailer_very_large.pcx 210 490 09 20 26 -15 -9
+  955 sprites/graphics/bulldozer_trailer_very_large.pcx 242 490 01 16 36 -23 -10
+  956 sprites/graphics/bulldozer_trailer_very_large.pcx 290 490 09 20 26 -10 -10
    // Very large bulldozer belly dump B - iron ore, loaded
-  957 sprites/pcx/bulldozer_trailer_very_large.pcx 34 530 01 24 12 -3 -16
-  958 sprites/pcx/bulldozer_trailer_very_large.pcx 66 530 09 20 26 -14 -7
-  959 sprites/pcx/bulldozer_trailer_very_large.pcx 98 530 01 16 36 -13 -7
-  960 sprites/pcx/bulldozer_trailer_very_large.pcx 146 530 09 20 26 -10 -8
-  961 sprites/pcx/bulldozer_trailer_very_large.pcx 178 530 01 24 12 -9 -16
-  962 sprites/pcx/bulldozer_trailer_very_large.pcx 210 530 09 20 26 -15 -9
-  963 sprites/pcx/bulldozer_trailer_very_large.pcx 242 530 01 16 36 -23 -10
-  964 sprites/pcx/bulldozer_trailer_very_large.pcx 290 530 09 20 26 -10 -10
+  957 sprites/graphics/bulldozer_trailer_very_large.pcx 34 530 01 24 12 -3 -16
+  958 sprites/graphics/bulldozer_trailer_very_large.pcx 66 530 09 20 26 -14 -7
+  959 sprites/graphics/bulldozer_trailer_very_large.pcx 98 530 01 16 36 -13 -7
+  960 sprites/graphics/bulldozer_trailer_very_large.pcx 146 530 09 20 26 -10 -8
+  961 sprites/graphics/bulldozer_trailer_very_large.pcx 178 530 01 24 12 -9 -16
+  962 sprites/graphics/bulldozer_trailer_very_large.pcx 210 530 09 20 26 -15 -9
+  963 sprites/graphics/bulldozer_trailer_very_large.pcx 242 530 01 16 36 -23 -10
+  964 sprites/graphics/bulldozer_trailer_very_large.pcx 290 530 09 20 26 -10 -10
    // Very large bulldozer belly dump B - coal, loading
-  965 sprites/pcx/bulldozer_trailer_very_large.pcx 34 170 01 24 12 -3 -16
-  966 sprites/pcx/bulldozer_trailer_very_large.pcx 66 170 09 20 26 -14 -7
-  967 sprites/pcx/bulldozer_trailer_very_large.pcx 98 170 01 16 36 -13 -7
-  968 sprites/pcx/bulldozer_trailer_very_large.pcx 146 170 09 20 26 -10 -8
-  969 sprites/pcx/bulldozer_trailer_very_large.pcx 178 170 01 24 12 -9 -16
-  970 sprites/pcx/bulldozer_trailer_very_large.pcx 210 170 09 20 26 -15 -9
-  971 sprites/pcx/bulldozer_trailer_very_large.pcx 242 170 01 16 36 -23 -10
-  972 sprites/pcx/bulldozer_trailer_very_large.pcx 290 170 09 20 26 -10 -10
+  965 sprites/graphics/bulldozer_trailer_very_large.pcx 34 170 01 24 12 -3 -16
+  966 sprites/graphics/bulldozer_trailer_very_large.pcx 66 170 09 20 26 -14 -7
+  967 sprites/graphics/bulldozer_trailer_very_large.pcx 98 170 01 16 36 -13 -7
+  968 sprites/graphics/bulldozer_trailer_very_large.pcx 146 170 09 20 26 -10 -8
+  969 sprites/graphics/bulldozer_trailer_very_large.pcx 178 170 01 24 12 -9 -16
+  970 sprites/graphics/bulldozer_trailer_very_large.pcx 210 170 09 20 26 -15 -9
+  971 sprites/graphics/bulldozer_trailer_very_large.pcx 242 170 01 16 36 -23 -10
+  972 sprites/graphics/bulldozer_trailer_very_large.pcx 290 170 09 20 26 -10 -10
    // Very large bulldozer belly dump B - coal, loaded
-  973 sprites/pcx/bulldozer_trailer_very_large.pcx 34 210 01 24 12 -3 -16
-  974 sprites/pcx/bulldozer_trailer_very_large.pcx 66 210 09 20 26 -14 -7
-  975 sprites/pcx/bulldozer_trailer_very_large.pcx 98 210 01 16 36 -13 -7
-  976 sprites/pcx/bulldozer_trailer_very_large.pcx 146 210 09 20 26 -10 -8
-  977 sprites/pcx/bulldozer_trailer_very_large.pcx 178 210 01 24 12 -9 -16
-  978 sprites/pcx/bulldozer_trailer_very_large.pcx 210 210 09 20 26 -15 -9
-  979 sprites/pcx/bulldozer_trailer_very_large.pcx 242 210 01 16 36 -23 -10
-  980 sprites/pcx/bulldozer_trailer_very_large.pcx 290 210 09 20 26 -10 -10
+  973 sprites/graphics/bulldozer_trailer_very_large.pcx 34 210 01 24 12 -3 -16
+  974 sprites/graphics/bulldozer_trailer_very_large.pcx 66 210 09 20 26 -14 -7
+  975 sprites/graphics/bulldozer_trailer_very_large.pcx 98 210 01 16 36 -13 -7
+  976 sprites/graphics/bulldozer_trailer_very_large.pcx 146 210 09 20 26 -10 -8
+  977 sprites/graphics/bulldozer_trailer_very_large.pcx 178 210 01 24 12 -9 -16
+  978 sprites/graphics/bulldozer_trailer_very_large.pcx 210 210 09 20 26 -15 -9
+  979 sprites/graphics/bulldozer_trailer_very_large.pcx 242 210 01 16 36 -23 -10
+  980 sprites/graphics/bulldozer_trailer_very_large.pcx 290 210 09 20 26 -10 -10
    // Very large bulldozer belly dump B - sand, loading
-  981 sprites/pcx/bulldozer_trailer_very_large.pcx 34 250 01 24 12 -3 -16
-  982 sprites/pcx/bulldozer_trailer_very_large.pcx 66 250 09 20 26 -14 -7
-  983 sprites/pcx/bulldozer_trailer_very_large.pcx 98 250 01 16 36 -13 -7
-  984 sprites/pcx/bulldozer_trailer_very_large.pcx 146 250 09 20 26 -10 -8
-  985 sprites/pcx/bulldozer_trailer_very_large.pcx 178 250 01 24 12 -9 -16
-  986 sprites/pcx/bulldozer_trailer_very_large.pcx 210 250 09 20 26 -15 -9
-  987 sprites/pcx/bulldozer_trailer_very_large.pcx 242 250 01 16 36 -23 -10
-  988 sprites/pcx/bulldozer_trailer_very_large.pcx 290 250 09 20 26 -10 -10
+  981 sprites/graphics/bulldozer_trailer_very_large.pcx 34 250 01 24 12 -3 -16
+  982 sprites/graphics/bulldozer_trailer_very_large.pcx 66 250 09 20 26 -14 -7
+  983 sprites/graphics/bulldozer_trailer_very_large.pcx 98 250 01 16 36 -13 -7
+  984 sprites/graphics/bulldozer_trailer_very_large.pcx 146 250 09 20 26 -10 -8
+  985 sprites/graphics/bulldozer_trailer_very_large.pcx 178 250 01 24 12 -9 -16
+  986 sprites/graphics/bulldozer_trailer_very_large.pcx 210 250 09 20 26 -15 -9
+  987 sprites/graphics/bulldozer_trailer_very_large.pcx 242 250 01 16 36 -23 -10
+  988 sprites/graphics/bulldozer_trailer_very_large.pcx 290 250 09 20 26 -10 -10
   // Very large bulldozer belly dump B - sand, loaded
-  989 sprites/pcx/bulldozer_trailer_very_large.pcx 34 290 01 24 12 -3 -16
-  990 sprites/pcx/bulldozer_trailer_very_large.pcx 66 290 09 20 26 -14 -7
-  991 sprites/pcx/bulldozer_trailer_very_large.pcx 98 290 01 16 36 -13 -7
-  992 sprites/pcx/bulldozer_trailer_very_large.pcx 146 290 09 20 26 -10 -8
-  993 sprites/pcx/bulldozer_trailer_very_large.pcx 178 290 01 24 12 -9 -16
-  994 sprites/pcx/bulldozer_trailer_very_large.pcx 210 290 09 20 26 -15 -9
-  995 sprites/pcx/bulldozer_trailer_very_large.pcx 242 290 01 16 36 -23 -10
-  996 sprites/pcx/bulldozer_trailer_very_large.pcx 290 290 09 20 26 -10 -10
+  989 sprites/graphics/bulldozer_trailer_very_large.pcx 34 290 01 24 12 -3 -16
+  990 sprites/graphics/bulldozer_trailer_very_large.pcx 66 290 09 20 26 -14 -7
+  991 sprites/graphics/bulldozer_trailer_very_large.pcx 98 290 01 16 36 -13 -7
+  992 sprites/graphics/bulldozer_trailer_very_large.pcx 146 290 09 20 26 -10 -8
+  993 sprites/graphics/bulldozer_trailer_very_large.pcx 178 290 01 24 12 -9 -16
+  994 sprites/graphics/bulldozer_trailer_very_large.pcx 210 290 09 20 26 -15 -9
+  995 sprites/graphics/bulldozer_trailer_very_large.pcx 242 290 01 16 36 -23 -10
+  996 sprites/graphics/bulldozer_trailer_very_large.pcx 290 290 09 20 26 -10 -10
   // Very large bulldozer belly dump B - brown, loading
-  997 sprites/pcx/bulldozer_trailer_very_large.pcx 34 410 01 24 12 -3 -16
-  998 sprites/pcx/bulldozer_trailer_very_large.pcx 66 410 09 20 26 -14 -7
-  999 sprites/pcx/bulldozer_trailer_very_large.pcx 98 410 01 16 36 -13 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 410 09 20 26 -10 -8
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 410 01 24 12 -9 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 410 09 20 26 -15 -9
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 410 01 16 36 -23 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 410 09 20 26 -10 -10
+  997 sprites/graphics/bulldozer_trailer_very_large.pcx 34 410 01 24 12 -3 -16
+  998 sprites/graphics/bulldozer_trailer_very_large.pcx 66 410 09 20 26 -14 -7
+  999 sprites/graphics/bulldozer_trailer_very_large.pcx 98 410 01 16 36 -13 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 410 09 20 26 -10 -8
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 410 01 24 12 -9 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 410 09 20 26 -15 -9
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 410 01 16 36 -23 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 410 09 20 26 -10 -10
   // Very large bulldozer belly dump B - brown, loaded
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 450 01 24 12 -3 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 450 09 20 26 -14 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 450 01 16 36 -13 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 450 09 20 26 -10 -8
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 450 01 24 12 -9 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 450 09 20 26 -15 -9
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 450 01 16 36 -23 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 450 09 20 26 -10 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 450 01 24 12 -3 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 450 09 20 26 -14 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 450 01 16 36 -13 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 450 09 20 26 -10 -8
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 450 01 24 12 -9 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 450 09 20 26 -15 -9
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 450 01 16 36 -23 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 450 09 20 26 -10 -10
   // Very large bulldozer belly dump B - red, loading
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 370 01 24 12 -3 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 370 09 20 26 -14 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -13 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -15 -9
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -23 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 370 01 24 12 -3 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 370 09 20 26 -14 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -13 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -15 -9
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -23 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
   // Very large bulldozer belly dump B - red, loaded
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 370 01 24 12 -3 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 370 09 20 26 -14 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -13 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -15 -9
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -23 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 370 01 24 12 -3 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 370 09 20 26 -14 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 370 01 16 36 -13 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 370 09 20 26 -10 -8
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 370 01 24 12 -9 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 370 09 20 26 -15 -9
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 370 01 16 36 -23 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 370 09 20 26 -10 -10
   // Very large bulldozer belly dump B - grey, loading
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 90 01 24 12 -3 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 90 09 20 26 -14 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 90 01 16 36 -13 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 90 09 20 26 -10 -8
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 90 01 24 12 -9 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 90 09 20 26 -15 -9
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 90 01 16 36 -23 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 90 09 20 26 -10 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 90 01 24 12 -3 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 90 09 20 26 -14 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 90 01 16 36 -13 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 90 09 20 26 -10 -8
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 90 01 24 12 -9 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 90 09 20 26 -15 -9
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 90 01 16 36 -23 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 90 09 20 26 -10 -10
   // Very large bulldozer belly dump B - grey, loaded
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 130 01 24 12 -3 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 130 09 20 26 -14 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 130 01 16 36 -13 -7
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 130 09 20 26 -10 -8
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 130 01 24 12 -9 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 130 09 20 26 -15 -9
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 130 01 16 36 -23 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 130 09 20 26 -10 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 130 01 24 12 -3 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 130 09 20 26 -14 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 130 01 16 36 -13 -7
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 130 09 20 26 -10 -8
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 130 01 24 12 -9 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 130 09 20 26 -15 -9
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 130 01 16 36 -23 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 130 09 20 26 -10 -10
 -1 * 17	 02 01 28  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
 -1 * 17	 02 01 21  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
 -1 * 17	 02 01 26  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // sand
@@ -1211,77 +1211,77 @@
 -1 * 17	 02 01 31  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
     // Very large bulldozer trailer B - Wood, empty
 -1 * 4	 01 01 08 08
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 570 01 26 12 -6 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 570 09 23 26 -16 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 570 01 17 36 -14 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 570 09 23 26 -10 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 570 01 26 12 -7 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 570 09 23 26 -17 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 570 01 17 36 -26 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 570 09 23 26 -10 -13
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 570 01 26 12 -6 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 570 09 23 26 -16 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 570 01 17 36 -14 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 570 09 23 26 -10 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 570 01 26 12 -7 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 570 09 23 26 -17 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 570 01 17 36 -26 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 570 09 23 26 -10 -13
     // Very large bulldozer trailer B - Wood, loading 1 
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 610 01 26 12 -6 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 610 09 23 26 -16 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 610 01 17 36 -14 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 610 09 23 26 -10 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 610 01 26 12 -7 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 610 09 23 26 -17 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 610 01 17 36 -26 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 610 09 23 26 -10 -13
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 610 01 26 12 -6 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 610 09 23 26 -16 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 610 01 17 36 -14 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 610 09 23 26 -10 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 610 01 26 12 -7 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 610 09 23 26 -17 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 610 01 17 36 -26 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 610 09 23 26 -10 -13
     // Very large bulldozer trailer B - Wood, loading 2
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 650 01 26 12 -6 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 650 09 23 26 -16 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 650 01 17 36 -14 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 650 09 23 26 -10 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 650 01 26 12 -7 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 650 09 23 26 -17 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 650 01 17 36 -26 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 650 09 23 26 -10 -13
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 650 01 26 12 -6 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 650 09 23 26 -16 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 650 01 17 36 -14 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 650 09 23 26 -10 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 650 01 26 12 -7 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 650 09 23 26 -17 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 650 01 17 36 -26 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 650 09 23 26 -10 -13
     // Very large bulldozer trailer B - Wood, loading 3 
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 690 01 26 12 -6 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 690 09 23 26 -16 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 690 01 17 36 -14 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 690 09 23 26 -10 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 690 01 26 12 -7 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 690 09 23 26 -17 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 690 01 17 36 -26 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 690 09 23 26 -10 -13
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 690 01 26 12 -6 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 690 09 23 26 -16 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 690 01 17 36 -14 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 690 09 23 26 -10 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 690 01 26 12 -7 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 690 09 23 26 -17 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 690 01 17 36 -26 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 690 09 23 26 -10 -13
    // Very large bulldozer trailer B - Wood, loading 4
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 730 01 26 12 -6 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 730 09 23 26 -16 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 730 01 17 36 -14 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 730 09 23 26 -10 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 730 01 26 12 -7 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 730 09 23 26 -17 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 730 01 17 36 -26 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 730 09 23 26 -10 -13
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 730 01 26 12 -6 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 730 09 23 26 -16 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 730 01 17 36 -14 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 730 09 23 26 -10 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 730 01 26 12 -7 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 730 09 23 26 -17 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 730 01 17 36 -26 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 730 09 23 26 -10 -13
    // Very large bulldozer trailer B - Wood, loading 5
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 770 01 26 12 -6 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 770 09 23 26 -16 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 770 01 17 36 -14 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 770 09 23 26 -10 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 770 01 26 12 -7 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 770 09 23 26 -17 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 770 01 17 36 -26 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 770 09 23 26 -10 -13
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 770 01 26 12 -6 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 770 09 23 26 -16 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 770 01 17 36 -14 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 770 09 23 26 -10 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 770 01 26 12 -7 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 770 09 23 26 -17 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 770 01 17 36 -26 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 770 09 23 26 -10 -13
    // Very large bulldozer trailer B - Wood, loaded, no chains
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 810 01 26 12 -6 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 810 09 23 26 -16 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 810 01 17 36 -14 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 810 09 23 26 -10 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 810 01 26 12 -7 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 810 09 23 26 -17 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 810 01 17 36 -26 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 810 09 23 26 -10 -13
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 810 01 26 12 -6 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 810 09 23 26 -16 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 810 01 17 36 -14 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 810 09 23 26 -10 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 810 01 26 12 -7 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 810 09 23 26 -17 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 810 01 17 36 -26 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 810 09 23 26 -10 -13
    // Very large bulldozer trailer B - Wood, loaded, chained
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 34 850 01 26 12 -6 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 66 850 09 23 26 -16 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 98 850 01 17 36 -14 -10
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 146 850 09 23 26 -10 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 178 850 01 26 12 -7 -16
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 210 850 09 23 26 -17 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 242 850 01 17 36 -26 -11
--1 sprites/pcx/bulldozer_trailer_very_large.pcx 290 850 09 23 26 -10 -13
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 34 850 01 26 12 -6 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 66 850 09 23 26 -16 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 98 850 01 17 36 -14 -10
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 146 850 09 23 26 -10 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 178 850 01 26 12 -7 -16
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 210 850 09 23 26 -17 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 242 850 01 17 36 -26 -11
+-1 sprites/graphics/bulldozer_trailer_very_large.pcx 290 850 09 23 26 -10 -13
 -1 * 37	 02 01 27  08 08    
       00 00  01 00  02 00  03 00  04 00  05 00  06 00  07 00
       00 00  01 00  02 00  03 00  04 00  05 00  06 00  07 00 // wood 
@@ -1484,83 +1484,83 @@
   // Action 2 ID schema: 0 / 1 = wheeled trailer, 2 / 3 = sled
    // Large Float Trailer open empty
 -1 * 4	 01 01 03 08
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 34 50 01 24 12 -5 -14
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 66 50 09 20 26 -15 -7
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 98 50 01 16 36 -16 -9
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 146 50 09 20 26 -15 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 178 50 01 24 12 -7 -16
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 210 50 09 20 26 -11 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 242 50 01 16 36 -19 -10
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 290 50 09 20 26 -10 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 34 50 01 24 12 -5 -14
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 66 50 09 20 26 -15 -7
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 98 50 01 16 36 -16 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 146 50 09 20 26 -15 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 178 50 01 24 12 -7 -16
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 210 50 09 20 26 -11 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 242 50 01 16 36 -19 -10
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 290 50 09 20 26 -10 -9
    // Large Float Trailer open loading
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 34 90 01 24 12 -5 -14
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 66 90 09 20 26 -15 -7
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 98 90 01 16 36 -16 -9
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 146 90 09 20 26 -15 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 178 90 01 24 12 -7 -16
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 210 90 09 20 26 -11 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 242 90 01 16 36 -19 -10
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 290 90 09 20 26 -10 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 34 90 01 24 12 -5 -14
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 66 90 09 20 26 -15 -7
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 98 90 01 16 36 -16 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 146 90 09 20 26 -15 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 178 90 01 24 12 -7 -16
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 210 90 09 20 26 -11 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 242 90 01 16 36 -19 -10
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 290 90 09 20 26 -10 -9
    // Large Float Trailer open loaded
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 34 130 01 24 12 -5 -14
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 66 130 09 20 26 -15 -7
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 98 130 01 16 36 -16 -9
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 146 130 09 20 26 -15 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 178 130 01 24 12 -7 -16
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 210 130 09 20 26 -11 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 242 130 01 16 36 -19 -10
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 290 130 09 20 26 -10 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 34 130 01 24 12 -5 -14
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 66 130 09 20 26 -15 -7
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 98 130 01 16 36 -16 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 146 130 09 20 26 -15 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 178 130 01 24 12 -7 -16
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 210 130 09 20 26 -11 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 242 130 01 16 36 -19 -10
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 290 130 09 20 26 -10 -9
 -1 * 13	 02 01 05   02 02   00 00  02 00    00 00  01 00 // open trailer
    // Large sled open
 -1 * 4	 01 01 03 08
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 34 570 01 24 12 -5 -14
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 66 570 01 20 26 -15 -7
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 98 570 01 16 36 -16 -9
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 146 570 01 20 26 -15 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 178 570 01 24 12 -7 -16
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 210 570 01 20 26 -11 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 242 570 01 16 36 -19 -10
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 290 570 01 20 26 -10 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 34 570 01 24 12 -5 -14
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 66 570 01 20 26 -15 -7
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 98 570 01 16 36 -16 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 146 570 01 20 26 -15 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 178 570 01 24 12 -7 -16
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 210 570 01 20 26 -11 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 242 570 01 16 36 -19 -10
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 290 570 01 20 26 -10 -9
    // Large sled open - loading
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 34 610 01 24 12 -5 -14
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 66 610 01 20 26 -15 -7
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 98 610 01 16 36 -16 -9
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 146 610 01 20 26 -15 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 178 610 01 24 12 -7 -16
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 210 610 01 20 26 -11 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 242 610 01 16 36 -19 -10
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 290 610 01 20 26 -10 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 34 610 01 24 12 -5 -14
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 66 610 01 20 26 -15 -7
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 98 610 01 16 36 -16 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 146 610 01 20 26 -15 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 178 610 01 24 12 -7 -16
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 210 610 01 20 26 -11 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 242 610 01 16 36 -19 -10
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 290 610 01 20 26 -10 -9
    // Large sled open - loaded
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 34 650 01 24 12 -5 -14
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 66 650 01 20 26 -15 -7
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 98 650 01 16 36 -16 -9
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 146 650 01 20 26 -15 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 178 650 01 24 12 -7 -16
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 210 650 01 20 26 -11 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 242 650 01 16 36 -19 -10
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 290 650 01 20 26 -10 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 34 650 01 24 12 -5 -14
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 66 650 01 20 26 -15 -7
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 98 650 01 16 36 -16 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 146 650 01 20 26 -15 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 178 650 01 24 12 -7 -16
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 210 650 01 20 26 -11 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 242 650 01 16 36 -19 -10
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 290 650 01 20 26 -10 -9
 -1 * 17	 02 01 25   03 03   00 00  01 00  02 00    00 00  01 00  02 00 // open sled
     // Large Float tank trailer
 -1 * 4	 01 01 01 08
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 34 10 01 24 12 -5 -14
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 66 10 09 20 26 -15 -7
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 98 10 01 16 36 -16 -9
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 146 10 09 20 26 -15 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 178 10 01 24 12 -7 -16
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 210 10 09 20 26 -11 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 242 10 01 16 36 -19 -10
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 290 10 09 20 26 -10 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 34 10 01 24 12 -5 -14
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 66 10 09 20 26 -15 -7
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 98 10 01 16 36 -16 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 146 10 09 20 26 -15 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 178 10 01 24 12 -7 -16
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 210 10 09 20 26 -11 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 242 10 01 16 36 -19 -10
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 290 10 09 20 26 -10 -9
 -1 * 9	 02 01 03   01 01    00 00    00 00 // tank trailer
     // Large tank sled
 -1 * 4	 01 01 01 08
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 34 530 01 24 12 -5 -14
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 66 530 09 20 26 -15 -7
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 98 530 01 16 36 -16 -9
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 146 530 09 20 26 -15 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 178 530 01 24 12 -7 -16
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 210 530 09 20 26 -11 -11
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 242 530 01 16 36 -19 -10
--1 sprites/pcx/large_float_trailers_and_sleds.pcx 290 530 09 20 26 -10 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 34 530 01 24 12 -5 -14
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 66 530 09 20 26 -15 -7
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 98 530 01 16 36 -16 -9
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 146 530 09 20 26 -15 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 178 530 01 24 12 -7 -16
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 210 530 09 20 26 -11 -11
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 242 530 01 16 36 -19 -10
+-1 sprites/graphics/large_float_trailers_and_sleds.pcx 290 530 09 20 26 -10 -9
 -1 * 9	 02 01 23   01 01    00 00    00 00 // tank sled
   // Rough order of business here:
       // set length and refit texts

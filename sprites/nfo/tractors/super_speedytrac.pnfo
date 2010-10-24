@@ -29,17 +29,17 @@
 -1 * 44	 04 01 81 01 B2 D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "2005" 00 
 -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
--1 sprites/pcx/tractors.pcx 0  450 01 24 12 -5  -15
--1 sprites/pcx/tractors.pcx 32  450 01 20 26 -17 -9
--1 sprites/pcx/tractors.pcx 64  450 01 16 36 -14 -9
--1 sprites/pcx/tractors.pcx 112 450 01 20 26 -9  -10
--1 sprites/pcx/tractors.pcx 144 450 01 24 12 -5  -13
--1 sprites/pcx/tractors.pcx 176 450 01 20 26 -17 -9
--1 sprites/pcx/tractors.pcx 208 450 01 16 36 -30 -8
--1 sprites/pcx/tractors.pcx 256 450 01 20 26 -10 -10
+-1 sprites/graphics/tractors.pcx 0  450 01 24 12 -5  -15
+-1 sprites/graphics/tractors.pcx 32  450 01 20 26 -17 -9
+-1 sprites/graphics/tractors.pcx 64  450 01 16 36 -14 -9
+-1 sprites/graphics/tractors.pcx 112 450 01 20 26 -9  -10
+-1 sprites/graphics/tractors.pcx 144 450 01 24 12 -5  -13
+-1 sprites/graphics/tractors.pcx 176 450 01 20 26 -17 -9
+-1 sprites/graphics/tractors.pcx 208 450 01 16 36 -30 -8
+-1 sprites/graphics/tractors.pcx 256 450 01 20 26 -10 -10
 -1 * 9	 02 01 A0 01 01 00 00 00 00
 -1 * 4	 01 01 01 01
--1 sprites/pcx/tractors.pcx 336 450 01 16 36 -14 -8
+-1 sprites/graphics/tractors.pcx 336 450 01 16 36 -14 -8
 -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states

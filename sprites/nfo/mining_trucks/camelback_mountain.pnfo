@@ -31,19 +31,19 @@
 -1 * 43	 04 01 81 01 D4 D0 "Hauls: " 8A "Two 120t belly-dump trailers" 00 // (240t total)
 -1 * 4	 01 01 01 08
   // Camelback Mountain
- -1 sprites/pcx/heavy_trucks.pcx 34 330 01 24 12 -5 -16
- -1 sprites/pcx/heavy_trucks.pcx 66 330 09 20 26 -15 -8
- -1 sprites/pcx/heavy_trucks.pcx 98 330 01 16 36 -18 -10
- -1 sprites/pcx/heavy_trucks.pcx 146 330 09 20 26 -11 -9
- -1 sprites/pcx/heavy_trucks.pcx 178 330 01 24 12 -5 -15
- -1 sprites/pcx/heavy_trucks.pcx 210 330 09 20 26 -16 -9
- -1 sprites/pcx/heavy_trucks.pcx 242 330 01 16 36 -20 -10
- -1 sprites/pcx/heavy_trucks.pcx 290 330 09 20 26 -10 -11
+ -1 sprites/graphics/heavy_trucks.pcx 34 330 01 24 12 -5 -16
+ -1 sprites/graphics/heavy_trucks.pcx 66 330 09 20 26 -15 -8
+ -1 sprites/graphics/heavy_trucks.pcx 98 330 01 16 36 -18 -10
+ -1 sprites/graphics/heavy_trucks.pcx 146 330 09 20 26 -11 -9
+ -1 sprites/graphics/heavy_trucks.pcx 178 330 01 24 12 -5 -15
+ -1 sprites/graphics/heavy_trucks.pcx 210 330 09 20 26 -16 -9
+ -1 sprites/graphics/heavy_trucks.pcx 242 330 01 16 36 -20 -10
+ -1 sprites/graphics/heavy_trucks.pcx 290 330 09 20 26 -10 -11
 -1 * 9	 02 01 A1 01 01 00 00 00 00 //normal action2 defining graphics with no loading/loaded stages
 -1 * 4	 01 01 01 04
 -1 * 1	 00
 -1 * 1	 00
- -1 sprites/pcx/heavy_trucks.pcx 370 334 01 12 36 -14 -6
+ -1 sprites/graphics/heavy_trucks.pcx 370 334 01 12 36 -14 -6
 -1 * 1	 00
 -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states

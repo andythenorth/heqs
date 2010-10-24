@@ -101,7 +101,7 @@
 -1 * 4	 01 01 01 04 // depot sprites
 -1 * 1	 00
 -1 * 1	 00
--1 sprites/pcx/THIS_PCX_FILE  370  14  01  THIS_Y_X_CROP_MENU  THIS_OFFS_X_Y_MENU
+-1 sprites/graphics/THIS_PCX_FILE  370  14  01  THIS_Y_X_CROP_MENU  THIS_OFFS_X_Y_MENU
 -1 * 1	 00
 -1 * 9	 02 01 FF 01 01 00 00 00 00
 
