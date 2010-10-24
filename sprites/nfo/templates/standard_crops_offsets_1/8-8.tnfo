@@ -1,0 +1,23 @@
+// based on pikka templates 
+// 8/8 length (reduced by 00h)
+#define THIS_LENGTH_ADJUST    00
+
+// standard pikka template crops
+#define THIS_Y_X_CROP_1  18   8
+#define THIS_Y_X_CROP_2  16  20
+#define THIS_Y_X_CROP_3  12  28
+#define THIS_Y_X_CROP_4  16  20
+#define THIS_Y_X_CROP_5  18   8
+#define THIS_Y_X_CROP_6  16  20
+#define THIS_Y_X_CROP_7  12  28
+#define THIS_Y_X_CROP_8  16  20
+
+// standard offsets (adjusted from pikka templates to match RVs)
+#define THIS_OFFS_X_Y_1   -3 -12
+#define THIS_OFFS_X_Y_2  -14  -5
+#define THIS_OFFS_X_Y_3  -13  -6
+#define THIS_OFFS_X_Y_4   -5  -5
+#define THIS_OFFS_X_Y_5   -4 -12
+#define THIS_OFFS_X_Y_6  -14  -6
+#define THIS_OFFS_X_Y_7  -13  -6
+#define THIS_OFFS_X_Y_8   -4  -6
