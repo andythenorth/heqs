@@ -32,7 +32,8 @@
 -1 * 6	 07 83 01 \7! 02 01 // tropic only
 -1 * 7	 00 01 01 01 06 10 08// copper ore default
 -1 * 23	 04 01 7F 01 VEH_MINING_TRUCK_TRAILER_1 "Medium Belly Dump" 00
-   // Medium belly dump A (rear wheels only) - empty
+// Medium belly dump A (rear wheels only) - empty
+
 -1 * 4	 01 01 0D 08
 -1 sprites/graphics/mining_truck_trailer_medium_A.pcx 34 50 01 24 12 -3 -16
 -1 sprites/graphics/mining_truck_trailer_medium_A.pcx 66 50 09 20 26 -14 -7

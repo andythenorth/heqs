@@ -12,7 +12,6 @@
 #include "sprites/nfo/logging_trucks/logging_trucks.pnfo"
 #include "sprites/nfo/logging_trucks/logging_truck_trailers.pnfo"
 
-#include "sprites/nfo/mining_trucks/mining_truck_trailers.pnfo"
 #include "sprites/nfo/mining_trucks/mt_mckinley.pnfo"
 #include "sprites/nfo/mining_trucks/mount_rainier.pnfo"
 #include "sprites/nfo/mining_trucks/thunder_mountain.pnfo"
@@ -22,6 +21,8 @@
 #include "sprites/nfo/mining_trucks/camelback_mountain.pnfo"
 #include "sprites/nfo/mining_trucks/kilimanjaro.pnfo"
 #include "sprites/nfo/mining_trucks/wolfpen_ridge.pnfo"
+#include "sprites/nfo/mining_trucks/mining_truck_trailer_1.pnfo"
+#include "sprites/nfo/mining_trucks/mining_truck_trailer_2.pnfo"
 
 //#include "sprites/nfo/light_trucks/gmund_mog.pnfo"
 
