@@ -1,4 +1,4 @@
-#define THIS_PCX_FILE         mining_truck_trailer_large_A.pcx     // used in action 1 template (must include file extension)
+// normall pcx file to use is defined here, but this vehicle uses two pcx files, so define is with action 1s
 #define THIS_VEH_ID           VEH_MINING_TRUCK_TRAILER_2  // used in action 1/2/3 template
 
 #define THIS_Y_X_CROP_1  24  12
@@ -52,124 +52,62 @@
 -1 * 6	 07 83 01 \7! 02 01 // tropic only
 -1 * 7	 00 01 01 01 07 10 08// copper ore default
 -1 * 22	 04 01 7F 01 VEH_MINING_TRUCK_TRAILER_2 "Large Belly Dump" 00
-   // Large belly dump A (rear wheels only) - empty
--1 * 4	 01 01 0D 08
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 50 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 50 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 50 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 50 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 50 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 50 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 50 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 50 09 20 26 -10 -10
-   // Large belly dump A (rear wheels only) - iron ore, loading
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 490 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 490 09 20 20 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 490 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 490 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 490 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 490 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 490 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 490 09 20 26 -10 -10
-   // Large belly dump A (rear wheels only) - iron ore, loaded
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 530 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 530 09 20 20 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 530 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 530 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 530 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 530 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 530 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 530 09 20 26 -10 -10
-   // Large belly dump A (rear wheels only) - coal, loading
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 170 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 170 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 170 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 170 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 170 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 170 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 170 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 170 09 20 26 -10 -10
-   // Large belly dump A (rear wheels only) - coal, loaded
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 210 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 210 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 210 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 210 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 210 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 210 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 210 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 210 09 20 26 -10 -10
-   // Large belly dump A (rear wheels only) - sand, loading
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 250 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 250 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 250 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 250 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 250 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 250 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 250 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 250 09 20 26 -10 -10
-  // Large belly dump A (rear wheels only) - sand, loaded
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 290 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 290 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 290 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 290 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 290 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 290 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 290 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 290 09 20 26 -10 -10
-  // Large belly dump A (rear wheels only) - brown, loading
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 410 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 410 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 410 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 410 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 410 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 410 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 410 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 410 09 20 26 -10 -10
-  // Large belly dump A (rear wheels only) - brown, loaded
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 450 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 450 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 450 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 450 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 450 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 450 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 450 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 450 09 20 26 -10 -10
-  // Large belly dump A (rear wheels only) - red, loading
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 370 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 370 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 370 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 370 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 370 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 370 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 370 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 370 09 20 26 -10 -10
-  // Large belly dump A (rear wheels only) - red, loaded
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 370 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 370 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 370 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 370 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 370 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 370 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 370 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 370 09 20 26 -10 -10
-  // Large belly dump A (rear wheels only) - grey, loading
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 90 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 90 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 90 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 90 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 90 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 90 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 90 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 90 09 20 26 -10 -10
-  // Large belly dump A (rear wheels only) - grey, loaded
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 34 130 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 66 130 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 98 130 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 146 130 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 178 130 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 210 130 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 242 130 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_A.pcx 290 130 09 20 26 -10 -10
+
+#define THIS_PCX_FILE         mining_truck_trailer_large_A.pcx     // used in action 1 template (must include file extension)
+// Large belly dump A (rear wheels only) - empty
+-1 * 4	 01 01 \b13 08
+ // empty
+ #define THIS_Y_POS  50
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // iron ore partial
+ #define THIS_Y_POS  490
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   
+ // iron ore full
+ #define THIS_Y_POS  530
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // coal partial
+ #define THIS_Y_POS  170
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ 
+ // coal full
+ #define THIS_Y_POS  210
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ 
+ // sand partial
+ #define THIS_Y_POS  250
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // sand full
+ #define THIS_Y_POS  290
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"   
+
+ // brown partial
+ #define THIS_Y_POS  290
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // brown full
+ #define THIS_Y_POS  330
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // red partial
+ #define THIS_Y_POS  330
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // red full
+ #define THIS_Y_POS  370
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // grey partial
+ #define THIS_Y_POS  90
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // grey full
+ #define THIS_Y_POS  130
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ 
  // Action 2 ID schema: 0 / 1 = rear wheels only, 2 / 3 = with front wheels  
 -1 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
 -1 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
@@ -177,124 +115,63 @@
 -1 * 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
 -1 * 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
 -1 * 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
-   // Large belly dump B (with front wheels) - empty
--1 * 4	 01 01 0D 08
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 50 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 50 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 50 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 50 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 50 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 50 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 50 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 50 09 20 26 -10 -10
-   // Large belly dump B (with front wheels) - iron ore, loading
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 490 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 490 09 20 20 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 490 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 490 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 490 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 490 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 490 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 490 09 20 26 -10 -10
-   // Large belly dump B (with front wheels) - iron ore, loaded
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 530 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 530 09 20 20 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 530 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 530 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 530 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 530 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 530 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 530 09 20 26 -10 -10
-   // Large belly dump B (with front wheels) - coal, loading
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 170 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 170 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 170 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 170 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 170 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 170 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 170 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 170 09 20 26 -10 -10
-   // Large belly dump B (with front wheels) - coal, loaded
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 210 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 210 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 210 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 210 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 210 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 210 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 210 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 210 09 20 26 -10 -10
-   // Large belly dump B (with front wheels) - sand, loading
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 250 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 250 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 250 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 250 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 250 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 250 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 250 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 250 09 20 26 -10 -10
-  // Large belly dump B (with front wheels) - sand, loaded
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 290 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 290 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 290 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 290 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 290 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 290 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 290 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 290 09 20 26 -10 -10
-  // Large belly dump B (with front wheels) - brown, loading
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 410 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 410 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 410 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 410 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 410 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 410 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 410 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 410 09 20 26 -10 -10
-  // Large belly dump B (with front wheels) - brown, loaded
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 450 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 450 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 450 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 450 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 450 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 450 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 450 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 450 09 20 26 -10 -10
-  // Large belly dump B (with front wheels) - red, loading
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 370 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 370 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 370 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 370 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 370 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 370 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 370 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 370 09 20 26 -10 -10
-  // Large belly dump B (with front wheels) - red, loaded
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 370 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 370 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 370 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 370 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 370 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 370 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 370 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 370 09 20 26 -10 -10
-  // Large belly dump B (with front wheels) - grey, loading
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 90 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 90 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 90 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 90 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 90 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 90 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 90 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 90 09 20 26 -10 -10
-  // Large belly dump B (with front wheels) - grey, loaded
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 34 130 01 24 12 -3 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 66 130 09 20 26 -14 -7
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 98 130 01 16 36 -14 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 146 130 09 20 26 -10 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 178 130 01 24 12 -9 -16
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 210 130 09 20 26 -17 -8
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 242 130 01 16 36 -26 -9
--1 sprites/graphics/mining_truck_trailer_large_B.pcx 290 130 09 20 26 -10 -10
+#undef THIS_PCX_FILE
+
+#define THIS_PCX_FILE         mining_truck_trailer_large_B.pcx     // used in action 1 template (must include file extension)
+// Large belly dump B (with front wheels) - empty
+-1 * 4	 01 01 \b13 08
+ // empty
+ #define THIS_Y_POS  50
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // iron ore partial
+ #define THIS_Y_POS  490
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   
+ // iron ore full
+ #define THIS_Y_POS  530
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // coal partial
+ #define THIS_Y_POS  170
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ 
+ // coal full
+ #define THIS_Y_POS  210
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ 
+ // sand partial
+ #define THIS_Y_POS  250
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // sand full
+ #define THIS_Y_POS  290
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"   
+
+ // brown partial
+ #define THIS_Y_POS  290
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // brown full
+ #define THIS_Y_POS  330
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // red partial
+ #define THIS_Y_POS  330
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // red full
+ #define THIS_Y_POS  370
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // grey partial
+ #define THIS_Y_POS  90
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+
+ // grey full
+ #define THIS_Y_POS  130
+ #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ 
  // Action 2 ID schema: 0 / 1 = rear wheels only, 2 / 3 = with front wheels  
 -1 * 17	 02 01 28  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
 -1 * 17	 02 01 21  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
