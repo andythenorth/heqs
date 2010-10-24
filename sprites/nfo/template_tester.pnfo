@@ -1,6 +1,6 @@
-#define THIS_PCX_FILE         road_vehicle_templates_5-8.png     // used in action 1 template (must include file extension)
+#define THIS_PCX_FILE         road_vehicle_templates_6-8.png     // used in action 1 template (must include file extension)
 
-#include "templates/standard_crops_offsets_1/5-8.tnfo"
+#include "templates/standard_crops_offsets_1/6-8.tnfo"
 
  -1 * 14	 04 01 7F 01 VEH_TEMPLATE_TESTER "Template Tester" 00
  -1 * 67	 00 01 \b25 01 VEH_TEMPLATE_TESTER 

@@ -19,5 +19,5 @@
 #define THIS_OFFS_X_Y_4   -1  -4
 #define THIS_OFFS_X_Y_5   -4 -12
 #define THIS_OFFS_X_Y_6  -18  -4
-#define THIS_OFFS_X_Y_7  -16  -6
+#define THIS_OFFS_X_Y_7  -14  -6
 #define THIS_OFFS_X_Y_8   -9  -8
