@@ -15,7 +15,7 @@
 // standard offsets (adjusted from pikka templates to match RVs)
 #define THIS_OFFS_X_Y_1   -3 -11
 #define THIS_OFFS_X_Y_2  -12  -7
-#define THIS_OFFS_X_Y_3  -11  -6
+#define THIS_OFFS_X_Y_3  -14  -6
 #define THIS_OFFS_X_Y_4   -3  -5
 #define THIS_OFFS_X_Y_5   -4 -10
 #define THIS_OFFS_X_Y_6  -16  -5
