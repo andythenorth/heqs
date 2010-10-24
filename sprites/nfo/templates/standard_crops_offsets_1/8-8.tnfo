@@ -13,7 +13,7 @@
 #define THIS_Y_X_CROP_8  17  22
 
 // standard offsets (adjusted from pikka templates to match RVs)
-#define THIS_OFFS_X_Y_1   -3 -12
+#define THIS_OFFS_X_Y_1   -3 -14
 #define THIS_OFFS_X_Y_2  -15  -6
 #define THIS_OFFS_X_Y_3  -15  -6
 #define THIS_OFFS_X_Y_4   -6  -6
