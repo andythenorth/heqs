@@ -1,4 +1,4 @@
-// Hennigsdorf Industrial Tram (Electric)
+// Ishizuchi Industrial Tram (Electric)
 
 #define THIS_VEHICLE_ID       VEH_INDUSTRIAL_TRAM_ELECTRIC_3
 #define THIS_LENGTH_ADJUST    02
@@ -39,7 +39,7 @@
   "\0D390t in fifteen wagons (may be slow uphill)\0D"
                                00
  -1 * 4	 01 01 02 08
-  // Electric Locomotive Type 2 version A
+  // Electric Locomotive Type 3 version A
  -1 sprites/pcx/industrial_tram_locomotives.pcx    0 80  01  18  8   -3 -12
  -1 sprites/pcx/industrial_tram_locomotives.pcx   16 80  09  16 20  -14  -5
  -1 sprites/pcx/industrial_tram_locomotives.pcx   48 80  01  12 28  -14  -6
@@ -48,7 +48,7 @@
  -1 sprites/pcx/industrial_tram_locomotives.pcx   16 80  09  16 20  -14  -6
  -1 sprites/pcx/industrial_tram_locomotives.pcx   48 80  01  12 28  -14  -6
  -1 sprites/pcx/industrial_tram_locomotives.pcx   96 80  09  16 20   -4  -6
-  // Electric Locomotive Type 2 version B
+  // Electric Locomotive Type 3 version B
  -1 sprites/pcx/industrial_tram_locomotives.pcx    0 100  01  18  8   -3 -12
  -1 sprites/pcx/industrial_tram_locomotives.pcx   16 100  09  16 20  -14  -5
  -1 sprites/pcx/industrial_tram_locomotives.pcx   48 100  01  12 28  -14  -6
