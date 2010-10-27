@@ -32,7 +32,7 @@
     
  -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members 
  // real sprites
- #define THIS_Y_POS  25
+ #define THIS_Y_POS  0
  #include "templates/template_standard_rv_real_sprites_1.tnfo"
  
  -1 * 9	 02 01 A0

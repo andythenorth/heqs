@@ -38,7 +38,7 @@
 
 // real sprites
 // 1st company colour
-#define THIS_Y_POS  0
+#define THIS_Y_POS  25
 #include "../templates/template_standard_rv_real_sprites_1.tnfo"
 
  -1 * 9	 02 01 A1
