@@ -27,55 +27,55 @@
  -1 * 4	 01 01 \b13 \b08
 // van
 #define THIS_Y_POS  0
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // livestock
 #define THIS_Y_POS  20
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // tanker
 #define THIS_Y_POS  40
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // wood empty
 #define THIS_Y_POS  60
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // wood loading
 #define THIS_Y_POS  80
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // wood loaded
 #define THIS_Y_POS  100
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // empty open wagon / hopper
 #define THIS_Y_POS  120
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // coal
 #define THIS_Y_POS  140
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // iron ore
 #define THIS_Y_POS  160
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // brown
 #define THIS_Y_POS  180
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // grey
 #define THIS_Y_POS  200
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // red
 #define THIS_Y_POS  220
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 // sand
 #define THIS_Y_POS  240
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 //action 2 ID 00 is reserved for invisible sprite 
  -1 * 17	 02 01 02 // van
