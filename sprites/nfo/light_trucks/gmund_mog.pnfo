@@ -34,9 +34,9 @@
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
     1F \d711420    // Long format introduction date  
- -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members 
 
 // real sprites
+ -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members 
 // 1st company colour
 #define THIS_Y_POS  25
 #include "../templates/template_standard_rv_real_sprites_1.tnfo"
@@ -46,16 +46,18 @@
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
- -1 * 4	 01 01 01 01 // buy menu sprites
- -1 sprites/graphics/light_trucks.pcx 176 25 01 12 28 -22 -8
- -1 * 9	 02 01 AF // action2 buy menu sprites 
+
+ -1 * 4	 01 01 01 01 // buy menu sprites - not templated, too specific to each vehicle 
+ -1 sprites/graphics/light_trucks.pcx 176 25 01 12 28 -21 -6
+ -1 * 9	 02 01 FF // use FF as standard ID for buy menu sprites 
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
+
  -1 * 7	 03 01 01 VEH_TRUCK_GMUND_MOG // Action 3
     01  // Number of different cargo types to support
-     FF AF 00 // buy menu sprites
+     FF  FF 00 // buy menu sprites
     A1 00   // default Action 2 ID 
     
 // rail version
@@ -82,20 +84,22 @@
     27 02    // misc flags (bit mask)
     2A \d715160 // Long format introduction date  
  -1 * 4	 01 00 01 08      // Action 1 | RV | 1 sprite set | 8 members 
+  // no templating for rail vehicles in HEQS at time of writing this comment
   // 1st company colour
-  1 sprites/graphics/light_trucks.pcx 0  0 01 18 8 -3 -14
-  2 sprites/graphics/light_trucks.pcx 16 0 09 16 20 -9 -11
-  3 sprites/graphics/light_trucks.pcx 48 0 01 12 28 -6 -8
-  4 sprites/graphics/light_trucks.pcx 96 0 09 16 20 -1 -7
-  5 sprites/graphics/light_trucks.pcx 128 0 01 18 8 -3 -6
-  6 sprites/graphics/light_trucks.pcx 144 0 09 16 20 -17 -7
-  7 sprites/graphics/light_trucks.pcx 176 0 01 12 28 -22 -8
-  8 sprites/graphics/light_trucks.pcx 224 0 09 16 20 -9 -11
+  1 sprites/graphics/light_trucks.pcx   0  0  01 18  8  -3 -14
+  2 sprites/graphics/light_trucks.pcx  16  0  09 16 20  -9 -11
+  3 sprites/graphics/light_trucks.pcx  48  0  01 12 28  -6  -8
+  4 sprites/graphics/light_trucks.pcx  96  0  09 16 20  -1  -7
+  5 sprites/graphics/light_trucks.pcx 128  0  01 18  8  -3  -6
+  6 sprites/graphics/light_trucks.pcx 144  0  09 16 20 -17  -7
+  7 sprites/graphics/light_trucks.pcx 176  0  01 12 28 -22  -8
+  8 sprites/graphics/light_trucks.pcx 224  0  09 16 20  -9 -11
  -1 * 9	 02 00 B1
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
+ // specific buy menu sprites not needed for rail vehicle - default position looks ok 
  -1 * 7	 03 00 01 VEH_TRUCK_GMUND_MOG // Action 3
     00  // Number of different cargo types to support
     B1 00   // default Action 2 ID     

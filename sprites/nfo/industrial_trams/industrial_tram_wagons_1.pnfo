@@ -12,7 +12,14 @@
 #define THIS_OFFS_X_Y_6  -14  -6
 #define THIS_OFFS_X_Y_7  -13  -6
 #define THIS_OFFS_X_Y_8   -4  -6
-   
+
+#define HP_GENERATION_1   30 // 1947
+#define HP_GENERATION_2   70 // 1963
+#define HP_GENERATION_3  120 // 1976
+#define HP_GENERATION_4  160 // 1992
+#define HP_GENERATION_5  210 // 2012
+#define HP_GENERATION_6  280 // 2030
+
    
  -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
     00 \w1-1-1920   // intro date (min value: 1-1-1920)
