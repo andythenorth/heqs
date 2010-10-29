@@ -67,8 +67,8 @@
     05 00    // track type, 0=rail, 1=monorail, 2=maglev
     06 0F    // climate 
     07 05    // load amount
-    09 \w40  // speed in mph * 1.6    
-    0B \w88  // power
+    09 \w52  // speed in mph * 1.6    
+    0B \w30  // power
     0D 1E // running cost factor  
     0E 36 4C 00 00 // running cost base  
     12 FD    // sprite ID
@@ -80,7 +80,7 @@
     1F F2 // coefficient of TE
     21 \b4   // vehicle length
     27 02    // misc flags (bit mask)
-    2A \d711420 // Long format introduction date  
+    2A \d715160 // Long format introduction date  
  -1 * 4	 01 00 01 08      // Action 1 | RV | 1 sprite set | 8 members 
   // 1st company colour
   1 sprites/graphics/light_trucks.pcx 0  0 01 18 8 -3 -14
