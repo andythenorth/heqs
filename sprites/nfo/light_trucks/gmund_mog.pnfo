@@ -55,10 +55,24 @@
       00 00 // loading sprites
       00 00 // loaded sprites
 
+  -1 * 18	 02 01 E0  // handle setting hp - check property type cb requires
+                 81 10 00 FF //
+                 \b03 // range
+                   FF 80  13 13 // set power
+                   FF 80  14 14 // set weight
+                   FF 80  18 18 // set TE
+                 A1 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
+                 
+// handle callbacks etc
+  -1 * 18	 02 01 C0  // handle callbacks
+                 81 0C 00 FF //
+                 \b1 // range
+                   E0 00  36 36 // change vehicle properties
+                 A1 00 // graphics            
+
  -1 * 7	 03 01 01 VEH_TRUCK_GMUND_MOG // Action 3
-    01  // Number of different cargo types to support
-     FF  FF 00 // buy menu sprites
-    A1 00   // default Action 2 ID 
+    00  // Number of different cargo types to support
+    C0 00   // default Action 2 ID 
     
 // rail version
  -1 * 67	 00 00 \b21 01 VEH_TRUCK_GMUND_MOG 
@@ -99,10 +113,24 @@
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
+      
+  -1 * 18	 02 00 E0  // handle setting hp - check property type cb requires
+                 81 10 00 FF //
+                 \b01 // range
+                   11 80  0B 0B // set power to vehicle power
+                 B1 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
+                 
+// handle callbacks etc
+  -1 * 18	 02 00 C0  // handle callbacks
+                 81 0C 00 FF //
+                 \b1 // range
+                   E0 00  36 36 // change vehicle properties
+                 B1 00 // graphics       
+      
  // specific buy menu sprites not needed for rail vehicle - default position looks ok 
  -1 * 7	 03 00 01 VEH_TRUCK_GMUND_MOG // Action 3
     00  // Number of different cargo types to support
-    B1 00   // default Action 2 ID     
+    C0 00   // default Action 2 ID     
 
 #undef THIS_PCX_FILE
 #undef THIS_LENGTH_ADJUST
