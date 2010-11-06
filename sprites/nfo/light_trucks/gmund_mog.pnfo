@@ -2,6 +2,31 @@
 // power ranges 30hp-177hp (2010 version)
  -1 * 14	 04 01 7F 01 VEH_TRUCK_GMUND_MOG "Gmund Mog" 00
  -1 * 14	 04 00 7F 01 VEH_TRUCK_GMUND_MOG "Gmund Mog Hi-Rail Truck" 00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_1A D0 "Model: " 8A "1947" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_1B D0 "Model: " 8A "1958" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_2 D0 "Model: " 8A "1963" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_3 D0 "Model: " 8A "1976" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_4 D0 "Model: " 8A "1976" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_5 D0 "Model: " 8A "1992" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_6 D0 "Model: " 8A "2009" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_7 D0 "Model: " 8A "2030" // (30t total cargo)
+                               0d 98 
+                               00
+
 
 #define THIS_PCX_FILE         light_trucks.pcx     // used in action 1 template (must include file extension)
 

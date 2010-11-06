@@ -224,6 +224,15 @@
 #define STR_EXTRA_INFO_TRACTOR_SPEEDYTRAC                 B1 //D0 text
 #define STR_EXTRA_INFO_TRACTOR_SUPER_SPEEDYTRAC           B2 //D0 text
 
+#define STR_EXTRA_INFO_TRUCK_GMUND_MOG_1A                 C0 //D0 text
+#define STR_EXTRA_INFO_TRUCK_GMUND_MOG_1B                 C1 //D0 text
+#define STR_EXTRA_INFO_TRUCK_GMUND_MOG_2                  C2 //D0 text
+#define STR_EXTRA_INFO_TRUCK_GMUND_MOG_3                  C3 //D0 text
+#define STR_EXTRA_INFO_TRUCK_GMUND_MOG_4                  C4 //D0 text
+#define STR_EXTRA_INFO_TRUCK_GMUND_MOG_5                  C5 //D0 text
+#define STR_EXTRA_INFO_TRUCK_GMUND_MOG_6                  C6 //D0 text
+#define STR_EXTRA_INFO_TRUCK_GMUND_MOG_7                  C7 //D0 text
+
 #define STR_EXTRA_INFO_MINING_TRUCK_CAMELBACK_MOUNTAIN    D0 //D0 text
 
 #define STR_EXTRA_INFO_MINING_TRUCK_THUNDER_MOUNTAIN      D2 //D0 text
