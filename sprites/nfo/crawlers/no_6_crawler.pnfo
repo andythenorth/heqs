@@ -150,12 +150,12 @@
 -1 * 30	 02 01 FF // buy menu
            81 01 00  FF // check current year
            05 // range
-             60 80 \b00 \b34 // action 2 for setting graphics / text before 1955
-             61 80 \b35 \b48 // action 2 for setting graphics / text before 1969
-             62 80 \b49 \b59 // action 2 for setting graphics / text before 1980
-             63 80 \b60 \b72 // action 2 for setting graphics / text before 1993
-             64 80 \b73 \b88 // action 2 for setting graphics / text before 2009
-           65 80 // default graphics / text
+             STR_EXTRA_INFO_CRAWLER_NO_6_GP_1 80 \b00 \b34 // action 2 for setting graphics / text before 1955
+             STR_EXTRA_INFO_CRAWLER_NO_6_GP_2 80 \b35 \b48 // action 2 for setting graphics / text before 1969
+             STR_EXTRA_INFO_CRAWLER_NO_6_GP_3 80 \b49 \b59 // action 2 for setting graphics / text before 1980
+             STR_EXTRA_INFO_CRAWLER_NO_6_GP_4 80 \b60 \b72 // action 2 for setting graphics / text before 1993
+             STR_EXTRA_INFO_CRAWLER_NO_6_GP_5 80 \b73 \b88 // action 2 for setting graphics / text before 2009
+           STR_EXTRA_INFO_CRAWLER_NO_6_GP_6 80 // default graphics / text
 -1 * 14	 02 01 FA //
            81 C4 00 FF // check date vehicle built for buy menu
            01 // range
@@ -368,12 +368,12 @@
 -1 * 30	 02 01 FF // buy menu
            81 01 00  FF // check current year
            05 // range
-             6A 80 \b00 \b34 // action 2 for setting graphics / text before 1955
-             6B 80 \b35 \b48 // action 2 for setting graphics / text before 1969
-             6C 80 \b49 \b59 // action 2 for setting graphics / text before 1980
-             6D 80 \b60 \b72 // action 2 for setting graphics / text before 1993
-             6E 80 \b73 \b88 // action 2 for setting graphics / text before 2009
-           6F 80 // default graphics / text
+             STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_1 80 \b00 \b34 // action 2 for setting graphics / text before 1955
+             STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_2 80 \b35 \b48 // action 2 for setting graphics / text before 1969
+             STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_3 80 \b49 \b59 // action 2 for setting graphics / text before 1980
+             STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_4 80 \b60 \b72 // action 2 for setting graphics / text before 1993
+             STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_5 80 \b73 \b88 // action 2 for setting graphics / text before 2009
+           STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_6 80 // default graphics / text
 -1 * 14	 02 01 FA //
            81 C4 00 FF // check date vehicle built for buy menu
            01 // range
