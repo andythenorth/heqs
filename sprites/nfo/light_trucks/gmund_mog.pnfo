@@ -55,7 +55,6 @@
       00 00 // loading sprites
       00 00 // loaded sprites
 
-
   -1 * 18	 02 01 E3  // handle setting speed - check property type cb requires
            81 C4 00  FF // check current year
              \b03 // range
@@ -86,15 +85,22 @@
                    E3 00  15 15 // set speed
                  A1 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
                  
-// handle callbacks etc
-  -1 * 18	 02 01 C0  // handle callbacks
+// handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
+  -1 * 18	 02 01 C0  // handle callbacks for real vehicle (not buy menu)
                  81 0C 00 FF //
                  \b1 // range
                    E0 00  36 36 // change vehicle properties
-                 A1 00 // graphics            
+                 A0 00 // graphics            
+  -1 * 18	 02 01 C1  // handle callbacks for buy menu
+                 81 0C 00 FF //
+                 \b1 // range
+                   E0 00  36 36 // change vehicle properties
+                 FF 00 // graphics            
+
 
  -1 * 7	 03 01 01 VEH_TRUCK_GMUND_MOG // Action 3
-    00  // Number of different cargo types to support
+    01  // Number of different cargo types to support
+      FF  C1 00 // buy menu
     C0 00   // default Action 2 ID 
     
 // rail version
