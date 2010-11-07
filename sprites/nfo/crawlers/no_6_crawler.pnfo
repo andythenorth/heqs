@@ -147,11 +147,12 @@
       01 // number loaded states
       01 00 // loading sprites
       01 00 // loaded sprites
--1 * 14	 02 01 FF //
+-1 * 14	 02 01 FF // use FF as standard ID for start of buy menu graphics chain
            81 C4 00 FF // check date vehicle built for buy menu
            01 // range
             F1 00 \b00 \b72
            F2 00 
+           
 -1 * 30	 02 01 FA // buy menu
            81 01 00  FF // check current year
            05 // range
@@ -366,11 +367,12 @@
       01 // number loaded states
       01 00 // loading sprites
       01 00 // loaded sprites
--1 * 14	 02 01 FF //
+-1 * 14	 02 01 FF // use FF as standard ID for start of buy menu graphics chain
            81 C4 00 FF // check date vehicle built for buy menu
            01 // range
             F1 00 \b00 \b72
-           F2 00            
+           F2 00             
+           
 -1 * 30	 02 01 FA // buy menu - text for vehicle window
            81 01 00  FF // check current year
            05 // range
