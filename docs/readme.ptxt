@@ -20,7 +20,7 @@ Changelog
 *version 0.9.0*
 Added Gmund Mog road truck (available 1947).  Great for delivering FIRS Supplies.
 Added Gmund Mog hi-rail vehicle (available 1958.  Great as an alternative to rail locomotives for light use).
-Gmund Mog speed, power and weight changes over time.
+Gmund Mog speed, power and weight changes over time (requires OpenTTD r21100 or newer)
 Enhanced cargo graphic support for industrial trams:
 - includes mineral cargo graphics for FIRS and other sets
 - fixed a bug with cargo graphics not displaying for some trams
