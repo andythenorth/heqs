@@ -147,7 +147,12 @@
       01 // number loaded states
       01 00 // loading sprites
       01 00 // loaded sprites
--1 * 30	 02 01 FF // buy menu
+-1 * 14	 02 01 FF //
+           81 C4 00 FF // check date vehicle built for buy menu
+           01 // range
+            F1 00 \b00 \b72
+           F2 00 
+-1 * 30	 02 01 FA // buy menu
            81 01 00  FF // check current year
            05 // range
              STR_EXTRA_INFO_CRAWLER_NO_6_GP_1 80 \b00 \b34 // action 2 for setting graphics / text before 1955
@@ -156,16 +161,7 @@
              STR_EXTRA_INFO_CRAWLER_NO_6_GP_4 80 \b60 \b72 // action 2 for setting graphics / text before 1993
              STR_EXTRA_INFO_CRAWLER_NO_6_GP_5 80 \b73 \b88 // action 2 for setting graphics / text before 2009
            STR_EXTRA_INFO_CRAWLER_NO_6_GP_6 80 // default graphics / text
--1 * 14	 02 01 FA //
-           81 C4 00 FF // check date vehicle built for buy menu
-           01 // range
-            F1 00 \b00 \b72
-           F2 00 
--1 * 14	 02 01 F0 // buy menu 
-                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
-                 01 // range
-                   FF 00 23 23 // text for vehicle window
-                 FA 00 //otherwise go to next action 2 ID 
+           
 -1 * 30	 02 01 B5 // choose trailers by date
            81 01 00  FF // check current year
            05 // range
@@ -198,20 +194,25 @@
                   B5 00 02 02 // 
                   B5 00 03 03 // 
                  FF FF //otherwise end the callback chain
--1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
-               82 40 10 FF // check vehicle length    
-               01 // check one range
-                 F0 00 00 00 // if length is 0 use purchase menu sprite
-               B2 00 // else go to action 2 to apply graphics
--1 * 18	 02 01 B1 // 
-                 81 0C 00 FF // handle callbacks
+
+// handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
+-1 * 14	 02 01 C0 //
+                 81 0C 00 FF // handle callbacks for real vehicle (not buy menu)
                  02 //check one range
                   01 80 11 11 // vehicle length CB
-                  B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
-                 B6 00 //otherwise go to ID A1 (ie. apply vehicle graphics)
+                  B0 00 16 16 // articulated vehicle building instructions
+                 B2 00 //otherwise go to next action 2 ID 
+-1 * 14	 02 01 C1 // buy menu 
+                 81 0C 00 FF //handle callbacks for buy menu
+                 02 // range
+                  B0 00 16 16 // articulated vehicle building instructions
+                  FA 00 23 23 // text for vehicle window
+                 FF 00 //otherwise go to next action 2 ID 
+                 
 -1 * 7	 03 01 01 VEH_CRAWLER_NO_6_GENERAL_PURPOSE  // Action 3
-      00  // Number of different cargo types to support
-      B1 00   // default sprites
+      01  // Number of different cargo types to support
+        FF  C1 00 // buy menu
+      C0 00   // default sprites
 
 
   // No. 6 Crawler Tractor (Mining / Logging)
@@ -365,7 +366,12 @@
       01 // number loaded states
       01 00 // loading sprites
       01 00 // loaded sprites
--1 * 30	 02 01 FF // buy menu
+-1 * 14	 02 01 FF //
+           81 C4 00 FF // check date vehicle built for buy menu
+           01 // range
+            F1 00 \b00 \b72
+           F2 00            
+-1 * 30	 02 01 FA // buy menu - text for vehicle window
            81 01 00  FF // check current year
            05 // range
              STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_1 80 \b00 \b34 // action 2 for setting graphics / text before 1955
@@ -374,16 +380,7 @@
              STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_4 80 \b60 \b72 // action 2 for setting graphics / text before 1993
              STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_5 80 \b73 \b88 // action 2 for setting graphics / text before 2009
            STR_EXTRA_INFO_CRAWLER_NO_6_LOGGING_MINING_6 80 // default graphics / text
--1 * 14	 02 01 FA //
-           81 C4 00 FF // check date vehicle built for buy menu
-           01 // range
-            F1 00 \b00 \b72
-           F2 00            
--1 * 14	 02 01 F0 // buy menu 
-                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
-                 01 // range
-                   FF 00 23 23 // text for vehicle window
-                 FA 00 //otherwise go to next action 2 ID 
+
 -1 * 30	 02 01 B5 // choose trailers by date
            81 01 00  FF // check current year
            05 // range
@@ -409,21 +406,27 @@
            02 // range
             B3 00 // 
             B7 00 // 
+
 -1 * 14	 02 01 B0 
                  81 10 00 FF // articulated vehicle building instructions
                  01 //range
                    B5 00 01 01 //
                  FF FF //otherwise end the callback chain
--1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
-               82 40 10 FF // check vehicle length    
-               01 // check one range
-                 F0 00 00 00 // if length is 0 use purchase menu sprite
-               B2 00 // else go to action 2 to apply graphics
--1 * 14	 02 01 B1 //
-                 81 0C 00 FF // handle callbacks
+               
+// handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
+-1 * 14	 02 01 C0 //
+                 81 0C 00 FF // handle callbacks for real vehicle (not buy menu)
                  01 // range
                    B0 00 16 16 // articulated vehicle CB
-                 B6 00 //otherwise go to next action 2 ID 
+                 B2 00 //otherwise go to next action 2 ID 
+-1 * 14	 02 01 C1 // buy menu 
+                 81 0C 00 FF //handle callbacks for buy menu
+                 02 // range
+                   B0 00 16 16 // articulated vehicle CB
+                   FA 00 23 23 // text for vehicle window
+                 FF 00 //otherwise go to next action 2 ID 
+                 
 -1 * 7	 03 01 01 VEH_CRAWLER_NO_6_LOGGING_MINING  // Action 3
-      00  // Number of different cargo types to support
-      B1 00   // default sprites
+      01  // Number of different cargo types to support
+        FF  C1 00 // buy menu
+      C0 00   // default sprites
