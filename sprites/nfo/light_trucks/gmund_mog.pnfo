@@ -138,7 +138,7 @@
     C0 00   // default Action 2 ID 
     
 // rail version
- -1 * 67	 00 00 \b22 01 VEH_TRUCK_GMUND_MOG 
+ -1 * 67	 00 00 \b24 01 VEH_TRUCK_GMUND_MOG 
     00 00 00 // intro date (min value: 1-1-1920) 
     02 20    // reliability 
     03 \b50  // vehicle life 
@@ -160,6 +160,8 @@
     1F F2 // coefficient of TE
     21 \b4   // vehicle length
     27 02    // misc flags (bit mask)
+    28 FF 03          // Refittable cargo classes
+    29 01 00          // Non-refittable cargo classes
     2A \d715160 // Long format introduction date  
  -1 * 4	 01 00 01 08      // Action 1 | RV | 1 sprite set | 8 members 
   // no templating for rail vehicles in HEQS at time of writing this comment
