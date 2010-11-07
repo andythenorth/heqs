@@ -17,6 +17,22 @@ Repository version: {{REPO_REVISION}}
 
 Changelog
 
+*version 0.9.0*
+Added Gmund Mog road truck (available 1947).  Great for delivering FIRS Supplies.
+Added Gmund Mog hi-rail vehicle (available 1958.  Great as an alternative to rail locomotives for light use).
+Gmund Mog speed, power and weight changes over time.
+Enhanced cargo graphic support for industrial trams:
+- includes mineral cargo graphics for FIRS and other sets
+- fixed a bug with cargo graphics not displaying for some trams
+Enhanced cargo graphic support for mining trucks :
+- added graphic support for FIRS Clay cargo
+- default mineral cargo graphic changed is now grey for all trucks
+Fixed a bug with truncated crawler trailer in some angles.
+Fixed an error with refitted capacity that OpenTTD was reporting for industrial trams.
+Extensive internal changes - many more vehicles now using much more efficient CPP templating.
+Provided graphics and code for to standardised RV templates - based on Pikka train templates.
+Started moving some real sprites to png - grfcodec now supports both pcx and png.
+
 *version 0.8.0*
 Major reorganisation of HEQS internals (code, vehicle IDs, filesystem).  
 
@@ -24,7 +40,8 @@ Only two new 'features':
 - compatible with default vehicles
 - change of grfid.  To prevent breaking savegames, HEQS 0.8.0 is not compatible with previous versions of HEQS.
 
-The purpose of HEQS 0.8.0 is to provide a cleaner structure for future improvements.  Using HEQS 0.8.0 now will provide better savegame compatibility when new features are added to future releases of HEQS.
+The purpose of HEQS 0.8.0 is to provide a cleaner structure for future improvements.  
+Using HEQS 0.8.0 now will provide better savegame compatibility when new features are added to future releases of HEQS.
 
 *version 0.7.1*
 Wood and livestock cargo graphics for industrial trams.
@@ -51,7 +68,8 @@ Many internal changes to layout of sprite files.
 Added Wolfpen Ridge Dump Truck - (available 2005)
 Added flashing amber beacons to more vehicles.
 Fourtrac now has more livery variations (uses 1st company colour for mail and goods). 
-Set correct hp, weight and co-efficient of TE for all vehicles.  For use with Terkhen's patch for realistic vehicle acceleration, or if realistic acceleration hits trunk.
+
+Set correct hp, weight and co-efficient of TE for all vehicles - for use with realistic vehicle acceleration.
 
 *version 0.5d*
 Fixed Camelback Mountain Mining Truck - now correctly builds two trailers instead of one.
