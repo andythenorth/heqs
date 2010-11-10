@@ -1,6 +1,6 @@
 // -------------- Kander Foundry Transporter --------------- //
    // Kander rear section 
- -1 * 67	 00 01 \b26 01 VEH_FOUNDRY_TRANSPORTER_KANDER_2 // Vehicle ID has to be less than 128 for articulated trailers
+ -1 * 67	 00 01 \b25 01 VEH_FOUNDRY_TRANSPORTER_KANDER_2 // Vehicle ID has to be less than 128 for articulated trailers
     00 \w1-1-1920   // intro date (min value: 1-1-1920)
     02 20           // reliability decay speed decay speed
     03 \b35         // vehicle life
@@ -21,7 +21,6 @@
     16 00 02 30 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E value
     17 16           // callback flags bit mask
-    18 00           // coefficient of tractive effort (use 0 for trailers)
     1A 00           // refit cost, using 25% of the purchase price cost base
     1B 00           // retire vehicle early, this many years before the end of phase 2
     1C 02           // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
@@ -121,7 +120,7 @@
 
 
   // Kander front section
- -1 * 67	 00 01 \b26 01 VEH_FOUNDRY_TRANSPORTER_KANDER_1
+ -1 * 67	 00 01 \b25 01 VEH_FOUNDRY_TRANSPORTER_KANDER_1
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability decay speed
     03 \b40           // vehicle life
@@ -142,7 +141,6 @@
     16 00 02 30 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 16             // Callback flags bit mask
-    18 49             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00             // Refit cost, using 25% of the purchase price cost base
     1B 00             // Retire vehicle early, this many years before the end of phase 2
     1C 02             // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
