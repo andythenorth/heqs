@@ -10,14 +10,14 @@
 #define THIS_Y_X_CROP_7  16  36
 #define THIS_Y_X_CROP_8  22  30
 
-#define THIS_OFFS_X_Y_1   -5  -15
-#define THIS_OFFS_X_Y_2  -17  -10
-#define THIS_OFFS_X_Y_3  -14   -9
-#define THIS_OFFS_X_Y_4  -10  -10
-#define THIS_OFFS_X_Y_5   -5  -13
+#define THIS_OFFS_X_Y_1   -5  -13
+#define THIS_OFFS_X_Y_2  -19  -10
+#define THIS_OFFS_X_Y_3  -17  -10
+#define THIS_OFFS_X_Y_4   -9  -10
+#define THIS_OFFS_X_Y_5   -5  -11
 #define THIS_OFFS_X_Y_6  -18  -11
-#define THIS_OFFS_X_Y_7  -14  -10
-#define THIS_OFFS_X_Y_8   -9  -11
+#define THIS_OFFS_X_Y_7  -19  -10
+#define THIS_OFFS_X_Y_8   -9   -9
 
 
 // Kilimanjaro Mining Hauler  160t	1200hp	1990-2050	57mph
