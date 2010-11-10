@@ -10,14 +10,14 @@
 #define THIS_Y_X_CROP_7  16  36
 #define THIS_Y_X_CROP_8  20  26
 
-#define THIS_OFFS_X_Y_1   -5  -13
-#define THIS_OFFS_X_Y_2  -17   -8
-#define THIS_OFFS_X_Y_3  -18   -8
-#define THIS_OFFS_X_Y_4  -11   -9
+#define THIS_OFFS_X_Y_1   -5  -15
+#define THIS_OFFS_X_Y_2  -17  -10
+#define THIS_OFFS_X_Y_3  -15   -8
+#define THIS_OFFS_X_Y_4   -6  -10
 #define THIS_OFFS_X_Y_5   -5  -13
-#define THIS_OFFS_X_Y_6  -16   -9
-#define THIS_OFFS_X_Y_7  -22   -9
-#define THIS_OFFS_X_Y_8   -8  -11
+#define THIS_OFFS_X_Y_6  -14   -7
+#define THIS_OFFS_X_Y_7  -21   -9
+#define THIS_OFFS_X_Y_8   -8   -9
 
 
 // Mount Rainier Dump Truck 50t		1960-1981	35mph
