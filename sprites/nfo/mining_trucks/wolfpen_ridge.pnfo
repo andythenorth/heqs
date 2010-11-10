@@ -10,14 +10,14 @@
 #define THIS_Y_X_CROP_7  16  36
 #define THIS_Y_X_CROP_8  20  26
 
-#define THIS_OFFS_X_Y_1   -5  -13
-#define THIS_OFFS_X_Y_2  -17   -8
-#define THIS_OFFS_X_Y_3  -18   -8
-#define THIS_OFFS_X_Y_4  -11   -9
+#define THIS_OFFS_X_Y_1   -5  -14
+#define THIS_OFFS_X_Y_2  -15  -10
+#define THIS_OFFS_X_Y_3  -12   -8
+#define THIS_OFFS_X_Y_4   -4   -9
 #define THIS_OFFS_X_Y_5   -5  -13
-#define THIS_OFFS_X_Y_6  -17   -9
-#define THIS_OFFS_X_Y_7  -28   -9
-#define THIS_OFFS_X_Y_8   -9  -10
+#define THIS_OFFS_X_Y_6  -19   -6
+#define THIS_OFFS_X_Y_7  -24   -9
+#define THIS_OFFS_X_Y_8  -10   -8
 
 
   // Wolfpen Ridge Dump Truck  50t		2005-2050	50mph
