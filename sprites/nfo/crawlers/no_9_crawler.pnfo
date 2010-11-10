@@ -14,13 +14,13 @@
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    13 \b55   // power in 10 hp
+    13 \b77   // power in 10 hp
     14 \b224  // weight in 1/4 tons
     15 \b11   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 16     // Callback flags bit mask
-    18 CC     // coefficient of TE
+    18 FF     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
@@ -295,13 +295,13 @@
     10 FF     // cargo type
     11 34     // cost factor
     12 17     // sound effect
-    13 \b55   // power in 10 hp
+    13 \b77   // power in 10 hp
     14 \b224  // weight in 1/4 tons
     15 \b11   // speed in mph * 0.8
     16 C0 20 00 68     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
     17 16     // callback flags bit mask
-    18 CC  // coefficient of TE
+    18 FF  // coefficient of TE
     1A 00     // refit cost, using 25% of the purchase price cost base
     1B 00     // retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
