@@ -198,22 +198,22 @@
 -1 * 14	 02 01 FD // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   93 80 23 23 // text for vehicle window
+                   STR_EXTRA_INFO_CRAWLER_NO_9_GP_4 80 23 23 // text for vehicle window
                  F3 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FC // buy menu
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   92 80 23 23 // text for vehicle window
+                   STR_EXTRA_INFO_CRAWLER_NO_9_GP_3 80 23 23 // text for vehicle window
                  F2 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FB // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   91 80 23 23 // text for vehicle window
+                   STR_EXTRA_INFO_CRAWLER_NO_9_GP_2 80 23 23 // text for vehicle window
                  F2 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FA // buy menu
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   90 80 23 23 // text for vehicle window
+                   STR_EXTRA_INFO_CRAWLER_NO_9_GP_1 80 23 23 // text for vehicle window
                  F1 00 //otherwise go to next action 2 ID 
 -1 * 22	 02 01 F0 // buy menu
            81 01 00  FF // check current year
@@ -364,22 +364,22 @@
 -1 * 14	 02 01 FD // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   9D 80 23 23 // text for vehicle window
+                   STR_EXTRA_INFO_CRAWLER_NO_9_LOGGING_MINING_4 80 23 23 // text for vehicle window
                  F3 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FC // buy menu
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   9C 80 23 23 // text for vehicle window
+                   STR_EXTRA_INFO_CRAWLER_NO_9_LOGGING_MINING_3 80 23 23 // text for vehicle window
                  F2 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FB // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   9B 80 23 23 // text for vehicle window
+                   STR_EXTRA_INFO_CRAWLER_NO_9_LOGGING_MINING_2 80 23 23 // text for vehicle window
                  F2 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FA // buy menu
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
-                   9A 80 23 23 // text for vehicle window
+                   STR_EXTRA_INFO_CRAWLER_NO_9_LOGGING_MINING_1 80 23 23 // text for vehicle window
                  F1 00 //otherwise go to next action 2 ID 
 -1 * 22	 02 01 F0 // buy menu
            81 01 00  FF // check current year
