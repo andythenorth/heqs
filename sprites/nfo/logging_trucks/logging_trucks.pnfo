@@ -1,7 +1,7 @@
  // --------------------------- Logging Trucks --------------------- //
 
   // Cascade Logging Truck  90t
- -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_C10
+ -1 * 67	 00 01 \b26 01 VEH_LOGGING_TRUCK_C10
     00 \w1-1-1972  // intro date (min value: 1-1-1920)
     02 20     // reliability
     03 \b40     // vehicle life
@@ -21,6 +21,7 @@
     15 \b32   // speed in mph * 0.8
     16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
+    18 CC     // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
@@ -33,7 +34,7 @@
                                 0d 98 
                                 00 
   // Cascade Logging Truck DOUBLE
- -1 * 67	 00 01 19 01 VEH_LOGGING_TRUCK_C16
+ -1 * 67	 00 01 \b26 01 VEH_LOGGING_TRUCK_C16
     00 \w1-1-1972  // intro date (min value: 1-1-1920)
     02 20     // reliability
     03 \b40     // vehicle life
@@ -53,6 +54,7 @@
     15 \b24   // speed in mph * 0.8
     16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
+    18 CC     // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
