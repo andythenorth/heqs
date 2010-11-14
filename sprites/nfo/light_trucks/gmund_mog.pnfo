@@ -63,7 +63,7 @@
 #define THIS_Y_POS  25
 #include "../templates/template_standard_rv_real_sprites_1.tnfo"
 
- -1 * 9	 02 01 A1
+ -1 * 9	 02 01 A0
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
@@ -116,7 +116,7 @@
                    E1 00  13 13 // set power
                    E2 00  14 14 // set weight
                    E3 00  15 15 // set speed
-                 A1 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
+                 A0 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
                  
 // handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
   -1 * 18	 02 01 C0  // handle callbacks for real vehicle (not buy menu)
