@@ -51,3 +51,24 @@
 -1 * 30	 04 01 7F 01 VEH_MINING_TRUCK_HARNEY_PEAK "Harney Peak Mining Truck" 00  
 
 #include "../templates/template_mining_trucks_action1_2_3.tnfo"
+
+#undef THIS_PCX_FILE
+#undef THIS_VEH_ID
+       
+#undef THIS_Y_X_CROP_1
+#undef THIS_Y_X_CROP_2
+#undef THIS_Y_X_CROP_3
+#undef THIS_Y_X_CROP_4
+#undef THIS_Y_X_CROP_5
+#undef THIS_Y_X_CROP_6
+#undef THIS_Y_X_CROP_7
+#undef THIS_Y_X_CROP_8
+
+#undef THIS_OFFS_X_Y_1
+#undef THIS_OFFS_X_Y_2
+#undef THIS_OFFS_X_Y_3
+#undef THIS_OFFS_X_Y_4
+#undef THIS_OFFS_X_Y_5
+#undef THIS_OFFS_X_Y_6
+#undef THIS_OFFS_X_Y_7
+#undef THIS_OFFS_X_Y_8
