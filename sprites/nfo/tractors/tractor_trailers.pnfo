@@ -31,8 +31,8 @@
    17 * 30	 04 01 7F 01 VEH_TRACTOR_MEDIUM_TRAILER "[Generic Medium Trailer]" 00
 // define additional text suffixes
    18 * 28	 04 00 81 02 00 D0
-            		" (refit 1)" 00	//
-               	" (refit 2)" 00	//
+            		" (wheeled trailer)" 00	//
+               	" (sled)" 00	//
    // Medium Goods Trailer
    19 * 4	 01 01 01 08
    // Medium box trailer

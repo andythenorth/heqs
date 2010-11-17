@@ -17,6 +17,11 @@ Repository version: {{REPO_REVISION}}
 
 Changelog
 
+*version 0.9.2*
+Fix: Gmund Mog road truck was using wrong sprites.
+Improved offsets for mining trucks.
+Checked and adjusted tractive effort (TE) values for all vehicles, following change to road vehicle acceleration in trunk OpenTTD.
+
 *version 0.9.1*
 Fix: Gmund Mog hi-rail vehicle is refittable to all cargos except passengers.
 
