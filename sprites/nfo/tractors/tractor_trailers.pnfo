@@ -1,7 +1,6 @@
 // ------------ Tractor Medium Trailers ------------------ //
 
 #define THIS_PCX_FILE         medium_trailer_tandem.pcx     // used in action 1 template (must include file extension)
-#define THIS_VEH_ID           VEH_TRACTOR_MEDIUM_TRAILER  // used in action 1/2/3 template
 
 #define THIS_Y_X_CROP_1  24  12
 #define THIS_Y_X_CROP_2  20  26
@@ -23,7 +22,7 @@
 
    // Medium Trailers
 
-   16 * 67	 00 01 \b25 01 VEH_TRACTOR_MEDIUM_TRAILER
+   -1 * 67	 00 01 \b25 01 VEH_TRACTOR_MEDIUM_TRAILER
       00 00 00  // intro date (min value: 1-1-1920)
       02 20     // reliability
       03 19     // vehicle life
@@ -49,9 +48,9 @@
       1D FF 03      // refittable cargo classes
       1E 01 00      // non-refittable cargo classes
       1F 60 B3 0A 00    // long format introduction date     
-   17 * 30	 04 01 7F 01 VEH_TRACTOR_MEDIUM_TRAILER "[Generic Medium Trailer]" 00
+   -1 * 30	 04 01 7F 01 VEH_TRACTOR_MEDIUM_TRAILER "[Generic Medium Trailer]" 00
 // define additional text suffixes
-   18 * 28	 04 00 81 02 00 D0
+   -1 * 28	 04 00 81 02 00 D0
             		" (wheeled trailer)" 00	//
                	" (sled)" 00	//
    // Medium Goods Trailer
@@ -195,7 +194,6 @@
 	  AA 00 // default (box trailer)
 
 #undef THIS_PCX_FILE
-#undef THIS_VEH_ID
        
 #undef THIS_Y_X_CROP_1
 #undef THIS_Y_X_CROP_2
