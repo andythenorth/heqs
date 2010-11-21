@@ -138,7 +138,7 @@
                    06 00  01 01 // coal
                    03 00  03 03 // oil
                    05 00  04 04 // livestock                  
-                   01 00  06 06 // grain 
+                   0B 00  06 06 // grain (reuses sand)
                    04 00  07 07 // wood  
                    07 00  08 08 // iron ore
                    02 00  09 09 // steel                  
@@ -152,10 +152,10 @@
                    08 00  15 15 // scrap metal 
                    08 00  16 16 // clay 
                    0A 00  18 18 // bauxite (aluminium ore) 
-                   0B 00  19 19 // sand (reuses grain sprites) 
+                   0B 00  19 19 // sand (also used by grain, wheat etc)
                    09 00  1A 1A // gravel 
-                   0B 00  1B 1B // wheat 
-                   0B 00  1D 1D // maize 
+                   0B 00  1B 1B // wheat (reuses sand)
+                   0B 00  1D 1D // maize (reuses sand)
                    04 00  1E 1E // tropical wood
                  02 00 // default 
   -1 * 18	 02 01 A2  // shorten wagon length to 1/8 and show sprites
