@@ -17,8 +17,11 @@ Repository version: {{REPO_REVISION}}
 
 Changelog
 
-*version 0.9.4*
+*version 0.9.5*
 Most vehicles now show smoke effects when accelerating (needs OpenTTD r21240 or newer).
+
+*version 0.9.4*
+skipped
 
 *version 0.9.3*
 Fix: Trams had wrong graphics for grain cargo.
