@@ -1,4 +1,7 @@
-// -------------- Grindelwald Foundry Transporter --------------- //
+#define THIS_VEH_ID  VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
+#define THIS_SMOKE_TYPE 26
+#include "../templates/template_smoke.tnfo"
+
  -1 * 67	 00 01 \b25 01 VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability decay speed decay speed
@@ -105,4 +108,5 @@
       01  // Number of different cargo types to support
         15 02 00 
       01 00 // default
-// -------------- end of Grindelwald Foundry Transporter --------------- //
+      
+#undef THIS_VEH_ID

@@ -26,6 +26,7 @@
 
 
 #define THIS_PCX_FILE         light_trucks.pcx     // used in action 1 template (must include file extension)
+#define THIS_VEH_ID VEH_TRUCK_GMUND_MOG            // used for conditional properties (smoke)
 
 #include "../templates/standard_crops_offsets_1/4-8.tnfo"
 
@@ -55,7 +56,10 @@
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
-    1F \d711420    // Long format introduction date  
+    1F \d711420    // Long format introduction date
+
+#define THIS_SMOKE_TYPE 27
+#include "../templates/template_smoke.tnfo"
 
 // real sprites
  -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members 
@@ -239,6 +243,7 @@
 #undef DATE_GENERATION_6
 
 #undef THIS_PCX_FILE
+#undef THIS_VEH_ID
 #undef THIS_LENGTH_ADJUST
 
 #undef THIS_Y_X_CROP_1

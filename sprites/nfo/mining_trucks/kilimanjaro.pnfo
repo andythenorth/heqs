@@ -19,9 +19,11 @@
 #define THIS_OFFS_X_Y_7  -19  -10
 #define THIS_OFFS_X_Y_8   -9   -9
 
+#define THIS_SMOKE_TYPE 2E
+#include "../templates/template_smoke.tnfo"
 
 // Kilimanjaro Mining Hauler  160t	1200hp	1990-2050	57mph
--1 * 67	 00 01 19 01 VEH_MINING_TRUCK_KILIMANJARO
+-1 * 67	 00 01 \b25 01 VEH_MINING_TRUCK_KILIMANJARO
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life

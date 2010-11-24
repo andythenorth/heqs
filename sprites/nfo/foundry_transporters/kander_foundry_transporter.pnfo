@@ -118,6 +118,9 @@
         15 02 00 
       01 00 // default
 
+#define THIS_VEH_ID  VEH_FOUNDRY_TRANSPORTER_KANDER_1
+#define THIS_SMOKE_TYPE 28
+#include "../templates/template_smoke.tnfo"
 
   // Kander front section
  -1 * 67	 00 01 \b25 01 VEH_FOUNDRY_TRANSPORTER_KANDER_1
@@ -188,5 +191,7 @@
  -1 * 7	 03 01 01 VEH_FOUNDRY_TRANSPORTER_KANDER_1 // Action 3
     00  // Number of different cargo types to support  
     B1 00   // Action 2 ID above    
-    
+
+#undef THIS_VEH_ID
+
 // -------------- end of Kander Foundry Transporter --------------- //

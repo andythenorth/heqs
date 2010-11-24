@@ -19,9 +19,11 @@
 #define THIS_OFFS_X_Y_7  -18   -9
 #define THIS_OFFS_X_Y_8   -9   -8
 
+#define THIS_SMOKE_TYPE 2D
+#include "../templates/template_smoke.tnfo"
 
 // Rockchuck Peak Mining Hauler 95t		2000-2050	42mph
--1 * 67	 00 01 19 01 VEH_MINING_TRUCK_ROCKCHUCK_PEAK            // Action 0
+-1 * 67	 00 01 \b25 01 VEH_MINING_TRUCK_ROCKCHUCK_PEAK            // Action 0
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life

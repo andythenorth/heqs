@@ -19,9 +19,11 @@
 #define THIS_OFFS_X_Y_7  -21   -9
 #define THIS_OFFS_X_Y_8   -8   -9
 
+#define THIS_SMOKE_TYPE 26
+#include "../templates/template_smoke.tnfo"
 
 // Mount Rainier Dump Truck 50t		1960-1981	35mph
--1 * 67	 00 01 19 01 VEH_MINING_TRUCK_MOUNT_RAINIER
+-1 * 67	 00 01 \b25 01 VEH_MINING_TRUCK_MOUNT_RAINIER
     00 \w1-1-1920  // intro date (min value: 1-1-1920)
     02 20         // reliability
     03 19         // vehicle life

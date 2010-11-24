@@ -19,9 +19,11 @@
 #define THIS_OFFS_X_Y_7  -18   -9
 #define THIS_OFFS_X_Y_8   -9   -8
 
+#define THIS_SMOKE_TYPE 2D
+#include "../templates/template_smoke.tnfo"
 
 // Harney Peak Mining Hauler 60t		1979-2050	40mph
--1 * 67	 00 01 19 01 VEH_MINING_TRUCK_HARNEY_PEAK
+-1 * 67	 00 01 \b25 01 VEH_MINING_TRUCK_HARNEY_PEAK
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
@@ -52,6 +54,7 @@
 
 #include "../templates/template_mining_trucks_action1_2_3.tnfo"
 
+#undef THIS_VEH_ID
 #undef THIS_PCX_FILE
 #undef THIS_VEH_ID
        

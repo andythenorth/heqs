@@ -1,5 +1,9 @@
+#define THIS_VEH_ID  VEH_CRAWLER_NO_9_GENERAL_PURPOSE
+#define THIS_SMOKE_TYPE 28
+#include "../templates/template_smoke.tnfo"
+
 // No. 9	Crawler Tractor (General Purpose)
- -1 * 67	 00 01 1A 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE
+ -1 * 67	 00 01 \b26 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b35   // vehicle life 
@@ -278,6 +282,11 @@
     00 // number of cargo types to define
     B1 00      // Action 2 ID for default cargo
 
+#undef THIS_VEH_ID
+
+#define THIS_VEH_ID  VEH_CRAWLER_NO_9_LOGGING_MINING
+#define THIS_SMOKE_TYPE 28
+#include "../templates/template_smoke.tnfo"
 
 	// No. 9	Crawler Tractor (Logging / Mining)
 -1 * 67	 00 01 1A 01 VEH_CRAWLER_NO_9_LOGGING_MINING
@@ -442,3 +451,5 @@
 -1 * 7	 03 01 01 VEH_CRAWLER_NO_9_LOGGING_MINING // Action 3
     00 // number of cargo types to define
     B1 00      //default cargo
+
+#undef THIS_VEH_ID
