@@ -1,3 +1,7 @@
+#define THIS_VEH_ID  VEH_TRACTOR_SPEEDYTRAC
+#define THIS_SMOKE_TYPE 27
+#include "../templates/template_smoke.tnfo"
+
 // Speedytrac	Wheeled Tractor (high speed)	34t		1990-2020	50mph
  -1 * 16	 04 01 7F 01 VEH_TRACTOR_SPEEDYTRAC "Speedytrac" 00
  -1 * 44	 04 01 81 01 STR_EXTRA_INFO_TRACTOR_SPEEDYTRAC D0 "Hauls: " 8A "One 19t trailer"
@@ -72,3 +76,5 @@
  -1 * 7	 03 01 01 VEH_TRACTOR_SPEEDYTRAC // Action 3
     00  // Number of different cargo types to support  
     B1 00   // Action 2 ID above
+
+#undef THIS_VEH_ID

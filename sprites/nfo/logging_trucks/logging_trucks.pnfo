@@ -1,5 +1,9 @@
  // --------------------------- Logging Trucks --------------------- //
 
+#define THIS_VEH_ID  VEH_LOGGING_TRUCK_C10
+#define THIS_SMOKE_TYPE 27
+#include "../templates/template_smoke.tnfo"
+
   // Cascade Logging Truck  90t
  -1 * 67	 00 01 \b26 01 VEH_LOGGING_TRUCK_C10
     00 \w1-1-1972  // intro date (min value: 1-1-1920)
@@ -33,6 +37,13 @@
                                 0d 98 "Model: " 8A "1972"
                                 0d 98 
                                 00 
+
+#undef THIS_VEH_ID
+
+#define THIS_VEH_ID  VEH_LOGGING_TRUCK_C16
+#define THIS_SMOKE_TYPE 27
+#include "../templates/template_smoke.tnfo"
+
   // Cascade Logging Truck DOUBLE
  -1 * 67	 00 01 \b26 01 VEH_LOGGING_TRUCK_C16
     00 \w1-1-1972  // intro date (min value: 1-1-1920)
@@ -150,4 +161,6 @@
  -1 * 10	 03 01 01 VEH_LOGGING_TRUCK_C16 // Action 3 Cascade DOUBLE
     00  // Number of cargo types  
     C1 00   // default sprites
+    
+#undef THIS_VEH_ID    
 // --------------------------- end of Logging Trucks --------------------- //

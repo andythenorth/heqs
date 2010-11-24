@@ -1,3 +1,7 @@
+#define THIS_VEH_ID  VEH_TRACTOR_SUPER_SPEEDYTRAC
+#define THIS_SMOKE_TYPE 27
+#include "../templates/template_smoke.tnfo"
+
 // Super Speedytrac	Wheeled Tractor (high speed)	40t		2005-2050	60mph
 -1 * 67	 00 01 19 01 VEH_TRACTOR_SUPER_SPEEDYTRAC
     00 00 00  // intro date (min value: 1-1-1920) 
@@ -69,4 +73,4 @@
     00  // Number of different cargo types to support  
     B1 00   // Action 2 ID above
 
-  // ----------------------- end of Wheeled Tractors -------------------- //
+#undef THIS_VEH_ID

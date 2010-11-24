@@ -30,6 +30,10 @@
 
 #include "../templates/standard_crops_offsets_1/4-8.tnfo"
 
+
+#define THIS_SMOKE_TYPE 27
+#include "../templates/template_smoke.tnfo"
+
  // road version
  -1 * 67	 00 01 \b25 01 VEH_TRUCK_GMUND_MOG 
     00 00 00  // intro date (min value: 1-1-1920) 
