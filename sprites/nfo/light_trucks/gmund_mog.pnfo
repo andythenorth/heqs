@@ -25,7 +25,7 @@
                                00
 
 
-#define THIS_PCX_FILE         light_trucks.pcx     // used in action 1 template (must include file extension)
+#define THIS_PCX_FILE         gmund_mog.png     // used in action 1 template (must include file extension)
 #define THIS_VEH_ID VEH_TRUCK_GMUND_MOG            // used for conditional properties (smoke)
 
 #include "../templates/standard_crops_offsets_1/4-8.tnfo"
@@ -78,7 +78,7 @@
       00 00 // loaded sprites
 
  -1 * 4	 01 01 01 01 // buy menu sprites - not templated, too specific to each vehicle 
- -1 sprites/graphics/light_trucks.pcx 176 25 01 12 28 -21 -6
+ -1 sprites/graphics/gmund_mog.png 176 25 01 12 28 -21 -6
  -1 * 9	 02 01 FF // use FF as standard ID for start of buy menu graphics chain 
       01 // number loading states
       01 // number loaded states
@@ -174,14 +174,14 @@
  -1 * 4	 01 00 01 08      // Action 1 | RV | 1 sprite set | 8 members 
   // no templating for rail vehicles in HEQS at time of writing this comment
   // 1st company colour
-  1 sprites/graphics/light_trucks.pcx   0  0  01 18  8  -3 -14
-  2 sprites/graphics/light_trucks.pcx  16  0  09 16 20  -9 -11
-  3 sprites/graphics/light_trucks.pcx  48  0  01 12 28  -6  -8
-  4 sprites/graphics/light_trucks.pcx  96  0  09 16 20  -1  -7
-  5 sprites/graphics/light_trucks.pcx 128  0  01 18  8  -3  -6
-  6 sprites/graphics/light_trucks.pcx 144  0  09 16 20 -17  -7
-  7 sprites/graphics/light_trucks.pcx 176  0  01 12 28 -22  -8
-  8 sprites/graphics/light_trucks.pcx 224  0  09 16 20  -9 -11
+  1 sprites/graphics/gmund_mog.png   0  0  01 18  8  -3 -14
+  2 sprites/graphics/gmund_mog.png  16  0  09 16 20  -9 -11
+  3 sprites/graphics/gmund_mog.png  48  0  01 12 28  -6  -8
+  4 sprites/graphics/gmund_mog.png  96  0  09 16 20  -1  -7
+  5 sprites/graphics/gmund_mog.png 128  0  01 18  8  -3  -6
+  6 sprites/graphics/gmund_mog.png 144  0  09 16 20 -17  -7
+  7 sprites/graphics/gmund_mog.png 176  0  01 12 28 -22  -8
+  8 sprites/graphics/gmund_mog.png 224  0  09 16 20  -9 -11
  -1 * 9	 02 00 B1
       01 // number loading states
       01 // number loaded states

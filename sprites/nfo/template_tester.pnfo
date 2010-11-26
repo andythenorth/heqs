@@ -41,7 +41,7 @@
       00 00 // loading sprites
       00 00 // loaded sprites
  -1 * 4	 01 01 01 01 // buy menu sprites
- -1 sprites/graphics/light_trucks.pcx 176 25 01 12 28 -22 -8
+ -1 sprites/graphics/gmund_mog.png 176 25 01 12 28 -22 -8
  -1 * 9	 02 01 FF // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
