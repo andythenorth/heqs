@@ -66,16 +66,20 @@
 #include "../templates/template_smoke.tnfo"
 
 // real sprites
- -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members 
-// 1st company colour
+ -1 * 4	 01 01 02 08      // Action 1 | RV | 1 sprite set | 8 members 
+// 1st company colour empty
 #define THIS_Y_POS  25
 #include "../templates/template_standard_rv_real_sprites_1.tnfo"
 
+// 1st company colour loaded
+#define THIS_Y_POS  50
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
  -1 * 9	 02 01 A0
-      01 // number loading states
-      01 // number loaded states
-      00 00 // loading sprites
-      00 00 // loaded sprites
+      02 // number loading states
+      02 // number loaded states
+      00 00  01 00 // loading sprites
+      00 00  01 00 // loaded sprites
 
  -1 * 4	 01 01 01 01 // buy menu sprites - not templated, too specific to each vehicle 
  -1 sprites/graphics/gmund_mog.png 176 25 01 12 28 -21 -6
