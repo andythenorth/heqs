@@ -16,39 +16,52 @@
 // warning about colour codes in action 8
 //@@WARNING DISABLE 144
 
- -1 * -1   14
-  "C" "INFO"
-      "B" "VRSN" \w4 \d{{REPO_REVISION}}
-      "B" "MINV" \w4 \d407
-  	  "B" "PALS" \w1 "W" //palette
-      00
-    00    
+-1 * -1   14
+"C" "INFO"
+    "B" "VRSN" \w4 \d{{REPO_REVISION}}
+    "B" "MINV" \w4 \d407
+    "B" "PALS" \w1 "W" //palette
+    00
+  00    
 
-    1 * 128	 08 07 {{GRF_ID}} "{{GRF_TITLE}}" 00 "\8EHeavy Equipment Set. \n"
-	 "\98Brought to you by andythenorth "
-	 "with help from many, including Ammler, Dan MacKellar, Dalestan, "
-	 "David Dallaston (PikkaBird), Eddi, Frosch, Planetmaker "
-	 "and Richard Wheeler (Zephyris)"
-	 " " 00
+1 * 128	 08 07 {{GRF_ID}} "{{GRF_TITLE}}" 00 "\8EHeavy Equipment Set. \n"
+  "\98Brought to you by andythenorth "
+  "with help from many, including Ammler, Dan MacKellar, Dalestan, "
+  "David Dallaston (PikkaBird), Eddi, Frosch, Planetmaker "
+  "and Richard Wheeler (Zephyris)"
+  " " 00
 
-    1 * 134	 00 08 01 20 00 09 // Cargo translation table
-      "PASS" "COAL" "MAIL" "OIL_"     // 00 - 03, 01 - 08
-      "LVST" "GOOD" "GRAI" "WOOD"     // 04 - 07, 10 - 80
-      "IORE" "STEL" "VALU" "PAPR"     // 08 - 0B, 01^ - 08^
-      "FOOD" "FRUT" "CORE" "WATR"     // 0C - 0F, 10^ - 80^
-      "RUBR" "MILK" "PETR" "RFPR"     // 10 - 13, 01^^ - 08^^
-      "ALUM" "SCRP" "CLAY" "___G"     // 14 - 17, 10^^ - 80^^
-      "AORE" "SAND" "GRVL" "WHEA"     // 18 - 1B, 01^^^ - 08^^^
-      "GOLD" "MAIZ" "TWOD" "DIAM"     // 1C - 1F, 10^^^ - 80^^^
+1 * 134	 00 08 01 20 00 09 // Cargo translation table
+  "PASS" "COAL" "MAIL" "OIL_"     // 00 - 03, 01 - 08
+  "LVST" "GOOD" "GRAI" "WOOD"     // 04 - 07, 10 - 80
+  "IORE" "STEL" "VALU" "PAPR"     // 08 - 0B, 01^ - 08^
+  "FOOD" "FRUT" "CORE" "WATR"     // 0C - 0F, 10^ - 80^
+  "RUBR" "MILK" "PETR" "RFPR"     // 10 - 13, 01^^ - 08^^
+  "ALUM" "SCRP" "CLAY" "___G"     // 14 - 17, 10^^ - 80^^
+  "AORE" "SAND" "GRVL" "WHEA"     // 18 - 1B, 01^^^ - 08^^^
+  "GOLD" "MAIZ" "TWOD" "DIAM"     // 1C - 1F, 10^^^ - 80^^^
 
-   // -- Sounds -- //
+
+// Notify user by means of an error, if engine pool is disabled
+-1 * 0    07 85 01 \71 78 01
+-1 * 0    0B 01 7F 02 "adv. setting '" 94 "vehicle->Enable multiple NewGRF vehicle sets'" 89 " = " 8E "ON" 00
+
+// set purchase cost base for road vehicles - may affect other road vehicle grfs for 0.7er branch of OpenTTD
+-1 * 0    00 08 01 01 12 08
+  0A // road vehicle purchase cost (default is 08, adding 1 doubles, subtract 1 halves)
+  
+// set running cost base for road vehicles - may affect other road vehicle grfs for 0.7er branch of OpenTTD
+-1 * 0    00 08 01 01 2E 08
+  0A // road vehicle purchase cost (default is 08, adding 1 doubles, subtract 1 halves)
+
+   
+// -- Global Parameters -- //
+   
+   -1 * 00 0D 8E \D= FF 00 \d02   // set train depot view y offset
+   
+   
+// -- Sounds -- //
 
 //    3 * 3	 11 01 00
 //    4 **	 sprites/sounds/74_tractor.wav   
-
-   // -- End Sounds -- //
    
-   
-   // -- Global Parameters -- //
-   
-   -1 * 00 0D 8E \D= FF 00 \d02   // set train depot view y offset
