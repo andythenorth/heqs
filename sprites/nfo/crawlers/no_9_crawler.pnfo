@@ -1,3 +1,24 @@
+// chain to set vehicle properties is shared between both vehicles
+-1 * 18	 02 01 E3  // handle setting speed - check property type cb requires
+         81 C4 00  FF // check current year (base 1920)
+           \b1 // range
+             08 80 \b00 \b59 // 9mph before 1980   // can't escape the first byte of cb results here, stupid - use hex instead
+           0A 80 // 11mph default
+-1 * 18	 02 01 E2  // handle setting weight - check property type cb requires
+         81 C4 00  FF // check current year (base 1920)
+           \b2 // range
+             F0 80 \b49 \b59 // before 1980   // can't escape the first byte of cb results here, stupid - use hex instead
+             F8 80 \b60 \b70 // before 1991   // can't escape the first byte of cb results here, stupid - use hex instead
+           FF 80 // default
+-1 * 18	 02 01 E1  // handle setting power - check property type cb requires
+         81 C4 00  FF // check current year (base 1920)
+           \b3 // range
+             3E 80 \b49 \b59 // 620hp before 1980
+             46 80 \b60 \b70 // 700hp before 1991
+             4D 80 \b71 \b84 // 770hp before 2005
+           52 80 // 820hp default
+           
+
 #define THIS_VEH_ID  VEH_CRAWLER_NO_9_GENERAL_PURPOSE
 #define THIS_SMOKE_TYPE 28
 #include "../templates/template_smoke.tnfo"
@@ -268,16 +289,27 @@
                  B5 00 06 06
                  B5 00 07 07
                FF FF //otherwise end the callback chain
--1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+-1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler
                82 40 10 FF // check vehicle length    
                01 // check one range
                  F0 00 00 00 // if length is 0 use purchase menu sprite
                B2 00 // else go to action 2 to apply graphics
+
+// chain to set properties defined above - shared between both vehicles
+-1 * 18	 02 01 E0  // handle changing properties - check property type cb requires
+               81 10 00 FF //
+               \b03 // range
+                 E1 00  13 13 // set power
+                 E2 00  14 14 // set weight
+                 E3 00  15 15 // set speed
+               F1 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
+
 -1 * 14	 02 01 B1
                81 0C 00 FF // handle callbacks
-               01 // range
-                B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
-               B6 00 // default ID
+               \b2 // range
+                 B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+                 E0 00  36 36 // change vehicle properties
+               B6 00 // default
 -1 * 7	 03 01 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE // Action 3
     00 // number of cargo types to define
     B1 00      // Action 2 ID for default cargo
@@ -438,15 +470,26 @@
                  VEH_DRAWBAR 80 05 05
                  B5 00 06 06
                FF FF //otherwise end the callback chain
--1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+-1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler
                82 40 10 FF // check vehicle length    
                01 // check one range
                  F0 00 00 00 // if length is 0 use purchase menu sprite
                B2 00 // else go to action 2 to apply graphics
+
+// chain to set properties defined above - shared between both vehicles
+-1 * 18	 02 01 E0  // handle changing properties - check property type cb requires
+               81 10 00 FF //
+               \b03 // range
+                 E1 00  13 13 // set power
+                 E2 00  14 14 // set weight
+                 E3 00  15 15 // set speed
+               F1 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
+
 -1 * 14	 02 01 B1
-               81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
-               01 // range
-                B0 00 16 16 // articulated vehicle CB
+               81 0C 00 FF // handle callbacks
+               \b2 // range
+                 B0 00  16 16 // articulated vehicle CB
+                 E0 00  36 36 // change vehicle properties
                B6 00 // 
 -1 * 7	 03 01 01 VEH_CRAWLER_NO_9_LOGGING_MINING // Action 3
     00 // number of cargo types to define

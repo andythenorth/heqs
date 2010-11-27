@@ -126,7 +126,7 @@
                01 //check one ranges
                  VEH_LOGGING_TRUCK_TRAILER_2 80 01 01 //give callback result
                FF FF //otherwise end the callback chain
- -1 * 14	 02 01 B2 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+ -1 * 14	 02 01 B2 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler
                82 40 10 FF // check vehicle length    
                01 // check one range
                  FA 00 00 00 // if length is 0 use purchase menu sprite
@@ -144,7 +144,7 @@
                  VEH_DRAWBAR 80 02 02 //give callback result
                  VEH_LOGGING_TRUCK_TRAILER_6 80 03 03 //give callback result
                FF FF //otherwise end the callback chain
- -1 * 14	 02 01 C2 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+ -1 * 14	 02 01 C2 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler
                82 40 10 FF // check vehicle length    
                01 // check one range
                  FB 00 00 00 // if length is 0 use purchase menu sprite

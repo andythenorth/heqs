@@ -1,3 +1,27 @@
+// chain to set vehicle properties is shared between both vehicles
+-1 * 18	 02 01 E3  // handle setting speed - check property type cb requires
+         81 C4 00  FF // check current year (base 1920)
+           \b1 // range
+             08 80 \b00 \b48 // 9mph before 1969   // can't escape the first byte of cb results here, stupid - use hex instead
+           0A 80 // 11mph default
+-1 * 18	 02 01 E2  // handle setting weight - check property type cb requires
+         81 C4 00  FF // check current year (base 1920)
+           \b3 // range
+             70 80 \b00 \b34 // before 1955   // can't escape the first byte of cb results here, stupid - use hex instead
+             80 80 \b35 \b48 // before 1969   // can't escape the first byte of cb results here, stupid - use hex instead
+             90 80 \b49 \b59 // before 1980   // can't escape the first byte of cb results here, stupid - use hex instead
+           A8 80 // default
+-1 * 18	 02 01 E1  // handle setting power - check property type cb requires
+         81 C4 00  FF // check current year (base 1920)
+           \b5 // range
+             20 80 \b00 \b34 // 320hp before 1955   // can't escape the first byte of cb results here, stupid - use hex instead
+             24 80 \b35 \b48 // 360hp before 1969
+             28 80 \b49 \b59 // 400hp before 1980
+             2C 80 \b60 \b70 // 440hp before 1991
+             30 80 \b71 \b84 // 480hp before 2005
+           34 80 // 520hp default
+
+
 #define THIS_VEH_ID  VEH_CRAWLER_NO_8_GENERAL_PURPOSE
 #define THIS_SMOKE_TYPE 28
 #include "../templates/template_smoke.tnfo"
@@ -19,7 +43,7 @@
     11 34     // cost factor
     12 17     // sound effect
     13 \b35   // power in 10 hp
-    14 \b144  // weight in 1/4 tons
+    14 \b168  // weight in 1/4 tons
     15 \b11   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
@@ -223,17 +247,17 @@
 -1 * 1	 00
 -1 sprites/graphics/bulldozers.pcx 370 933 01 12 36 -27 -6
 -1 * 1	 00
--1 * 9	 02 01 E1 //action2 - buy menu sprites (standard drive open cab)
+-1 * 9	 02 01 F1 //action2 - buy menu sprites (standard drive open cab)
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
--1 * 9	 02 01 E2 //action2 - buy menu sprites (high drive 2cc cab)
+-1 * 9	 02 01 F2 //action2 - buy menu sprites (high drive 2cc cab)
       01 // number loading states
       01 // number loaded states
       01 00 // loading sprites
       01 00 // loaded sprites
--1 * 9	 02 01 E3 //action2 - buy menu sprites (high drive black cab)
+-1 * 9	 02 01 F3 //action2 - buy menu sprites (high drive black cab)
       01 // number loading states
       01 // number loaded states
       02 00 // loading sprites
@@ -242,32 +266,32 @@
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_GP_6 80 23 23 // text for vehicle window
-                 E3 00 //otherwise go to next action 2 ID 
+                 F3 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FE // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_GP_5 80 23 23 // text for vehicle window
-                 E2 00 //otherwise go to next action 2 ID 
+                 F2 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FD // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_GP_4 80 23 23 // text for vehicle window
-                 E2 00 //otherwise go to next action 2 ID 
+                 F2 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FC // buy menu
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_GP_3 80 23 23 // text for vehicle window
-                 E1 00 //otherwise go to next action 2 ID 
+                 F1 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FB // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_GP_2 80 23 23 // text for vehicle window
-                 E1 00 //otherwise go to next action 2 ID 
+                 F1 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FA // buy menu
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_GP_1 80 23 23 // text for vehicle window
-                 E1 00 //otherwise go to next action 2 ID 
+                 F1 00 //otherwise go to next action 2 ID 
 -1 * 30	 02 01 F0 // buy menu
            81 01 00  FF // check current year
            05 // range
@@ -277,6 +301,7 @@
              FD 00 \b60 \b70 // action 2 for setting graphics / text before 1991
              FE 00 \b71 \b84 // action 2 for setting graphics / text before 2005
            FF 00 // default graphics / text
+           
 -1 * 15	 02 01 C1
                83 00 00 // randomise graphics (83 is per engine)
                04 //check two ranges (choose blade or no blade)
@@ -325,17 +350,28 @@
                  B5 00 03 03 //
                  B5 00 04 04 //
                FF FF //otherwise end the callback chain
--1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+-1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler// deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler 
                82 40 10 FF // check vehicle length    
                01 // check one range
                  F0 00 00 00 // if length is 0 use purchase menu sprite
                B2 00 // else go to action 2 to apply graphics
+
+// chain to set properties defined above - shared between both vehicles
+-1 * 18	 02 01 E0  // handle changing properties - check property type cb requires
+               81 10 00 FF //
+               \b03 // range
+                 E1 00  13 13 // set power
+                 E2 00  14 14 // set weight
+                 E3 00  15 15 // set speed
+               AA 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
+
 -1 * 18	 02 01 B1
-               81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
-               02 //check one range
-                00 80 11 11 // vehicle length CB
-                B0 00 16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
-               B6 00 // go to ID A1
+               81 0C 00 FF // handle callbacks
+               \b3 // range
+                 00 80  11 11 // vehicle length CB
+                 B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
+                 E0 00  36 36 // change vehicle properties
+               B6 00 // default
 -1 * 7	 03 01 01 VEH_CRAWLER_NO_8_GENERAL_PURPOSE // Action 3 
     00 // number of cargo types to define
     B1 00 // default
@@ -363,7 +399,7 @@
     11 34     // cost factor
     12 17     // sound effect
     13 \b35   // power in 10 hp
-    14 \b144  // weight in 1/4 tons
+    14 \b168  // weight in 1/4 tons
     15 \b11   // speed in mph * 0.8
     16 C0 20 00 68     // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes fruit, grain, wheat, maize; includes Wood, tropical wood
@@ -423,17 +459,17 @@
 -1 * 1	 00
 -1 sprites/graphics/bulldozers.pcx 370 893 01 12 36 -23 -6
 -1 * 1	 00
--1 * 9	 02 01 E1 //action2 - buy menu sprites (standard drive open cab)
+-1 * 9	 02 01 F1 //action2 - buy menu sprites (standard drive open cab)
       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
--1 * 9	 02 01 E2 //action2 - buy menu sprites (high drive 2cc cab)
+-1 * 9	 02 01 F2 //action2 - buy menu sprites (high drive 2cc cab)
       01 // number loading states
       01 // number loaded states
       01 00 // loading sprites
       01 00 // loaded sprites
--1 * 9	 02 01 E3 //action2 - buy menu sprites (high drive black cab)
+-1 * 9	 02 01 F3 //action2 - buy menu sprites (high drive black cab)
       01 // number loading states
       01 // number loaded states
       02 00 // loading sprites
@@ -442,32 +478,32 @@
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_6 80 23 23 // text for vehicle window
-                 E3 00 //otherwise go to next action 2 ID 
+                 F3 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FE // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_5 80 23 23 // text for vehicle window
-                 E2 00 //otherwise go to next action 2 ID 
+                 F2 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FD // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_4 80 23 23 // text for vehicle window
-                 E2 00 //otherwise go to next action 2 ID 
+                 F2 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FC // buy menu
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_3 80 23 23 // text for vehicle window
-                 E1 00 //otherwise go to next action 2 ID 
+                 F1 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FB // buy menu 
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_2 80 23 23 // text for vehicle window
-                 E1 00 //otherwise go to next action 2 ID 
+                 F1 00 //otherwise go to next action 2 ID 
 -1 * 14	 02 01 FA // buy menu
                  81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
                  01 // range
                    STR_EXTRA_INFO_CRAWLER_NO_8_LOGGING_MINING_1 80 23 23 // text for vehicle window
-                 E1 00 //otherwise go to next action 2 ID 
+                 F1 00 //otherwise go to next action 2 ID 
 -1 * 30	 02 01 F0 // buy menu
            81 01 00  FF // check current year
            05 // range
@@ -525,17 +561,28 @@
                  VEH_DRAWBAR 80 03 03 //
                  B5 00 04 04 //
                FF FF //otherwise end the callback chain
--1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+-1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler
                82 40 10 FF // check vehicle length    
                01 // check one range
                  F0 00 00 00 // if length is 0 use purchase menu sprite
                B2 00 // else go to action 2 to apply graphics
+               
+// chain to set properties defined above - shared between both vehicles
+-1 * 18	 02 01 E0  // handle changing properties - check property type cb requires
+               81 10 00 FF //
+               \b03 // range
+                 E1 00  13 13 // set power
+                 E2 00  14 14 // set weight
+                 E3 00  15 15 // set speed
+               AA 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
+               
 -1 * 18	 02 01 B1
-               81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
-               02 // range
-                01 80 11 11 // vehicle length CB
-                B0 00 16 16 // articulated vehicle CB
-               B6 00 // go to ID A1
+               81 0C 00 FF // handle callbacks
+               \b3 // range
+                 01 80  11 11 // vehicle length CB
+                 B0 00  16 16 // articulated vehicle CB
+                 E0 00  36 36 // change vehicle properties
+               B6 00 // default
 -1 * 7	 03 01 01 VEH_CRAWLER_NO_8_LOGGING_MINING // Action 3
     00 // number of cargo types to define
     B1 00

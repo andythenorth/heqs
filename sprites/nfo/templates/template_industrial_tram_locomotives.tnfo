@@ -42,7 +42,7 @@
                  07 80  00 00 // refit 1 (3 or 4 wagons)
                THIS_LENGTH_ADJUST 80 // default otherwise use actual length of vehicle
 
- -1 * 14	 02 01 C1 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+ -1 * 14	 02 01 C1 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler
                82 40 10 FF // check vehicle length    
                01 // check one range
                  F0 00  00 00 // if length is 0 use purchase menu sprite

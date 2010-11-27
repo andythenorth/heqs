@@ -64,7 +64,7 @@
                01 //range
                  VEH_MINING_TRUCK_TRAILER_1 80 01 01 //
                FF FF //otherwise end the callback chain
--1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution)
+-1 * 14	 02 01 B6 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler
                82 40 10 FF // check vehicle length    
                01 //range
                  F0 00 00 00 // if length is 0 use purchase menu sprite
