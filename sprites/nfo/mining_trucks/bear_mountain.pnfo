@@ -11,7 +11,7 @@
     06 0F             // climate
     07 05             // load amount
     08 \b112          // speed in mph * 3.2
-    09 50             // running cost factor
+    09 FE             // running cost factor
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID
     0F 00             // capacity
@@ -19,7 +19,7 @@
     11 5D             // cost factor
     12 17             // sound effect
     13 \b77           // power in 10 hp
-    14 \b172          // weight in 1/4 tons (n.b. for aRV *don't* include weight of trailers, it will result in too high a T/E)
+    14 \b196          // weight in 1/4 tons (n.b. for aRV *don't* include weight of trailers, it will result in too high a T/E)
     15 \b28           // speed in mph * 0.8
     16 40 00 00 28    // Bit mask of cargo types available for refitting
     // flips 1D / 1E values: excludes grain, wheat, maize
