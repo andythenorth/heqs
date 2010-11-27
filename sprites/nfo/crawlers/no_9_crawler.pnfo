@@ -1,3 +1,7 @@
+//shared props
+#define THIS_RUN_COST           61
+#define THIS_PURCHASE_COST      7F
+
 // chain to set vehicle properties is shared between both vehicles
 -1 * 18	 02 01 E3  // handle setting speed - check property type cb requires
          81 C4 00  FF // check current year (base 1920)
@@ -17,7 +21,6 @@
              46 80 \b60 \b70 // 700hp before 1991
              4D 80 \b71 \b84 // 770hp before 2005
            52 80 // 820hp default
-           
 
 #define THIS_VEH_ID  VEH_CRAWLER_NO_9_GENERAL_PURPOSE
 #define THIS_SMOKE_TYPE 28
@@ -32,12 +35,12 @@
     06 0F     // climate 
     07 05     // load amount 
     08 \b45   // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 THIS_RUN_COST      // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
-    11 34     // cost factor
+    11 THIS_PURCHASE_COST // cost factor
     12 17     // sound effect
     13 \b77   // power in 10 hp
     14 \b224  // weight in 1/4 tons
@@ -329,12 +332,12 @@
     06 0F     // climate 
     07 05     // load amount 
     08 \b45   // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 THIS_RUN_COST      // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
-    11 34     // cost factor
+    11 THIS_PURCHASE_COST // cost factor
     12 17     // sound effect
     13 \b77   // power in 10 hp
     14 \b224  // weight in 1/4 tons
@@ -496,3 +499,6 @@
     B1 00      //default cargo
 
 #undef THIS_VEH_ID
+
+#undef THIS_RUN_COST           
+#undef THIS_PURCHASE_COST      

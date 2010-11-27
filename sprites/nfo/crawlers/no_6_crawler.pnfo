@@ -1,3 +1,7 @@
+//shared props
+#define THIS_RUN_COST           2A
+#define THIS_PURCHASE_COST      23
+
 // chain to set vehicle properties is shared between both vehicles
 -1 * 18	 02 01 E3  // handle setting speed - check property type cb requires
          81 C4 00  FF // check current year (base 1920)
@@ -33,12 +37,12 @@
     06 0F     // climate 
     07 05     // load amount 
     08 \b48   // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 THIS_RUN_COST      // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 08     // cargo type
-    11 34     // cost factor
+    11 THIS_PURCHASE_COST // cost factor
     12 17     // sound effect
     13 \b20   // power in 10 hp
     14 \b84   // weight in 1/4 tons
@@ -267,12 +271,12 @@
     06 0F     // climate 
     07 05     // load amount 
     08 \b48   // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 THIS_RUN_COST      // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 08     // cargo type
-    11 34     // cost factor
+    11 THIS_PURCHASE_COST // cost factor
     12 17     // sound effect
     13 \b20   // power in 10 hp
     14 \b84  // weight in 1/4 tons
@@ -487,3 +491,6 @@
       C0 00   // default sprites
 
 #undef THIS_VEH_ID
+
+#undef THIS_RUN_COST           
+#undef THIS_PURCHASE_COST
