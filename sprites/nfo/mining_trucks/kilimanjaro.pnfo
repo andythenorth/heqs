@@ -31,12 +31,12 @@
     06 0F             // climate
     07 05             // load amount
     08 \b182          // speed in mph * 3.2
-    09 50             // running cost factor
+    09 A8             // running cost factor
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID
     0F \b160          // capacity
     10 FF             // cargo type 
-    11 5D             // cost factor
+    11 A9             // cost factor
     12 1A             // sound effect
     13 \b160          // power in 10 hp
     14 \b252          // weight in 1/4 tons

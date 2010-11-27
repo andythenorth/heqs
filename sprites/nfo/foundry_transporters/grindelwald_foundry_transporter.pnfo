@@ -10,12 +10,12 @@
     06 0F             // climate availability - use 0F for all, 00 none (to hide vehicle)
     07 30             // load amount
     08 \b70          // speed in mph * 3.2
-    09 50             // running cost factor
+    09 3F             // running cost factor
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID
     0F \b55           // capacity
     10 FF             // cargo type 
-    11 5D             // cost factor
+    11 35             // cost factor
     12 19             // sound effect
     13 \b24           // power in 10 hp
     14 \b80           // weight in 1/4 tons
