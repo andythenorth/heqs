@@ -21,7 +21,7 @@
     11 5D     // cost factor
     12 19     // sound effect
     13 \b52   // power in 10 hp
-    14 \b68   // weight in 1/4 tons
+    14 \b92   // weight in 1/4 tons
     15 \b32   // speed in mph * 0.8
     16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
@@ -61,7 +61,7 @@
     11 5D     // cost factor
     12 19     // sound effect
     13 \b60   // power in 10 hp
-    14 \b76   // weight in 1/4 tons
+    14 \b128   // weight in 1/4 tons
     15 \b24   // speed in mph * 0.8
     16 80 00 00 40     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
