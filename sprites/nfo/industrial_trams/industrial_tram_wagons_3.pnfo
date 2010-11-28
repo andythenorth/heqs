@@ -1,7 +1,7 @@
 // Industrial Tram Wagon Medium
 
 #define THIS_LENGTH_ADJUST    03
-#define THIS_CAPACITY         1A // do this in hex - escapes are a hassle here for various reasons
+#define THIS_CAPACITY         14 // do this in hex - escapes are a hassle here for various reasons
 #define THIS_PCX_FILE         industrial_tram_wagons_3.pcx     // used in action 1 template (must include file extension)
    
 #define THIS_OFFS_X_Y_1   -3 -12
@@ -44,11 +44,11 @@
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_3 "[Tram Wagon 3]" 00
  -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_A D0
-            		" (104t in 4 wagons)" 00	// D000
+            		" (80t in 4 wagons)" 00	// D000
  -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_B D0
-               	" (234t in 9 wagons)" 00	// D001
+               	" (180t in 9 wagons)" 00	// D001
  -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_C D0
-               	" (390t in 15 wagons)" 00	// D002
+               	" (300t in 15 wagons)" 00	// D002
 
 #include "../templates/template_industrial_tram_wagons_action1_2.tnfo"
   
