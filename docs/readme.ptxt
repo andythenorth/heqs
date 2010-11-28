@@ -17,6 +17,15 @@ Repository version: {{REPO_REVISION}}
 
 Changelog
 
+*version 0.9.6*
+Set running and purchase costs for all vehicles (most are a *lot* more expensive).
+Sparks effect for trams (needs OpenTTD r21240 or newer).
+Power, speed and weight increases over time for No. 6, No. 8 and No. 9 crawlers.
+Reduced capacity of Ishizuchi Tram to better match common train sets.
+Set capacity of Gmund Mog rail version to 0 - it doesn't carry cargo.
+Small improvements to appearance of Gmund Mog.
+Some truck weights increased to allow for weight of trailers.
+
 *version 0.9.5*
 Most vehicles now show smoke effects when accelerating (needs OpenTTD r21240 or newer).
 
