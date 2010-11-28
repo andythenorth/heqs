@@ -163,7 +163,7 @@
     0D 1E // running cost factor  
     0E 36 4C 00 00 // running cost base  
     12 FD    // sprite ID
-    14 \b04  // capacity (default cargo is goods, so 2 crates = 1t)
+    14 \b00  // capacity (default cargo is goods, so 2 crates = 1t)
     15 05    // cargo type
     16 \b11  // weight in tons
     17 03    // cost factor (purchase cost)
