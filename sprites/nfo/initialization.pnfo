@@ -21,6 +21,28 @@
 -1 * 0    07 85 01 \71 78 01
 -1 * 0    0B 01 7F 02 "adv. setting '" 94 "vehicle->Enable multiple NewGRF vehicle sets'" 89 " = " 8E "ON" 00
 
+-1 * 0 0D PARAM_PURCHASE_COST \D= 01 00
+-1 * 0 0D PARAM_RUNNING_COST \D= 00 00
+#define TEMP_PARAM 12 // For use to check platform and version
+
+-1 * 0 09 //Action 9
+	9D //variable: ttd platform
+	04 //varsize in bytes
+	\7! //condition: equal
+	\d0 //value: 0
+	01 //skip next 1 to not check the wrong version
+-1 * 0  0D TEMP_PARAM \D= FF 00 \d01 // set temp parameter to interpret default value 0 for parameters
+
+-1 * 0  09 9D 04 \7! \d1 02 // skip if not OpenTTD (OTTD specific stuff follows)
+//skip if ottd > 1.1.0 r20602
+-1 * 0 09 //Action 9
+			A1 //variable: openttd version
+			04 //varsize in bytes
+			\7> //condition: larger
+			\dx11004E76 //value: ottd version 1.1.0 r20602 (507A)
+			04 //skip next 4
+-1 * 0  0D TEMP_PARAM \D= FF 00 \d01
+
 // Apply default offsets (4x expensive as defaults)
 -1 * 0    0D PARAM_PURCHASE_COST \D+ PARAM_PURCHASE_COST FF \d1    // Add 1 in order to make 0A the default.
 -1 * 0    0D PARAM_RUNNING_COST \D+ PARAM_RUNNING_COST FF \d1      // Add 1 in order to make 0A the default.

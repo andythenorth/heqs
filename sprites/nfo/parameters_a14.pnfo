@@ -1,5 +1,5 @@
-#define PARAM_RUNNING_COST  00
-#define PARAM_PURCHASE_COST 01
+#define PARAM_RUNNING_COST  10
+#define PARAM_PURCHASE_COST 11
 -1 * -1   14 
     "C" "INFO"
         "B" "NPAR" \w1 2
