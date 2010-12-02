@@ -1,0 +1,25 @@
+// Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
+    -1 * 4	 76 0B 00 00
+    
+// disable the warning:for newgrfs
+
+// warning about unused IDs
+//@@WARNING DISABLE 94
+//@@WARNING DISABLE 97
+
+// warning about Default ID appears earlier in sprite.
+//@@WARNING DISABLE 100
+
+// warning about high IDs
+//@@WARNING DISABLE 141
+
+// warning about colour codes in action 8
+//@@WARNING DISABLE 144
+
+-1 * -1   14
+"C" "INFO"
+    "B" "VRSN" \w4 \d{{REPO_REVISION}}
+    "B" "MINV" \w4 \d407
+    "B" "PALS" \w1 "W" //palette
+    00
+  00    
