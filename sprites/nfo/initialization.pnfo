@@ -21,27 +21,17 @@
 -1 * 0    07 85 01 \71 78 01
 -1 * 0    0B 01 7F 02 "adv. setting '" 94 "vehicle->Enable multiple NewGRF vehicle sets'" 89 " = " 8E "ON" 00
 
-// Adjust purchase costs automatically. For now just set values to normal
--1 * 0    09 PARAM_PURCHASE_COST \b1 \7! \b0 \b01                   // skip automatic setting of purchase cost, if manually set
--1 * 0    0D PARAM_PURCHASE_COST \D= FF \b0 \d09                    // Set to 0A, if automatically set
-// -1 * 0    09 9A \b1 \7! 00 01                                    // unconditionally skip the next (where we adjust the manual value)
-
-// Adjust running costs automatically. For now just set values to normal
--1 * 0    09 PARAM_RUNNING_COST \b1 \7! \b0 \b01                    // skip automatic setting of running cost, if manually set
--1 * 0    0D PARAM_RUNNING_COST \D= FF \b1 \d09                     // Set to 0A, if automatically set
-// -1 * 0    09 9A \b1 \7! 00 01                                    // unconditionally skip the next (where we adjust the manual value)
-
-// Apply default offsets (8x expensive as defaults)
--1 * 0    0D PARAM_PURCHASE_COST \D+ PARAM_PURCHASE_COST FF \d02    // Add 3 in order to make 0A the default.
--1 * 0    0D PARAM_RUNNING_COST \D+ PARAM_RUNNING_COST FF \d02      // Add 3 in order to make 0A the default.
+// Apply default offsets (4x expensive as defaults)
+-1 * 0    0D PARAM_PURCHASE_COST \D+ PARAM_PURCHASE_COST FF \d1    // Add 1 in order to make 0A the default.
+-1 * 0    0D PARAM_RUNNING_COST \D+ PARAM_RUNNING_COST FF \d1      // Add 1 in order to make 0A the default.
 
 // set purchase cost base for road vehicles - may affect other road vehicle grfs for 0.7er branch of OpenTTD
 -1 * 0    06 PARAM_PURCHASE_COST \b01 \b06 FF
--1 * 0    00 08 01 01 12 08 0A // road vehicle purchase cost (default is 08, adding 1 doubles, subtract 1 halves)
+-1 * 0    00 08 01 01 12 08 00 // road vehicle purchase cost (default is 08, adding 1 doubles, subtract 1 halves)
   
 // set running cost base for road vehicles - may affect other road vehicle grfs for 0.7er branch of OpenTTD
 -1 * 0    06 PARAM_RUNNING_COST \b01 \b06 FF
--1 * 0    00 08 01 01 2E 08 0A // road vehicle running cost (default is 08, adding 1 doubles, subtract 1 halves)
+-1 * 0    00 08 01 01 2E 08 00 // road vehicle running cost (default is 08, adding 1 doubles, subtract 1 halves)
 
    
 // -- Global Parameters -- //

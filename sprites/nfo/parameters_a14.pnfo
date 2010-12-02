@@ -1,0 +1,106 @@
+#define PARAM_RUNNING_COST  00
+#define PARAM_PURCHASE_COST 01
+-1 * -1   14 
+    "C" "INFO"
+        "B" "NPAR" \w1 2
+        "C" "PARA"
+            "C" \d0
+                "T" "NAME" 7F "Adjust running costs" 00 
+                "T" "NAME" 02 "Betriebskosten anpassen" 00 
+                "T" "DESC" 7F "Allows to adjust the running costs of the vehicles within this set (e.g, to balance it against others)" 00 
+                "T" "DESC" 02 "ÞErlaube die Betriebskosten der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00 
+                "B" "LIMI" \w8 \d0 \d18 
+                "B" "DFLT" \w4 \dx00000009
+                "C" "VALU" 
+                    "T" \d0 7F "1 / 512" 00 
+                    "T" \d0 02 "1 / 512" 00 
+                    "T" \d1 7F "1 / 256" 00 
+                    "T" \d1 02 "1 / 256" 00 
+                    "T" \d2 7F "1 / 128" 00 
+                    "T" \d2 02 "1 / 128" 00 
+                    "T" \d3 7F "1 / 64" 00 
+                    "T" \d3 02 "1 / 64" 00 
+                    "T" \d4 7F "1 / 32" 00 
+                    "T" \d4 02 "1 / 32" 00 
+                    "T" \d5 7F "1 / 16" 00 
+                    "T" \d5 02 "1 / 16" 00 
+                    "T" \d6 7F "1 / 8" 00 
+                    "T" \d6 02 "1 / 8" 00 
+                    "T" \d7 7F "1 / 4" 00 
+                    "T" \d7 02 "1 / 4" 00 
+                    "T" \d8 7F "1 / 2" 00 
+                    "T" \d8 02 "1 / 2" 00 
+                    "T" \d9 7F "default" 00 
+                    "T" \d9 02 "normal" 00 
+                    "T" \d10 7F "2x" 00 
+                    "T" \d10 02 "2x" 00 
+                    "T" \d11 7F "4x" 00 
+                    "T" \d11 02 "4x" 00 
+                    "T" \d12 7F "8x" 00 
+                    "T" \d12 02 "8x" 00 
+                    "T" \d13 7F "16x" 00 
+                    "T" \d13 02 "16x" 00 
+                    "T" \d14 7F "32x" 00 
+                    "T" \d14 02 "32x" 00 
+                    "T" \d15 7F "64x" 00 
+                    "T" \d15 02 "64x" 00 
+                    "T" \d16 7F "128x" 00 
+                    "T" \d16 02 "128x" 00 
+                    "T" \d17 7F "256x" 00 
+                    "T" \d17 02 "256x" 00 
+                    "T" \d18 7F "512x" 00 
+                    "T" \d18 02 "512x" 00 
+                    00
+                00
+            "C" \d1
+                "T" "NAME" 7F "Adjust purchase costs" 00 
+                "T" "NAME" 02 "Fahrzeugpreise anpassen" 00 
+                "T" "DESC" 7F "Allows to adjust the purchase costs of the vehicles within this set (e.g, to balance it against others)" 00 
+                "T" "DESC" 02 "ÞErlaube die Listenpreise der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00 
+                "B" "LIMI" \w8 \d0 \d18 
+                "B" "DFLT" \w4 \dx00000009 
+                "C" "VALU" 
+                    "T" \d0 7F "1 / 512" 00 
+                    "T" \d0 02 "1 / 512" 00 
+                    "T" \d1 7F "1 / 256" 00 
+                    "T" \d1 02 "1 / 256" 00 
+                    "T" \d2 7F "1 / 128" 00 
+                    "T" \d2 02 "1 / 128" 00 
+                    "T" \d3 7F "1 / 64" 00 
+                    "T" \d3 02 "1 / 64" 00 
+                    "T" \d4 7F "1 / 32" 00 
+                    "T" \d4 02 "1 / 32" 00 
+                    "T" \d5 7F "1 / 16" 00 
+                    "T" \d5 02 "1 / 16" 00 
+                    "T" \d6 7F "1 / 8" 00 
+                    "T" \d6 02 "1 / 8" 00 
+                    "T" \d7 7F "1 / 4" 00 
+                    "T" \d7 02 "1 / 4" 00 
+                    "T" \d8 7F "1 / 2" 00 
+                    "T" \d8 02 "1 / 2" 00 
+                    "T" \d9 7F "default" 00 
+                    "T" \d9 02 "normal" 00 
+                    "T" \d10 7F "2x" 00 
+                    "T" \d10 02 "2x" 00 
+                    "T" \d11 7F "4x" 00 
+                    "T" \d11 02 "4x" 00 
+                    "T" \d12 7F "8x" 00 
+                    "T" \d12 02 "8x" 00 
+                    "T" \d13 7F "16x" 00 
+                    "T" \d13 02 "16x" 00 
+                    "T" \d14 7F "32x" 00 
+                    "T" \d14 02 "32x" 00 
+                    "T" \d15 7F "64x" 00 
+                    "T" \d15 02 "64x" 00 
+                    "T" \d16 7F "128x" 00 
+                    "T" \d16 02 "128x" 00 
+                    "T" \d17 7F "256x" 00 
+                    "T" \d17 02 "256x" 00 
+                    "T" \d18 7F "512x" 00 
+                    "T" \d18 02 "512x" 00
+                    00
+                00 
+            00
+        00
+    00
+

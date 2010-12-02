@@ -1,4 +1,7 @@
-#include "sprites/nfo/heqs_header.pnfo"
+#include "sprites/nfo/header.pnfo"
+#include "sprites/nfo/parameters_a14.pnfo"
+
+#include "sprites/nfo/initialization.pnfo"
 #include "sprites/nfo/ids.pnfo"
 
 #include "sprites/nfo/heqs_vehicles.pnfo"
