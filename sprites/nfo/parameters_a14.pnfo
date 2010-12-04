@@ -1,5 +1,5 @@
-#define PARAM_RUNNING_COST  10
-#define PARAM_PURCHASE_COST 11
+#define PARAM_RUNNING_COST  00
+#define PARAM_PURCHASE_COST 01
 -1 * -1   14 
     "C" "INFO"
         "B" "NPAR" \w1 2
@@ -10,7 +10,7 @@
                 "T" "DESC" 7F "Allows to adjust the running costs of the vehicles within this set (e.g, to balance it against others)" 00 
                 "T" "DESC" 02 "ÞErlaube die Betriebskosten der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00 
                 "B" "LIMI" \w8 \d0 \d18 
-                "B" "DFLT" \w4 \dx00000009
+                "B" "DFLT" \w4 \d9
                 "C" "VALU" 
                     "T" \d0 7F "1 / 512" 00 
                     "T" \d0 02 "1 / 512" 00 
@@ -58,7 +58,7 @@
                 "T" "DESC" 7F "Allows to adjust the purchase costs of the vehicles within this set (e.g, to balance it against others)" 00 
                 "T" "DESC" 02 "ÞErlaube die Listenpreise der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00 
                 "B" "LIMI" \w8 \d0 \d18 
-                "B" "DFLT" \w4 \dx00000009 
+                "B" "DFLT" \w4 \d9 
                 "C" "VALU" 
                     "T" \d0 7F "1 / 512" 00 
                     "T" \d0 02 "1 / 512" 00 
