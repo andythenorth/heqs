@@ -25,7 +25,7 @@
     0F 00     // capacity
     10 FF     // cargo type
     11 1A     // cost factor
-    12 17     // sound effect
+    12 20     // sound effect
     13 \b9    // power in 10 hp
     14 \b60   // weight in 1/4 tons
     15 \b12   // speed in mph * 0.8
