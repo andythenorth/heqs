@@ -1,34 +1,34 @@
 // Hennigsdorf Industrial Tram (Electric)
 
-#define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_ELECTRIC_2
-#define THIS_LENGTH_ADJUST    03
-#define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_2
-#define THIS_BUY_MENU_STR     STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_2
-#define THIS_RUNCOST_REFIT_1  2F //don't escape, used in cb results which have problems with escaped bytes
-#define THIS_RUNCOST_REFIT_2  53
-#define THIS_RUNCOST_REFIT_3  7B
+#define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_STEAM_1
+#define THIS_LENGTH_ADJUST    05
+#define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_1
+#define THIS_BUY_MENU_STR     STR_INFO_VEH_INDUSTRIAL_TRAM_STEAM_1
+#define THIS_RUNCOST_REFIT_1  23 //don't escape, used in cb results which have problems with escaped bytes
+#define THIS_RUNCOST_REFIT_2  2F
+#define THIS_RUNCOST_REFIT_3  3B
 
-#define THIS_SMOKE_TYPE 38 //actually sparks not smoke
+#define THIS_SMOKE_TYPE 18 //actually sparks not smoke
 #include "../templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_ELECTRIC_2
-    00 \w1-1-1922  // intro date (min value: 1-1-1920) (min value: 1920) 
+ -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_STEAM_1
+    00 \w1-1-1920  // intro date (min value: 1-1-1920) (min value: 1920) 
     02 20     // reliability 
-    03 \b80   // vehicle life 
+    03 \b60   // vehicle life 
     04 \b150  // class life 
     06 0F     // climate 
     07 00     // load amount 
-    08 \b96   // speed in mph * 3.2
+    08 \b48   // speed in mph * 3.2
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
     10 FF     // cargo type
-    11 34     // cost factor
+    11 1A     // cost factor
     12 20     // sound effect
-    13 \b42   // power in 10 hp
-    14 \b184  // weight in 1/4 tons
-    15 \b24   // speed in mph * 0.8
+    13 \b5    // power in 10 hp
+    14 \b60   // weight in 1/4 tons
+    15 \b12   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 12     // Callback flags bit mask
     18 5A     // coefficient of TE
@@ -37,32 +37,32 @@
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03       // Refittable cargo classes
     1E 01 00       // Non-refittable cargo classes
-    1F \d701999    // Long format introduction date  
- -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_ELECTRIC_2 "Hennigsdorf Industrial Tram" 00
- -1 * 87	 04 01 81 01 STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_2 DC "Can be refitted to haul:\8A"
+    1F \d694995    // Long format introduction date  
+ -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_STEAM_1 "Maerkische Industrial Tram" 00
+ -1 * 87	 04 01 81 01 STR_INFO_VEH_INDUSTRIAL_TRAM_STEAM_1 DC "Can be refitted to haul:\8A"
   "\0D45t in three wagons"
   "\0D135t in nine wagons"
   "\0D225t in fifteen wagons (may be slow uphill)\0D"
                                00
  -1 * 4	 01 01 02 08
-  // Electric Locomotive Type 2 version A
- -1 sprites/graphics/industrial_tram_locomotives.png    0 40  01  18  8   -3 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 40  09  16 20  -14  -5
- -1 sprites/graphics/industrial_tram_locomotives.png   48 40  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 40  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png    0 40  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 40  09  16 20  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   48 40  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 40  09  16 20   -4  -6
-  // Electric Locomotive Type 2 version B
- -1 sprites/graphics/industrial_tram_locomotives.png    0 40  01  18  8   -3 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 40  09  16 20  -14  -5
- -1 sprites/graphics/industrial_tram_locomotives.png   48 40  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 40  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png    0 40  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 40  09  16 20  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   48 40  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 40  09  16 20   -4  -6
+  // Steam Locomotive Type 1 version A
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 120  01  18  8   -3 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 120  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 120  01  12 28  -13  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 120  09  16 20   -5  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 120  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png  144 120  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  176 120  01  12 28  -13  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  224 120  09  16 20   -4  -6
+  // Steam Locomotive Type 1 version B
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 140  01  18  8   -3 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 140  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 140  01  12 28  -13  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 140  09  16 20   -5  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 140  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png  144 140  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  176 140  01  12 28  -13  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  224 140  09  16 20   -4  -6
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
@@ -76,11 +76,11 @@
  -1 * 4	 01 01 02 04 // buy menu sprites
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/graphics/industrial_tram_locomotives.png  256 40  01  12 36  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  256 120  01  12 36  -14  -6
  -1 * 1	 00
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/graphics/industrial_tram_locomotives.png  256 40  01  12 36  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  256 120  01  12 36  -14  -6
  -1 * 1	 00
  -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
