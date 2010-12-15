@@ -17,6 +17,16 @@ Repository version: {{REPO_REVISION}}
 
 Changelog
 
+*version 1.0*
+It's version 1.0.  That's a feature in it's own right :D
+Also...
+You can adjust HEQS purchase costs and running costs :
+- running costs are parameter 1
+- purchase costs are parameter 2
+Value 9 = normal.  Values below 9 reduce costs progressively (min value is 0).  Values above 9 increase costs progressively (max value is 18).
+Added Dorstfeld 0-4-0 industrial steam tram.  Available 1869.
+All trams now have appropriate sound effects.
+
 *version 0.9.6*
 Set running and purchase costs for all vehicles (most are a *lot* more expensive).
 Sparks effect for trams (needs OpenTTD r21240 or newer).
