@@ -15,7 +15,7 @@
     00 \w1-1-1920  // intro date (min value: 1-1-1920) (min value: 1920) 
     02 20     // reliability 
     03 \b23   // vehicle life 
-    04 \b150  // class life 
+    04 \b120  // class life 
     06 0F     // climate 
     07 00     // load amount 
     08 \b48   // speed in mph * 3.2
@@ -25,7 +25,7 @@
     0F 00     // capacity
     10 FF     // cargo type
     11 12     // cost factor
-    12 20     // sound effect
+    12 02     // sound effect
     13 \b6    // power in 10 hp
     14 \b44   // weight in 1/4 tons
     15 \b12   // speed in mph * 0.8
