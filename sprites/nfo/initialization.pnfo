@@ -21,23 +21,70 @@
 -1 * 0    07 85 01 \71 78 01
 -1 * 0    0B 01 7F 02 "adv. setting '" 94 "vehicle->Enable multiple NewGRF vehicle sets'" 89 " = " 8E "ON" 00
 
-// The default values for the parameter are 09; in OpenTTD 1.1 that's set automatically - or we'll do it here
-// for older versions and unset parameters. Later we'll add one in order to get the 'real' default.
--1 * 0	0D PARAM_RUNNING_COST 80 FF 00 \d09
--1 * 0	0D PARAM_PURCHASE_COST 80 FF 00 \d09
 
-// Apply default offsets (4x expensive as defaults)
--1 * 0    0D PARAM_PURCHASE_COST \D+ PARAM_PURCHASE_COST FF \d1    // Add 1 in order to make 0A the default.
--1 * 0    0D PARAM_RUNNING_COST \D+ PARAM_RUNNING_COST FF \d1      // Add 1 in order to make 0A the default.
+// start of stupid c&p from ogfx-trains, handling running + purchase costs via parameter
 
-// set purchase cost base for road vehicles - may affect other road vehicle grfs for 0.7er branch of OpenTTD
--1 * 0    06 PARAM_PURCHASE_COST \b01 \b06 FF
--1 * 0    00 08 01 01 12 08 00 // road vehicle purchase cost (default is 08, adding 1 doubles, subtract 1 halves)
-  
-// set running cost base for road vehicles - may affect other road vehicle grfs for 0.7er branch of OpenTTD
--1 * 0    06 PARAM_RUNNING_COST \b01 \b06 FF
--1 * 0    00 08 01 01 2E 08 00 // road vehicle running cost (default is 08, adding 1 doubles, subtract 1 halves)
+// param[20] = (param[0] - 9)
+6 * 9 0D 14 \D- 00 FF \dx00000009 
 
+7 * 9 09 00 04 \7! \dx00000000 01 
+
+// param[20] = 0
+8 * 9 0D 14 \D= FF 00 \dx00000000 
+
+// param[21] = (param[1] - 9)
+9 * 9 0D 15 \D- 01 FF \dx00000009 
+
+10 * 9 09 01 04 \7! \dx00000000 01 
+
+// param[21] = 0
+11 * 9 0D 15 \D= FF 00 \dx00000000 
+
+
+// ================ if grf = NARS2
+// param[64] = 0
+//    22 * 9 0D 40 \D= FF 00 \dx00000000 
+
+//    23 * 9 09 88 04 \7gg \dx02034444 01 
+//    // param[64] = 1
+//    24 * 9 0D 40 \D= FF 00 \dx00000001 
+
+//    25 * 9 09 40 04 \7! \dx00000001 04 
+
+//    // if param0 not defined
+//    26 * 9 09 00 04 \7! \dx00000000 01 
+
+//    // param[20] = 2
+//    27 * 9 0D 14 \D= FF 00 \dx00000002 
+
+//    // if param1 not defined
+//    28 * 9 09 01 04 \7! \dx00000000 01 
+//    // param[21] = 0
+//    29 * 9 0D 15 \D= FF 00 \dx00000000 
+
+// ================ Add default offset
+// param[64] = (param[20] + 0x0A)
+74 * 9 0D 40 \D+ 14 FF \dx0000000A
+
+77 * 17 06 
+40 01 FF \wx0008 
+FF 
+
+78 * 11 00 08 \b1 01 FF \wx002E 
+08 00
+
+// ================ Add default offsets
+// param[67] = (param[21] + 8)
+79 * 9 0D 43 \D+ 15 FF \dx0000000A
+
+81 * 12 06 
+43 01 FF \wx0008 
+FF 
+
+82 * 10 00 08 \b1 01 FF \wx0012 
+08 00
+
+// end of stupid c&p from ogfx-trains, handling running + purchase costs via parameter
    
 // -- Global Parameters -- //
    
