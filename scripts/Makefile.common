@@ -48,6 +48,7 @@ test::
 	$(_E) "                       zip:   $(ZIP_FILENAME)"
 	$(_E) "                       bzip:  $(BZIP_FILENAME)"
 	$(_E) "Dirs (build/src/base):        $(DIR_NAME) / $(DIR_NAME_SRC) / $(DIR_BASE)"
+	$(_E) "Dependency check type:        $(DEP_CHECK_TYPE)"
 	$(_E) "Source dirs:                  $(MAIN_DIRS)"
 	$(_E) "Source file extensions (RE):  $(FILE_SRC_RE)"
 	$(_E) "Source include ext. (RE):     $(FILE_INC_RE)"
@@ -101,6 +102,7 @@ endif
 
 # Create the dependencies. Allow project types to define their own
 $(REV_FILENAME):
+	$(_V) for i in `ls *.$(REV_EXTENSION) 2> /dev/null`; do [ "$$i" != "" ] && rm $$i; done
 	$(_V) touch $@
 
 addcheck:
