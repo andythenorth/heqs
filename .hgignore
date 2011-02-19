@@ -11,6 +11,7 @@ heqs.grf
 # Ignore intermediate files created by the Makefile:
 *.nfo
 *.cnfo
+*.cpnfo
 heqs.new
 docs/license.txt
 docs/changelog.txt
