@@ -79,23 +79,23 @@
                                 00 
  -1 * 4	 01 01 02 08
   // Cascade off-highway truck - trailer racked
- -1 sprites/graphics/heavy_trucks.pcx 34 890 01 24 12 -5 -17
- -1 sprites/graphics/heavy_trucks.pcx 66 890 09 20 26 -14 -9
- -1 sprites/graphics/heavy_trucks.pcx 98 890 01 16 36 -13 -9
- -1 sprites/graphics/heavy_trucks.pcx 146 890 09 20 26 -7 -8
- -1 sprites/graphics/heavy_trucks.pcx 178 890 01 24 12 -5 -12
- -1 sprites/graphics/heavy_trucks.pcx 210 890 09 20 26 -16 -11
- -1 sprites/graphics/heavy_trucks.pcx 242 890 01 16 36 -19 -9
- -1 sprites/graphics/heavy_trucks.pcx 290 890 09 20 26 -9 -10
+ -1 sprites/graphics/heavy_trucks.png 34 890 01 24 12 -5 -17
+ -1 sprites/graphics/heavy_trucks.png 66 890 09 20 26 -14 -9
+ -1 sprites/graphics/heavy_trucks.png 98 890 01 16 36 -13 -9
+ -1 sprites/graphics/heavy_trucks.png 146 890 09 20 26 -7 -8
+ -1 sprites/graphics/heavy_trucks.png 178 890 01 24 12 -5 -12
+ -1 sprites/graphics/heavy_trucks.png 210 890 09 20 26 -16 -11
+ -1 sprites/graphics/heavy_trucks.png 242 890 01 16 36 -19 -9
+ -1 sprites/graphics/heavy_trucks.png 290 890 09 20 26 -9 -10
   // Cascade off-highway truck
- -1 sprites/graphics/heavy_trucks.pcx 34 850 01 24 12 -5 -17
- -1 sprites/graphics/heavy_trucks.pcx 66 850 09 20 26 -14 -9
- -1 sprites/graphics/heavy_trucks.pcx 98 850 01 16 36 -13 -9
- -1 sprites/graphics/heavy_trucks.pcx 146 850 09 20 26 -7 -8
- -1 sprites/graphics/heavy_trucks.pcx 178 850 01 24 12 -5 -12
- -1 sprites/graphics/heavy_trucks.pcx 210 850 09 20 26 -16 -11
- -1 sprites/graphics/heavy_trucks.pcx 242 850 01 16 36 -19 -9
- -1 sprites/graphics/heavy_trucks.pcx 290 850 09 20 26 -9 -10
+ -1 sprites/graphics/heavy_trucks.png 34 850 01 24 12 -5 -17
+ -1 sprites/graphics/heavy_trucks.png 66 850 09 20 26 -14 -9
+ -1 sprites/graphics/heavy_trucks.png 98 850 01 16 36 -13 -9
+ -1 sprites/graphics/heavy_trucks.png 146 850 09 20 26 -7 -8
+ -1 sprites/graphics/heavy_trucks.png 178 850 01 24 12 -5 -12
+ -1 sprites/graphics/heavy_trucks.png 210 850 09 20 26 -16 -11
+ -1 sprites/graphics/heavy_trucks.png 242 850 01 16 36 -19 -9
+ -1 sprites/graphics/heavy_trucks.png 290 850 09 20 26 -9 -10
  -1 * 9	 02 01 A1 // action2 buy menu sprites 
       02 // number loaded states
       01 // number loading states
@@ -104,7 +104,7 @@
  -1 * 4	 01 01 01 04
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/graphics/heavy_trucks.pcx 370 890 01 16 36 -14 -9
+ -1 sprites/graphics/heavy_trucks.png 370 890 01 16 36 -14 -9
  -1 * 1	 00
  -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
