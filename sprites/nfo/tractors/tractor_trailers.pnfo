@@ -175,7 +175,7 @@
                   //AC 00 19 19 // text suffix CB 
                  05 00 // graphics
   -1 * 52	 03 01 01 VEH_TRACTOR_MEDIUM_TRAILER // Action 3
-    \b17 // Number of different cargo types to support
+    \b16 // Number of different cargo types to support
       01 01 00 // coal
       03 03 00 // oil
       04 04 00 // livestock
