@@ -1,8 +1,9 @@
 // Vehicle groups //
-#define GROUP_TRAMS       "null"
-#define GROUP_RVS_CORE    "null"
-#define GROUP_RVS_EXTRA   "null"
-#define GROUP_TRAINS      "null"
+// param numbers as used by action 14
+#define GROUP_TRAMS       \d2
+#define GROUP_RVS_CORE    \d3
+#define GROUP_RVS_EXTRA   \d4
+#define GROUP_TRAINS      \d5
 
 
 //  Vehicles //
