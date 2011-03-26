@@ -1,5 +1,7 @@
 #define THIS_PCX_FILE         1960s_dump_truck_3_axle.pcx     // used in action 1 template (must include file extension)
 #define THIS_VEH_ID           VEH_MINING_TRUCK_MOUNT_RAINIER  // used in action 1/2/3 template
+#define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
+#include "../templates/group_availability/rv_availability.tnfo"
 
 #define THIS_Y_X_CROP_1  24  12
 #define THIS_Y_X_CROP_2  20  26
@@ -23,12 +25,11 @@
 #include "../templates/template_smoke.tnfo"
 
 // Mount Rainier Dump Truck 50t		1960-1981	35mph
--1 * 67	 00 01 \b25 01 VEH_MINING_TRUCK_MOUNT_RAINIER
+-1 * 67	 00 01 \b24 01 VEH_MINING_TRUCK_MOUNT_RAINIER
     00 \w1-1-1920  // intro date (min value: 1-1-1920)
     02 20         // reliability
     03 19         // vehicle life
     04 19         // class life
-    06 0F         // climate
     07 05         // load amount
     08 \b112      // speed in mph * 3.2
     09 3B         // running cost factor

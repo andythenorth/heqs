@@ -1,16 +1,18 @@
  // -- Articulated Crawler in two parts)
 
-#define THIS_VEH_ID  VEH_CRAWLER_RED_PEAK_1
+#define THIS_VEH_ID           VEH_CRAWLER_RED_PEAK_1
+#define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
+#include "../templates/group_availability/rv_availability.tnfo"
+
 #define THIS_SMOKE_TYPE 28
 #include "../templates/template_smoke.tnfo"
 
  // Articulated Crawler First Part
--1 * 69	 00 01 \b26 01 VEH_CRAWLER_RED_PEAK_1
+-1 * 69	 00 01 \b25 01 VEH_CRAWLER_RED_PEAK_1
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b15   // vehicle life 
     04 \b60   // class life 
-    06 0F     // climate 
     07 05     // load amount 
     08 \b70   // speed in mph * 3.2
     09 37     // running cost factor 

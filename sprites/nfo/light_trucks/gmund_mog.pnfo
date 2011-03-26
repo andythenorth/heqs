@@ -26,21 +26,21 @@
 
 
 #define THIS_PCX_FILE         gmund_mog.png     // used in action 1 template (must include file extension)
-#define THIS_VEH_ID VEH_TRUCK_GMUND_MOG            // used for conditional properties (smoke)
+#define THIS_VEH_ID           VEH_TRUCK_GMUND_MOG
+#define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
+#include "../templates/group_availability/rv_availability.tnfo"
 
 #include "../templates/standard_crops_offsets_1/4-8.tnfo"
-
 
 #define THIS_SMOKE_TYPE 27
 #include "../templates/template_smoke.tnfo"
 
  // road version
- -1 * 67	 00 01 \b25 01 VEH_TRUCK_GMUND_MOG 
+ -1 * 67	 00 01 \b24 01 VEH_TRUCK_GMUND_MOG 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b35   // vehicle life 
     04 \b255  // class life 
-    06 0F     // climate 
     07 05     // load amount 
     08 \b102  // speed in mph * 3.2
     09 12     // running cost factor 
@@ -148,15 +148,18 @@
     01  // Number of different cargo types to support
       FF  C1 00 // buy menu
     C0 00   // default Action 2 ID 
+
     
 // rail version
- -1 * 67	 00 00 \b24 01 VEH_TRUCK_GMUND_MOG 
+#define THIS_VEHICLE_GROUP    GROUP_TRAINS
+#include "../templates/group_availability/train_availability.tnfo"
+
+ -1 * 67	 00 00 \b23 01 VEH_TRUCK_GMUND_MOG 
     00 00 00 // intro date (min value: 1-1-1920) 
     02 20    // reliability 
     03 \b35  // vehicle life 
     04 \b255 // class life 
     05 00    // track type, 0=rail, 1=monorail, 2=maglev
-    06 0F    // climate 
     07 05    // load amount
     09 \w52  // speed in mph * 1.6    
     0B \w30  // power

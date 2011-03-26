@@ -1,0 +1,6 @@
+// -1 * 0    06 \b02 \b01 \b06  FF  
+ -1 * 67	 00 01 \b1 01 THIS_VEH_ID
+    06 00     // climate (0F = all, 00 = none)
+  
+#undef THIS_VEHICLE_GROUP
+

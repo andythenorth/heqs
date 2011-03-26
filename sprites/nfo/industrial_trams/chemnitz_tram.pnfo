@@ -7,6 +7,8 @@
 #define THIS_RUNCOST_REFIT_1  1F //don't escape, used in cb results which have problems with escaped bytes
 #define THIS_RUNCOST_REFIT_2  3F
 #define THIS_RUNCOST_REFIT_3  5F
+#define THIS_VEHICLE_GROUP    GROUP_TRAMS
+
 
 #define THIS_SMOKE_TYPE 18 //actually sparks not smoke
 #include "../templates/template_smoke.tnfo"

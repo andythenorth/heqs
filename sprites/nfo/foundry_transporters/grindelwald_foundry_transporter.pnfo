@@ -1,13 +1,15 @@
-#define THIS_VEH_ID  VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
+#define THIS_VEH_ID           VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
+#define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
+#include "../templates/group_availability/rv_availability.tnfo"
+
 #define THIS_SMOKE_TYPE 26
 #include "../templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b26 01 VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
+ -1 * 67	 00 01 \b25 01 VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability decay speed decay speed
     03 \b30           // vehicle life
     04 \b99             // class life
-    06 0F             // climate availability - use 0F for all, 00 none (to hide vehicle)
     07 30             // load amount
     08 \b70          // speed in mph * 3.2
     09 3F             // running cost factor

@@ -1,16 +1,18 @@
  // --------------------------- Logging Trucks --------------------- //
 
-#define THIS_VEH_ID  VEH_LOGGING_TRUCK_C10
+#define THIS_VEH_ID           VEH_LOGGING_TRUCK_C10
+#define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
+#include "../templates/group_availability/rv_availability.tnfo"
+
 #define THIS_SMOKE_TYPE 27
 #include "../templates/template_smoke.tnfo"
 
   // Cascade Logging Truck  90t
- -1 * 67	 00 01 \b26 01 VEH_LOGGING_TRUCK_C10
+ -1 * 67	 00 01 \b25 01 VEH_LOGGING_TRUCK_C10
     00 \w1-1-1972  // intro date (min value: 1-1-1920)
     02 20     // reliability
     03 \b40     // vehicle life
     04 FF     // class life
-    06 0F     // climate
     07 05     // load amount
     08 \b128  // speed in mph * 3.2
     09 4E     // running cost factor
@@ -40,17 +42,19 @@
 
 #undef THIS_VEH_ID
 
-#define THIS_VEH_ID  VEH_LOGGING_TRUCK_C16
+#define THIS_VEH_ID           VEH_LOGGING_TRUCK_C16
+#define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
+#include "../templates/group_availability/rv_availability.tnfo"
+
 #define THIS_SMOKE_TYPE 27
 #include "../templates/template_smoke.tnfo"
 
   // Cascade Logging Truck DOUBLE
- -1 * 67	 00 01 \b26 01 VEH_LOGGING_TRUCK_C16
+ -1 * 67	 00 01 \b25 01 VEH_LOGGING_TRUCK_C16
     00 \w1-1-1972  // intro date (min value: 1-1-1920)
     02 20     // reliability
     03 \b40     // vehicle life
     04 FF     // class life
-    06 0F     // climate
     07 05     // load amount
     08 \b96   // speed in mph * 3.2
     09 5F     // running cost factor

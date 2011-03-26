@@ -1,3 +1,10 @@
+// Vehicle groups //
+#define GROUP_TRAMS       "null"
+#define GROUP_RVS_CORE    "null"
+#define GROUP_RVS_EXTRA   "null"
+#define GROUP_TRAINS      "null"
+
+
 //  Vehicles //
 
 // IDs 00h-57h are reserved for use by default vehicles
@@ -6,7 +13,7 @@
 // changing IDs of existing vehicles *will* break savegames...
 // ...so don't change IDs just for refactoring / prettifying code 
 
-//defines organised by ID order
+// ID defines organised by ID order
 // <80h (mostly trailing parts)
 #define VEH_TRACTOR_MEDIUM_TRAILER             58 //some trailers are redundant. Should use capacity cb instead
 #define VEH_CRAWLER_MEDIUM_TRAILER_1           59

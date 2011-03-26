@@ -1,14 +1,16 @@
-#define THIS_VEH_ID  VEH_MINING_TRUCK_THUNDER_MOUNTAIN
+#define THIS_VEH_ID           VEH_MINING_TRUCK_THUNDER_MOUNTAIN
+#define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
+#include "../templates/group_availability/rv_availability.tnfo"
+
 #define THIS_SMOKE_TYPE 28
 #include "../templates/template_smoke.tnfo"
 
 // Thunder Mountain Mining Truck  90t		1960-1982		30mph
--1 * 67	 00 01 \b26 01 VEH_MINING_TRUCK_THUNDER_MOUNTAIN
+-1 * 67	 00 01 \b25 01 VEH_MINING_TRUCK_THUNDER_MOUNTAIN
     00 \w1-1-1920     // intro date (min value: 1-1-1920)
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
-    06 0F             // climate
     07 05             // load amount
     08 \b96           // speed in mph * 3.2
     09 54             // running cost factor

@@ -22,17 +22,19 @@
              4D 80 \b71 \b84 // 770hp before 2005
            52 80 // 820hp default
 
-#define THIS_VEH_ID  VEH_CRAWLER_NO_9_GENERAL_PURPOSE
+#define THIS_VEH_ID           VEH_CRAWLER_NO_9_GENERAL_PURPOSE
+#define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
+#include "../templates/group_availability/rv_availability.tnfo"
+
 #define THIS_SMOKE_TYPE 28
 #include "../templates/template_smoke.tnfo"
 
 // No. 9	Crawler Tractor (General Purpose)
- -1 * 67	 00 01 \b26 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE
+ -1 * 67	 00 01 \b25 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b35   // vehicle life 
     04 \b20   // class life 
-    06 0F     // climate 
     07 05     // load amount 
     08 \b45   // speed in mph * 3.2
     09 THIS_RUN_COST      // running cost factor 
@@ -319,17 +321,19 @@
 
 #undef THIS_VEH_ID
 
-#define THIS_VEH_ID  VEH_CRAWLER_NO_9_LOGGING_MINING
+#define THIS_VEH_ID           VEH_CRAWLER_NO_9_LOGGING_MINING
+#define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
+#include "../templates/group_availability/rv_availability.tnfo"
+
 #define THIS_SMOKE_TYPE 28
 #include "../templates/template_smoke.tnfo"
 
 	// No. 9	Crawler Tractor (Logging / Mining)
--1 * 67	 00 01 1A 01 VEH_CRAWLER_NO_9_LOGGING_MINING
+-1 * 67	 00 01 \b25 01 VEH_CRAWLER_NO_9_LOGGING_MINING
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b35   // vehicle life 
     04 \b20   // class life 
-    06 0F     // climate 
     07 05     // load amount 
     08 \b45   // speed in mph * 3.2
     09 THIS_RUN_COST      // running cost factor 

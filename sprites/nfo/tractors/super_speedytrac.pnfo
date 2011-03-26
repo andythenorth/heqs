@@ -1,14 +1,16 @@
-#define THIS_VEH_ID  VEH_TRACTOR_SUPER_SPEEDYTRAC
+#define THIS_VEH_ID           VEH_TRACTOR_SUPER_SPEEDYTRAC
+#define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
+#include "../templates/group_availability/rv_availability.tnfo"
+
 #define THIS_SMOKE_TYPE 27
 #include "../templates/template_smoke.tnfo"
 
 // Super Speedytrac	Wheeled Tractor (high speed)	40t		2005-2050	60mph
--1 * 67	 00 01 19 01 VEH_TRACTOR_SUPER_SPEEDYTRAC
+-1 * 67	 00 01 \b24 01 VEH_TRACTOR_SUPER_SPEEDYTRAC
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
     03 \b15   // vehicle life 
     04 \b45   // class life 
-    06 0F     // climate 
     07 05     // load amount 
     08 \b160  // speed in mph * 3.2
     09 1C     // running cost factor 
