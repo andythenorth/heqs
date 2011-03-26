@@ -21,6 +21,17 @@
 -1 * 0    07 85 01 \71 78 01
 -1 * 0    0B 01 7F 02 "adv. setting '" 94 "vehicle->Enable multiple NewGRF vehicle sets'" 89 " = " 8E "ON" 00
 
+// Vehicle groups //
+// param numbers as used by action 14
+#define GROUP_TRAMS       \b2
+#define GROUP_RVS_CORE    \b3
+#define GROUP_RVS_EXTRA   \b4
+#define GROUP_TRAINS      \b5
+// initialise parameters that need set here
+-1 * 5 0D GROUP_TRAMS 80 FF FF \dx00000001
+-1 * 5 0D GROUP_RVS_CORE 80 FF FF \dx00000001
+-1 * 5 0D GROUP_RVS_EXTRA 80 FF FF \dx00000001
+-1 * 5 0D GROUP_TRAINS 80 FF FF \dx00000001
 
 // start of stupid c&p from ogfx-trains, handling running + purchase costs via parameter
 

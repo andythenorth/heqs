@@ -1,11 +1,3 @@
-// Vehicle groups //
-// param numbers as used by action 14
-#define GROUP_TRAMS       \b2
-#define GROUP_RVS_CORE    \b3
-#define GROUP_RVS_EXTRA   \b4
-#define GROUP_TRAINS      \b5
-
-
 //  Vehicles //
 
 // IDs 00h-57h are reserved for use by default vehicles

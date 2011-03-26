@@ -1,7 +1,7 @@
- -1 * 0	 00 01 \b1 01 THIS_VEH_ID
+ -1 * 0	 00 00 \b1 01 THIS_VEH_ID
     06 00     // disable vehicle; climates = 0
  -1 * 0	 07 THIS_VEHICLE_GROUP \b1 \7= \b0 \b1
- -1 * 0	 00 01 \b1 01 THIS_VEH_ID
+ -1 * 0	 00 00 \b1 01 THIS_VEH_ID
     06 0F     // enable vehicle; climates = F
   
 #undef THIS_VEHICLE_GROUP
