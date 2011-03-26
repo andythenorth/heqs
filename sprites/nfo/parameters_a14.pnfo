@@ -2,7 +2,7 @@
 #define PARAM_PURCHASE_COST 01
 -1 * -1   14 
     "C" "INFO"
-        "B" "NPAR" \w1 2
+        "B" "NPAR" \w1 6
         "C" "PARA"
             "C" \d0
                 "T" "NAME" 7F "Adjust running costs" 00 
@@ -99,6 +99,38 @@
                     "T" \d18 7F "512x" 00 
                     "T" \d18 02 "512x" 00
                     00
+                00 
+            "C" \d2
+                "T" "NAME" 7F "Trams " 00 
+                "T" "NAME" 02 "--" 00 
+                "T" "DESC" 7F "--" 00 
+                "T" "DESC" 02 "--" 00 
+                "B" "TYPE" \w1 1 
+                "B" "DFLT" \w4 \d1
+                00 
+            "C" \d3
+                "T" "NAME" 7F "Core Road Vehicles " 00 
+                "T" "NAME" 02 "--" 00 
+                "T" "DESC" 7F "--" 00 
+                "T" "DESC" 02 "--" 00 
+                "B" "TYPE" \w1 1 
+                "B" "DFLT" \w4 \d1
+                00 
+            "C" \d4
+                "T" "NAME" 7F "Extra Road Vehicles " 00 
+                "T" "NAME" 02 "--" 00 
+                "T" "DESC" 7F "--" 00 
+                "T" "DESC" 02 "--" 00 
+                "B" "TYPE" \w1 1 
+                "B" "DFLT" \w4 \d1
+                00 
+            "C" \d5
+                "T" "NAME" 7F "Rail Vehicles " 00 
+                "T" "NAME" 02 "--" 00 
+                "T" "DESC" 7F "--" 00 
+                "T" "DESC" 02 "--" 00 
+                "B" "TYPE" \w1 1 
+                "B" "DFLT" \w4 \d1
                 00 
             00
         00
