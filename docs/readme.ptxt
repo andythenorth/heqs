@@ -17,6 +17,17 @@ Repository version: {{REPO_REVISION}}
 
 Changelog
 
+*version 1.0.1*
+New parameters to disable/enable groups of vehicles.  Best used with parameters GUI (needs OpenTTD 1.1 or newer).
+- set 0 to disable, 1 to enable.  Parameters are as follows (counting first parameter as '1')
+- parameter 3: trams
+- parameter 4: core road vehicles
+- parameter 5: extra road vehicles
+- parameter 6: rail vehicles
+Tram running costs adjusted, greater difference between running costs for different refitted capacities.
+Reduce tram loading speed.
+Fix: ECS cereals were grey - fixed for most vehicles.
+
 *version 1.0*
 It's version 1.0.  That's a feature in it's own right :D
 Also...
