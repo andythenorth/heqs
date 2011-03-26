@@ -134,7 +134,7 @@
   // case show wagon sprite
   -1 * 70	 02 01 A3  // choose sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 \b22 // range
+                 \b23 // range
                    06 00  01 01 // coal
                    03 00  03 03 // oil
                    05 00  04 04 // livestock                  
@@ -151,6 +151,7 @@
                    03 00  13 13 // chemicals (refined products)
                    08 00  15 15 // scrap metal 
                    08 00  16 16 // clay 
+                   0B 00  17 17 // cereals (reuses sand)
                    0A 00  18 18 // bauxite (aluminium ore) 
                    0B 00  19 19 // sand (also used by grain, wheat etc)
                    09 00  1A 1A // gravel 

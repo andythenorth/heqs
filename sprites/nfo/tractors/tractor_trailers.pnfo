@@ -175,22 +175,23 @@
                   //AC 00 19 19 // text suffix CB 
                  05 00 // graphics
   -1 * 52	 03 01 01 VEH_TRACTOR_MEDIUM_TRAILER // Action 3
-    0F // Number of different cargo types to support
-    01 01 00 // coal
-    03 03 00 // oil
-    04 04 00 // livestock
-    06 06 00 // grain 
-    07 07 00 // wood
-    08 08 00 // iron ore
-	  09 09 00 // steel
-	  0B 0B 00 // paper
-	  0E 0E 00 // copper ore
-	  0F 03 00 // water
-	  10 03 00 // rubber
-    19 06 00 // sand (reuses grain)
-	  1B 06 00 // wheat
-	  1D 06 00 // maize
-	  1E 07 00 // tropical wood
+    \b17 // Number of different cargo types to support
+      01 01 00 // coal
+      03 03 00 // oil
+      04 04 00 // livestock
+      06 06 00 // grain 
+      07 07 00 // wood
+      08 08 00 // iron ore
+      09 09 00 // steel
+      0B 0B 00 // paper
+      0E 0E 00 // copper ore
+      0F 03 00 // water
+      10 03 00 // rubber
+      17 06 00 // cereals
+      19 06 00 // sand (reuses grain)
+      1B 06 00 // wheat
+      1D 06 00 // maize
+      1E 07 00 // tropical wood
 	  AA 00 // default (box trailer)
 
 #undef THIS_PCX_FILE
