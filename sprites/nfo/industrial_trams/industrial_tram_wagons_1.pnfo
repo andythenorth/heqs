@@ -20,7 +20,7 @@
     03 \b00         // vehicle life
     04 \b00         // class life
     06 00           // climate availability - use 0F for all, 00 none (to hide vehicle)
-    07 10           // load amount 
+    07 05           // load amount 
     08 80           // speed in mph * 3.2
     09 1E           // running cost factor 
     0A 48 4C 00 00  // running cost base 
