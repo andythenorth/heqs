@@ -1,9 +1,9 @@
 // Vehicle groups //
 // param numbers as used by action 14
-#define GROUP_TRAMS       \d2
-#define GROUP_RVS_CORE    \d3
-#define GROUP_RVS_EXTRA   \d4
-#define GROUP_TRAINS      \d5
+#define GROUP_TRAMS       \b2
+#define GROUP_RVS_CORE    \b3
+#define GROUP_RVS_EXTRA   \b4
+#define GROUP_TRAINS      \b5
 
 
 //  Vehicles //
