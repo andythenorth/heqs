@@ -5,7 +5,10 @@
 clean:
 	$(_E) "[CLEANING]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~
-	$(_V)-rm -rf *.dep $(TARGET_FILES) $(SRC_DIR)/*.nfo $(patsubst %.grf,%.nml,$(GRF_FILES)) $(REV_FILENAME) md5.check $(CLEAN_ADD) $(SRC_DIR)/*.cnfo
+	$(_V)-rm -rf *.dep $(TARGET_FILES) $(REV_FILENAME) md5.check 
+	$(_V)-rm -rf $(patsubst %.grf,%.nml,$(GRF_FILES))
+	$(_V)-rm -rf $(patsubst %.grf,%.cnfo,$(GRF_FILES)) $(patsubst %.grf,%.nfo,$(GRF_FILES)) 
+	$(_V)-if [ "$(CLEAN_ADD)" ]; then for i in `ls $(CLEAN_ADD) 2> /dev/null`; do [ "$$i" != "" ] && rm $$i; done; fi
 
 # More thoroughly clean the source tree. Should restore the initial
 # state of a tarball (except for manual changes to Makefile.local, of
