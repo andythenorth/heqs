@@ -8,9 +8,11 @@
                 "T" "NAME" 7F "Adjust running costs" 00 
                 "T" "NAME" 02 "Betriebskosten anpassen" 00 
                 "T" "NAME" 04 "ÞAjustar costes de operación" 00 
+                "T" "NAME" 15 "ÞZměnit provozní ceny" 00 
                 "T" "DESC" 7F "Adjust the running costs of the vehicles within this set (e.g, to balance it against other sets)" 00 
                 "T" "DESC" 02 "ÞErlaube die Betriebskosten der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00 
                 "T" "DESC" 04 "ÞPermite ajustar los costes de operación de los vehículos de este conjunto (por ejemplo, para equilibrarlos con otros conjuntos de vehículos)" 00 
+                "T" "DESC" 15 "ÞUmožňuje změnit provozní ceny vozidel tohoto setu. (například pro vybalancování oproti ostatním setům)" 00
                 "B" "LIMI" \w8 \d0 \d18 
                 "B" "DFLT" \w4 \d9
                 "C" "VALU" 
@@ -59,10 +61,11 @@
                 "T" "NAME" 7F "Adjust purchase costs" 00 
                 "T" "NAME" 02 "Fahrzeugpreise anpassen" 00 
                 "T" "NAME" 04 "ÞAjustar costes de compra" 00 
+                "T" "NAME" 15 "ÞZměnit pořizovací ceny" 00
                 "T" "DESC" 7F "Adjust the purchase costs of the vehicles within this set (e.g, to balance it against other sets)" 00 
                 "T" "DESC" 02 "ÞErlaube die Listenpreise der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00 
                 "T" "DESC" 04 "ÞPermite ajustar los costes de compra de los vehículos de este conjunto (por ejemplo, para equilibrarlos con otros conjuntos de vehículos)" 00 
-
+                "T" "DESC" 15 "ÞUmožňuje změnit pořizovací ceny vozidel tohoto setu. (například pro vybalancování oproti ostatním setům)" 00
                 "B" "LIMI" \w8 \d0 \d18 
                 "B" "DFLT" \w4 \d9 
                 "C" "VALU" 
@@ -111,11 +114,13 @@
                 "T" "NAME" 7F "Trams " 00 
                 "T" "NAME" 02 "ÞStraßenbahnen" 00 
                 "T" "NAME" 04 "ÞTranvías " 00 
+                "T" "NAME" 15 "ÞTramvaje" 00
                 "T" "DESC" 7F "Control availability of HEQS trams in buy menu (and for auto-replace).\nVehicles that are already built are unaffected. Sets other than HEQS are unaffected."
                               "\nAffects: \89all industrial trams." 00 
                 "T" "DESC" 02 "ÞVerfügbarkeit von Straßenbahnen einstellen.\nExistierende Fahrzeuge und Fahrzeuge anderer Sets sind hiervon unbeeinflußt.\nBeeinflußt: Industrie-Straßenbahnen." 00 
                 "T" "DESC" 04 "ÞControla la disponibilidad de los tranvías HEQS en el menú de compra (y para reemplazo automático).\nLos vehículos ya construidos y otros conjuntos de vehículos distintos de HEQS no son afectados."
                               "\nAfecta a: \89todos los tranvías industriales." 00 
+                "T" "DESC" 15 "ÞOvlivňuje dostupnost HEQS tramvají v pořizovacím menu (a menu auto-výměny).Již pořízená vozidla nebudou ovlivněna. Jiné sety než HEQS nebudou ovlivněny." 00
                 "B" "TYPE" \w1 1 
                 "B" "DFLT" \w4 \d1
                 00 
@@ -123,11 +128,13 @@
                 "T" "NAME" 7F "Core Road Vehicles " 00 
                 "T" "NAME" 02 "ÞStraßenfahrzeuge" 00 
                 "T" "NAME" 04 "ÞVehículos de Carretera Principales " 00 
+                "T" "NAME" 15 "ÞZákladní silniční vozidla" 00
                 "T" "DESC" 7F "Control availability of HEQS core road vehicles in buy menu (and for auto-replace).\nVehicles that are already built are unaffected. Sets other than HEQS are unaffected."
                               "\nAffects: \89 vehicles such as mining trucks, foundry transporters and log trucks." 00 
                 "T" "DESC" 02 "ÞVerfügbarkeit von Straßenfahrzeugen einstellen.\nExistierende Fahrzeuge und Fahrzeuge anderer Sets sind hiervon unbeeinflußt.\Beeinflußt: Fahrzeuge wie Bergbau-Fahrzeuge, Schwerlast- und Langholztransporter." 00 
                 "T" "DESC" 04 "ÞControla la disponibilidad de los vehículos principales de HEQS en el menú de compra (y para reemplazo automático).\nLos vehículos ya construidos y otros conjuntos de vehículos distintos de HEQS no son afectados."
                               "\nAfecta a: \89vehículos como camiones de minería, transportes de forja y camiones de madera." 00 
+                "T" "DESC" 15 "ÞOvlivňuje dostupnost základních HEQS silničních vozidel v pořizovacím menu (a menu auto-výměny). Již postavená vozidla nebudou ovlivněna. Jiné sety než HEQS nebudou ovlivněny." 00
                 "B" "TYPE" \w1 1 
                 "B" "DFLT" \w4 \d1
                 00 
@@ -135,11 +142,13 @@
                 "T" "NAME" 7F "Extra Road Vehicles " 00 
                 "T" "NAME" 02 "ÞZusätzliche Straßenfahrzeuge" 00 
                 "T" "NAME" 04 "ÞVehículos de Carretera Extra " 00 
+                "T" "NAME" 15 "ÞPřídavná silniční vozidla" 00
                 "T" "DESC" 7F "Control availability of HEQS extra road vehicles in buy menu (and for auto-replace).\nVehicles that are already built are unaffected. Sets other than HEQS are unaffected."
                               "\nAffects: \89road vehicles such as crawlers and wheeled tractors." 00 
                 "T" "DESC" 02 "ÞVerfügbarkeit von zusätzlichen Straßenfahrzeugen einstellen.\nExistierende Fahrzeuge und Fahrzeuge anderer Sets sind hiervon unbeeinflußt.\Beeinflußt: Fahrzeuge wie Raupenfahrzeuge und Traktoren." 00 
                 "T" "DESC" 04 "ÞControla la disponibilidad de los vehículos extra de HEQS en el menú de compra (y para reemplazo automático).\nLos vehículos ya construidos y otros conjuntos de vehículos distintos de HEQS no son afectados."
                               "\nAfecta a: \89vehículos de carretera tales como bulldózers y tractores." 00 
+                "T" "DESC" 15 "ÞOvlivňuje dostupnost základních HEQS silničních vozidel v pořizovacím menu (a menu auto-výměny). Již postavená vozidla nebudou ovlivněna. Jiné sety než HEQS nebudou ovlivněny." 00
                 "B" "TYPE" \w1 1 
                 "B" "DFLT" \w4 \d1
                 00 
@@ -147,11 +156,13 @@
                 "T" "NAME" 7F "Rail Vehicles " 00 
                 "T" "NAME" 02 "ÞSchienenfahrzeuge" 00 
                 "T" "NAME" 04 "ÞVehículos de raíl " 00 
+                "T" "NAME" 15 "Železniční vozidla" 00
                 "T" "DESC" 7F "Control availability of HEQS rail vehicles in buy menu (and for auto-replace).\nVehicles that are already built are unaffected. Sets other than HEQS are unaffected."
                               "\nAffects: \89rail vehicles such as Gmund Mog Hi-Rail Truck." 00 
                 "T" "DESC" 02 "ÞVerfügbarkeit von Schienenfahrzeugen einstellen.\nExistierende Fahrzeuge und Fahrzeuge anderer Sets sind hiervon unbeeinflußt.\Beeinflußt: Fahrzeuge wie den Gmund Mog Hi-Rail Truck." 00 
                 "T" "DESC" 04 "ÞControla la disponibilidad de los vehículos de raíl de HEQS en el menú de compra (y para reemplazo automático).\nLos vehículos ya construidos y otros conjuntos de vehículos distintos de HEQS no son afectados."
                               "\nAfecta a: \89vehículos de raíl tales como el Gmund Mog Hi-Rail Truck." 00 
+                "T" "DESC" 15 "ÞOvlivňuje dostupnost železničních HEQS vozidel v pořizovacím menu (a menu auto-výměny). Již pořízená vozidla nebudou ovlivněna. Jiné sety než HEQS nebudou ovlivněny." 00                              
                 "B" "TYPE" \w1 1 
                 "B" "DFLT" \w4 \d1
                 00 
