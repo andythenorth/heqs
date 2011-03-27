@@ -1,0 +1,135 @@
+HEQS Heavy Equipment Set Changelog
+----------------------------------
+
+*version 1.0.1*
+New parameters to disable/enable groups of vehicles.  Best used with parameters GUI (needs OpenTTD 1.1 or newer).
+- set 0 to disable, 1 to enable.  Parameters are as follows (counting first parameter as '1')
+- parameter 3: trams
+- parameter 4: core road vehicles
+- parameter 5: extra road vehicles
+- parameter 6: rail vehicles
+Tram running costs adjusted, greater difference between running costs for different refitted capacities.
+Reduce tram loading speed.
+Fix: ECS cereals were grey - fixed for most vehicles.
+
+*version 1.0*
+It's version 1.0.  That's a feature in it's own right :D
+Also...
+You can adjust HEQS purchase costs and running costs :
+- running costs are parameter 1
+- purchase costs are parameter 2
+Value 9 = normal.  Values below 9 reduce costs progressively (min value is 0).  Values above 9 increase costs progressively (max value is 18).
+Added Dorstfeld 0-4-0 industrial steam tram.  Available 1869.
+All trams now have appropriate sound effects.
+
+*version 0.9.6*
+Set running and purchase costs for all vehicles (most are a *lot* more expensive).
+Sparks effect for trams (needs OpenTTD r21240 or newer).
+Power, speed and weight increases over time for No. 6, No. 8 and No. 9 crawlers.
+Reduced capacity of Ishizuchi Tram to better match common train sets.
+Set capacity of Gmund Mog rail version to 0 - it doesn't carry cargo.
+Small improvements to appearance of Gmund Mog.
+Some truck weights increased to allow for weight of trailers.
+
+*version 0.9.5*
+Most vehicles now show smoke effects when accelerating (needs OpenTTD r21240 or newer).
+
+*version 0.9.4*
+skipped
+
+*version 0.9.3*
+Fix: Trams had wrong graphics for grain cargo.
+
+*version 0.9.2*
+Fix: Gmund Mog road truck was using wrong sprites.
+Improved offsets for mining trucks.
+Checked and adjusted tractive effort (TE) values for all vehicles, following change to road vehicle acceleration in trunk OpenTTD.
+
+*version 0.9.1*
+Fix: Gmund Mog hi-rail vehicle is refittable to all cargos except passengers.
+
+*version 0.9.0*
+Added Gmund Mog road truck (available 1947).  Great for delivering FIRS Supplies.
+Added Gmund Mog hi-rail vehicle (available 1958.  Great as an alternative to rail locomotives for light use).
+Gmund Mog speed, power and weight changes over time (requires OpenTTD r21100 or newer)
+Enhanced cargo graphic support for industrial trams:
+- includes mineral cargo graphics for FIRS and other sets
+- fixed a bug with cargo graphics not displaying for some trams
+Enhanced cargo graphic support for mining trucks :
+- added graphic support for FIRS Clay cargo
+- default mineral cargo graphic changed is now grey for all trucks
+Fixed a bug with truncated crawler trailer in some angles.
+Fixed an error with refitted capacity that OpenTTD was reporting for industrial trams.
+Extensive internal changes - many more vehicles now using much more efficient CPP templating.
+Provided graphics and code for to standardised RV templates - based on Pikka train templates.
+Started moving some real sprites to png - grfcodec now supports both pcx and png.
+
+*version 0.8.0*
+Major reorganisation of HEQS internals (code, vehicle IDs, filesystem).  
+
+Only two new 'features':
+- compatible with default vehicles
+- change of grfid.  To prevent breaking savegames, HEQS 0.8.0 is not compatible with previous versions of HEQS.
+
+The purpose of HEQS 0.8.0 is to provide a cleaner structure for future improvements.  
+Using HEQS 0.8.0 now will provide better savegame compatibility when new features are added to future releases of HEQS.
+
+*version 0.7.1*
+Wood and livestock cargo graphics for industrial trams.
+
+*version 0.7.0*
+Added Industrial Trams:
+- Kreuzberg Tram (available 1902)
+- Henningsdorf Tram (available 1922)
+- Ishizuchi Tram (available 1952)
+Changed speed of Speedytrac for better set balance.
+Improved cargo graphics support for dump trucks / mining trucks: affects gravel, bauxite, copper ore, default. 
+Set HP correctly for several vehicles.
+Cargo table support for FIRS cargos MILK, PETR, RFPR, GRVL (not used much within HEQS yet). 
+Internal changes to use more CPP templating.
+Numerous minor code fixes.
+
+*version 0.6*
+Added Grindelwald Foundry Transporter (available 1972).
+Added Kander Foundry Transporter (available 1967).
+Cargo table support for FIRS cargos ALUM and SCRP. 
+Many internal changes to layout of sprite files.
+
+*version 0.5e*
+Added Wolfpen Ridge Dump Truck - (available 2005)
+Added flashing amber beacons to more vehicles.
+Fourtrac now has more livery variations (uses 1st company colour for mail and goods). 
+
+Set correct hp, weight and co-efficient of TE for all vehicles - for use with realistic vehicle acceleration.
+
+*version 0.5d*
+Fixed Camelback Mountain Mining Truck - now correctly builds two trailers instead of one.
+
+*version 0.5c*
+Added support for FIRS sand cargo (also any set with "SAND" as cargo label)
+Restructured sprite layouts and some code for mining and dump trucks (doesn't add any new features)
+Added Cascade C10 and C16 Logging Trucks (available 1972)
+
+*version 0.5b*
+Added Red Peak Articulated Crawler (available 1998)
+
+*version 0.5a*
+Added new graphics for No. 9 Bulldozer for 1970-1980
+Added new graphics (smaller) for lower capacity bulldozer trailers
+Improved sprites offsets for bulldozers /trailers
+Removed redundant vehicle IDs
+Removed drawbars from some articulated vehicles to improve appearance
+Drawbar graphics are now invisible to improve appearance
+Cleanup of psd / pcx files: organisation and filenames
+!! Vehicle IDs changed.  Will break saved games using v0.4
+
+*Version 0.4e*
+Added new graphics for No.6 Bulldozers from 1993 onwards.  
+Code cleanup for all bulldozers (sprite sources)
+
+*Version 0.4d*
+Moved to automated build system (thanks to planetmaker)
+
+*Version 0.4c*
+Articulated vehicles now provide correct capacity information to the buy menu (thanks to DJ Nekkid).
+Removed unnecessary hard coded strings from the vehicle window about vehicle capacity.
