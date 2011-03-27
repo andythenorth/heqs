@@ -8,7 +8,7 @@
                 "T" "NAME" 7F "Adjust running costs" 00 
                 "T" "NAME" 02 "Betriebskosten anpassen" 00 
                 "T" "NAME" 04 "ÞAjustar costes de operación" 00 
-                "T" "DESC" 7F "Allows to adjust the running costs of the vehicles within this set (e.g, to balance it against others)" 00 
+                "T" "DESC" 7F "Adjust the running costs of the vehicles within this set (e.g, to balance it against other sets)" 00 
                 "T" "DESC" 02 "ÞErlaube die Betriebskosten der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00 
                 "T" "DESC" 04 "ÞPermite ajustar los costes de operación de los vehículos de este conjunto (por ejemplo, para equilibrarlos con otros conjuntos de vehículos)" 00 
                 "B" "LIMI" \w8 \d0 \d18 
@@ -59,7 +59,7 @@
                 "T" "NAME" 7F "Adjust purchase costs" 00 
                 "T" "NAME" 02 "Fahrzeugpreise anpassen" 00 
                 "T" "NAME" 04 "ÞAjustar costes de compra" 00 
-                "T" "DESC" 7F "Allows to adjust the purchase costs of the vehicles within this set (e.g, to balance it against others)" 00 
+                "T" "DESC" 7F "Adjust the purchase costs of the vehicles within this set (e.g, to balance it against other sets)" 00 
                 "T" "DESC" 02 "ÞErlaube die Listenpreise der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00 
                 "T" "DESC" 04 "ÞPermite ajustar los costes de compra de los vehículos de este conjunto (por ejemplo, para equilibrarlos con otros conjuntos de vehículos)" 00 
 
