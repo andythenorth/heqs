@@ -1,0 +1,179 @@
+// Gmund Mog - road and rail versions
+// power ranges 30hp-177hp (2010 version)
+ -1 * 14	 04 01 7F 01 VEH_FORKLIFT_1 "Forklift" 00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_1A D0 "Model: " 8A "1947" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_1B D0 "Model: " 8A "1958" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_2 D0 "Model: " 8A "1963" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_3 D0 "Model: " 8A "1976" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_4 D0 "Model: " 8A "1992" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_5 D0 "Model: " 8A "2009" // (30t total cargo)
+                               0d 98 
+                               00
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_6 D0 "Model: " 8A "2030" // (30t total cargo)
+                               0d 98 
+                               00
+
+
+#define THIS_PCX_FILE         gmund_mog.png     // used in action 1 template (must include file extension)
+#define THIS_VEH_ID           VEH_FORKLIFT_1
+#define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
+#include "../templates/group_availability/rv_availability.tnfo"
+
+#include "../templates/standard_crops_offsets_1/4-8.tnfo"
+
+#define THIS_SMOKE_TYPE 27
+#include "../templates/template_smoke.tnfo"
+
+ // road version
+ -1 * 67	 00 01 \b24 01 VEH_FORKLIFT_1 
+    00 00 00  // intro date (min value: 1-1-1920) 
+    02 20     // reliability 
+    03 \b35   // vehicle life 
+    04 \b255  // class life 
+    07 05     // load amount 
+    08 \b102  // speed in mph * 3.2
+    09 12     // running cost factor 
+    0A 48 4C 00 00        // running cost base 
+    0E FF     // sprite ID
+    0F \b04   // capacity (default cargo is goods, so 4 crates = 2t)
+    10 05     // cargo type
+    11 17     // cost factor
+    12 17     // sound effect
+    13 \b3    // power in 10 hp
+    14 \b08   // weight in 1/4 tons
+    15 \b26   // speed in mph * 0.8
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D FF 03          // Refittable cargo classes
+    1E 01 00          // Non-refittable cargo classes
+    1F \d711420    // Long format introduction date
+
+#define THIS_SMOKE_TYPE 27
+#include "../templates/template_smoke.tnfo"
+
+// real sprites
+ -1 * 4	 01 01 02 08      // Action 1 | RV | 1 sprite set | 8 members 
+// 1st company colour empty
+#define THIS_Y_POS  25
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+// 1st company colour loaded
+#define THIS_Y_POS  50
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+
+ -1 * 9	 02 01 A0
+      02 // number loading states
+      02 // number loaded states
+      00 00  01 00 // loading sprites
+      00 00  01 00 // loaded sprites
+
+ -1 * 4	 01 01 01 01 // buy menu sprites - not templated, too specific to each vehicle 
+ -1 sprites/graphics/gmund_mog.png 176 25 01 12 28 -21 -6
+ -1 * 9	 02 01 FF // use FF as standard ID for start of buy menu graphics chain 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+      
+-1 * 30	 02 01 FA // buy menu - text for vehicle window
+           81 01 00  FF // check current year
+             \b05 // range
+               STR_EXTRA_INFO_TRUCK_GMUND_MOG_1A 80 \b00 \b42 // before 1963
+               STR_EXTRA_INFO_TRUCK_GMUND_MOG_2 80 \b43 \b55 // before 1976
+               STR_EXTRA_INFO_TRUCK_GMUND_MOG_3 80 \b56 \b71 // before 1992
+               STR_EXTRA_INFO_TRUCK_GMUND_MOG_4 80 \b72 \b88 // before 2009
+               STR_EXTRA_INFO_TRUCK_GMUND_MOG_5 80 \b89 \b109 // before 2030
+           STR_EXTRA_INFO_TRUCK_GMUND_MOG_6 80 // default graphics / text
+
+
+  -1 * 18	 02 01 E3  // handle setting speed - check property type cb requires
+           81 C4 00  FF // check current year
+             \b03 // range
+               1A 80 \b00 \b42 // 32mph before 1963   // can't escape the first byte of cb results here, stupid - use hex instead
+               26 80 \b43 \b55 // 47mph before 1976
+               2C 80 \b56 \b71 // 55mph before 1992
+             32 80 // 62mph default
+  -1 * 18	 02 01 E2  // handle setting weight - check property type cb requires
+           81 C4 00  FF // check current year
+             \b01 // range
+               08 80 \b00 \b42 // before 1963   // can't escape the first byte of cb results here, stupid - use hex instead
+             0C 80 // default
+  -1 * 18	 02 01 E1  // handle setting power - check property type cb requires
+           81 C4 00  FF // check current year
+             \b05 // range
+               03 80 \b00 \b42 // 30hp before 1963   // can't escape the first byte of cb results here, stupid - use hex instead
+               07 80 \b43 \b55 // 70hp before 1976
+               0C 80 \b56 \b71 // 120hp before 1992
+               10 80 \b72 \b88 // 160hp before 2009
+               15 80 \b89 \b109 // 210hp before 2030
+             1C 80 // 280hp default
+
+  -1 * 18	 02 01 E0  // handle changing properties - check property type cb requires
+                 81 10 00 FF //
+                 \b03 // range
+                   E1 00  13 13 // set power
+                   E2 00  14 14 // set weight
+                   E3 00  15 15 // set speed
+                 A0 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
+                 
+// handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
+  -1 * 18	 02 01 C0  // handle callbacks for real vehicle (not buy menu)
+                 81 0C 00 FF //
+                 \b1 // range
+                   E0 00  36 36 // change vehicle properties
+                 A0 00 // graphics            
+  -1 * 18	 02 01 C1  // handle callbacks for buy menu
+                 81 0C 00 FF //
+                 \b2 // range
+                   FA 00  23 23 // text for vehicle window
+                   E0 00  36 36 // change vehicle properties
+                 FF 00 // graphics            
+
+
+ -1 * 7	 03 01 01 VEH_FORKLIFT_1 // Action 3
+    01  // Number of different cargo types to support
+      FF  C1 00 // buy menu
+    C0 00   // default Action 2 ID 
+
+#undef DATE_GENERATION_1
+#undef DATE_GENERATION_2
+#undef DATE_GENERATION_3
+#undef DATE_GENERATION_4
+#undef DATE_GENERATION_5
+#undef DATE_GENERATION_6
+
+#undef THIS_PCX_FILE
+#undef THIS_VEH_ID
+#undef THIS_LENGTH_ADJUST
+
+#undef THIS_Y_X_CROP_1
+#undef THIS_Y_X_CROP_2
+#undef THIS_Y_X_CROP_3
+#undef THIS_Y_X_CROP_4
+#undef THIS_Y_X_CROP_5
+#undef THIS_Y_X_CROP_6
+#undef THIS_Y_X_CROP_7
+#undef THIS_Y_X_CROP_8
+
+#undef THIS_OFFS_X_Y_1
+#undef THIS_OFFS_X_Y_2
+#undef THIS_OFFS_X_Y_3
+#undef THIS_OFFS_X_Y_4
+#undef THIS_OFFS_X_Y_5
+#undef THIS_OFFS_X_Y_6
+#undef THIS_OFFS_X_Y_7
+#undef THIS_OFFS_X_Y_8
+

@@ -127,7 +127,7 @@
 //#define VACANT                                 C9
 //#define VACANT                                 CA
 #define VEH_TRUCK_GMUND_MOG                    CB
-//#define VACANT                                 CC
+#define VEH_FORKLIFT_1                         CC
 //#define VACANT                                 CD
 //#define VACANT                                 CE
 //#define VACANT                                 CF
