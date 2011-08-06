@@ -135,7 +135,7 @@
 #define VEH_INDUSTRIAL_TRAM_STEAM_1            D0
 #define VEH_INDUSTRIAL_TRAM_STEAM_2            D1
 #define VEH_INDUSTRIAL_TRAM_STEAM_3            D2
-//#define VACANT                                 D3
+#define VEH_INDUSTRIAL_TRAM_RAILMOTOR_1        D3
 //#define VACANT                                 D4
 //#define VACANT                                 D5
 //#define VACANT                                 D6
