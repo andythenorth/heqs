@@ -45,8 +45,9 @@
 // handle callbacks to change vehicle properties                 
  -1 * 14	 02 01 C2 // set engine length depending on num. wagons (set by refit cycle).  (to fit 4 wagon train into 1 tile - 16x1/8 vehicles) 
                  82 42 10 FF // check most common value of F2 (refit cycle) in consist
-                 \b1 // range
-                   07 80  00 00 // refit 1 (3 or 4 wagons)
+                 \b2 // range
+                   THIS_LENGTH_ADJUST_1 80  00 00 // refit 1 (3 or 4 wagons)
+                   THIS_LENGTH_ADJUST_2 80  01 01 // refit 2 (9 wagons)
                  THIS_LENGTH_ADJUST 80 // default otherwise use actual length of vehicle
 
  -1 * 18	 02 01 E1  // handle setting run cost - check property type cb requires
@@ -78,6 +79,8 @@
 #undef THIS_VEH_ID
 #undef THIS_WAGON_TYPE
 #undef THIS_LENGTH_ADJUST
+#undef THIS_LENGTH_ADJUST_1
+#undef THIS_LENGTH_ADJUST_2
 #undef THIS_BUY_MENU_STR
 #undef THIS_RUNCOST_REFIT_1
 #undef THIS_RUNCOST_REFIT_2

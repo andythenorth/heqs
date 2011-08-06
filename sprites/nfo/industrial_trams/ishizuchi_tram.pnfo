@@ -2,6 +2,8 @@
 
 #define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_ELECTRIC_3
 #define THIS_LENGTH_ADJUST    02
+#define THIS_LENGTH_ADJUST_1  05
+#define THIS_LENGTH_ADJUST_2  04
 #define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_3
 #define THIS_BUY_MENU_STR     STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_3
 #define THIS_RUNCOST_REFIT_1  4D //don't escape, used in cb results which have problems with escaped bytes

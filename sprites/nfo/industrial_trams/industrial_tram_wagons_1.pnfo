@@ -59,9 +59,14 @@
                  AA 00 // default - use invisible sprite
   -1 * 14	 02 01 B1  // subtype 2 (9 wagons) - choose sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
-                 \b02 // range
-                   A1 00  \b01 \b09 // 
-                   AA 00  \b10 \b15 //
+                 \b07 // range
+                   A1 00  \b01 \b06 // 
+                   A2 00  \b07 \b07 // 
+                   AA 00  \b08 \b09 // 
+                   A2 00  \b10 \b10 // 
+                   AA 00  \b11 \b12 //
+                   A2 00  \b13 \b13 // 
+                   AA 00  \b14 \b15 //
                  AA 00 // default - use invisible sprite
   -1 * 14	 02 01 B0  // subtype 1 (4 wagons) - choose sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
@@ -104,9 +109,14 @@
                  EB 00 // default
   -1 * 14	 02 01 E2  // subtype 2 (9 wagons) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
-                 \b02 // range
-                   EA 00  \b01 \b09 // 
-                   EB 00  \b10 \b15 //
+                 \b07 // range
+                   EA 00  \b01 \b06 // 
+                   EA 00  \b07 \b07 // 
+                   EB 00  \b08 \b09 // 
+                   EA 00  \b10 \b10 // 
+                   EB 00  \b11 \b12 //
+                   EA 00  \b13 \b13 // 
+                   EB 00  \b14 \b15 //
                  EB 00 // default 
   -1 * 14	 02 01 E1  // subtype 1 (4 wagons) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
