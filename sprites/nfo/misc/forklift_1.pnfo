@@ -1,25 +1,19 @@
 // Gmund Mog - road and rail versions
 // power ranges 30hp-177hp (2010 version)
  -1 * 14	 04 01 7F 01 VEH_FORKLIFT_1 "Forklift" 00
- -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_1A D0 "Model: " 8A "1947" // (30t total cargo)
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_FORKLIFT_1_A D0 "Model: " 8A "1936" //
                                0d 98 
                                00
- -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_1B D0 "Model: " 8A "1958" // (30t total cargo)
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_FORKLIFT_1_B D0 "Model: " 8A "1950" //
                                0d 98 
                                00
- -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_2 D0 "Model: " 8A "1963" // (30t total cargo)
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_FORKLIFT_1_C D0 "Model: " 8A "1968" //
                                0d 98 
                                00
- -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_3 D0 "Model: " 8A "1976" // (30t total cargo)
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_FORKLIFT_1_D D0 "Model: " 8A "1984" //
                                0d 98 
                                00
- -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_4 D0 "Model: " 8A "1992" // (30t total cargo)
-                               0d 98 
-                               00
- -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_5 D0 "Model: " 8A "2009" // (30t total cargo)
-                               0d 98 
-                               00
- -1 * 87	 04 01 81 01 STR_EXTRA_INFO_TRUCK_GMUND_MOG_6 D0 "Model: " 8A "2030" // (30t total cargo)
+ -1 * 87	 04 01 81 01 STR_EXTRA_INFO_FORKLIFT_1_E D0 "Model: " 8A "2006" //
                                0d 98 
                                00
 
@@ -41,13 +35,13 @@
     03 \b35   // vehicle life 
     04 \b255  // class life 
     07 05     // load amount 
-    08 \b102  // speed in mph * 3.2
-    09 12     // running cost factor 
+    08 \b67  // speed in mph * 3.2
+    09 0A     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
-    0F \b04   // capacity (default cargo is goods, so 4 crates = 2t)
+    0F \b02   // capacity (default cargo is goods, so 2 crates = 1t)
     10 05     // cargo type
-    11 17     // cost factor
+    11 10     // cost factor
     12 17     // sound effect
     13 \b3    // power in 10 hp
     14 \b08   // weight in 1/4 tons
@@ -59,7 +53,7 @@
     1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
-    1F \d711420    // Long format introduction date
+    1F  \d01-03-1936    // Long format introduction date
 
 #define THIS_SMOKE_TYPE 27
 #include "../templates/template_smoke.tnfo"
@@ -81,7 +75,7 @@
       00 00  01 00 // loaded sprites
 
  -1 * 4	 01 01 01 01 // buy menu sprites - not templated, too specific to each vehicle 
- -1 sprites/graphics/forklift_1.png 176 25 01 12 28 -21 -6
+ -1 sprites/graphics/forklift_1.png 176 0 01 12 28 -21 -6
  -1 * 9	 02 01 FF // use FF as standard ID for start of buy menu graphics chain 
       01 // number loading states
       01 // number loaded states
@@ -90,42 +84,33 @@
       
 -1 * 30	 02 01 FA // buy menu - text for vehicle window
            81 01 00  FF // check current year
-             \b05 // range
-               STR_EXTRA_INFO_TRUCK_GMUND_MOG_1A 80 \b00 \b42 // before 1963
-               STR_EXTRA_INFO_TRUCK_GMUND_MOG_2 80 \b43 \b55 // before 1976
-               STR_EXTRA_INFO_TRUCK_GMUND_MOG_3 80 \b56 \b71 // before 1992
-               STR_EXTRA_INFO_TRUCK_GMUND_MOG_4 80 \b72 \b88 // before 2009
-               STR_EXTRA_INFO_TRUCK_GMUND_MOG_5 80 \b89 \b109 // before 2030
-           STR_EXTRA_INFO_TRUCK_GMUND_MOG_6 80 // default graphics / text
+             \b04 // range
+               STR_EXTRA_INFO_FORKLIFT_1_A 80 \b00 \b19 // before 1950
+               STR_EXTRA_INFO_FORKLIFT_1_B 80 \b20 \b47 // before 1968
+               STR_EXTRA_INFO_FORKLIFT_1_C 80 \b48 \b63 // before 1984
+               STR_EXTRA_INFO_FORKLIFT_1_D 80 \b64 \b85 // before 2006
+           STR_EXTRA_INFO_FORKLIFT_1_E 80 // default graphics / text
 
 
   -1 * 18	 02 01 E3  // handle setting speed - check property type cb requires
            81 C4 00  FF // check current year
-             \b03 // range
-               1A 80 \b00 \b42 // 32mph before 1963   // can't escape the first byte of cb results here, stupid - use hex instead
-               26 80 \b43 \b55 // 47mph before 1976
-               2C 80 \b56 \b71 // 55mph before 1992
-             32 80 // 62mph default
-  -1 * 18	 02 01 E2  // handle setting weight - check property type cb requires
-           81 C4 00  FF // check current year
-             \b01 // range
-               08 80 \b00 \b42 // before 1963   // can't escape the first byte of cb results here, stupid - use hex instead
-             0C 80 // default
+             \b02 // range
+               0C 80 \b00 \b63 // 15mph before 1984   // can't escape the first byte of cb results here, stupid - use hex instead
+               0F 80 \b64 \b85 // 18mph before 2006
+             11 80 // 21mph default
   -1 * 18	 02 01 E1  // handle setting power - check property type cb requires
            81 C4 00  FF // check current year
-             \b05 // range
-               03 80 \b00 \b42 // 30hp before 1963   // can't escape the first byte of cb results here, stupid - use hex instead
-               07 80 \b43 \b55 // 70hp before 1976
-               0C 80 \b56 \b71 // 120hp before 1992
-               10 80 \b72 \b88 // 160hp before 2009
-               15 80 \b89 \b109 // 210hp before 2030
-             1C 80 // 280hp default
+             \b04 // range
+               03 80 \b00 \b19 // 30hp before 1950   // can't escape the first byte of cb results here, stupid - use hex instead
+               05 80 \b20 \b47 // 50hp before 1968
+               07 80 \b48 \b63 // 70hp before 1984
+               08 80 \b64 \b85 // 80hp before 2006
+             09 80 // 90hp default
 
   -1 * 18	 02 01 E0  // handle changing properties - check property type cb requires
                  81 10 00 FF //
-                 \b03 // range
+                 \b02 // range
                    E1 00  13 13 // set power
-                   E2 00  14 14 // set weight
                    E3 00  15 15 // set speed
                  A0 00 // default (use a regular action 2 ID for graphics t0 make cb36 fail for props that shouldn't be changed)
                  

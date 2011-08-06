@@ -170,6 +170,13 @@
 
 #define STR_REFIT_VEH_CRAWLER_TRAILER_2                   02 //D0 text
 
+#define STR_EXTRA_INFO_FORKLIFT_1_A                       30 //D0 text
+#define STR_EXTRA_INFO_FORKLIFT_1_B                       31 //D0 text
+#define STR_EXTRA_INFO_FORKLIFT_1_C                       32 //D0 text
+#define STR_EXTRA_INFO_FORKLIFT_1_D                       33 //D0 text
+#define STR_EXTRA_INFO_FORKLIFT_1_E                       34 //D0 text
+
+
 #define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_A           40 //D0 text
 #define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_B           41 //D0 text
 #define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_1_C           42 //D0 text
