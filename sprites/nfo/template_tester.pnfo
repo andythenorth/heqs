@@ -1,4 +1,4 @@
-#define THIS_PCX_FILE         road_vehicle_templates_8-8.png     // used in action 1 template (must include file extension)
+#define THIS_GRAPHICS_FILE         road_vehicle_templates_8-8.png     // used in action 1 template (must include file extension)
 
 #include "templates/standard_crops_offsets_1/8-8.tnfo"
 

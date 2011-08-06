@@ -2,7 +2,7 @@
 
 #define THIS_LENGTH_ADJUST    04
 #define THIS_CAPACITY         0F // do this in hex - escapes are a hassle here for various reasons
-#define THIS_PCX_FILE         industrial_tram_wagons_2.pcx     // used in action 1 template (must include file extension)
+#define THIS_GRAPHICS_FILE         industrial_tram_wagons_2.pcx     // used in action 1 template (must include file extension)
    
 #define THIS_OFFS_X_Y_1   -3 -12
 #define THIS_OFFS_X_Y_2  -14  -5

@@ -101,7 +101,7 @@
 -1 * 4	 01 01 01 04 // depot sprites
 -1 * 1	 00
 -1 * 1	 00
--1 sprites/graphics/THIS_PCX_FILE  370  14  01  THIS_Y_X_CROP_MENU  THIS_OFFS_X_Y_MENU
+-1 sprites/graphics/THIS_GRAPHICS_FILE  370  14  01  THIS_Y_X_CROP_MENU  THIS_OFFS_X_Y_MENU
 -1 * 1	 00
 -1 * 9	 02 01 FF 01 01 00 00 00 00
 
@@ -117,7 +117,7 @@
      FF  FF 00 // buy menu sprites
    05 00 // default sprites
 
-#undef THIS_PCX_FILE
+#undef THIS_GRAPHICS_FILE
 #undef THIS_VEH_ID
        
 #undef THIS_Y_X_CROP_1

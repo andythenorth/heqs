@@ -25,7 +25,7 @@
                                00
 
 
-#define THIS_PCX_FILE         gmund_mog.png     // used in action 1 template (must include file extension)
+#define THIS_GRAPHICS_FILE         gmund_mog.png     // used in action 1 template (must include file extension)
 #define THIS_VEH_ID           VEH_TRUCK_GMUND_MOG
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../templates/group_availability/rv_availability.tnfo"
@@ -253,7 +253,7 @@
 #undef DATE_GENERATION_5
 #undef DATE_GENERATION_6
 
-#undef THIS_PCX_FILE
+#undef THIS_GRAPHICS_FILE
 #undef THIS_VEH_ID
 #undef THIS_LENGTH_ADJUST
 

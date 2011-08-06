@@ -1,6 +1,6 @@
 // ------------ Tractor Medium Trailers ------------------ //
 
-#define THIS_PCX_FILE         medium_trailer_tandem.pcx     // used in action 1 template (must include file extension)
+#define THIS_GRAPHICS_FILE         medium_trailer_tandem.pcx     // used in action 1 template (must include file extension)
 
 #define THIS_Y_X_CROP_1  24  12
 #define THIS_Y_X_CROP_2  20  26
@@ -194,7 +194,7 @@
       1E 07 00 // tropical wood
 	  AA 00 // default (box trailer)
 
-#undef THIS_PCX_FILE
+#undef THIS_GRAPHICS_FILE
        
 #undef THIS_Y_X_CROP_1
 #undef THIS_Y_X_CROP_2

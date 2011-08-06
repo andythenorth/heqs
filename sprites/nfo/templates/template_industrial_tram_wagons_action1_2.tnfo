@@ -10,14 +10,14 @@
 
  -1 * 4	 01 01 \b01 \b08
 // invisible sprites 
- -1 sprites/graphics/THIS_PCX_FILE    0 0  01  01  01   0 0
- -1 sprites/graphics/THIS_PCX_FILE    0 0  01  01  01   0 0
- -1 sprites/graphics/THIS_PCX_FILE    0 0  01  01  01   0 0
- -1 sprites/graphics/THIS_PCX_FILE    0 0  01  01  01   0 0
- -1 sprites/graphics/THIS_PCX_FILE    0 0  01  01  01   0 0
- -1 sprites/graphics/THIS_PCX_FILE    0 0  01  01  01   0 0
- -1 sprites/graphics/THIS_PCX_FILE    0 0  01  01  01   0 0
- -1 sprites/graphics/THIS_PCX_FILE    0 0  01  01  01   0 0
+ -1 sprites/graphics/THIS_GRAPHICS_FILE    0 0  01  01  01   0 0
+ -1 sprites/graphics/THIS_GRAPHICS_FILE    0 0  01  01  01   0 0
+ -1 sprites/graphics/THIS_GRAPHICS_FILE    0 0  01  01  01   0 0
+ -1 sprites/graphics/THIS_GRAPHICS_FILE    0 0  01  01  01   0 0
+ -1 sprites/graphics/THIS_GRAPHICS_FILE    0 0  01  01  01   0 0
+ -1 sprites/graphics/THIS_GRAPHICS_FILE    0 0  01  01  01   0 0
+ -1 sprites/graphics/THIS_GRAPHICS_FILE    0 0  01  01  01   0 0
+ -1 sprites/graphics/THIS_GRAPHICS_FILE    0 0  01  01  01   0 0
   -1 * 17	 02 01 00
       01 // number loaded states
       01 // number loading states
@@ -186,7 +186,7 @@
 #undef THIS_Y_X_CROP_7
 #undef THIS_Y_X_CROP_8
 
-#undef THIS_PCX_FILE
+#undef THIS_GRAPHICS_FILE
 
 #undef THIS_OFFS_X_Y_1
 #undef THIS_OFFS_X_Y_2

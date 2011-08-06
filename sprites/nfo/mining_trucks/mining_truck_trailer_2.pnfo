@@ -53,7 +53,7 @@
 -1 * 7	 00 01 01 01 07 10 08// copper ore default
 -1 * 22	 04 01 7F 01 VEH_MINING_TRUCK_TRAILER_2 "Large Belly Dump" 00
 
-#define THIS_PCX_FILE         mining_truck_trailer_large_A.pcx     // used in action 1 template (must include file extension)
+#define THIS_GRAPHICS_FILE         mining_truck_trailer_large_A.pcx     // used in action 1 template (must include file extension)
 // Large belly dump A (rear wheels only) - empty
 -1 * 4	 01 01 \b13 08
  // empty
@@ -115,9 +115,9 @@
 -1 * 17	 02 01 0E  03 03    00 00  07 00  08 00    00 00  07 00  08 00 // brown 
 -1 * 17	 02 01 17  03 03    00 00  09 00  0A 00    00 00  09 00  0A 00 // red
 -1 * 17	 02 01 11  03 03    00 00  0B 00  0C 00    00 00  0B 00  0C 00 // grey
-#undef THIS_PCX_FILE
+#undef THIS_GRAPHICS_FILE
 
-#define THIS_PCX_FILE         mining_truck_trailer_large_B.pcx     // used in action 1 template (must include file extension)
+#define THIS_GRAPHICS_FILE         mining_truck_trailer_large_B.pcx     // used in action 1 template (must include file extension)
 // Large belly dump B (with front wheels) - empty
 -1 * 4	 01 01 \b13 08
  // empty
@@ -214,7 +214,7 @@
       CA 00 // default
 
 
-#undef THIS_PCX_FILE
+#undef THIS_GRAPHICS_FILE
 #undef THIS_VEH_ID
        
 #undef THIS_Y_X_CROP_1
