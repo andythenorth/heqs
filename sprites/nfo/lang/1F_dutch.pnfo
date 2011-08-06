@@ -1,0 +1,41 @@
+-1 * -1   14 
+    "C" "INFO"
+        "B" "NPAR" \w1 6
+        "C" "PARA"
+            "C" \d0
+                "T" "NAME" 1F "Onderhoudskosten aanpassen" 00 
+                "T" "DESC" 1F "Wijzig de onderhoudskosten voor voertuigen in deze set (bijvoorbeeld om ze in lijn te stellen met andere voertuigsets)" 00 
+                "C" "VALU" 
+                    "T" \d9 1F "standaard" 00 
+                    00
+                00
+            "C" \d1
+                "T" "NAME" 1F "Aanschafkosten aanpassen" 00 
+                "T" "DESC" 1F "Wijzig de aanschafkosten voor voertuigen in deze set (bijvoorbeeld om ze in lijn te stellen met andere voertuigsets)" 00 
+                "C" "VALU" 
+                    "T" \d9 1F "standaard" 00 
+                    00
+                00 
+            "C" \d2
+                "T" "NAME" 1F "Trams " 00 
+                "T" "DESC" 1F "ÞBeschikbaarheid van HEQS trams in aankoopmenu (en automatisch vervangen) beheren.\nVoertuigen die al gekocht zijn en voertuigen buiten HEQS worden niet beïnvloed."
+                              "\nBeïnvloedt: \89alle industrieële trams." 00 
+                00 
+            "C" \d3
+                "T" "NAME" 1F "Basiswegvoertuigen " 00 
+                "T" "DESC" 1F "ÞBeschikbaarheid van HEQS basiswegvoertuigen in aankoopmenu (en automatisch vervangen) beheren.\nVoertuigen die al gekocht zijn en voertuigen buiten HEQS worden niet beïnvloed."
+                              "\nBeïnvloedt: \89voertuigen zoals mijnbouw-, hoge aslast- en bosbouwtrucks." 00 
+                00 
+            "C" \d4
+                "T" "NAME" 1F "Extra wegvoertuigen " 00 
+                "T" "DESC" 1F "ÞBeschikbaarheid van HEQS extra wegvoertuigen in aankoopmenu (en automatisch vervangen) beheren.\nVoertuigen die al gekocht zijn en voertuigen buiten HEQS worden niet beïnvloed."
+                              "\nBeïnvloedt: \89voertuigen zoals rupsvoertuigen en tractoren." 00 
+                00 
+            "C" \d5
+                "T" "NAME" 1F "Spoorwegvoertuigen " 00 
+                "T" "DESC" 1F "ÞBeschikbaarheid van HEQS spoorwegvoertuigen in aankoopmenu (en automatisch vervangen) beheren.\nVoertuigen die al gekocht zijn en voertuigen buiten HEQS worden niet beïnvloed."
+                              "\nBeïnvloedt: \89spoorwegvoertuigen zoals Gmund Mog Hi-Rail Truck." 00 
+                00 
+            00
+        00
+    00

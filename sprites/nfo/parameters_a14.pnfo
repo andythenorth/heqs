@@ -84,4 +84,5 @@
 #include "lang/02_german.pnfo"
 #include "lang/04_spanish.pnfo"
 #include "lang/15_czech.pnfo"
+#include "lang/1F_dutch.pnfo"
 
