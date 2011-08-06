@@ -28,6 +28,7 @@
 #include "sprites/nfo/mining_trucks/mining_truck_trailer_2.pnfo"
 
 #include "sprites/nfo/misc/gmund_mog.pnfo"
+#include "sprites/nfo/misc/forklift_1.pnfo"
 
 #include "sprites/nfo/tractors/fourtrac.pnfo"
 #include "sprites/nfo/tractors/super_speedytrac.pnfo"
