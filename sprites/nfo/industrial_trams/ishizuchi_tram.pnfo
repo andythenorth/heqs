@@ -18,7 +18,7 @@
  -1 * 67	 00 01 \b25 01 VEH_INDUSTRIAL_TRAM_ELECTRIC_3
     00 \w1-1-1952  // intro date (min value: 1-1-1920) (min value: 1920) 
     02 20     // reliability 
-    03 \b70   // vehicle life 
+    03 \b40   // vehicle life 
     04 \b150  // class life 
     07 00     // load amount 
     08 \b100  // speed in mph * 3.2
