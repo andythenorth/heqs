@@ -1,0 +1,39 @@
+#define PARAM_RUNNING_COST  00
+#define PARAM_PURCHASE_COST 01
+-1 * -1   14 
+    "C" "INFO"
+        "B" "NPAR" \w1 6
+        "C" "PARA"
+            "C" \d0
+                "T" "NAME" 02 "Betriebskosten anpassen" 00 
+                "T" "DESC" 02 "ÞErlaube die Betriebskosten der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00
+                "C" "VALU" 
+                    "T" \d9 02 "normal" 00 
+                    00
+                00
+            "C" \d1
+                "T" "NAME" 02 "Fahrzeugpreise anpassen" 00 
+                "T" "DESC" 02 "ÞErlaube die Listenpreise der Fahrzeuge anzupassen (z.B. um sie anderen Fahrzeugsets gegenüber anzupassen)" 00 
+                "C" "VALU" 
+                    "T" \d9 02 "normal" 00
+                    00
+                00 
+            "C" \d2
+                "T" "NAME" 02 "ÞStraßenbahnen" 00 
+                "T" "DESC" 02 "ÞVerfügbarkeit von Straßenbahnen einstellen.\nExistierende Fahrzeuge und Fahrzeuge anderer Sets sind hiervon unbeeinflußt.\nBeeinflußt: Industrie-Straßenbahnen." 00 
+                00 
+            "C" \d3
+                "T" "NAME" 02 "ÞStraßenfahrzeuge" 00 
+                "T" "DESC" 02 "ÞVerfügbarkeit von Straßenfahrzeugen einstellen.\nExistierende Fahrzeuge und Fahrzeuge anderer Sets sind hiervon unbeeinflußt.\Beeinflußt: Fahrzeuge wie Bergbau-Fahrzeuge, Schwerlast- und Langholztransporter." 00 
+                00 
+            "C" \d4
+                "T" "NAME" 02 "ÞZusätzliche Straßenfahrzeuge" 00 
+                "T" "DESC" 02 "ÞVerfügbarkeit von zusätzlichen Straßenfahrzeugen einstellen.\nExistierende Fahrzeuge und Fahrzeuge anderer Sets sind hiervon unbeeinflußt.\Beeinflußt: Fahrzeuge wie Raupenfahrzeuge und Traktoren." 00 
+                00 
+            "C" \d5
+                "T" "NAME" 02 "ÞSchienenfahrzeuge" 00 
+                "T" "DESC" 02 "ÞVerfügbarkeit von Schienenfahrzeugen einstellen.\nExistierende Fahrzeuge und Fahrzeuge anderer Sets sind hiervon unbeeinflußt.\Beeinflußt: Fahrzeuge wie den Gmund Mog Hi-Rail Truck." 00 
+                00 
+            00
+        00
+    00

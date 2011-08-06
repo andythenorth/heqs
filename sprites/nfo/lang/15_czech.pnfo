@@ -1,0 +1,33 @@
+#define PARAM_RUNNING_COST  00
+#define PARAM_PURCHASE_COST 01
+-1 * -1   14 
+    "C" "INFO"
+        "B" "NPAR" \w1 6
+        "C" "PARA"
+            "C" \d0
+                "T" "NAME" 15 "ÞZměnit provozní ceny" 00 
+                "T" "DESC" 15 "ÞUmožňuje změnit provozní ceny vozidel tohoto setu. (například pro vybalancování oproti ostatním setům)" 00
+                00
+            "C" \d1
+                "T" "NAME" 15 "ÞZměnit pořizovací ceny" 00 
+                "T" "DESC" 15 "ÞUmožňuje změnit pořizovací ceny vozidel tohoto setu. (například pro vybalancování oproti ostatním setům)" 00
+                00 
+            "C" \d2
+                "T" "NAME" 15 "ÞTramvaje" 00
+                "T" "DESC" 15 "ÞOvlivňuje dostupnost HEQS tramvají v pořizovacím menu (a menu auto-výměny).Již pořízená vozidla nebudou ovlivněna. Jiné sety než HEQS nebudou ovlivněny." 00
+                00 
+            "C" \d3
+                "T" "NAME" 15 "ÞZákladní silniční vozidla" 00
+                "T" "DESC" 15 "ÞOvlivňuje dostupnost základních HEQS silničních vozidel v pořizovacím menu (a menu auto-výměny). Již postavená vozidla nebudou ovlivněna. Jiné sety než HEQS nebudou ovlivněny." 00
+                00 
+            "C" \d4
+                "T" "NAME" 15 "ÞPřídavná silniční vozidla" 00
+                "T" "DESC" 15 "ÞOvlivňuje dostupnost základních HEQS silničních vozidel v pořizovacím menu (a menu auto-výměny). Již postavená vozidla nebudou ovlivněna. Jiné sety než HEQS nebudou ovlivněny." 00
+                00 
+            "C" \d5
+                "T" "NAME" 15 "Železniční vozidla" 00
+                "T" "DESC" 15 "ÞOvlivňuje dostupnost železničních HEQS vozidel v pořizovacím menu (a menu auto-výměny). Již pořízená vozidla nebudou ovlivněna. Jiné sety než HEQS nebudou ovlivněny." 00                              
+                00 
+            00
+        00
+    00

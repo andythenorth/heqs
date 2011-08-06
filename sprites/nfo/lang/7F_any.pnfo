@@ -1,0 +1,43 @@
+#define PARAM_RUNNING_COST  00
+#define PARAM_PURCHASE_COST 01
+-1 * -1   14 
+    "C" "INFO"
+        "B" "NPAR" \w1 6
+        "C" "PARA"
+            "C" \d0
+                "T" "NAME" 7F "Adjust running costs" 00 
+                "T" "DESC" 7F "Adjust the running costs of the vehicles within this set (e.g, to balance it against other sets)" 00 
+                "C" "VALU" 
+                    "T" \d9 7F "default" 00 
+                    00
+                00
+            "C" \d1
+                "T" "NAME" 7F "Adjust purchase costs" 00 
+                "T" "DESC" 7F "Adjust the purchase costs of the vehicles within this set (e.g, to balance it against other sets)" 00 
+                "C" "VALU" 
+                    "T" \d9 7F "default" 00 
+                    00
+                00 
+            "C" \d2
+                "T" "NAME" 7F "Trams " 00 
+                "T" "DESC" 7F "Control availability of HEQS trams in buy menu (and for auto-replace).\nVehicles that are already built are unaffected. Sets other than HEQS are unaffected."
+                              "\nAffects: \89all industrial trams." 00 
+                00 
+            "C" \d3
+                "T" "NAME" 7F "Core Road Vehicles " 00 
+                "T" "DESC" 7F "Control availability of HEQS core road vehicles in buy menu (and for auto-replace).\nVehicles that are already built are unaffected. Sets other than HEQS are unaffected."
+                              "\nAffects: \89 vehicles such as mining trucks, foundry transporters and log trucks." 00 
+                00 
+            "C" \d4
+                "T" "NAME" 7F "Extra Road Vehicles " 00 
+                "T" "DESC" 7F "Control availability of HEQS extra road vehicles in buy menu (and for auto-replace).\nVehicles that are already built are unaffected. Sets other than HEQS are unaffected."
+                              "\nAffects: \89road vehicles such as crawlers and wheeled tractors." 00 
+                00 
+            "C" \d5
+                "T" "NAME" 7F "Rail Vehicles " 00 
+                "T" "DESC" 7F "Control availability of HEQS rail vehicles in buy menu (and for auto-replace).\nVehicles that are already built are unaffected. Sets other than HEQS are unaffected."
+                              "\nAffects: \89rail vehicles such as Gmund Mog Hi-Rail Truck." 00 
+                00 
+            00
+        00
+    00
