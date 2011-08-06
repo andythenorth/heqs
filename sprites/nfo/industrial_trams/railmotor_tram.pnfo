@@ -25,7 +25,7 @@
     0F \b04   // capacity (default cargo is goods, so 2 crates = 1t)
     10 05     // cargo type
     11 0F     // cost factor
-    12 17     // sound effect
+    12 02     // sound effect
     13 \b3    // power in 10 hp
     14 \b28   // weight in 1/4 tons
     15 \b14   // speed in mph * 0.8
