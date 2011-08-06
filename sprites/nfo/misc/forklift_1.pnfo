@@ -20,7 +20,7 @@
 
 #define THIS_GRAPHICS_FILE         forklift_1.png     // used in action 1 template (must include file extension)
 #define THIS_VEH_ID           VEH_FORKLIFT_1
-#define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
+#define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
 #include "../templates/group_availability/rv_availability.tnfo"
 
 #include "../templates/standard_crops_offsets_1/3-8.tnfo"
