@@ -1,7 +1,16 @@
 HEQS Heavy Equipment Set Changelog
 ----------------------------------
 
-*version 1.0.1*
+*version 1.2.0*
+Added Williamette Forklift (available 1936).  1t, intended for feeder service (by request of Eddi).
+Added Yonkers Railmotor (steam tram, available 1890).  Great for delivering FIRS Supplies.
+Improved various tram texts.
+Small adjustment to 45t Dorstfeld Tram running costs for fairness.
+Reduced tram lifespan a bit for game balance.
+Fix to some tram lengths to prevent weird appearance when queuing (patched by Eddi).
+Czech and Dutch translations for parameter menus.
+
+*version 1.1.0*
 New parameters to disable/enable groups of vehicles.  Best used with parameters GUI (needs OpenTTD 1.1 or newer).
 - set 0 to disable, 1 to enable.  Parameters are as follows (counting first parameter as '1')
 - parameter 3: trams
