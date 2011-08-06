@@ -1,6 +1,6 @@
 // Gmund Mog - road and rail versions
 // power ranges 30hp-177hp (2010 version)
- -1 * 14	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_RAILMOTOR_1 "Railmotor Tram" 00
+ -1 * 14	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_RAILMOTOR_1 "Yonkers Railmotor (Steam)" 00
 
 #define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_RAILMOTOR_1
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
@@ -15,20 +15,20 @@
  -1 * 67	 00 01 \b24 01 VEH_INDUSTRIAL_TRAM_RAILMOTOR_1 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
-    03 \b35   // vehicle life 
+    03 \b25   // vehicle life 
     04 \b255  // class life 
     07 05     // load amount 
-    08 \b67  // speed in mph * 3.2
-    09 0A     // running cost factor 
+    08 \b48  // speed in mph * 3.2
+    09 0F     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
-    0F \b02   // capacity (default cargo is goods, so 2 crates = 1t)
+    0F \b04   // capacity (default cargo is goods, so 2 crates = 1t)
     10 05     // cargo type
-    11 10     // cost factor
+    11 0F     // cost factor
     12 17     // sound effect
     13 \b3    // power in 10 hp
-    14 \b08   // weight in 1/4 tons
-    15 \b26   // speed in mph * 0.8
+    14 \b28   // weight in 1/4 tons
+    15 \b14   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 16     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
@@ -36,7 +36,7 @@
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
-    1F  \d01-03-1936    // Long format introduction date
+    1F  \d01-03-1890    // Long format introduction date
 
 -1 * 4	 01 01 02 08
   // Steam Locomotive Type 2 version A
