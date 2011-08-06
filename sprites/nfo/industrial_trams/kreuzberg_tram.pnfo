@@ -46,6 +46,8 @@
   "\0D20t in four wagons"
   "\0D45t in nine wagons"
   "\0D75t in fifteen wagons (may be slow uphill)\0D"
+  "\98Running costs vary with capacity\0D"
+  
                                00
  -1 * 4	 01 01 02 08
   // Electric Locomotive Type 1 version A

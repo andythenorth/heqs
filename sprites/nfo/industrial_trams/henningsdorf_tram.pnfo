@@ -46,6 +46,7 @@
   "\0D45t in three wagons"
   "\0D135t in nine wagons"
   "\0D225t in fifteen wagons (may be slow uphill)\0D"
+  "\98Running costs vary with capacity\0D"
                                00
  -1 * 4	 01 01 02 08
   // Electric Locomotive Type 2 version A
