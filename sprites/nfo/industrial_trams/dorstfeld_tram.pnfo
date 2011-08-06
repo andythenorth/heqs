@@ -7,7 +7,7 @@
 #define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_1
 #define THIS_BUY_MENU_STR     STR_INFO_VEH_INDUSTRIAL_TRAM_STEAM_1
 #define THIS_RUNCOST_REFIT_1  16 //don't escape, used in cb results which have problems with escaped bytes
-#define THIS_RUNCOST_REFIT_2  36
+#define THIS_RUNCOST_REFIT_2  30
 #define THIS_RUNCOST_REFIT_3  5A
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../templates/group_availability/rv_availability.tnfo"
@@ -22,7 +22,7 @@
     04 \b120  // class life 
     07 00     // load amount 
     08 \b48   // speed in mph * 3.2
-    09 1E     // running cost factor 
+    09 16     // running cost 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F 00     // capacity
