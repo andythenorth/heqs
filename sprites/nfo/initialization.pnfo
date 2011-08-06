@@ -2,8 +2,8 @@
 1 * 128	 08 07 {{GRF_ID}} "{{GRF_TITLE}}" 00 "\8EHeavy Equipment Set. \n"
   "\98Brought to you by andythenorth "
   "with help from many, including Ammler, Dan MacKellar, Dalestan, "
-  "David Dallaston (PikkaBird), Eddi, Frosch, Planetmaker "
-  "and Richard Wheeler (Zephyris)"
+  "David Dallaston (PikkaBird), Eddi, Foobar, Frosch, Planetmaker "
+  "Richard Wheeler (Zephyris), Terkhen and v45300"
   " " 00
 
 1 * 134	 00 08 01 20 00 09 // Cargo translation table
