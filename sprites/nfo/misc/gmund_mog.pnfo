@@ -133,8 +133,9 @@
 // handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
   -1 * 18	 02 01 C0  // handle callbacks for real vehicle (not buy menu)
                  81 0C 00 FF //
-                 \b1 // range
+                 \b2 // range
                    E0 00  36 36 // change vehicle properties
+                   THIS_LENGTH_ADJUST 80  11 11 // vehicle length CB
                  A0 00 // graphics            
   -1 * 18	 02 01 C1  // handle callbacks for buy menu
                  81 0C 00 FF //
