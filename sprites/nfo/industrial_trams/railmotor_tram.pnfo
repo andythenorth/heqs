@@ -8,7 +8,7 @@
 
 #include "../templates/standard_crops_offsets_1/3-8.tnfo"
 
-#define THIS_SMOKE_TYPE 27
+#define THIS_SMOKE_TYPE 18 // smoke
 #include "../templates/template_smoke.tnfo"
 
  // road version
