@@ -12,7 +12,7 @@
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../templates/group_availability/rv_availability.tnfo"
 
-#define THIS_SMOKE_TYPE 18 //actually sparks not smoke
+#define THIS_SMOKE_TYPE 18 // smoke
 #include "../templates/template_smoke.tnfo"
 
  -1 * 67	 00 01 \b25 01 VEH_INDUSTRIAL_TRAM_STEAM_3
