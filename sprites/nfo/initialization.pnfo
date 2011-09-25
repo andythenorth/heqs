@@ -34,73 +34,52 @@
 -1 * 5 0D GROUP_RVS_EXTRA 80 FF FF \dx00000001
 -1 * 5 0D GROUP_TRAINS 80 FF FF \dx00000001
 
-// start of stupid c&p from ogfx-trains, handling running + purchase costs via parameter
+// start of c&p from ogfx-trains, handling running + purchase costs via parameter
 
 // param[20] = (param[0] - 9)
-6 * 9 0D 14 \D- 00 FF \dx00000009 
+-1 * 0 0D 14 \D- 00 FF \dx00000009 
 
-7 * 9 09 00 04 \7! \dx00000000 01 
+-1 * 0 09 00 04 \7! \dx00000000 01 
 
 // param[20] = 0
-8 * 9 0D 14 \D= FF 00 \dx00000000 
+-1 * 0 0D 14 \D= FF 00 \dx00000000 
 
 // param[21] = (param[1] - 9)
-9 * 9 0D 15 \D- 01 FF \dx00000009 
+-1 * 0 0D 15 \D- 01 FF \dx00000009 
 
-10 * 9 09 01 04 \7! \dx00000000 01 
+-1 * 0 09 01 04 \7! \dx00000000 01 
 
 // param[21] = 0
-11 * 9 0D 15 \D= FF 00 \dx00000000 
+-1 * 0 0D 15 \D= FF 00 \dx00000000 
 
-
-// ================ if grf = NARS2
-// param[64] = 0
-//    22 * 9 0D 40 \D= FF 00 \dx00000000 
-
-//    23 * 9 09 88 04 \7gg \dx02034444 01 
-//    // param[64] = 1
-//    24 * 9 0D 40 \D= FF 00 \dx00000001 
-
-//    25 * 9 09 40 04 \7! \dx00000001 04 
-
-//    // if param0 not defined
-//    26 * 9 09 00 04 \7! \dx00000000 01 
-
-//    // param[20] = 2
-//    27 * 9 0D 14 \D= FF 00 \dx00000002 
-
-//    // if param1 not defined
-//    28 * 9 09 01 04 \7! \dx00000000 01 
-//    // param[21] = 0
-//    29 * 9 0D 15 \D= FF 00 \dx00000000 
 
 // ================ Add default offset
 // param[64] = (param[20] + 0x0A)
-74 * 9 0D 40 \D+ 14 FF \dx0000000A
+-1 * 0 0D 40 \D+ 14 FF \dx0000000A
 
-77 * 17 06 
+-1 * 0 06 
 40 01 FF \wx0008 
 FF 
 
-78 * 11 00 08 \b1 01 FF \wx002E 
+-1 * 0 00 08 \b1 01 FF \wx002E 
 08 00
 
 // ================ Add default offsets
 // param[67] = (param[21] + 8)
-79 * 9 0D 43 \D+ 15 FF \dx0000000A
+-1 * 0 0D 43 \D+ 15 FF \dx0000000A
 
-81 * 12 06 
+-1 * 0 06 
 43 01 FF \wx0008 
 FF 
 
-82 * 10 00 08 \b1 01 FF \wx0012 
+-1 * 0 00 08 \b1 01 FF \wx0012 
 08 00
 
-// end of stupid c&p from ogfx-trains, handling running + purchase costs via parameter
+// end of c&p from ogfx-trains, handling running + purchase costs via parameter
    
 // -- Global Parameters -- //
    
-   -1 * 00 0D 8E \D= FF 00 \d02   // set train depot view y offset
+-1 * 00 0D 8E \D= FF 00 \d02   // set train depot view y offset
    
    
 // -- Sounds -- //
