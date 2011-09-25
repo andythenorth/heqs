@@ -6,7 +6,7 @@
   "Richard Wheeler (Zephyris), Terkhen and v45300"
   " " 00
 
-1 * 134	 00 08 01 20 00 09 // Cargo translation table
+1 * 134	 00 08 01 \b36 00 09 // Cargo translation table
   "PASS" "COAL" "MAIL" "OIL_"     // 00 - 03, 01 - 08
   "LVST" "GOOD" "GRAI" "WOOD"     // 04 - 07, 10 - 80
   "IORE" "STEL" "VALU" "PAPR"     // 08 - 0B, 01^ - 08^
@@ -15,6 +15,7 @@
   "ALUM" "SCRP" "CLAY" "CERE"     // 14 - 17, 10^^ - 80^^
   "AORE" "SAND" "GRVL" "WHEA"     // 18 - 1B, 01^^^ - 08^^^
   "GOLD" "MAIZ" "TWOD" "DIAM"     // 1C - 1F, 10^^^ - 80^^^
+  "LIME" "A___" "B___" "C___"     // 20 - 23
 
 
 // Notify user by means of an error, if engine pool is disabled
