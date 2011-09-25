@@ -85,8 +85,8 @@
 -1 * 30	 02 01 FA // buy menu - text for vehicle window
            81 01 00  FF // check current year
              \b04 // range
-               STR_EXTRA_INFO_FORKLIFT_1_A 80 \b00 \b19 // before 1950
-               STR_EXTRA_INFO_FORKLIFT_1_B 80 \b20 \b47 // before 1968
+               STR_EXTRA_INFO_FORKLIFT_1_A 80 \b00 \b29 // before 1950
+               STR_EXTRA_INFO_FORKLIFT_1_B 80 \b30 \b47 // before 1968
                STR_EXTRA_INFO_FORKLIFT_1_C 80 \b48 \b63 // before 1984
                STR_EXTRA_INFO_FORKLIFT_1_D 80 \b64 \b85 // before 2006
            STR_EXTRA_INFO_FORKLIFT_1_E 80 // default graphics / text
@@ -101,8 +101,8 @@
   -1 * 18	 02 01 E1  // handle setting power - check property type cb requires
            81 C4 00  FF // check current year
              \b04 // range
-               03 80 \b00 \b19 // 30hp before 1950   // can't escape the first byte of cb results here, stupid - use hex instead
-               05 80 \b20 \b47 // 50hp before 1968
+               03 80 \b00 \b29 // 30hp before 1950   // can't escape the first byte of cb results here, stupid - use hex instead
+               05 80 \b30 \b47 // 50hp before 1968
                07 80 \b48 \b63 // 70hp before 1984
                08 80 \b64 \b85 // 80hp before 2006
              09 80 // 90hp default
@@ -134,12 +134,14 @@
       FF  C1 00 // buy menu
     C0 00   // default Action 2 ID 
 
+// these date defines don't appear to be used and may be redundant
 #undef DATE_GENERATION_1
 #undef DATE_GENERATION_2
 #undef DATE_GENERATION_3
 #undef DATE_GENERATION_4
 #undef DATE_GENERATION_5
 #undef DATE_GENERATION_6
+// end date defines
 
 #undef THIS_GRAPHICS_FILE
 #undef THIS_VEH_ID
