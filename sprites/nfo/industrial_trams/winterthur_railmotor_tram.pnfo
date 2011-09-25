@@ -33,7 +33,7 @@
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
-    1F  \d01-03-1917    // Long format introduction date
+    1F  \d01-03-1912    // Long format introduction date
 
 -1 * 4	 01 01 02 08
   // Locomotive version A
