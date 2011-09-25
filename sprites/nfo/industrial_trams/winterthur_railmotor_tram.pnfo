@@ -1,0 +1,93 @@
+// Gmund Mog - road and rail versions
+// power ranges 30hp-177hp (2010 version)
+ -1 * 14	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_RAILMOTOR_2 "Winterthur Railmotor (Electric)" 00
+
+#define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_RAILMOTOR_2
+#define THIS_VEHICLE_GROUP    GROUP_TRAMS
+#include "../templates/group_availability/rv_availability.tnfo"
+
+#define THIS_SMOKE_TYPE 38 //actually sparks not smoke
+#include "../templates/template_smoke.tnfo"
+
+ -1 * 67	 00 01 \b24 01 VEH_INDUSTRIAL_TRAM_RAILMOTOR_2 
+    00 00 00  // intro date (min value: 1-1-1920) 
+    02 20     // reliability 
+    03 \b35   // vehicle life 
+    04 \b255  // class life 
+    07 05     // load amount 
+    08 \b70  // speed in mph * 3.2
+    09 0D     // running cost factor 
+    0A 48 4C 00 00        // running cost base 
+    0E FF     // sprite ID
+    0F \b4   // capacity (default cargo is goods, so 2 crates = 1t)
+    10 05     // cargo type
+    11 12     // cost factor
+    12 02     // sound effect
+    13 \b6    // power in 10 hp
+    14 \b24   // weight in 1/4 tons
+    15 \b18   // speed in mph * 0.8
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    17 16     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D FF 03          // Refittable cargo classes
+    1E 01 00          // Non-refittable cargo classes
+    1F  \d01-03-1917    // Long format introduction date
+
+-1 * 4	 01 01 02 08
+  // Locomotive version A
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 280  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 280  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 280  01  12 28  -13  -7
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 280  09  16 20   -5  -7
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 280  01  18  8   -3 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png  144 280  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png  176 280  01  12 28  -13  -7
+ -1 sprites/graphics/industrial_tram_locomotives.png  224 280  09  16 20   -4  -5
+  // Locomotive version B
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 300  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 300  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 300  01  12 28  -13  -7
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 300  09  16 20   -5  -7
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 300  01  18  8   -3 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png  144 300  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png  176 300  01  12 28  -13  -7
+ -1 sprites/graphics/industrial_tram_locomotives.png  224 300  09  16 20   -4  -5
+ -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ -1 * 9	 02 01 A2 // action2 defining graphics with no loading/loaded stages 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+ -1 * 4	 01 01 02 04 // buy menu sprites
+ -1 * 1	 00
+ -1 * 1	 00
+ -1 sprites/graphics/industrial_tram_locomotives.png  256 280  01  12 36  -14  -6
+ -1 * 1	 00
+ -1 * 1	 00
+ -1 * 1	 00
+ -1 sprites/graphics/industrial_tram_locomotives.png  256 300  01  12 36  -14  -6
+ -1 * 1	 00
+ -1 * 9	 02 01 F1 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ -1 * 9	 02 01 F2 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      01 00 // loading sprites
+      01 00 // loaded sprites
+
+        
+ -1 * 7	 03 01 01 VEH_INDUSTRIAL_TRAM_RAILMOTOR_2 // Action 3
+    01  // Number of different cargo types to support
+      FF  F1 00 // buy menu
+    A1 00   // default Action 2 ID 
+
+#undef THIS_VEH_ID
