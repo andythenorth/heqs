@@ -1,6 +1,14 @@
 HEQS Heavy Equipment Set Changelog
 ----------------------------------
 
+*version 1.3.0*
+Added Winterthur Railmotor (electric tram, available 1912).  2t capacity.
+Added Port Jack Railmotor (electric tram, available 1926).  9t capacity.
+Reduced default running costs by 50% for better gameplay balance.
+Improve support for ECS limestone cargo.
+Fix date bug with Forklift.
+Fix Yonkers Railmotor was in wrong vehicle group (newgrf parameters).
+
 *version 1.2.0*
 Added Williamette Forklift (available 1936).  1t, intended for feeder service (by request of Eddi).
 Added Yonkers Railmotor (steam tram, available 1890).  Great for delivering FIRS Supplies.
