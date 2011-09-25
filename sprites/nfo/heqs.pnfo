@@ -48,5 +48,6 @@
 #include "sprites/nfo/industrial_trams/henningsdorf_tram.pnfo"
 #include "sprites/nfo/industrial_trams/ishizuchi_tram.pnfo"
 #include "sprites/nfo/industrial_trams/yonkers_railmotor_tram.pnfo"
+#include "sprites/nfo/industrial_trams/port_jack_railmotor_tram.pnfo"
 
 //#include "sprites/nfo/template_tester.pnfo"
