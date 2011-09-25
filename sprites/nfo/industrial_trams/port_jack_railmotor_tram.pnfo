@@ -6,12 +6,9 @@
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../templates/group_availability/rv_availability.tnfo"
 
-#include "../templates/standard_crops_offsets_1/3-8.tnfo"
-
 #define THIS_SMOKE_TYPE 38 //actually sparks not smoke
 #include "../templates/template_smoke.tnfo"
 
- // road version
  -1 * 67	 00 01 \b24 01 VEH_INDUSTRIAL_TRAM_RAILMOTOR_3 
     00 00 00  // intro date (min value: 1-1-1920) 
     02 20     // reliability 
@@ -40,23 +37,23 @@
 
 -1 * 4	 01 01 02 08
   // Locomotive version A
- -1 sprites/graphics/industrial_tram_locomotives.png    0 320  01  18  8   -3 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 320  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 320  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 320  01  12 28  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 320  09  16 20   -5  -7
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 320  01  18  8   -4 -12
  -1 sprites/graphics/industrial_tram_locomotives.png   16 320  09  16 20  -14  -5
  -1 sprites/graphics/industrial_tram_locomotives.png   48 320  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 320  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png  128 320  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png  144 320  09  16 20  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  176 320  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  224 320  09  16 20   -4  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 320  09  16 20   -4  -5
   // Locomotive version B
- -1 sprites/graphics/industrial_tram_locomotives.png    0 340  01  18  8   -3 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 340  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 340  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 340  01  12 28  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 340  09  16 20   -5  -7
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 340  01  18  8   -4 -12
  -1 sprites/graphics/industrial_tram_locomotives.png   16 340  09  16 20  -14  -5
  -1 sprites/graphics/industrial_tram_locomotives.png   48 340  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 340  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png  128 340  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png  144 340  09  16 20  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  176 340  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  224 340  09  16 20   -4  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 340  09  16 20   -4  -5
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
