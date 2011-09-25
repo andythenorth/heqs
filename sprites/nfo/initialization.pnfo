@@ -53,14 +53,15 @@
 -1 * 0 0D 15 \D= FF 00 \dx00000000 
 
 
-// ================ Add default offset
-// param[64] = (param[20] + 0x0A)
--1 * 0 0D 40 \D+ 14 FF \dx0000000A
+// ================ Add default offset 
+// param[64] = (param[20] + 0x09)  (uses slightly reduced default run costs)
+-1 * 0 0D 40 \D+ 14 FF \dx00000009
 
 -1 * 0 06 
 40 01 FF \wx0008 
 FF 
 
+// set running cost base
 -1 * 0 00 08 \b1 01 FF \wx002E 
 08 00
 
@@ -72,6 +73,7 @@ FF
 43 01 FF \wx0008 
 FF 
 
+// set purchase cost base
 -1 * 0 00 08 \b1 01 FF \wx0012 
 08 00
 
