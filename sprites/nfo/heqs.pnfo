@@ -47,6 +47,7 @@
 #include "sprites/nfo/industrial_trams/kreuzberg_tram.pnfo"
 #include "sprites/nfo/industrial_trams/henningsdorf_tram.pnfo"
 #include "sprites/nfo/industrial_trams/ishizuchi_tram.pnfo"
+#include "sprites/nfo/industrial_trams/CarGo_tram.pnfo"
 #include "sprites/nfo/industrial_trams/yonkers_railmotor_tram.pnfo"
 #include "sprites/nfo/industrial_trams/winterthur_railmotor_tram.pnfo"
 #include "sprites/nfo/industrial_trams/port_jack_railmotor_tram.pnfo"
