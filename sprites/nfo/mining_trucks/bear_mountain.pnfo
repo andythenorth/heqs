@@ -6,13 +6,11 @@
 #include "../templates/template_smoke.tnfo"
 
 // Bear Mountain Mining Truck 120t		1980-2050	35mph
--1 * 67	 00 01 \b25 01 VEH_MINING_TRUCK_BEAR_MOUNTAIN 
-    00 \w1-1-1920     // intro date (min value: 1-1-1920)
+-1 * 67	 00 01 \b23 01 VEH_MINING_TRUCK_BEAR_MOUNTAIN 
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
     07 05             // load amount
-    08 \b112          // speed in mph * 3.2
     09 67             // running cost factor
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID

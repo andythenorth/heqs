@@ -21,14 +21,12 @@
 
  // Large belly dump trailer
    // Used by large articulated mining trucks
--1 * 67	 00 01 1A 01 VEH_MINING_TRUCK_TRAILER_2
-    00 00 00  // intro date (min value: 1-1-1920) 
+-1 * 67	 00 01 \b24 01 VEH_MINING_TRUCK_TRAILER_2
     02 20     // reliability 
     03 11     // vehicle life 
     04 23     // class life 
     06 00     // climate 
     07 05     // load amount 
-    08 80     // speed in mph * 3.2
     09 1E     // running cost factor 
     0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID

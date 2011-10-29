@@ -36,13 +36,11 @@
 #include "../templates/template_smoke.tnfo"
 
  // road version
- -1 * 67	 00 01 \b24 01 VEH_TRUCK_GMUND_MOG 
-    00 00 00  // intro date (min value: 1-1-1920) 
+ -1 * 67	 00 01 \b22 01 VEH_TRUCK_GMUND_MOG 
     02 20     // reliability 
     03 \b35   // vehicle life 
     04 \b255  // class life 
     07 05     // load amount 
-    08 \b102  // speed in mph * 3.2
     09 12     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID

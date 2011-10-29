@@ -8,13 +8,11 @@
 #include "../templates/template_smoke.tnfo"
 
  // Articulated Crawler First Part
--1 * 69	 00 01 \b25 01 VEH_CRAWLER_RED_PEAK_1
-    00 00 00  // intro date (min value: 1-1-1920) 
+-1 * 69	 00 01 \b23 01 VEH_CRAWLER_RED_PEAK_1
     02 20     // reliability 
     03 \b15   // vehicle life 
     04 \b60   // class life 
     07 05     // load amount 
-    08 \b70   // speed in mph * 3.2
     09 37     // running cost factor 
     0A 48 4C 00 00    // running cost base 
     0E FF     // sprite ID
@@ -85,14 +83,12 @@
 #undef THIS_VEH_ID    
 
   // Articulated Crawler (Second Part)
--1 * 67	 00 01 1A 01 VEH_CRAWLER_RED_PEAK_2 // articulated RV trailing part ID must be <128. Otherwise 9B (155) would make more sense.
-      00 00 00  // intro date (min value: 1-1-1920)
+-1 * 67	 00 01 \b24 01 VEH_CRAWLER_RED_PEAK_2 // articulated RV trailing part ID must be <128. Otherwise 9B (155) would make more sense.
       02 20     // reliability
       03 19     // vehicle life
       04 23     // class life
       06 00     // climate
       07 05     // load amount
-      08 E0     // speed in mph * 3.2
       09 08     // running cost factor
       0A 48 4C 00 00   // running cost base
       0E FF     // sprite ID

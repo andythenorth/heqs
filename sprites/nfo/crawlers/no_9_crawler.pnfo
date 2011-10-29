@@ -30,13 +30,11 @@
 #include "../templates/template_smoke.tnfo"
 
 // No. 9	Crawler Tractor (General Purpose)
- -1 * 67	 00 01 \b25 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE
-    00 00 00  // intro date (min value: 1-1-1920) 
+ -1 * 67	 00 01 \b23 01 VEH_CRAWLER_NO_9_GENERAL_PURPOSE
     02 20     // reliability 
     03 \b35   // vehicle life 
     04 \b20   // class life 
     07 05     // load amount 
-    08 \b45   // speed in mph * 3.2
     09 THIS_RUN_COST      // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
@@ -329,13 +327,11 @@
 #include "../templates/template_smoke.tnfo"
 
 	// No. 9	Crawler Tractor (Logging / Mining)
--1 * 67	 00 01 \b25 01 VEH_CRAWLER_NO_9_LOGGING_MINING
-    00 00 00  // intro date (min value: 1-1-1920) 
+-1 * 67	 00 01 \b23 01 VEH_CRAWLER_NO_9_LOGGING_MINING
     02 20     // reliability 
     03 \b35   // vehicle life 
     04 \b20   // class life 
     07 05     // load amount 
-    08 \b45   // speed in mph * 3.2
     09 THIS_RUN_COST      // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID

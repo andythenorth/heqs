@@ -14,14 +14,12 @@
 #define THIS_OFFS_X_Y_8   -4  -6
 
    
- -1 * 67	 00 01 \b26 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
-    00 \w1-1-1920   // intro date (min value: 1-1-1920)
+ -1 * 67	 00 01 \b24 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
     02 20           // reliability decay speed decay speed
     03 \b00         // vehicle life
     04 \b00         // class life
     06 00           // climate availability - use 0F for all, 00 none (to hide vehicle)
     07 05           // load amount 
-    08 80           // speed in mph * 3.2
     09 1E           // running cost factor 
     0A 48 4C 00 00  // running cost base 
     0E FF           // sprite ID

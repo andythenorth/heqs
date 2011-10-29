@@ -15,13 +15,11 @@
 #define THIS_SMOKE_TYPE 18 // smoke
 #include "../templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b25 01 VEH_INDUSTRIAL_TRAM_STEAM_1
-    00 \w1-1-1920  // intro date (min value: 1-1-1920) (min value: 1920) 
+ -1 * 67	 00 01 \b23 01 VEH_INDUSTRIAL_TRAM_STEAM_1
     02 20     // reliability 
     03 \b23   // vehicle life 
     04 \b120  // class life 
     07 00     // load amount 
-    08 \b48   // speed in mph * 3.2
     09 16     // running cost 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID

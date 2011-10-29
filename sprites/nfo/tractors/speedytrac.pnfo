@@ -10,13 +10,11 @@
  -1 * 44	 04 01 81 01 STR_EXTRA_INFO_TRACTOR_SPEEDYTRAC D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "1990" 00 
 // road version
- -1 * 67	 00 01 \b24 01 VEH_TRACTOR_SPEEDYTRAC 
-    00 00 00  // intro date (min value: 1-1-1920) 
+ -1 * 67	 00 01 \b22 01 VEH_TRACTOR_SPEEDYTRAC 
     02 20     // reliability 
     03 \b15   // vehicle life 
     04 \b30   // class life 
     07 05     // load amount 
-    08 \b128  // speed in mph * 3.2
     09 18     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID

@@ -6,13 +6,11 @@
 #include "../templates/template_smoke.tnfo"
 
 // Fourtrac	Wheeled Tractor (high speed)
--1 * 67	 00 01 \b24 01 VEH_TRACTOR_FOURTRAC 
-    00 00 00  // intro date (min value: 1-1-1920) 
+-1 * 67	 00 01 \b22 01 VEH_TRACTOR_FOURTRAC 
     02 20     // reliability 
     03 \b30   // vehicle life 
     04 \b30   // class life 
     07 05     // load amount 
-    08 \b77   // speed in mph * 3.2
     09 11     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
