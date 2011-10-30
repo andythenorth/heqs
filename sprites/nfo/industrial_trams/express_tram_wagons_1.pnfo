@@ -106,7 +106,7 @@
 #define THIS_Y_X_CROP_8  16  20
 
 // rear cab car
-#define THIS_Y_POS  0
+#define THIS_Y_POS  20
 #include "../templates/template_standard_rv_real_sprites_1_reversed.tnfo"
 
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
