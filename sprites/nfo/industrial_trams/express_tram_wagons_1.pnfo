@@ -31,11 +31,11 @@
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_EXPRESS_TRAM_WAGON_1 "[Express Tram Wagon 1]" 00
  -1 * 33	 04 00 FF 01 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_A D0
-            		" (nt in n wagons)" 00	// D000
+            		" (60t in 5 vehicles)" 00	// D000
  -1 * 33	 04 00 FF 01 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_B D0
-               	" (nt in n wagons)" 00	// D001
+               	" (135t in 10 vehicles)" 00	// D001
  -1 * 33	 04 00 FF 01 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_C D0
-               	" (nt in n wagons)" 00	// D002
+               	" (225t in 16 vehicles)" 00	// D002
 
 // templated action 1s and 2s for middle wagons 
 #define THIS_GRAPHICS_FILE         express_tram_wagons_1.png     // used in action 1 template (must include file extension)
@@ -60,19 +60,19 @@
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b04 // range
                    AA 00  \b01 \b02 //
-                   A1 00  \b03 \b10 // 
-                   A2 00  \b11 \b11 //
+                   A1 00  \b03 \b09 // 
+                   A2 00  \b10 \b10 //
                    AA 00  \b12 \b14 //
                  AA 00 // default - use invisible sprite
   -1 * 14	 02 01 B0  // subtype 1 (3 wagons + rear cab car) - choose sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b06 // range
                    AA 00  \b01 \b03 //
-                   A1 00  \b04 \b05 // 
-                   A2 00  \b06 \b06 //                    
-                   AA 00  \b07 \b10 //
-                   A2 00  \b11 \b11 //
-                   AA 00  \b12 \b14 //
+                   A1 00  \b04 \b04 // 
+                   A2 00  \b05 \b05 //                    
+                   AA 00  \b06 \b09 //
+                   A2 00  \b10 \b10 //
+                   AA 00  \b11 \b14 //
                  AA 00 // default - use invisible sprite
                  
   -1 * 18	 02 01 A0  // choose sprites according to refitted subtype
@@ -97,7 +97,7 @@
 #include "../templates/template_industrial_tram_wagons_action1_2.tnfo"
 
 // this is a nice hack to split the last wagon (cab car) off from other wagons, whilst using standard templating
-  -1 * 14	 02 01 A0  // subtype 3 (15 wagons) - choose sprites according to position in consist 
+  -1 * 14	 02 01 A0  // choose sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b01 // range
                    A1 00  \b15 \b15 // only the last vehicle
@@ -115,12 +115,12 @@
                    THIS_CAPACITY 80  0F 0F // set capacity to vehicle capacity (standard wagon)
                  00 80 // default
 
-  -1 * 14	 02 01 E3  // subtype 3 (15 wagons) - branch according to position in consist 
+  -1 * 14	 02 01 E3  // subtype 3 (14 wagons + rear cab car) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b01 // range
                    EA 00  \b01 \b14 //
                  EB 00 // default
-  -1 * 14	 02 01 E2  // subtype 2 (9 wagons) - branch according to position in consist 
+  -1 * 14	 02 01 E2  // subtype 2 (8 wagons + rear cab car) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b04 // range
                    EB 00  \b01 \b02 //
@@ -128,7 +128,7 @@
                    EA 00  \b11 \b11 //
                    EB 00  \b12 \b14 //
                  EB 00 // default 
-  -1 * 14	 02 01 E1  // subtype 1 (4 wagons) - branch according to position in consist 
+  -1 * 14	 02 01 E1  // subtype 1 (3 wagons + rear cab car) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b06 // range
                    EB 00  \b01 \b03 //
@@ -147,7 +147,7 @@
                    E3 00  \b02 \b02 
                  FF 80 // default - end cb chain
 
-  -1 * 14	 02 01 E0  // subtype 3 (15 wagons) - branch according to position in consist 
+  -1 * 14	 02 01 E0  // subtype 3 (15 trailing wagons inc. rear cab car) - branch according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
                  \b01 // range
                    07 80  \b15 \b15 // cab car - set to capacity now

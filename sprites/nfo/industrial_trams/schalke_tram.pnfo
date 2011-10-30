@@ -2,8 +2,8 @@
 
 #define THIS_VEH_ID           VEH_EXPRESS_TRAM_ELECTRIC_1
 #define THIS_LENGTH_ADJUST    03
-#define THIS_LENGTH_ADJUST_1  05
-#define THIS_LENGTH_ADJUST_2  04
+#define THIS_LENGTH_ADJUST_1  06
+#define THIS_LENGTH_ADJUST_2  05
 #define THIS_WAGON_TYPE       VEH_EXPRESS_TRAM_WAGON_1
 #define THIS_BUY_MENU_STR     STR_INFO_VEH_EXPRESS_TRAM_ELECTRIC_1
 #define THIS_RUNCOST_REFIT_1  4D //don't escape, used in cb results which have problems with escaped bytes
@@ -28,7 +28,7 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
-    0F \b7    // capacity
+    0F \b8    // capacity (8t front cab, 7t rear cab = average 7.5t for both cab cars) 
     10 FF     // cargo type
     11 34     // cost factor
     12 20     // sound effect
@@ -47,9 +47,9 @@
     1F \d03-01-2009    // Long format introduction date  
  -1 * 37	 04 01 7F 01 VEH_EXPRESS_TRAM_ELECTRIC_1 "Schalke Express Tram (Electric)" 00
  -1 * 87	 04 01 81 01 THIS_BUY_MENU_STR DC "Can be refitted to haul:\8A"
-  "\0D    nt in n wagons"
-  "\0D    nt in n wagons"
-  "\0D    nt in n wagons\0D"
+  "\0D    60t in 5 vehicles"
+  "\0D    135t in 10 vehicles"
+  "\0D    225t in 16 vehicles\0D"
   "\98Running costs vary with capacity\0D"
                                00
  -1 * 4	 01 01 02 08
