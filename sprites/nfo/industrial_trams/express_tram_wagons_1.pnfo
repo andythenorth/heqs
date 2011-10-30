@@ -1,0 +1,175 @@
+// Industrial Tram Wagon Medium
+
+#define THIS_LENGTH_ADJUST    03
+#define THIS_CAPACITY         0E // do this in hex - escapes are a hassle here for various reasons
+   
+ -1 * 67	 00 01 \b24 01 VEH_EXPRESS_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
+    02 20           // reliability decay speed decay speed
+    03 \b00         // vehicle life
+    04 \b00         // class life
+    06 00           // climate availability - use 0F for all, 00 none (to hide vehicle)
+    07 05           // load amount 
+    09 1E           // running cost factor 
+    0A 48 4C 00 00  // running cost base 
+    0E FF           // sprite ID
+    0F THIS_CAPACITY   // capacity
+    10 01           // cargo type
+    11 34           // cost factor
+    12 17           // sound effect
+    13 \b0          // power in 10 hp
+    14 \b0          // weight in 1/4 tons
+    15 \b00         // speed in mph * 0.8
+    16 00 00 00 00    // Bit mask of cargo types available for refitting
+    // flips 1D / 1E value
+    17 22           // callback flags bit mask
+    18 00           // coefficient of tractive effort (use 0 for trailers)
+    1A 00           // refit cost, using 25% of the purchase price cost base
+    1B 00           // retire vehicle early, this many years before the end of phase 2
+    1C 03           // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D FF 03        // refittable cargo classes
+    1E 01 00        // non-refittable cargo classes
+    1F 60 B3 0A 00  // long format introduction date  
+ -1 * 35	 04 01 7F 01 VEH_EXPRESS_TRAM_WAGON_1 "[Express Tram Wagon 1]" 00
+ -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_A D0
+            		" (80t in 4 wagons)" 00	// D000
+ -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_B D0
+               	" (180t in 9 wagons)" 00	// D001
+ -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_C D0
+               	" (300t in 15 wagons)" 00	// D002
+
+// templated action 1s and 2s for middle wagons 
+#define THIS_GRAPHICS_FILE         express_tram_wagons_1.png     // used in action 1 template (must include file extension)
+   
+#define THIS_OFFS_X_Y_1   -3 -12
+#define THIS_OFFS_X_Y_2  -14  -5
+#define THIS_OFFS_X_Y_3  -13  -6
+#define THIS_OFFS_X_Y_4   -5  -5
+#define THIS_OFFS_X_Y_5   -4 -12
+#define THIS_OFFS_X_Y_6  -14  -6
+#define THIS_OFFS_X_Y_7  -13  -6
+#define THIS_OFFS_X_Y_8   -4  -6
+
+#include "../templates/template_industrial_tram_wagons_action1_2.tnfo"
+
+-1 * 14	 02 01 B2  // subtype 3 (14 wagons + rear cab car) - choose sprites according to position in consist 
+               81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
+               \b01 // range
+                 A1 00  \b01 \b14 //
+               AA 00 // default - use invisible sprite
+  -1 * 14	 02 01 B1  // subtype 2 (8 wagons + rear cab car) - choose sprites according to position in consist 
+                 81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
+                 \b04 // range
+                   AA 00  \b01 \b02 //
+                   A1 00  \b03 \b10 // 
+                   A2 00  \b11 \b11 //
+                   AA 00  \b12 \b14 //
+                 AA 00 // default - use invisible sprite
+  -1 * 14	 02 01 B0  // subtype 1 (3 wagons + rear cab car) - choose sprites according to position in consist 
+                 81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
+                 \b06 // range
+                   AA 00  \b01 \b03 //
+                   A1 00  \b04 \b05 // 
+                   A2 00  \b06 \b06 //                    
+                   AA 00  \b07 \b10 //
+                   A2 00  \b11 \b11 //
+                   AA 00  \b12 \b14 //
+                 AA 00 // default - use invisible sprite
+                 
+  -1 * 18	 02 01 A0  // choose sprites according to refitted subtype
+                 81 F2 00 FF //
+                 \b03 // range
+                   B0 00  \b00 \b00 // subtype 1 
+                   B1 00  \b01 \b01 // subtype 2
+                   B2 00  \b02 \b02 // subtype 2
+                 B0 00 // default 
+// templated action 1s and 2s for rear cab car 
+#define THIS_GRAPHICS_FILE         express_tram_locomotive_1.png     // used in action 1 template (must include file extension)
+   
+#define THIS_OFFS_X_Y_1   -3 -12
+#define THIS_OFFS_X_Y_2  -14  -5
+#define THIS_OFFS_X_Y_3  -13  -6
+#define THIS_OFFS_X_Y_4   -5  -5
+#define THIS_OFFS_X_Y_5   -4 -12
+#define THIS_OFFS_X_Y_6  -14  -6
+#define THIS_OFFS_X_Y_7  -13  -6
+#define THIS_OFFS_X_Y_8   -4  -6
+
+#include "../templates/template_industrial_tram_wagons_action1_2.tnfo"
+
+// this is a nice hack to split the last wagon (cab car) off from other wagons, whilst using standard templating
+  -1 * 14	 02 01 A0  // subtype 3 (15 wagons) - choose sprites according to position in consist 
+                 81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
+                 \b01 // range
+                   A1 00  \b15 \b15 // only the last vehicle
+                 A0 00 // split for the other vehicles
+                                  
+// handle refitting
+  -1 * 18	 02 01 EB  // handle refit - check property type cb requires
+                 81 10 00 FF //
+                 \b01 // range
+                   00 80  0F 0F  // set capacity 0t
+                 00 80 // default
+  -1 * 18	 02 01 EA  // handle refit - check property type cb requires
+                 81 10 00 FF //
+                 \b01 // range
+                   THIS_CAPACITY 80  0F 0F // set capacity to vehicle capacity
+                 00 80 // default
+
+  -1 * 14	 02 01 E3  // subtype 3 (15 wagons) - branch according to position in consist 
+                 81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
+                 \b01 // range
+                   EA 00  \b01 \b15 //
+                 EB 00 // default
+  -1 * 14	 02 01 E2  // subtype 2 (9 wagons) - branch according to position in consist 
+                 81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
+                 \b04 // range
+                   EB 00  \b01 \b02 //
+                   EA 00  \b03 \b10 // 
+                   EA 00  \b11 \b11 //
+                   EB 00  \b12 \b15 //
+                 EB 00 // default 
+  -1 * 14	 02 01 E1  // subtype 1 (4 wagons) - branch according to position in consist 
+                 81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)
+                 \b06 // range
+                   EB 00  \b01 \b03 //
+                   EA 00  \b04 \b05 // 
+                   EA 00  \b06 \b06 //                    
+                   EB 00  \b07 \b10 //
+                   EA 00  \b11 \b11 //
+                   EB 00  \b12 \b15 //
+                 EB 00 // default
+                 
+   -1 * 18	 02 01 E0  // handle property change on refit - check current subtype
+                 81 F2 00 FF //
+                 03 // range
+                   E1 00  \b00 \b00 
+                   E2 00  \b01 \b01 
+                   E3 00  \b02 \b02 
+                 FF 80 // default - end cb chain
+
+// text strings
+    -1 * 18	 02 01 D0  // set refit text strings
+                 81 F2 00 FF //
+                 03 // range
+                   STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_A 80  00 00 
+                   STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_B 80  01 01 
+                   STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_C 80  02 02 
+                 FF 80 // end callback chain
+
+// handle callbacks etc
+  -1 * 18	 02 01 C0  // handle callbacks
+                 81 0C 00 FF //
+                 02 // range
+                   E0 00  36 36 // change vehicle properties
+                   D0 00  19 19 // text suffix CB 
+                 A0 00 // graphics  
+                 
+ -1 * 7	 03 01 01 VEH_EXPRESS_TRAM_WAGON_1 // Action 3
+    01 // Number of cargo types
+      FF  00 00 // buy menu
+	  C0 00 // default
+	  
+#undef THIS_CAPACITY
+#undef THIS_LENGTH_ADJUST 
+
+ 

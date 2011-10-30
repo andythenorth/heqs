@@ -1,11 +1,11 @@
 // Ishizuchi Industrial Tram (Electric)
 
-#define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_ELECTRIC_4
-#define THIS_LENGTH_ADJUST    02
+#define THIS_VEH_ID           VEH_EXPRESS_TRAM_ELECTRIC_1
+#define THIS_LENGTH_ADJUST    03
 #define THIS_LENGTH_ADJUST_1  05
 #define THIS_LENGTH_ADJUST_2  04
-#define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_3
-#define THIS_BUY_MENU_STR     STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_4
+#define THIS_WAGON_TYPE       VEH_EXPRESS_TRAM_WAGON_1
+#define THIS_BUY_MENU_STR     STR_INFO_VEH_EXPRESS_TRAM_ELECTRIC_1
 #define THIS_RUNCOST_REFIT_1  4D //don't escape, used in cb results which have problems with escaped bytes
 #define THIS_RUNCOST_REFIT_2  9D
 #define THIS_RUNCOST_REFIT_3  FF
@@ -15,7 +15,7 @@
 #define THIS_SMOKE_TYPE 3A //actually sparks not smoke
 #include "../templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b23 01 VEH_INDUSTRIAL_TRAM_ELECTRIC_4
+ -1 * 67	 00 01 \b23 01 VEH_EXPRESS_TRAM_ELECTRIC_1
     02 20     // reliability 
     03 \b40   // vehicle life 
     04 \b150  // class life 
@@ -23,7 +23,7 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
-    0F \b8    // capacity
+    0F 00    // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 20     // sound effect
@@ -39,7 +39,7 @@
     1D FF 03       // Refittable cargo classes
     1E 01 00       // Non-refittable cargo classes
     1F \d03-01-2009    // Long format introduction date  
- -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_ELECTRIC_4 "Schalke Express Tram (Electric)" 00
+ -1 * 37	 04 01 7F 01 VEH_EXPRESS_TRAM_ELECTRIC_1 "Schalke Express Tram (Electric)" 00
  -1 * 87	 04 01 81 01 THIS_BUY_MENU_STR DC "Can be refitted to haul:\8A"
   "\0D    60t in four wagons"
   "\0D    135t in nine wagons"
@@ -47,24 +47,35 @@
   "\98Running costs vary with capacity\0D"
                                00
  -1 * 4	 01 01 02 08
-  // Electric Locomotive Type 3 version A
- -1 sprites/graphics/industrial_tram_locomotives.png    0 80  01  18  8   -3 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 80  09  16 20  -14  -5
- -1 sprites/graphics/industrial_tram_locomotives.png   48 80  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 80  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png    0 80  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 80  09  16 20  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   48 80  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 80  09  16 20   -4  -6
-  // Electric Locomotive Type 3 version B
- -1 sprites/graphics/industrial_tram_locomotives.png    0 100  01  18  8   -3 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 100  09  16 20  -14  -5
- -1 sprites/graphics/industrial_tram_locomotives.png   48 100  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 100  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png    0 100  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 100  09  16 20  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   48 100  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 100  09  16 20   -4  -6
+// Electric Locomotive Type 3 version A
+#define THIS_GRAPHICS_FILE         express_tram_locomotive_1.png     // used in action 1 template (must include file extension)
+   
+#define THIS_OFFS_X_Y_1   -3 -12
+#define THIS_OFFS_X_Y_2  -14  -5
+#define THIS_OFFS_X_Y_3  -13  -6
+#define THIS_OFFS_X_Y_4   -5  -5
+#define THIS_OFFS_X_Y_5   -4 -12
+#define THIS_OFFS_X_Y_6  -14  -6
+#define THIS_OFFS_X_Y_7  -13  -6
+#define THIS_OFFS_X_Y_8   -4  -6
+
+#define THIS_Y_X_CROP_1  18   8
+#define THIS_Y_X_CROP_2  16  20
+#define THIS_Y_X_CROP_3  12  28
+#define THIS_Y_X_CROP_4  16  20
+#define THIS_Y_X_CROP_5  18   8
+#define THIS_Y_X_CROP_6  16  20
+#define THIS_Y_X_CROP_7  12  28
+#define THIS_Y_X_CROP_8  16  20
+
+// van
+#define THIS_Y_POS  0
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
+
+// van
+#define THIS_Y_POS  0
+#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
+
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
@@ -78,11 +89,11 @@
  -1 * 4	 01 01 02 04 // buy menu sprites
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/graphics/industrial_tram_locomotives.png  256 80  01  12 36  -14  -6
+ -1 sprites/graphics/express_tram_locomotive_1.png  256 0  01  12 36  -14  -6
  -1 * 1	 00
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/graphics/industrial_tram_locomotives.png  256 100  01  12 36  -14  -6
+ -1 sprites/graphics/express_tram_locomotive_1.png  256 20  01  12 36  -14  -6
  -1 * 1	 00
  -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
@@ -96,3 +107,23 @@
       01 00 // loaded sprites
 
  #include "../templates/template_industrial_tram_locomotives.tnfo"
+
+#undef THIS_Y_X_CROP_1
+#undef THIS_Y_X_CROP_2
+#undef THIS_Y_X_CROP_3
+#undef THIS_Y_X_CROP_4
+#undef THIS_Y_X_CROP_5
+#undef THIS_Y_X_CROP_6
+#undef THIS_Y_X_CROP_7
+#undef THIS_Y_X_CROP_8
+
+#undef THIS_GRAPHICS_FILE
+
+#undef THIS_OFFS_X_Y_1
+#undef THIS_OFFS_X_Y_2
+#undef THIS_OFFS_X_Y_3
+#undef THIS_OFFS_X_Y_4
+#undef THIS_OFFS_X_Y_5
+#undef THIS_OFFS_X_Y_6
+#undef THIS_OFFS_X_Y_7
+#undef THIS_OFFS_X_Y_8      

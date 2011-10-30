@@ -41,6 +41,7 @@
 #include "sprites/nfo/industrial_trams/industrial_tram_wagons_1.pnfo"
 #include "sprites/nfo/industrial_trams/industrial_tram_wagons_2.pnfo"
 #include "sprites/nfo/industrial_trams/industrial_tram_wagons_3.pnfo"
+#include "sprites/nfo/industrial_trams/express_tram_wagons_1.pnfo"
 #include "sprites/nfo/industrial_trams/dorstfeld_tram.pnfo"
 //#include "sprites/nfo/industrial_trams/chemnitz_tram.pnfo"
 //#include "sprites/nfo/industrial_trams/kassel_tram.pnfo"
