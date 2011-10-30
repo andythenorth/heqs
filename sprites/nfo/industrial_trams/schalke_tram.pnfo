@@ -52,8 +52,8 @@
   "\0D    225t in 16 vehicles\0D"
   "\98Running costs vary with capacity\0D"
                                00
- -1 * 4	 01 01 02 08
-// Electric Locomotive Type 3 version A
+ -1 * 4	 01 01 01 08
+// Express cargo tram
 #define THIS_GRAPHICS_FILE         express_tram_locomotive_1.png     // used in action 1 template (must include file extension)
    
 #define THIS_OFFS_X_Y_1   -3 -12
@@ -74,14 +74,11 @@
 #define THIS_Y_X_CROP_7  12  28
 #define THIS_Y_X_CROP_8  16  20
 
-// van
+// rear cab car
 #define THIS_Y_POS  0
-#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
+#include "../templates/template_standard_rv_real_sprites_1.tnfo"
 
-// van
-#define THIS_Y_POS  0
-#include "../templates/template_mirrored_rv_real_sprites_1.tnfo"
-
+// (template expects two action 2 sets here as some vehicles change over time)
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
@@ -90,27 +87,23 @@
  -1 * 9	 02 01 A2 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
-      01 00 // loading sprites
-      01 00 // loaded sprites
- -1 * 4	 01 01 02 04 // buy menu sprites
+      00 00 // loading sprites
+      00 00 // loaded sprites
+ -1 * 4	 01 01 01 04 // buy menu sprites
  -1 * 1	 00
  -1 * 1	 00
  -1 sprites/graphics/express_tram_locomotive_1.png  256 0  01  12 36  -14  -6
  -1 * 1	 00
- -1 * 1	 00
- -1 * 1	 00
- -1 sprites/graphics/express_tram_locomotive_1.png  256 20  01  12 36  -14  -6
- -1 * 1	 00
- -1 * 9	 02 01 F1 // action2 buy menu sprites 
-      01 // number loading states
+  -1 * 9	 02 01 F1 // action2 buy menu sprites (template expects two sets here as some vehicles change over time)
+       01 // number loading states
       01 // number loaded states
       00 00 // loading sprites
       00 00 // loaded sprites
  -1 * 9	 02 01 F2 // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
-      01 00 // loading sprites
-      01 00 // loaded sprites
+      00 00 // loading sprites
+      00 00 // loaded sprites
                  
  #include "../templates/template_industrial_tram_locomotives.tnfo"
 
