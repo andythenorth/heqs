@@ -12,6 +12,11 @@
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../templates/group_availability/rv_availability.tnfo"
 
+#define THIS_STR_REFIT_1 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_A
+#define THIS_STR_REFIT_2 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_B
+#define THIS_STR_REFIT_3 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_C
+
+
 #define THIS_SMOKE_TYPE 3A //actually sparks not smoke
 #include "../templates/template_smoke.tnfo"
 
@@ -23,27 +28,28 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
-    0F 00    // capacity
+    0F \b7    // capacity
     10 FF     // cargo type
     11 34     // cost factor
     12 20     // sound effect
     13 \b120  // power in 10 hp
     14 \b255  // weight in 1/4 tons
     15 \b40   // speed in mph * 0.8
-    16 00 00 00 00     // Bit mask of cargo types available for refitting
-    17 12     // Callback flags bit mask
+    16 98 02 24 00    // Bit mask of cargo types available for refitting
+    // flips 1D / 1E value: excludes oil, livestock, metal petrol, scrap metal
+    17 32     // Callback flags bit mask
     18 5A     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D FF 03       // Refittable cargo classes
-    1E 01 00       // Non-refittable cargo classes
+    1D FF 03        // refittable cargo classes
+    1E 11 00        // non-refittable cargo classes
     1F \d03-01-2009    // Long format introduction date  
  -1 * 37	 04 01 7F 01 VEH_EXPRESS_TRAM_ELECTRIC_1 "Schalke Express Tram (Electric)" 00
  -1 * 87	 04 01 81 01 THIS_BUY_MENU_STR DC "Can be refitted to haul:\8A"
-  "\0D    60t in four wagons"
-  "\0D    135t in nine wagons"
-  "\0D    225t in fifteen wagons\0D"
+  "\0D    nt in n wagons"
+  "\0D    nt in n wagons"
+  "\0D    nt in n wagons\0D"
   "\98Running costs vary with capacity\0D"
                                00
  -1 * 4	 01 01 02 08
@@ -105,7 +111,7 @@
       01 // number loaded states
       01 00 // loading sprites
       01 00 // loaded sprites
-
+                 
  #include "../templates/template_industrial_tram_locomotives.tnfo"
 
 #undef THIS_Y_X_CROP_1

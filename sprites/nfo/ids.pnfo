@@ -190,6 +190,10 @@
 #define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_B           47 //D0 text
 #define STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_C           48 //D0 text
 
+#define STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_A              49 //D0 text
+#define STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_B              4A //D0 text
+#define STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_C              4B //D0 text
+
 #define STR_EXTRA_INFO_CRAWLER_NO_6_GP_1                  60 //D0 text
 #define STR_EXTRA_INFO_CRAWLER_NO_6_GP_2                  61 //D0 text
 #define STR_EXTRA_INFO_CRAWLER_NO_6_GP_3                  62 //D0 text

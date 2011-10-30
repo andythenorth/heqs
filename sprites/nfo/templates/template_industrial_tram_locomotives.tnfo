@@ -26,13 +26,22 @@
                    THIS_WAGON_TYPE 80  \b01 \b15 // 
                  FF FF //otherwise end the callback chain
 
+#ifndef THIS_STR_REFIT_1
+#define THIS_STR_REFIT_1 FF
+#endif
+#ifndef THIS_STR_REFIT_2
+#define THIS_STR_REFIT_2 FF
+#endif
+#ifndef THIS_STR_REFIT_3
+#define THIS_STR_REFIT_3 FF
+#endif
 // text strings
- -1 * 18	 02 01 D0  // set refit text strings
+    -1 * 18	 02 01 D0  // set refit text strings (only used if cb enabled)
                  81 F2 00 FF //
-                 \b3 // range
-                   00 80  00 00 
-                   01 80  01 01 
-                   02 80  02 02 
+                 03 // range
+                   THIS_STR_REFIT_1 80  00 00 
+                   THIS_STR_REFIT_2 80  01 01 
+                   THIS_STR_REFIT_3 80  02 02 
                  FF 80 // end callback chain
 
 // to-be-deprecated but still used thing to sort out buy menu info 
@@ -65,10 +74,11 @@
               
  -1 * 18	 02 01 C0 // 
                  81 0C 00 FF // handle callbacks
-                 \b3 //check one range
+                 \b4 //check one range
                    C2 00  11 11 // vehicle length CB
                    B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
-                   E0 00  36 36 // change vehicle properties
+                   D0 00  19 19 // text suffix CB  // only used if enabled
+                   E0 00  36 36 // change vehicle properties 
                  C1 00 //default
                  
  -1 * 7	 03 01 01 THIS_VEH_ID // Action 3
@@ -85,3 +95,6 @@
 #undef THIS_RUNCOST_REFIT_1
 #undef THIS_RUNCOST_REFIT_2
 #undef THIS_RUNCOST_REFIT_3
+#undef THIS_STR_REFIT_1
+#undef THIS_STR_REFIT_2
+#undef THIS_STR_REFIT_3
