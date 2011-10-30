@@ -12,7 +12,7 @@
     09 1E           // running cost factor 
     0A 48 4C 00 00  // running cost base 
     0E FF           // sprite ID
-    0F THIS_CAPACITY   // capacity
+    0F 00           // capacity (set 0, use cb36 to set to required value on refit)
     10 FF           // cargo type
     11 34           // cost factor
     12 17           // sound effect
@@ -180,13 +180,20 @@
                    STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_C 80  02 02 
                  FF 80 // end callback chain
 
-// handle callbacks etc
-  -1 * 18	 02 01 C0  // handle callbacks
+// handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
+  -1 * 18	 02 01 C0  // 
+                 81 0C 00 FF // 
+                 02 // range
+                   E0 00  36 36 // change vehicle properties
+                   D0 00  19 19 // text suffix CB 
+                 A0 00 // graphics  
+  -1 * 18	 02 01 C1  // buy menu
                  81 0C 00 FF //
                  02 // range
                    E0 00  36 36 // change vehicle properties
                    D0 00  19 19 // text suffix CB 
                  A0 00 // graphics  
+
                  
  -1 * 7	 03 01 01 VEH_EXPRESS_TRAM_WAGON_1 // Action 3
     01 // Number of cargo types
