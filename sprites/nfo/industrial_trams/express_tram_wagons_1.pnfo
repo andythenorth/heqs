@@ -19,15 +19,15 @@
     13 \b0          // power in 10 hp
     14 \b0          // weight in 1/4 tons
     15 \b00         // speed in mph * 0.8
-    16 00 00 00 00    // Bit mask of cargo types available for refitting
-    // flips 1D / 1E value
+    16 98 02 24 00    // Bit mask of cargo types available for refitting
+    // flips 1D / 1E value: excludes oil, livestock, metal petrol, scrap metal
     17 22           // callback flags bit mask
     18 00           // coefficient of tractive effort (use 0 for trailers)
     1A 00           // refit cost, using 25% of the purchase price cost base
     1B 00           // retire vehicle early, this many years before the end of phase 2
     1C 03           // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03        // refittable cargo classes
-    1E 01 00        // non-refittable cargo classes
+    1E 11 00        // non-refittable cargo classes
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_EXPRESS_TRAM_WAGON_1 "[Express Tram Wagon 1]" 00
  -1 * 33	 04 00 FF 01 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_3_A D0
