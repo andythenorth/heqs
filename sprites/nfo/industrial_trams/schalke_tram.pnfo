@@ -16,7 +16,8 @@
 #define THIS_STR_REFIT_2 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_B
 #define THIS_STR_REFIT_3 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_C
 
-#define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
+// !! set double capacities for this vehicle due to limitations of cb36 w.r.t cargo weight multipliers 
+#define THIS_CAPACITY         10 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
 #define THIS_CAPACITY_FOR_BUY_MENU  3C // (must be hex for cb result) used to display in buy menu only, match to total capacity for subtype refit
 
 #define THIS_SMOKE_TYPE 3A //actually sparks not smoke
@@ -31,7 +32,7 @@
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F \b8    // capacity (8t front cab, 7t rear cab = average 7.5t for both cab cars) 
-    10 FF     // cargo type
+    10 02     // cargo type
     11 34     // cost factor
     12 20     // sound effect
     13 \b120  // power in 10 hp
