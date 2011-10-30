@@ -16,6 +16,8 @@
 #define THIS_STR_REFIT_2 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_B
 #define THIS_STR_REFIT_3 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_C
 
+#define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
+#define THIS_CAPACITY_FOR_BUY_MENU  3C // (must be hex for cb result) used to display in buy menu only, match to total capacity for subtype refit
 
 #define THIS_SMOKE_TYPE 3A //actually sparks not smoke
 #include "../templates/template_smoke.tnfo"

@@ -1,4 +1,4 @@
-// Dorstfeld Industrial Tram (Electric)
+// Dorstfeld Industrial Tram
 
 #define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_STEAM_1
 #define THIS_LENGTH_ADJUST    05
@@ -12,6 +12,9 @@
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../templates/group_availability/rv_availability.tnfo"
 
+#define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
+#define THIS_CAPACITY_FOR_BUY_MENU  14 // (must be hex for cb result) used to display in buy menu only, match to total capacity for subtype refit
+
 #define THIS_SMOKE_TYPE 18 // smoke
 #include "../templates/template_smoke.tnfo"
 
@@ -23,7 +26,7 @@
     09 16     // running cost 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
-    0F 00     // capacity
+    0F \b01     // capacity - set > 0 to trigger cb 36 (manipulates capacity for display in buy menu, showing total capacity of consist)
     10 FF     // cargo type
     11 12     // cost factor
     12 02     // sound effect

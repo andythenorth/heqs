@@ -43,16 +43,9 @@
                    THIS_STR_REFIT_2 80  01 01 
                    THIS_STR_REFIT_3 80  02 02 
                  FF 80 // end callback chain
-
-// to-be-deprecated but still used thing to sort out buy menu info 
- -1 * 14	 02 01 C1 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler
-                 82 40 10 FF // check vehicle length    
-                 01 // check one range
-                   F0 00  00 00 // if length is 0 use purchase menu sprite
-                 B2 00 // else go to action 2 to apply graphics
-
+                 
 // handle callbacks to change vehicle properties                 
- -1 * 14	 02 01 C2 // set engine length depending on num. wagons (set by refit cycle).  (to fit 4 wagon train into 1 tile - 16x1/8 vehicles) 
+ -1 * 14	 02 01 EF // set engine length depending on num. wagons (set by refit cycle).  (to fit 4 wagon train into 1 tile - 16x1/8 vehicles) 
                  82 42 10 FF // check most common value of F2 (refit cycle) in consist
                  \b2 // range
                    THIS_LENGTH_ADJUST_1 80  00 00 // refit 1 (3 or 4 wagons)
@@ -68,22 +61,36 @@
 
  -1 * 18	 02 01 E0  // handle changing properties - check property type cb requires
                  81 10 00 FF //
-                 \b1 // range
+                 \b2 // range
                    E1 00  09 09 // set running cost
-                   //THIS_CAPACITY 80  0F 0F // set capacity to vehicle capacity
+                   THIS_CAPACITY 80  0F 0F // set capacity to vehicle capacity
                  A1 00 // default (use a regular action 2 ID for graphics to make cb36 fail for props that shouldn't be changed)
+
+// set capacity for buy menu only
+ -1 * 18	 02 01 C2
+                 81 10 00 FF //
+                 \b1 // range
+                   THIS_CAPACITY_FOR_BUY_MENU 80  0F 0F // set capacity to vehicle capacity
+                 B2 00 // default (use a regular action 2 ID for graphics to make cb36 fail for props that shouldn't be changed)
               
+// handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
  -1 * 18	 02 01 C0 // 
-                 81 0C 00 FF // handle callbacks
+                 81 0C 00 FF
                  \b4 //check one range
-                   C2 00  11 11 // vehicle length CB
+                   EF 00  11 11 // vehicle length CB
                    B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                    D0 00  19 19 // text suffix CB  // only used if enabled
                    E0 00  36 36 // change vehicle properties 
-                 C1 00 //default
+                 B2 00 //default
+-1 * 18	 02 01 C1 // buy menu only
+                 81 0C 00 FF
+                 \b1 //check one range
+                   C2 00  36 36 // change vehicle properties 
+                 F0 00 //default
                  
  -1 * 7	 03 01 01 THIS_VEH_ID // Action 3
-      00  // Number of different cargo types to support
+      01  // Number of different cargo types to support
+        FF  C1 00 // buy menu
       C0 00   // Action 2 ID above
 
 
@@ -99,3 +106,5 @@
 #undef THIS_STR_REFIT_1
 #undef THIS_STR_REFIT_2
 #undef THIS_STR_REFIT_3
+#undef THIS_CAPACITY
+#undef THIS_CAPACITY_FOR_BUY_MENU

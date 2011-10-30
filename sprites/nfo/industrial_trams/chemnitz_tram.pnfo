@@ -1,4 +1,4 @@
-// Hennigsdorf Industrial Tram (Electric)
+// Chemnitz Industrial Tram
 
 #define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_STEAM_2
 #define THIS_LENGTH_ADJUST    05
@@ -11,6 +11,7 @@
 #define THIS_RUNCOST_REFIT_3  5F
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 
+#define THIS_CAPACITY_FOR_BUY_MENU  \b60 // used to display in buy menu only, match to total capacity for subtype refit
 
 #define THIS_SMOKE_TYPE 18 // smoke
 #include "../templates/template_smoke.tnfo"
@@ -24,7 +25,7 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
-    0F 00     // capacity
+    0F 01     // capacity
     10 FF     // cargo type
     11 1A     // cost factor
     12 20     // sound effect
