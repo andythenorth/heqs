@@ -25,7 +25,7 @@
 
  -1 * 67	 00 01 \b23 01 VEH_EXPRESS_TRAM_ELECTRIC_1
     02 20     // reliability 
-    03 \b40   // vehicle life 
+    03 \b20   // vehicle life 
     04 \b150  // class life 
     07 00     // load amount 
     09 1E     // running cost factor 
@@ -48,7 +48,7 @@
     1D FF 03        // refittable cargo classes
     1E 11 00        // non-refittable cargo classes
     1F \d03-01-2009    // Long format introduction date  
- -1 * 37	 04 01 7F 01 VEH_EXPRESS_TRAM_ELECTRIC_1 "Schalke Express Tram (Electric)" 00
+ -1 * 37	 04 01 7F 01 VEH_EXPRESS_TRAM_ELECTRIC_1 "Dynamo Express Tram (Electric)" 00
  -1 * 87	 04 01 81 01 THIS_BUY_MENU_STR DC "Can be refitted to haul:\8A"
   "\0D    60t in 5 vehicles"
   "\0D    135t in 10 vehicles"
