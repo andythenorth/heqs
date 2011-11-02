@@ -1,6 +1,6 @@
 // ------------ Tractor Medium Trailers ------------------ //
 
-#define THIS_GRAPHICS_FILE         medium_trailer_tandem.pcx     // used in action 1 template (must include file extension)
+#define THIS_GRAPHICS_FILE         medium_trailer_tandem.png     // used in action 1 template (must include file extension)
 
 #define THIS_Y_X_CROP_1  24  12
 #define THIS_Y_X_CROP_2  20  26

@@ -34,19 +34,19 @@
     1E 01 00          // non-refittable cargo classes
     1F 32 17 0B 00    // long format introduction date      
  -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
- -1 sprites/graphics/tractors.pcx 0  370 01 24 12 -5  -15
- -1 sprites/graphics/tractors.pcx 32  370 01 20 26 -17 -9
- -1 sprites/graphics/tractors.pcx 64  370 01 16 36 -14 -9
- -1 sprites/graphics/tractors.pcx 112 370 01 20 26 -9  -10
- -1 sprites/graphics/tractors.pcx 144 370 01 24 12 -5  -13
- -1 sprites/graphics/tractors.pcx 176 370 01 20 26 -17 -9
- -1 sprites/graphics/tractors.pcx 208 370 01 16 36 -31 -8
- -1 sprites/graphics/tractors.pcx 256 370 01 20 26 -10 -10
+ -1 sprites/graphics/tractors.png 0  370 01 24 12 -5  -15
+ -1 sprites/graphics/tractors.png 32  370 01 20 26 -17 -9
+ -1 sprites/graphics/tractors.png 64  370 01 16 36 -14 -9
+ -1 sprites/graphics/tractors.png 112 370 01 20 26 -9  -10
+ -1 sprites/graphics/tractors.png 144 370 01 24 12 -5  -13
+ -1 sprites/graphics/tractors.png 176 370 01 20 26 -17 -9
+ -1 sprites/graphics/tractors.png 208 370 01 16 36 -31 -8
+ -1 sprites/graphics/tractors.png 256 370 01 20 26 -10 -10
  -1 * 9	 02 01 A0 01 01 00 00 00 00
  -1 * 4	 01 01 01 04
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/graphics/tractors.pcx 336 370 01 16 36 -14 -8
+ -1 sprites/graphics/tractors.png 336 370 01 16 36 -14 -8
  -1 * 1	 00
  -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states

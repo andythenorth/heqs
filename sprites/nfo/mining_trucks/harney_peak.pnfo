@@ -1,4 +1,4 @@
-#define THIS_GRAPHICS_FILE         60t_mining_truck.pcx     // used in action 1 template (must include file extension)
+#define THIS_GRAPHICS_FILE         60t_mining_truck.png     // used in action 1 template (must include file extension)
 #define THIS_VEH_ID           VEH_MINING_TRUCK_HARNEY_PEAK  // used in action 1/2/3 template
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../templates/group_availability/rv_availability.tnfo"

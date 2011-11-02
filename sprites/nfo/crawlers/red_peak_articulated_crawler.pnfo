@@ -36,17 +36,17 @@
 -1 * 47	 04 01 81 01 STR_EXTRA_INFO_CRAWLER_RED_PEAK D0 "Hauls: " 8A "Three 22t trailers"
                                0d 98 "Model: " 8A "1998" 00 
 -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
--1 sprites/graphics/bulldozers.pcx 34 1610 01 24 12 -5 -19
--1 sprites/graphics/bulldozers.pcx 66 1610 01 20 26 -17 -12
--1 sprites/graphics/bulldozers.pcx 98 1610 01 16 36 -10 -11
--1 sprites/graphics/bulldozers.pcx 146 1610 01 20 26 -9 -11
--1 sprites/graphics/bulldozers.pcx 178 1610 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1610 01 20 26 -17 -11
--1 sprites/graphics/bulldozers.pcx 242 1610 01 16 36 -26 -10
--1 sprites/graphics/bulldozers.pcx 290 1610 01 20 26 -10 -13
+-1 sprites/graphics/bulldozers.png 34 1610 01 24 12 -5 -19
+-1 sprites/graphics/bulldozers.png 66 1610 01 20 26 -17 -12
+-1 sprites/graphics/bulldozers.png 98 1610 01 16 36 -10 -11
+-1 sprites/graphics/bulldozers.png 146 1610 01 20 26 -9 -11
+-1 sprites/graphics/bulldozers.png 178 1610 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1610 01 20 26 -17 -11
+-1 sprites/graphics/bulldozers.png 242 1610 01 16 36 -26 -10
+-1 sprites/graphics/bulldozers.png 290 1610 01 20 26 -10 -13
 -1 * 9	 02 01 A0 01 01 00 00 00 00
 -1 * 4	 01 01 01 01
--1 sprites/graphics/bulldozers.pcx 370 1614 01 12 36 -14 -6
+-1 sprites/graphics/bulldozers.png 370 1614 01 12 36 -14 -6
 -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
       01 // number loaded states
@@ -110,14 +110,14 @@
       1F \d0    // Long format introduction date     
 -1 * 39	 04 01 7F 01 VEH_CRAWLER_RED_PEAK_2 "[Articulated Crawler Second Part]" 00
 -1 * 4	 01 01 01 08
--1 sprites/graphics/bulldozers.pcx 34 1650 01 24 12 -5 -15
--1 sprites/graphics/bulldozers.pcx 66 1650 01 20 26 -17 -12
--1 sprites/graphics/bulldozers.pcx 98 1650 01 16 36 -10 -11
--1 sprites/graphics/bulldozers.pcx 146 1650 01 20 26 -9 -11
--1 sprites/graphics/bulldozers.pcx 178 1650 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1650 01 20 26 -17 -11
--1 sprites/graphics/bulldozers.pcx 242 1650 01 16 36 -26 -10
--1 sprites/graphics/bulldozers.pcx 290 1650 01 20 26 -10 -13
+-1 sprites/graphics/bulldozers.png 34 1650 01 24 12 -5 -15
+-1 sprites/graphics/bulldozers.png 66 1650 01 20 26 -17 -12
+-1 sprites/graphics/bulldozers.png 98 1650 01 16 36 -10 -11
+-1 sprites/graphics/bulldozers.png 146 1650 01 20 26 -9 -11
+-1 sprites/graphics/bulldozers.png 178 1650 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1650 01 20 26 -17 -11
+-1 sprites/graphics/bulldozers.png 242 1650 01 16 36 -26 -10
+-1 sprites/graphics/bulldozers.png 290 1650 01 20 26 -10 -13
 -1 * 9	 02 01 BB   01 01   00 00    00 00
 -1 * 14	 02 01 AA  // handle callbacks
                  81 0C 00 FF // check variable 0C

@@ -78,41 +78,41 @@
                                00                               
 -1 * 4	 01 01 04 08
   // No. 9 standard drive 2cc cab - bulldozer blade
--1 sprites/graphics/bulldozers.pcx 34 1130 01 24 12 -5 -17
--1 sprites/graphics/bulldozers.pcx 66 1130 09 20 26 -15 -10
--1 sprites/graphics/bulldozers.pcx 98 1130 01 16 36 -14 -8
--1 sprites/graphics/bulldozers.pcx 146 1130 09 20 26 -9 -9
--1 sprites/graphics/bulldozers.pcx 178 1130 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1130 09 20 26 -16 -9
--1 sprites/graphics/bulldozers.pcx 242 1130 01 16 36 -22 -10
--1 sprites/graphics/bulldozers.pcx 290 1130 09 20 26 -10 -10
+-1 sprites/graphics/bulldozers.png 34 1130 01 24 12 -5 -17
+-1 sprites/graphics/bulldozers.png 66 1130 09 20 26 -15 -10
+-1 sprites/graphics/bulldozers.png 98 1130 01 16 36 -14 -8
+-1 sprites/graphics/bulldozers.png 146 1130 09 20 26 -9 -9
+-1 sprites/graphics/bulldozers.png 178 1130 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1130 09 20 26 -16 -9
+-1 sprites/graphics/bulldozers.png 242 1130 01 16 36 -22 -10
+-1 sprites/graphics/bulldozers.png 290 1130 09 20 26 -10 -10
   // No. 9 standard drive 2cc cab - no blade
--1 sprites/graphics/bulldozers.pcx 34 1170 01 24 12 -5 -17
--1 sprites/graphics/bulldozers.pcx 66 1170 09 20 26 -15 -10
--1 sprites/graphics/bulldozers.pcx 98 1170 01 16 36 -14 -8
--1 sprites/graphics/bulldozers.pcx 146 1170 09 20 26 -9 -9
--1 sprites/graphics/bulldozers.pcx 178 1170 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1170 09 20 26 -16 -9
--1 sprites/graphics/bulldozers.pcx 242 1170 01 16 36 -23 -10
--1 sprites/graphics/bulldozers.pcx 290 1170 09 20 26 -10 -10
+-1 sprites/graphics/bulldozers.png 34 1170 01 24 12 -5 -17
+-1 sprites/graphics/bulldozers.png 66 1170 09 20 26 -15 -10
+-1 sprites/graphics/bulldozers.png 98 1170 01 16 36 -14 -8
+-1 sprites/graphics/bulldozers.png 146 1170 09 20 26 -9 -9
+-1 sprites/graphics/bulldozers.png 178 1170 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1170 09 20 26 -16 -9
+-1 sprites/graphics/bulldozers.png 242 1170 01 16 36 -23 -10
+-1 sprites/graphics/bulldozers.png 290 1170 09 20 26 -10 -10
     // No. 9 standard drive enclosed cab - bulldozer blade
--1 sprites/graphics/bulldozers.pcx 34 1210 01 24 12 -5 -17
--1 sprites/graphics/bulldozers.pcx 66 1210 09 20 26 -15 -10
--1 sprites/graphics/bulldozers.pcx 98 1210 01 16 36 -14 -8
--1 sprites/graphics/bulldozers.pcx 146 1210 09 20 26 -9 -9
--1 sprites/graphics/bulldozers.pcx 178 1210 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1210 09 20 26 -16 -9
--1 sprites/graphics/bulldozers.pcx 242 1210 01 16 36 -22 -10
--1 sprites/graphics/bulldozers.pcx 290 1210 09 20 26 -10 -10
+-1 sprites/graphics/bulldozers.png 34 1210 01 24 12 -5 -17
+-1 sprites/graphics/bulldozers.png 66 1210 09 20 26 -15 -10
+-1 sprites/graphics/bulldozers.png 98 1210 01 16 36 -14 -8
+-1 sprites/graphics/bulldozers.png 146 1210 09 20 26 -9 -9
+-1 sprites/graphics/bulldozers.png 178 1210 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1210 09 20 26 -16 -9
+-1 sprites/graphics/bulldozers.png 242 1210 01 16 36 -22 -10
+-1 sprites/graphics/bulldozers.png 290 1210 09 20 26 -10 -10
   // No. 9 standard drive enclosed cab - no blade
--1 sprites/graphics/bulldozers.pcx 34 1250 01 24 12 -5 -17
--1 sprites/graphics/bulldozers.pcx 66 1250 09 20 26 -15 -10
--1 sprites/graphics/bulldozers.pcx 98 1250 01 16 36 -14 -8
--1 sprites/graphics/bulldozers.pcx 146 1250 09 20 26 -9 -9
--1 sprites/graphics/bulldozers.pcx 178 1250 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1250 09 20 26 -16 -9
--1 sprites/graphics/bulldozers.pcx 242 1250 01 16 36 -23 -10
--1 sprites/graphics/bulldozers.pcx 290 1250 09 20 26 -10 -10
+-1 sprites/graphics/bulldozers.png 34 1250 01 24 12 -5 -17
+-1 sprites/graphics/bulldozers.png 66 1250 09 20 26 -15 -10
+-1 sprites/graphics/bulldozers.png 98 1250 01 16 36 -14 -8
+-1 sprites/graphics/bulldozers.png 146 1250 09 20 26 -9 -9
+-1 sprites/graphics/bulldozers.png 178 1250 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1250 09 20 26 -16 -9
+-1 sprites/graphics/bulldozers.png 242 1250 01 16 36 -23 -10
+-1 sprites/graphics/bulldozers.png 290 1250 09 20 26 -10 -10
   // Real sprites are also used by No. 9 (Logging / Mining)
 -1 * 9	 02 01 A1 //action2 - standard drive 2cc cab, blade 
       01 // number loading states
@@ -136,41 +136,41 @@
       03 00 // loaded sprites                               
 -1 * 4	 01 01 04 08
   // No. 9 high drive 2cc cab - bulldozer blade
--1 sprites/graphics/bulldozers.pcx 34 1290 01 24 12 -5 -17
--1 sprites/graphics/bulldozers.pcx 66 1290 09 20 26 -15 -10
--1 sprites/graphics/bulldozers.pcx 98 1290 01 16 36 -14 -8
--1 sprites/graphics/bulldozers.pcx 146 1290 09 20 26 -9 -9
--1 sprites/graphics/bulldozers.pcx 178 1290 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1290 09 20 26 -16 -9
--1 sprites/graphics/bulldozers.pcx 242 1290 01 16 36 -22 -10
--1 sprites/graphics/bulldozers.pcx 290 1290 09 20 26 -10 -10
+-1 sprites/graphics/bulldozers.png 34 1290 01 24 12 -5 -17
+-1 sprites/graphics/bulldozers.png 66 1290 09 20 26 -15 -10
+-1 sprites/graphics/bulldozers.png 98 1290 01 16 36 -14 -8
+-1 sprites/graphics/bulldozers.png 146 1290 09 20 26 -9 -9
+-1 sprites/graphics/bulldozers.png 178 1290 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1290 09 20 26 -16 -9
+-1 sprites/graphics/bulldozers.png 242 1290 01 16 36 -22 -10
+-1 sprites/graphics/bulldozers.png 290 1290 09 20 26 -10 -10
   // No. 9 high drive 2cc cab - no blade
--1 sprites/graphics/bulldozers.pcx 34 1330 01 24 12 -5 -17
--1 sprites/graphics/bulldozers.pcx 66 1330 09 20 26 -15 -10
--1 sprites/graphics/bulldozers.pcx 98 1330 01 16 36 -14 -8
--1 sprites/graphics/bulldozers.pcx 146 1330 09 20 26 -9 -9
--1 sprites/graphics/bulldozers.pcx 178 1330 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1330 09 20 26 -16 -9
--1 sprites/graphics/bulldozers.pcx 242 1330 01 16 36 -23 -10
--1 sprites/graphics/bulldozers.pcx 290 1330 09 20 26 -10 -10
+-1 sprites/graphics/bulldozers.png 34 1330 01 24 12 -5 -17
+-1 sprites/graphics/bulldozers.png 66 1330 09 20 26 -15 -10
+-1 sprites/graphics/bulldozers.png 98 1330 01 16 36 -14 -8
+-1 sprites/graphics/bulldozers.png 146 1330 09 20 26 -9 -9
+-1 sprites/graphics/bulldozers.png 178 1330 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1330 09 20 26 -16 -9
+-1 sprites/graphics/bulldozers.png 242 1330 01 16 36 -23 -10
+-1 sprites/graphics/bulldozers.png 290 1330 09 20 26 -10 -10
     // No. 9 upgraded black cab - bulldozer blade
--1 sprites/graphics/bulldozers.pcx 34 1370 01 24 12 -5 -17
--1 sprites/graphics/bulldozers.pcx 66 1370 09 20 26 -15 -10
--1 sprites/graphics/bulldozers.pcx 98 1370 01 16 36 -14 -8
--1 sprites/graphics/bulldozers.pcx 146 1370 09 20 26 -9 -9
--1 sprites/graphics/bulldozers.pcx 178 1370 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1370 09 20 26 -16 -9
--1 sprites/graphics/bulldozers.pcx 242 1370 01 16 36 -22 -10
--1 sprites/graphics/bulldozers.pcx 290 1370 09 20 26 -10 -10
+-1 sprites/graphics/bulldozers.png 34 1370 01 24 12 -5 -17
+-1 sprites/graphics/bulldozers.png 66 1370 09 20 26 -15 -10
+-1 sprites/graphics/bulldozers.png 98 1370 01 16 36 -14 -8
+-1 sprites/graphics/bulldozers.png 146 1370 09 20 26 -9 -9
+-1 sprites/graphics/bulldozers.png 178 1370 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1370 09 20 26 -16 -9
+-1 sprites/graphics/bulldozers.png 242 1370 01 16 36 -22 -10
+-1 sprites/graphics/bulldozers.png 290 1370 09 20 26 -10 -10
   // No. 9 upgraded black cab - no blade
--1 sprites/graphics/bulldozers.pcx 34 1410 01 24 12 -5 -17
--1 sprites/graphics/bulldozers.pcx 66 1410 09 20 26 -15 -10
--1 sprites/graphics/bulldozers.pcx 98 1410 01 16 36 -14 -8
--1 sprites/graphics/bulldozers.pcx 146 1410 09 20 26 -9 -9
--1 sprites/graphics/bulldozers.pcx 178 1410 01 24 12 -5 -13
--1 sprites/graphics/bulldozers.pcx 210 1410 09 20 26 -16 -9
--1 sprites/graphics/bulldozers.pcx 242 1410 01 16 36 -23 -10
--1 sprites/graphics/bulldozers.pcx 290 1410 09 20 26 -10 -10
+-1 sprites/graphics/bulldozers.png 34 1410 01 24 12 -5 -17
+-1 sprites/graphics/bulldozers.png 66 1410 09 20 26 -15 -10
+-1 sprites/graphics/bulldozers.png 98 1410 01 16 36 -14 -8
+-1 sprites/graphics/bulldozers.png 146 1410 09 20 26 -9 -9
+-1 sprites/graphics/bulldozers.png 178 1410 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1410 09 20 26 -16 -9
+-1 sprites/graphics/bulldozers.png 242 1410 01 16 36 -23 -10
+-1 sprites/graphics/bulldozers.png 290 1410 09 20 26 -10 -10
   // Real sprites are also used by No. 9 (Logging / Mining)
 -1 * 9	 02 01 AA //action2 - high drive 2cc cab, blade 
       01 // number loading states
@@ -196,17 +196,17 @@
   // No. 9 standard drive 2cc open cab
 -1 * 1	 00
 -1 * 1	 00
--1 sprites/graphics/bulldozers.pcx 370 1174 01 12 36 -26 -6
+-1 sprites/graphics/bulldozers.png 370 1174 01 12 36 -26 -6
 -1 * 1	 00
   // No. 9 high drive 2cc cab
 -1 * 1	 00
 -1 * 1	 00
--1 sprites/graphics/bulldozers.pcx 370 1334 01 12 36 -26 -6
+-1 sprites/graphics/bulldozers.png 370 1334 01 12 36 -26 -6
 -1 * 1	 00
   // No. 9 high drive black cab
 -1 * 1	 00
 -1 * 1	 00
--1 sprites/graphics/bulldozers.pcx 370 1414 01 12 36 -26 -6
+-1 sprites/graphics/bulldozers.png 370 1414 01 12 36 -26 -6
 -1 * 1	 00
 -1 * 9	 02 01 F1 //action2 - buy menu sprites (high drive 2cc cab)
       01 // number loading states
@@ -378,17 +378,17 @@
   // No. 9 standard drive 2cc open cab
 -1 * 1	 00
 -1 * 1	 00
--1 sprites/graphics/bulldozers.pcx 370 1134 01 12 36 -22 -6
+-1 sprites/graphics/bulldozers.png 370 1134 01 12 36 -22 -6
 -1 * 1	 00
   // No. 9 high drive 2cc cab
 -1 * 1	 00
 -1 * 1	 00
--1 sprites/graphics/bulldozers.pcx 370 1294 01 12 36 -22 -6
+-1 sprites/graphics/bulldozers.png 370 1294 01 12 36 -22 -6
 -1 * 1	 00
   // No. 9 high drive black cab
 -1 * 1	 00
 -1 * 1	 00
--1 sprites/graphics/bulldozers.pcx 370 1374 01 12 36 -22 -6
+-1 sprites/graphics/bulldozers.png 370 1374 01 12 36 -22 -6
 -1 * 1	 00
 -1 * 9	 02 01 F1 //action2 - buy menu sprites (high drive 2cc cab)
       01 // number loading states
