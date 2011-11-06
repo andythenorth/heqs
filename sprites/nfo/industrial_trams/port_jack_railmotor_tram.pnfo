@@ -39,19 +39,19 @@
  -1 sprites/graphics/industrial_tram_locomotives.png   16 320  09  16 20  -14  -6
  -1 sprites/graphics/industrial_tram_locomotives.png   48 320  01  12 28  -14  -6
  -1 sprites/graphics/industrial_tram_locomotives.png   96 320  09  16 20   -5  -7
- -1 sprites/graphics/industrial_tram_locomotives.png    0 320  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 320  09  16 20  -14  -5
- -1 sprites/graphics/industrial_tram_locomotives.png   48 320  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 320  09  16 20   -4  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png  128 320  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png  144 320  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png  176 320  01  12 28  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  224 320  09  16 20   -4  -5
   // Locomotive version B
  -1 sprites/graphics/industrial_tram_locomotives.png    0 340  01  18  8   -4 -12
  -1 sprites/graphics/industrial_tram_locomotives.png   16 340  09  16 20  -14  -6
  -1 sprites/graphics/industrial_tram_locomotives.png   48 340  01  12 28  -14  -6
  -1 sprites/graphics/industrial_tram_locomotives.png   96 340  09  16 20   -5  -7
- -1 sprites/graphics/industrial_tram_locomotives.png    0 340  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 340  09  16 20  -14  -5
- -1 sprites/graphics/industrial_tram_locomotives.png   48 340  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 340  09  16 20   -4  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png  128 340  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png  144 340  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png  176 340  01  12 28  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  224 340  09  16 20   -4  -5
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
