@@ -54,11 +54,28 @@
                    THIS_RUNCOST_REFIT_2 80  \b1 \b1 // refit 2
                  THIS_RUNCOST_REFIT_3 80 // default
 
+#ifdef THIS_VARIABLE_POWER
+ -1 * 18	 02 01 E2  // handle setting run cost - check property type cb requires
+                 82 42 10 FF // check most common value of F2 (refit cycle) in consist
+                 \b2 // range
+                   THIS_POWER_REFIT_1 80  \b0 \b0 // refit 1
+                   THIS_POWER_REFIT_2 80  \b1 \b1 // refit 2
+                 THIS_POWER_REFIT_3 80 // default
+#endif
+
  -1 * 18	 02 01 E0  // handle changing properties - check property type cb requires
                  81 10 00 FF //
-                 \b2 // range
+                 #ifdef THIS_VARIABLE_POWER  // Only some trams change power on refit.  This ifdef method looks clunky but works
+                 \b3 // range
+                 #endif
+                 #ifndef THIS_VARIABLE_POWER
+                 \b2
+                 #endif
                    E1 00  09 09 // set running cost
                    THIS_CAPACITY 80  0F 0F // set capacity to vehicle capacity
+                   #ifdef THIS_VARIABLE_POWER
+                   E2 00  13 13 // set power to vehicle power
+                   #endif
                  A1 00 // default (use a regular action 2 ID for graphics to make cb36 fail for props that shouldn't be changed)
 
 // set capacity for buy menu only

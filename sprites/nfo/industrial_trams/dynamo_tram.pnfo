@@ -10,6 +10,10 @@
 #define THIS_RUNCOST_REFIT_2  9D
 #define THIS_RUNCOST_REFIT_3  FF
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
+#define THIS_VARIABLE_POWER   true // set this to any arbitrary value for trams with powered wagons (no wagon power for RVs so faked by changing power on cb36) 
+#define THIS_POWER_REFIT_1    55
+#define THIS_POWER_REFIT_2    AA
+#define THIS_POWER_REFIT_3    FF
 #include "../templates/group_availability/rv_availability.tnfo"
 
 #define THIS_STR_REFIT_1 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_A
@@ -35,7 +39,7 @@
     10 02     // cargo type
     11 34     // cost factor
     12 20     // sound effect
-    13 \b120  // power in 10 hp
+    13 \b85  // power in 10 hp
     14 \b255  // weight in 1/4 tons
     15 \b40   // speed in mph * 0.8
     16 98 02 24 00    // Bit mask of cargo types available for refitting
@@ -109,6 +113,11 @@
       00 00 // loaded sprites
                  
  #include "../templates/template_industrial_tram_locomotives.tnfo"
+
+#undef THIS_VARIABLE_POWER
+#undef THIS_POWER_REFIT_1
+#undef THIS_POWER_REFIT_2
+#undef THIS_POWER_REFIT_3
 
 #undef THIS_Y_X_CROP_1
 #undef THIS_Y_X_CROP_2
