@@ -1,16 +1,11 @@
 // Template for Industrial Tram locomotives varaction 2 chain and action 3
 
 // handle buy menu
- -1 * 14	 02 01 FA // buy menu graphics
+ -1 * 14	 02 01 F0 // buy menu graphics
                  81 01 00 FF // check current year 
                  \b1 // range
                    F1 00  \b00 \b72
                  F2 00 
- -1 * 14	 02 01 F0 // handle cb for buy menu text 
-                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
-                 \b1 // range
-                   THIS_BUY_MENU_STR 8C  23 23 // text for vehicle window
-                 FA 00 //otherwise go to next action 2 ID 
                  
 // handle vehicle sprites         
  -1 * 11	 02 01 B2 //
@@ -72,19 +67,20 @@
                  \b1 // range
                    THIS_CAPACITY_FOR_BUY_MENU 80  0F 0F // set capacity to vehicle capacity
                  B2 00 // default (use a regular action 2 ID for graphics to make cb36 fail for props that shouldn't be changed)
-              
+//arse              
 // handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
  -1 * 18	 02 01 C0 // 
                  81 0C 00 FF
-                 \b4 //check one range
+                 \b4 // range
                    EF 00  11 11 // vehicle length CB
                    B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                    D0 00  19 19 // text suffix CB  // only used if enabled
                    E0 00  36 36 // change vehicle properties 
                  B2 00 //default
--1 * 18	 02 01 C1 // buy menu only
+ -1 * 18	 02 01 C1 // buy menu only
                  81 0C 00 FF
-                 \b1 //check one range
+                 \b2 // range
+                   THIS_BUY_MENU_STR 81  23 23 // text for vehicle window
                    C2 00  36 36 // change vehicle properties 
                  F0 00 //default
                  

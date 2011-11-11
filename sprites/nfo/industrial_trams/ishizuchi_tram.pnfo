@@ -43,7 +43,7 @@
     1E 01 00       // Non-refittable cargo classes
     1F \d712980    // Long format introduction date  
  -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_ELECTRIC_3 "Ishizuchi Industrial Tram (Electric)" 00
- -1 * 87	 04 01 81 01 STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_3 DC "Can be refitted to haul:\8A"
+ -1 * 87	 04 01 81 01 STR_INFO_VEH_INDUSTRIAL_TRAM_ELECTRIC_3 D1 "Can be refitted to haul:\8A"
   "\0D    80t in four wagons"
   "\0D    180t in nine wagons"
   "\0D    300t in fifteen wagons (may be slow uphill)\0D"
