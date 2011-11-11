@@ -6,8 +6,8 @@
 #define THIS_LENGTH_ADJUST_2  05
 #define THIS_WAGON_TYPE       VEH_EXPRESS_TRAM_WAGON_1
 #define THIS_BUY_MENU_STR     STR_INFO_VEH_EXPRESS_TRAM_ELECTRIC_1
-#define THIS_RUNCOST_REFIT_1  4D //don't escape, used in cb results which have problems with escaped bytes
-#define THIS_RUNCOST_REFIT_2  9D
+#define THIS_RUNCOST_REFIT_1  40 //don't escape, used in cb results which have problems with escaped bytes
+#define THIS_RUNCOST_REFIT_2  A1
 #define THIS_RUNCOST_REFIT_3  FF
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #define THIS_VARIABLE_POWER   true // set this to any arbitrary value for trams with powered wagons (no wagon power for RVs so faked by changing power on cb36) 
@@ -32,12 +32,12 @@
     03 \b20   // vehicle life 
     04 \b150  // class life 
     07 00     // load amount 
-    09 1E     // running cost factor 
+    09 10     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
     0F \b8    // capacity (8t front cab, 7t rear cab = average 7.5t for both cab cars) 
     10 02     // cargo type
-    11 34     // cost factor
+    11 61     // cost factor
     12 20     // sound effect
     13 \b85  // power in 10 hp
     14 \b255  // weight in 1/4 tons
