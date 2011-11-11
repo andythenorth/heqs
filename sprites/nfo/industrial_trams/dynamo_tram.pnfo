@@ -57,7 +57,7 @@
   "\0D    60t in 5 vehicles"
   "\0D    135t in 10 vehicles"
   "\0D    225t in 16 vehicles\0D"
-  "\98Running costs vary with capacity\0D"
+  "\98Running costs and power vary with capacity\0D"
                                00
  -1 * 4	 01 01 01 08
 // Express cargo tram
