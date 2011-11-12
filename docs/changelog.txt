@@ -1,6 +1,20 @@
 HEQS Heavy Equipment Set Changelog
 ----------------------------------
 
+*version 1.4.0*
+Added Dynamo express cargo tram (electric tram, available 2009). 60t-225t capacity.
+Added Mackenzie Logging truck (available 1992). 141t capacity.
+Adjusted Yonkers Railmotor intro date to 1875 for game balance reasons.
+Added better readme text, for use with in-game readme display feature.
+Fix buy menu display of capacity and costs for trams that refit to different capacities.
+Fix missing log loads for some tram wagons.
+Fix to Winterthur railmotor - using wrong sprite for | direction.
+Fix to colour of headlights for all vehicles.
+Fix incorrect use of text IDs for trams, was causing errors to be reported in recent version of OTTD.
+Fix lighting for Gmund Mog, all trams - was shaded with light from 2 o'clock, should be from approx 5 o'clock.
+Fix log trucks showing unneeded model year in buy menu.
+Changed all pcx files to png, makes no difference in game, but easier to work with.
+
 *version 1.3.0*
 Added Winterthur Railmotor (electric tram, available 1912).  2t capacity.
 Added Port Jack Railmotor (electric tram, available 1926).  9t capacity.
