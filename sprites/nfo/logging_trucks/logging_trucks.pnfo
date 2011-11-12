@@ -1,5 +1,6 @@
  // --------------------------- Logging Trucks --------------------- //
 
+  // Cascade Logging Truck  90t
 #define THIS_VEH_ID           VEH_LOGGING_TRUCK_C10
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../templates/group_availability/rv_availability.tnfo"
@@ -7,7 +8,6 @@
 #define THIS_SMOKE_TYPE 27
 #include "../templates/template_smoke.tnfo"
 
-  // Cascade Logging Truck  90t
  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_C10
     02 20     // reliability
     03 \b40     // vehicle life
@@ -34,12 +34,12 @@
     1F 34 FD 0A 00    // Long format introduction date
  -1 * 27	 04 01 7F 01 VEH_LOGGING_TRUCK_C10 "Cascade C10 Logging Truck" 00
  -1 * 101	 04 01 81 01 STR_EXTRA_INFO_LOGGING_TRUCK_C10 D0 "Hauls: " 8A "One logging trailer" 
-                                0d 98 "Model: " 8A "1972"
                                 0d 98 
                                 00 
 
 #undef THIS_VEH_ID
 
+  // Cascade Logging Truck DOUBLE
 #define THIS_VEH_ID           VEH_LOGGING_TRUCK_C16
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../templates/group_availability/rv_availability.tnfo"
@@ -47,7 +47,6 @@
 #define THIS_SMOKE_TYPE 27
 #include "../templates/template_smoke.tnfo"
 
-  // Cascade Logging Truck DOUBLE
  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_C16
     02 20     // reliability
     03 \b40     // vehicle life
@@ -74,7 +73,6 @@
     1F 34 FD 0A 00    // Long format introduction date
  -1 * 27	 04 01 7F 01 VEH_LOGGING_TRUCK_C16 "Cascade C16 Logging Truck" 00
  -1 * 101	 04 01 81 01 STR_EXTRA_INFO_LOGGING_TRUCK_C16 D0 "Hauls: " 8A "Two logging trailers" 
-                                0d 98 "Model: " 8A "1972"
                                 0d 98 
                                 00 
  -1 * 4	 01 01 02 08
