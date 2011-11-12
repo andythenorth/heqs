@@ -95,7 +95,7 @@
 //#define VACANT                                 A9
 #define VEH_LOGGING_TRUCK_C10                  AA
 #define VEH_LOGGING_TRUCK_C16                  AB
-//#define VACANT                                 AC
+#define VEH_LOGGING_TRUCK_MACKENZIE            AC
 //#define VACANT                                 AD
 //#define VACANT                                 AE
 //#define VACANT                                 AF
@@ -236,6 +236,7 @@
 
 #define STR_EXTRA_INFO_LOGGING_TRUCK_C10                  A0 //D0 text
 #define STR_EXTRA_INFO_LOGGING_TRUCK_C16                  A1 //D0 text
+#define STR_EXTRA_INFO_LOGGING_TRUCK_MACKENZIE            A2 //D0 text
 
 #define STR_EXTRA_INFO_TRACTOR_FOURTRAC                   B0 //D0 text
 #define STR_EXTRA_INFO_TRACTOR_SPEEDYTRAC                 B1 //D0 text
