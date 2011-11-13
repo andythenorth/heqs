@@ -22,7 +22,6 @@
 
 // !! set double capacities for this vehicle due to limitations of cb36 w.r.t cargo weight multipliers 
 #define THIS_CAPACITY         20 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
-#define THIS_CAPACITY_FOR_BUY_MENU  3C // (must be hex for cb result) used to display in buy menu only, match to total capacity for subtype refit
 
 #define THIS_SMOKE_TYPE 3A //actually sparks not smoke
 #include "../templates/template_smoke.tnfo"

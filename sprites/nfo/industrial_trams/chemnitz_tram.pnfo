@@ -11,8 +11,6 @@
 #define THIS_RUNCOST_REFIT_3  5F
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 
-#define THIS_CAPACITY_FOR_BUY_MENU  \b60 // used to display in buy menu only, match to total capacity for subtype refit
-
 #define THIS_SMOKE_TYPE 18 // smoke
 #include "../templates/template_smoke.tnfo"
 

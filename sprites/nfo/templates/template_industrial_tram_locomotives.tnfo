@@ -81,9 +81,8 @@
 // set capacity for buy menu only
  -1 * 18	 02 01 C2
                  81 10 00 FF //
-                 \b2 // range
+                 \b1 // range
                    E1 00  09 09 // set running cost
-                   THIS_CAPACITY_FOR_BUY_MENU 80  0F 0F // set capacity to vehicle capacity
                  B2 00 // default (use a regular action 2 ID for graphics to make cb36 fail for props that shouldn't be changed)
               
 // handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
@@ -122,4 +121,3 @@
 #undef THIS_STR_REFIT_2
 #undef THIS_STR_REFIT_3
 #undef THIS_CAPACITY
-#undef THIS_CAPACITY_FOR_BUY_MENU
