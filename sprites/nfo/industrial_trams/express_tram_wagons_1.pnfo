@@ -31,12 +31,6 @@
     1E 11 00        // non-refittable cargo classes
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_EXPRESS_TRAM_WAGON_1 "[Express Tram Wagon 1]" 00
- -1 * 33	 04 00 FF 01 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_A D0
-            		" (60t in 5 vehicles)" 00	// D000
- -1 * 33	 04 00 FF 01 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_B D0
-               	" (135t in 10 vehicles)" 00	// D001
- -1 * 33	 04 00 FF 01 STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_C D0
-               	" (225t in 16 vehicles)" 00	// D002
 
 // templated action 1s and 2s for middle wagons 
 #define THIS_GRAPHICS_FILE         express_tram_wagons_1.png     // used in action 1 template (must include file extension)
@@ -175,9 +169,9 @@
     -1 * 18	 02 01 D0  // set refit text strings
                  81 F2 00 FF //
                  03 // range
-                   STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_A 80  00 00 
-                   STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_B 80  01 01 
-                   STR_REFIT_VEH_EXPRESS_TRAM_WAGON_1_C 80  02 02 
+                   STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_SUBTYPE_1 80  00 00 
+                   STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_SUBTYPE_2 80  01 01 
+                   STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_SUBTYPE_3 80  02 02 
                  FF 80 // end callback chain
 
   -1 * 18	 02 01 C0  // handle callbacks 

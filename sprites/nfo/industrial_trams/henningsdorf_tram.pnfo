@@ -26,7 +26,7 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
-    0F \b01     // capacity - set > 0 to trigger cb 36 (manipulates capacity for display in buy menu, showing total capacity of consist)
+    0F \b00     // capacity
     10 FF     // cargo type
     11 3F     // cost factor
     12 20     // sound effect

@@ -4,6 +4,8 @@
 #include "sprites/nfo/initialization.pnfo"
 #include "sprites/nfo/ids.pnfo"
 
+#include "sprites/nfo/strings.pnfo"
+
 #include "sprites/nfo/heqs_vehicles.pnfo"
 
 #include "sprites/nfo/crawlers/no_6_crawler.pnfo"

@@ -85,7 +85,7 @@
                    E1 00  09 09 // set running cost
                    THIS_CAPACITY_FOR_BUY_MENU 80  0F 0F // set capacity to vehicle capacity
                  B2 00 // default (use a regular action 2 ID for graphics to make cb36 fail for props that shouldn't be changed)
-//arse              
+              
 // handle callbacks etc - use separate varaction 2s for 'real' vehicles and buy menu - shared cb chain, different graphics IDs 
  -1 * 18	 02 01 C0 // 
                  81 0C 00 FF
@@ -97,8 +97,9 @@
                  B2 00 //default
  -1 * 18	 02 01 C1 // buy menu only
                  81 0C 00 FF
-                 \b2 // range
+                 \b3 // range
                    THIS_BUY_MENU_STR 81  23 23 // text for vehicle window
+                   B0 00  16 16 //go to ID B0 for value 16 (ie. go to the articulated vehicle building instructions)
                    C2 00  36 36 // change vehicle properties 
                  F0 00 //default
                  
