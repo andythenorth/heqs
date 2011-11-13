@@ -1,6 +1,12 @@
 HEQS Heavy Equipment Set Changelog
 ----------------------------------
 
+*version 1.4.1*
+Fix Dynamo tram being unable to load any cargo into first vehicle.
+Fix unwanted extra refits in trams.
+Remove code that showed correct capacity for trams in buy menu, but caused extra refits to appear.
+Unified all cargo subtypes for trams ('short', 'medium', 'long') - helps auto-replace do a better job.
+
 *version 1.4.0*
 Added Dynamo express cargo tram (electric tram, available 2009). 60t-225t capacity.
 Added Mackenzie Logging truck (available 1992). 141t capacity.
