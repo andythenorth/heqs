@@ -2,6 +2,7 @@
 
 #define THIS_LENGTH_ADJUST    04
 #define THIS_CAPACITY         0F // do this in hex - escapes are a hassle here for various reasons
+#define THIS_FAKE_BUY_MENU_CAPACITY 2D // do this in hex - escapes are a hassle here for various reasons 
 #define THIS_GRAPHICS_FILE         industrial_tram_wagons_2.png     // used in action 1 template (must include file extension)
    
 #define THIS_OFFS_X_Y_1   -3 -12
@@ -133,20 +134,35 @@
                    STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_SUBTYPE_3 80  02 02 
                  FF 80 // end callback chain
 
+
+// set capacity for buy menu only.  Capacity is faked to match that of ((trailing consist capacity for cargo subtype 1) - (lead vehicle capacity))
+  -1 * 18	 02 01 C2  // handle refit - check property type cb requires
+                 81 10 00 FF //
+                 \b01 // range
+                   THIS_FAKE_BUY_MENU_CAPACITY 80  0F 0F // set capacity to vehicle capacity
+                 00 80 // default
+
+
 // handle callbacks etc
-  -1 * 18	 02 01 C0  // handle callbacks
+  -1 * 18	 02 01 C0
                  81 0C 00 FF //
                  02 // range
                    E0 00  36 36 // change vehicle properties
                    D0 00  19 19 // text suffix CB 
                  A0 00 // graphics  
+ -1 * 18	 02 01 C1 // buy menu only
+                 81 0C 00 FF
+                 \b1 // range
+                   C2 00  36 36 // change vehicle properties
+                 A0 00 // graphics
                  
  -1 * 7	 03 01 01 VEH_INDUSTRIAL_TRAM_WAGON_2 // Action 3
     01 // Number of cargo types
-      FF  00 00 // buy menu
+      FF  C1 00 // buy menu
 	  C0 00 // default
 	  
 #undef THIS_CAPACITY
+#undef THIS_FAKE_BUY_MENU_CAPACITY
 #undef THIS_LENGTH_ADJUST 
 
  
