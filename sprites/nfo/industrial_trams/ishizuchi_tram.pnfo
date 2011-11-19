@@ -27,7 +27,7 @@
     0E FF     // sprite ID
     0F \b00     // capacity
     10 FF     // cargo type
-    11 34     // cost factor
+    11 44     // cost factor
     12 20     // sound effect
     13 \b102  // power in 10 hp
     14 \b248  // weight in 1/4 tons
