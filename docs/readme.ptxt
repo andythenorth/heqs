@@ -3,66 +3,61 @@ Heavy Equipment Set (HEQS)
 I like big trucks and thought it would be nice to have some for OpenTTD, so I created HEQS.  
 The set includes trucks, tractors, trams, rail vehicles and more.
 
-Featuring good-looking vehicles in a wide range of sizes, HEQS is compatible with industry sets including default industries, FIRS, PBI and ECS.  
-HEQS is a good add-on to vehicle sets like eGRVTS, OpenGFX+ RVs, or the default vehicles.
+Featuring good-looking vehicles in a wide range of sizes, HEQS is a good add-on to vehicle sets like eGRVTS, OpenGFX+ RVs, or the default vehicles.  HEQS should work well with most cargo / industry newgrfs, including default industries, FIRS and PBI.
 
---------------------------
+HEQS vehicles first become available around 1870.
 
-Changes in version 1.4.1
-Fix Dynamo tram being unable to load any cargo into first vehicle.
-Fix unwanted extra refits in trams.
-Remove code that tried to show correct capacity for trams in buy menu, but caused extra refits to appear.
-Unified all cargo subtypes for trams ('short', 'medium', 'long') - helps auto-replace do a better job.
+----------
+Using HEQS
+----------
 
-Changes in version 1.4.0
-Added Dynamo express cargo tram (electric tram, available 2009). 60t-225t capacity.
-Added Mackenzie Logging truck (available 1992). 141t capacity.
-Adjusted Yonkers Railmotor intro date to 1875 for game balance reasons.
-Added better readme text, for use with in-game readme display feature.
-Fix buy menu display of capacity and costs for trams that refit to different capacities.
-Fix missing log loads for some tram wagons.
-Fix to Winterthur railmotor - using wrong sprite for | direction.
-Fix to colour of headlights for all vehicles.
-Fix incorrect use of text IDs for trams, was causing errors to be reported in recent version of OTTD.
-Fix lighting for Gmund Mog, all trams - was shaded with light from 2 o'clock, should be from approx 5 o'clock.
-Fix log trucks showing unneeded model year in buy menu.
-Changed all pcx files to png, makes no difference in game, but easier to work with.
+HEQS requires OpenTTD v1.0 or above.  It will not work with TTDPatch, or OpenTTD prior to v1.0.
+Required: use *Enable multiple NewGRF engine sets* option in *Advanced Settings*.
 
---------------------------
-
-Requirements
-OpenTTD 1.0 or newer.  Or a nightly build from spring 2010 or newer.
-Required: use *Enable multiple NewGRF engine sets* option in *Advanced Settings*. 
-
-Climate Support
-All vehicles from the set are available in the temperate, arctic, tropic and toyland climates.  
-
-Parameters for Running Costs and Purchase Costs
-The default running and purchase costs for HEQS are intended to balance against the FISH ship set, eGRVTS road vehicle set, and UKRS 2 train set.  
+HEQS vehicles are available in all the climates.
 
 Running costs and purchase costs can be adjusted with parameters. 
-running costs are parameter 1
-purchase costs are parameter 2
-Value 9 = normal (default).  Values below 9 reduce costs progressively (min value is 0).  
-Values above 9 increase costs progressively (max value is 18).
+- running costs are parameter 1
+- purchase costs are parameter 2
+- Value 9 = normal (default).  Values below 9 reduce costs progressively (min value is 0).  
+- Values above 9 increase costs progressively (max value is 18).
 
-Copyright / Licensing / Contact
-All graphics and code (c) 2011 The Heavy Equipment Set Team
-HEQS is licensed under the GPL v2 or later.  http://www.gnu.org/copyleft/gpl.html
-Source available at http://dev.openttdcoop.org/projects/heqs
+For latest information / releases, visit TT-Forums.
+Release thread: 
+	http://www.tt-forums.net/viewtopic.php?f=67&t=37912
+Development thread:
+	http://www.tt-forums.net/viewtopic.php?f=26&t=47033
+
+---------
+Authors
+---------
+
+Brought to you by andythenorth, with help from many, including Dan MacK, Dalestan, PikkaBird, Eddi, Frosch, Planetmaker, Yexo, and Zephyris.
+Makefile/build system: Ingo von Borstel (aka planetmaker)
+
+Special thanks to #openttdcoop and especially Ammler who provides and works a lot on maintaining the Development Zone where this project is hosted and who also frequently gives much valuable input.
+
+Special thanks to anyone I've forgotten :o
+
 Contact me via the forums at http://tt-forums.net - username andythenorth
-Forum thread for the set: http://www.tt-forums.net/viewtopic.php?f=36&t=37912&start=0
 
-Brought to you by andythenorth, with help from many, including Ammler, Dan MacK, Dalestan, PikkaBird, Eddi, Frosch, Planetmaker, and Zephyris.
+---------
+License
+---------
 
-Disclaimer
+HEQS is authored by andythenorth, the makefile by Ingo von Borstel (aka planetmaker) and released under the GNU General Public license v2 or later. See license.txt.
+
 No warranty is provided.  Without limitation, the creators of the set cannot be held responsible for any consequences arising from download or use of the set or accompanying files.
 Not suitable for use in ways that violate good taste. 
 Heavy pixels may fall and cause injury. 
 Do not lick pixels!
 
+The source code can be obtained from the #openttdcoop DevZone at 
+	http://dev.openttdcoop.org/projects/heqs 
+or via mercurial checkout
+	hg clone http://dev.openttdcoop.org/projects/heqs
 
-
+For integrity check:
 Name of this GRF:   {{GRF_TITLE}}
 GRF_ID:             {{GRF_ID}}
 MD5 sum:            {{GRF_MD5}}
