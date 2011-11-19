@@ -10,20 +10,22 @@
 #define THIS_RUNCOST_REFIT_2  3F
 #define THIS_RUNCOST_REFIT_3  5F
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
+#include "../templates/group_availability/rv_availability.tnfo"
+
+#define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
 
 #define THIS_SMOKE_TYPE 18 // smoke
 #include "../templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b24 01 VEH_INDUSTRIAL_TRAM_STEAM_2
+ -1 * 67	 00 01 \b23 01 VEH_INDUSTRIAL_TRAM_STEAM_2
     02 20     // reliability 
     03 \b35   // vehicle life 
     04 \b150  // class life 
-    06 0F     // climate 
     07 00     // load amount 
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
-    0F 01     // capacity
+    0F \b00     // capacity
     10 FF     // cargo type
     11 1A     // cost factor
     12 20     // sound effect
