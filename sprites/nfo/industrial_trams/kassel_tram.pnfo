@@ -34,7 +34,7 @@
     15 \b12   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 12     // Callback flags bit mask
-    18 5A     // coefficient of TE
+    18 50     // coefficient of TE
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
