@@ -1,9 +1,9 @@
 // Kassel Industrial Tram (Steam)
 
 #define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_STEAM_3
-#define THIS_LENGTH_ADJUST    05
-#define THIS_LENGTH_ADJUST_1  07
-#define THIS_LENGTH_ADJUST_2  05
+#define THIS_LENGTH_ADJUST    04
+#define THIS_LENGTH_ADJUST_1  06
+#define THIS_LENGTH_ADJUST_2  04
 #define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_1
 #define THIS_BUY_MENU_STR     STR_INFO_VEH_INDUSTRIAL_TRAM_STEAM_1
 #define THIS_RUNCOST_REFIT_1  23 //don't escape, used in cb results which have problems with escaped bytes
@@ -39,22 +39,22 @@
  -1 * 4	 01 01 02 08
   // Steam Locomotive Type 3 version A
  -1 sprites/graphics/industrial_tram_locomotives.png    0 200  01  18  8   -3 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 200  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 200  09  16 20  -15  -5
  -1 sprites/graphics/industrial_tram_locomotives.png   48 200  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 200  09  16 20   -5  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 200  09  16 20   -6  -5
  -1 sprites/graphics/industrial_tram_locomotives.png  128 200  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png  144 200  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  144 200  09  16 20  -13  -6
  -1 sprites/graphics/industrial_tram_locomotives.png  176 200  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  224 200  09  16 20   -4  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  224 200  09  16 20   -6  -6
   // Steam Locomotive Type 3 version B
  -1 sprites/graphics/industrial_tram_locomotives.png    0 220  01  18  8   -3 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 220  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 220  09  16 20  -15  -5
  -1 sprites/graphics/industrial_tram_locomotives.png   48 220  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 220  09  16 20   -5  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 220  09  16 20   -6  -5
  -1 sprites/graphics/industrial_tram_locomotives.png  128 220  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png  144 220  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  144 220  09  16 20  -13  -6
  -1 sprites/graphics/industrial_tram_locomotives.png  176 220  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  224 220  09  16 20   -4  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  224 220  09  16 20   -6  -6
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
