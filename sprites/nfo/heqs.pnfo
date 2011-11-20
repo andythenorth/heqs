@@ -56,4 +56,5 @@
 #include "sprites/nfo/industrial_trams/winterthur_railmotor_tram.pnfo"
 #include "sprites/nfo/industrial_trams/port_jack_railmotor_tram.pnfo"
 
-//#include "sprites/nfo/template_tester.pnfo"
+// set buy menu order - include this after all vehicles are defined
+#include "sprites/nfo/set_buy_menu_order.pnfo"
