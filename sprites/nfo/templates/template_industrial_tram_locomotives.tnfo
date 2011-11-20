@@ -14,7 +14,6 @@
                    A1 00  \b00 \b86
                  A2 00 
  
-// handle articulated vehicle construction
  -1 * 22	 02 01 B0 //
                  81 10 00 FF // Articulated vehicle building instructions
                  \b1 // range
@@ -22,13 +21,13 @@
                  FF FF //otherwise end the callback chain
 
 #ifndef THIS_STR_REFIT_1
-#define THIS_STR_REFIT_1 FF
+  #define THIS_STR_REFIT_1 FF
 #endif
 #ifndef THIS_STR_REFIT_2
-#define THIS_STR_REFIT_2 FF
+  #define THIS_STR_REFIT_2 FF
 #endif
 #ifndef THIS_STR_REFIT_3
-#define THIS_STR_REFIT_3 FF
+  #define THIS_STR_REFIT_3 FF
 #endif
 // text strings
     -1 * 18	 02 01 D0  // set refit text strings (only used if cb enabled)

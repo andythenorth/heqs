@@ -1,14 +1,14 @@
 // Chemnitz Industrial Tram
 
-#define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_STEAM_2
-#define THIS_LENGTH_ADJUST    05
-#define THIS_LENGTH_ADJUST_1  07
-#define THIS_LENGTH_ADJUST_2  05
+#define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_STEAM_STEAM_4
+#define THIS_LENGTH_ADJUST    02
+#define THIS_LENGTH_ADJUST_1  05
+#define THIS_LENGTH_ADJUST_2  02
 #define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_1
 #define THIS_BUY_MENU_STR     STR_INFO_VEH_INDUSTRIAL_TRAM_STEAM_1
-#define THIS_RUNCOST_REFIT_1  1F //don't escape, used in cb results which have problems with escaped bytes
-#define THIS_RUNCOST_REFIT_2  3F
-#define THIS_RUNCOST_REFIT_3  5F
+#define THIS_RUNCOST_REFIT_1  30 //don't escape, used in cb results which have problems with escaped bytes
+#define THIS_RUNCOST_REFIT_2  59
+#define THIS_RUNCOST_REFIT_3  90
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../templates/group_availability/rv_availability.tnfo"
 
@@ -17,8 +17,8 @@
 #define THIS_SMOKE_TYPE 18 // smoke
 #include "../templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b23 01 VEH_INDUSTRIAL_TRAM_STEAM_2
-    02 20     // reliability 
+ -1 * 67	 00 01 \b23 01 VEH_INDUSTRIAL_TRAM_STEAM_STEAM_4
+    02 2F     // reliability 
     03 \b35   // vehicle life 
     04 \b150  // class life 
     07 00     // load amount 
@@ -29,8 +29,8 @@
     10 FF     // cargo type
     11 1B     // cost factor
     12 20     // sound effect
-    13 \b10   // power in 10 hp
-    14 \b80   // weight in 1/4 tons
+    13 \b28   // power in 10 hp
+    14 \b136  // weight in 1/4 tons
     15 \b12   // speed in mph * 0.8
     16 00 00 00 00     // Bit mask of cargo types available for refitting
     17 12     // Callback flags bit mask
@@ -40,28 +40,28 @@
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03       // Refittable cargo classes
     1E 01 00       // Non-refittable cargo classes
-    1F \d01-01-1880    // Long format introduction date  
- -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_STEAM_2 "0-6-0 Chemnitz Industrial Tram (Steam)" 00
+    1F \d01-01-1885    // Long format introduction date  
+ -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_STEAM_STEAM_4 "0-6-6-0 Afonside Industrial Tram (Steam)" 00
 // extra info text shared with 0-4-0 steam tram
 -1 * 4	 01 01 02 08
   // Steam Locomotive Type 2 version A
- -1 sprites/graphics/industrial_tram_locomotives.png    0 160  01  18  8   -3 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 160  09  16 20  -14  -5
- -1 sprites/graphics/industrial_tram_locomotives.png   48 160  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 160  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png  128 160  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png  144 160  09  16 20  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  176 160  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  224 160  09  16 20   -4  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 360  01  18  8   -3 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 360  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 360  01  12 28  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 360  09  16 20   -5  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 360  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 360  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 360  01  12 28  -13  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 360  09  16 20   -4  -6
   // Steam Locomotive Type 2 version B
- -1 sprites/graphics/industrial_tram_locomotives.png    0 180  01  18  8   -3 -12
- -1 sprites/graphics/industrial_tram_locomotives.png   16 180  09  16 20  -14  -5
- -1 sprites/graphics/industrial_tram_locomotives.png   48 180  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png   96 180  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png  128 180  01  18  8   -4 -12
- -1 sprites/graphics/industrial_tram_locomotives.png  144 180  09  16 20  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  176 180  01  12 28  -14  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  224 180  09  16 20   -4  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 380  01  18  8   -3 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 380  09  16 20  -14  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 380  01  12 28  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 380  09  16 20   -5  -5
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 380  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png   16 380  09  16 20  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   48 380  01  12 28  -13  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  96 380  09  16 20   -4  -6
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
@@ -75,11 +75,11 @@
  -1 * 4	 01 01 02 04 // buy menu sprites
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/graphics/industrial_tram_locomotives.png  256 160  01  12 36  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  256 360  01  12 36  -14  -6
  -1 * 1	 00
  -1 * 1	 00
  -1 * 1	 00
- -1 sprites/graphics/industrial_tram_locomotives.png  256 180  01  12 36  -14  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png  256 380  01  12 36  -14  -6
  -1 * 1	 00
  -1 * 9	 02 01 F1 // action2 buy menu sprites 
       01 // number loading states
