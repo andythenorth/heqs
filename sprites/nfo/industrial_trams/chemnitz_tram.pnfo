@@ -23,7 +23,7 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     11 1B     // cost factor
-    12 20     // sound effect
+    12 02     // sound effect
     13 \b10   // power in 10 hp
     14 \b80   // weight in 1/4 tons
     15 \b12   // speed in mph * 0.8

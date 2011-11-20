@@ -23,7 +23,7 @@
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     11 1B     // cost factor
-    12 20     // sound effect
+    12 02     // sound effect
     13 \b28   // power in 10 hp
     14 \b136  // weight in 1/4 tons
     15 \b12   // speed in mph * 0.8
@@ -49,7 +49,7 @@
  -1 sprites/graphics/industrial_tram_locomotives.png    0 380  01  18  8   -4 -12
  -1 sprites/graphics/industrial_tram_locomotives.png   16 380  09  16 20  -14  -6
  -1 sprites/graphics/industrial_tram_locomotives.png   48 380  01  12 28  -13  -6
- -1 sprites/graphics/industrial_tram_locomotives.png  96 380  09  16 20   -4  -6
+ -1 sprites/graphics/industrial_tram_locomotives.png   96 380  09  16 20   -4  -6
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
       01 // number loading states
       01 // number loaded states
