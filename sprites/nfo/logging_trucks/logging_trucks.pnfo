@@ -3,10 +3,10 @@
   // Cascade Logging Truck  90t
 #define THIS_VEH_ID           VEH_LOGGING_TRUCK_C10
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_SMOKE_TYPE 27
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_C10
     02 20     // reliability
@@ -42,10 +42,10 @@
   // Cascade Logging Truck DOUBLE
 #define THIS_VEH_ID           VEH_LOGGING_TRUCK_C16
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_SMOKE_TYPE 27
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_C16
     02 20     // reliability
@@ -81,10 +81,10 @@
   // Mackenzie Logging Truck DOUBLE
 #define THIS_VEH_ID           VEH_LOGGING_TRUCK_MACKENZIE
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_SMOKE_TYPE 27
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_MACKENZIE
     02 20     // reliability

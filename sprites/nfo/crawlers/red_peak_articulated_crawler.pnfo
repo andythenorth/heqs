@@ -2,10 +2,10 @@
 
 #define THIS_VEH_ID           VEH_CRAWLER_RED_PEAK_1
 #define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_SMOKE_TYPE 28
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
  // Articulated Crawler First Part
 -1 * 69	 00 01 \b23 01 VEH_CRAWLER_RED_PEAK_1

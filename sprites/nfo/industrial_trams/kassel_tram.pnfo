@@ -10,12 +10,12 @@
 #define THIS_RUNCOST_REFIT_2  2F
 #define THIS_RUNCOST_REFIT_3  3B
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
 
 #define THIS_SMOKE_TYPE 18 // smoke
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
  -1 * 67	 00 01 \b23 01 VEH_INDUSTRIAL_TRAM_STEAM_3
     02 20     // reliability 
@@ -38,8 +38,8 @@
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D FF 03       // Refittable cargo classes
-    1E 01 00       // Non-refittable cargo classes
+    1D FF FF       // Refittable cargo classes
+    1E 00 00       // Non-refittable cargo classes
     1F \d01-01-1898    // Long format introduction date  
  -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_STEAM_3 "0-8-0 Kassel Industrial Tram (Steam)" 00
  -1 * 87	 04 01 81 01 STR_INFO_VEH_INDUSTRIAL_TRAM_STEAM_3 D1 "Can be refitted to haul:\8A"
@@ -97,4 +97,4 @@
       01 00 // loading sprites
       01 00 // loaded sprites
 
- #include "../templates/template_industrial_tram_locomotives.tnfo"
+ #include "template_industrial_tram_locomotives.tnfo"

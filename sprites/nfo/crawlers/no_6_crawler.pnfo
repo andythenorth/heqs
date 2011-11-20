@@ -26,10 +26,10 @@
            
 #define THIS_VEH_ID           VEH_CRAWLER_NO_6_GENERAL_PURPOSE
 #define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_SMOKE_TYPE 27
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
   // No. 6	Crawler Tractor (General Purpose)
 -1 * 67	 00 01 \b23 01 VEH_CRAWLER_NO_6_GENERAL_PURPOSE
@@ -260,10 +260,10 @@
 
 #define THIS_VEH_ID           VEH_CRAWLER_NO_6_LOGGING_MINING
 #define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_SMOKE_TYPE 27
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
   // No. 6 Crawler Tractor (Mining / Logging)
 -1 * 67	 00 01 \b23 01 VEH_CRAWLER_NO_6_LOGGING_MINING 

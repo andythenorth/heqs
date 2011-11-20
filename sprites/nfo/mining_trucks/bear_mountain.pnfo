@@ -1,9 +1,9 @@
 #define THIS_VEH_ID           VEH_MINING_TRUCK_BEAR_MOUNTAIN
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_SMOKE_TYPE 28
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
 // Bear Mountain Mining Truck 120t		1980-2050	35mph
 -1 * 67	 00 01 \b23 01 VEH_MINING_TRUCK_BEAR_MOUNTAIN 

@@ -10,12 +10,12 @@
 #define THIS_RUNCOST_REFIT_2  3F
 #define THIS_RUNCOST_REFIT_3  5F
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
 
 #define THIS_SMOKE_TYPE 18 // smoke
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
  -1 * 67	 00 01 \b23 01 VEH_INDUSTRIAL_TRAM_STEAM_2
     02 20     // reliability 
@@ -92,4 +92,4 @@
       01 00 // loading sprites
       01 00 // loaded sprites
 
- #include "../templates/template_industrial_tram_locomotives.tnfo"
+ #include "template_industrial_tram_locomotives.tnfo"

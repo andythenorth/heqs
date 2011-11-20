@@ -55,55 +55,55 @@
 -1 * 4	 01 01 \b13 08
  // empty
  #define THIS_Y_POS  50
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // iron ore partial
  #define THIS_Y_POS  490
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
    
  // iron ore full
  #define THIS_Y_POS  530
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // coal partial
  #define THIS_Y_POS  170
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
  
  // coal full
  #define THIS_Y_POS  210
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
  
  // sand partial
  #define THIS_Y_POS  250
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // sand full
  #define THIS_Y_POS  290
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"   
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"   
 
  // brown partial
  #define THIS_Y_POS  290
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // brown full
  #define THIS_Y_POS  330
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // red partial
  #define THIS_Y_POS  330
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // red full
  #define THIS_Y_POS  370
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // grey partial
  #define THIS_Y_POS  90
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // grey full
  #define THIS_Y_POS  130
- #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+ #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // Action 2 ID schema: 0 / 1 = rear wheels only, 2 / 3 = with front wheels  
 -1 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore

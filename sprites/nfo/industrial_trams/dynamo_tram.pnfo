@@ -14,7 +14,7 @@
 #define THIS_POWER_REFIT_1    55
 #define THIS_POWER_REFIT_2    AA
 #define THIS_POWER_REFIT_3    FF
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_STR_REFIT_1 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_SUBTYPE_1
 #define THIS_STR_REFIT_2 STR_REFIT_VEH_INDUSTRIAL_TRAM_WAGON_SUBTYPE_2
@@ -24,7 +24,7 @@
 #define THIS_CAPACITY         10 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
 
 #define THIS_SMOKE_TYPE 3A //actually sparks not smoke
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
  -1 * 67	 00 01 \b23 01 VEH_EXPRESS_TRAM_ELECTRIC_1
     02 20     // reliability 
@@ -82,7 +82,7 @@
 
 // rear cab car
 #define THIS_Y_POS  0
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../common_templates/template_standard_rv_real_sprites_1.tnfo"
 
 // (template expects two action 2 sets here as some vehicles change over time)
  -1 * 9	 02 01 A1 // action2 defining graphics with no loading/loaded stages 
@@ -111,7 +111,7 @@
       00 00 // loading sprites
       00 00 // loaded sprites
                  
- #include "../templates/template_industrial_tram_locomotives.tnfo"
+ #include "template_industrial_tram_locomotives.tnfo"
 
 #undef THIS_VARIABLE_POWER
 #undef THIS_POWER_REFIT_1

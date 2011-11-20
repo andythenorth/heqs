@@ -1,7 +1,7 @@
 #define THIS_GRAPHICS_FILE         1960s_dump_truck_2_axle.png     // used in action 1 template (must include file extension)
 #define THIS_VEH_ID           VEH_MINING_TRUCK_MT_MCKINLEY  // used in action 1/2/3 template
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_Y_X_CROP_1  24  12
 #define THIS_Y_X_CROP_2  20  26
@@ -22,7 +22,7 @@
 #define THIS_OFFS_X_Y_8  -10   -8
 
 #define THIS_SMOKE_TYPE 26
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
  // Mt. McKinley Dump Truck  30t		1954-1972	35mph
 -1 * 67	 00 01 \b22 01 VEH_MINING_TRUCK_MT_MCKINLEY
@@ -51,4 +51,4 @@
     1F 93 E4 0A 00    // Long format introduction date
 -1 * 29	 04 01 7F 01 VEH_MINING_TRUCK_MT_MCKINLEY "Mt. McKinley Dump Truck" 00
 
-#include "../templates/template_mining_trucks_action1_2_3.tnfo"
+#include "template_mining_trucks_action1_2_3.tnfo"

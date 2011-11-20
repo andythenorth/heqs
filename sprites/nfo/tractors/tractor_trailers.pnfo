@@ -55,48 +55,48 @@
    -1 * 4	 01 01 01 08
    // Medium box trailer
    #define THIS_Y_POS  570
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
    -1 * 9	 02 01 05   01 01   00 00    00 00 // box
    // Medium end dump trailer - empty
    -1 * 4	 01 01 0D 08
    #define THIS_Y_POS  50
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
    // Medium end dump - iron ore, loading  !! this isn't iron ore??
    #define THIS_Y_POS  490
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
    // Medium end dump - iron ore, loaded  !! this isn't iron ore??
    #define THIS_Y_POS  530
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
    // Medium end dump - coal, loading
    #define THIS_Y_POS  170
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
    // Medium end dump - coal, loaded
    #define THIS_Y_POS  210
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
    // Medium end dump - grain, loading
    #define THIS_Y_POS  250
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium end dump - grain, loaded
    #define THIS_Y_POS  290
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium end dump - clay, loading
    #define THIS_Y_POS  410
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium end dump - clay, loaded
    #define THIS_Y_POS  450
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium end dump - copper ore, loading
    #define THIS_Y_POS  330
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium end dump - copper ore, loaded
    #define THIS_Y_POS  370
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium end dump - gravel, loading
    #define THIS_Y_POS  90
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium end dump - gravel, loaded
    #define THIS_Y_POS  130
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   -1 * 17	 02 01 08  03 03    00 00  01 00  02 00    00 00  01 00  02 00 // iron ore
   -1 * 17	 02 01 01  03 03    00 00  03 00  04 00    00 00  03 00  04 00 // coal
   -1 * 17	 02 01 06  03 03    00 00  05 00  06 00    00 00  05 00  06 00 // grain
@@ -107,40 +107,40 @@
   -1 * 4	 01 01 0C 08
   // Medium flat trailer - empty
    #define THIS_Y_POS  730
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium flat trailer - steel, loading  
    #define THIS_Y_POS  970
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium flat trailer - steel, loaded  
    #define THIS_Y_POS  970
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium flat trailer - paper, loading  
    #define THIS_Y_POS  1130
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium flat trailer - paper, loaded  
    #define THIS_Y_POS  1130
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium stake trailer - empty
    #define THIS_Y_POS  610
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium stake trailer - Wood, loading  
    #define THIS_Y_POS  650
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   // Medium stake trailer - Wood, loaded  
    #define THIS_Y_POS  690
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
  // Medium flat trailer - livestock, loading  
    #define THIS_Y_POS  810
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
  // Medium flat trailer - livestock, loaded
    #define THIS_Y_POS  810
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
  // Medium flat trailer - copper, loading  
    #define THIS_Y_POS  10
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
  // Medium flat trailer - copper, loaded  
    #define THIS_Y_POS  10
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   -1 * 17	 02 01 09  03 03   00 00  01 00  02 00    00 00  01 00  02 00
   -1 * 17	 02 01 0B  03 03   00 00  03 00  04 00    00 00  03 00  04 00
   -1 * 17	 02 01 07  03 03   05 00  06 00  07 00    05 00  06 00  07 00
@@ -150,7 +150,7 @@
   // Medium tank trailer
   -1 * 4	 01 01 01 08
    #define THIS_Y_POS  10
-   #include "../templates/template_standard_rv_real_sprites_2.tnfo"
+   #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
   -1 * 9	 02 01 03   01 01    00 00    00 00
   // Var action 2 ID schema: B = bulk, C = Covered, F = Flat
   -1 * 18	 02 01 AC  // text suffixes

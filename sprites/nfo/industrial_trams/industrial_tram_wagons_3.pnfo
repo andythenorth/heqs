@@ -43,7 +43,7 @@
     1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_3 "[Tram Wagon 3]" 00
 
-#include "../templates/template_industrial_tram_wagons_action1_2.tnfo"
+#include "template_industrial_tram_wagons_action1_2.tnfo"
   
   -1 * 14	 02 01 B2  // subtype 3 (15 wagons) - choose sprites according to position in consist 
                  81 40 00 FF // var 40 in format 00nnbbff where I want ff; results begin at 0 (lead vehicle)

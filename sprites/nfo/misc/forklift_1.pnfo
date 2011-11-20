@@ -21,12 +21,12 @@
 #define THIS_GRAPHICS_FILE         forklift_1.png     // used in action 1 template (must include file extension)
 #define THIS_VEH_ID           VEH_FORKLIFT_1
 #define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
-#include "../templates/standard_crops_offsets_1/3-8.tnfo"
+#include "../common_templates/standard_crops_offsets_1/3-8.tnfo"
 
 #define THIS_SMOKE_TYPE 27
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
  // road version
  -1 * 67	 00 01 \b22 01 VEH_FORKLIFT_1 
@@ -54,17 +54,17 @@
     1F  \d01-03-1936    // Long format introduction date
 
 #define THIS_SMOKE_TYPE 27
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
 // real sprites
  -1 * 4	 01 01 02 08      // Action 1 | RV | 1 sprite set | 8 members 
 // 1st company colour empty
 #define THIS_Y_POS  0
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../common_templates/template_standard_rv_real_sprites_1.tnfo"
 
 // 1st company colour loaded
 #define THIS_Y_POS  25
-#include "../templates/template_standard_rv_real_sprites_1.tnfo"
+#include "../common_templates/template_standard_rv_real_sprites_1.tnfo"
 
  -1 * 9	 02 01 A0
       02 // number loading states

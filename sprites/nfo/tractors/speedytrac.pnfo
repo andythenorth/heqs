@@ -1,9 +1,9 @@
 #define THIS_VEH_ID           VEH_TRACTOR_SPEEDYTRAC
 #define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_SMOKE_TYPE 27
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
 // Speedytrac	Wheeled Tractor (high speed)	34t		1990-2020	50mph
  -1 * 16	 04 01 7F 01 VEH_TRACTOR_SPEEDYTRAC "Speedytrac" 00

@@ -1,9 +1,9 @@
 #define THIS_VEH_ID           VEH_TRACTOR_FOURTRAC
 #define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
-#include "../templates/group_availability/rv_availability.tnfo"
+#include "../common_templates/group_availability/rv_availability.tnfo"
 
 #define THIS_SMOKE_TYPE 27
-#include "../templates/template_smoke.tnfo"
+#include "../common_templates/template_smoke.tnfo"
 
 // Fourtrac	Wheeled Tractor (high speed)
 -1 * 67	 00 01 \b22 01 VEH_TRACTOR_FOURTRAC 
