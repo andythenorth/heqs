@@ -24,7 +24,7 @@
     1F  \d01-03-1875    // Long format introduction date
 
 -1 * 4	 01 01 02 08
-  // Steam Locomotive Type 2 version A
+  // Locomotive version A
  -1 sprites/graphics/industrial_tram_locomotives.png    0 240  01  18  8   -3 -12
  -1 sprites/graphics/industrial_tram_locomotives.png   16 240  09  16 20  -14  -5
  -1 sprites/graphics/industrial_tram_locomotives.png   48 240  01  12 28  -14  -6
@@ -33,7 +33,7 @@
  -1 sprites/graphics/industrial_tram_locomotives.png  144 240  09  16 20  -14  -6
  -1 sprites/graphics/industrial_tram_locomotives.png  176 240  01  12 28  -14  -6
  -1 sprites/graphics/industrial_tram_locomotives.png  224 240  09  16 20   -4  -6
-  // Steam Locomotive Type 2 version B
+  // Locomotive version B
  -1 sprites/graphics/industrial_tram_locomotives.png    0 260  01  18  8   -3 -12
  -1 sprites/graphics/industrial_tram_locomotives.png   16 260  09  16 20  -14  -5
  -1 sprites/graphics/industrial_tram_locomotives.png   48 260  01  12 28  -14  -6
