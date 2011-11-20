@@ -11,35 +11,23 @@
 #define THIS_RUNCOST_REFIT_3  5A
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../common_templates/group_availability/rv_availability.tnfo"
-
 #define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
-
 #define THIS_SMOKE_TYPE 18 // smoke
-#include "../common_templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b23 01 VEH_INDUSTRIAL_TRAM_STEAM_1
+#include "template_industrial_tram_locomotives_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
+
+ -1 * 67	 00 01 \b12 01 VEH_INDUSTRIAL_TRAM_STEAM_1
     02 20     // reliability 
     03 \b23   // vehicle life 
     04 \b120  // class life 
-    07 00     // load amount 
     09 16     // running cost 
     0A 48 4C 00 00        // running cost base 
-    0E FF     // sprite ID
-    0F \b00   // capacity
-    10 FF     // cargo type
     11 12     // cost factor
     12 02     // sound effect
     13 \b6    // power in 10 hp
     14 \b44   // weight in 1/4 tons
     15 \b12   // speed in mph * 0.8
-    16 00 00 00 00     // Bit mask of cargo types available for refitting
-    17 12     // Callback flags bit mask
     18 50     // coefficient of TE
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D FF 03       // Refittable cargo classes
-    1E 01 00       // Non-refittable cargo classes
     1F \d683000    // Long format introduction date  
  -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_STEAM_1 "0-4-0 Dorstfeld Industrial Tram (Steam)" 00
  // extra info text shared with other steam trams

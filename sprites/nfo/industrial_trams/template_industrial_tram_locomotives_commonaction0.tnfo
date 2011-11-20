@@ -1,0 +1,17 @@
+// template for properties common to most tram locomotives that haul trailing vehicles and have no capacity of their own
+// not used for railmotors etc. (e.g. single units, and articulated locomotives wth cargo capacity) 
+
+
+#include "../common_templates/template_smoke.tnfo"
+
+ -1 * 67	 00 01 \b10 01 THIS_VEH_ID
+    0E FF     // sprite ID
+    0F \b00   // capacity
+    10 FF     // cargo type
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    17 12     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D FF 03       // Refittable cargo classes
+    1E 01 00       // Non-refittable cargo classes
