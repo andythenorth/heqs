@@ -18,7 +18,7 @@
 
  -1 * 67	 00 01 \b12 01 VEH_INDUSTRIAL_TRAM_STEAM_STEAM_4
     02 2F     // reliability 
-    03 \b35   // vehicle life 
+    03 \b25   // vehicle life 
     04 \b150  // class life 
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
