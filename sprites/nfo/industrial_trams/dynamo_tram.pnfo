@@ -44,7 +44,7 @@
     16 98 02 24 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E value: excludes oil, livestock, metal petrol, scrap metal
     17 32     // Callback flags bit mask
-    18 5A     // coefficient of TE
+    18 7A     // coefficient of TE - Dynamo tram powered on all axles of all vehicles so increase TE on lead vehicle to fake this
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
