@@ -1,4 +1,4 @@
-// Chemnitz Industrial Tram
+// Afonside Industrial Tram (Steam)
 
 #define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_STEAM_STEAM_4
 #define THIS_LENGTH_ADJUST    02
@@ -12,7 +12,7 @@
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../common_templates/group_availability/rv_availability.tnfo"
 #define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
-#define THIS_SMOKE_TYPE 18 // smoke
+#define THIS_SMOKE_TYPE       18 // smoke
 
 #include "template_industrial_tram_locomotives_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
 

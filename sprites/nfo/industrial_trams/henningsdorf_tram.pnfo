@@ -12,7 +12,7 @@
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../common_templates/group_availability/rv_availability.tnfo"
 #define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
-#define THIS_SMOKE_TYPE 38 //actually sparks not smoke
+#define THIS_SMOKE_TYPE       38 //actually sparks not smoke
 
 #include "template_industrial_tram_locomotives_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
 
