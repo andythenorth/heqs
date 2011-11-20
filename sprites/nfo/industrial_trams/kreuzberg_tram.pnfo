@@ -55,7 +55,7 @@
  -1 sprites/graphics/industrial_tram_locomotives.png   16 0  09  16 20  -14  -5
  -1 sprites/graphics/industrial_tram_locomotives.png   48 0  01  12 28  -13  -6
  -1 sprites/graphics/industrial_tram_locomotives.png   96 0  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png    0 0  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 0  01  18  8   -4 -12  // reuses sprite
  -1 sprites/graphics/industrial_tram_locomotives.png  144 0  09  16 20  -14  -6
  -1 sprites/graphics/industrial_tram_locomotives.png  176 0  01  12 28  -13  -6
  -1 sprites/graphics/industrial_tram_locomotives.png  224 0  09  16 20   -4  -6
@@ -64,7 +64,7 @@
  -1 sprites/graphics/industrial_tram_locomotives.png   16 20  09  16 20  -14  -5
  -1 sprites/graphics/industrial_tram_locomotives.png   48 20  01  12 28  -13  -6
  -1 sprites/graphics/industrial_tram_locomotives.png   96 20  09  16 20   -5  -5
- -1 sprites/graphics/industrial_tram_locomotives.png    0 20  01  18  8   -4 -12
+ -1 sprites/graphics/industrial_tram_locomotives.png    0 20  01  18  8   -4 -12 // reuses sprite
  -1 sprites/graphics/industrial_tram_locomotives.png  144 20  09  16 20  -14  -6
  -1 sprites/graphics/industrial_tram_locomotives.png  176 20  01  12 28  -13  -6
  -1 sprites/graphics/industrial_tram_locomotives.png  224 20  09  16 20   -4  -6
