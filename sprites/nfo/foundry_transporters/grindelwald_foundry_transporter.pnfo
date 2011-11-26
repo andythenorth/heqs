@@ -1,22 +1,18 @@
 #define THIS_VEH_ID           VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../common_templates/group_availability/rv_availability.tnfo"
-
 #define THIS_SMOKE_TYPE 26
-#include "../common_templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b23 01 VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
-    02 20             // reliability decay speed decay speed
+#include "template_foundry_transporters_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
+
+ -1 * 67	 00 01 \b16 01 VEH_FOUNDRY_TRANSPORTER_GRINDELWALD
     03 \b30           // vehicle life
-    04 \b99             // class life
+    04 \b99           // class life
     07 30             // load amount
     09 3F             // running cost factor
-    0A 48 4C 00 00    // running cost base
-    0E FF             // sprite ID
     0F \b55           // capacity
     10 FF             // cargo type 
     11 35             // cost factor
-    12 19             // sound effect
     13 \b24           // power in 10 hp
     14 \b80           // weight in 1/4 tons
     15 \b18           // speed in mph * 0.8
@@ -24,12 +20,9 @@
     // flips 1D / 1E values: excludes grain, wheat, maize
     17 00             // Callback flags bit mask
     18 7B             // coefficient of tractive effort (boosted due to number of axles driven with full weight on them)
-    1A 00             // Refit cost, using 25% of the purchase price cost base
-    1B 00             // Retire vehicle early, this many years before the end of phase 2
-    1C 02             // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D 00 00          // Refittable cargo classes
     1E 00 00          // Non-refittable cargo classes
-    1F \d720160    // Long format introduction date
+    1F \d720160       // Long format introduction date
  -1 * 29	 04 01 7F 01 VEH_FOUNDRY_TRANSPORTER_GRINDELWALD "Grindelwald Foundry Transporter" 00
  -1 * 4	 01 01 07 08
    // empty
