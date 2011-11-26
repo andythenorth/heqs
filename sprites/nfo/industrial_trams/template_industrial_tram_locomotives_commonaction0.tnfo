@@ -14,4 +14,4 @@
     1B 00     // Retire vehicle early, this many years before the end of phase 2
     1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF FF       // Refittable cargo classes
-    1E 00 00       // Non-refittable cargo classes
+    1E 01 00       // Non-refittable cargo classes
