@@ -1,33 +1,21 @@
 #define THIS_VEH_ID           VEH_TRACTOR_SUPER_SPEEDYTRAC
 #define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
 #include "../common_templates/group_availability/rv_availability.tnfo"
+#define THIS_SMOKE_TYPE       27
 
-#define THIS_SMOKE_TYPE 27
-#include "../common_templates/template_smoke.tnfo"
+#include "template_tractors_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
 
 // Super Speedytrac	Wheeled Tractor (high speed)	40t		2005-2050	60mph
--1 * 67	 00 01 \b22 01 VEH_TRACTOR_SUPER_SPEEDYTRAC
+-1 * 67	 00 01 \b10 01 VEH_TRACTOR_SUPER_SPEEDYTRAC
     02 20     // reliability 
     03 \b15   // vehicle life 
     04 \b45   // class life 
-    07 05     // load amount 
     09 1C     // running cost factor 
     0A 48 4C 00 00   // running cost base 
-    0E FF     // sprite ID
-    0F 00     // capacity
-    10 FF     // cargo type
     11 23     // cost factor
-    12 17     // sound effect
     13 \b21   // power in 10 hp
     14 \b40   // weight in 1/4 tons
     15 \b40   // speed in mph * 0.8
-    16 00 00 00 00     // Bit mask of cargo types available for refitting
-    17 16     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D FF 03  // Refittable cargo classes
-    1E 01 00  // Non-refittable cargo classes
     1F 95 2C 0B 00    // Long format introduction date    
 -1 * 22	 04 01 7F 01 VEH_TRACTOR_SUPER_SPEEDYTRAC "Super Speedytrac" 00
 -1 * 44	 04 01 81 01 B2 D0 "Hauls: " 8A "One 19t trailer"

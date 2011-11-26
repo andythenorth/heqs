@@ -1,0 +1,121 @@
+ // -- Articulated Crawler in two parts)
+
+ // Articulated Crawler First Part
+-1 * 69	 00 01 \b24 01 9A
+    02 20     // reliability 
+    03 \b15   // vehicle life 
+    04 \b60   // class life 
+    06 0F     // climate 
+    07 05     // load amount 
+    09 1E     // running cost factor 
+    0A 48 4C 00 00    // running cost base 
+    0E FF     // sprite ID
+    0F 00     // capacity
+    10 FF     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    13 \b45   // power in 10 hp
+    14 \b104  // weight in 1/4 tons
+    15 \b18   // speed in mph * 0.8
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
+    17 16     // Callback flags bit mask
+    18 BD     // coefficient of TE
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1D FF 03  // Refittable cargo classes
+    1E 01 00  // Non-refittable cargo classes
+    1F \d729770    // Long format introduction date    
+-1 * 34	 04 01 7F 01 9A "Red Peak Articulated Crawler" 00
+-1 * 47	 04 01 81 01 9F D0 "Hauls: " 8A "Three 22t trailers"
+                               0d 98 "Model: " 8A "1998" 00 
+-1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
+-1 sprites/graphics/bulldozers.png 34 1610 01 24 12 -5 -19
+-1 sprites/graphics/bulldozers.png 66 1610 01 20 26 -17 -12
+-1 sprites/graphics/bulldozers.png 98 1610 01 16 36 -10 -11
+-1 sprites/graphics/bulldozers.png 146 1610 01 20 26 -9 -11
+-1 sprites/graphics/bulldozers.png 178 1610 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1610 01 20 26 -17 -11
+-1 sprites/graphics/bulldozers.png 242 1610 01 16 36 -26 -10
+-1 sprites/graphics/bulldozers.png 290 1610 01 20 26 -10 -13
+-1 * 9	 02 01 A0 01 01 00 00 00 00
+-1 * 4	 01 01 01 01
+-1 sprites/graphics/bulldozers.png 370 1614 01 12 36 -14 -6
+-1 * 9	 02 01 F1 // action2 buy menu sprites 
+      01 // number loading states
+      01 // number loaded states
+      00 00 // loading sprites
+      00 00 // loaded sprites
+-1 * 14	 02 01 F0 // varaction 2 handles buy menu callbacks 
+                 81 0C 00 FF //check byte value of variable 81 (no bit shift, FF andmask)
+                 01 // range
+                   9F 80 23 23 // text for vehicle window
+                 F1 00 //otherwise go to next action 2 ID 
+-1 * 26	 02 01 B0 //ID B0
+               81 10 00 FF // articulated vehicle building instructions
+               04 // range
+                 11 80 01 01
+                 73 80 02 02
+                 73 80 03 03
+                 73 80 04 04
+               FF FF //otherwise end the callback chain
+-1 * 14	 02 01 B3 // provide correct refit/capacity information in buy menu (credits to DJ Nekkid for solution) // deprecated - use two varaction 2 to handle cbs instead - see no. 6 crawler
+               82 40 10 FF // check vehicle length    
+               01 // check one range
+                 F0 00 00 00 // if length is 0 use purchase menu sprite
+               A0 00 // else go to action 2 to apply graphics
+-1 * 18	 02 01 B1 //ID B1
+               81 0C 00 FF // handle callbacks
+               02 // range
+                 05 80 11 11 // vehicle length CB
+                 B0 00 16 16 // articulated vehicle CB
+               B3 00 //otherwise go to next action 2 ID 
+-1 * 7	 03 01 01 9A // Action 3
+    00  // Number of different cargo types to support  
+    B1 00   // Action 2 ID above 
+
+  // Articulated Crawler (Second Part)
+-1 * 67	 00 01 \b24 01 11 // articulated RV trailing part ID must be <128. Otherwise 9B (155) would make more sense.
+      02 20     // reliability
+      03 19     // vehicle life
+      04 23     // class life
+      06 00     // climate
+      07 05     // load amount
+      09 08     // running cost factor
+      0A 48 4C 00 00   // running cost base
+      0E FF     // sprite ID
+      0F 00     // capacity
+      10 FF     // cargo type
+      11 00     // cost factor
+      12 00     // sound effect
+      13 \b00   // power in 10 hp (hp not used on 2nd part of vehicle)
+      14 \b00   // weight in 1/4 tons (weight not used on 2nd part of vehicle)
+      15 38     // speed in mph * 0.8
+      16 00 00 00 00    // Bit mask of cargo types available for refitting
+      17 02     // Callback flags bit mask
+      18 9A     // coefficient of TE
+      1A 00     // Refit cost, using 25% of the purchase price cost base
+      1B 00     // Retire vehicle early, this many years before the end of phase 2
+      1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC     
+      1D FF 03  // Refittable cargo classes 
+      1E 01 00  // Non-refittable cargo classes
+      1F \d0    // Long format introduction date     
+-1 * 39	 04 01 7F 01 11 "[Articulated Crawler Second Part]" 00
+-1 * 4	 01 01 01 08
+-1 sprites/graphics/bulldozers.png 34 1650 01 24 12 -5 -15
+-1 sprites/graphics/bulldozers.png 66 1650 01 20 26 -17 -12
+-1 sprites/graphics/bulldozers.png 98 1650 01 16 36 -10 -11
+-1 sprites/graphics/bulldozers.png 146 1650 01 20 26 -9 -11
+-1 sprites/graphics/bulldozers.png 178 1650 01 24 12 -5 -13
+-1 sprites/graphics/bulldozers.png 210 1650 01 20 26 -17 -11
+-1 sprites/graphics/bulldozers.png 242 1650 01 16 36 -26 -10
+-1 sprites/graphics/bulldozers.png 290 1650 01 20 26 -10 -13
+-1 * 9	 02 01 BB   01 01   00 00    00 00
+-1 * 14	 02 01 AA  // handle callbacks
+                 81 0C 00 FF // check variable 0C
+                 01 // range
+                  03 80 11 11 // vehicle length callback
+                 BB 00
+-1 * 7	 03 01 01 11 // Action 3
+      00  // Number of different cargo types to support  
+      AA 00 // default cargo

@@ -1,38 +1,26 @@
 #define THIS_VEH_ID           VEH_TRACTOR_SPEEDYTRAC
 #define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
 #include "../common_templates/group_availability/rv_availability.tnfo"
+#define THIS_SMOKE_TYPE       27
 
-#define THIS_SMOKE_TYPE 27
-#include "../common_templates/template_smoke.tnfo"
+#include "template_tractors_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
 
+// road version
+ -1 * 67	 00 01 \b10 01 VEH_TRACTOR_SPEEDYTRAC 
+    02 20     // reliability 
+    03 \b15   // vehicle life 
+    04 \b30   // class life 
+    09 18     // running cost factor 
+    0A 48 4C 00 00        // running cost base 
+    11 18     // cost factor
+    13 \b14   // power in 10 hp
+    14 \b28   // weight in 1/4 tons
+    15 \b32   // speed in mph * 0.8
+    1F 32 17 0B 00    // long format introduction date      
 // Speedytrac	Wheeled Tractor (high speed)	34t		1990-2020	50mph
  -1 * 16	 04 01 7F 01 VEH_TRACTOR_SPEEDYTRAC "Speedytrac" 00
  -1 * 44	 04 01 81 01 STR_EXTRA_INFO_TRACTOR_SPEEDYTRAC D0 "Hauls: " 8A "One 19t trailer"
                                0d 98 "Model: " 8A "1990" 00 
-// road version
- -1 * 67	 00 01 \b22 01 VEH_TRACTOR_SPEEDYTRAC 
-    02 20     // reliability 
-    03 \b15   // vehicle life 
-    04 \b30   // class life 
-    07 05     // load amount 
-    09 18     // running cost factor 
-    0A 48 4C 00 00        // running cost base 
-    0E FF     // sprite ID
-    0F 00     // capacity
-    10 FF     // cargo type
-    11 18     // cost factor
-    12 17     // sound effect
-    13 \b14   // power in 10 hp
-    14 \b28   // weight in 1/4 tons
-    15 \b32   // speed in mph * 0.8
-    16 00 00 00 00     // Bit mask of cargo types available for refitting
-    17 16     // callback flags bit mask
-    1A 00     // refit cost, using 25% of the purchase price cost base
-    1B 00     // retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D FF 03          // refittable cargo classes
-    1E 01 00          // non-refittable cargo classes
-    1F 32 17 0B 00    // long format introduction date      
  -1 * 4	 01 01 01 08      // Action 1 | RV | 1 sprite set | 8 members
  -1 sprites/graphics/tractors.png 0  370 01 24 12 -5  -15
  -1 sprites/graphics/tractors.png 32  370 01 20 26 -17 -9

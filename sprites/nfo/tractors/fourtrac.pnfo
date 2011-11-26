@@ -1,33 +1,21 @@
 #define THIS_VEH_ID           VEH_TRACTOR_FOURTRAC
 #define THIS_VEHICLE_GROUP    GROUP_RVS_EXTRA
 #include "../common_templates/group_availability/rv_availability.tnfo"
+#define THIS_SMOKE_TYPE       27
 
-#define THIS_SMOKE_TYPE 27
-#include "../common_templates/template_smoke.tnfo"
+#include "template_tractors_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
 
 // Fourtrac	Wheeled Tractor (high speed)
--1 * 67	 00 01 \b22 01 VEH_TRACTOR_FOURTRAC 
+-1 * 67	 00 01 \b10 01 VEH_TRACTOR_FOURTRAC 
     02 20     // reliability 
     03 \b30   // vehicle life 
     04 \b30   // class life 
-    07 05     // load amount 
     09 11     // running cost factor 
     0A 48 4C 00 00        // running cost base 
-    0E FF     // sprite ID
-    0F 00     // capacity
-    10 FF     // cargo type
     11 16     // cost factor
-    12 17     // sound effect
     13 \b10   // power in 10 hp
     14 \b20   // weight in 1/4 tons
     15 \b20   // speed in mph * 0.8
-    16 00 00 00 00     // Bit mask of cargo types available for refitting
-    17 16     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D FF 03          // Refittable cargo classes
-    1E 01 00          // Non-refittable cargo classes
     1F \d720000    // Long format introduction date  
 -1 * 14	 04 01 7F 01 VEH_TRACTOR_FOURTRAC "Fourtrac" 00
 -1 * 92	 04 01 81 01 STR_EXTRA_INFO_TRACTOR_FOURTRAC D0 "Hauls: " 8A "One 19t trailer"
