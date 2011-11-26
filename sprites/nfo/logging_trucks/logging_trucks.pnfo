@@ -4,33 +4,19 @@
 #define THIS_VEH_ID           VEH_LOGGING_TRUCK_C10
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../common_templates/group_availability/rv_availability.tnfo"
-
 #define THIS_SMOKE_TYPE 27
-#include "../common_templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_C10
+ -1 * 67	 00 01 \b11 01 VEH_LOGGING_TRUCK_C10
     02 20     // reliability
-    03 \b40     // vehicle life
+    03 \b40   // vehicle life
     04 FF     // class life
     07 05     // load amount
     09 4E     // running cost factor
-    0A 48 4C 00 00  // running cost base
-    0E FF     // sprite ID
     0F \b1    // capacity
-    10 FF     // cargo type 
     11 4C     // cost factor
-    12 19     // sound effect
     13 \b52   // power in 10 hp
     14 \b92   // weight in 1/4 tons
     15 \b32   // speed in mph * 0.8
-    16 80 00 00 40     // Bit mask of cargo types available for refitting
-    17 16     // Callback flags bit mask
-    18 CC     // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00  // Refittable cargo classes
-    1E 00 00  // Non-refittable cargo classes
     1F \d01-01-1971    // Long format introduction date
  -1 * 27	 04 01 7F 01 VEH_LOGGING_TRUCK_C10 "Cascade C10 Logging Truck" 00
  -1 * 101	 04 01 81 01 STR_EXTRA_INFO_LOGGING_TRUCK_C10 D0 "Hauls: " 8A "One logging trailer" 
@@ -47,29 +33,17 @@
 #define THIS_SMOKE_TYPE 27
 #include "../common_templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_C16
-    02 20     // reliability
-    03 \b40     // vehicle life
-    04 FF     // class life
-    07 05     // load amount
-    09 5F     // running cost factor
-    0A 48 4C 00 00  // running cost base
-    0E FF     // sprite ID
-    0F \b1    // capacity
-    10 FF     // cargo type 
-    11 60     // cost factor
-    12 19     // sound effect
-    13 \b60   // power in 10 hp
+ -1 * 67	 00 01 \b11 01 VEH_LOGGING_TRUCK_C16
+    02 20      // reliability
+    03 \b40    // vehicle life
+    04 FF      // class life
+    07 05      // load amount
+    09 5F      // running cost factor
+    0F \b1     // capacity
+    11 60      // cost factor
+    13 \b60    // power in 10 hp
     14 \b128   // weight in 1/4 tons
-    15 \b24   // speed in mph * 0.8
-    16 80 00 00 40     // Bit mask of cargo types available for refitting
-    17 16     // Callback flags bit mask
-    18 CC     // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00  // Refittable cargo classes
-    1E 00 00  // Non-refittable cargo classes
+    15 \b24    // speed in mph * 0.8
     1F \d01-01-1971    // Long format introduction date
  -1 * 27	 04 01 7F 01 VEH_LOGGING_TRUCK_C16 "Cascade C16 Logging Truck" 00
  -1 * 101	 04 01 81 01 STR_EXTRA_INFO_LOGGING_TRUCK_C16 D0 "Hauls: " 8A "Two logging trailers" 
@@ -86,29 +60,17 @@
 #define THIS_SMOKE_TYPE 27
 #include "../common_templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_MACKENZIE
-    02 20     // reliability
-    03 \b40     // vehicle life
-    04 FF     // class life
-    07 05     // load amount
-    09 6F     // running cost factor
-    0A 48 4C 00 00  // running cost base
-    0E FF     // sprite ID
+ -1 * 67	 00 01 \b11 01 VEH_LOGGING_TRUCK_MACKENZIE
+    02 20      // reliability
+    03 \b40    // vehicle life
+    04 FF      // class life
+    07 05      // load amount
+    09 6F      // running cost factor
     0F \b21    // capacity
-    10 FF     // cargo type 
-    11 6F     // cost factor
-    12 19     // sound effect
-    13 \b75   // power in 10 hp
+    11 6F      // cost factor
+    13 \b75    // power in 10 hp
     14 \b166   // weight in 1/4 tons
-    15 \b30   // speed in mph * 0.8
-    16 80 00 00 40     // Bit mask of cargo types available for refitting
-    17 16     // Callback flags bit mask
-    18 CC     // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00  // Refittable cargo classes
-    1E 00 00  // Non-refittable cargo classes
+    15 \b30    // speed in mph * 0.8
     1F \d01-01-1992    // Long format introduction date
  -1 * 27	 04 01 7F 01 VEH_LOGGING_TRUCK_MACKENZIE "Mackenzie Logging Truck" 00
  -1 * 101	 04 01 81 01 STR_EXTRA_INFO_LOGGING_TRUCK_MACKENZIE D0 "Hauls: " 8A "Two logging trailers" 
