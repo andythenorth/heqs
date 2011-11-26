@@ -31,7 +31,7 @@
       09 08     // running cost factor
       0A 48 4C 00 00    // running cost base
       0E FF     // sprite ID
-      0F \b19     // capacity
+      0F \b19   // capacity
       10 06     // cargo type
       11 00     // cost factor
       12 00     // sound effect
@@ -42,10 +42,10 @@
       17 30     // callback flags bit mask
       1A 00     // refit cost, using 25% of the purchase price cost base
       1B 00     // retire vehicle early, this many years before the end of phase 2
-      1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC 
+      1C 12     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC, 10 = allow autorefit
       1D FF 03      // refittable cargo classes
       1E 01 00      // non-refittable cargo classes
-      1F 60 B3 0A 00    // long format introduction date     
+      1F \d01-01-0001    // long format introduction date     
    -1 * 30	 04 01 7F 01 VEH_TRACTOR_MEDIUM_TRAILER "[Generic Medium Trailer]" 00
 // define additional text suffixes
    -1 * 28	 04 00 81 02 00 D0
