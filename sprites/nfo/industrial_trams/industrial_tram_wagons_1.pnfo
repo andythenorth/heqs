@@ -1,9 +1,9 @@
 // Industrial Tram Wagon Small
-
+#define THIS_VEH_ID           VEH_INDUSTRIAL_TRAM_WAGON_1
 #define THIS_LENGTH_ADJUST    05
 #define THIS_CAPACITY         05 // do this in hex - escapes are a hassle here for various reasons
 #define THIS_FAKE_BUY_MENU_CAPACITY 14 // do this in hex - escapes are a hassle here for various reasons 
-#define THIS_GRAPHICS_FILE         industrial_tram_wagons_1.png     // used in action 1 template (must include file extension)
+#define THIS_GRAPHICS_FILE    industrial_tram_wagons_1.png     // used in action 1 template (must include file extension)
    
 #define THIS_OFFS_X_Y_1   -3 -12
 #define THIS_OFFS_X_Y_2  -14  -5
@@ -14,33 +14,17 @@
 #define THIS_OFFS_X_Y_7  -13  -6
 #define THIS_OFFS_X_Y_8   -4  -6
 
+#include "template_industrial_tram_wagons_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
    
- -1 * 67	 00 01 \b24 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
-    02 20           // reliability decay speed decay speed
-    03 \b00         // vehicle life
-    04 \b00         // class life
-    06 00           // climate availability - use 0F for all, 00 none (to hide vehicle)
-    07 05           // load amount 
-    09 1E           // running cost factor 
-    0A 48 4C 00 00  // running cost base 
-    0E FF           // sprite ID
+ -1 * 67	 00 01 \b7 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
+    07 05              // load amount 
     0F THIS_CAPACITY   // capacity
-    10 01           // cargo type
-    11 34           // cost factor
-    12 17           // sound effect
-    13 \b0          // power in 10 hp
-    14 \b0          // weight in 1/4 tons
-    15 \b00         // speed in mph * 0.8
-    16 00 00 00 00    // Bit mask of cargo types available for refitting
+    10 01              // cargo type
+    16 00 00 00 00     // Bit mask of cargo types available for refitting
     // flips 1D / 1E value
-    17 22           // callback flags bit mask
-    18 00           // coefficient of tractive effort (use 0 for trailers)
-    1A 00           // refit cost, using 25% of the purchase price cost base
-    1B 00           // retire vehicle early, this many years before the end of phase 2
-    1C 03           // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D FF 03        // refittable cargo classes
-    1E 01 00        // non-refittable cargo classes
-    1F 60 B3 0A 00  // long format introduction date  
+    1B 00              // retire vehicle early, this many years before the end of phase 2
+    1D FF 03           // refittable cargo classes
+    1E 01 00           // non-refittable cargo classes
  -1 * 35	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_WAGON_1 "[Tram Wagon 1]" 00
 
 #include "template_industrial_tram_wagons_action1_2.tnfo"
@@ -169,6 +153,7 @@
       FF  C1 00 // buy menu
 	  C0 00 // default
 	  
+#undef THIS_VEH_ID
 #undef THIS_CAPACITY
 #undef THIS_FAKE_BUY_MENU_CAPACITY
 #undef THIS_LENGTH_ADJUST

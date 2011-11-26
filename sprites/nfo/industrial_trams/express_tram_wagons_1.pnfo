@@ -1,36 +1,22 @@
 // Industrial Tram Wagon Medium
 
+#define THIS_VEH_ID           VEH_EXPRESS_TRAM_WAGON_1
 #define THIS_LENGTH_ADJUST    03
 #define THIS_CAPACITY         1E // do this in hex - escapes are a hassle here for various reasons
 #define THIS_FAKE_BUY_MENU_CAPACITY 70 // do this in hex - escapes are a hassle here for various reasons 
 // !! set double capacities for this vehicle due to limitations of cb36 w.r.t cargo weight multipliers 
+
+#include "template_industrial_tram_wagons_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
    
- -1 * 67	 00 01 \b24 01 VEH_EXPRESS_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
-    02 20           // reliability decay speed decay speed
-    03 \b00         // vehicle life
-    04 \b00         // class life
-    06 00           // climate availability - use 0F for all, 00 none (to hide vehicle)
+ -1 * 67	 00 01 \b7 01 VEH_EXPRESS_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
     07 07           // load amount 
-    09 1E           // running cost factor 
-    0A 48 4C 00 00  // running cost base 
-    0E FF           // sprite ID
     0F THIS_CAPACITY  // capacity
     10 02           // cargo type
-    11 34           // cost factor
-    12 17           // sound effect
-    13 \b0          // power in 10 hp
-    14 \b0          // weight in 1/4 tons
-    15 \b00         // speed in mph * 0.8
     16 98 02 24 00    // Bit mask of cargo types available for refitting
     // flips 1D / 1E value: excludes oil, livestock, metal petrol, scrap metal
-    17 22           // callback flags bit mask
-    18 00           // coefficient of tractive effort (use 0 for trailers)
-    1A 00           // refit cost, using 25% of the purchase price cost base
     1B 00           // retire vehicle early, this many years before the end of phase 2
-    1C 03           // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
     1D FF 03        // refittable cargo classes
     1E 11 00        // non-refittable cargo classes
-    1F 60 B3 0A 00  // long format introduction date  
  -1 * 35	 04 01 7F 01 VEH_EXPRESS_TRAM_WAGON_1 "[Express Tram Wagon 1]" 00
 
 // templated action 1s and 2s for middle wagons 
@@ -203,6 +189,7 @@
       FF  C1 00 // buy menu
 	  C0 00 // default
 	  
+#undef THIS_VEH_ID
 #undef THIS_CAPACITY
 #undef THIS_FAKE_BUY_MENU_CAPACITY
 #undef THIS_LENGTH_ADJUST 
