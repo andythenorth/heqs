@@ -6,6 +6,8 @@
 #include "../common_templates/group_availability/rv_availability.tnfo"
 #define THIS_SMOKE_TYPE 27
 
+#include "template_logging_trucks_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
+
  -1 * 67	 00 01 \b11 01 VEH_LOGGING_TRUCK_C10
     02 20     // reliability
     03 \b40   // vehicle life
@@ -29,9 +31,9 @@
 #define THIS_VEH_ID           VEH_LOGGING_TRUCK_C16
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../common_templates/group_availability/rv_availability.tnfo"
-
 #define THIS_SMOKE_TYPE 27
-#include "../common_templates/template_smoke.tnfo"
+
+#include "template_logging_trucks_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
 
  -1 * 67	 00 01 \b11 01 VEH_LOGGING_TRUCK_C16
     02 20      // reliability
@@ -56,9 +58,9 @@
 #define THIS_VEH_ID           VEH_LOGGING_TRUCK_MACKENZIE
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../common_templates/group_availability/rv_availability.tnfo"
-
 #define THIS_SMOKE_TYPE 27
-#include "../common_templates/template_smoke.tnfo"
+
+#include "template_logging_trucks_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
 
  -1 * 67	 00 01 \b11 01 VEH_LOGGING_TRUCK_MACKENZIE
     02 20      // reliability
