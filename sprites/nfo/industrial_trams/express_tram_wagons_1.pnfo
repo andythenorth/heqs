@@ -6,7 +6,7 @@
 #define THIS_FAKE_BUY_MENU_CAPACITY 70 // do this in hex - escapes are a hassle here for various reasons 
 // !! set double capacities for this vehicle due to limitations of cb36 w.r.t cargo weight multipliers 
 
-#include "template_industrial_tram_wagons_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
+#include "template_industrial_tram_wagons_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
    
  -1 * 67	 00 01 \b7 01 VEH_EXPRESS_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
     07 07           // load amount 

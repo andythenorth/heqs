@@ -3,7 +3,7 @@
 #include "../common_templates/group_availability/rv_availability.tnfo"
 #define THIS_SMOKE_TYPE       27
 
-#include "template_tractors_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
+#include "template_tractors_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
 
 // Super Speedytrac	Wheeled Tractor (high speed)	40t		2005-2050	60mph
 -1 * 67	 00 01 \b10 01 VEH_TRACTOR_SUPER_SPEEDYTRAC

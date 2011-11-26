@@ -14,7 +14,7 @@
 #define THIS_OFFS_X_Y_7  -13  -6
 #define THIS_OFFS_X_Y_8   -4  -6
 
-#include "template_industrial_tram_wagons_commonaction0.tnfo"  // action 0 props common to most tram locomotives are templated
+#include "template_industrial_tram_wagons_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
    
  -1 * 67	 00 01 \b7 01 VEH_INDUSTRIAL_TRAM_WAGON_1 // Vehicle ID has to be less than 128 for articulated trailers
     07 05              // load amount 
