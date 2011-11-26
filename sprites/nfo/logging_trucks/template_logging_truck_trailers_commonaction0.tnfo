@@ -1,0 +1,25 @@
+// template for properties common to logging truck trailers 
+
+ -1 * 67	 00 01 \b21 01 THIS_VEH_ID
+    02 00     // reliability 
+    03 00     // vehicle life 
+    04 00     // class life 
+    06 00     // climate 
+    07 05     // load amount 
+    09 00     // running cost factor 
+    0A 48 4C 00 00    // running cost base 
+    0E FF     // sprite ID
+    10 FF     // cargo type
+    11 00     // cost factor
+    13 \b00   // power in 10 hp
+    14 \b28   // weight in 1/4 tons
+    15 00     // speed in mph * 0.8
+    16 80 00 00 40    // Bit mask of cargo types available for refitting
+    17 11     // Callback flags bit mask
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 12     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC, 10 = allow autorefit
+    1D 00 00          // Refittable cargo classes
+    1E 00 00          // Non-refittable cargo classes
+    1F \d01-01-0001    // long format introduction date     
+    

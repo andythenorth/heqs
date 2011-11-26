@@ -10,151 +10,56 @@
        // Lead vehicle chooses different trailers depending on date
        // This is inefficient on source code, also on ID use, but we have 255 IDs to play with so should be ok.
      // NOTE: Don't use IDs > 128 for trailers in articulated consists (lead vehicle ID can be > 128)
-  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_TRAILER_1
-    02 20     // reliability 
-    03 11     // vehicle life 
-    04 23     // class life 
-    06 00     // climate 
-    07 05     // load amount 
-    09 1E     // running cost factor 
-    0A 48 4C 00 00    // running cost base 
-    0E FF     // sprite ID
+
+#define THIS_VEH_ID      VEH_LOGGING_TRUCK_TRAILER_1
+#include "template_logging_truck_trailers_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
+
+  -1 * 67	 00 01 \b01 01 VEH_LOGGING_TRUCK_TRAILER_1
     0F \b60   // capacity
-    10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
-    13 \b00   // power in 10 hp
-    14 \b28   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
-    16 80 00 00 40    // Bit mask of cargo types available for refitting
-    17 11     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
-    1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_TRAILER_2
-    02 20     // reliability 
-    03 11     // vehicle life 
-    04 23     // class life 
-    06 00     // climate 
-    07 05     // load amount 
-    09 1E     // running cost factor 
-    0A 48 4C 00 00    // running cost base 
-    0E FF     // sprite ID
+    
+#undef THIS_VEH_ID
+
+#define THIS_VEH_ID      VEH_LOGGING_TRUCK_TRAILER_2
+#include "template_logging_truck_trailers_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
+
+  -1 * 67	 00 01 \b01 01 VEH_LOGGING_TRUCK_TRAILER_2
     0F \b80   // capacity
-    10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
-    13 \b00   // power in 10 hp
-    14 \b28   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
-    16 80 00 00 40    // Bit mask of cargo types available for refitting
-    17 11     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00  // Refittable cargo classes
-    1E 00 00  // Non-refittable cargo classes
-    1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_TRAILER_3
-    02 20     // reliability 
-    03 11     // vehicle life 
-    04 23     // class life 
-    06 00     // climate 
-    07 05     // load amount 
-    09 1E     // running cost factor 
-    0A 48 4C 00 00    // running cost base 
-    0E FF     // sprite ID
+
+#undef THIS_VEH_ID
+
+#define THIS_VEH_ID      VEH_LOGGING_TRUCK_TRAILER_3
+#include "template_logging_truck_trailers_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
+
+  -1 * 67	 00 01 \b01 01 VEH_LOGGING_TRUCK_TRAILER_3
     0F \b60   // capacity
-    10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
-    13 \b00   // power in 10 hp
-    14 \b28   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
-    16 80 00 00 40    // Bit mask of cargo types available for refitting
-    17 11     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00  // Refittable cargo classes
-    1E 00 00  // Non-refittable cargo classes
-    1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_TRAILER_4
-    02 20     // reliability 
-    03 11     // vehicle life 
-    04 23     // class life 
-    06 00     // climate 
-    07 05     // load amount 
-    09 1E     // running cost factor 
-    0A 48 4C 00 00    // running cost base 
-    0E FF     // sprite ID
+    
+#undef THIS_VEH_ID
+
+#define THIS_VEH_ID      VEH_LOGGING_TRUCK_TRAILER_4
+#include "template_logging_truck_trailers_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
+
+  -1 * 67	 00 01 \b01 01 VEH_LOGGING_TRUCK_TRAILER_4
     0F \b80   // capacity
-    10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
-    13 \b00   // power in 10 hp
-    14 \b28   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
-    16 80 00 00 40     // Bit mask of cargo types available for refitting
-    17 11     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00  // Refittable cargo classes
-    1E 00 00  // Non-refittable cargo classes
-    1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_TRAILER_5
-    02 20     // reliability 
-    03 11     // vehicle life 
-    04 23     // class life 
-    06 00     // climate 
-    07 05     // load amount 
-    09 1E     // running cost factor 
-    0A 48 4C 00 00    // running cost base 
-    0E FF     // sprite ID
+    
+#undef THIS_VEH_ID
+
+#define THIS_VEH_ID      VEH_LOGGING_TRUCK_TRAILER_5
+#include "template_logging_truck_trailers_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
+
+  -1 * 67	 00 01 \b01 01 VEH_LOGGING_TRUCK_TRAILER_5
     0F \b30   // capacity
-    10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
-    13 \b00   // power in 10 hp
-    14 \b28   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
-    16 80 00 00 40     // Bit mask of cargo types available for refitting
-    17 11     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00  // Refittable cargo classes
-    1E 00 00  // Non-refittable cargo classes
-    1F 60 B3 0A 00    // Long format introduction date  
-  -1 * 67	 00 01 \b23 01 VEH_LOGGING_TRUCK_TRAILER_6
-    02 20     // reliability 
-    03 11     // vehicle life 
-    04 23     // class life 
-    06 00     // climate 
-    07 05     // load amount 
-    09 1E     // running cost factor 
-    0A 48 4C 00 00    // running cost base 
-    0E FF     // sprite ID
+    
+#undef THIS_VEH_ID
+
+#define THIS_VEH_ID      VEH_LOGGING_TRUCK_TRAILER_6
+#include "template_logging_truck_trailers_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
+
+  -1 * 67	 00 01 \b01 01 VEH_LOGGING_TRUCK_TRAILER_6
     0F \b40   // capacity
-    10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
-    13 \b00   // power in 10 hp
-    14 \b28   // weight in 1/4 tons
-    15 20     // speed in mph * 0.8
-    16 80 00 00 40    // Bit mask of cargo types available for refitting
-    17 11     // Callback flags bit mask
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 00 00          // Refittable cargo classes
-    1E 00 00          // Non-refittable cargo classes
-    1F 60 B3 0A 00    // Long format introduction date  
-    // Logging truck trailer - Wood, blank sprite
+    
+#undef THIS_VEH_ID
+
+// Logging truck trailer - Wood, blank sprite
   -1 * 4	 01 01 08 08
   -1 sprites/graphics/logging_truck_trailer_large.png 34 10 01 26 12 -6 -15
   -1 sprites/graphics/logging_truck_trailer_large.png 66 10 09 23 31 -15 -11
