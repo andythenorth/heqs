@@ -1,35 +1,24 @@
 #define THIS_VEH_ID           VEH_MINING_TRUCK_THUNDER_MOUNTAIN
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../common_templates/group_availability/rv_availability.tnfo"
-
 #define THIS_SMOKE_TYPE 28
-#include "../common_templates/template_smoke.tnfo"
+
+#include "template_mining_trucks_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
 
 // Thunder Mountain Mining Truck  90t		1960-1982		30mph
--1 * 67	 00 01 \b23 01 VEH_MINING_TRUCK_THUNDER_MOUNTAIN
+-1 * 67	 00 01 \b13 01 VEH_MINING_TRUCK_THUNDER_MOUNTAIN
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
     07 05             // load amount
     09 54             // running cost factor
-    0A 48 4C 00 00        // running cost base
-    0E FF             // sprite ID
     0F 00             // capacity
-    10 FF             // cargo type 
     11 5B             // cost factor
-    12 19             // sound effect
     13 \b60           // power in 10 hp
     14 \b160           // weight in 1/4 tons
     15 \b24           // speed in mph * 0.8
-    16 40 00 00 28     // Bit mask of cargo types available for refitting
-    // flips 1D / 1E values: excludes grain, wheat, maize
     17 16             // Callback flags bit mask
     18 BB             // coefficient of tractive effort (reduced for articulated mining truck with only 1 powered axle)
-    1A 00             // Refit cost, using 25% of the purchase price cost base
-    1B 00             // Retire vehicle early, this many years before the end of phase 2
-    1C 02             // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
     1F 72 EC 0A 00    // Long format introduction date
 -1 * 35	 04 01 7F 01 VEH_MINING_TRUCK_THUNDER_MOUNTAIN "Thunder Mountain Mining Truck" 00
 -1 * 41	 04 01 81 01 STR_EXTRA_INFO_MINING_TRUCK_THUNDER_MOUNTAIN D0 "Hauls: " 8A "One 90t belly-dump trailer" 00

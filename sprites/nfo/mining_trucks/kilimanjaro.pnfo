@@ -2,6 +2,7 @@
 #define THIS_VEH_ID           VEH_MINING_TRUCK_KILIMANJARO  // used in action 1/2/3 template
 #define THIS_VEHICLE_GROUP    GROUP_RVS_CORE
 #include "../common_templates/group_availability/rv_availability.tnfo"
+#define THIS_SMOKE_TYPE 2E
 
 #define THIS_Y_X_CROP_1  24  12
 #define THIS_Y_X_CROP_2  22  30
@@ -21,33 +22,21 @@
 #define THIS_OFFS_X_Y_7  -19  -10
 #define THIS_OFFS_X_Y_8   -9   -9
 
-#define THIS_SMOKE_TYPE 2E
-#include "../common_templates/template_smoke.tnfo"
+#include "template_mining_trucks_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
 
 // Kilimanjaro Mining Hauler  160t	1200hp	1990-2050	57mph
--1 * 67	 00 01 \b22 01 VEH_MINING_TRUCK_KILIMANJARO
+-1 * 67	 00 01 \b12 01 VEH_MINING_TRUCK_KILIMANJARO
     02 20             // reliability
     03 19             // vehicle life
     04 19             // class life
     07 05             // load amount
     09 A8             // running cost factor
-    0A 48 4C 00 00    // running cost base
-    0E FF             // sprite ID
     0F \b160          // capacity
-    10 FF             // cargo type 
     11 A9             // cost factor
-    12 1A             // sound effect
     13 \b160          // power in 10 hp
     14 \b252          // weight in 1/4 tons
     15 \b46           // speed in mph * 0.8
-    16 40 00 00 28    // Bit mask of cargo types available for refitting
-    // flips 1D / 1E values: excludes grain, wheat, maize
     17 00             // Callback flags bit mask
-    1A 00             // Refit cost, using 25% of the purchase price cost base
-    1B 00             // Retire vehicle early, this many years before the end of phase 2
-    1C 02             // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
     1F \d726840       // Long format introduction date (dword)
 -1 * 39	 04 01 7F 01 VEH_MINING_TRUCK_KILIMANJARO "Kilimanjaro Unitised Mining Truck" 00
 

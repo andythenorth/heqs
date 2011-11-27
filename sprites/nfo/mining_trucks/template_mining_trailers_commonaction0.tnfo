@@ -14,6 +14,7 @@
     14 \b0     // weight in 1/4 tons
     15 \b0     // speed in mph * 0.8
     16 40 00 00 28     // Bit mask of cargo types available for refitting
+    // flips 1D / 1E values: excludes grain, wheat, maize
     17 16     // Callback flags bit mask
     18 00             // coefficient of tractive effort (use 0 for trailers)
     1A 00     // Refit cost, using 25% of the purchase price cost base
@@ -22,4 +23,3 @@
     1D 10 00          // Refittable cargo classes
     1E EF 03          // Non-refittable cargo classes
     1F \d01-01-0001    // Long format introduction date  
-    // flips 1D / 1E values: excludes grain, wheat, maize
