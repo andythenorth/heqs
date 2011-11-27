@@ -1,6 +1,9 @@
 HEQS Heavy Equipment Set Changelog
 ----------------------------------
 
+*version 1.5.0*
+
+
 *version 1.4.1*
 Fix Dynamo tram being unable to load any cargo into first vehicle.
 Fix unwanted extra refits in trams.
