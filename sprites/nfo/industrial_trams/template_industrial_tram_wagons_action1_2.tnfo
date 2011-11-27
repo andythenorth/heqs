@@ -24,7 +24,7 @@
       00 00 // loaded sprites
       00 00 // loading sprites 
 
- -1 * 4	 01 01 \b13 \b08
+ -1 * 4	 01 01 \b17 \b08
 // van
 #define THIS_Y_POS  0
 #include "../common_templates/template_mirrored_rv_real_sprites_1.tnfo"
@@ -37,7 +37,7 @@
 #define THIS_Y_POS  40
 #include "../common_templates/template_mirrored_rv_real_sprites_1.tnfo"
 
-// wood empty
+// stakes empty
 #define THIS_Y_POS  60
 #include "../common_templates/template_mirrored_rv_real_sprites_1.tnfo"
 
@@ -75,6 +75,22 @@
 
 // sand
 #define THIS_Y_POS  240
+#include "../common_templates/template_mirrored_rv_real_sprites_1.tnfo"
+
+// steel
+#define THIS_Y_POS  260
+#include "../common_templates/template_mirrored_rv_real_sprites_1.tnfo"
+
+// paper
+#define THIS_Y_POS  280
+#include "../common_templates/template_mirrored_rv_real_sprites_1.tnfo"
+
+// lumber (sawn timber) loading
+#define THIS_Y_POS  300
+#include "../common_templates/template_mirrored_rv_real_sprites_1.tnfo"
+
+// lumber (sawn timber) loaded
+#define THIS_Y_POS  320
 #include "../common_templates/template_mirrored_rv_real_sprites_1.tnfo"
 
 //action 2 ID 00 is reserved for invisible sprite 
@@ -128,21 +144,36 @@
       02 // number loading states
       06 00  0C 00 // loaded sprites
       06 00  0C 00 // loading sprites 
+ -1 * 17	 02 01 0C // steel
+      02 // number loaded states
+      02 // number loading states
+      03 00  0D 00 // loaded sprites
+      03 00  0D 00 // loading sprites 
+ -1 * 17	 02 01 0D // paper
+      02 // number loaded states
+      02 // number loading states
+      03 00  0E 00 // loaded sprites
+      03 00  0E 00 // loading sprites 
+ -1 * 17	 02 01 0E // lumber (sawn timber)
+      03 // number loaded states
+      03 // number loading states
+      03 00  0F 00  10 00 // loaded sprites
+      03 00  0F 00  10 00 // loading sprites 
 
 
 // choose appropriate sprites
   // case show wagon sprite
   -1 * 70	 02 01 AF  // choose sprites according to cargo slot (in cargo translation tt)
                  81 47 00 FF // var 47 in format ccccwwtt where I want tt 
-                 \b24 // range
+                 \b25 // range
                    06 00  01 01 // coal
                    03 00  03 03 // oil
                    05 00  04 04 // livestock                  
                    0B 00  06 06 // grain (reuses sand)
                    04 00  07 07 // wood  
                    07 00  08 08 // iron ore
-                   02 00  09 09 // steel                  
-                   02 00  0B 0B // paper
+                   0C 00  09 09 // steel                  
+                   0D 00  0B 0B // paper
                    0A 00  0E 0E // copper ore
                    03 00  0F 0F // water
                    02 00  10 10 // rubber
@@ -159,6 +190,7 @@
                    0B 00  1D 1D // maize (reuses sand)
                    04 00  1E 1E // tropical wood
                    09 00  20 20 // limestone (reuses gravel) 
+                   0E 00  21 21 // lumber (sawn timber; shares WDPR label) 
                  02 00 // default 
   -1 * 18	 02 01 A2  // shorten wagon length to 1/8 and show sprites
                  81 0C 00 FF //
