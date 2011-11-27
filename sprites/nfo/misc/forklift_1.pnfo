@@ -48,7 +48,7 @@
     17 16     // Callback flags bit mask
     1A 00     // Refit cost, using 25% of the purchase price cost base
     1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
+    1C 12     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC, 10 = allow autorefit
     1D FF 03          // Refittable cargo classes
     1E 01 00          // Non-refittable cargo classes
     1F  \d01-03-1936    // Long format introduction date
