@@ -22,7 +22,7 @@
     04 \b150  // class life 
     09 1E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
-    11 44     // cost factor
+    11 47     // cost factor
     12 20     // sound effect
     13 \b102  // power in 10 hp
     14 \b248  // weight in 1/4 tons
