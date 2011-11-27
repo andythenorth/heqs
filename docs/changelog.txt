@@ -2,7 +2,19 @@ HEQS Heavy Equipment Set Changelog
 ----------------------------------
 
 *version 1.5.0*
-
+Added Chemnitz 0-6-0 tram (steam tram, available 1880).
+Added Afonside 0-6-6-0 tram (steam tram, available 1885).
+Added Kassel 0-8-0 tram (steam tram, available 1898).
+Tweaked the intro dates and other properties of some trams for game balance.    
+Enhanced cargo graphic support for trams (steel, paper, lumber).
+Enable auto-refit compatibility for most vehicles.
+Improved order of buy menu when sorted by ID.
+Fix display of capacity in buy menu for trams.
+Fix tractive effort for Dynamo tram to reflect that trailers are powered.
+Fix articulated mining trucks showing wrong sprites for cargos (e.g. clay).
+Fix some trams were using wrong sprites for some angles. 
+Fix Ishizuchi tram was way too cheap to buy.
+Lots of internal changes to make HEQS easier to maintain, and prepare for grfv8.
 
 *version 1.4.1*
 Fix Dynamo tram being unable to load any cargo into first vehicle.
