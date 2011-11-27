@@ -19,34 +19,13 @@
 #define THIS_OFFS_X_Y_7  -26   -9
 #define THIS_OFFS_X_Y_8  -10  -10
 
+#include "template_mining_trailers_commonaction0.tnfo"  // action 0 props common to this vehicle type are templated
+
  // Large belly dump trailer
    // Used by large articulated mining trucks
--1 * 67	 00 01 \b24 01 VEH_MINING_TRUCK_TRAILER_2
-    02 20     // reliability 
-    03 11     // vehicle life 
-    04 23     // class life 
-    06 00     // climate 
+-1 * 67	 00 01 \b02 01 VEH_MINING_TRUCK_TRAILER_2
     07 05     // load amount 
-    09 1E     // running cost factor 
-    0A 48 4C 00 00    // running cost base 
-    0E FF     // sprite ID
     0F \b120     // capacity
-    10 FF     // cargo type
-    11 34     // cost factor
-    12 17     // sound effect
-    13 \b0     // power in 10 hp
-    14 \b132     // weight in 1/4 tons
-    15 \b48     // speed in mph * 0.8
-    16 40 00 00 28     // Bit mask of cargo types available for refitting
-    // flips 1D / 1E values: excludes grain, wheat, maize
-    17 16     // Callback flags bit mask
-    18 00             // coefficient of tractive effort (use 0 for trailers)
-    1A 00     // Refit cost, using 25% of the purchase price cost base
-    1B 00     // Retire vehicle early, this many years before the end of phase 2
-    1C 02     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC
-    1D 10 00          // Refittable cargo classes
-    1E EF 03          // Non-refittable cargo classes
-    1F 60 B3 0A 00    // Long format introduction date  
 -1 * 6	 07 83 01 \7! 02 01 // tropic only
 -1 * 7	 00 01 01 01 07 10 08// copper ore default
 -1 * 22	 04 01 7F 01 VEH_MINING_TRUCK_TRAILER_2 "Large Belly Dump" 00

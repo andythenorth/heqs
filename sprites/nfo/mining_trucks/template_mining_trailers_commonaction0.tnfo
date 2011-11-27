@@ -1,0 +1,25 @@
+// template for properties common to mining truck trailers 
+
+ -1 * 67	 00 01 \b21 01 THIS_VEH_ID
+    02 20     // reliability 
+    03 11     // vehicle life 
+    04 23     // class life 
+    09 1E     // running cost factor 
+    0A 48 4C 00 00    // running cost base 
+    0E FF     // sprite ID
+    10 FF     // cargo type
+    11 34     // cost factor
+    12 17     // sound effect
+    13 \b0     // power in 10 hp
+    14 \b0     // weight in 1/4 tons
+    15 \b0     // speed in mph * 0.8
+    16 40 00 00 28     // Bit mask of cargo types available for refitting
+    17 16     // Callback flags bit mask
+    18 00             // coefficient of tractive effort (use 0 for trailers)
+    1A 00     // Refit cost, using 25% of the purchase price cost base
+    1B 00     // Retire vehicle early, this many years before the end of phase 2
+    1C 12     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC, 10 = allow autorefit
+    1D 10 00          // Refittable cargo classes
+    1E EF 03          // Non-refittable cargo classes
+    1F \d01-01-0001    // Long format introduction date  
+    // flips 1D / 1E values: excludes grain, wheat, maize
