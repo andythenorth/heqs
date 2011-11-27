@@ -62,11 +62,11 @@
  #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"   
 
  // brown partial
- #define THIS_Y_POS  290
+ #define THIS_Y_POS  410
  #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // brown full
- #define THIS_Y_POS  330
+ #define THIS_Y_POS  450
  #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // red partial
@@ -126,11 +126,11 @@
  #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"   
 
  // brown partial
- #define THIS_Y_POS  290
+ #define THIS_Y_POS  410
  #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // brown full
- #define THIS_Y_POS  330
+ #define THIS_Y_POS  450
  #include "../common_templates/template_standard_rv_real_sprites_2.tnfo"
 
  // red partial
