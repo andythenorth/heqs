@@ -9,4 +9,4 @@
     17 22     // Callback flags bit mask
     18 00     // coefficient of tractive effort (use 0 for trailers)
     1A 00     // Refit cost, using 25% of the purchase price cost base
-    1C 13     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC, 10 = allow autorefit
+    1C 03     // Miscellaneous vehicle flags 01 = tram, 02 = use 2CC, 10 = allow autorefit
