@@ -6,9 +6,9 @@
 #define THIS_LENGTH_ADJUST_2  02
 #define THIS_WAGON_TYPE       VEH_INDUSTRIAL_TRAM_WAGON_1
 #define THIS_BUY_MENU_STR     STR_INFO_VEH_INDUSTRIAL_TRAM_STEAM_1
-#define THIS_RUNCOST_REFIT_1  30 //don't escape, used in cb results which have problems with escaped bytes
-#define THIS_RUNCOST_REFIT_2  71
-#define THIS_RUNCOST_REFIT_3  BD
+#define THIS_RUNCOST_REFIT_1  38 //don't escape, used in cb results which have problems with escaped bytes
+#define THIS_RUNCOST_REFIT_2  79
+#define THIS_RUNCOST_REFIT_3  C5
 #define THIS_VEHICLE_GROUP    GROUP_TRAMS
 #include "../common_templates/group_availability/rv_availability.tnfo"
 #define THIS_CAPACITY         00 // (must be hex for cb results) usually 0, unless the leading vehicle actually has a capacity
@@ -20,9 +20,9 @@
     02 2F     // reliability 
     03 \b20   // vehicle life 
     04 \b150  // class life 
-    09 1E     // running cost factor 
+    09 2E     // running cost factor 
     0A 48 4C 00 00        // running cost base 
-    11 1B     // cost factor
+    11 35     // cost factor
     12 02     // sound effect
     13 \b28   // power in 10 hp
     14 \b136  // weight in 1/4 tons
