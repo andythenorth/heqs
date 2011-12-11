@@ -1,6 +1,15 @@
 HEQS Heavy Equipment Set Changelog
 ----------------------------------
 
+*version 1.5.1*
+Adjust speed of some trams from 17mph to 20mph for better game balance.
+Increased costs of Afonside tram for better game balance.
+Increased loading speed of Dynamo tram a litle.
+Fix potential source of OpenTTD crash by disabling auto-refit for trams that can change length.
+Fix Dynamo tram showing no wagon graphics for some cargos.
+Fix railmotor trams were not loading; railmotor trams were incorrectly refitting to PAX in some cases.
+
+
 *version 1.5.0*
 Added Chemnitz 0-6-0 tram (steam tram, available 1880).
 Added Afonside 0-6-6-0 tram (steam tram, available 1885).
