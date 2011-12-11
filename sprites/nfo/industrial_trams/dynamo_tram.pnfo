@@ -30,7 +30,7 @@
     02 20     // reliability 
     03 \b20   // vehicle life 
     04 \b150  // class life 
-    07 07     // load amount 
+    07 10     // load amount 
     09 10     // running cost factor 
     0A 48 4C 00 00        // running cost base 
     0E FF     // sprite ID
