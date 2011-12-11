@@ -26,7 +26,7 @@
     12 20     // sound effect
     13 \b9    // power in 10 hp
     14 \b60   // weight in 1/4 tons
-    15 \b14   // speed in mph * 0.8
+    15 \b16   // speed in mph * 0.8
     18 5A     // coefficient of TE
     1F \d694995    // Long format introduction date  
  -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_ELECTRIC_1 "Kreuzberg Industrial Tram (Electric)" 00

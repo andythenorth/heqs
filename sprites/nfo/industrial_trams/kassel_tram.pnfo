@@ -26,7 +26,7 @@
     12 02     // sound effect
     13 \b17   // power in 10 hp
     14 \b104  // weight in 1/4 tons
-    15 \b14   // speed in mph * 0.8
+    15 \b16   // speed in mph * 0.8
     18 50     // coefficient of TE
     1F \d01-01-1898    // Long format introduction date  
  -1 * 37	 04 01 7F 01 VEH_INDUSTRIAL_TRAM_STEAM_3 "0-8-0 Kassel Industrial Tram (Steam)" 00

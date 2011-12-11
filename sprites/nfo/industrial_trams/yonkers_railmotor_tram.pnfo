@@ -20,7 +20,7 @@
     12 02     // sound effect
     13 \b3    // power in 10 hp
     14 \b28   // weight in 1/4 tons
-    15 \b14   // speed in mph * 0.8
+    15 \b16   // speed in mph * 0.8
     1F  \d01-03-1875    // Long format introduction date
 
 -1 * 4	 01 01 02 08
