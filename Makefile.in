@@ -1,0 +1,60 @@
+#
+# This file is part of the NML build framework
+# NML build framework is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+# NML build framework is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with NML build framework. If not, see <http://www.gnu.org/licenses/>.
+#
+
+##################################################################
+# NFO - specific rules
+# target 'nfo' which pre-processes and generates the nfo from pnfo
+##################################################################
+
+nfo:
+	$(_E) "[CPP] $(NFO_FILE)"
+	$(_V) $(CC) $(CC_FLAGS) - < $(MAIN_SRC_FILE) \
+		| sed -e "s/$(REPLACE_TITLE)/$(REPO_TITLE)/" \
+		| sed -e "s/$(REPLACE_REVISION)/$(NEWGRF_VERSION)/" \
+		| sed -e "s/$(REPLACE_GRFID)/$(GRF_ID)/" \
+		> $(NFO_FILE)
+	$(_E) "[NFORENUM] $(NFO_FILE)"
+	$(_V) $(NFORENUM) $(NFORENUM_FLAGS) $(NFO_FILE)
+
+clean::
+	$(_E) "[CLEAN NFO]"
+	$(_V)-rm -rf $(NFO_FILE)
+	$(_V)-rm -rf $(NFO_FILE).bak
+
+##################################################################
+# GRF - specific rules
+# target 'nfogrf' which builds the grf from the nfo
+##################################################################
+
+nfogrf: $(GENERATE_NFO)
+	$(_E) "[GRFCODEC] $(GRF_FILE)"
+	$(_V) $(GRFCODEC) $(GRFCODEC_FLAGS) $(GRF_FILE) .
+
+clean::
+	$(_E) "[CLEAN GRF]"
+	$(_V)-rm -rf $(GRF_FILE)
+	$(_V)-rm -rf $(BASE_FILENAME).bak
+
+##################################################################
+# Additional help targets
+##################################################################
+
+help::
+	$(_E) "Custom additions to default targets:"
+	$(_E)
+	$(_E) "$(GENERATE_NFO):         Generate the combined nfo file only ($(NFO_FILE))"
+	$(_E)
+	$(_E) "Note, the targets 'nml' and 'lng' listed below are not valid for this NewGRF"
+	$(_E)
+	$(_E) "Custom additions to command line variables:"
+	$(_E) "Helper programmes:"
+	$(_E) "NFORENUM NFORENUM_FLAGS defaults: $(NFORENUM) $(NFORENUM_FLAGS)"
+	$(_E) "GRFCODEC GRFCODEC_FLAGS defaults: $(GRFCODEC) $(GRFCODEC_FLAGS)"
+	$(_E)
+
+
+-include $(SCRIPT_DIR)/Makefile.test
