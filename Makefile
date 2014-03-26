@@ -192,7 +192,7 @@ GIMP_FLAGS     ?= -n -i -b - <
 %.scm: $(SCRIPT_DIR)/gimpscript $(SCRIPT_DIR)/gimp.sed
 	$(_E) "[GIMP-SCRIPT] $@"
 	$(_V) cat $(SCRIPT_DIR)/gimpscript > $@
-	$(_V) cat $(GFX_SCRIPT_LIST_FILES) | grep $(patsubst %.scm,%.png,$@) | sed -E -f $(SCRIPT_DIR)/gimp.sed >> $@
+	$(_V) cat $(GFX_SCRIPT_LIST_FILES) | grep $(patsubst %.scm,%.png,$@) | sed -f $(SCRIPT_DIR)/gimp.sed >> $@
 	$(_V) echo "(gimp-quit 0)" >> $@
 
 # create the png file. And make sure it's re-created even when present in the repo
@@ -207,7 +207,7 @@ Makefile_gfx.dep: $(GFX_SCRIPT_LIST_FILES) Makefile
 	$(_V) echo "%.scm: $(SCRIPT_DIR)/gimpscript $(SCRIPT_DIR)/gimp.sed" >> Makefile_gfx
 	$(_V) echo -e '\t$(_E) "[GIMP-SCRIPT] $@"' >> Makefile_gfx
 	$(_V) echo -e '\t$(_V) cat $(SCRIPT_DIR)/gimpscript > $$@' >> Makefile_gfx
-	$(_V) echo -e '\t$(_V) cat $(GFX_SCRIPT_LIST_FILES) | grep $$(patsubst %.scm,%.png,$$@) | sed -E -f $(SCRIPT_DIR)/gimp.sed >> $$@' >> Makefile_gfx
+	$(_V) echo -e '\t$(_V) cat $(GFX_SCRIPT_LIST_FILES) | grep $$(patsubst %.scm,%.png,$$@) | sed -f $(SCRIPT_DIR)/gimp.sed >> $$@' >> Makefile_gfx
 	$(_V) echo -e '\t$(_V) echo "(gimp-quit 0)" >> $$@' >> Makefile_gfx
 	$(_V) echo -e "" >> Makefile_gfx
 	$(_V) echo -e '%.png: %.scm' >> Makefile_gfx
@@ -217,7 +217,7 @@ Makefile_gfx.dep: $(GFX_SCRIPT_LIST_FILES) Makefile
 	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | grep -v "^#" | cut -d\  -f1`; do echo "gimp: $$i" >> Makefile_gfx; done; done
 	$(_V) echo -e "`cat $(GFX_SCRIPT_LIST_FILES) | grep \"\([pP][cCnN][xXgG]\)\" | grep -v \"^#\" | $(AWK) '{print $1": "$2}'`" >> Makefile_gfx
 	$(_V) echo -e "" > $@
-	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | grep -v "^#" | cut -d\  -f1 | sed -E "s/\.\([pP][cCnN][xXgG]\)//"`; do echo "$$i.scm: $$j" >> $@; echo "$(GRF_FILE): $$i.png" >> $@; done; done
+	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | grep -v "^#" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do echo "$$i.scm: $$j" >> $@; echo "$(GRF_FILE): $$i.png" >> $@; done; done
 
 
 ifeq ($(GIMP),"")
@@ -234,7 +234,7 @@ maintainer-clean::
 	$(_E) "[MAINTAINER CLEAN GFX]"
 	$(_V) rm -rf Makefile_gfx.dep
 	$(_V) rm -rf Makefile_gfx
-	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed -E "s/\.\([pP][cCnN][xXgG]\)//"`; do rm -rf $$i.scm; rm -rf $$i.png; done; done
+	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do rm -rf $$i.scm; rm -rf $$i.png; done; done
 else
 gfx:
 endif
@@ -303,10 +303,10 @@ maintainer-clean::
 %.txt: %.ptxt
 	$(_E) "[DOC] $@"
 	$(_V) cat $< \
-		| sed -E -e "s/$(REPLACE_TITLE)/$(REPO_TITLE)/" \
-		| sed -E -e "s/$(REPLACE_GRFID)/$(GRF_ID)/" \
-		| sed -E -e "s/$(REPLACE_REVISION)/$(NEWGRF_VERSION)/" \
-		| sed -E -e "s/$(REPLACE_FILENAME)/$(OUTPUT_FILENAME)/" \
+		| sed -e "s/$(REPLACE_TITLE)/$(REPO_TITLE)/" \
+		| sed -e "s/$(REPLACE_GRFID)/$(GRF_ID)/" \
+		| sed -e "s/$(REPLACE_REVISION)/$(NEWGRF_VERSION)/" \
+		| sed -e "s/$(REPLACE_FILENAME)/$(OUTPUT_FILENAME)/" \
 		> $@
 	$(_V) [ -z "$(UNIX2DOS)" ] || $(UNIX2DOS) $(UNIX2DOS_FLAGS) $@
 
