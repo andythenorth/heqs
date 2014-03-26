@@ -2,7 +2,7 @@
 
 #include "../common_templates/template_smoke.tnfo"
 
- -1 * 67	 00 01 \b8 01 THIS_VEH_ID
+ -1 * 67	 00 01 \b9 01 THIS_VEH_ID
     0A 48 4C 00 00    // running cost base
     0E FF             // sprite ID
     10 FF     // cargo type
