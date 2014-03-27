@@ -1,6 +1,9 @@
 HEQS Heavy Equipment Set Changelog
 ----------------------------------
 
+*version 1.5.2*
+Fix mining trucks were not refitting to clay (Eddi)
+
 *version 1.5.1*
 Adjust speed of some trams from 17mph to 20mph for better game balance.
 Increased costs of Afonside tram for better game balance.
